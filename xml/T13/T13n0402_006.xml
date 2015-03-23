@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T13n0402">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0402 寶星陀羅尼經</title>
+			<author>唐 波羅頗蜜多羅譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.31 $<date>$Date: 2012/08/27 03:14:43 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+	</editionStmt>
+	<extent>10卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/08/27 03:14:43 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 13, No. 402 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宮】</witness>
+		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【宋】</witness>
+		<witness xml:id="wit6">【明異】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
+		<witness xml:id="wit9">【磧砂】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00416">
+	<charName>CBETA CHARACTER CB00416</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[竺-二+帚]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>帚</value>
+	</charProp>
+	<mapping type="normal_unicode">U+7B92</mapping>
+	<mapping cb:dec="983456" type="PUA">U+F01A0</mapping>
+</char>
+<char xml:id="CB00865">
+	<charName>CBETA CHARACTER CB00865</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[旃-方+示]</value>
+	</charProp>
+	<mapping type="normal_unicode">U+25661</mapping>
+	<mapping cb:dec="983905" type="PUA">U+F0361</mapping>
+</char>
+<char xml:id="CB01511">
+	<charName>CBETA CHARACTER CB01511</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*犮]</value>
+	</charProp>
+	<mapping type="unicode">U+3579</mapping>
+	<mapping cb:dec="984551" type="PUA">U+F05E7</mapping>
+</char>
+<char xml:id="CB02601">
+	<charName>CBETA CHARACTER CB02601</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[山*(奚-大+ㄆ)]</value>
+	</charProp>
+	<mapping cb:dec="985641" type="PUA">U+F0A29</mapping>
+</char>
+<char xml:id="CB02754">
+	<charName>CBETA CHARACTER CB02754</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[仁-二+企]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>企</value>
+	</charProp>
+	<mapping cb:dec="985794" type="PUA">U+F0AC2</mapping>
+</char>
+<char xml:id="CB02768">
+	<charName>CBETA CHARACTER CB02768</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[打-丁+朱]</value>
+	</charProp>
+	<mapping type="unicode">U+39E3</mapping>
+	<mapping cb:dec="985808" type="PUA">U+F0AD0</mapping>
+</char>
+<char xml:id="CB02793">
+	<charName>CBETA CHARACTER CB02793</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[珍-王+弓]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>彌</value>
+	</charProp>
+	<mapping cb:dec="985833" type="PUA">U+F0AE9</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-10-12T08:28:20">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="6" type="品">5 相品</cb:mulu>
+<lb n="0562c12" ed="T"/>
+<milestone n="6" unit="juan"/>
+<lb n="0562c13" ed="T"/>
+<lb n="0562c14" ed="T"/><cb:juan n="006" fun="open"><cb:mulu n="006" type="卷"></cb:mulu><cb:jhead><title>寶星陀羅尼經</title>卷第六</cb:jhead></cb:juan>
+<lb n="0562c15" ed="T"/>
+<lb n="0562c16" ed="T"/><byline cb:type="Translator">唐天竺<anchor xml:id="fxT13p0562c01"/>三藏波羅頗<anchor xml:id="fxT13p0562c02"/>蜜多羅譯</byline>
+<lb n="0562c17" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="7" type="品">6 陀羅尼品</cb:mulu><head>陀羅尼品第六<anchor xml:id="nkr_note_orig_0562006" n="0562006"/><anchor xml:id="beg0562006" n="0562006"/>之一<anchor xml:id="end0562006"/></head>
+<lb n="0562c18" ed="T"/><p xml:id="pT13p0562c1801">爾時，於彼東方之分，有世界名可樂，佛名阿
+<lb n="0562c19" ed="T"/>閦，與無量無數菩薩摩訶薩俱，諸佛境界種
+<lb n="0562c20" ed="T"/>種加護神通力故，於一剎那頃從彼發來，到
+<lb n="0562c21" ed="T"/>此釋迦如來、阿羅訶、三藐三佛陀中四天下所
+<lb n="0562c22" ed="T"/>住之處。</p><p xml:id="pT13p0562c2204" rend="inline">時阿閦佛，如自所化坐蓮華座。彼
+<lb n="0562c23" ed="T"/>諸菩薩摩訶薩亦如己功德神通之力，化作
+<lb n="0562c24" ed="T"/>蓮華微妙法座，於蓮華臺向佛而坐。如是東
+<lb n="0562c25" ed="T"/>方無量無數微塵等<anchor xml:id="nkr_note_orig_0562007" n="0562007"/><anchor xml:id="nkr_note_mod_0562007" n="0562007"/><anchor xml:id="beg0562007" n="0562007"/>佛剎<anchor xml:id="end0562007"/>眾首，諸佛世尊住
+<lb n="0562c26" ed="T"/>世將養，於剎那頃，一一如來與無量無數菩
+<lb n="0562c27" ed="T"/>薩摩訶薩，百千俱胝那由他聲聞大眾，從彼
+<lb n="0562c28" ed="T"/>發來，到此釋迦如來、阿羅訶、三藐三佛陀於
+<lb n="0562c29" ed="T"/>中四天下所住<anchor xml:id="nkr_note_orig_0562008" n="0562008"/><anchor xml:id="nkr_note_mod_0562008" n="0562008"/><anchor xml:id="beg0562008" n="0562008"/>之<anchor xml:id="end0562008"/>處。彼來大眾如己神通，化
+<pb n="0563a" ed="T" xml:id="T13.0402.0563a"/>
+<lb n="0563a01" ed="T"/>作蓮華微妙法座，於蓮華臺向佛而坐。</p>
+<lb n="0563a02" ed="T"/><p xml:id="pT13p0563a0201">爾時，於彼南方之分，<anchor xml:id="nkr_note_orig_0563001" n="0563001"/><anchor xml:id="nkr_note_mod_0563001" n="0563001"/><anchor xml:id="beg0563001" n="0563001"/>如來<anchor xml:id="end0563001"/>名寶星，<anchor xml:id="nkr_note_orig_0563002" n="0563002"/><anchor xml:id="nkr_note_mod_0563002a" n="0563002a"/><anchor xml:id="beg0563002a" n="0563002a"/>乃至廣
+<lb n="0563a03" ed="T"/>說，於蓮華臺向佛而坐。<anchor xml:id="end0563002a"/></p><p xml:id="pT13p0563a0310" rend="inline"><anchor xml:id="nkr_note_mod_0563002b" n="0563002b"/><anchor xml:id="beg0563002b" n="0563002b"/><anchor xml:id="nkr_note_orig_0563003" n="0563003"/><anchor xml:id="nkr_note_mod_0563003" n="0563003"/><anchor xml:id="beg0563003" n="0563003"/>爾時，於彼<anchor xml:id="end0563003"/><anchor xml:id="end0563002b"/>西方之
+<lb n="0563a04" ed="T"/>分，有佛名阿彌陀，<anchor xml:id="nkr_note_orig_0563004" n="0563004"/><anchor xml:id="nkr_note_mod_0563004a" n="0563004a"/><anchor xml:id="beg0563004a" n="0563004a"/>乃至廣說，於蓮華臺向
+<lb n="0563a05" ed="T"/>佛而坐。<anchor xml:id="end0563004a"/></p><p xml:id="pT13p0563a0504" rend="inline"><anchor xml:id="nkr_note_mod_0563004b" n="0563004b"/><anchor xml:id="beg0563004b" n="0563004b"/>如是<anchor xml:id="end0563004b"/>北方有佛，名曰鼓音；下方有
+<lb n="0563a06" ed="T"/>佛，名毘盧遮那，<anchor xml:id="nkr_note_orig_0563005" n="0563005"/><anchor xml:id="nkr_note_mod_0563005" n="0563005"/><anchor xml:id="beg0563005" n="0563005"/>乃至於彼蓮華臺上，廣說
+<lb n="0563a07" ed="T"/>如前<anchor xml:id="end0563005"/>。</p><p xml:id="pT13p0563a0703" rend="inline">上方<anchor xml:id="beg_2c" type="star"/>如來<anchor xml:id="end_2c"/>名曰智光，<anchor xml:id="nkr_note_orig_0563006" n="0563006"/><anchor xml:id="nkr_note_mod_0563006" n="0563006"/><anchor xml:id="beg0563006" n="0563006"/>與<anchor xml:id="end0563006"/>無量無數百
+<lb n="0563a08" ed="T"/>千俱胝那由他如恒河沙佛剎微塵等菩薩摩
+<lb n="0563a09" ed="T"/>訶薩俱，以諸佛境界種種加護，於一剎那頃
+<lb n="0563a10" ed="T"/>從彼發來，到此佛剎中四天下釋迦如來、阿
+<lb n="0563a11" ed="T"/>羅訶、三藐三佛陀所住之處。時智光佛到已，
+<lb n="0563a12" ed="T"/>如自所化坐蓮華座。彼諸菩薩摩訶薩等<anchor xml:id="nkr_note_orig_0563007" n="0563007"/><anchor xml:id="beg0563007" n="0563007"/>既
+<lb n="0563a13" ed="T"/>到此已<anchor xml:id="end0563007"/>，各各如己所量功德神通之力，化作
+<lb n="0563a14" ed="T"/>蓮華微妙法座，<anchor xml:id="nkr_note_orig_0563008" n="0563008"/><anchor xml:id="beg0563008" n="0563008"/>於<anchor xml:id="end0563008"/>蓮華臺向佛而坐。</p>
+<lb n="0563a15" ed="T"/><p xml:id="pT13p0563a1501">時彼十方諸來菩薩普集會者，或有雨於閻
+<lb n="0563a16" ed="T"/>浮檀金，為供養事供養世尊，乃至廣作如前
+<lb n="0563a17" ed="T"/>所說。或有右遶一切佛剎者，或有渴仰合掌
+<lb n="0563a18" ed="T"/>佛前如法聽者，或有以己常所行善根之分
+<lb n="0563a19" ed="T"/>思惟住者。</p><p xml:id="pT13p0563a1905" rend="inline">爾時，須菩提童真恭敬合掌，以己
+<lb n="0563a20" ed="T"/>神通及佛神力加護持故，於一切佛剎法聲
+<lb n="0563a21" ed="T"/>遍滿，說如是偈：</p>
+<lb n="0563a22" ed="T"/><lg xml:id="lgT13p0563a2201" rend="margin-left:1em;text-indent:-1em"><l>「一切疑斷者，</l><l>牟尼月普來，</l>
+<lb n="0563a23" ed="T"/><l>此昔未見聞，</l><l>眾成就悉現。</l>
+<lb n="0563a24" ed="T"/><l>一切諸佛滿，</l><l>及淨戒菩薩，</l>
+<lb n="0563a25" ed="T"/><l>佛剎如塔廟，</l><l>一切皆禮拜。</l>
+<lb n="0563a26" ed="T"/><l>佛今非無因，</l><l>牟尼佛日來，</l>
+<lb n="0563a27" ed="T"/><l>此土五濁惡，</l><l>眾生可穢污。</l>
+<lb n="0563a28" ed="T"/><l>今當降伏魔，</l><l>黑暗黨破壞，</l>
+<lb n="0563a29" ed="T"/><l>攝受諸善行，</l><l>為此今故來。</l>
+<pb n="0563b" ed="T" xml:id="T13.0402.0563b"/>
+<lb n="0563b01" ed="T"/><l>聽聞寂滅法，</l><l>魔眾悉摧散，</l>
+<lb n="0563b02" ed="T"/><l>生起清淨意，</l><l>當得三佛陀。</l>
+<lb n="0563b03" ed="T"/><l>行於大乘道，</l><l>汝應<anchor xml:id="nkr_note_orig_0563009" n="0563009"/><anchor xml:id="nkr_note_mod_0563009" n="0563009"/><anchor xml:id="beg0563009" n="0563009"/>披<anchor xml:id="end0563009"/>忍鎧，</l>
+<lb n="0563b04" ed="T"/><l>及為盡諸惑，</l><l>汝聽陀羅尼，</l>
+<lb n="0563b05" ed="T"/><l>各坐蓮華座。</l><l>同聲請導師，</l>
+<lb n="0563b06" ed="T"/><l>說此擁護法，</l><l>攝持一切法，</l>
+<lb n="0563b07" ed="T"/><l>不退陀羅尼，</l><l>為正法久住，</l>
+<lb n="0563b08" ed="T"/><l>一切障<anchor xml:id="nkr_note_orig_0563010" n="0563010"/><anchor xml:id="nkr_note_mod_0563010" n="0563010"/><anchor xml:id="beg0563010" n="0563010"/>銷<anchor xml:id="end0563010"/>滅。」</l></lg>
+<lb n="0563b09" ed="T"/><p xml:id="pT13p0563b0901">爾時，無量無數得忍菩薩摩訶薩等，咸共同
+<lb n="0563b10" ed="T"/>聲，作如是言：「<anchor xml:id="nkr_note_orig_0563011" n="0563011"/><anchor xml:id="nkr_note_mod_0563011" n="0563011"/><anchor xml:id="beg0563011" n="0563011"/>唯<anchor xml:id="end0563011"/>願世尊坐蓮華座，今大悲
+<lb n="0563b11" ed="T"/>者為無上忍大慈所薰，依無畏說攝持一切
+<lb n="0563b12" ed="T"/>法，除諸怖畏門，過諸魔道，摧倒魔幢，建
+<lb n="0563b13" ed="T"/>立法幢，滅諸煩惱，降一切怨，斷一切疑，入
+<lb n="0563b14" ed="T"/>一切智，解脫怖畏，於諸護中為最上護，能
+<lb n="0563b15" ed="T"/>示菩薩一切法。所謂若念、若慧、若道、若持、若
+<lb n="0563b16" ed="T"/>不忘、若巧方便，乃至一切行安樂成就福德
+<lb n="0563b17" ed="T"/>所依加護三摩提羼提陀羅尼，入巧明智，乃
+<lb n="0563b18" ed="T"/>至持三十七助道法心。為諸眾生光色怡悅
+<lb n="0563b19" ed="T"/>故，力名聞故，樂獨住故，樂說辯念令增長
+<lb n="0563b20" ed="T"/>故，聞持不忘故，一切怨退故，五穀成熟故，
+<lb n="0563b21" ed="T"/>持淨戒故，念器成故，行成就故，到菩提故。</p>
+<lb n="0563b22" ed="T"/><p xml:id="pT13p0563b2201">「世尊！今為我說此陀羅尼法，正法隨攝久住
+<lb n="0563b23" ed="T"/>故，三寶種不斷故，示現無上菩提道故，真
+<lb n="0563b24" ed="T"/>際如如虛空無差別故，一切明闇相此彼分
+<lb n="0563b25" ed="T"/>別無分別故，眾生壽命養育我人無差別故，
+<lb n="0563b26" ed="T"/>不生不起不滅一切法平等相無體真際如如
+<lb n="0563b27" ed="T"/>無差別故，地水火風虛空識界無差別故。</p><p xml:id="pT13p0563b2717" rend="inline">「諸
+<lb n="0563b28" ed="T"/>佛世尊！我今說此一切法性出生道場陀羅
+<lb n="0563b29" ed="T"/>尼時，無量無數百千俱胝那由他等眾生即
+<pb n="0563c" ed="T" xml:id="T13.0402.0563c"/>
+<lb n="0563c01" ed="T"/>聞法時，無量眾生於三寶中得不壞信，諸眾
+<lb n="0563c02" ed="T"/>生等為善知識共相利益，及無量無數眾生
+<lb n="0563c03" ed="T"/>當發阿耨多羅三藐三菩提心，得不退轉而
+<lb n="0563c04" ed="T"/>得受記，
+<lb n="0563c05" ed="T"/>普請一切諸佛世尊說大法故。」</p><p xml:id="pT13p0563c0513" rend="inline">彼諸佛等默
+<lb n="0563c06" ed="T"/>受請已，即時於彼蓮華臺上端身正坐，即入
+<lb n="0563c07" ed="T"/>如諸佛境界入平等願三昧。入三昧已，欲令
+<lb n="0563c08" ed="T"/>一切諸佛剎內，諸來會眾一切眾生，一切諸
+<lb n="0563c09" ed="T"/>苦皆悉<anchor xml:id="beg_2d" type="star"/>銷<anchor xml:id="end_2d"/>滅，一切善根皆得圓滿，及得信
+<lb n="0563c10" ed="T"/>淨念解成就。諸佛世尊<anchor xml:id="nkr_note_orig_0563012" n="0563012"/><anchor xml:id="nkr_note_mod_0563012" n="0563012"/><anchor xml:id="beg0563012" n="0563012"/>即見如是，此佛剎
+<lb n="0563c11" ed="T"/>內<anchor xml:id="end0563012"/>諸來眾生，貪瞋癡等見慢醉高，身見疑取
+<lb n="0563c12" ed="T"/>有愛沈下等過，諸心心數皆悉<anchor xml:id="beg_2e" type="star"/>銷<anchor xml:id="end_2e"/>滅，一一
+<lb n="0563c13" ed="T"/>眾生皆如是解；唯我一人，於如來前正身聽
+<lb n="0563c14" ed="T"/>法，不為餘人；唯我一人，如來以一切思，觀
+<lb n="0563c15" ed="T"/>我一切心，一切熱惱皆得<anchor xml:id="beg_2f" type="star"/>銷<anchor xml:id="end_2f"/>滅，更無餘人
+<lb n="0563c16" ed="T"/>為聽法故，請如來說。</p>
+<lb n="0563c17" ed="T"/><p xml:id="pT13p0563c1701">爾時，所有此佛剎內，一切眾生普來會者諸
+<lb n="0563c18" ed="T"/>根猛利，合掌同聲白佛言：「世尊！為我等說
+<lb n="0563c19" ed="T"/>法。大德善逝！為我等說法，我等當共隨順
+<lb n="0563c20" ed="T"/>成就佛世尊法。」</p><p xml:id="pT13p0563c2007" rend="inline">爾時，釋迦如來以香莊嚴最
+<lb n="0563c21" ed="T"/>上勝妙出過一切遍滿一切諸佛剎土，為供
+<lb n="0563c22" ed="T"/>養諸餘佛世尊故，住諸佛前，及一切諸佛剎
+<lb n="0563c23" ed="T"/>內。諸來大眾一切眾生，復以種種寶、種種
+<lb n="0563c24" ed="T"/>華、種種鬘、種種香、種種蓋、種種幢、種種
+<lb n="0563c25" ed="T"/>幡、種種莊嚴捧持滿掬，現諸佛前以為供養。</p>
+<lb n="0563c26" ed="T"/><p xml:id="pT13p0563c2601">爾時，釋迦如來作如是言：「諸佛世尊一心念
+<lb n="0563c27" ed="T"/>我，所有現在十方世界各各世尊，餘世界中
+<lb n="0563c28" ed="T"/>普來問我。我於往昔本願如是，於種種穢惡
+<lb n="0563c29" ed="T"/>五濁世界，得阿耨多羅三藐三菩提。是諸眾
+<pb n="0564a" ed="T" xml:id="T13.0402.0564a"/>
+<lb n="0564a01" ed="T"/>生失所依止，失三乘道，無明暗室煩惱暗翳，
+<lb n="0564a02" ed="T"/>不善法聚纏繞一切，捨遠善法趣三惡道，遠
+<lb n="0564a03" ed="T"/>離一切聰慧之者，作諸惡逆者，謗毀正法者，
+<lb n="0564a04" ed="T"/>謗毀聖人者，依無慈悲者，我為慈愍此等眾
+<lb n="0564a05" ed="T"/>生故，發大悲力大精進力，於彼寒熱疲勞諸
+<lb n="0564a06" ed="T"/>苦，我忍受之。</p><p xml:id="pT13p0564a0606" rend="inline">「城邑國土道路宮室足步遊行，
+<lb n="0564a07" ed="T"/>為欲利益諸眾生故。乏少麁澁少味飲食，最
+<lb n="0564a08" ed="T"/>可厭惡不喜之食，為諸眾生<anchor xml:id="nkr_note_orig_0564001" n="0564001"/><anchor xml:id="beg0564001" n="0564001"/>殖<anchor xml:id="end0564001"/>善根故。忍
+<lb n="0564a09" ed="T"/>受種種麁澁苦觸，舍那劫貝麁麻衣服，以如
+<lb n="0564a10" ed="T"/>是等糞掃之衣而取著之。山谷林藪空舍塚
+<lb n="0564a11" ed="T"/>間依此止住，乃至受草舍那麁麻樹葉，澁臭
+<lb n="0564a12" ed="T"/>惡觸諸惡臥具，以巧方便我著大悲精進之
+<lb n="0564a13" ed="T"/>鎧。</p><p xml:id="pT13p0564a1302" rend="inline">「為諸眾生說示種種，為剎利王說自在法，
+<lb n="0564a14" ed="T"/>為婆羅門說四毘陀星論等法，為諸大臣說於
+<lb n="0564a15" ed="T"/>教導眾生等法，為諸醫師說諸藥性所宜之
+<lb n="0564a16" ed="T"/>法，為諸商人說賣買法，為諸農夫說田種法，
+<lb n="0564a17" ed="T"/>為諸女人說<anchor xml:id="nkr_note_orig_0564002" n="0564002"/><anchor xml:id="nkr_note_mod_0564002" n="0564002"/><anchor xml:id="beg0564002" n="0564002"/>於<anchor xml:id="end0564002"/><anchor xml:id="nkr_note_orig_0564003" n="0564003"/><anchor xml:id="beg0564003" n="0564003"/>嚴飾<anchor xml:id="end0564003"/>養育自在無他行法，
+<lb n="0564a18" ed="T"/>為諸沙門說忍辱柔和坐禪誦經勸營眾事。
+<lb n="0564a19" ed="T"/>為欲示誨成熟眾生，未到者令到故，未證者
+<lb n="0564a20" ed="T"/>令證故，未脫者令脫故，忍受種種諸苦惱事，
+<lb n="0564a21" ed="T"/>成就眾生故遊於人間。</p>
+<lb n="0564a22" ed="T"/><p xml:id="pT13p0564a2201">「我今猶被此諸眾生，因嫉妬故罵詈毀呰，以
+<lb n="0564a23" ed="T"/>婬欲法謗毀於我，復以惡言誹謗於我，道我
+<lb n="0564a24" ed="T"/>詭言擊讚詐諂幻偽妄言麁<anchor xml:id="nkr_note_orig_0564004" n="0564004"/><anchor xml:id="nkr_note_mod_0564004" n="0564004"/><anchor xml:id="beg0564004" n="0564004"/>穬<anchor xml:id="end0564004"/>，共諸女人說
+<lb n="0564a25" ed="T"/>愛欲語。復以惡事加害於我，塵土坌污刀毒
+<lb n="0564a26" ed="T"/>火輪，鐵<anchor xml:id="nkr_note_orig_0564005" n="0564005"/><anchor xml:id="nkr_note_mod_0564005" n="0564005"/><anchor xml:id="beg0564005" n="0564005"/>搥<anchor xml:id="end0564005"/>箭矟鉞斧大石惡器仗等<anchor xml:id="nkr_note_orig_0564006" n="0564006"/><anchor xml:id="beg0564006" n="0564006"/>雨<anchor xml:id="end0564006"/>害
+<lb n="0564a27" ed="T"/>於我，狂象毒蛇<anchor xml:id="nkr_note_orig_0564007" n="0564007"/><anchor xml:id="beg0564007" n="0564007"/>師<anchor xml:id="end0564007"/>子虎狼水牛惡牛，以大
+<lb n="0564a28" ed="T"/>力士悉共打擲來害於我。</p>
+<lb n="0564a29" ed="T"/><p xml:id="pT13p0564a2901">「<anchor xml:id="nkr_note_orig_0564008" n="0564008"/><anchor xml:id="nkr_note_mod_0564008" n="0564008"/><anchor xml:id="beg0564008" n="0564008"/>於我<anchor xml:id="end0564008"/>房舍止息之處及僧伽藍，以不淨臭穢
+<pb n="0564b" ed="T" xml:id="T13.0402.0564b"/>
+<lb n="0564b01" ed="T"/>污滿其中。我諸聲聞入城內<anchor xml:id="nkr_note_orig_0564009" n="0564009"/><anchor xml:id="nkr_note_mod_0564009" n="0564009"/><anchor xml:id="beg0564009" n="0564009"/>時<anchor xml:id="end0564009"/>，此非法眾
+<lb n="0564b02" ed="T"/>生，以非法歌舞，勸請聲聞為非法事。以無
+<lb n="0564b03" ed="T"/>量百千方便欲害於我，為欲隱蔽正法故，欲
+<lb n="0564b04" ed="T"/>滅法燈故，欲破法船故，欲散我法會故，欲
+<lb n="0564b05" ed="T"/>倒我法幢故。」</p>
+<lb n="0564b06" ed="T"/><p xml:id="pT13p0564b0601">爾時，釋迦如來作如是言：「當觀過去諸佛法
+<lb n="0564b07" ed="T"/>式，如彼諸佛，於此穢惡五濁惡世，普大集
+<lb n="0564b08" ed="T"/>會作妙法式，為令妙法久住故，於一切魔諸
+<lb n="0564b09" ed="T"/>惡境界令摧碎故，三寶種不斷故，為諸眾生
+<lb n="0564b10" ed="T"/>增長善根故，一切外道所有言論以法摧伏
+<lb n="0564b11" ed="T"/>故。為諸眾生飢饉荒亂鬪訟疫病，他方怨敵
+<lb n="0564b12" ed="T"/>禁縛言訟，不時寒，不時熱，不時風，不時雨，
+<lb n="0564b13" ed="T"/>身口意業諸過惡見令<anchor xml:id="beg_30" type="star"/>銷<anchor xml:id="end_30"/>滅故。</p>
+<lb n="0564b14" ed="T"/><p xml:id="pT13p0564b1401">「為令一切天龍夜叉人非人等正迴向故，一
+<lb n="0564b15" ed="T"/>切家宅聚落城邑，衢路諸處悉擁護故。一切
+<lb n="0564b16" ed="T"/>諂毒蠱道惛悶，<anchor xml:id="nkr_note_orig_0564010" n="0564010"/><anchor xml:id="beg0564010" n="0564010"/>惡夢<anchor xml:id="end0564010"/>災相悉令壞故。一切
+<lb n="0564b17" ed="T"/>五穀藥草華果滋味令資養故，剎利、婆羅門、
+<lb n="0564b18" ed="T"/>毘舍、首陀誨示善行故，菩提心令滋茂故，勤
+<lb n="0564b19" ed="T"/>修諸波羅蜜故，為令菩薩摩訶薩巧方便智
+<lb n="0564b20" ed="T"/>念行勇猛樂說辯才得增長故，受佛職位安
+<lb n="0564b21" ed="T"/>慰入智度彼岸故。如彼<anchor xml:id="beg_31" type="cb-app"/>往<anchor xml:id="end_31"/>昔如來、阿羅訶、三
+<lb n="0564b22" ed="T"/>藐三佛陀，說此金剛法等因緣法心建立摧
+<lb n="0564b23" ed="T"/>碎陀羅尼印句入差別記法門，演說受持互
+<lb n="0564b24" ed="T"/>相隨喜。善哉！善哉！如是，如是。</p>
+<lb n="0564b25" ed="T"/><p xml:id="pT13p0564b2501">「於今現在所有十方諸佛世尊住世將養者，
+<lb n="0564b26" ed="T"/>悉來到此娑婆佛剎五濁惡世，來問訊我，各在
+<lb n="0564b27" ed="T"/>華座。彼諸佛等擁護此佛剎內諸眾生故，應
+<lb n="0564b28" ed="T"/>說此金剛法等因緣法心建立摧碎陀羅尼印
+<lb n="0564b29" ed="T"/>句入差別記法門，演說受持互相隨喜，令妙
+<pb n="0564c" ed="T" xml:id="T13.0402.0564c"/>
+<lb n="0564c01" ed="T"/>法久住故，一切諸魔惡境界力令磨滅故，如
+<lb n="0564c02" ed="T"/>前廣說，乃至無障礙智度彼岸故，慈愍攝受
+<lb n="0564c03" ed="T"/>及受我請故，為令此佛剎內說妙法門得久
+<lb n="0564c04" ed="T"/>住故，一切外道不能過故，得不壞法及三寶
+<lb n="0564c05" ed="T"/>種不斷絕故，一切眾生得受法味故。」</p><p xml:id="pT13p0564c0515" rend="inline">爾時，一
+<lb n="0564c06" ed="T"/>切諸佛世尊咸如是言：「如是，如是。我等決定
+<lb n="0564c07" ed="T"/>作如是事，於此佛剎護持妙法令久住故，一
+<lb n="0564c08" ed="T"/>切諸魔惡境界力令摧碎故，乃至無障礙智
+<lb n="0564c09" ed="T"/>度彼岸故。我等當說此金剛法等因緣法心
+<lb n="0564c10" ed="T"/>建立摧碎陀羅尼印句差別門記大持法門，
+<lb n="0564c11" ed="T"/>汝等大眾今當諦聽。」一切諸佛大集此剎，說
+<lb n="0564c12" ed="T"/>如是呪：</p>
+<lb n="0564c13" ed="T"/><p cb:type="dharani" xml:id="pT13p0564c1301">「<anchor type="circle"/><anchor xml:id="nkr_note_orig_0564011" n="0564011"/><anchor xml:id="nkr_note_mod_0564011" n="0564011"/>多地也他鴦伽邏鴦伽邏<note place="inline">一</note>　崩伽邏<note place="inline">二</note>　鉢囉朋
+<lb n="0564c14" ed="T"/>迦邏<note place="inline">三</note>　婆耶弭呵弭哆藍婆斯<note place="inline">四</note>　阿<anchor xml:id="beg_32" type="cb-app"/>嵠<anchor xml:id="end_32"/>阿佉門
+<lb n="0564c15" ed="T"/>跋利度迷<note place="inline">五</note>　徒曼帝<note place="inline">六</note>　雞跋嚌雞榆利<note place="inline">七</note>　三摩
+<lb n="0564c16" ed="T"/>婆呵泥<note place="inline">去音</note><note place="inline">八</note>　三曼多跋達利<note place="inline">九</note>　達迷達迷<note place="inline">十</note>　駄
+<lb n="0564c17" ed="T"/>摩雞<note place="inline">十一</note>　闇破隸<note place="inline">十二</note>　弭哆囉丑破隸<note place="inline">十三</note>　破囉婆帝
+<lb n="0564c18" ed="T"/><note place="inline">十四</note>　伽尼<note place="inline">膩宜反</note><note place="inline">十五</note>　伽拏婆藍帝<note place="inline">十六</note>　哂利底利<note place="inline">十七</note>　哂
+<lb n="0564c19" ed="T"/>囉呬囉雞<note place="inline">十八</note>　闍婆帝闍婆帝<note place="inline">十九</note>　吒迦斯<note place="inline">二十</note>　吒建
+<lb n="0564c20" ed="T"/>帝<note place="inline">二十一</note>　吒迦婆藍<note place="inline">二十二</note>　迦拏婆漠帝<note place="inline">二十三</note>　哂藺帝
+<lb n="0564c21" ed="T"/><note place="inline">二十四</note>　始藺帝<note place="inline">二十五</note>　嬪頭婆帝<note place="inline">二十六</note>　衢婆<note place="inline">去音</note>醯<note place="inline">二十七</note>
+<lb n="0564c22" ed="T"/>　受離<note place="inline">二十八</note>　弭多囉受離<note place="inline">二十九</note>　受履<note place="inline">三十</note>　阿伽離<note place="inline">三十一</note>
+<lb n="0564c23" ed="T"/>　阿婆迷<note place="inline">三十二</note>　娑寫多他當<note place="inline">三十三</note>　呼盧哂離<note place="inline">三十四</note>　栴
+<lb n="0564c24" ed="T"/>涕隸<note place="inline">三十五</note>　三摩達迷<note place="inline">三十六</note>　駄迷<note place="inline">三十七</note>　俱朱盧<note place="inline">三十八</note>
+<lb n="0564c25" ed="T"/>　謩朱盧<note place="inline">三十九</note>　阿質吒<note place="inline">四十</note>　至離<note place="inline">四十一</note>　至離<note place="inline">四十二</note>　遮婆
+<lb n="0564c26" ed="T"/>呵<note place="inline">四十三</note>　朱盧朱盧<note place="inline">四十四</note>　弭多囉婆呵<note place="inline">四十五</note>　俱盧俱
+<lb n="0564c27" ed="T"/>盧<note place="inline">四十六</note>　娑囉娑囉<note place="inline">四十七</note>　俱<g ref="#CB02768">㧣</g>俱<g ref="#CB02768">㧣</g><note place="inline">四十八</note>　摩呵薩囉
+<lb n="0564c28" ed="T"/><note place="inline">四十九</note>　都<g ref="#CB02768">㧣</g>都<g ref="#CB02768">㧣</g><note place="inline">五十</note>　磨呵薩底耶離駄耶哺澁箄
+<lb n="0564c29" ed="T"/><note place="inline">五十一</note>　蘇哺澁箄<note place="inline">五十二</note>　度磨鉢離呵隷<note place="inline">五十三</note>　阿婆曳
+<pb n="0565a" ed="T" xml:id="T13.0402.0565a"/>
+<lb n="0565a01" ed="T"/><note place="inline">五十四</note>　盧至泥<note place="inline">五十五</note>　迦樂差<note place="inline">五十六</note>　阿婆耶磨薩都毘
+<lb n="0565a02" ed="T"/>婆呵底隷<note place="inline">五十七</note>　磨隷磨隷<note place="inline">五十八</note>　鉢濕縛呿<note place="inline">五十九</note>　尸
+<lb n="0565a03" ed="T"/>尸囉<note place="inline">六十</note>　盧迦毘那耶迦<note place="inline">六十一</note>　跋時隸<note place="inline">六十二</note>　跋時跋
+<lb n="0565a04" ed="T"/>時囉達離<note place="inline">六十三</note>　跋時囉婆帝<note place="inline">六十四</note>　跋時囉馱提<note place="inline">六十
+<lb n="0565a05" ed="T"/>五</note>　斫乞囉跋時隷<note place="inline">六十六</note>　斫乞隸<note place="inline">六十七</note>　遮婆泥<note place="inline">六十八</note>
+<lb n="0565a06" ed="T"/>　達隸達隷<note place="inline">六十九</note>　婆隸婆隸<note place="inline">七十</note>　布隸<note place="inline">七十一</note>　吒隷<note place="inline">七十二</note>
+<lb n="0565a07" ed="T"/>　呼呼隸<note place="inline">七十三</note>　傍伽嬪婆隷<note place="inline">七十四</note>　舍隣舍<note place="inline">七十五</note>　至離
+<lb n="0565a08" ed="T"/><note place="inline">七十六</note>　朱離<note place="inline">七十七</note>　慕隷<note place="inline">七十八</note>　漫茶隷<note place="inline">七十九</note>　漫茶泥<note place="inline">八十</note>
+<lb n="0565a09" ed="T"/>　伽伽離<note place="inline">八十一</note>　慕茶泥<note place="inline">八十二</note>　薩波謩茶泥<note place="inline">八十三</note>　地地
+<lb n="0565a10" ed="T"/>囉耶泥<note place="inline">八十四</note>　磨醯濕縛囉<note place="inline">八十五</note>　羅耶泥<note place="inline">八十六</note>　離莘
+<lb n="0565a11" ed="T"/>闍泥<note place="inline">八十七</note>　馱婆婆至<note place="inline">八十八</note>　栴茶羅栖迷<note place="inline">八十九</note>　薩婆
+<lb n="0565a12" ed="T"/>薩寫呵地瑟魑<note place="inline">去音</note>多<note place="inline">九十</note>　叱電都婆呵那磨弭泥
+<lb n="0565a13" ed="T"/><note place="inline">九十一</note>　波羅囉底<note place="inline">九十二</note>　烏闍惡伽隸<note place="inline">九十三</note>　毘至泥<note place="inline">九十
+<lb n="0565a14" ed="T"/>四</note>　婆遮那囉呵<note place="inline">九十五</note>　蒱隸蒱隸<note place="inline">九十六</note>　瞿盧瞿盧<note place="inline">九十
+<lb n="0565a15" ed="T"/>七</note>　慕盧慕盧<note place="inline">九十八</note>　哂離哂離<note place="inline">九十九</note>　呵囉呵囉<note place="inline">一百</note>
+<lb n="0565a16" ed="T"/>　迦建茶婆呵<note place="inline">百一</note>　哂哂當<note place="inline">百二</note>　阿喻那建茶時縛羅
+<lb n="0565a17" ed="T"/>婆栖<note place="inline">百三</note>　揭馱泥<note place="inline">百四</note>　阿陀阿泥<note place="inline">百五</note>　末伽阿毘盧呵
+<lb n="0565a18" ed="T"/>泥<note place="inline">百六</note>　破羅薩底曳<note place="inline">百七</note>　阿盧呵婆底<note place="inline">百八</note>　哂離哂離
+<lb n="0565a19" ed="T"/><note place="inline">百九</note>　耶陀婆闍耶薩縛惡伽囉<note place="inline">百十</note>　耶陀波蘭者離
+<lb n="0565a20" ed="T"/>馱耶婆呵<note place="inline">百十一</note>　薩底耶鉢離婆婆<note place="inline">百十二</note>　末伽避盧
+<lb n="0565a21" ed="T"/>呵泥<note place="inline">百十三</note>　阿遮羅勃提<note place="inline">百十四</note>　馱馱鉢囉遮囉<note place="inline">百十五</note>
+<lb n="0565a22" ed="T"/>　波遮耶<note place="inline">百十六</note>　賓茶離馱耶<note place="inline">百十七</note>　栴達囉遮囉拏<note place="inline">百十
+<lb n="0565a23" ed="T"/>八</note>　阿遮隷<note place="inline">百十九</note>　輸達泥<note place="inline">百二十</note>　鉢囉乞離底耶末
+<lb n="0565a24" ed="T"/>伽<note place="inline">百二十一</note>　伊羅伽離梨<note place="inline">百二十二</note>　鉢囉弊<note place="inline">百二十三</note>　娑囉勃囉
+<lb n="0565a25" ed="T"/>帝<note place="inline">百二十四</note>　薩婆哆囉哆他多<note place="inline">百二十五</note>　薩底耶阿奴伽帝
+<lb n="0565a26" ed="T"/><note place="inline">百二十六</note>　阿那婆囉那勃囉帝<note place="inline">百二十七</note>　阿羅多<note place="inline">百二十八</note>　鴦瞿
+<lb n="0565a27" ed="T"/>隸<note place="inline">百二十九</note>　奢彌泥<note place="inline">百三十</note>　毘勃囉磨婆喻哂<note place="inline">百三十一</note>　阿哂
+<lb n="0565a28" ed="T"/>多阿婆囉<note place="inline">百三十二</note>　尼囉婆耶婆<note place="inline">百三十三</note>　阿質囉末伽<note place="inline">百三
+<lb n="0565a29" ed="T"/>十四</note>　羅那羅瞿薩隸<note place="inline">百三十五</note>　底離囉多那傍世<note place="inline">百三十六</note>　達
+<pb n="0565b" ed="T" xml:id="T13.0402.0565b"/>
+<lb n="0565b01" ed="T"/>磨迦時縛羅<g ref="#CB00865">󰍡</g>達隸<note place="inline">百三十七</note>　三沒達囉婆底<note place="inline">百三十八</note>　磨
+<lb n="0565b02" ed="T"/>呵馱步多毘耶<note place="inline">百三十九</note>　三沒達囉鞞伽婆底陀羅
+<lb n="0565b03" ed="T"/>尼沒達隷拏<note place="inline">百四十</note>　磨佡沒達囉蘇囉鉢囉底三
+<lb n="0565b04" ed="T"/>毘陀沒達囉<note place="inline">百四十一</note>　阿跋多尼<note place="inline">百四十二</note>　三跋多尼<note place="inline">百四十三</note>
+<lb n="0565b05" ed="T"/>　三慕賀塞迦囉<note place="inline">百四十四</note>　毘地喻多囉栖那廁底沒
+<lb n="0565b06" ed="T"/>達離都呬<note place="inline">百四十五</note>　曳雞質畢利地毘婆呵<note place="inline">百四十六</note>　婆婆
+<lb n="0565b07" ed="T"/>婆呵呵呵<note place="inline">百四十七</note>　雞吒迦婆吒<note place="inline">百四十八</note>　世羅鉢囉底底
+<lb n="0565b08" ed="T"/>離多曳那沒達離多<note place="inline">百四十九</note>　陀囉尼<note place="inline">百五十</note>　駄囉駄囉
+<lb n="0565b09" ed="T"/>駄囉<note place="inline">百五十一</note>　檀地羅檀地羅呼色<note place="inline">百五十二</note>　迦薩婆離馱
+<lb n="0565b10" ed="T"/>耶沒達離都呬<note place="inline">百五十三</note>　闍茶闍跋吒<note place="inline">百五十四</note>　闍呿娑吒
+<lb n="0565b11" ed="T"/><note place="inline">百五十五</note>　蘇末底末底<note place="inline">百五十六</note>　磨呵馱步多沒達離多<note place="inline">百五
+<lb n="0565b12" ed="T"/>十七</note>　曳雞質殺阿耶單那尼失離多步多<note place="inline">百五十八</note>　伽
+<lb n="0565b13" ed="T"/>尼弭尼<note place="inline">百五十九</note>　薩遮尼<note place="inline">百六十</note>　瞿沙薩遮尼<note place="inline">百六十一</note>　沒達
+<lb n="0565b14" ed="T"/>離多<note place="inline">百六十二</note>　遮離耶阿地瑟佗那<note place="inline">百六十三</note>　婆迦鉢他<note place="inline">百六
+<lb n="0565b15" ed="T"/>十四</note>　那阿溺他<note place="inline">百六十五</note>　磨呵布尼<note place="inline">百六十六</note>　沒遮耶阿婆多
+<lb n="0565b16" ed="T"/>囉<note place="inline">百六十七</note>　磨呵迦盧拏耶<note place="inline">百六十八</note>　沒達離多<note place="inline">百六十九</note>　薩婆
+<lb n="0565b17" ed="T"/>三藐<note place="inline">百七十</note>　鉢囉底鉢地<note place="inline">百七十一</note>　至囉囉多藍<note place="inline">百七十二</note>　時
+<lb n="0565b18" ed="T"/>縛羅都<note place="inline">百七十三</note>　達磨泥底離<note place="inline">百七十四</note>　薩鞞慕尼<note place="inline">百七十五</note>　勃
+<lb n="0565b19" ed="T"/>離娑婆<note place="inline">百七十六</note>　磨呵迦盧拏<note place="inline">百七十七</note>　三磨提<note place="inline">百七十八</note>　若那
+<lb n="0565b20" ed="T"/>羅婆跋隷那<note place="inline">百七十九</note>　梅底離<note place="inline">百八十</note>　底耶伽阿底毘離
+<lb n="0565b21" ed="T"/>耶跋隷那<note place="inline">百八十一</note>　阿地瑟魑多<note place="inline">百八十二</note>　薩婆步都<note place="inline">百八十三</note>
+<lb n="0565b22" ed="T"/>　烏波遮耶也<note place="inline">百八十四</note>　薩婆呵<note place="inline">百八十五</note>」</p>
+<lb n="0565b23" ed="T"/><p xml:id="pT13p0565b2301">爾時，一切諸佛土中所有大眾，至此佛剎普
+<lb n="0565b24" ed="T"/>來會者，皆共同聲，作如是言：「南無一切諸佛！
+<lb n="0565b25" ed="T"/>南無一切諸佛！」皆共三反，作如是言：「怪哉！牟
+<lb n="0565b26" ed="T"/>尼眾集甚大希有！大菩薩集甚大希有！大聲
+<lb n="0565b27" ed="T"/>聞集甚大希有！如是希有實未曾有！我昔未
+<lb n="0565b28" ed="T"/>聞此金剛法等因緣法心建立一切法摧碎陀
+<lb n="0565b29" ed="T"/>羅尼印句差別法門，一切教師正法住持，三
+<pb n="0565c" ed="T" xml:id="T13.0402.0565c"/>
+<lb n="0565c01" ed="T"/>寶種不斷絕，悉能摧破魔境界力，斷魔羂縛
+<lb n="0565c02" ed="T"/>降伏魔怨，建立法幢護持法分，乃至能滿諸
+<lb n="0565c03" ed="T"/>佛境界故。<anchor xml:id="nkr_note_orig_0565001" n="0565001"/><anchor xml:id="nkr_note_mod_0565001" n="0565001"/><anchor xml:id="beg0565001" n="0565001"/>今<anchor xml:id="end0565001"/>一切諸佛世尊說此陀羅尼印
+<lb n="0565c04" ed="T"/>句差別法門記，是一切眾生心印大希有行，
+<lb n="0565c05" ed="T"/>調伏六入，乃至令一切眾生得無上涅槃故。」
+<lb n="0565c06" ed="T"/>說此陀羅尼印記法時，三十恒河沙等菩薩
+<lb n="0565c07" ed="T"/>摩訶薩，成就此陀羅尼得三昧忍。</p>
+<lb n="0565c08" ed="T"/><p xml:id="pT13p0565c0801">爾時，月光童子即從坐起，合掌普觀佛加護
+<lb n="0565c09" ed="T"/>故，及自神通力出大法聲，悉皆遍滿此佛剎
+<lb n="0565c10" ed="T"/>內，說如是偈：</p>
+<lb n="0565c11" ed="T"/><lg xml:id="lgT13p0565c1101" rend="margin-left:1em;text-indent:-1em"><l>「佛月難得值，</l><l>值是眾亦難，</l>
+<lb n="0565c12" ed="T"/><l>聰慧眾難得，</l><l>及菩薩行者，</l>
+<lb n="0565c13" ed="T"/><l>如是妙法印，</l><l>第一難得聞。</l>
+<lb n="0565c14" ed="T"/><l>如來大悲者，</l><l>能護持正法，</l>
+<lb n="0565c15" ed="T"/><l>摧一切魔黨，</l><l>及退諸怨敵，</l>
+<lb n="0565c16" ed="T"/><l>三寶永不斷，</l><l>諸佛受持故。</l>
+<lb n="0565c17" ed="T"/><l>一切障壞破，</l><l>忍辱柔和增，</l>
+<lb n="0565c18" ed="T"/><l>及眾生迴向，</l><l>護王并國土，</l>
+<lb n="0565c19" ed="T"/><l>遮諸作惡者，</l><l>及斷諸<anchor xml:id="nkr_note_orig_0565002" n="0565002"/><anchor xml:id="beg0565002" n="0565002"/>惡見<anchor xml:id="end0565002"/>。</l>
+<lb n="0565c20" ed="T"/><l>安慰諸菩薩，</l><l>示現菩提道，</l>
+<lb n="0565c21" ed="T"/><l>增長波羅蜜，</l><l>賢善行滿足，</l>
+<lb n="0565c22" ed="T"/><l>樂說方便智，</l><l>如是等增長，</l>
+<lb n="0565c23" ed="T"/><l>皆受持佛語，</l><l>攝持諸白法，</l>
+<lb n="0565c24" ed="T"/><l>擁護陀羅尼，</l><l>明淨菩提道，</l>
+<lb n="0565c25" ed="T"/><l>熾然證實法。</l><l>汝等一切眾，</l>
+<lb n="0565c26" ed="T"/><l>皆當斷疑網，</l><l>信於陀羅尼，</l>
+<lb n="0565c27" ed="T"/><l>此是滿足道，</l><l>所謂得菩提，</l>
+<lb n="0565c28" ed="T"/><l>我等復欲說，</l><l>擁護陀羅尼。</l>
+<lb n="0565c29" ed="T"/><l>守護說法者，</l><l>增長聞慧故，</l>
+<pb n="0566a" ed="T" xml:id="T13.0402.0566a"/>
+<lb n="0566a01" ed="T"/><l>誰有與欲者，</l><l>菩薩大名聞，</l>
+<lb n="0566a02" ed="T"/><l>及得無障<anchor xml:id="nkr_note_orig_0566001" n="0566001"/><anchor xml:id="nkr_note_mod_0566001" n="0566001"/><anchor xml:id="beg0566001" n="0566001"/>故<anchor xml:id="end0566001"/>，</l><l>能令諸眾生，</l>
+<lb n="0566a03" ed="T"/><l>利益增長故。」</l></lg>
+<lb n="0566a04" ed="T"/><p xml:id="pT13p0566a0401">爾時，恒河沙等童真菩薩摩訶薩，咸共同聲，
+<lb n="0566a05" ed="T"/>作如是言：「我等今者，與此受持陀羅尼欲，若
+<lb n="0566a06" ed="T"/>有善男子、善女人、比丘、比丘尼、優婆塞、優婆
+<lb n="0566a07" ed="T"/>夷，當淨<anchor xml:id="nkr_note_orig_0566002" n="0566002"/><anchor xml:id="beg0566002" n="0566002"/>洗浴<anchor xml:id="end0566002"/>著淨衣服，用種種華莊嚴為
+<lb n="0566a08" ed="T"/>帳，燒種種香，設種種食，種種衣服安置敷
+<lb n="0566a09" ed="T"/>設，嚴飾綺繡，竪立種種微妙幡幢及諸華
+<lb n="0566a10" ed="T"/>蓋，莊嚴道場，<anchor xml:id="nkr_note_orig_0566003" n="0566003"/><anchor xml:id="beg0566003" n="0566003"/>昇<anchor xml:id="end0566003"/>軟妙觸師子之座，開示分
+<lb n="0566a11" ed="T"/>別此陀羅尼者，於彼無有心亂者，四大亂身
+<lb n="0566a12" ed="T"/>亂意亂，無有毒氣噓觸其身。無有能令頭痛
+<lb n="0566a13" ed="T"/>者，內外身分及以四支悉無病惱，無有能令
+<lb n="0566a14" ed="T"/>音聲蹇澁。</p><p xml:id="pT13p0566a1405" rend="inline">「若彼法師，往昔所有不善之業，四
+<lb n="0566a15" ed="T"/>大亂聲亂者，若彼法師讀此陀羅尼故，一
+<lb n="0566a16" ed="T"/>切業障盡滅無餘得安隱住，有來聽者亦無
+<lb n="0566a17" ed="T"/>四大亂及以聲亂。若有聞此陀羅尼者，彼不
+<lb n="0566a18" ed="T"/>善業四大長病，及聲亂者一切皆滅。」</p><p xml:id="pT13p0566a1815" rend="inline">是時，月
+<lb n="0566a19" ed="T"/>光童子瞻仰無量恒河沙等諸佛世尊，諸大
+<lb n="0566a20" ed="T"/>菩薩之所圍遶。月光童子曲躬合掌，作如是
+<lb n="0566a21" ed="T"/>言：「諸佛世尊慈悲念我，當與我欲，今當說此
+<lb n="0566a22" ed="T"/>陀羅尼呪。」即於佛前說大明呪：</p>
+<lb n="0566a23" ed="T"/><p cb:type="dharani" xml:id="pT13p0566a2301">「<anchor type="circle"/><anchor xml:id="nkr_note_orig_0566004" n="0566004"/><anchor xml:id="nkr_note_mod_0566004" n="0566004"/>多地也他羼帝<note place="inline">一</note>　阿娑摩路卑<note place="inline">二</note>　彌哆離<note place="inline">三</note>
+<lb n="0566a24" ed="T"/>　蘇摩婆坻<note place="inline">四</note>　縊呬娜婆軍闍脾<note place="inline">五</note>　娜婆軍闍娜
+<lb n="0566a25" ed="T"/>婆軍闍脾<note place="inline">六</note>　茂羅輸陀泥<note place="inline">七</note>　婆茶呿婆茶呿<note place="inline">八</note>
+<lb n="0566a26" ed="T"/>　婆茶呿摩囉婆<note place="inline">九</note>　哆他多跛履侈陀<note place="inline">十</note>　婆婆婆
+<lb n="0566a27" ed="T"/>頗頗頗娑娑娑<note place="inline">十一</note>　阿茂羅<note place="inline">十二</note>　阿者離<note place="inline">十三</note>　陀陀波
+<lb n="0566a28" ed="T"/>囉者羅<note place="inline">十四</note>　脾地離<note place="inline">十五</note>　縊迦娜耶跛履侈陀<note place="inline">十六</note>　栴
+<lb n="0566a29" ed="T"/>陀那抵履尼<note place="inline">十七</note>　菩薩離<note place="inline">十八</note>　菩薩囉坻履尼<note place="inline">十九</note>　呿
+<pb n="0566b" ed="T" xml:id="T13.0402.0566b"/>
+<lb n="0566b01" ed="T"/>伽藪囉抵履尼<note place="inline">二十</note>　娑娜婆藪囉抵履尼<note place="inline">二十一</note>　復
+<lb n="0566b02" ed="T"/>哆句胝跛履侈陀<note place="inline">二十二</note>　闍閜<note place="inline">來可反</note>闍閜呿呿<note place="inline">二十三</note>
+<lb n="0566b03" ed="T"/>　婆栘闍閜呿<note place="inline">二十四</note>　娜摩佉沙呿<note place="inline">二十五</note>　迦迦佉<note place="inline">二十六</note>
+<lb n="0566b04" ed="T"/>　呵呵呵呵<note place="inline">二十七</note>　虎虎虎<note place="inline">二十八</note>　娑波履奢脾陀娜<note place="inline">二十
+<lb n="0566b05" ed="T"/>九</note>　波履侈陀<note place="inline">三十</note>　阿摩摩<note place="inline">三十一</note>　儞也摩摩<note place="inline">三十二</note>　棄也
+<lb n="0566b06" ed="T"/>摩摩<note place="inline">三十三</note>　娑母陀囉母陀囉婆佉<note place="inline">三十四</note>　僧塞迦囉
+<lb n="0566b07" ed="T"/>孃跋履侈陀<note place="inline">三十五</note>　菩提娑<note place="inline">上音</note>乞史坻脾摩<note place="inline">三十六</note>　摩
+<lb n="0566b08" ed="T"/>訶脾摩<note place="inline">三十七</note>　部<note place="inline">去音</note>哆句胝<note place="inline">三十八</note>　阿迦捨始婆娑跛
+<lb n="0566b09" ed="T"/>履侈陀<note place="inline">三十九</note>　娑婆呵<note place="inline">四十</note>」</p>
+<lb n="0566b10" ed="T"/><p xml:id="pT13p0566b1001">爾時，一切他方佛土諸佛世尊、菩薩摩訶薩，
+<lb n="0566b11" ed="T"/>及大聲聞、釋梵護世、天、龍、夜叉、乾闥婆等，諸
+<lb n="0566b12" ed="T"/>大神王大威德者，咸共稱讚：「善哉！善哉！」白諸
+<lb n="0566b13" ed="T"/>佛言：「世尊！此陀羅尼甚大迅疾有大力勢，能
+<lb n="0566b14" ed="T"/>遮一切怨敵怖畏病患諸難，惡夢惡相皆悉
+<lb n="0566b15" ed="T"/>解脫，乃至無障智無上智大福智聚之所依
+<lb n="0566b16" ed="T"/>故，說此陀羅尼。」</p>
+<lb n="0566b17" ed="T"/><p xml:id="pT13p0566b1701">爾時，世自在主大梵天王，以大梵力境界莊
+<lb n="0566b18" ed="T"/>嚴，變為女人，於無量壽佛前坐。第一端正
+<lb n="0566b19" ed="T"/>色相圓滿勝過於天，第一具足衣服莊嚴，華
+<lb n="0566b20" ed="T"/>鬘塗香持用嚴飾。時世自在大梵天王，即從
+<lb n="0566b21" ed="T"/>坐起合掌恭敬，作如是言：「世尊！當擁護我圓
+<lb n="0566b22" ed="T"/>音演說，如是音聲悉能遍滿一切佛剎，普得
+<lb n="0566b23" ed="T"/>聞知而無障礙。如我今者，如此呪句，善能護
+<lb n="0566b24" ed="T"/>持說法法師及聽法者。若於後時，若魔、若魔
+<lb n="0566b25" ed="T"/>眷屬、若天、若天男女，或龍、龍女、或龍父母
+<lb n="0566b26" ed="T"/>男女眷屬，乃至毘舍遮女、毘舍遮父母男女
+<lb n="0566b27" ed="T"/>大小并其眷屬、人、非人等，於說法師及聽法
+<lb n="0566b28" ed="T"/>者伺求其短，實作怨家詐為親友。於說法師
+<lb n="0566b29" ed="T"/>及聽法者，乃至惱害損觸一毛，或奪精氣，或
+<pb n="0566c" ed="T" xml:id="T13.0402.0566c"/>
+<lb n="0566c01" ed="T"/>毒氣噓，或惡心視，乃至一念頃，我於彼等
+<lb n="0566c02" ed="T"/>人若非人，諸魔鬼輩禁止斷除，令彼昏濁與
+<lb n="0566c03" ed="T"/>其要誓：『我當擁護諸佛世尊圓音演說，能以
+<lb n="0566c04" ed="T"/>法聲滿諸佛剎，唯願世尊當念助我。』」<anchor xml:id="beg_33" type="cb-app"/>時<anchor xml:id="end_33"/>無量
+<lb n="0566c05" ed="T"/>壽佛默然受請。</p><p xml:id="pT13p0566c0507" rend="inline">時，大眾中。有一釋天名曰持
+<lb n="0566c06" ed="T"/>髻，以金天冠勝妙光明莊嚴其身，在於佛前
+<lb n="0566c07" ed="T"/>不遠而坐。</p>
+<lb n="0566c08" ed="T"/><p xml:id="pT13p0566c0801">爾時，持髻釋天告<anchor xml:id="nkr_note_orig_0566005" n="0566005"/><anchor xml:id="nkr_note_mod_0566005" n="0566005"/><anchor xml:id="beg0566005" n="0566005"/>自在<anchor xml:id="end0566005"/>如是言：「姊妹！勿以
+<lb n="0566c09" ed="T"/>染污之心於無量壽如來座前而坐，勿惱世
+<lb n="0566c10" ed="T"/>尊。何以故？樂戲論者是凡夫法，如來世尊
+<lb n="0566c11" ed="T"/>永無戲論，有為暫現是起盡相，一切名色句
+<lb n="0566c12" ed="T"/>差別如如，汝若如是<anchor xml:id="nkr_note_orig_0566006" n="0566006"/><anchor xml:id="nkr_note_mod_0566006" n="0566006"/><anchor xml:id="beg0566006" n="0566006"/>或<anchor xml:id="end0566006"/>倒如來。姊妹！如來
+<lb n="0566c13" ed="T"/>平等無違無諍，一味如如等虛空界，虛空<anchor xml:id="nkr_note_orig_0566007" n="0566007"/><anchor xml:id="beg0566007" n="0566007"/>亦<anchor xml:id="end0566007"/>
+<lb n="0566c14" ed="T"/>不妄置，三行盡相，如虛空不分別無分別，諸
+<lb n="0566c15" ed="T"/>行如是，如來如是。諸欲功德，不為戲論，不
+<lb n="0566c16" ed="T"/>分別無不分別，而無所住不受不取，如是無
+<lb n="0566c17" ed="T"/>命無生者，無養育無人無陰界入，無取無戲
+<lb n="0566c18" ed="T"/>論。姊妹！汝今云何於如來前而作戲論？」</p>
+<lb n="0566c19" ed="T"/><p xml:id="pT13p0566c1901">爾時，無量壽如來告天主言：「汝應審諦，然後
+<lb n="0566c20" ed="T"/>發言，勿作不如法語，令汝得罪受不愛果。此
+<lb n="0566c21" ed="T"/>是大善丈夫，為無量諸佛之所注意，於諸佛
+<lb n="0566c22" ed="T"/>所種諸善根。又此善丈夫，為欲供養如來事
+<lb n="0566c23" ed="T"/>故，現女人相妙飾莊嚴，汝勿於此說言是女。」</p>
+<lb n="0566c24" ed="T"/><p xml:id="pT13p0566c2401">時，持髻釋天白世自在梵天言：「善男子！當起
+<lb n="0566c25" ed="T"/>慈悲攝受於我，施我歡喜，莫令我今以此麁
+<lb n="0566c26" ed="T"/>言得惡果報。」</p><p xml:id="pT13p0566c2606" rend="inline">爾時，懷樂菩薩白無量壽佛言：
+<lb n="0566c27" ed="T"/>「世尊！若此釋天不悔此語時，得何果報？」</p><p xml:id="pT13p0566c2716" rend="inline">時無
+<lb n="0566c28" ed="T"/>量壽佛告懷樂菩薩言：「善男子！今此釋天若
+<lb n="0566c29" ed="T"/>不悔過，於未來世八萬四千生中，作草驢身
+<pb n="0567a" ed="T" xml:id="T13.0402.0567a"/>
+<lb n="0567a01" ed="T"/>為他輕賤。是故，善男子等！常須慎意護此口
+<lb n="0567a02" ed="T"/>業。」</p>
+<lb n="0567a03" ed="T"/><p xml:id="pT13p0567a0301">爾時，佛告世自在梵天言：「善男子！隨汝樂說，
+<lb n="0567a04" ed="T"/>我已擁護汝所說也。」</p><p xml:id="pT13p0567a0409" rend="inline">世自在梵天既蒙護念
+<lb n="0567a05" ed="T"/>歡喜合掌，遍觀十方，作如是言：「唯願，世尊！一
+<lb n="0567a06" ed="T"/>心念我。若佛菩薩及聲聞眾，天、龍、夜叉、乾闥
+<lb n="0567a07" ed="T"/>婆、阿修羅、迦樓羅、緊那羅、摩睺羅伽，欲令正
+<lb n="0567a08" ed="T"/>法久住世者，願於此處同與我欲。若法師及
+<lb n="0567a09" ed="T"/><anchor xml:id="nkr_note_orig_0567001" n="0567001"/><anchor xml:id="beg0567001" n="0567001"/>聽<anchor xml:id="end0567001"/>眾，欲得隨順相應無惱亂者，當與我欲。
+<lb n="0567a10" ed="T"/>若彼惡魔人非人等，未來之世於說法者及
+<lb n="0567a11" ed="T"/>眾生類，作惱亂時，我當遮障與彼要誓斷其
+<lb n="0567a12" ed="T"/>惡心。」自在梵天作是語時，所出音聲遍滿一
+<lb n="0567a13" ed="T"/>切諸佛世界。</p><p xml:id="pT13p0567a1306" rend="inline">爾時，一切諸梵天王，一時同聲
+<lb n="0567a14" ed="T"/>作，如是言：「我等亦以此陀羅尼同共與欲。所
+<lb n="0567a15" ed="T"/>以者何？我等於後亦當受持此陀羅尼，亦當
+<lb n="0567a16" ed="T"/>擁護未來之世善男子等，有能開示演說如
+<lb n="0567a17" ed="T"/>是法門及聽法眾，我當令彼隨順相應得如
+<lb n="0567a18" ed="T"/>所願。我等今於佛世尊、菩薩摩訶薩及大聲
+<lb n="0567a19" ed="T"/>聞眾前，與此陀羅尼欲。」</p><p xml:id="pT13p0567a1910" rend="inline">時，彼自在梵天作如
+<lb n="0567a20" ed="T"/>是言：「唯願，世尊及菩薩、聲聞大弟子眾，擁
+<lb n="0567a21" ed="T"/>護於我。」即說呪曰：</p>
+<lb n="0567a22" ed="T"/><p cb:type="dharani" xml:id="pT13p0567a2201">「多地也他<anchor xml:id="nkr_note_orig_0567002" n="0567002"/><anchor xml:id="nkr_note_mod_0567002" n="0567002"/><anchor xml:id="beg0567002" n="0567002"/><note place="inline">一</note><anchor xml:id="end0567002"/>　阿摩<anchor xml:id="nkr_note_orig_0567003" n="0567003"/><anchor xml:id="nkr_note_mod_0567003" n="0567003"/><anchor xml:id="beg0567003" n="0567003"/>離<anchor xml:id="end0567003"/><note place="inline"><anchor xml:id="nkr_note_orig_0567004" n="0567004"/><anchor xml:id="nkr_note_mod_0567004" n="0567004"/><anchor xml:id="beg0567004" n="0567004"/>二<anchor xml:id="end0567004"/></note>　毘摩<anchor xml:id="beg_34" type="star"/>離<anchor xml:id="end_34"/><note place="inline"><anchor xml:id="nkr_note_orig_0567005" n="0567005"/><anchor xml:id="nkr_note_mod_0567005" n="0567005"/><anchor xml:id="beg0567005" n="0567005"/>三<anchor xml:id="end0567005"/></note>　伽拏山
+<lb n="0567a23" ed="T"/>地<note place="inline"><anchor xml:id="nkr_note_orig_0567006" n="0567006"/><anchor xml:id="nkr_note_mod_0567006" n="0567006"/><anchor xml:id="beg0567006" n="0567006"/>四<anchor xml:id="end0567006"/></note>　呵<anchor xml:id="beg_35" type="star"/>離<anchor xml:id="end_35"/><anchor xml:id="nkr_note_orig_0567007" n="0567007"/><anchor xml:id="nkr_note_mod_0567007" n="0567007"/><anchor xml:id="beg0567007" n="0567007"/><note place="inline">五</note><anchor xml:id="end0567007"/>　氈地<note place="inline"><anchor xml:id="nkr_note_orig_0567008" n="0567008"/><anchor xml:id="nkr_note_mod_0567008" n="0567008"/><anchor xml:id="beg0567008" n="0567008"/>六<anchor xml:id="end0567008"/></note>　摩呵氈地<note place="inline"><anchor xml:id="nkr_note_orig_0567009" n="0567009"/><anchor xml:id="nkr_note_mod_0567009" n="0567009"/><anchor xml:id="beg0567009" n="0567009"/>七<anchor xml:id="end0567009"/></note>　遮彌<anchor xml:id="nkr_note_orig_0567010" n="0567010"/><anchor xml:id="nkr_note_mod_0567010" n="0567010"/><anchor xml:id="beg0567010" n="0567010"/><note place="inline">八</note><anchor xml:id="end0567010"/>
+<lb n="0567a24" ed="T"/>　摩呵遮彌<note place="inline"><anchor xml:id="nkr_note_orig_0567011" n="0567011"/><anchor xml:id="nkr_note_mod_0567011" n="0567011"/><anchor xml:id="beg0567011" n="0567011"/>九<anchor xml:id="end0567011"/></note>　蘇彌<anchor xml:id="nkr_note_orig_0567012" n="0567012"/><anchor xml:id="nkr_note_mod_0567012" n="0567012"/><anchor xml:id="beg0567012" n="0567012"/><note place="inline">十</note><anchor xml:id="end0567012"/>　薩他彌<note place="inline"><anchor xml:id="nkr_note_orig_0567013" n="0567013"/><anchor xml:id="nkr_note_mod_0567013" n="0567013"/><anchor xml:id="beg0567013" n="0567013"/>十一<anchor xml:id="end0567013"/></note>　阿婆呵<note place="inline">十二</note>　毘
+<lb n="0567a25" ed="T"/>婆呵<note place="inline">十三</note>　鴦伽闍<note place="inline">十四</note>　泥哆囉佉毘<note place="inline">十五</note>　茂羅波履侈
+<lb n="0567a26" ed="T"/>啼<note place="inline">十六</note>　藥叉氈馳<note place="inline">十七</note>　<anchor xml:id="nkr_note_orig_0567014" n="0567014"/><anchor xml:id="nkr_note_mod_0567014" n="0567014"/><anchor xml:id="beg0567014" n="0567014"/>毘<anchor xml:id="end0567014"/>舍遮氈馳<note place="inline">十八</note>　阿跋哆泥<note place="inline">十九</note>
+<lb n="0567a27" ed="T"/>　三跋<anchor xml:id="nkr_note_orig_0567015" n="0567015"/><anchor xml:id="nkr_note_mod_0567015" n="0567015"/><anchor xml:id="beg0567015" n="0567015"/>哆<anchor xml:id="end0567015"/>泥<note place="inline">二十</note>　僧<anchor xml:id="nkr_note_orig_0567016" n="0567016"/><anchor xml:id="nkr_note_mod_0567016" n="0567016"/><anchor xml:id="beg0567016" n="0567016"/>塞<anchor xml:id="end0567016"/>迦囉泥<note place="inline">二十一</note>　讇<anchor xml:id="nkr_note_orig_0567017" n="0567017"/><anchor xml:id="nkr_note_mod_0567017" n="0567017"/><anchor xml:id="beg0567017" n="0567017"/>波<anchor xml:id="end0567017"/>泥<note place="inline">二十二</note>
+<lb n="0567a28" ed="T"/>　摸呵泥<note place="inline">二十三</note>　嘔遮吒泥<note place="inline">二十四</note>　呵摩呵<anchor xml:id="nkr_note_orig_0567018" n="0567018"/><anchor xml:id="nkr_note_mod_0567018" n="0567018"/><anchor xml:id="beg0567018" n="0567018"/><note place="inline">二十五</note><anchor xml:id="end0567018"/>　呵摩呵
+<lb n="0567a29" ed="T"/>呵摩呵<note place="inline"><anchor xml:id="nkr_note_orig_0567019" n="0567019"/><anchor xml:id="nkr_note_mod_0567019" n="0567019"/><anchor xml:id="beg0567019" n="0567019"/>二十六<anchor xml:id="end0567019"/></note>　阿軍遮泥<note place="inline">二十七</note>　佉伽舍婆<note place="inline">二十八</note>　阿摩
+<pb n="0567b" ed="T" xml:id="T13.0402.0567b"/>
+<lb n="0567b01" ed="T"/>羅<note place="inline">二十九</note>　阿茂羅<note place="inline">三十</note>　茂羅波履跋坻<note place="inline">三十一</note>　阿<anchor xml:id="nkr_note_orig_0567020" n="0567020"/><anchor xml:id="beg0567020" n="0567020"/>婆<anchor xml:id="end0567020"/>羅
+<lb n="0567b02" ed="T"/>佉婆<note place="inline">三十二</note>　娑婆呵<anchor xml:id="nkr_note_orig_0567021" n="0567021"/><anchor xml:id="nkr_note_mod_0567021" n="0567021"/><anchor xml:id="beg0567021" n="0567021"/><note place="inline">三十三</note><anchor xml:id="end0567021"/></p>
+<lb n="0567b03" ed="T"/><p xml:id="pT13p0567b0301">「世尊！若有男子、女人，違逆不行聖眾大集所
+<lb n="0567b04" ed="T"/>說神呪者，眼<anchor xml:id="nkr_note_orig_0567022" n="0567022"/><anchor xml:id="beg0567022" n="0567022"/>睛<anchor xml:id="end0567022"/>墮落，頭頂破裂，支節分散。」
+<lb n="0567b05" ed="T"/>復說呪曰：</p>
+<lb n="0567b06" ed="T"/><p cb:type="dharani" xml:id="pT13p0567b0601">「多地也他阿者者<note place="inline">一</note>　阿婆<anchor xml:id="nkr_note_orig_0567023" n="0567023"/><anchor xml:id="nkr_note_mod_0567023" n="0567023"/><anchor xml:id="beg0567023" n="0567023"/>呵<anchor xml:id="end0567023"/>者者<anchor xml:id="nkr_note_orig_0567024" n="0567024"/><anchor xml:id="nkr_note_mod_0567024" n="0567024"/><anchor xml:id="beg0567024" n="0567024"/><note place="inline">二</note><anchor xml:id="end0567024"/>　<anchor xml:id="nkr_note_orig_0567025" n="0567025"/><anchor xml:id="nkr_note_mod_0567025" n="0567025"/><anchor xml:id="beg0567025" n="0567025"/>帚<anchor xml:id="end0567025"/>迦囉
+<lb n="0567b07" ed="T"/>叉<note place="inline">三</note>　遮遮吒<anchor xml:id="nkr_note_orig_0567026" n="0567026"/><anchor xml:id="nkr_note_mod_0567026" n="0567026"/><anchor xml:id="beg0567026" n="0567026"/><note place="inline">四</note><anchor xml:id="end0567026"/>　佉遮遮<anchor xml:id="nkr_note_orig_0567027" n="0567027"/><anchor xml:id="nkr_note_mod_0567027" n="0567027"/><note place="inline"><anchor xml:id="beg0567027" n="0567027"/>五<anchor xml:id="end0567027"/></note>　那佉伽遮遮<note place="inline">六</note>　遮遮
+<lb n="0567b08" ed="T"/>遮遮<note place="inline">七</note>　那遮呵茂羅遮遮<note place="inline">八</note>　遮茂<anchor xml:id="nkr_note_orig_0567028" n="0567028"/><anchor xml:id="nkr_note_mod_0567028" n="0567028"/><anchor xml:id="beg0567028" n="0567028"/>羅<anchor xml:id="end0567028"/><note place="inline">九</note>　<anchor xml:id="nkr_note_orig_0567029" n="0567029"/><anchor xml:id="nkr_note_mod_0567029" n="0567029"/><anchor xml:id="beg0567029" n="0567029"/>遮遮<anchor xml:id="end0567029"/>
+<lb n="0567b09" ed="T"/>呵摩茂羅遮遮<note place="inline">十</note>　呵牟呵牟<note place="inline">十一</note>　婆<anchor xml:id="nkr_note_orig_0567030" n="0567030"/><anchor xml:id="nkr_note_mod_0567030" n="0567030"/><anchor xml:id="beg0567030" n="0567030"/>茶<anchor xml:id="end0567030"/>婆呵<note place="inline">十二</note>　娑
+<lb n="0567b10" ed="T"/>婆呵<anchor xml:id="nkr_note_orig_0567031" n="0567031"/><anchor xml:id="nkr_note_mod_0567031" n="0567031"/><anchor xml:id="beg0567031" n="0567031"/><note place="inline">十三</note><anchor xml:id="end0567031"/>」</p>
+<lb n="0567b11" ed="T"/><p xml:id="pT13p0567b1101">爾時，一切梵王乃至毘舍遮王，聞是說已，皆
+<lb n="0567b12" ed="T"/>唱：「善哉！」作如是言：「假使鬼神有大威力雄猛
+<lb n="0567b13" ed="T"/>迅疾，所向摧碎力能過千，我今以此陀羅尼
+<lb n="0567b14" ed="T"/>章句悉令羂著。如是一切諸惡鬼神，能與眾
+<lb n="0567b15" ed="T"/>生作不利者，皆使潛滅無逃活處。」</p><p xml:id="pT13p0567b1514" rend="inline">自在梵天
+<lb n="0567b16" ed="T"/>復作是言：「若有住惡無慈愍心，不知恩德惱
+<lb n="0567b17" ed="T"/>眾生者，若鬼、若魔及其眷屬常來伺求受灌
+<lb n="0567b18" ed="T"/>頂職剎利王等，或伺求妃后王子王女及<anchor xml:id="nkr_note_orig_0567032" n="0567032"/><anchor xml:id="nkr_note_mod_0567032" n="0567032"/><anchor xml:id="beg0567032" n="0567032"/>綵<anchor xml:id="end0567032"/>
+<lb n="0567b19" ed="T"/>女等，乃至宰相官屬并餘民庶，於佛法中得
+<lb n="0567b20" ed="T"/>清淨信者，若男、若女、童男、童女、優婆塞、優婆
+<lb n="0567b21" ed="T"/>夷，樂聽法者，比丘、比丘尼禪誦精進不放逸
+<lb n="0567b22" ed="T"/>者，如是鬼、魔、人、非人等求其長短，我當擁護，
+<lb n="0567b23" ed="T"/>乃至能令一剎那頃惡心不起，況復於彼一
+<lb n="0567b24" ed="T"/>毛惱亂？</p><p xml:id="pT13p0567b2404" rend="inline">「若起惡心惱亂破壞，奪其精氣以毒
+<lb n="0567b25" ed="T"/>噓身，如是伺求覔其過者，以此陀羅尼威神
+<lb n="0567b26" ed="T"/>力故，若魔眷屬人非人等頭破作七分，眼<anchor xml:id="nkr_note_orig_0567033" n="0567033"/><anchor xml:id="beg0567033" n="0567033"/>精<anchor xml:id="end0567033"/>
+<lb n="0567b27" ed="T"/>殞墜心水乾枯，得白癩病其身臭爛，失本神
+<lb n="0567b28" ed="T"/>通陷沒於地，復為惡風所吹，擲置四方無人
+<lb n="0567b29" ed="T"/>之處，塵土坌身狂迷心亂周慞馳走，所行之
+<pb n="0567c" ed="T" xml:id="T13.0402.0567c"/>
+<lb n="0567c01" ed="T"/>地地皆破裂隨墮其中，深八萬四千由旬，於
+<lb n="0567c02" ed="T"/>彼命終。</p><p xml:id="pT13p0567c0204" rend="inline">「若是魔等，違背此呪水行之類，於佛
+<lb n="0567c03" ed="T"/>聖教得清淨信者，勤營僧事比丘比丘尼等，
+<lb n="0567c04" ed="T"/>彼諸鬼神作惱亂者，亦得如上所說惡報，頭
+<lb n="0567c05" ed="T"/>破七分及以命終。若是不退魔場陀羅尼，隨
+<lb n="0567c06" ed="T"/>所在處，我等當勤加護，所有一切樂法眾生，
+<lb n="0567c07" ed="T"/>我當勤心晝夜守護，及<anchor xml:id="nkr_note_orig_0567034" n="0567034"/><anchor xml:id="nkr_note_mod_0567034" n="0567034"/><anchor xml:id="beg0567034" n="0567034"/>彼<anchor xml:id="end0567034"/>一切惡毒夜叉、富
+<lb n="0567c08" ed="T"/>單那等，我當驅逐出其境界。</p><p xml:id="pT13p0567c0812" rend="inline">「若陀羅尼所在
+<lb n="0567c09" ed="T"/>之處，一切國土鬪諍飢饉他方怨敵、非時風
+<lb n="0567c10" ed="T"/>雨寒熱疫病，我當除斷令無有餘，亦令其國
+<lb n="0567c11" ed="T"/>一切人民善根成就，隨順和合安隱豐饒，能
+<lb n="0567c12" ed="T"/>令法師及聽法者，名聞高遠無有病苦，亦為
+<lb n="0567c13" ed="T"/>勸勵四輩檀越，利養供給。」</p><anchor xml:id="nkr_note_orig_0567035" n="0567035"/><anchor xml:id="nkr_note_mod_0567035" n="0567035"/><anchor type="circle"/>
+<lb n="0567c14" ed="T"/><cb:juan n="006" fun="close"><cb:jhead><title>寶星陀羅尼經</title>卷第六</cb:jhead></cb:juan></cb:div>
+<lb n="0567c15" ed="T"/><cb:div type="w"><p cb:type="dharani" xml:id="pT13p0567c1501">「<anchor type="circle"/><anchor xml:id="nkr_note_orig_0567036" n="0567036"/>多地也他鴦伽邏鴦伽邏<note place="inline">一</note>　崩伽邏<note place="inline">二</note>　鉢
+<lb n="0567c16" ed="T"/>囉朋迦囉<note place="inline">三</note>　婆耶弭呵弭哆藍婆斯<note place="inline">四</note>　阿嵠
+<lb n="0567c17" ed="T"/>阿呿門跋利<note place="inline">五</note>　度迷徒曼帝<note place="inline">六</note>　雞跋知雞榆
+<lb n="0567c18" ed="T"/>利<note place="inline">七</note>　三摩婆呵泥<note place="inline">去音</note><note place="inline">八</note>　三曼多跋達利<note place="inline">九</note>　達迷
+<lb n="0567c19" ed="T"/>達迷<note place="inline">十</note>　駄摩雞<note place="inline">十一</note>　闍破雞<note place="inline">十二</note>　弭多囉紐破隸<note place="inline">十三</note>
+<lb n="0567c20" ed="T"/>　破羅婆帝<note place="inline">十四</note>　伽尼<note place="inline">膩宜<anchor xml:id="nkr_note_orig_0567037" n="0567037"/><anchor xml:id="beg0567037" n="0567037"/>切<anchor xml:id="end0567037"/></note><note place="inline">十五</note>　伽拏婆藍帝<note place="inline">十六</note>　哂利
+<lb n="0567c21" ed="T"/>底利<note place="inline">十七</note>　哂囉哂囉雞<note place="inline">十八</note>　閻<note place="inline">時瞻切</note>婆帝婆帝<note place="inline">十九</note>　吒
+<lb n="0567c22" ed="T"/>迦斯吒建帝<note place="inline">二十</note>　吒迦婆藍帝<note place="inline">二十一</note>　伽拏婆漢
+<lb n="0567c23" ed="T"/>帝<note place="inline">二十二</note>　哂藺帝<note place="inline">二十三</note>　始藺帝<note place="inline">二十四</note>　嬪頭婆帝<note place="inline">二十五</note>
+<lb n="0567c24" ed="T"/>　衢婆<note place="inline">去<anchor xml:id="nkr_note_orig_0567038" n="0567038"/><anchor xml:id="beg0567038" n="0567038"/>聲<anchor xml:id="end0567038"/></note>醯<note place="inline">二十六</note>　受離弭多囉受離<note place="inline">二十七</note>　受屣
+<lb n="0567c25" ed="T"/>阿伽離<note place="inline">二十八</note>　阿婆迷<note place="inline">二十九</note>　娑寫多他當<note place="inline">三十</note>　呼盧
+<lb n="0567c26" ed="T"/>哂離<note place="inline">三十一</note>　旃涕隷三摩達迷<note place="inline">三十二</note>　馱迷<note place="inline">三十三</note>　俱
+<pb n="0568a" ed="T" xml:id="T13.0402.0568a"/>
+<lb n="0568a01" ed="T"/>朱盧<note place="inline">三十四</note>　謩朱盧<note place="inline">三十五</note>　阿質吒至離<note place="inline">三十六</note>　至遮
+<lb n="0568a02" ed="T"/>婆呵<note place="inline">三十七</note>　朱盧朱盧<note place="inline">三十八</note>　弭多囉婆呵<note place="inline">三十九</note>　俱
+<lb n="0568a03" ed="T"/>盧俱盧<note place="inline">四十</note>　娑囉娑囉<note place="inline">四十一</note>　俱株俱株<note place="inline">四十二</note>　磨呵
+<lb n="0568a04" ed="T"/>薩囉<note place="inline">四十三</note>　都株都株<note place="inline">四十四</note>　磨呵薩底耶<note place="inline">四十五</note>　奚
+<lb n="0568a05" ed="T"/>離馱耶補數箄<note place="inline">四十六</note>　蘇補數箄<note place="inline">四十七</note>　度磨鉢離
+<lb n="0568a06" ed="T"/>呵隷<note place="inline">四十八</note>　阿婆移盧至泥<note place="inline">四十九</note>　迦樂差脾<note place="inline">五十</note>　阿
+<lb n="0568a07" ed="T"/>婆耶磨薩堵毘婆呵<note place="inline">五十一</note>　底底隷<note place="inline">五十二</note>　磨磨隷
+<lb n="0568a08" ed="T"/><note place="inline">五十三</note>　鉢濕縛呿<note place="inline">五十四</note>　尸尸囉<note place="inline">五十五</note>　盧迦毘那耶
+<lb n="0568a09" ed="T"/>迦<note place="inline">五十六</note>　跋時隷跋時囉達隷<note place="inline">五十七</note>　跋時囉婆帝
+<lb n="0568a10" ed="T"/><note place="inline">五十八</note>　跋時囉馱提<note place="inline">五十九</note>　斫迦囉跋時提<note place="inline">六十</note>　斫迦
+<lb n="0568a11" ed="T"/>囉跋時隸<note place="inline">六十一</note>　斫迦隸遮婆泥<note place="inline">六十二</note>　達隸達隸
+<lb n="0568a12" ed="T"/><note place="inline">六十三</note>　婆隸婆隸<note place="inline">六十四</note>　布隸<note place="inline">六十五</note>　吒隸<note place="inline">六十六</note>　呼呼隷
+<lb n="0568a13" ed="T"/><note place="inline">六十七</note>　傍伽嬪婆隸<note place="inline">六十八</note>　舍利舍<anchor xml:id="nkr_note_orig_0568001" n="0568001"/><anchor xml:id="beg0568001" n="0568001"/>利<anchor xml:id="end0568001"/><note place="inline">六十九</note>　至離朱
+<lb n="0568a14" ed="T"/>離<note place="inline">七十</note>　慕隷<note place="inline">七十一</note>　<anchor xml:id="nkr_note_orig_0568002" n="0568002"/><anchor xml:id="beg0568002" n="0568002"/>曼<anchor xml:id="end0568002"/>荼隸<note place="inline">七十二</note>　<anchor xml:id="beg_36" type="star"/>曼<anchor xml:id="end_36"/>荼泥<note place="inline">七十三</note>　伽
+<lb n="0568a15" ed="T"/>伽囉尼<note place="inline">七十四</note>　慕荼泥<note place="inline">七十五</note>　薩波謩荼泥<note place="inline">七十六</note>　地
+<lb n="0568a16" ed="T"/>地囉耶泥<note place="inline">七十七</note>　磨醯濕縛囉羅耶泥<note place="inline">七十八</note>　奚離
+<lb n="0568a17" ed="T"/>莘闍泥<note place="inline">七十九</note>　馱婆婆至<note place="inline">八十</note>　旃荼羅栖迷<note place="inline">八十一</note>　薩
+<lb n="0568a18" ed="T"/>婆薩寫阿地瑟恥<note place="inline">去<anchor xml:id="nkr_note_orig_0568003" n="0568003"/><anchor xml:id="beg0568003" n="0568003"/>聲<anchor xml:id="end0568003"/></note>多<note place="inline">八十二</note>　叱電堵婆呵那
+<lb n="0568a19" ed="T"/><note place="inline">八十三</note>　磨弭泥<note place="inline">八十四</note>　破羅囉底<note place="inline">八十五</note>　烏闍伽隷<note place="inline">八十六</note>
+<lb n="0568a20" ed="T"/>　毘至泥<note place="inline">八十七</note>　婆那囉呵<note place="inline">八十八</note>　蒲蒲隷<note place="inline">八十九</note>　瞿盧
+<lb n="0568a21" ed="T"/>瞿盧<note place="inline">九十</note>　慕盧慕盧<note place="inline">九十一</note>　哂離哂離<note place="inline">九十二</note>　呵囉呵
+<lb n="0568a22" ed="T"/>囉<note place="inline">九十三</note>　迦建荼婆呵<note place="inline">九十四</note>　哂哂哆<note place="inline">九十五</note>　阿喻那
+<lb n="0568a23" ed="T"/>建荼<note place="inline">九十六</note>　時縛<anchor xml:id="nkr_note_orig_0568004" n="0568004"/><anchor xml:id="beg0568004" n="0568004"/>囉<anchor xml:id="end0568004"/>婆栖<note place="inline">九十七</note>　揭馱泥<note place="inline">九十八</note>　阿陀
+<lb n="0568a24" ed="T"/>呵泥<note place="inline">九十九</note>　末伽毘盧呵泥<note place="inline">一百</note>　破羅薩底<note place="inline">一百一</note>　阿
+<lb n="0568a25" ed="T"/>盧沙婆底<note place="inline">一百二</note>　哂離哂離<note place="inline">一百三</note>　耶他婆闍耶薩
+<lb n="0568a26" ed="T"/>縛伽囉<note place="inline">一百四</note>　耶他波蘭者奚馱耶婆呵<note place="inline">一百五</note>　薩
+<lb n="0568a27" ed="T"/>底耶鉢履婆婆<note place="inline">一百六</note>　末伽毘盧呵泥<note place="inline">一百七</note>　阿遮
+<lb n="0568a28" ed="T"/>羅勃提<note place="inline">一百八</note>　馱馱鉢囉遮羅<note place="inline">一百九</note>　波遮耶賓荼
+<lb n="0568a29" ed="T"/>離馱耶<note place="inline">一百一十</note>　旃達遮囉拏<note place="inline">一百一十一</note>　阿遮隷輸達
+<pb n="0568b" ed="T" xml:id="T13.0402.0568b"/>
+<lb n="0568b01" ed="T"/>泥<note place="inline">一百一十二</note>　鉢囉訖履底末祇<note place="inline">一百一十三</note>　伊羅伊離
+<lb n="0568b02" ed="T"/>離<note place="inline">一百一十四</note>　鉢囉鞞<note place="inline">一百一十五</note>　娑囉勃囉帝<note place="inline">一百一十六</note>　薩
+<lb n="0568b03" ed="T"/>婆哆囉哆他多<note place="inline">一百一十七</note>　薩底耶奴伽帝<note place="inline">一百一十八</note>
+<lb n="0568b04" ed="T"/>　阿那娑囉那勃囉帝<note place="inline">一百一十九</note>　阿羅哆<note place="inline">一百二十</note>　鴦瞿
+<lb n="0568b05" ed="T"/>隷<note place="inline">一百二十一</note>　奢<g ref="#CB02793">󰫩</g>泥<note place="inline">一百二十二</note>　勃囉磨婆喻哂呵阿
+<lb n="0568b06" ed="T"/>哂哆婆哂囉<note place="inline">一百二十三</note>　尼囉婆耶婆<note place="inline">一百二十四</note>　阿指
+<lb n="0568b07" ed="T"/>囉末伽<note place="inline">一百二十五</note>　羅那羅瞿薩隷<note place="inline">一百二十六</note>　底履囉
+<lb n="0568b08" ed="T"/>多那傍世<note place="inline">一百二十七</note>　達磨迦耶<note place="inline">一百二十八</note>　時縛羅旃
+<lb n="0568b09" ed="T"/>達隷<note place="inline">一百二十九</note>　薩母達囉婆底<note place="inline">一百三十</note>　磨呵步馱毘
+<lb n="0568b10" ed="T"/>耶<note place="inline">一百三十一</note>　薩母達囉鞞伽婆底<note place="inline">一百三十二</note>　陀羅尼
+<lb n="0568b11" ed="T"/>沒達隷<note place="inline">一百三十三</note>　磨<g ref="#CB02754">󰫂</g>沒達囉<note place="inline">一百三十四</note>　蘇囉鉢囉
+<lb n="0568b12" ed="T"/>底三毘陀沒達囉<note place="inline">一百三十五</note>　阿跋哆尼<note place="inline">一百三十六</note>　三
+<lb n="0568b13" ed="T"/><g ref="#CB01511">㕹</g>哆尼<note place="inline">一百三十七</note>　三慕賀塞迦囉<note place="inline">一百三十八</note>　毘地喻
+<lb n="0568b14" ed="T"/>多羅栖那<note place="inline">一百三十九</note>　廁底沒達離都死<note place="inline">一百四十</note>　曳雞
+<lb n="0568b15" ed="T"/>質畢利地毘婆呵<note place="inline">一百四十一</note>　婆呵婆呵婆呵<note place="inline">一百四十
+<lb n="0568b16" ed="T"/>二</note>　雞吒迦婆吒<note place="inline">一百四十三</note>　世羅鉢囉底底耶奚離
+<lb n="0568b17" ed="T"/>多曳那<note place="inline">一百四十四</note>　沒達離多陀羅尼<note place="inline">一百四十五</note>　馱囉
+<lb n="0568b18" ed="T"/>馱囉馱囉<note place="inline">一百四十六</note>　檀地羅檀地羅<note place="inline">一百四十七</note>　呼色
+<lb n="0568b19" ed="T"/>迦薩婆奚馱耶<note place="inline">一百四十八</note>　達離堵死<note place="inline">一百四十九</note>　闍荼
+<lb n="0568b20" ed="T"/>闍婆吒<note place="inline">一百五十</note>　闍呿婆吒<note place="inline">一百五十一</note>　蘇麼底麼底<note place="inline">一百
+<lb n="0568b21" ed="T"/>五十二</note>　磨呵馱步哆達哆<note place="inline">一百五十三</note>　質殺荼耶單那
+<lb n="0568b22" ed="T"/>尼失離多步多<note place="inline">一百五十四</note>　伊尼弭尼<note place="inline">一百五十五</note>　薩遮
+<lb n="0568b23" ed="T"/>泥<note place="inline">一百五十六</note>　瞿沙薩遮泥<note place="inline">一百五十七</note>　沒達離多遮離
+<lb n="0568b24" ed="T"/>耶阿地瑟侘那<note place="inline">一百五十八</note>　簿鉢他那阿溺他<note place="inline">一百五十
+<lb n="0568b25" ed="T"/>九</note>　磨呵布尼耶三沒遮耶阿婆多囉<note place="inline">一百六十</note>　磨
+<lb n="0568b26" ed="T"/>呵迦盧拏耶沒達離多<note place="inline">一百六十一</note>　薩婆三藐波囉
+<lb n="0568b27" ed="T"/>底鉢指囉囉哆藍<note place="inline">一百六十二</note>　時縛羅堵達磨泥
+<lb n="0568b28" ed="T"/>底離<note place="inline">一百六十三</note>　薩鞞慕尼勃離沙婆磨呵迦盧
+<lb n="0568b29" ed="T"/>拏三摩提<note place="inline">一百六十四</note>　若那羅婆跋隷那<note place="inline">一百六十五</note>　梅
+<pb n="0568c" ed="T" xml:id="T13.0402.0568c"/>
+<lb n="0568c01" ed="T"/>底離底耶伽底<note place="inline">一百六十六</note>　毘離耶跋隷那阿地
+<lb n="0568c02" ed="T"/>瑟魑多<note place="inline">一百六十七</note>　薩婆步都烏波遮耶也<note place="inline">一百六十八</note>
+<lb n="0568c03" ed="T"/>　薩婆呵」</p>
+<lb n="0568c04" ed="T"/><p cb:type="dharani" xml:id="pT13p0568c0401">「<anchor type="circle"/><anchor xml:id="nkr_note_orig_0568005" n="0568005"/>多地也他羼帝<note place="inline">一</note>　阿娑摩路卑<note place="inline">二</note>　彌帝隷
+<lb n="0568c05" ed="T"/>蘇摩婆坻<note place="inline">三</note>　縊哂娜婆軍闍脾<note place="inline">四</note>　娜婆軍闍
+<lb n="0568c06" ed="T"/>脾<note place="inline">五</note>　娜婆軍闍脾<note place="inline">六</note>　茂羅輸陀泥<note place="inline">七</note>　婆荼呿<note place="inline">八</note>
+<lb n="0568c07" ed="T"/>　婆荼呿<note place="inline">九</note>　摩囉婆哆他多<note place="inline">十</note>　跛履侈陀<note place="inline">十一</note>　婆
+<lb n="0568c08" ed="T"/>頗娑婆頗娑<note place="inline">十二</note>　阿茂羅<note place="inline">十三</note>　阿者羅<note place="inline">十四</note>　陀陀波
+<lb n="0568c09" ed="T"/>囉者羅<note place="inline">十五</note>　脾地隷<note place="inline">十六</note>　縊迦娜耶跛履侈陀<note place="inline">十七</note>
+<lb n="0568c10" ed="T"/>　旃陀那蒂<note place="inline">都泥切</note>　履尼<note place="inline">十八</note>　菩薩離<note place="inline">十九</note>　菩薩囉蒂履
+<lb n="0568c11" ed="T"/>尼<note place="inline">二十</note>　呿伽藪囉蒂履尼<note place="inline">二十一</note>　娑娜婆藪囉蒂
+<lb n="0568c12" ed="T"/>履尼<note place="inline">二十二</note>　步多句胝跛履侈陀<note place="inline">二十三</note>　闍攞<note place="inline">來可<anchor xml:id="nkr_note_orig_0568006" n="0568006"/><anchor xml:id="beg0568006" n="0568006"/>切<anchor xml:id="end0568006"/></note>
+<lb n="0568c13" ed="T"/>呿攞呿<note place="inline">二十四</note>　婆曳闍蒂呿<note place="inline">二十五</note>　娜摩去叉呿<note place="inline">二十
+<lb n="0568c14" ed="T"/>六</note>　迦迦佉<note place="inline">二十七</note>　呵呵呵呵<note place="inline">二十八</note>　虎虎虎虎<note place="inline">二十九</note>
+<lb n="0568c15" ed="T"/>　娑波履奢脾陀娜波履侈陀<note place="inline">三十</note>　阿摩摩儞也
+<lb n="0568c16" ed="T"/>摩摩<note place="inline">三十一</note>　棄也摩摩<note place="inline">三十二</note>　娑母陀羅母陀囉婆
+<lb n="0568c17" ed="T"/>佉<note place="inline">三十三</note>　僧塞迦囉孃跛履侈陀<note place="inline">三十四</note>　菩提娑<note place="inline">上音</note>
+<lb n="0568c18" ed="T"/><note place="inline">三十五</note>　乞史坻脾摩<note place="inline">三十六</note>　摩訶脾摩<note place="inline">三十七</note>　部<note place="inline"><anchor xml:id="nkr_note_orig_0568007" n="0568007"/><anchor xml:id="beg0568007" n="0568007"/>去<anchor xml:id="end0568007"/>音</note>
+<lb n="0568c19" ed="T"/>哆句胝<note place="inline">三十八</note>　阿迦捨始婆娑跛履侈陀<note place="inline">三十九</note>　娑
+<lb n="0568c20" ed="T"/>婆訶」</p></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0562006" to="#end0562006"><lem wit="#wit1">之一</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0562007" to="#end0562007"><lem wit="#wit1">佛剎</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4">佛剎如是</rdg></app>
+<app from="#beg0562008" to="#end0562008"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0563001" to="#end0563001"><lem wit="#wit1">如來</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">有佛</rdg></app>
+<app cb:word-count="12" from="#beg0563002a" to="#end0563002a"><lem wit="#wit1">乃至廣<lb n="0563a03" ed="T"/>說，於蓮華臺向佛而坐。</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0563003" to="#end0563003"><lem wit="#wit1">爾時，於彼</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0563002b" to="#end0563002b"><lem wit="#wit1"><note n="0563003" resp="#resp1" type="orig" place="foot text">〔爾時於彼〕－【三】</note><note n="0563003" resp="#resp2" type="mod">〔爾時於彼〕－【宋】【元】【明】</note><app n="0563003"><lem wit="#wit1">爾時，於彼</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4"><space quantity="0"/></rdg></app></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app cb:word-count="12" from="#beg0563004a" to="#end0563004a"><lem wit="#wit1">乃至廣說，於蓮華臺向<lb n="0563a05" ed="T"/>佛而坐。</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0563004b" to="#end0563004b"><lem wit="#wit1">如是</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app cb:word-count="12" from="#beg0563005" to="#end0563005"><lem wit="#wit1">乃至於彼蓮華臺上，廣說<lb n="0563a07" ed="T"/>如前</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_2c" to="#end_2c" corresp="#0563001"><lem wit="#wit1">如來</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">有佛</rdg></app>
+<app from="#beg0563006" to="#end0563006"><lem wit="#wit1">與</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">各與</rdg></app>
+<app from="#beg0563007" to="#end0563007"><lem wit="#wit1">既<lb n="0563a13" ed="T"/>到此已</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0563008" to="#end0563008"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2">亦如東方諸菩薩等</rdg></app>
+<app from="#beg0563009" to="#end0563009"><lem wit="#wit1">披</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">被</rdg></app>
+<app from="#beg0563010" to="#end0563010"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">消</rdg></app>
+<app from="#beg0563011" to="#end0563011"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">惟</rdg></app>
+<app from="#beg_2d" to="#end_2d" corresp="#0563010"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">消</rdg></app>
+<app from="#beg0563012" to="#end0563012"><lem wit="#wit1">即見如是，此佛剎<lb n="0563c11" ed="T"/>內</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">見此佛剎</rdg></app>
+<app from="#beg_2e" to="#end_2e" corresp="#0563010"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">消</rdg></app>
+<app from="#beg_2f" to="#end_2f" corresp="#0563010"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">消</rdg></app>
+<app from="#beg0564001" to="#end0564001"><lem wit="#wit1">殖</lem><rdg resp="#resp1" wit="#wit4">植</rdg></app>
+<app from="#beg0564002" to="#end0564002"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0564003" to="#end0564003"><lem wit="#wit1">嚴飾</lem><rdg resp="#resp1" wit="#wit5">嚴飾法</rdg></app>
+<app from="#beg0564004" to="#end0564004"><lem wit="#wit1">穬</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">獷</rdg></app>
+<app from="#beg0564005" to="#end0564005"><lem wit="#wit1">搥</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">鎚</rdg></app>
+<app from="#beg0564006" to="#end0564006"><lem wit="#wit1">雨</lem><rdg resp="#resp1" wit="#wit3 #wit4">雨而</rdg></app>
+<app from="#beg0564007" to="#end0564007"><lem wit="#wit1">師</lem><rdg resp="#resp1" wit="#wit4">獅</rdg></app>
+<app from="#beg0564008" to="#end0564008"><lem wit="#wit1">於我</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">我於</rdg></app>
+<app from="#beg0564009" to="#end0564009"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">持</rdg></app>
+<app from="#beg_30" to="#end_30" corresp="#0563010"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">消</rdg></app>
+<app from="#beg0564010" to="#end0564010"><lem wit="#wit1">惡夢</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<choice cb:from="#beg_31" cb:to="#end_31"><corr>往</corr><sic>住</sic></choice>
+<app from="#beg_32" to="#end_32"><lem resp="#resp3" wit="#wit7 #wit8">嵠<note type="cf1">K07n0078_p1257c18</note></lem><rdg wit="#wit1"><g ref="#CB02601">󰨩</g></rdg></app>
+<app from="#beg0565001" to="#end0565001"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">令</rdg></app>
+<app from="#beg0565002" to="#end0565002"><lem wit="#wit1">惡見</lem><rdg resp="#resp1" wit="#wit2">惡鬼</rdg></app>
+<app from="#beg0566001" to="#end0566001"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">礙</rdg></app>
+<app from="#beg0566002" to="#end0566002"><lem wit="#wit1">洗浴</lem><rdg resp="#resp1" wit="#wit2">洒浴</rdg></app>
+<app from="#beg0566003" to="#end0566003"><lem wit="#wit1">昇</lem><rdg resp="#resp1" wit="#wit4">陞</rdg></app>
+<app from="#beg_33" to="#end_33"><lem resp="#resp3" wit="#wit7 #wit8">時<note type="cf1">K07n0078_p1260b17</note></lem><rdg wit="#wit1">持</rdg></app>
+<app from="#beg0566005" to="#end0566005"><lem wit="#wit1">自在</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">世自在</rdg></app>
+<app from="#beg0566006" to="#end0566006"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">惑</rdg></app>
+<app from="#beg0566007" to="#end0566007"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567001" to="#end0567001"><lem wit="#wit1">聽</lem><rdg resp="#resp1" wit="#wit3 #wit4">聽法</rdg></app>
+<app from="#beg0567002" to="#end0567002"><lem wit="#wit1"><note place="inline">一</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567003" to="#end0567003"><lem wit="#wit1">離</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">隸</rdg></app>
+<app from="#beg0567004" to="#end0567004"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">一</rdg></app>
+<app from="#beg_34" to="#end_34" corresp="#0567003"><lem wit="#wit1">離</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">隸</rdg></app>
+<app from="#beg0567005" to="#end0567005"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">二</rdg></app>
+<app from="#beg0567006" to="#end0567006"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">三</rdg></app>
+<app from="#beg_35" to="#end_35" corresp="#0567003"><lem wit="#wit1">離</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">隸</rdg></app>
+<app from="#beg0567007" to="#end0567007"><lem wit="#wit1"><note place="inline">五</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567008" to="#end0567008"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">四</rdg></app>
+<app from="#beg0567009" to="#end0567009"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">五</rdg></app>
+<app from="#beg0567010" to="#end0567010"><lem wit="#wit1"><note place="inline">八</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567011" to="#end0567011"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">六</rdg></app>
+<app from="#beg0567012" to="#end0567012"><lem wit="#wit1"><note place="inline">十</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567013" to="#end0567013"><lem wit="#wit1">十一</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">七</rdg></app>
+<app from="#beg0567014" to="#end0567014"><lem wit="#wit1">毘</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">比</rdg></app>
+<app from="#beg0567015" to="#end0567015"><lem wit="#wit1">哆</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">陀</rdg></app>
+<app from="#beg0567016" to="#end0567016"><lem wit="#wit1">塞</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567017" to="#end0567017"><lem wit="#wit1">波</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">婆</rdg></app>
+<app from="#beg0567018" to="#end0567018"><lem wit="#wit1"><note place="inline">二十五</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567019" to="#end0567019"><lem wit="#wit1">二十六</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">二十一</rdg></app>
+<app from="#beg0567020" to="#end0567020"><lem wit="#wit1">婆</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2">娑</rdg></app>
+<app from="#beg0567021" to="#end0567021"><lem wit="#wit1"><note place="inline">三十三</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567022" to="#end0567022"><lem wit="#wit1">睛</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2">精</rdg></app>
+<app from="#beg0567023" to="#end0567023"><lem wit="#wit1">呵</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">呵<note place="inline">二</note></rdg></app>
+<app from="#beg0567024" to="#end0567024"><lem wit="#wit1"><note place="inline">二</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0567025" to="#end0567025"><lem wit="#wit1">帚</lem><rdg resp="#resp1" wit="#wit5 #wit2">菷</rdg><rdg resp="#resp1" wit="#wit3 #wit4"><g ref="#CB00416">󰆠</g></rdg></app>
+<app from="#beg0567026" to="#end0567026"><lem wit="#wit1"><note place="inline">四</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567027" to="#end0567027"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">四</rdg></app>
+<app from="#beg0567028" to="#end0567028"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">羅遮遮</rdg></app>
+<app from="#beg0567029" to="#end0567029"><lem wit="#wit1">遮遮</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567030" to="#end0567030"><lem wit="#wit1">茶</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">荼</rdg></app>
+<app from="#beg0567031" to="#end0567031"><lem wit="#wit1"><note place="inline">十三</note></lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567032" to="#end0567032"><lem wit="#wit1">綵</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2">婇</rdg></app>
+<app from="#beg0567033" to="#end0567033"><lem wit="#wit1">精</lem><rdg resp="#resp1" wit="#wit4">睛</rdg></app>
+<app from="#beg0567034" to="#end0567034"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0567037" to="#end0567037"><lem wit="#wit1">切</lem><rdg resp="#resp1" wit="#wit2">反</rdg></app>
+<app from="#beg0567038" to="#end0567038"><lem wit="#wit1">聲</lem><rdg resp="#resp1" wit="#wit2">音</rdg></app>
+<app from="#beg0568001" to="#end0568001"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0568002" to="#end0568002"><lem wit="#wit1">曼</lem><rdg resp="#resp1" wit="#wit5 #wit2">漫</rdg></app>
+<app from="#beg_36" to="#end_36" corresp="#0568002"><lem wit="#wit1">曼</lem><rdg resp="#resp1" wit="#wit5 #wit2">漫</rdg></app>
+<app from="#beg0568003" to="#end0568003"><lem wit="#wit1">聲</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2">音</rdg></app>
+<app from="#beg0568004" to="#end0568004"><lem wit="#wit1">囉</lem><rdg resp="#resp1" wit="#wit2">羅</rdg></app>
+<app from="#beg0568006" to="#end0568006"><lem wit="#wit1">切</lem><rdg resp="#resp1" wit="#wit2">反</rdg></app>
+<app from="#beg0568007" to="#end0568007"><lem wit="#wit1">去</lem><rdg resp="#resp1" wit="#wit2">云</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0562007" resp="#resp2" type="mod" target="#nkr_note_mod_0562007">佛剎＋（如是）【宋】【元】【明】</note>
+<note n="0562008" resp="#resp2" type="mod" target="#nkr_note_mod_0562008">〔之〕－【宋】【元】【明】【宮】</note>
+<note n="0563001" resp="#resp2" type="mod" target="#nkr_note_mod_0563001">如來＝有佛【宋】【元】【明】【宮】＊</note>
+<note n="0563002a" resp="#resp2" type="mod" target="#nkr_note_mod_0563002a">〔乃至…坐〕十二字－【宮】</note>
+<note n="0563002b" resp="#resp2" type="mod" target="#nkr_note_mod_0563002b">〔爾時於彼〕－【宮】</note>
+<note n="0563003" resp="#resp2" type="mod" target="#nkr_note_mod_0563003">〔爾時於彼〕－【宋】【元】【明】</note>
+<note n="0563004a" resp="#resp2" type="mod" target="#nkr_note_mod_0563004a">〔乃至…坐〕十二字－【宋】【元】【明】【宮】</note>
+<note n="0563004b" resp="#resp2" type="mod" target="#nkr_note_mod_0563004b">〔如是〕－【宋】【元】【明】【宮】</note>
+<note n="0563005" resp="#resp2" type="mod" target="#nkr_note_mod_0563005">〔乃至…如前〕十二字－【宋】【元】【明】【宮】</note>
+<note n="0563006" resp="#resp2" type="mod" target="#nkr_note_mod_0563006">（各）＋與【宋】【元】【明】【宮】</note>
+<note n="0563009" resp="#resp2" type="mod" target="#nkr_note_mod_0563009">披＝被【宋】【元】【明】【宮】</note>
+<note n="0563010" resp="#resp2" type="mod" target="#nkr_note_mod_0563010">銷＝消【宋】【元】【明】【宮】＊</note>
+<note n="0563011" resp="#resp2" type="mod" target="#nkr_note_mod_0563011">唯＝惟【宋】【元】【明】【宮】下同</note>
+<note n="0563012" resp="#resp2" type="mod" target="#nkr_note_mod_0563012">即見如是此佛剎內＝見此佛剎【宋】【元】【明】【宮】</note>
+<note n="0564002" resp="#resp2" type="mod" target="#nkr_note_mod_0564002">〔於〕－【宋】【元】【明】【宮】</note>
+<note n="0564004" resp="#resp2" type="mod" target="#nkr_note_mod_0564004">穬＝獷【宋】【元】【明】【宮】</note>
+<note n="0564005" resp="#resp2" type="mod" target="#nkr_note_mod_0564005">搥＝鎚【宋】【元】【明】【宮】</note>
+<note n="0564008" resp="#resp2" type="mod" target="#nkr_note_mod_0564008">於我＝我於【宋】【元】【明】【宮】</note>
+<note n="0564009" resp="#resp2" type="mod" target="#nkr_note_mod_0564009">時＝持【宋】【元】【明】【宮】</note>
+<note n="0564011" resp="#resp2" type="mod" target="#nkr_note_mod_0564011">此呪與【宋】【元】【明】【宮】大異今以【宋】【元】對校【明】別附卷末</note>
+<note n="0565001" resp="#resp2" type="mod" target="#nkr_note_mod_0565001">今＝令【宋】【元】【明】【宮】</note>
+<note n="0566001" resp="#resp2" type="mod" target="#nkr_note_mod_0566001">故＝礙【宋】【元】【明】【宮】</note>
+<note n="0566004" resp="#resp2" type="mod" target="#nkr_note_mod_0566004">此呪與【宋】【元】【明】【宮】大異對校甚難故別以【宋】【元】對校【明】附卷末</note>
+<note n="0566005" resp="#resp2" type="mod" target="#nkr_note_mod_0566005">（世）＋自在【宋】【元】【明】【宮】</note>
+<note n="0566006" resp="#resp2" type="mod" target="#nkr_note_mod_0566006">或＝惑【宋】【元】【明】【宮】</note>
+<note n="0567002" resp="#resp2" type="mod" target="#nkr_note_mod_0567002">〔一〕－【宋】【元】【明】【宮】</note>
+<note n="0567003" resp="#resp2" type="mod" target="#nkr_note_mod_0567003">離＝隸【宋】【元】【明】【宮】＊</note>
+<note n="0567004" resp="#resp2" type="mod" target="#nkr_note_mod_0567004">二＝一【宋】【元】【明】【宮】</note>
+<note n="0567005" resp="#resp2" type="mod" target="#nkr_note_mod_0567005">三＝二【宋】【元】【明】【宮】</note>
+<note n="0567006" resp="#resp2" type="mod" target="#nkr_note_mod_0567006">四＝三【宋】【元】【明】【宮】</note>
+<note n="0567007" resp="#resp2" type="mod" target="#nkr_note_mod_0567007">〔五〕－【宋】【元】【明】【宮】</note>
+<note n="0567008" resp="#resp2" type="mod" target="#nkr_note_mod_0567008">六＝四【宋】【元】【明】【宮】</note>
+<note n="0567009" resp="#resp2" type="mod" target="#nkr_note_mod_0567009">七＝五【宋】【元】【明】【宮】</note>
+<note n="0567010" resp="#resp2" type="mod" target="#nkr_note_mod_0567010">〔八〕－【宋】【元】【明】【宮】</note>
+<note n="0567011" resp="#resp2" type="mod" target="#nkr_note_mod_0567011">九＝六【宋】【元】【明】【宮】</note>
+<note n="0567012" resp="#resp2" type="mod" target="#nkr_note_mod_0567012">〔十〕－【宋】【元】【明】【宮】</note>
+<note n="0567013" resp="#resp2" type="mod" target="#nkr_note_mod_0567013">十一＝七【宋】【元】【明】【宮】，<!--CBETA todo type: i-->以下記數至二十四各減四數【宋】【元】【明】【宮】</note>
+<note n="0567014" resp="#resp2" type="mod" target="#nkr_note_mod_0567014">毘＝比【宋】【元】【明】【宮】</note>
+<note n="0567015" resp="#resp2" type="mod" target="#nkr_note_mod_0567015">哆＝陀【宋】【元】【明】【宮】</note>
+<note n="0567016" resp="#resp2" type="mod" target="#nkr_note_mod_0567016">〔塞〕－【宋】【元】【明】【宮】</note>
+<note n="0567017" resp="#resp2" type="mod" target="#nkr_note_mod_0567017">波＝婆【宋】【元】【明】【宮】</note>
+<note n="0567018" resp="#resp2" type="mod" target="#nkr_note_mod_0567018">〔二十五〕－【宋】【元】【明】【宮】</note>
+<note n="0567019" resp="#resp2" type="mod" target="#nkr_note_mod_0567019">二十六＝二十一【宋】【元】【明】【宮】，<!--CBETA todo type: i-->以下記數至三十二各減五數【宋】【元】【明】【宮】</note>
+<note n="0567021" resp="#resp2" type="mod" target="#nkr_note_mod_0567021">〔三十三〕－【宋】【元】【明】【宮】</note>
+<note n="0567023" resp="#resp2" type="mod" target="#nkr_note_mod_0567023">呵＋（(二)）【宋】【元】【明】【宮】</note>
+<note n="0567024" resp="#resp2" type="mod" target="#nkr_note_mod_0567024">〔二〕－【宋】【元】【明】</note>
+<note n="0567025" resp="#resp2" type="mod" target="#nkr_note_mod_0567025">帚＝菷【宋】【宮】，＝<g ref="#CB00416">󰆠</g>【元】【明】</note>
+<note n="0567026" resp="#resp2" type="mod" target="#nkr_note_mod_0567026">〔四〕－【宋】【元】【明】【宮】</note>
+<note n="0567027" resp="#resp2" type="mod" target="#nkr_note_mod_0567027">五＝四【宋】【元】【明】【宮】，<!--CBETA todo type: i-->以下記數至十二各減一數【宋】【元】【明】【宮】</note>
+<note n="0567028" resp="#resp2" type="mod" target="#nkr_note_mod_0567028">羅＋（遮遮）【宋】【元】【明】【宮】</note>
+<note n="0567029" resp="#resp2" type="mod" target="#nkr_note_mod_0567029">〔遮遮〕－【宋】【元】【明】【宮】</note>
+<note n="0567030" resp="#resp2" type="mod" target="#nkr_note_mod_0567030">茶＝荼【宋】【元】【明】【宮】</note>
+<note n="0567031" resp="#resp2" type="mod" target="#nkr_note_mod_0567031">〔十三〕－【宋】【元】【明】【宮】</note>
+<note n="0567032" resp="#resp2" type="mod" target="#nkr_note_mod_0567032">綵＝婇【宋】【元】【明】【宮】</note>
+<note n="0567034" resp="#resp2" type="mod" target="#nkr_note_mod_0567034">〔彼〕－【宋】【元】【明】【宮】</note>
+<note n="0567035" resp="#resp2" type="mod" target="#nkr_note_mod_0567035"><!--CBETA todo type: a-->（五六八頁）不分卷【元】【明】，〔寶星…第六〕九字－【宋】【明】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0562006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0562006">〔之一〕－【元】【明】【宮】</note>
+<note n="0562007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0562007">佛剎＋（如是）【三】</note>
+<note n="0562008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0562008">〔之〕－【三】【宮】</note>
+<note n="0563001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563001">如來＝有佛【三】【宮】＊</note>
+<note n="0563002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563002">〔乃至…彼〕十六字－【宮】</note>
+<note n="0563003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563003">〔爾時於彼〕－【三】</note>
+<note n="0563004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563004">〔乃至…如是〕十四字－【三】【宮】</note>
+<note n="0563005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563005">〔乃至…如前〕十二字－【三】【宮】</note>
+<note n="0563006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563006">（各）＋與【三】【宮】</note>
+<note n="0563007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563007">〔既到此已〕－【宮】</note>
+<note n="0563008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563008">於＝亦如東方諸菩薩等【宮】</note>
+<note n="0563009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563009">披＝被【三】【宮】</note>
+<note n="0563010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563010">銷＝消【三】【宮】＊</note>
+<note n="0563011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563011">唯＝惟【三】【宮】下同</note>
+<note n="0563012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0563012">即見如是此佛剎內＝見此佛剎【三】【宮】</note>
+<note n="0564001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564001">殖＝植【明】</note>
+<note n="0564002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564002">〔於〕－【三】【宮】</note>
+<note n="0564003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564003">嚴飾＋（法）【宋】</note>
+<note n="0564004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564004">穬＝獷【三】【宮】</note>
+<note n="0564005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564005">搥＝鎚【三】【宮】</note>
+<note n="0564006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564006">雨＋（而）【元】【明】</note>
+<note n="0564007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564007">師＝獅【明】</note>
+<note n="0564008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564008">於我＝我於【三】【宮】</note>
+<note n="0564009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564009">時＝持【三】【宮】</note>
+<note n="0564010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564010">〔惡夢〕－【宮】</note>
+<note n="0564011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0564011">此呪與【三】【宮】大異今以【宋】【元】對校【明】別附卷末</note>
+<note n="0565001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0565001">今＝令【三】【宮】</note>
+<note n="0565002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0565002">惡見＝惡鬼【宮】</note>
+<note n="0566001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566001">故＝礙【三】【宮】</note>
+<note n="0566002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566002">洗浴＝洒浴【宮】</note>
+<note n="0566003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566003">昇＝陞【明】</note>
+<note n="0566004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566004">此呪與【三】【宮】大異對校甚難故別以【宋】【元】對校【明】附卷末</note>
+<note n="0566005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566005">（世）＋自在【三】【宮】</note>
+<note n="0566006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566006">或＝惑【三】【宮】</note>
+<note n="0566007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0566007">〔亦〕－【宮】</note>
+<note n="0567001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567001">聽＋（法）【元】【明】</note>
+<note n="0567002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567002">〔一〕－【三】【宮】</note>
+<note n="0567003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567003">離＝隸【三】【宮】＊</note>
+<note n="0567004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567004">二＝一【三】【宮】</note>
+<note n="0567005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567005">三＝二【三】【宮】</note>
+<note n="0567006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567006">四＝三【三】【宮】</note>
+<note n="0567007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567007">〔五〕－【三】【宮】</note>
+<note n="0567008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567008">六＝四【三】【宮】</note>
+<note n="0567009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567009">七＝五【三】【宮】</note>
+<note n="0567010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567010">〔八〕－【三】【宮】</note>
+<note n="0567011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567011">九＝六【三】【宮】</note>
+<note n="0567012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567012">〔十〕－【三】【宮】</note>
+<note n="0567013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567013">十一＝七【三】【宮】，以下記數至二十四各減四數【三】【宮】</note>
+<note n="0567014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567014">毘＝比【三】【宮】</note>
+<note n="0567015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567015">哆＝陀【三】【宮】</note>
+<note n="0567016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567016">〔塞〕－【三】【宮】</note>
+<note n="0567017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567017">波＝婆【三】【宮】</note>
+<note n="0567018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567018">〔二十五〕－【三】【宮】</note>
+<note n="0567019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567019">二十六＝二十一【三】【宮】，以下記數至三十二各減五數【三】【宮】</note>
+<note n="0567020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567020">婆＝娑【宋】【元】【宮】</note>
+<note n="0567021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567021">〔三十三〕－【三】【宮】</note>
+<note n="0567022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567022">睛＝精【宋】【元】【宮】</note>
+<note n="0567023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567023">呵＋（二）記數【三】【宮】</note>
+<note n="0567024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567024">〔二〕－【三】</note>
+<note n="0567025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567025">帚＝菷【宋】【宮】，<g ref="#CB00416">󰆠</g>【元】【明】</note>
+<note n="0567026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567026">〔四〕－【三】【宮】</note>
+<note n="0567027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567027">五＝四【三】【宮】，以下記數至十二各減一數【三】【宮】</note>
+<note n="0567028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567028">羅＋（遮遮）【三】【宮】</note>
+<note n="0567029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567029">〔遮遮〕－【三】【宮】</note>
+<note n="0567030" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567030">茶＝荼【三】【宮】</note>
+<note n="0567031" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567031">〔十三〕－【三】【宮】</note>
+<note n="0567032" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567032">綵＝婇【三】【宮】</note>
+<note n="0567033" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567033">精＝睛【明】</note>
+<note n="0567034" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567034">〔彼〕－【三】【宮】</note>
+<note n="0567035" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567035">（五六八頁）不分卷【元】【明】，〔寶星…第六〕九字－【宋】【明】</note>
+<note n="0567036" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567036">此陀羅尼（本卷五六四頁[11]）以下明本之呪也今以宋元對校載此（cf. 76b 註1.）</note>
+<note n="0567037" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567037">切＝反【宮】</note>
+<note n="0567038" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0567038">聲＝音【宮】</note>
+<note n="0568001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568001">〔利〕－【宋】【宮】</note>
+<note n="0568002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568002">曼＝漫【宋】【宮】＊</note>
+<note n="0568003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568003">聲＝音【宋】【元】【宮】</note>
+<note n="0568004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568004">囉＝羅【宮】</note>
+<note n="0568005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568005">此陀羅尼（本卷五六六）[06]以下【明】之呪也今以【宋】【元】對校載此（cf. 77b 註4.）</note>
+<note n="0568006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568006">切＝反【宮】</note>
+<note n="0568007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0568007">去＝云【宮】</note>
+</p>
+</cb:div>
+</back></text></TEI>

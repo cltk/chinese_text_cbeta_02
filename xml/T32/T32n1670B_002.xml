@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T32n1670B">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1670B 那先比丘經</title>
+			<author>失譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.16 $<date>$Date: 2009/04/23 08:08:32 $</date></edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+	</editionStmt>
+	<extent>3卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2009/04/23 08:08:32 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 32, No. 1670B </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宮】</witness>
+		<witness xml:id="wit3">【宋】</witness>
+		<witness xml:id="wit4">【元】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by SAT, Japan, Text as provided by Anonymous from USA, CBETA OCR Group</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，日本 SAT 組織提供，北美某大德提供，CBETA 自行掃瞄辨識</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB01219">
+	<charName>CBETA CHARACTER CB01219</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*后]</value>
+	</charProp>
+	<mapping type="unicode">U+3583</mapping>
+	<mapping cb:dec="984259" type="PUA">U+F04C3</mapping>
+</char>
+<char xml:id="CB03118">
+	<charName>CBETA CHARACTER CB03118</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*身]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>呻</value>
+	</charProp>
+	<mapping type="unicode">U+20CB3</mapping>
+	<mapping cb:dec="986158" type="PUA">U+F0C2E</mapping>
+</char>
+<char xml:id="CB14570">
+	<charName>CBETA CHARACTER CB14570</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[卄/兵]</value>
+	</charProp>
+	<mapping cb:dec="997610" type="PUA">U+F38EA</mapping>
+</char>
+<char xml:id="CB14581">
+	<charName>CBETA CHARACTER CB14581</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[仁-二+恃]</value>
+	</charProp>
+	<mapping cb:dec="997621" type="PUA">U+F38F5</mapping>
+</char>
+<char xml:id="CB14593">
+	<charName>CBETA CHARACTER CB14593</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[咐-寸+(亡/隹)]</value>
+	</charProp>
+	<mapping cb:dec="997633" type="PUA">U+F3901</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-10-12T10:25:27">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:div type="jing">
+<lb n="0709c15" ed="T"/>
+<milestone n="2" unit="juan"/>
+<lb n="0709c16" ed="T"/>
+<lb n="0709c17" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="002" type="卷"></cb:mulu><cb:jhead>那先<anchor xml:id="fxT32p0709c01"/>比丘經卷中</cb:jhead></cb:juan>
+<lb n="0709c18" ed="T"/>
+<lb n="0709c19" ed="T"/><byline cb:type="Translator">失譯<anchor xml:id="nkr_note_orig_0709006" n="0709006"/><anchor xml:id="beg0709006" n="0709006"/>人名附東晉錄<anchor xml:id="end0709006"/></byline>
+<lb n="0709c20" ed="T"/><p xml:id="pT32p0709c2001">王問人更樂者為善耶不善也。人更苦為善
+<lb n="0709c21" ed="T"/>耶為不善也。佛得無不說有樂或有苦。王言
+<lb n="0709c22" ed="T"/>如使有為無有苦。那先問王言如人燒鐵著
+<lb n="0709c23" ed="T"/>手中寧燒人手不。復取氷著手中其氷寧復
+<lb n="0709c24" ed="T"/>燒人手不。王言然兩手皆威也。那先問王言。
+<lb n="0709c25" ed="T"/>如是兩手中物皆熱耶。王言不兩熱。那先言
+<lb n="0709c26" ed="T"/>兩冷耶。王言不兩冷也。那先言兩手中皆燒。
+<lb n="0709c27" ed="T"/>那先言我重問王。王前後兩熱當言兩熱。兩
+<lb n="0709c28" ed="T"/>冷當言兩冷。何緣一冷一熱能同言燒人手
+<lb n="0709c29" ed="T"/>乎。王言智慮甚淺近不能及是難也。願那先
+<pb n="0710a" xml:id="T32.1670B.0710a" ed="T"/>
+<lb n="0710a01" ed="T"/>為我解之。那先言佛經說之。凡有六事。令人
+<lb n="0710a02" ed="T"/>內喜。有六事令人內愁。復有六事。令人不喜
+<lb n="0710a03" ed="T"/>亦不愁。外復有六事。令人愁。王問何等為六
+<lb n="0710a04" ed="T"/>事。令人內喜。那先言。一者目有所視復有所
+<lb n="0710a05" ed="T"/>望。是故令人內喜。二者耳聞好聲復有所望。
+<lb n="0710a06" ed="T"/>是故令人內喜。三者鼻聞好香復有所望。是
+<lb n="0710a07" ed="T"/>故令人內喜。四者舌得美味復有所望。是故
+<lb n="0710a08" ed="T"/>令人內喜。五者身得細滑復有所望。是故令
+<lb n="0710a09" ed="T"/>人內喜。六者心得樂受復有所望。是故令人
+<lb n="0710a10" ed="T"/>內喜。如是六事令人內喜。王復問何等為外
+<lb n="0710a11" ed="T"/>六事。令人喜。那先言一者眼見好色念之不
+<lb n="0710a12" ed="T"/>可常得皆當棄捐便自思惟審然無常。是故
+<lb n="0710a13" ed="T"/>令人外喜。二者耳聞好聲念之不可常得皆
+<lb n="0710a14" ed="T"/>當棄捐。是故令人外喜。三者鼻聞好香念之
+<lb n="0710a15" ed="T"/>不可常得皆當棄捐。是故令人外喜。四者口
+<lb n="0710a16" ed="T"/>得美味念之不可常得皆當棄捐。是故令人
+<lb n="0710a17" ed="T"/>外喜。五者身得細滑念之不可常得皆當棄
+<lb n="0710a18" ed="T"/>捐。是故令人外喜。六者心念愛欲思惟念之
+<lb n="0710a19" ed="T"/>是皆無常皆當<anchor xml:id="nkr_note_orig_0710001" n="0710001"/><anchor xml:id="beg0710001" n="0710001"/>棄捐<anchor xml:id="end0710001"/>念之是以後更喜。是為
+<lb n="0710a20" ed="T"/>六事令人外喜。王復問何等為內六事令人
+<lb n="0710a21" ed="T"/>內愁。那先言。一者令人內愁者目所不喜而
+<lb n="0710a22" ed="T"/>見之令人內愁。二者耳不欲所聞而聞之令
+<lb n="0710a23" ed="T"/>人內愁。三者鼻不欲所臭而<anchor xml:id="nkr_note_orig_0710002" n="0710002"/><anchor xml:id="nkr_note_mod_0710002" n="0710002"/><anchor xml:id="beg0710002" n="0710002"/>嗅<anchor xml:id="end0710002"/>之令人內愁。
+<lb n="0710a24" ed="T"/>四者口不欲所得而得之令人內愁。五者身
+<lb n="0710a25" ed="T"/>不欲所著而著之令人內愁。六者心不<anchor xml:id="nkr_note_orig_0710003" n="0710003"/><anchor xml:id="beg0710003" n="0710003"/>可<anchor xml:id="end0710003"/>所
+<lb n="0710a26" ed="T"/>喜而有之令人內愁。是為六事令人內愁。王
+<lb n="0710a27" ed="T"/>復問何等為外六事。令人不喜。那先言。一者
+<lb n="0710a28" ed="T"/>目見惡色令人不喜。二者耳聞惡聲令人不
+<lb n="0710a29" ed="T"/>喜。三者鼻聞臭腥令人不喜。四者舌得苦辛
+<pb n="0710b" xml:id="T32.1670B.0710b" ed="T"/>
+<lb n="0710b01" ed="T"/>令人不喜。五者身著麁堅令人不喜。六者心
+<lb n="0710b02" ed="T"/>有所憎令人不喜。是為外六事令人不喜。王
+<lb n="0710b03" ed="T"/>復問何等為六事。令人不愁亦不喜。那先言。
+<lb n="0710b04" ed="T"/>一者目有所見亦不喜不愁。二者耳有所聞
+<lb n="0710b05" ed="T"/>音亦不喜亦不愁。三者鼻有<anchor xml:id="fxT32p0710b01"/>所嗅亦不喜亦
+<lb n="0710b06" ed="T"/>不愁。四者口有所得亦不喜亦不愁。五者身
+<lb n="0710b07" ed="T"/>有所觸亦不喜亦不愁。六者心有所念亦不
+<lb n="0710b08" ed="T"/>喜亦不愁。是為內六事。令人不喜不愁。王復
+<lb n="0710b09" ed="T"/>問何等為外六事。令人愁者。那先言。一者目
+<lb n="0710b10" ed="T"/>所見死者因自念身及萬物無常。其人自念
+<lb n="0710b11" ed="T"/>言我有是念何以不得道因外愁。二者耳不
+<lb n="0710b12" ed="T"/>樂好音其人自念言。我有是念何以不得道
+<lb n="0710b13" ed="T"/>因外愁。三者鼻不喜臭香其人自念言。我有
+<lb n="0710b14" ed="T"/>是念何以不得道因外愁。四者口不味苦甜
+<lb n="0710b15" ed="T"/>其人自念。我有是念何以不得道因外愁。五
+<lb n="0710b16" ed="T"/>者身不好細滑亦不得麁堅其人自念言。我
+<lb n="0710b17" ed="T"/>有是念何以不得道因外愁。六者心不喜愛
+<lb n="0710b18" ed="T"/>欲其人自念言。我有是念何以不得道因外
+<lb n="0710b19" ed="T"/>愁。是為六事令人外愁。王言善哉善哉。王復
+<lb n="0710b20" ed="T"/>問那先人以死後誰於後世生者。那先言名
+<lb n="0710b21" ed="T"/>與身於後世生。王問那先故人名身行生耶。
+<lb n="0710b22" ed="T"/>那先言不也。非故名亦非故身持是名身於
+<lb n="0710b23" ed="T"/>今世作善惡乃於後世生耳。王言如使今世
+<lb n="0710b24" ed="T"/>用是名身作善惡於後世身不復生者極可作
+<lb n="0710b25" ed="T"/>善惡徑可得脫不復更諸苦耶。那先言於今
+<lb n="0710b26" ed="T"/>世作善後世不復生者便可得脫無耶。人作
+<lb n="0710b27" ed="T"/>善惡不止當後生耳是故不得脫。那先言譬
+<lb n="0710b28" ed="T"/>如人盜他人果蓏其主得盜果者將至王前白
+<lb n="0710b29" ed="T"/>言。是人盜我果其盜者言。我不盜是人果是
+<pb n="0710c" xml:id="T32.1670B.0710c" ed="T"/>
+<lb n="0710c01" ed="T"/>人所種小栽耳本不種果也。我自取果我何
+<lb n="0710c02" ed="T"/>用為盜我不盜是人果我不應有罪過。那先
+<lb n="0710c03" ed="T"/>問王言。如是兩人共爭誰為直者誰不直者。
+<lb n="0710c04" ed="T"/>王言種栽家為直本造所種盜者無狀應為有
+<lb n="0710c05" ed="T"/>罪。那先言盜何用為有罪。王言所以盜者有
+<lb n="0710c06" ed="T"/>罪本種栽家所種從栽根生故上有果耳。那先
+<lb n="0710c07" ed="T"/>言人生亦譬如是人今世用是名身作善惡乃
+<lb n="0710c08" ed="T"/>生於後世今世作善惡者是本也。那先言。譬
+<lb n="0710c09" ed="T"/>如人盜他人禾穟其主得盜便牽問之汝盜我
+<lb n="0710c10" ed="T"/>禾穟。為盜者言我不盜卿禾穟卿自種禾我
+<lb n="0710c11" ed="T"/>自取穟我何用為犯盜。兩人相牽至王前白
+<lb n="0710c12" ed="T"/>如是誰為直者誰為不直。王言種禾穀為直
+<lb n="0710c13" ed="T"/>盜者為不直。那先言何以知盜禾穟者為不
+<lb n="0710c14" ed="T"/>直。王言是種禾者為本有不種禾者為無緣
+<lb n="0710c15" ed="T"/>何有穟。那先言人生亦譬如是。人今世用是
+<lb n="0710c16" ed="T"/>名身作善惡。乃生於後世。今世作善惡者是
+<lb n="0710c17" ed="T"/>其本也。那先言。譬如人冬寒於一舍中然火
+<lb n="0710c18" ed="T"/>欲自溫炙。其人棄火而去。稍稍然及壁土燒
+<lb n="0710c19" ed="T"/>屋連及樓舍。舍主因言起火者牽至王前白
+<lb n="0710c20" ed="T"/>言。是人起火延及燒我樓舍。然火者言我然
+<lb n="0710c21" ed="T"/>小火自溫炙耳。我不燒樓舍。那先問王誰為
+<lb n="0710c22" ed="T"/>直者。王言本然火者為不直本所生也。那先
+<lb n="0710c23" ed="T"/>言人生亦爾。譬如人今世用是名身作善惡。
+<lb n="0710c24" ed="T"/>乃生於後世今世作善惡者是本也。那先言
+<lb n="0710c25" ed="T"/>譬如人夜然燭火著壁欲用自照飯食。燭稍
+<lb n="0710c26" ed="T"/>却及壁上及竹木林材。便燒一舍火大熾延
+<lb n="0710c27" ed="T"/>及燒一城中。舉城中人民共<anchor xml:id="nkr_note_orig_0710004" n="0710004"/><anchor xml:id="nkr_note_mod_0710004" n="0710004"/><anchor xml:id="beg0710004" n="0710004"/><g ref="#CB01219">㖃</g><anchor xml:id="end0710004"/>言。汝何為燒
+<lb n="0710c28" ed="T"/>一城中乃如是。然火者言我但然小燭火以
+<lb n="0710c29" ed="T"/>自照飯食耳。是自大火非我火也。如是便共
+<pb n="0711a" xml:id="T32.1670B.0711a" ed="T"/>
+<lb n="0711a01" ed="T"/>爭訟相牽至王前。那先問王言。如是誰為直
+<lb n="0711a02" ed="T"/>者誰為不直者。王言然火者為不直。那先言
+<lb n="0711a03" ed="T"/>何以知。王言本是火所生也。汝飯食已不當
+<lb n="0711a04" ed="T"/>滅火<anchor xml:id="nkr_note_orig_0711001" n="0711001"/><anchor xml:id="beg0711001" n="0711001"/>也<anchor xml:id="end0711001"/>而令火燒一城中。那先言。人生亦譬
+<lb n="0711a05" ed="T"/>如是人今世用是名身作善惡。乃生於後世
+<lb n="0711a06" ed="T"/>今世作善惡者是其本也。人用不知作善惡
+<lb n="0711a07" ed="T"/>故不能得度脫。那先言。譬如人以錢娉求人
+<lb n="0711a08" ed="T"/>家小女。以後女長大他人復更求娉求女得
+<lb n="0711a09" ed="T"/>女以為婦。前所娉家來自說言。汝反取婦為。
+<lb n="0711a10" ed="T"/>後家言。汝自小時娉女我自大時娉婦我何
+<lb n="0711a11" ed="T"/>用為嬰汝婦耶。便相牽詣王前。那先言王如
+<lb n="0711a12" ed="T"/>是誰為直者誰為不直者。王言前娉家為直。
+<lb n="0711a13" ed="T"/>那先言王何以知。王言是女本小今稍長大
+<lb n="0711a14" ed="T"/>是故知為直也。是前娉家婦也。那先言人生
+<lb n="0711a15" ed="T"/>亦譬如是人今世用是名身作善惡。乃生於
+<lb n="0711a16" ed="T"/>後世今世作善惡者是其本也。那先言譬如
+<lb n="0711a17" ed="T"/>人持瓶從牧牛家買乳湩。得湩已復還寄其主
+<lb n="0711a18" ed="T"/>言我今還。不久其人須臾來還取瓶湩湩以
+<lb n="0711a19" ed="T"/>轉作酪。買湩家言。我持湩寄卿今反持酪還
+<lb n="0711a20" ed="T"/>我牧牛者。言是汝故乳今自轉為酪。兩人因
+<lb n="0711a21" ed="T"/>共爭訟相牽詣王前。那先問王言如是誰為
+<lb n="0711a22" ed="T"/>直者。王言牧牛家為直那先言王何以知。王
+<lb n="0711a23" ed="T"/>言汝自買湩停置地自轉成酪。牧牛家當有
+<lb n="0711a24" ed="T"/>何過。那先言人生亦譬如是人今世用是名
+<lb n="0711a25" ed="T"/>身作善惡。乃生於後世今世作善惡者是其
+<lb n="0711a26" ed="T"/>本也。王復問今那先當復於後世生耶。那先
+<lb n="0711a27" ed="T"/>報王言用是為問我前說已如使我有恩愛者
+<lb n="0711a28" ed="T"/>後世當復生。如使我無恩愛者不復生。那先
+<lb n="0711a29" ed="T"/>言譬如人竭力事王。王當知其善使賜其財
+<pb n="0711b" xml:id="T32.1670B.0711b" ed="T"/>
+<lb n="0711b01" ed="T"/>物。其人得物極自施用衣被飲食歡樂自樂。
+<lb n="0711b02" ed="T"/>其人論議言。我有功於王。王未曾有賞賜我
+<lb n="0711b03" ed="T"/>也。那先問王如彼人得賞賜。反言未曾得其
+<lb n="0711b04" ed="T"/>人語寧可用不。王言其人語不可用。那先言
+<lb n="0711b05" ed="T"/>是故我語王言。如使我有恩愛者當復於後
+<lb n="0711b06" ed="T"/>世生。如使我無恩愛者不復於後世生。王言
+<lb n="0711b07" ed="T"/>善哉善哉。王問那先言。卿前所說人名與身
+<lb n="0711b08" ed="T"/>何等為名何等為身者。那先言今見在為身
+<lb n="0711b09" ed="T"/>心所念者為名。王復問人何故有名行於後
+<lb n="0711b10" ed="T"/>世生而身不行生。那先言人身以名前後相
+<lb n="0711b11" ed="T"/>連。譬如鷄子中汁及與上皮乃成鷄子。人名
+<lb n="0711b12" ed="T"/>與身相連如是不分也。王言善哉。王復問那
+<lb n="0711b13" ed="T"/>先何等為久者。那先言以過去事為久。當來
+<lb n="0711b14" ed="T"/>事亦為久。見在事為無有久。王言善哉。王復
+<lb n="0711b15" ed="T"/>問那先言審為有久不。那先言。或有久或無
+<lb n="0711b16" ed="T"/>有久。王復言。何等為有久何等為無有久。那
+<lb n="0711b17" ed="T"/>先言其得道泥洹者為無久。未得道當復更
+<lb n="0711b18" ed="T"/>死生者為有久。人於今世好布施孝於父母
+<lb n="0711b19" ed="T"/>於當來世當得其福。王言善哉善哉。王復問
+<lb n="0711b20" ed="T"/>那先言諸以過去事當來事今<anchor xml:id="nkr_note_orig_0711002" n="0711002"/><anchor xml:id="nkr_note_mod_0711002" n="0711002"/><anchor xml:id="beg0711002" n="0711002"/>見<anchor xml:id="end0711002"/>在事是三
+<lb n="0711b21" ed="T"/>事何所為本者。那先言已過去事當來事<anchor xml:id="fxT32p0711b01"/>今
+<lb n="0711b22" ed="T"/>見在事愚癡者是其本也。愚癡生即生神神
+<lb n="0711b23" ed="T"/>生身身生名名生色色生六知。一為眼知。二
+<lb n="0711b24" ed="T"/>為耳知。三為鼻知。四為口知五為身知。六為
+<lb n="0711b25" ed="T"/>心知。是為六知。是六事皆外向。何等為外向
+<lb n="0711b26" ed="T"/>眼向色耳向聲鼻向香口向味身向滑心向貪
+<lb n="0711b27" ed="T"/>欲是為六外。向名為沛。沛者合沛者知苦知
+<lb n="0711b28" ed="T"/>樂。從苦樂生恩愛。從恩愛生貪欲。從貪欲生
+<lb n="0711b29" ed="T"/>有致便生因老。從老因病從病因死從死因
+<pb n="0711c" xml:id="T32.1670B.0711c" ed="T"/>
+<lb n="0711c01" ed="T"/>哭從哭因憂從憂因內心痛。凡合是諸勤苦
+<lb n="0711c02" ed="T"/>合名為人。人以是故生死無有絕時。人故本
+<lb n="0711c03" ed="T"/>身不可得也。那先言譬如人種五穀生根從
+<lb n="0711c04" ed="T"/>根生莖葉實至後得穀已。後年復種得穀甚
+<lb n="0711c05" ed="T"/>多。那先問王如人種穀歲歲種穀寧有絕不
+<lb n="0711c06" ed="T"/>生時不。王言歲歲種穀無有絕不生時也。那
+<lb n="0711c07" ed="T"/>先言人生亦如是。展轉相生無有絕時。那先
+<lb n="0711c08" ed="T"/>言譬如鷄生卵卵生鷄從卵生卵從鷄生鷄。
+<lb n="0711c09" ed="T"/>人生死亦如是無有絕時。那先便畫地作車
+<lb n="0711c10" ed="T"/>輪問王言。今是輪寧有角無。王言正圓無有
+<lb n="0711c11" ed="T"/>角。那先言佛經說人生死如車輪展轉相生
+<lb n="0711c12" ed="T"/>無有絕時。那先言人從眼萬物色識即覺知
+<lb n="0711c13" ed="T"/>是三事合。從合生苦樂從苦樂生恩愛從恩
+<lb n="0711c14" ed="T"/>愛生貪欲從貪欲生因有致從有致因生從生
+<lb n="0711c15" ed="T"/>因作善惡從善惡便生。耳聞聲識即覺知三
+<lb n="0711c16" ed="T"/>事合。從合生苦樂從苦樂生恩愛從恩愛生
+<lb n="0711c17" ed="T"/>貪欲從貪欲生因有致從有致因生從因生作
+<lb n="0711c18" ed="T"/>善惡從善惡便生。鼻聞香識即覺知三事合。
+<lb n="0711c19" ed="T"/>從合生苦樂從苦樂生恩愛從恩愛生貪欲從
+<lb n="0711c20" ed="T"/>貪欲生因有致從有致因生從生因作善惡從
+<lb n="0711c21" ed="T"/>善惡便生。口得味識即覺知三事合。從合生
+<lb n="0711c22" ed="T"/>苦樂從苦樂生恩愛從恩愛生貪欲從貪欲生
+<lb n="0711c23" ed="T"/>因有致從有致因生從因生作善惡從善惡便
+<lb n="0711c24" ed="T"/>生。身得細滑識即<anchor xml:id="nkr_note_orig_0711003" n="0711003"/><anchor xml:id="beg0711003" n="0711003"/>覺<anchor xml:id="end0711003"/>知三事合。從合生苦
+<lb n="0711c25" ed="T"/>樂從苦樂生恩愛從恩愛生貪欲從貪欲生因
+<lb n="0711c26" ed="T"/>有致從有致因生從生因作善惡從善惡便
+<lb n="0711c27" ed="T"/>生。意有所念識即覺知三事合。從合生苦
+<lb n="0711c28" ed="T"/>樂從苦樂生恩愛從恩愛生貪欲從貪欲生因
+<lb n="0711c29" ed="T"/>有致從有致因生從因生作善惡從善惡便
+<pb n="0712a" xml:id="T32.1670B.0712a" ed="T"/>
+<lb n="0712a01" ed="T"/>生。那先言人展轉相生無有絕。王言善哉。王
+<lb n="0712a02" ed="T"/>復問那先卿言人生死不可得本不可得本意
+<lb n="0712a03" ed="T"/>云何。那先言有本者當不復生。有本者當復
+<lb n="0712a04" ed="T"/>過去用是為本。王言無本者當不復生。見有
+<lb n="0712a05" ed="T"/>本者當過去如是本為未絕耶。那先言然皆
+<lb n="0712a06" ed="T"/>當過去。王復問那先人生死寧有從旁增益
+<lb n="0712a07" ed="T"/>者不。那先問王言世間人及蚑行蠕動之類
+<lb n="0712a08" ed="T"/>寧有從旁增益者不。王言我不問那先世間
+<lb n="0712a09" ed="T"/>人及蚑行蠕動之類。我但欲問卿人生死本
+<lb n="0712a10" ed="T"/>耳。那先言樹木生以栽為本五穀生以穀為
+<lb n="0712a11" ed="T"/>本。天下萬物皆各以其類本生。人從六情恩
+<lb n="0712a12" ed="T"/>愛為本。那先言人有眼有色有識。有耳有聲
+<lb n="0712a13" ed="T"/>有識。有鼻有香有識。有舌有味有識。有身有
+<lb n="0712a14" ed="T"/>細滑有識。有念有法有識。從是生苦樂從苦
+<lb n="0712a15" ed="T"/>樂生恩愛從恩愛生貪欲從貪欲生合是諸苦
+<lb n="0712a16" ed="T"/>乃成為人耳。眼耳鼻口身神識念使有致并
+<lb n="0712a17" ed="T"/>合為沛。從沛生苦樂從苦樂生恩愛從恩愛
+<lb n="0712a18" ed="T"/>生貪欲從貪欲因生有致從有致因生從生因
+<lb n="0712a19" ed="T"/>老因病從病因死因憂從憂因哭從哭因內心
+<lb n="0712a20" ed="T"/>痛人生如是。那先言無眼不見色不覺不知
+<lb n="0712a21" ed="T"/>從不覺不知無有合。無有合無有苦樂無有
+<lb n="0712a22" ed="T"/>苦樂便不生恩愛。無恩愛不生貪欲無貪欲
+<lb n="0712a23" ed="T"/>無有致無有致不生不老。不生不老不病不
+<lb n="0712a24" ed="T"/>死不病不死不愁不哭。不愁不哭不內心痛
+<lb n="0712a25" ed="T"/>無是諸苦便度脫得泥洹道。無耳無所聞無
+<lb n="0712a26" ed="T"/>鼻無所嗅無口無所味無身無細滑無識無所
+<lb n="0712a27" ed="T"/>念。無所念無沛無沛無苦樂無苦樂無恩愛
+<lb n="0712a28" ed="T"/>無恩愛無貪欲無貪欲無胞胎。無所胞胎無所
+<lb n="0712a29" ed="T"/>生不生不老不老不病不病不死不死不愁不
+<pb n="0712b" xml:id="T32.1670B.0712b" ed="T"/>
+<lb n="0712b01" ed="T"/>愁不哭不哭不內心痛。捐棄諸苦便得泥洹
+<lb n="0712b02" ed="T"/>道。王言善哉。王復問那先言世間寧有自然
+<lb n="0712b03" ed="T"/>生物無。那先言無有自然生物皆當有所因。
+<lb n="0712b04" ed="T"/>那先因問王。今王所坐殿有人功夫作之耶
+<lb n="0712b05" ed="T"/>自然生乎。王言人功作之材椽出於樹木垣
+<lb n="0712b06" ed="T"/>牆泥土出於地。那先言人生亦如是。界如和
+<lb n="0712b07" ed="T"/>合乃成為人。是故無自然生物也皆有所因。
+<lb n="0712b08" ed="T"/>那先言譬如窯家作器取土水和以為泥燒作
+<lb n="0712b09" ed="T"/>雜器物其泥不能自成為器。會當須人工有
+<lb n="0712b10" ed="T"/>薪火乃成為器耳。世間無有自然生者也。那
+<lb n="0712b11" ed="T"/>先語王言譬如箜篌無<anchor xml:id="nkr_note_orig_0712001" n="0712001"/><anchor xml:id="nkr_note_mod_0712001" n="0712001"/><anchor xml:id="beg0712001" n="0712001"/>絃<anchor xml:id="end0712001"/>無柱無人鼓者寧
+<lb n="0712b12" ed="T"/>能作聲不。王言不能自作聲。那先言如使箜
+<lb n="0712b13" ed="T"/>篌有絃有柱有人工鼓者其聲寧出不。王言
+<lb n="0712b14" ed="T"/>有聲。那先言如是天下無自然生物皆當有
+<lb n="0712b15" ed="T"/>所因。那先問王如鑽火燧無兩木無人鑽者
+<lb n="0712b16" ed="T"/>寧能得火不。王言不能得火。那先言設有兩
+<lb n="0712b17" ed="T"/>木有人鑽之寧能生火不。王言然即生火。那
+<lb n="0712b18" ed="T"/>先言天下無有自然生物皆當有所因。那先
+<lb n="0712b19" ed="T"/>問王言譬如陽<anchor xml:id="nkr_note_orig_0712002" n="0712002"/><anchor xml:id="beg0712002" n="0712002"/>燧<anchor xml:id="end0712002"/>鉤無人持之亦無日無天
+<lb n="0712b20" ed="T"/>寧能得火。那先言如陽<anchor xml:id="beg_4" type="star"/>燧<anchor xml:id="end_4"/>有人持之有天有
+<lb n="0712b21" ed="T"/>日寧能得火不。王言得火。那先言天下無有
+<lb n="0712b22" ed="T"/>自然生物皆當有因。那先問王言若人無鏡
+<lb n="0712b23" ed="T"/>無明人欲自照寧能自見其形不。王言不能
+<lb n="0712b24" ed="T"/>自見。那先言如有有鏡有明有人自照寧能
+<lb n="0712b25" ed="T"/>自見形不。王言然即能自見。那先言天下無
+<lb n="0712b26" ed="T"/>有自然生物皆有所因。王言善哉。王復問那
+<lb n="0712b27" ed="T"/>先世間人寧為有人無。那先言世間不能審
+<lb n="0712b28" ed="T"/>有人也適當呼誰為人。王言身中命即為人
+<lb n="0712b29" ed="T"/>不。那先問王人身中命能用眼視色。不能用
+<pb n="0712c" xml:id="T32.1670B.0712c" ed="T"/>
+<lb n="0712c01" ed="T"/>耳聽音聲。不能用鼻聞香。不能用舌知味。不
+<lb n="0712c02" ed="T"/>能用身知細滑。不能用意有所知不。王言能。
+<lb n="0712c03" ed="T"/>那先言今我與王其於殿上四面有窓自在欲
+<lb n="0712c04" ed="T"/>從何窓者寧能見不。王言得見。那先言設令
+<lb n="0712c05" ed="T"/>人命在身中自在欲從何孔視耳能以眼視色。
+<lb n="0712c06" ed="T"/>不能用耳視色。不能用鼻視色。不能用口視
+<lb n="0712c07" ed="T"/>色。不能用身視色。不能用意視色不。王言
+<lb n="0712c08" ed="T"/>不能。那先言設令命在耳能以耳有所聞。不
+<lb n="0712c09" ed="T"/>能以耳有所見。不能以耳知香臭。不能以耳
+<lb n="0712c10" ed="T"/>知味。不能以耳知細滑。不能以耳有所念不。
+<lb n="0712c11" ed="T"/>那先言設令命在鼻能以鼻知香臭。不能以
+<lb n="0712c12" ed="T"/>鼻聞音聲。不能以鼻知味。不能以鼻知細滑。
+<lb n="0712c13" ed="T"/>不能以鼻有所念不。那先言設令命在口能
+<lb n="0712c14" ed="T"/>以口知味。不能以口有所見。不能以口聽音
+<lb n="0712c15" ed="T"/>聲。不能以口聞<anchor xml:id="nkr_note_orig_0712003" n="0712003"/><anchor xml:id="beg0712003" n="0712003"/>臭<anchor xml:id="end0712003"/>香。不能以口知細滑。不
+<lb n="0712c16" ed="T"/>能以口有所念不。那先言設令命在身中能
+<lb n="0712c17" ed="T"/>以身知細滑。不能以身有所見。不能以身聽
+<lb n="0712c18" ed="T"/>音聲。不能以身知臭香。不能以身知味。不能
+<lb n="0712c19" ed="T"/>以身有所念不。那先言設令命在識能以識
+<lb n="0712c20" ed="T"/>有所念。不能以識聽音聲。不能以識知臭香。
+<lb n="0712c21" ed="T"/>不能以識知味。不能以識知細滑不。王言不
+<lb n="0712c22" ed="T"/>能知也。那先言王所語前後不相副。那先言
+<lb n="0712c23" ed="T"/>如我與王共在殿上坐徹壞四窓者視寧廣遠
+<lb n="0712c24" ed="T"/>不。王言然廣遠。那先言設令命在身中挒眼
+<lb n="0712c25" ed="T"/>去之其視寧廣遠不。決耳令大其聽寧能遠
+<lb n="0712c26" ed="T"/>不。決鼻令大聞香寧能遠不。決口令大知味
+<lb n="0712c27" ed="T"/>寧能多不。副剝皮膚知細滑寧多不。決判
+<lb n="0712c28" ed="T"/>去意其令寧大不。王言不也。那先言王亦語
+<lb n="0712c29" ed="T"/>前後不相副。那先問王言王持藏人來入在
+<pb n="0713a" xml:id="T32.1670B.0713a" ed="T"/>
+<lb n="0713a01" ed="T"/>王前住王寧覺知在前住不。王言知在前。那
+<lb n="0713a02" ed="T"/>先言持藏者<anchor xml:id="nkr_note_orig_0713001" n="0713001"/><anchor xml:id="beg0713001" n="0713001"/>即<anchor xml:id="end0713001"/>入王室寧知入室不。王言知
+<lb n="0713a03" ed="T"/>入室也。那先言設令人命在身中人持味著
+<lb n="0713a04" ed="T"/>口中能知<anchor xml:id="nkr_note_orig_0713002" n="0713002"/><anchor xml:id="beg0713002" n="0713002"/>甜<anchor xml:id="end0713002"/>醋酸醎辛苦。王言知之。那先
+<lb n="0713a05" ed="T"/>言王所語前後不相副也。那先言如人沽美
+<lb n="0713a06" ed="T"/>酒著大器中急塞一人口倒置酒中令甞酒其
+<lb n="0713a07" ed="T"/>人寧知酒味不。王言其人不知。那先言何以
+<lb n="0713a08" ed="T"/>故不知味。王言未入口到舌上故不知味。那
+<lb n="0713a09" ed="T"/>先言王所語前後不相副。王言我愚癡智未
+<lb n="0713a10" ed="T"/>及是難願相解之。那先言人從眼見色神動。
+<lb n="0713a11" ed="T"/>神動即生苦樂。意念合耳鼻口身意皆同合
+<lb n="0713a12" ed="T"/>為意有所念神動。神動即生苦樂從苦樂生
+<lb n="0713a13" ed="T"/>意從生念展轉相成適無常主。王言善哉。王
+<lb n="0713a14" ed="T"/>復問那先人生眼時眼與神俱生耶。那先言
+<lb n="0713a15" ed="T"/>然同時俱生。王復問眼居前生耶。神居前生
+<lb n="0713a16" ed="T"/>耶。那先言眼居前生神居後生。王言眼語神
+<lb n="0713a17" ed="T"/>言我所行生處。汝當隨我後生相語言兩耶。
+<lb n="0713a18" ed="T"/>神語眼言汝所生處。我當隨汝後生兩相語
+<lb n="0713a19" ed="T"/>不。那先言兩不相與語。王言卿不言同時俱
+<lb n="0713a20" ed="T"/>生何以故不相語。那先言有四事俱不相語。
+<lb n="0713a21" ed="T"/>那先自言何等四。一為下行二為向門三為行
+<lb n="0713a22" ed="T"/>轍四者為數。是四事俱不相語。王復問何等
+<lb n="0713a23" ed="T"/>為下行者。那先報王言高山上天雨其水隨
+<lb n="0713a24" ed="T"/>流當如何行。王言下行。那先言後復天雨其
+<lb n="0713a25" ed="T"/>水流當復如何行。王言當隨前流水處行。那
+<lb n="0713a26" ed="T"/>先問王言。前水寧語後水言汝當隨我後來。
+<lb n="0713a27" ed="T"/>後水寧語前水言我當隨汝處流行。前水後
+<lb n="0713a28" ed="T"/>水相語言爾不。王言水流各自行。前後不相
+<lb n="0713a29" ed="T"/>語也。那先言眼亦如水。眼不語神言汝當隨
+<pb n="0713b" xml:id="T32.1670B.0713b" ed="T"/>
+<lb n="0713b01" ed="T"/>我後生。神亦不語眼言我當隨汝後行生也。
+<lb n="0713b02" ed="T"/>眼與神俱不相語也。是名為下行。耳目鼻口
+<lb n="0713b03" ed="T"/>身意亦爾。王復問何等為向門者。那先言譬
+<lb n="0713b04" ed="T"/>如大城都有一門。其中有一人欲出當從何
+<lb n="0713b05" ed="T"/>向。王言當從門出耳。那先言後復有一人欲
+<lb n="0713b06" ed="T"/>出當復從何向出。王言故當從前一人門出
+<lb n="0713b07" ed="T"/>耳。那先言王前出人寧語後人言。汝當隨我
+<lb n="0713b08" ed="T"/>後出。後人寧語前人言。我當隨卿所從門出。
+<lb n="0713b09" ed="T"/>兩人寧相語言爾不。王言前人後人俱不相
+<lb n="0713b10" ed="T"/>語也。那先言眼亦如門。眼不語神言汝當隨
+<lb n="0713b11" ed="T"/>我後生。神亦不語眼言我今當隨汝後生。眼
+<lb n="0713b12" ed="T"/>與神俱不相語也。是為向門。耳鼻口身意亦
+<lb n="0713b13" ed="T"/>爾。王復問那先言何等為轍行者。那先問王
+<lb n="0713b14" ed="T"/>言前車行有轍後車行當從何所行。王言後
+<lb n="0713b15" ed="T"/>車當從前車轍中行。那先言前車輪寧語後
+<lb n="0713b16" ed="T"/>輪言汝當隨我處從後來。後<anchor xml:id="nkr_note_orig_0713003" n="0713003"/><anchor xml:id="beg0713003" n="0713003"/>車輪<anchor xml:id="end0713003"/>寧語前輪
+<lb n="0713b17" ed="T"/>我當隨汝處行。寧相語言爾不。王言俱不相
+<lb n="0713b18" ed="T"/>語也。那先言人亦如是。眼不語神我所生處
+<lb n="0713b19" ed="T"/>汝當隨我生。神亦不語眼我當隨卿後生。那
+<lb n="0713b20" ed="T"/>先言耳鼻口身神俱不相語。王復問那先何
+<lb n="0713b21" ed="T"/>等為數。那先言數者校計也書疏學問是為
+<lb n="0713b22" ed="T"/>數。耳目鼻口身神稍稍習知共合。是六事
+<lb n="0713b23" ed="T"/>乃為有所知。不從一事有所知也。王言善
+<lb n="0713b24" ed="T"/>哉。王復問那先言。人目生時與苦樂俱生
+<lb n="0713b25" ed="T"/>不。那先言目與苦樂俱生皆根從合生。王
+<lb n="0713b26" ed="T"/>復言何等為合者。那先言兩相觸為合。合
+<lb n="0713b27" ed="T"/>者譬如兩羊相抵是為合。一羊如目一羊如
+<lb n="0713b28" ed="T"/>色。合為名沛。譬如一手為目一手為色兩手
+<lb n="0713b29" ed="T"/>合為沛。譬如兩石一石為目一石為色。兩
+<pb n="0713c" xml:id="T32.1670B.0713c" ed="T"/>
+<lb n="0713c01" ed="T"/>石合為沛。耳目鼻身神皆同合為沛。譬如<anchor xml:id="nkr_note_orig_0713004" n="0713004"/><anchor xml:id="beg0713004" n="0713004"/>雨<anchor xml:id="end0713004"/>
+<lb n="0713c02" ed="T"/>石一石如神一石如志。兩石合為沛。神志合
+<lb n="0713c03" ed="T"/>如是。是名為沛。王言善哉。王復問那先。樂何
+<lb n="0713c04" ed="T"/>等類。那先言自覺知為樂。那先言譬若人事
+<lb n="0713c05" ed="T"/>國王。其人賢善。王賜與財物。其人得之。用自
+<lb n="0713c06" ed="T"/>快樂。在所欲為。其人自念。我事王得賞賜。今
+<lb n="0713c07" ed="T"/>得樂樂如是。那先言譬如人心念善口言善
+<lb n="0713c08" ed="T"/>身行善。行善如是死後得生天上。其人於天
+<lb n="0713c09" ed="T"/>上極意自娛樂自念言。我在世間時心念善
+<lb n="0713c10" ed="T"/>口言善身行善。是故我自致生此間。得樂甚
+<lb n="0713c11" ed="T"/>樂。是為覺。王言善哉。王復問那先。何等為覺
+<lb n="0713c12" ed="T"/>者。那先言從知為覺。譬如王有持藏者入藏
+<lb n="0713c13" ed="T"/>室中自視室中。自知有若干錢金銀珠<anchor xml:id="nkr_note_orig_0713005" n="0713005"/><anchor xml:id="beg0713005" n="0713005"/>玉<anchor xml:id="end0713005"/>繒
+<lb n="0713c14" ed="T"/>帛雜香色皆知雜處。是為覺知。王言善哉。王
+<lb n="0713c15" ed="T"/>復問那先言。人有所念何等類。那先言人有
+<lb n="0713c16" ed="T"/>所念因有所作。譬如人和毒藥自飲。亦復行
+<lb n="0713c17" ed="T"/>飲人。身自苦亦復苦他人身。那先言譬如人
+<lb n="0713c18" ed="T"/>作惡死後當入泥犁中。諸所教者皆入泥犁
+<lb n="0713c19" ed="T"/>中。惡人有所念所作言如是。王言善哉。王復
+<lb n="0713c20" ed="T"/>問那先言。何等為內動者。那先言志念內便
+<lb n="0713c21" ed="T"/>動。王言動行時云何。那先言譬如銅鋗銅釜。
+<lb n="0713c22" ed="T"/>有人往燒之。其器有聲。舉<anchor xml:id="nkr_note_orig_0713006" n="0713006"/><anchor xml:id="beg0713006" n="0713006"/>乎<anchor xml:id="end0713006"/>有餘音。而行
+<lb n="0713c23" ed="T"/>人如是志動念因行。那先言燒時為動有餘
+<lb n="0713c24" ed="T"/>音為行。王言善哉。王復問那先言。能合取分
+<lb n="0713c25" ed="T"/>別之不。是為合。是為智。是為念。是為意。是
+<lb n="0713c26" ed="T"/>為動。那先言假令以合不可復分別也。那先
+<lb n="0713c27" ed="T"/>言王使宰人作美羹。中有水有肉有葱蒜有
+<lb n="0713c28" ed="T"/>薑有鹽豉有糯。王勅厨下人言。所作美羹如
+<lb n="0713c29" ed="T"/>前取羹中水味<anchor xml:id="nkr_note_orig_0713007" n="0713007"/><anchor xml:id="beg0713007" n="0713007"/>來<anchor xml:id="end0713007"/>。次取葱味來。次取薑味
+<pb n="0714a" xml:id="T32.1670B.0714a" ed="T"/>
+<lb n="0714a01" ed="T"/>來。次取鹽豉味來。次取糯味來。羹以成人寧
+<lb n="0714a02" ed="T"/>能一一取羹味與王不。王言羹一合以後不能
+<lb n="0714a03" ed="T"/>一一別味也。那先言諸事亦如是。一合不可
+<lb n="0714a04" ed="T"/>別也。是為苦樂是為智是為動是為念。王言
+<lb n="0714a05" ed="T"/>善哉善哉。王復問那先言。人持目視鹽味寧
+<lb n="0714a06" ed="T"/>可別知不。那先言王知乃如是耶。能持目視
+<lb n="0714a07" ed="T"/>知鹽味。王言目不知鹽味耶。那先言人持舌
+<lb n="0714a08" ed="T"/>能知鹽味取。不能以目知鹽味也。王復言人
+<lb n="0714a09" ed="T"/>用舌知味云。那先言人皆用舌別知味。王言
+<lb n="0714a10" ed="T"/>諸鹽味皆當用舌別知耶。那先言然。諸鹽味
+<lb n="0714a11" ed="T"/>皆當用舌別知耳。王復問那先言。車載鹽牛
+<lb n="0714a12" ed="T"/>軛鹽。車牛寧能別知鹽味不。那先言車牛不
+<lb n="0714a13" ed="T"/>能別知知鹽味也。王問那先言。鹽味寧可稱
+<lb n="0714a14" ed="T"/>不。那先言王智乃爾能稱鹽味。王問那先言。
+<lb n="0714a15" ed="T"/>鹽味不可稱也。其輕重可稱耳。王言善哉。王
+<lb n="0714a16" ed="T"/>復問那先。凡人身中五知作眾事所成耶。作
+<lb n="0714a17" ed="T"/>一事成五知耶。那先言作眾事所成。非一事
+<lb n="0714a18" ed="T"/>所成也。譬如一地五穀當生時各各自生動
+<lb n="0714a19" ed="T"/>類人身中五事皆用眾事各所生。王言善哉
+<lb n="0714a20" ed="T"/>善哉。王復問那先。世間人頭<anchor xml:id="nkr_note_orig_0714001" n="0714001"/><anchor xml:id="beg0714001" n="0714001"/>鬚<anchor xml:id="end0714001"/>髮膚面目
+<lb n="0714a21" ed="T"/>耳鼻口身體四支手足皆完具。何故中有壽
+<lb n="0714a22" ed="T"/>命長者。中有短命者。有多病者。中有少病者。
+<lb n="0714a23" ed="T"/>中有貧者。中有富者。中有貴者。中有賤者。中
+<lb n="0714a24" ed="T"/>有大士者。中有小士者。中有端正者。中有醜
+<lb n="0714a25" ed="T"/>者。中有為人所信者。中有為人所疑者。中有
+<lb n="0714a26" ed="T"/>明孝者。中有愚者。何故不同。那先言譬如諸
+<lb n="0714a27" ed="T"/>樹木果眾中有醋不甜者。中有苦者。中有辛
+<lb n="0714a28" ed="T"/>者。中有甜者。中有正醋者。那先問王言。是
+<lb n="0714a29" ed="T"/>皆樹木何故不同。王言所以不同者。其裁各
+<pb n="0714b" xml:id="T32.1670B.0714b" ed="T"/>
+<lb n="0714b01" ed="T"/>自異。那先言人亦如是。心所念者各各異。是
+<lb n="0714b02" ed="T"/>故令世間人不同耳。中有短命者。中有長命
+<lb n="0714b03" ed="T"/>者中有多病者中有少病者中有富者中有貧
+<lb n="0714b04" ed="T"/>者中有貴者中有賤者中有大士者中有小士
+<lb n="0714b05" ed="T"/>者中有端正者中有醜者中有語用者中有語
+<lb n="0714b06" ed="T"/>不用者中有明者中有愚者。那先言是故佛
+<lb n="0714b07" ed="T"/>所言隨其人作善惡自當得之。中有豪貴者
+<lb n="0714b08" ed="T"/>中有貧窮者。皆是前世宿命世作善惡各自
+<lb n="0714b09" ed="T"/>隨其德得之。王言善哉善哉。王復問那先言。
+<lb n="0714b10" ed="T"/>人有欲作善者。當前作之耶。當後作之乎。那
+<lb n="0714b11" ed="T"/>先言當居前作之在後作之。不能益人也。居
+<lb n="0714b12" ed="T"/>前作者有益於人。那先問王言。王渴欲飲時
+<lb n="0714b13" ed="T"/>使人掘地作井。能赴王渴不。王言不赴渴也。
+<lb n="0714b14" ed="T"/>當居前作井耳。那先言人亦如是。人所居皆
+<lb n="0714b15" ed="T"/>當居前。在後作者無益也。那先問王。王飢時
+<lb n="0714b16" ed="T"/>乃使人耕地糞地種穀。飢寧用飯耶。當豫有
+<lb n="0714b17" ed="T"/>儲。王言不也。當先有儲<anchor xml:id="nkr_note_orig_0714002" n="0714002"/><anchor xml:id="beg0714002" n="0714002"/>貯<anchor xml:id="end0714002"/>。那先言人亦如
+<lb n="0714b18" ed="T"/>是。當先作善。有急乃作善者無益身也。那先
+<lb n="0714b19" ed="T"/>問王。譬如王有怨。當臨時出戰鬪。王能使人
+<lb n="0714b20" ed="T"/>教馬教象教人作戰鬪具乎。王言不也。當宿
+<lb n="0714b21" ed="T"/>有儲<anchor xml:id="beg_5" type="star"/>貯<anchor xml:id="end_5"/>。臨時便可戰鬪。臨時教馬教象教人
+<lb n="0714b22" ed="T"/>無益也。那先言佛經說言。人當先自念身作
+<lb n="0714b23" ed="T"/>善。在後作善無益也。那先言王莫棄大道就
+<lb n="0714b24" ed="T"/>邪道。無效愚人棄善作惡。後坐啼哭無所益
+<lb n="0714b25" ed="T"/>也。人家棄捐忠正就於不正。臨死時悔在後。
+<lb n="0714b26" ed="T"/>王言善哉善哉。王復問那先。卿曹諸沙門言。
+<lb n="0714b27" ed="T"/>世間火不如泥犁中火熱也。卿曹復言。持小
+<lb n="0714b28" ed="T"/>石著世間火中。至暮不消也。卿曹復言。極取
+<lb n="0714b29" ed="T"/>大石著泥犁火中即消盡。是故我不信也。卿
+<pb n="0714c" xml:id="T32.1670B.0714c" ed="T"/>
+<lb n="0714c01" ed="T"/>曹復言。人作惡死在泥犁中。數千萬歲其人
+<lb n="0714c02" ed="T"/>不消死。是故我重不信是語也。那先問王。王
+<lb n="0714c03" ed="T"/>寧聞見水中有雌<anchor xml:id="nkr_note_orig_0714003" n="0714003"/><anchor xml:id="beg0714003" n="0714003"/>蟒<anchor xml:id="end0714003"/>雌<anchor xml:id="nkr_note_orig_0714004" n="0714004"/><anchor xml:id="beg0714004" n="0714004"/>蛟<anchor xml:id="end0714004"/>雌鼈雌蟹懷子以
+<lb n="0714c04" ed="T"/>沙石為食不。王言然。皆以是為食。那先問王。
+<lb n="0714c05" ed="T"/>沙石在腹中寧消不。王言然皆消。那先言其
+<lb n="0714c06" ed="T"/>腹中懷子寧復消不。王言不消也。那先言何
+<lb n="0714c07" ed="T"/>以故不消。王言相祿獨當然故不消。那先言
+<lb n="0714c08" ed="T"/>泥犁中人亦如是。數千萬歲不消死者。其人
+<lb n="0714c09" ed="T"/>所作罪過未盡故不消死。那先問王言。雌師
+<lb n="0714c10" ed="T"/>子雌虎雌狗雌猫懷子。皆肉食噉骨入腹中
+<lb n="0714c11" ed="T"/>時寧消不。王言皆消盡。那先問王言。其腹懷
+<lb n="0714c12" ed="T"/>子寧復消不。王言不消也。那先言用何故不
+<lb n="0714c13" ed="T"/>消。王言獨用祿相故不消也。那先言泥犁中
+<lb n="0714c14" ed="T"/>人亦如是。數千萬歲不消死者。泥犁中人所
+<lb n="0714c15" ed="T"/>作過惡未解故不消死。那先問王言。雌牛雌
+<lb n="0714c16" ed="T"/>馬雌驢雌麋雌鹿懷子。皆食草芻為<anchor xml:id="nkr_note_orig_0714005" n="0714005"/><anchor xml:id="beg0714005" n="0714005"/>餐<anchor xml:id="end0714005"/>不。王
+<lb n="0714c17" ed="T"/>言然。皆以是為食。那先言其芻草寧於腹中
+<lb n="0714c18" ed="T"/>消盡不。王言皆消盡。那先言其腹中子寧消
+<lb n="0714c19" ed="T"/>盡不。王言不消盡也。那先言何故不消盡。王
+<lb n="0714c20" ed="T"/>言獨以相祿當然故使不消盡。那先言泥犁
+<lb n="0714c21" ed="T"/>中人亦如是。是罪過未盡故不消死。那先問
+<lb n="0714c22" ed="T"/>王言。夫人及長者富家女。飲食皆美恣意食。
+<lb n="0714c23" ed="T"/>食於腹中寧消不。王言皆消。那先問王言。腹
+<lb n="0714c24" ed="T"/>中懷子寧消不。王言不消也。那先言何以故
+<lb n="0714c25" ed="T"/>不消。王言獨相祿故使不消也。那先言泥犁
+<lb n="0714c26" ed="T"/>中人亦如是。所以數千歲不<anchor xml:id="nkr_note_orig_0714006" n="0714006"/><anchor xml:id="beg0714006" n="0714006"/>消<anchor xml:id="end0714006"/>死者。用先世
+<lb n="0714c27" ed="T"/>作惡故未解故不消死。那先言人在泥犁中
+<lb n="0714c28" ed="T"/>長在泥犁中老過盡乃當死。王言善哉。王復
+<lb n="0714c29" ed="T"/>問那先。卿曹諸沙門言。天下地皆在水上。水
+<pb n="0715a" xml:id="T32.1670B.0715a" ed="T"/>
+<lb n="0715a01" ed="T"/>在風上。風在空上。我不信是也。那先便前取
+<lb n="0715a02" ed="T"/>王書水適以三指撮舉之問王言。是中水為
+<lb n="0715a03" ed="T"/>風所持不。王言然。為風所持。那先言風持水
+<lb n="0715a04" ed="T"/>亦如是。王言善哉。王復問那先言。泥洹道皆
+<lb n="0715a05" ed="T"/>過去無所復有耶。那先言泥洹道無所復有
+<lb n="0715a06" ed="T"/>也。那先言愚癡之人徑來索內外身愛。坐是
+<lb n="0715a07" ed="T"/>故不能得度脫於老病死。那先言智者學道
+<lb n="0715a08" ed="T"/>人內外身不著也。人無有恩愛無有恩愛者
+<lb n="0715a09" ed="T"/>無貪欲。無貪欲者無有胞胎。無有胞胎者不
+<lb n="0715a10" ed="T"/>生不老。不生不老不病不死。不病不憂不
+<lb n="0715a11" ed="T"/>哭。不憂不哭不內心痛。便得泥洹道。王言
+<lb n="0715a12" ed="T"/>善哉。王復問那先言。諸學道者悉能得泥洹
+<lb n="0715a13" ed="T"/>道不。那先言不能悉得泥洹道也。正向善道
+<lb n="0715a14" ed="T"/>者學知正事。<anchor xml:id="nkr_note_orig_0715001" n="0715001"/><anchor xml:id="beg0715001" n="0715001"/>當所奉行者奉行之<anchor xml:id="end0715001"/>。不當奉
+<lb n="0715a15" ed="T"/>行者遠棄之當所念者念。不當所念者棄之。
+<lb n="0715a16" ed="T"/>人如是者得泥洹道。王言善哉。王復問那先。
+<lb n="0715a17" ed="T"/>人不得泥洹道者。寧知泥洹道為快不。那先
+<lb n="0715a18" ed="T"/>言然。雖未得泥洹道。由知泥洹道為快也。王
+<lb n="0715a19" ed="T"/>言人未得泥洹道者。何以知為快耶。那先問
+<lb n="0715a20" ed="T"/>王言。人生未<anchor xml:id="nkr_note_orig_0715002" n="0715002"/><anchor xml:id="beg0715002" n="0715002"/>甞<anchor xml:id="end0715002"/>截手足為痛處。王言人雖未
+<lb n="0715a21" ed="T"/>甞更截手足。由知為痛也。那先言何用知為
+<lb n="0715a22" ed="T"/>痛也。王言其人截手足時<g ref="#CB03118">𠲳</g>呼用是知為痛。
+<lb n="0715a23" ed="T"/>那先言人亦如是。前得泥洹道者轉相語泥
+<lb n="0715a24" ed="T"/>洹道快。用是故信之。王言善哉。王復問那先。
+<lb n="0715a25" ed="T"/>那先寧曾見佛不。那先言未曾見也。王言那
+<lb n="0715a26" ed="T"/>先諸師寧曾見佛不。那先言諸師亦不見佛
+<lb n="0715a27" ed="T"/>也。如使那先及諸師不見佛者定為無有佛
+<lb n="0715a28" ed="T"/>也。那先問王言。王見五百水所合聚處不。王
+<lb n="0715a29" ed="T"/>言我不見也。那先言王父及太父皆見是水
+<pb n="0715b" xml:id="T32.1670B.0715b" ed="T"/>
+<lb n="0715b01" ed="T"/>不。王言皆不見也。那先言王父及太父皆不
+<lb n="0715b02" ed="T"/>見此五百水合聚處。天下定為無此五百水
+<lb n="0715b03" ed="T"/>所聚處耶。王言雖我父及太父皆不見此水
+<lb n="0715b04" ed="T"/>者。實有此水。那先言雖我諸師不見佛者。其
+<lb n="0715b05" ed="T"/>實有佛。王言善哉。</p>
+<lb n="0715b06" ed="T"/><cb:juan n="002" fun="close"><cb:jhead>那先比丘經卷中</cb:jhead></cb:juan>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0709006" to="#end0709006"><lem wit="#wit1">人名附東晉錄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0710001" to="#end0710001"><lem wit="#wit1">棄捐</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">捐棄</rdg></app>
+<app from="#beg0710002" to="#end0710002"><lem wit="#wit1">嗅</lem><rdg resp="#resp1" wit="#wit2">臭</rdg></app>
+<app from="#beg0710003" to="#end0710003"><lem wit="#wit1">可</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">欲</rdg></app>
+<app from="#beg0710004" to="#end0710004"><lem wit="#wit1"><g ref="#CB01219">㖃</g></lem><rdg resp="#resp1" wit="#wit3 #wit4"><g ref="#CB14593">󳤁</g></rdg><rdg resp="#resp1" wit="#wit2">嚾</rdg></app>
+<app from="#beg0711001" to="#end0711001"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2">耶</rdg></app>
+<app from="#beg0711002" to="#end0711002"><lem wit="#wit1">見</lem><rdg resp="#resp1" wit="#wit3 #wit4">現</rdg></app>
+<app from="#beg0711003" to="#end0711003"><lem wit="#wit1">覺</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">識</rdg></app>
+<app from="#beg0712001" to="#end0712001"><lem wit="#wit1">絃</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">弦</rdg></app>
+<app from="#beg0712002" to="#end0712002"><lem wit="#wit1">燧</lem><rdg resp="#resp1" wit="#wit3 #wit2">遂</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0712002"><lem wit="#wit1">燧</lem><rdg resp="#resp1" wit="#wit3 #wit2">遂</rdg></app>
+<app from="#beg0712003" to="#end0712003"><lem wit="#wit1">臭</lem><rdg resp="#resp1" wit="#wit3 #wit2">鼻</rdg></app>
+<app from="#beg0713001" to="#end0713001"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">却</rdg></app>
+<app from="#beg0713002" to="#end0713002"><lem wit="#wit1">甜</lem><rdg resp="#resp1" wit="#wit3 #wit2">恬</rdg></app>
+<app from="#beg0713003" to="#end0713003"><lem wit="#wit1">車輪</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">輪車</rdg></app>
+<app from="#beg0713004" to="#end0713004"><lem wit="#wit1">雨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">兩</rdg></app>
+<app from="#beg0713005" to="#end0713005"><lem wit="#wit1">玉</lem><rdg resp="#resp1" wit="#wit3">王</rdg></app>
+<app from="#beg0713006" to="#end0713006"><lem wit="#wit1">乎</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">手</rdg></app>
+<app from="#beg0713007" to="#end0713007"><lem wit="#wit1">來</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">來次取肉味來</rdg></app>
+<app from="#beg0714001" to="#end0714001"><lem wit="#wit1">鬚</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">額</rdg></app>
+<app from="#beg0714002" to="#end0714002"><lem wit="#wit1">貯</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB14581">󳣵</g></rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0714002"><lem wit="#wit1">貯</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB14581">󳣵</g></rdg></app>
+<app from="#beg0714003" to="#end0714003"><lem wit="#wit1">蟒</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB14570">󳣪</g></rdg></app>
+<app from="#beg0714004" to="#end0714004"><lem wit="#wit1">蛟</lem><rdg resp="#resp1" wit="#wit2">蚊</rdg></app>
+<app from="#beg0714005" to="#end0714005"><lem wit="#wit1">餐</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">食</rdg></app>
+<app from="#beg0714006" to="#end0714006"><lem wit="#wit1">消</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app cb:word-count="8" from="#beg0715001" to="#end0715001"><lem wit="#wit1">當所奉行者奉行之</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0715002" to="#end0715002"><lem wit="#wit1">甞</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">當</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0710002" resp="#resp2" type="mod" target="#nkr_note_mod_0710002"><!--CBETA todo type: ＊-->嗅＝臭【宮】＊</note>
+<note n="0710004" resp="#resp2" type="mod" target="#nkr_note_mod_0710004"><g ref="#CB01219">㖃</g>＝<g ref="#CB14593">󳤁</g>【宋】【元】，＝嚾【宮】</note>
+<note n="0711002" resp="#resp2" type="mod" target="#nkr_note_mod_0711002"><!--CBETA todo type: ＊-->見＝現【宋】【元】＊</note>
+<note n="0712001" resp="#resp2" type="mod" target="#nkr_note_mod_0712001"><!--CBETA todo type: ＊-->絃＝弦【宋】【元】【宮】＊</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0709006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0709006">〔人名附東晉錄〕－【宋】【元】【宮】</note>
+<note n="0710001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0710001">棄捐＝捐棄【宋】【元】【宮】</note>
+<note n="0710002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0710002">嗅＝臭【宮】＊</note>
+<note n="0710003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0710003">可＝欲【宋】【元】【宮】</note>
+<note n="0710004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0710004"><g ref="#CB01219">㖃</g>＝<g ref="#CB14593">󳤁</g>【宋】【元】，嚾【宮】</note>
+<note n="0711001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0711001">也＝耶【宮】</note>
+<note n="0711002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0711002">見＝現【宋】【元】＊</note>
+<note n="0711003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0711003">覺＝識【宋】【元】【宮】</note>
+<note n="0712001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0712001">絃＝弦【宋】【元】【宮】＊</note>
+<note n="0712002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0712002">燧＝遂【宋】【宮】＊</note>
+<note n="0712003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0712003">臭＝鼻【宋】【宮】</note>
+<note n="0713001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713001">即＝却【宋】【元】【宮】</note>
+<note n="0713002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713002">甜＝恬【宋】【宮】</note>
+<note n="0713003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713003">車輪＝輪車【宋】【元】【宮】</note>
+<note n="0713004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713004">雨＝兩【宋】【元】【宮】</note>
+<note n="0713005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713005">玉＝王【宋】</note>
+<note n="0713006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713006">乎＝手【宋】【元】【宮】</note>
+<note n="0713007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0713007">來＋（次取肉味來）【宋】【元】【宮】</note>
+<note n="0714001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0714001">鬚＝額【宋】【元】【宮】</note>
+<note n="0714002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0714002">貯＝<g ref="#CB14581">󳣵</g>【宮】＊</note>
+<note n="0714003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0714003">蟒＝<g ref="#CB14570">󳣪</g>【宮】</note>
+<note n="0714004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0714004">蛟＝蚊【宮】</note>
+<note n="0714005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0714005">餐＝食【宋】【元】【宮】</note>
+<note n="0714006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0714006">〔消〕－【宮】</note>
+<note n="0715001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0715001">〔當所…之〕八字－【宮】</note>
+<note n="0715002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0715002">甞＝當【宋】【元】【宮】</note>
+</p>
+</cb:div>
+</back></text></TEI>

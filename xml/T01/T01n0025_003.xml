@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T01n0025">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0025 起世因本經</title>
+			<author>隋 達摩笈多譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.32 $<date>$Date: 2012/08/27 03:13:52 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+	</editionStmt>
+	<extent>10卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/08/27 03:13:52 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 1, No. 025 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【元】</witness>
+		<witness xml:id="wit3">【明】</witness>
+		<witness xml:id="wit4">【宋】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+		<witness xml:id="wit6">【麗】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Chang Wen-Ming, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，張文明大德提供，北美某大德提供，法雨道場提供新式標點</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00047">
+	<charName>CBETA CHARACTER CB00047</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*(隹/乃)]</value>
+	</charProp>
+	<mapping cb:dec="983087" type="PUA">U+F002F</mapping>
+</char>
+<char xml:id="CB00063">
+	<charName>CBETA CHARACTER CB00063</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*束]</value>
+	</charProp>
+	<mapping type="unicode">U+20CBF</mapping>
+	<mapping cb:dec="983103" type="PUA">U+F003F</mapping>
+</char>
+<char xml:id="CB00145">
+	<charName>CBETA CHARACTER CB00145</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[少/兔]</value>
+	</charProp>
+	<mapping type="unicode">U+3779</mapping>
+	<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
+</char>
+<char xml:id="CB00550">
+	<charName>CBETA CHARACTER CB00550</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[登*斤]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>斲</value>
+	</charProp>
+	<mapping type="unicode">U+230C6</mapping>
+	<mapping cb:dec="983590" type="PUA">U+F0226</mapping>
+</char>
+<char xml:id="CB00828">
+	<charName>CBETA CHARACTER CB00828</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[金*敖]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>鏊</value>
+	</charProp>
+	<mapping type="unicode">U+28AFC</mapping>
+	<mapping cb:dec="983868" type="PUA">U+F033C</mapping>
+</char>
+<char xml:id="CB13375">
+	<charName>CBETA CHARACTER CB13375</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[酉*窖]</value>
+	</charProp>
+	<mapping cb:dec="996415" type="PUA">U+F343F</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-08-10T22:31:50">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="4" type="品">4 地獄品</cb:mulu><cb:div type="pin">
+<lb n="0377a12" ed="T"/>
+<milestone n="3" unit="juan"/>
+<lb n="0377a13" ed="T"/>
+<lb n="0377a14" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷"></cb:mulu><cb:jhead><title>起世<anchor xml:id="nkr_note_orig_0377003" n="0377003"/><anchor xml:id="beg0377003" n="0377003"/>因本<anchor xml:id="end0377003"/>經</title>卷第三</cb:jhead></cb:juan>
+<lb n="0377a15" ed="T"/>
+<lb n="0377a16" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0377004" n="0377004"/><anchor xml:id="nkr_note_mod_0377004" n="0377004"/><anchor xml:id="beg0377004" n="0377004"/>隋天竺沙門達摩笈多譯<anchor xml:id="end0377004"/></byline>
+<lb n="0377a17" ed="T"/><head type="pin">地獄品<anchor xml:id="nkr_note_orig_0377005" n="0377005"/><anchor xml:id="beg0377005" n="0377005"/>中<anchor xml:id="end0377005"/></head>
+<lb n="0377a18" ed="T"/><p xml:id="pT01p0377a1801">「復次，諸比丘！彼等地獄諸眾生輩，有無量時
+<lb n="0377a19" ed="T"/>長遠道中，從彼燋渴五百由旬小地獄出，出
+<lb n="0377a20" ed="T"/>已奔走，略說乃至，求救護處，即便詣向五
+<lb n="0377a21" ed="T"/>百由旬膿血地獄。入彼處已，即為彼等，生
+<lb n="0377a22" ed="T"/>於膿血，乃至咽喉已下熱沸。而彼地獄諸眾
+<lb n="0377a23" ed="T"/>生等，入已東西交橫行走。彼等如是馳走之
+<lb n="0377a24" ed="T"/>時，燒手燒足、或燒耳鼻，燒耳鼻已，及諸<anchor xml:id="nkr_note_orig_0377006" n="0377006"/><anchor xml:id="beg0377006" n="0377006"/>支<anchor xml:id="end0377006"/>
+<lb n="0377a25" ed="T"/>節，皆悉燒然。其諸支節，被燒然已，諸罪
+<lb n="0377a26" ed="T"/>人等，於彼受苦，嚴酷重切，不可思議。命既
+<lb n="0377a27" ed="T"/>未終，惡不善業又未畢盡，乃至人身所造作
+<lb n="0377a28" ed="T"/>來。復次，諸比丘！膿血地獄中有諸蟲，名最
+<lb n="0377a29" ed="T"/>猛勝住，而彼諸蟲，為彼地獄諸眾生等，作
+<pb n="0377b" ed="T" xml:id="T01.0025.0377b"/>
+<lb n="0377b01" ed="T"/>多損害。或於身中先割破皮，割<anchor xml:id="nkr_note_orig_0377007" n="0377007"/><anchor xml:id="beg0377007" n="0377007"/>皮破<anchor xml:id="end0377007"/>已
+<lb n="0377b02" ed="T"/>次復割肉，割肉已割筋，割筋已破骨，破骨
+<lb n="0377b03" ed="T"/>已拔出於髓取而食之。彼諸眾生，於中乃
+<lb n="0377b04" ed="T"/>至受嚴重苦，命既未終，乃至未盡惡不善
+<lb n="0377b05" ed="T"/>業，及以人身所作來者，皆悉具受。復次，諸
+<lb n="0377b06" ed="T"/>比丘！彼膿血<anchor xml:id="nkr_note_orig_0377008" n="0377008"/><anchor xml:id="nkr_note_mod_0377008" n="0377008"/><anchor xml:id="beg0377008" n="0377008"/>獄<anchor xml:id="end0377008"/>所有眾生，或時飢渴，彼等
+<lb n="0377b07" ed="T"/>即以兩手掬取彼沸膿血，置於口中，置口中
+<lb n="0377b08" ed="T"/>已，應時燒彼眾生脣口，燒脣口已燒腭，燒
+<lb n="0377b09" ed="T"/>腭已燒喉，燒喉已燒胸，燒胸已燒心，燒心
+<lb n="0377b10" ed="T"/>已燒腸，燒腸已燒胃，燒胃已直過小腸，向
+<lb n="0377b11" ed="T"/>下而出。彼等眾生，於彼地獄，乃至受諸嚴
+<lb n="0377b12" ed="T"/>切重苦。命既未終，乃至未盡惡不善業，及
+<lb n="0377b13" ed="T"/>以人身所作來者，如是次第，具足而受。</p>
+<lb n="0377b14" ed="T"/><p xml:id="pT01p0377b1401">「復次，諸比丘！彼等地獄諸眾生輩，經無量時
+<lb n="0377b15" ed="T"/>長遠道中，從於膿血五百由旬小地獄出，出
+<lb n="0377b16" ed="T"/>已馳走，乃至求於救護之處，向一銅釜五百
+<lb n="0377b17" ed="T"/>由旬小地獄中。入彼處已，時守獄者，捉彼
+<lb n="0377b18" ed="T"/>地獄諸眾生輩，擲置釜中，其頭向下，脚皆
+<lb n="0377b19" ed="T"/>在上，彼諸眾生於其中間，以地獄火，相燒煮
+<lb n="0377b20" ed="T"/>故，若沸向上，即煮即熟；若沸在下，亦煮亦
+<lb n="0377b21" ed="T"/>熟；若在中間，還即煮熟；若交若橫，還即煮
+<lb n="0377b22" ed="T"/>熟；若為沫覆，還煮還熟；若見不見，一切煮
+<lb n="0377b23" ed="T"/>熟。譬如世間若煮小豆、若煮大豆及豌豆等，
+<lb n="0377b24" ed="T"/>置於釜內，滿中著水，其下然火，如是湧沸，
+<lb n="0377b25" ed="T"/>湯豆和合，若來向上，即煮即熟；若向下去，
+<lb n="0377b26" ed="T"/>亦即煮熟；若住於中，亦煮亦熟；若其交橫，
+<lb n="0377b27" ed="T"/>亦俱煮熟；若為沫覆，還亦煮熟；若見不見，
+<lb n="0377b28" ed="T"/>一切時熟。諸比丘！如是如是，彼一銅釜小
+<lb n="0377b29" ed="T"/>地獄中，有守獄者，取彼地獄諸眾生等，令
+<pb n="0377c" ed="T" xml:id="T01.0025.0377c"/>
+<lb n="0377c01" ed="T"/>脚在上以頭向下，遙擲彼等置銅釜中，被地
+<lb n="0377c02" ed="T"/>獄火之所燒逼，熱沸既盛。時，諸罪人逐沸
+<lb n="0377c03" ed="T"/>向上，即煮即熟，略說乃至，若見不見，亦即
+<lb n="0377c04" ed="T"/>煮熟。彼等於中受嚴切苦，乃至若人非人身
+<lb n="0377c05" ed="T"/>中所作來者，如是次第，於彼地獄，具足而
+<lb n="0377c06" ed="T"/>受。</p>
+<lb n="0377c07" ed="T"/><p xml:id="pT01p0377c0701">「諸比丘！彼地獄中諸眾生等，經無量時長遠
+<lb n="0377c08" ed="T"/>道中，從一銅釜五百由旬小地獄出，出已奔
+<lb n="0377c09" ed="T"/>走，乃至欲求救護之處，向多銅釜五百由旬
+<lb n="0377c10" ed="T"/>小地獄中。入彼處已，為守獄者，取於彼等
+<lb n="0377c11" ed="T"/>地獄眾生，捉脚向上頭向下，擲置銅釜之
+<lb n="0377c12" ed="T"/>中。而彼地獄猛火逼切，若沸向上，即煮即
+<lb n="0377c13" ed="T"/>熟；若沸向下，亦即煮熟；若在中間，亦即煮
+<lb n="0377c14" ed="T"/>熟；若橫若覆，見與不見，俱悉煮熟。譬如釜
+<lb n="0377c15" ed="T"/>中煮諸豆等，為火燒逼，涌沸向上，亦煮亦
+<lb n="0377c16" ed="T"/>熟，略說乃至，若見不見，悉皆煮熟。諸比丘！
+<lb n="0377c17" ed="T"/>如是如是，其多銅釜五百由旬小地獄中，諸
+<lb n="0377c18" ed="T"/>眾生輩，為守獄者，取其兩脚，倒竪向上，捉
+<lb n="0377c19" ed="T"/>頭向下，擲銅釜中，彼等於中，<anchor xml:id="beg_2d" type="cb-app"/>被<anchor xml:id="end_2d"/>地獄火之
+<lb n="0377c20" ed="T"/>所逼切，若沸向上，交橫煮熟，略說乃至，見
+<lb n="0377c21" ed="T"/>與不見，悉煮悉熟。</p>
+<lb n="0377c22" ed="T"/><p xml:id="pT01p0377c2201">「復次，諸比丘！彼多銅釜五百由旬小地獄中，
+<lb n="0377c23" ed="T"/>諸眾生輩，為守獄者，以鐵蟹<anchor xml:id="nkr_note_orig_0377009" n="0377009"/><anchor xml:id="beg0377009" n="0377009"/>爪<anchor xml:id="end0377009"/>，取彼地獄
+<lb n="0377c24" ed="T"/>諸眾生身，從釜至釜，彼等從釜將至釜時，
+<lb n="0377c25" ed="T"/>膿血皮肉，皆悉散盡，唯餘骸骨。彼等於中，
+<lb n="0377c26" ed="T"/>乃至受於<anchor xml:id="nkr_note_orig_0377010" n="0377010"/><anchor xml:id="nkr_note_mod_0377010" n="0377010"/><anchor xml:id="beg0377010" n="0377010"/>重<anchor xml:id="end0377010"/>嚴極苦，未得命終，乃至不盡
+<lb n="0377c27" ed="T"/>彼不善業，若人身中，所作業者，一切悉受。</p>
+<lb n="0377c28" ed="T"/><p xml:id="pT01p0377c2801">「諸比丘！彼地獄中諸眾生輩，經無量時長遠
+<lb n="0377c29" ed="T"/>道中，從多銅釜五百由旬小地獄出，出已馳
+<pb n="0378a" ed="T" xml:id="T01.0025.0378a"/>
+<lb n="0378a01" ed="T"/>走，乃至欲求救護之處，詣向磑疊五百由旬
+<lb n="0378a02" ed="T"/>小地獄中。入彼處已，時守獄者即捉受罪
+<lb n="0378a03" ed="T"/>諸眾生輩，仰撲置於鐵磑之上，熾然光焰一
+<lb n="0378a04" ed="T"/>向洞然，仰臥中已，更取別石，於上壓之；
+<lb n="0378a05" ed="T"/>壓已色別，復更研之；研已復研，作於細<anchor xml:id="nkr_note_orig_0378001" n="0378001"/><anchor xml:id="nkr_note_mod_0378001" n="0378001"/><anchor xml:id="beg0378001" n="0378001"/>末<anchor xml:id="end0378001"/>；
+<lb n="0378a06" ed="T"/>作細末已，復更重末，最後細末別於彼處。
+<lb n="0378a07" ed="T"/>末已更研，研已復研，末已復末，至其最後
+<lb n="0378a08" ed="T"/>細末之時，而其<anchor xml:id="beg_2e" type="star"/>支<anchor xml:id="end_2e"/>體血一邊流，一邊猶有
+<lb n="0378a09" ed="T"/>骨末存在。彼等於中，受最嚴苦，乃至於中，
+<lb n="0378a10" ed="T"/>未得命終，未盡於彼不善之業，乃至人身所
+<lb n="0378a11" ed="T"/>作來者，如是次第，具足而受。</p>
+<lb n="0378a12" ed="T"/><p xml:id="pT01p0378a1201">「諸比丘！彼等地獄諸眾生輩，經無量時長遠
+<lb n="0378a13" ed="T"/>道中，從於磑疊五百由旬小地獄出。出已馳
+<lb n="0378a14" ed="T"/>走，欲求室宅，欲求歸依覆護之處，詣向斛
+<lb n="0378a15" ed="T"/>量五百由旬小地獄中。入彼處已，其守獄
+<lb n="0378a16" ed="T"/>者，取彼地獄諸眾生輩，以熱鐵斛熾然光焰
+<lb n="0378a17" ed="T"/>一向猛烈，遣其量火。彼量火時，燒手燒脚、
+<lb n="0378a18" ed="T"/>燒耳燒鼻、燒大<anchor xml:id="beg_2f" type="star"/>支<anchor xml:id="end_2f"/>節、燒小<anchor xml:id="beg_30" type="star"/>支<anchor xml:id="end_30"/>節，然<anchor xml:id="beg_31" type="star"/>支<anchor xml:id="end_31"/>節
+<lb n="0378a19" ed="T"/>已，彼等於中，受極嚴苦、受最痛苦。壽命未
+<lb n="0378a20" ed="T"/>終，乃至未盡惡不善業，不滅不沒不離不
+<lb n="0378a21" ed="T"/>失，乃至往昔所造作者，若人身中所作來者，
+<lb n="0378a22" ed="T"/>如是次第，具足而受。</p>
+<lb n="0378a23" ed="T"/><p xml:id="pT01p0378a2301">「諸比丘！彼等地獄諸眾生輩，經無量時長遠
+<lb n="0378a24" ed="T"/>道中，從彼斛量五百由旬小地獄出。出已馳
+<lb n="0378a25" ed="T"/>走，求室求覆、求救求洲、求歸依處，遂詣向雞
+<lb n="0378a26" ed="T"/>五百由旬小地獄中。入彼處已，於中生雞滿
+<lb n="0378a27" ed="T"/>彼而住，乃至膝輪，熾然光焰，一向猛熱。彼
+<lb n="0378a28" ed="T"/>眾生輩，行於其中，步步<anchor xml:id="nkr_note_orig_0378002" n="0378002"/><anchor xml:id="nkr_note_mod_0378002" n="0378002"/><anchor xml:id="beg0378002" n="0378002"/>焰<anchor xml:id="end0378002"/>熱東西馳走，四
+<lb n="0378a29" ed="T"/>向顧望，無處可依，大火熾然，燒手燒脚、燒
+<pb n="0378b" ed="T" xml:id="T01.0025.0378b"/>
+<lb n="0378b01" ed="T"/>耳燒鼻，燒耳鼻已燒諸<anchor xml:id="beg_32" type="star"/>支<anchor xml:id="end_32"/>節，大小一時
+<lb n="0378b02" ed="T"/>俱皆洞然。彼等於中，受極嚴苦，乃至受於
+<lb n="0378b03" ed="T"/>痛切重苦。彼等於中，命既未終，又未盡彼
+<lb n="0378b04" ed="T"/>不善惡業，乃至若人身造作者。於彼次第，
+<lb n="0378b05" ed="T"/>一切具受。</p>
+<lb n="0378b06" ed="T"/><p xml:id="pT01p0378b0601">「諸比丘！彼地獄中諸眾生等，經無量時久遠
+<lb n="0378b07" ed="T"/>長道，得從彼雞小地獄出。出已一向馳奔而
+<lb n="0378b08" ed="T"/>走，乃至欲求救護之處，即向灰河小地獄
+<lb n="0378b09" ed="T"/>中，其獄亦廣五百由旬。諸比丘！罪人入已，
+<lb n="0378b10" ed="T"/>其彼灰河，流注急疾，波浪高湧，鳴聲極震，
+<lb n="0378b11" ed="T"/>灰水沸溢，彌岸盈滿。於彼灰河底下分中，
+<lb n="0378b12" ed="T"/>有諸鐵刺，尖利若磨。於其兩岸，復更別有
+<lb n="0378b13" ed="T"/>剃刀稠林；其河兩岸，刀林之中，復有諸狗，
+<lb n="0378b14" ed="T"/>形紫黑色，垢膩可畏；又其兩岸，復各別有
+<lb n="0378b15" ed="T"/>守地獄者；又其兩岸，各復皆生奢摩羅樹，
+<lb n="0378b16" ed="T"/>其樹有刺，纖長尖利，鋒<anchor xml:id="nkr_note_orig_0378003" n="0378003"/><anchor xml:id="nkr_note_mod_0378003" n="0378003"/><anchor xml:id="beg0378003" n="0378003"/>穎<anchor xml:id="end0378003"/>若磨。爾時，地獄
+<lb n="0378b17" ed="T"/>諸眾生輩，入彼河中，欲渡彼岸。當於渡時，
+<lb n="0378b18" ed="T"/>為大波浪之所漂沒，沈淪向下，遂於彼中，
+<lb n="0378b19" ed="T"/>為諸鐵刺，劖刺其身。刺已即住，彼等於中
+<lb n="0378b20" ed="T"/>受極嚴苦，受大重苦。既浮出已，從沸灰
+<lb n="0378b21" ed="T"/>河，渡至彼岸。到彼岸已，即復入彼剃刀稠
+<lb n="0378b22" ed="T"/>林，其林廣闊，遊歷多時，冒涉利刀，彼等於
+<lb n="0378b23" ed="T"/>中，處處經過，入已復入，受大極苦，或復割
+<lb n="0378b24" ed="T"/>手、或時割脚、或割手脚，割耳、割鼻、復割耳
+<lb n="0378b25" ed="T"/>鼻，割<anchor xml:id="beg_33" type="star"/>支<anchor xml:id="end_33"/>、割節、復割<anchor xml:id="beg_34" type="star"/>支<anchor xml:id="end_34"/>節。彼等於中，受嚴
+<lb n="0378b26" ed="T"/>重苦乃至極苦，未得命終，乃至未盡惡不善
+<lb n="0378b27" ed="T"/>業，及其往昔若人身中所作來者，悉於中
+<lb n="0378b28" ed="T"/>受。復次彼灰河中兩岸，所有諸守獄者，見彼
+<lb n="0378b29" ed="T"/>受罪諸眾生輩來已，問言：『汝等身今欲得何
+<pb n="0378c" ed="T" xml:id="T01.0025.0378c"/>
+<lb n="0378c01" ed="T"/>物？』彼等眾生，即同答言：『我等甚飢。』時，守獄
+<lb n="0378c02" ed="T"/>者，取彼地獄諸眾生輩，撲置地上，熾然光
+<lb n="0378c03" ed="T"/>焰，一向猛熱，乃至仰臥，又以鐵鉗，開<anchor xml:id="nkr_note_orig_0378004" n="0378004"/><anchor xml:id="beg0378004" n="0378004"/>搩<anchor xml:id="end0378004"/>
+<lb n="0378c04" ed="T"/>其口，持熱鐵丸著於口內，應時燒彼地獄
+<lb n="0378c05" ed="T"/>眾生脣口燋破，略說乃至，從咽喉下，到於
+<lb n="0378c06" ed="T"/>小腸，直過無礙。彼等於中，受嚴切苦，受極重
+<lb n="0378c07" ed="T"/>苦。命既未終，乃至未盡彼不善業，及以往
+<lb n="0378c08" ed="T"/>昔人身作者，悉皆具受。</p>
+<lb n="0378c09" ed="T"/><p xml:id="pT01p0378c0901">「復次，諸比丘！又彼熱沸灰河兩岸，所有諸狗，
+<lb n="0378c10" ed="T"/>身黑紫色，垢膩可畏，噉彼地獄諸眾生身，
+<lb n="0378c11" ed="T"/>從其<anchor xml:id="beg_35" type="star"/>支<anchor xml:id="end_35"/>節所有之肉，臠臠咬食。狗或作聲，
+<lb n="0378c12" ed="T"/>嘊喍鳴吠。彼等於中，受嚴切苦，乃至受於
+<lb n="0378c13" ed="T"/>最極重苦。未得命終，乃至未盡彼不善業，
+<lb n="0378c14" ed="T"/>及以往昔於人身中所作來者，一切具受。</p>
+<lb n="0378c15" ed="T"/><p xml:id="pT01p0378c1501">「諸比丘！彼等地獄諸眾生輩，為彼湧沸極
+<lb n="0378c16" ed="T"/>熱灰河所逼切時，又迫彼等<anchor xml:id="nkr_note_orig_0378005" n="0378005"/><anchor xml:id="beg0378005" n="0378005"/>纖<anchor xml:id="end0378005"/>利鐵刺并剃
+<lb n="0378c17" ed="T"/>刀林、怖守獄者，及避黑紫諸垢膩狗，種種
+<lb n="0378c18" ed="T"/>急故。時，彼地獄諸眾生輩，即走上彼奢摩羅
+<lb n="0378c19" ed="T"/>樹。上彼樹時，其樹枝柯，純是鐵刺，其刺尖
+<lb n="0378c20" ed="T"/>利，頭皆向下，纖長若磨。設欲下時，彼等鐵
+<lb n="0378c21" ed="T"/>刺，頭則向上，纖長尖利。其彼地獄諸眾生
+<lb n="0378c22" ed="T"/>等，上彼奢摩羅樹時，即有諸烏，名為鐵<g ref="#CB00047">󰀯</g>，
+<lb n="0378c23" ed="T"/>彼烏來已，啄彼地獄諸眾生頭，啄頭破已唼
+<lb n="0378c24" ed="T"/><g ref="#CB00063">𠲿</g>其腦，噉而食之。彼等於中，受極嚴苦，受
+<lb n="0378c25" ed="T"/>痛切苦，不可堪忍。即還墮落入沸灰河，彼
+<lb n="0378c26" ed="T"/>等於中，還復為大波浪所漂，沒至河底，到
+<lb n="0378c27" ed="T"/>彼處已，復為鐵刺之所劖刺。彼等身體，既
+<lb n="0378c28" ed="T"/>被刺已，不能復去，則便住彼，於中受苦，極
+<lb n="0378c29" ed="T"/>大猛酷。既不堪忍，復起馳走，從灰河渡，渡
+<pb n="0379a" ed="T" xml:id="T01.0025.0379a"/>
+<lb n="0379a01" ed="T"/>已還來，到於此岸，彼等復入剃刀稠林，入
+<lb n="0379a02" ed="T"/>已復入，而彼入時，割手割脚，或割手脚，乃
+<lb n="0379a03" ed="T"/>至割截諸<anchor xml:id="beg_36" type="star"/>支<anchor xml:id="end_36"/>節等，於中具足受極嚴苦。命
+<lb n="0379a04" ed="T"/>未終盡，略說乃至，從於往昔人非人身所作
+<lb n="0379a05" ed="T"/>來者，次第悉受。</p>
+<lb n="0379a06" ed="T"/><p xml:id="pT01p0379a0601">「復次，諸比丘！其沸灰河此岸所有諸守獄者，
+<lb n="0379a07" ed="T"/>彼等既見地獄受罪諸眾生來，來已即便遙
+<lb n="0379a08" ed="T"/>問之言：『諸汝等輩，何為遠來？欲得何物？』
+<lb n="0379a09" ed="T"/>彼等眾生各各答言：『我等渴乏。』時，守獄者
+<lb n="0379a10" ed="T"/>取彼眾生，撲著熱鐵熾然地上，令其仰臥。既
+<lb n="0379a11" ed="T"/>仰臥已，火焰洞起，即以鐵鉗開彼等口，<anchor xml:id="nkr_note_orig_0379001" n="0379001"/><anchor xml:id="nkr_note_mod_0379001" n="0379001"/><anchor xml:id="beg0379001" n="0379001"/>融<anchor xml:id="end0379001"/>
+<lb n="0379a12" ed="T"/>赤銅汁灌其口中。時，彼地獄諸眾生輩，既飲
+<lb n="0379a13" ed="T"/>銅汁，即燒脣口，乃至小腸，直下而出。彼等
+<lb n="0379a14" ed="T"/>於中，極受嚴苦，乃至壽命未散未滅未盡，於
+<lb n="0379a15" ed="T"/>彼不善之業及人身中所作來者，悉於中受。</p>
+<lb n="0379a16" ed="T"/><p xml:id="pT01p0379a1601">「復次，諸比丘！彼等地獄諸眾生輩，受於罪報，
+<lb n="0379a17" ed="T"/>經無量時長遠道中，乃有風來，其此大風，
+<lb n="0379a18" ed="T"/>名為和合，吹彼地獄諸眾生等，向於岸邊。
+<lb n="0379a19" ed="T"/>如是次第，從沸灰河地獄中出，出已馳走，
+<lb n="0379a20" ed="T"/>乃至求於救護之處，詣向斫板五百由旬小
+<lb n="0379a21" ed="T"/>地獄中。入彼處已，其守獄者，取彼地獄諸
+<lb n="0379a22" ed="T"/>眾生輩，撲置熱鐵熾然地上，乃至令其仰臥
+<lb n="0379a23" ed="T"/>地已，以鐵<anchor xml:id="nkr_note_orig_0379002" n="0379002"/><anchor xml:id="nkr_note_mod_0379002" n="0379002"/><anchor xml:id="beg0379002" n="0379002"/><g ref="#CB00550">𣃆</g>斤<anchor xml:id="end0379002"/>，熾然猛焰極大焰赫，為彼
+<lb n="0379a24" ed="T"/>地獄諸眾生等，斫手、斫脚、亦斫手脚，斫耳、
+<lb n="0379a25" ed="T"/>斫鼻、亦斫耳鼻，斫<anchor xml:id="beg_37" type="star"/>支<anchor xml:id="end_37"/>、斫節、亦斫<anchor xml:id="beg_38" type="star"/>支<anchor xml:id="end_38"/>節。彼
+<lb n="0379a26" ed="T"/>等於中，乃至極受嚴重之苦。命既未終，乃至
+<lb n="0379a27" ed="T"/>未盡惡不善業，及以人身所作來者，如是次
+<lb n="0379a28" ed="T"/>第一切具受。</p>
+<lb n="0379a29" ed="T"/><p xml:id="pT01p0379a2901">「復次，諸比丘！彼等地獄諸眾生輩，有無量時
+<pb n="0379b" ed="T" xml:id="T01.0025.0379b"/>
+<lb n="0379b01" ed="T"/>長遠道中，從彼<anchor xml:id="nkr_note_orig_0379003" n="0379003"/><anchor xml:id="beg0379003" n="0379003"/>斫<anchor xml:id="end0379003"/>板小地獄出。出已馳走，
+<lb n="0379b02" ed="T"/>乃至求室求覆求洲、求歸依處、求救護處，向
+<lb n="0379b03" ed="T"/>刀葉林五百由旬小地獄中。入彼中已，以無
+<lb n="0379b04" ed="T"/>諸善業果報故，忽起風吹從空中墮鐵刀葉
+<lb n="0379b05" ed="T"/>林。彼刀葉林，為彼地獄諸眾生輩，斫手、斫
+<lb n="0379b06" ed="T"/>脚、亦斫手脚，斫耳、斫鼻、亦斫耳鼻，斫<anchor xml:id="beg_39" type="star"/>支<anchor xml:id="end_39"/>、
+<lb n="0379b07" ed="T"/>斫節、亦斫<anchor xml:id="beg_3a" type="star"/>支<anchor xml:id="end_3a"/>節，彼等於中，乃至極受嚴切
+<lb n="0379b08" ed="T"/>重苦。命既未終，略說如上，乃至人身所作
+<lb n="0379b09" ed="T"/>來者，一切具足<anchor xml:id="nkr_note_orig_0379004" n="0379004"/><anchor xml:id="nkr_note_mod_0379004" n="0379004"/><anchor xml:id="beg0379004" n="0379004"/>悉於中受<anchor xml:id="end0379004"/>。</p>
+<lb n="0379b10" ed="T"/><p xml:id="pT01p0379b1001">「復次，諸比丘！彼刀葉林小地獄中，以無諸善
+<lb n="0379b11" ed="T"/>業果報故，有鐵<g ref="#CB00047">󰀯</g>烏，忽然生出，飛來向
+<lb n="0379b12" ed="T"/>彼地獄眾生兩髆之上。安立脚已，即以鐵
+<lb n="0379b13" ed="T"/><g ref="#CB00047">󰀯</g>啄彼罪人兩眼而去。彼於爾時，極受嚴切
+<lb n="0379b14" ed="T"/>痛惱重苦。命既未終，略說如上，乃至人身
+<lb n="0379b15" ed="T"/>所作來者，如是次第，一切悉受。</p>
+<lb n="0379b16" ed="T"/><p xml:id="pT01p0379b1601">「復次，諸比丘！彼地獄中諸眾生輩，有無量
+<lb n="0379b17" ed="T"/>時長遠道中，從刀葉林小地獄出。出已馳走，
+<lb n="0379b18" ed="T"/>欲求室宅求覆求洲、求歸依處、求救護處，詣
+<lb n="0379b19" ed="T"/>向狐狼五百由旬小地獄中。入彼處已，以諸
+<lb n="0379b20" ed="T"/>不善業果報故，於彼獄中，出生狐狼，嚴熾麤
+<lb n="0379b21" ed="T"/>惡嘊喍可畏，咬彼地獄諸眾生身所有之肉，
+<lb n="0379b22" ed="T"/>脚蹹口掣臠臠而食，亦作號聲，甚大震吼。
+<lb n="0379b23" ed="T"/>彼等於中，乃至極受嚴重之苦。命既未終，
+<lb n="0379b24" ed="T"/>略說如前，人非人身所作來者，如是次第，
+<lb n="0379b25" ed="T"/>皆於其中一切具受。</p>
+<lb n="0379b26" ed="T"/><p xml:id="pT01p0379b2601">「復次，諸比丘！彼地獄中諸眾生輩，有無量時，
+<lb n="0379b27" ed="T"/>從彼狐狼小地獄出。出已馳走，乃至求室求
+<lb n="0379b28" ed="T"/>洲求覆、求救護處、求歸依處，詣向寒氷五百
+<lb n="0379b29" ed="T"/>由旬小地獄中。入彼處已，以諸不善業果報
+<pb n="0379c" ed="T" xml:id="T01.0025.0379c"/>
+<lb n="0379c01" ed="T"/>故，忽起冷風吹大麤澁嚴苦之寒，觸彼地獄
+<lb n="0379c02" ed="T"/>諸眾生身，皮皆破裂，皮破裂已次破裂肉，
+<lb n="0379c03" ed="T"/>破裂肉已次破裂筋，破裂筋已次破裂骨，
+<lb n="0379c04" ed="T"/>破裂骨已次破裂髓。破裂髓時，彼等於中，
+<lb n="0379c05" ed="T"/>受極嚴苦，最重切苦，乃至不可堪忍耐故，
+<lb n="0379c06" ed="T"/>還於彼中，壽命終盡。此是最初第一極大，
+<lb n="0379c07" ed="T"/>名活地獄，及餘十六諸小地獄。</p>
+<lb n="0379c08" ed="T"/><p xml:id="pT01p0379c0801">「復次，諸比丘！第二黑繩大地獄者，亦有十六
+<lb n="0379c09" ed="T"/>五百由旬諸小地獄，而以圍遶，從黑雲沙，
+<lb n="0379c10" ed="T"/>乃至最後第十六寒氷地獄，為一眷屬。諸
+<lb n="0379c11" ed="T"/>比丘！於其中間，有何因緣，此大地獄，名黑
+<lb n="0379c12" ed="T"/>繩也？諸比丘！其彼黑繩大地獄中，所有眾
+<lb n="0379c13" ed="T"/>生，生者有者出者住者，以諸不善業果報
+<lb n="0379c14" ed="T"/>故，於上空中，忽然出生麤大黑繩，熾然猛
+<lb n="0379c15" ed="T"/>焰，一向焰熱。譬如從地乃至向上，於其中
+<lb n="0379c16" ed="T"/>間，有大黑雲，充遍出生，如是如是。而彼黑
+<lb n="0379c17" ed="T"/>繩大地獄中，所有眾生，以諸不善業果報
+<lb n="0379c18" ed="T"/>故，上虛空中，出大黑繩，熾然猛焰，為彼地
+<lb n="0379c19" ed="T"/>獄諸眾生輩，墮於身上，墮身上已，即燒地
+<lb n="0379c20" ed="T"/>獄諸眾生皮，燒皮已燒肉，燒肉已燒筋，燒
+<lb n="0379c21" ed="T"/>筋已燒骨，燒骨已徹至於髓，髓出已然，髓
+<lb n="0379c22" ed="T"/>既然已，復出大焰。彼等於中，受嚴切苦，受極
+<lb n="0379c23" ed="T"/>重苦，彼以罪業，命既未終，乃至未盡惡不
+<lb n="0379c24" ed="T"/>善業，未滅未變未除未畢，若於往昔若人非
+<lb n="0379c25" ed="T"/>人身造作者，一切悉受。</p>
+<lb n="0379c26" ed="T"/><p xml:id="pT01p0379c2601">「復次，諸比丘！其彼黑繩大地獄中所有眾生，
+<lb n="0379c27" ed="T"/>生者有者住者化者，以諸不善業果報故。時
+<lb n="0379c28" ed="T"/>守獄者，取彼地獄諸眾生輩，撲著熾然熱鐵
+<lb n="0379c29" ed="T"/>地上，乃至一向燋焰猛盛，仰臥著已，以熱鐵
+<pb n="0380a" ed="T" xml:id="T01.0025.0380a"/>
+<lb n="0380a01" ed="T"/>繩處處拼度，既拼度已，以鐵<anchor xml:id="nkr_note_orig_0380001" n="0380001"/><anchor xml:id="nkr_note_mod_0380001" n="0380001"/><anchor xml:id="beg0380001" n="0380001"/><g ref="#CB00550">𣃆</g>斤<anchor xml:id="end0380001"/>熾然赫
+<lb n="0380a02" ed="T"/>焰，乃至交橫斫彼地獄諸眾生身，作於兩分，
+<lb n="0380a03" ed="T"/>或作三分四分五分，乃至十分二十分，或
+<lb n="0380a04" ed="T"/>五十分，或復百分。譬如世間工巧木匠，若
+<lb n="0380a05" ed="T"/>木匠弟子，取於諸木，安地上已，即用黑繩而
+<lb n="0380a06" ed="T"/>以拼度，拼度訖了，以利<anchor xml:id="beg_3b" type="star"/><g ref="#CB00550">𣃆</g>斤<anchor xml:id="end_3b"/>，或作二分，三
+<lb n="0380a07" ed="T"/>四五分，或復十分二十分，或作百分，如是
+<lb n="0380a08" ed="T"/>如是。諸比丘！然彼黑繩大地獄中所有眾生，
+<lb n="0380a09" ed="T"/>亦復如是，其守獄者，取彼眾生，撲置熱鐵
+<lb n="0380a10" ed="T"/>熾然地上，乃至仰臥，以鐵黑繩拼度作道，即
+<lb n="0380a11" ed="T"/>用<anchor xml:id="beg_3c" type="star"/><g ref="#CB00550">𣃆</g>斤<anchor xml:id="end_3c"/>斫破其身作諸分段，亦復如是。彼等
+<lb n="0380a12" ed="T"/>於中，乃至痛切，受極嚴苦，命既未終，又未盡
+<lb n="0380a13" ed="T"/>彼不善諸業，及以往昔人身作來，一切具受。</p>
+<lb n="0380a14" ed="T"/><p xml:id="pT01p0380a1401">「復次，諸比丘！而彼黑繩大地獄中所有眾生，
+<lb n="0380a15" ed="T"/>有者化者乃至住者。時，守獄者取彼眾生，
+<lb n="0380a16" ed="T"/>撲著熾然熱鐵地上，乃至取已仰臥於地，
+<lb n="0380a17" ed="T"/>以鐵黑繩拼度其身，即以鐵鋸熾然猛焰，鋸
+<lb n="0380a18" ed="T"/>彼地獄眾生身破，破已復破乃至大破，次
+<lb n="0380a19" ed="T"/>復更裂，裂已復裂乃至大裂，或割或截，既
+<lb n="0380a20" ed="T"/>割截已，復更割截或大割截。譬如世間巧
+<lb n="0380a21" ed="T"/>用鋸師，若鋸解師所有弟子，取於諸木，安
+<lb n="0380a22" ed="T"/>置地上，即以黑繩，拼度作道，以利鐵鋸而
+<lb n="0380a23" ed="T"/>鋸破之，破已復破乃至大破，次復更裂，裂
+<lb n="0380a24" ed="T"/>已復裂乃至大裂，而復割截，既割截已，復
+<lb n="0380a25" ed="T"/>更割截<anchor xml:id="nkr_note_orig_0380002" n="0380002"/><anchor xml:id="nkr_note_mod_0380002" n="0380002"/><anchor xml:id="beg0380002" n="0380002"/>及<anchor xml:id="end0380002"/>大割截。如是<anchor xml:id="nkr_note_orig_0380003" n="0380003"/><anchor xml:id="nkr_note_mod_0380003" n="0380003"/><anchor xml:id="beg0380003" n="0380003"/>如是<anchor xml:id="end0380003"/>，諸比丘！其
+<lb n="0380a26" ed="T"/>彼黑繩大地獄中，所有眾生，生者有者，乃
+<lb n="0380a27" ed="T"/>至住者，其守獄者，取彼眾生，撲置熱鐵熾
+<lb n="0380a28" ed="T"/>然地上，乃至令其仰臥地已，以鐵黑繩拼度
+<lb n="0380a29" ed="T"/>作道，即以鐵鋸熾然猛焰，解破其身，破
+<pb n="0380b" ed="T" xml:id="T01.0025.0380b"/>
+<lb n="0380b01" ed="T"/>已復破乃至大破，裂已復裂乃至大裂，割
+<lb n="0380b02" ed="T"/>已復割乃至大割，截已復截乃至大截。彼等
+<lb n="0380b03" ed="T"/>於中，乃至具受極嚴重苦。命既未終，略說
+<lb n="0380b04" ed="T"/>如上，乃至人身所作來者，於中備受。</p>
+<lb n="0380b05" ed="T"/><p xml:id="pT01p0380b0501">「復次，諸比丘！而彼黑繩大地獄中，諸眾生
+<lb n="0380b06" ed="T"/>輩，所有生者乃至住者，其守獄者，取彼眾
+<lb n="0380b07" ed="T"/>生，以熱鐵砧熾然猛焰，乃至令彼自相搥
+<lb n="0380b08" ed="T"/>打。彼等打時，燒手、燒脚、或燒手脚，燒耳、燒
+<lb n="0380b09" ed="T"/>鼻、或燒耳鼻，燒<anchor xml:id="nkr_note_orig_0380004" n="0380004"/><anchor xml:id="beg0380004" n="0380004"/>支<anchor xml:id="end0380004"/>、燒節、燒諸<anchor xml:id="beg_3d" type="star"/>支<anchor xml:id="end_3d"/>節。彼等
+<lb n="0380b10" ed="T"/>於中，乃至受於極嚴重苦。命既未終，略說
+<lb n="0380b11" ed="T"/>如上，及以人身所作來者，一切具受。</p>
+<lb n="0380b12" ed="T"/><p xml:id="pT01p0380b1201">「復次，諸比丘！而彼黑繩大地獄中，所有眾
+<lb n="0380b13" ed="T"/>生，乃至住者，為彼等故，上虛空中有大黑
+<lb n="0380b14" ed="T"/>繩出生，熾然極大猛焰，乃至一向墮彼地獄
+<lb n="0380b15" ed="T"/>眾生身上。黑繩墮時，絞彼地獄諸眾生身，
+<lb n="0380b16" ed="T"/>絞已復絞乃至大絞，勒已復勒乃至大勒。
+<lb n="0380b17" ed="T"/>既絞勒已<anchor xml:id="nkr_note_orig_0380005" n="0380005"/><anchor xml:id="nkr_note_mod_0380005" n="0380005"/><anchor xml:id="beg0380005" n="0380005"/>後<anchor xml:id="end0380005"/>復還為風吹開解。風開解時，
+<lb n="0380b18" ed="T"/>而彼地獄諸眾生輩，從身剝皮，既剝皮已
+<lb n="0380b19" ed="T"/>次復剝肉，既剝肉已其次抽筋乃至破骨，
+<lb n="0380b20" ed="T"/>既破骨已，吹髓而去。彼等爾時於其中間，
+<lb n="0380b21" ed="T"/>乃至受於極嚴重苦。命既未終，略說如上，
+<lb n="0380b22" ed="T"/>未盡於彼惡不善業，如是次第，一切具受。</p>
+<lb n="0380b23" ed="T"/><p xml:id="pT01p0380b2301">「復次，諸比丘！彼地獄中，諸眾生輩，有無量
+<lb n="0380b24" ed="T"/>時長遠道中，從彼黑繩大地獄出，出已馳
+<lb n="0380b25" ed="T"/>走，乃至求覆求室求洲、求歸依處、求救護處，
+<lb n="0380b26" ed="T"/>詣黑雲沙五百由旬小地獄中入已，略說乃
+<lb n="0380b27" ed="T"/>至如上到第十六寒氷地獄，入彼獄已，乃
+<lb n="0380b28" ed="T"/>至命終，受種種苦。</p>
+<lb n="0380b29" ed="T"/><p xml:id="pT01p0380b2901">「復次，諸比丘！眾合大地獄，亦有十六諸小地
+<pb n="0380c" ed="T" xml:id="T01.0025.0380c"/>
+<lb n="0380c01" ed="T"/>獄，各皆縱廣五百由旬，而相圍遶，從黑雲
+<lb n="0380c02" ed="T"/>沙小地獄中，乃至略說，其最在後寒氷地
+<lb n="0380c03" ed="T"/>獄。諸比丘！於其中間，有何因緣，彼大地
+<lb n="0380c04" ed="T"/>獄，名為眾合也？諸比丘！而彼眾合大地獄
+<lb n="0380c05" ed="T"/>中，所有眾生，生者有者出者化者，乃至住
+<lb n="0380c06" ed="T"/>者，為彼等故，生於兩山，名為白羊、口食，熾
+<lb n="0380c07" ed="T"/>然極猛光焰。爾時，彼等地獄眾生，入彼山
+<lb n="0380c08" ed="T"/>內。彼等入已，時彼兩山各各相磨、各各相
+<lb n="0380c09" ed="T"/>打、各各相揩，彼山如是合已磨已，打揩各
+<lb n="0380c10" ed="T"/>訖，還住本處。譬如毘佉<g ref="#CB00145">㝹</g>共囉毘佉<g ref="#CB00145">㝹</g>
+<lb n="0380c11" ed="T"/><note place="inline">此二是閃電名</note>，相合相磨相揩相打，彼既相合，相磨
+<lb n="0380c12" ed="T"/>打已，各還本處。如是如是，諸比丘！彼之二
+<lb n="0380c13" ed="T"/>山，相合相磨相揩相打，著已各散還歸本處，
+<lb n="0380c14" ed="T"/>亦復如是。然於彼中，所有地獄諸眾生輩，
+<lb n="0380c15" ed="T"/>被山合著揩磨打時，身體一向膿血流出，唯
+<lb n="0380c16" ed="T"/>骸骨在，彼等爾時乃至受於極嚴重苦。命既
+<lb n="0380c17" ed="T"/>未終，略說乃至如上次第，如是當知。</p>
+<lb n="0380c18" ed="T"/><p xml:id="pT01p0380c1801">「復次，諸比丘！其彼眾合大地獄中，所有眾
+<lb n="0380c19" ed="T"/>生，生者住者，其守獄者，取彼地獄諸眾生
+<lb n="0380c20" ed="T"/>輩，以大鐵石熾然猛焰，乃至撲彼地獄眾生，
+<lb n="0380c21" ed="T"/>置熱地上，令其仰臥，彼鐵石上，更取別石以
+<lb n="0380c22" ed="T"/>覆其上，如世間磑，如是用磨，磨已復磨，大
+<lb n="0380c23" ed="T"/>磨作<anchor xml:id="nkr_note_orig_0380006" n="0380006"/><anchor xml:id="beg0380006" n="0380006"/>末<anchor xml:id="end0380006"/>，既作<anchor xml:id="beg_3e" type="star"/>末<anchor xml:id="end_3e"/>已，復更細磨。彼等磨時，
+<lb n="0380c24" ed="T"/>更復重研，研已復研，大研作塵。既作塵已，
+<lb n="0380c25" ed="T"/>復作細塵。如是種種作塵末時，一向唯見膿
+<lb n="0380c26" ed="T"/>血流出，空有骸骨塵<anchor xml:id="beg_3f" type="star"/>末<anchor xml:id="end_3f"/>而在。彼等於中乃
+<lb n="0380c27" ed="T"/>至受於極重苦惱。命既未終，略說如上，次
+<lb n="0380c28" ed="T"/>第應知。</p>
+<lb n="0380c29" ed="T"/><p xml:id="pT01p0380c2901">「復次，諸比丘！而彼眾合大地獄中，所有地獄
+<pb n="0381a" ed="T" xml:id="T01.0025.0381a"/>
+<lb n="0381a01" ed="T"/>諸眾生輩，生者有者乃至住者，其守獄卒
+<lb n="0381a02" ed="T"/>取彼眾生，撲置熱鐵大鐵槽中，其槽熾然一
+<lb n="0381a03" ed="T"/>向猛焰。擲槽中已，猶如世間壓諸甘蔗及以
+<lb n="0381a04" ed="T"/>胡麻，如是<anchor xml:id="nkr_note_orig_0381001" n="0381001"/><anchor xml:id="nkr_note_mod_0381001" n="0381001"/><anchor xml:id="beg0381001" n="0381001"/>柞<anchor xml:id="end0381001"/>壓，壓已復壓，如是大壓。彼
+<lb n="0381a05" ed="T"/>等壓時，其傍唯見膿血流出，一邊唯有骸骨
+<lb n="0381a06" ed="T"/>滓在於中，乃至受大嚴苦，略說如上。命既
+<lb n="0381a07" ed="T"/>未終，其中受苦種種痛劇。</p>
+<lb n="0381a08" ed="T"/><p xml:id="pT01p0381a0801">「復次，諸比丘！而彼眾合大地獄中，所有地獄
+<lb n="0381a09" ed="T"/>諸眾生輩，生者有者乃至住者，其守獄卒
+<lb n="0381a10" ed="T"/>取彼眾生，擲鐵臼中熾然猛焰，乃至一向極
+<lb n="0381a11" ed="T"/>熱鐵杵持用擣築，擣已復擣乃至大擣。如
+<lb n="0381a12" ed="T"/>是又築，築已復築，乃至大築。既擣築已，復
+<lb n="0381a13" ed="T"/>更碎<anchor xml:id="beg_40" type="star"/>末<anchor xml:id="end_40"/>，又大碎<anchor xml:id="beg_41" type="star"/>末<anchor xml:id="end_41"/>。彼等如是，舂擣築碎，
+<lb n="0381a14" ed="T"/>作塵<anchor xml:id="beg_42" type="star"/>末<anchor xml:id="end_42"/>時，唯<anchor xml:id="nkr_note_orig_0381002" n="0381002"/><anchor xml:id="nkr_note_mod_0381002" n="0381002"/><anchor xml:id="beg0381002" n="0381002"/>有<anchor xml:id="end0381002"/>膿血一向傍流，一邊唯有
+<lb n="0381a15" ed="T"/>骸骨<anchor xml:id="beg_43" type="star"/>末<anchor xml:id="end_43"/>在。彼等於中，乃至極受嚴切重苦，
+<lb n="0381a16" ed="T"/>略說如上。乃至其中，命未終盡，具受眾苦。</p>
+<lb n="0381a17" ed="T"/><p xml:id="pT01p0381a1701">「復次，諸比丘！而彼眾合大地獄中，所有地獄
+<lb n="0381a18" ed="T"/>諸眾生輩，生者有者乃至住者。爾時，於上
+<lb n="0381a19" ed="T"/>虛空之中，有大鐵象，自然出生，熾然猛壯，
+<lb n="0381a20" ed="T"/>乃至一向光焰赫盛。為彼地獄諸眾生輩，從
+<lb n="0381a21" ed="T"/>其頭頂乃至足趺，象以兩脚蹹其髑髏，蹹
+<lb n="0381a22" ed="T"/>已復蹹，乃至大蹹。彼象蹹時，能令彼等地
+<lb n="0381a23" ed="T"/>獄眾生，身諸膿血一向流出，一邊唯有骸骨
+<lb n="0381a24" ed="T"/>獨在。彼等於中受大嚴苦，略說如上。命未
+<lb n="0381a25" ed="T"/>終盡，如是次第，於中具受。</p>
+<lb n="0381a26" ed="T"/><p xml:id="pT01p0381a2601">「復次，諸比丘！而彼眾合大地獄中，諸眾生
+<lb n="0381a27" ed="T"/>輩，經無量時長遠道中，從於眾合大地獄
+<lb n="0381a28" ed="T"/>出。出已一向馳奔而走，乃至求於救護之
+<lb n="0381a29" ed="T"/>處，向黑雲沙五百由旬小地獄中。入已乃至
+<pb n="0381b" ed="T" xml:id="T01.0025.0381b"/>
+<lb n="0381b01" ed="T"/>寒氷地獄，具受眾苦。</p>
+<lb n="0381b02" ed="T"/><p xml:id="pT01p0381b0201">「復次，諸比丘！其彼叫喚大地獄中亦有十六
+<lb n="0381b03" ed="T"/>五百由旬諸小地獄，從黑雲沙乃至最後寒
+<lb n="0381b04" ed="T"/>氷地獄。諸比丘！於其中間，有何因緣，稱彼
+<lb n="0381b05" ed="T"/>叫喚為大地獄？諸比丘！而彼叫喚大地獄中
+<lb n="0381b06" ed="T"/>諸眾生輩，生者有者乃至住者，其守獄卒，
+<lb n="0381b07" ed="T"/>駈彼地獄諸眾生輩，令其入於諸鐵城中，其
+<lb n="0381b08" ed="T"/>城熾然熱鐵猛焰，其光焰赫。彼等於中，乃
+<lb n="0381b09" ed="T"/>至受於嚴重苦故，眾惱逼切，共相和合，恒
+<lb n="0381b10" ed="T"/>大叫喚，名叫喚獄。其彼獄中，以鐵為屋房
+<lb n="0381b11" ed="T"/>室輦輿，皆以鐵為樓觀園池，悉熱炭火，熾
+<lb n="0381b12" ed="T"/>然光耀，一向洞徹。驅逐彼等受罪眾生，擲
+<lb n="0381b13" ed="T"/>著於中，諸苦逼切，不可忍耐，即便叫喚，是
+<lb n="0381b14" ed="T"/>故名為叫喚獄也。彼等於中，受大嚴苦，略
+<lb n="0381b15" ed="T"/>說如上。命既未終，未盡彼等惡不善業，如
+<lb n="0381b16" ed="T"/>是次第，具足而受。諸比丘！其彼地獄諸眾生
+<lb n="0381b17" ed="T"/>輩，經無量時長遠道中，從彼叫喚大地獄
+<lb n="0381b18" ed="T"/>出。出已馳走，略說如前，乃至求於救護之
+<lb n="0381b19" ed="T"/>處，詣黑雲沙五百由旬小地獄中，入已如
+<lb n="0381b20" ed="T"/>前，乃至略說，其次最後寒氷地獄，其中命
+<lb n="0381b21" ed="T"/>終，具受眾苦。</p>
+<lb n="0381b22" ed="T"/><p xml:id="pT01p0381b2201">「復次，諸比丘！彼大叫喚大地獄中，亦有十六
+<lb n="0381b23" ed="T"/>諸小地獄，以為眷屬，皆悉縱廣五百由旬，
+<lb n="0381b24" ed="T"/>從黑雲沙，乃至最後寒氷地獄。諸比丘！於
+<lb n="0381b25" ed="T"/>彼中間，有何因緣，名大叫喚大地獄也？諸
+<lb n="0381b26" ed="T"/>比丘！彼大叫喚大地獄中，所有眾生，生
+<lb n="0381b27" ed="T"/>者住者。時守獄卒取彼眾生，悉皆擲置鐵
+<lb n="0381b28" ed="T"/>屋室中，熾然大熱，乃至一向光焰猛壯。彼
+<lb n="0381b29" ed="T"/>等於中，受極嚴苦，逼切難忍，眾惱和合，遂
+<pb n="0381c" ed="T" xml:id="T01.0025.0381c"/>
+<lb n="0381c01" ed="T"/>大叫喚，以是緣故，稱彼地獄，名大叫喚。彼
+<lb n="0381c02" ed="T"/>地獄中，有鐵屋宇鐵房、鐵輦鐵閣鐵樓，其中
+<lb n="0381c03" ed="T"/>炭火，沸湧盈溢。彼等於中，受極重苦，略說
+<lb n="0381c04" ed="T"/>如前。既未命盡，如是次第，具足而受。諸比
+<lb n="0381c05" ed="T"/>丘！而彼地獄諸眾生輩，經無量時長遠道
+<lb n="0381c06" ed="T"/>中，從大叫喚大地獄出。出已馳走，乃至略
+<lb n="0381c07" ed="T"/>說，求救護處，詣黑雲沙小地獄中。入已乃
+<lb n="0381c08" ed="T"/>至最後十六寒氷地獄，於中命終，具受眾
+<lb n="0381c09" ed="T"/>苦。</p>
+<lb n="0381c10" ed="T"/><p xml:id="pT01p0381c1001">「復次，諸比丘！其彼熱惱大地獄中，亦有十六
+<lb n="0381c11" ed="T"/>諸小地獄，以為眷屬，其獄各各如前，縱廣
+<lb n="0381c12" ed="T"/>五百由旬，從黑雲沙乃至最後寒氷地獄。諸
+<lb n="0381c13" ed="T"/>比丘！於其中間，有何因緣，稱彼名為熱惱
+<lb n="0381c14" ed="T"/>大地獄？諸比丘！其彼熱惱大地獄中，諸眾
+<lb n="0381c15" ed="T"/>生輩，生者有者乃至住者，其守獄卒，取彼
+<lb n="0381c16" ed="T"/>地獄諸眾生輩，擲鐵鑊中，頭直向下，脚皆
+<lb n="0381c17" ed="T"/>向上，熾然沸湧，乃至一向熱焰湯火。彼等
+<lb n="0381c18" ed="T"/>於中，被燒煮故，是故名為熱惱獄也。而彼
+<lb n="0381c19" ed="T"/>獄中，有<anchor xml:id="nkr_note_orig_0381003" n="0381003"/><anchor xml:id="nkr_note_mod_0381003" n="0381003"/><anchor xml:id="beg0381003" n="0381003"/>諸<anchor xml:id="end0381003"/>鐵釜鐵<anchor xml:id="nkr_note_orig_0381004" n="0381004"/><anchor xml:id="nkr_note_mod_0381004" n="0381004"/><anchor xml:id="beg0381004" n="0381004"/>瓮<anchor xml:id="end0381004"/>鐵瓫、鐵瓨鐵<anchor xml:id="nkr_note_orig_0381005" n="0381005"/><anchor xml:id="beg0381005" n="0381005"/>盥<anchor xml:id="end0381005"/>鐵<g ref="#CB00828">𨫼</g>
+<lb n="0381c20" ed="T"/>鐵鼎，並皆熾然，一向猛焰。彼等於中，若燒
+<lb n="0381c21" ed="T"/>若煮，故名熱惱，乃至受於極嚴重苦。命既
+<lb n="0381c22" ed="T"/>未終，未盡彼等惡不善業，如是次第，一切
+<lb n="0381c23" ed="T"/>悉受。諸比丘！彼地獄中，諸眾生輩，經無量
+<lb n="0381c24" ed="T"/>時長遠道中，從彼熱惱大地獄出。出已乃至
+<lb n="0381c25" ed="T"/>馳奔而走，欲求救護歸依之處，向黑雲沙小
+<lb n="0381c26" ed="T"/>地獄中，略說乃至寒氷地獄，於彼命終，具
+<lb n="0381c27" ed="T"/>受眾苦。</p>
+<lb n="0381c28" ed="T"/><p xml:id="pT01p0381c2801">「復次，諸比丘！彼大熱惱大地獄中，亦有十六
+<lb n="0381c29" ed="T"/>諸小地獄，各各縱廣五百由旬，從黑雲沙小
+<pb n="0382a" ed="T" xml:id="T01.0025.0382a"/>
+<lb n="0382a01" ed="T"/>地獄中，乃至最後寒氷地獄。於其中間，有
+<lb n="0382a02" ed="T"/>何因緣，名大熱惱大地獄也？諸比丘！彼大
+<lb n="0382a03" ed="T"/>熱惱大地獄中，諸眾生輩，生者有者乃至住
+<lb n="0382a04" ed="T"/>者，其守獄卒，取彼地獄諸眾生輩，捉頭擲
+<lb n="0382a05" ed="T"/>下，以脚向上，置鐵釜中，熾然猛火，乃至一
+<lb n="0382a06" ed="T"/>向熱焰衝出。彼等於中，極受熱惱大熱惱
+<lb n="0382a07" ed="T"/>已，復大熱惱，是故名為熾然最大熱惱獄
+<lb n="0382a08" ed="T"/>也。彼等於彼熱鐵<anchor xml:id="beg_44" type="star"/>瓮<anchor xml:id="end_44"/>中、<anchor xml:id="beg_45" type="cb-app"/>盆<anchor xml:id="end_45"/>中鑊中鼎中鎗中，
+<lb n="0382a09" ed="T"/>熾然熱惱，極大苦切。擲著中已，彼等於中
+<lb n="0382a10" ed="T"/>為地獄火，若燒若煮若炙若煎，受諸苦惱，
+<lb n="0382a11" ed="T"/>惱已復惱，以是故名最熾猛熱極惱獄也。彼
+<lb n="0382a12" ed="T"/>等於中，受劇苦惱，略說如前。乃至命終，如
+<lb n="0382a13" ed="T"/>是次第，於中受苦。諸比丘！彼地獄中諸眾
+<lb n="0382a14" ed="T"/>生輩，經無量時長遠道中，從彼熾熱極大劇
+<lb n="0382a15" ed="T"/>惱地獄出已，馳奔而走，乃至略說，欲求救
+<lb n="0382a16" ed="T"/>護歸依之處，詣黑雲沙小地獄中，乃至最後
+<lb n="0382a17" ed="T"/>寒氷地獄，命既未終，受諸苦惱，次第如前。</p>
+<lb n="0382a18" ed="T"/><p xml:id="pT01p0382a1801">「復次，諸比丘！彼阿毘脂大地獄中，亦有十六
+<lb n="0382a19" ed="T"/>諸小地獄而為眷屬，以自圍遶，其獄各廣五
+<lb n="0382a20" ed="T"/>百由旬，初黑雲沙，乃至最後寒氷地獄。諸
+<lb n="0382a21" ed="T"/>比丘！於彼中間，有何因緣，名阿毘脂大地
+<lb n="0382a22" ed="T"/>獄也？諸比丘！其阿毘脂大地獄中，諸眾生
+<lb n="0382a23" ed="T"/>輩，生者有者出者住者，彼等眾生，以惡不
+<lb n="0382a24" ed="T"/>善業果報故，彼守獄者自然出生，各各以
+<lb n="0382a25" ed="T"/>手，取彼地獄諸眾生身，撲著熱鐵熾然地
+<lb n="0382a26" ed="T"/>上，火焰直上，一向猛壯，覆<anchor xml:id="beg_46" type="cb-app"/>面<anchor xml:id="end_46"/>撲已，即持利
+<lb n="0382a27" ed="T"/>刀，從其脚踝，抽拔出筋，乃至頭<anchor xml:id="nkr_note_orig_0382001" n="0382001"/><anchor xml:id="nkr_note_mod_0382001" n="0382001"/><anchor xml:id="beg0382001" n="0382001"/>髮<anchor xml:id="end0382001"/>皆相連
+<lb n="0382a28" ed="T"/>挽，貫徹心髓，痛苦難論。如是拔已，然後令
+<lb n="0382a29" ed="T"/>駕鐵車而行，熾然光焰，一向猛熱，將其經
+<pb n="0382b" ed="T" xml:id="T01.0025.0382b"/>
+<lb n="0382b01" ed="T"/>歷無量由旬鐵地而過。所行之處，純是洞
+<lb n="0382b02" ed="T"/>然熱鐵險道，去已復去，隨彼心意，無暫時
+<lb n="0382b03" ed="T"/>停，欲向何處，稱意便去，隨所去處，隨所到
+<lb n="0382b04" ed="T"/>處。彼等如是，將彼去時，欲將去時，意欲去
+<lb n="0382b05" ed="T"/>時，即消彼等身諸肉血，無復遺餘。以是因
+<lb n="0382b06" ed="T"/>緣，受嚴切苦，極重劇苦，意不憙苦。命既未
+<lb n="0382b07" ed="T"/>終，乃至未盡惡不善業，未滅未散未變未移，
+<lb n="0382b08" ed="T"/>若於往昔人非人身所作來者，一切悉受。</p>
+<lb n="0382b09" ed="T"/><p xml:id="pT01p0382b0901">「復次，諸比丘！彼阿毘脂大地獄中，諸眾生
+<lb n="0382b10" ed="T"/>輩，生者有者化者住者，以惡不善業果報故，
+<lb n="0382b11" ed="T"/>從於東方有大火聚，忽爾出生，熾然赫色，
+<lb n="0382b12" ed="T"/>極大猛焰，一向洞赫。如是次第，南方西方
+<lb n="0382b13" ed="T"/>及北方等，諸方各各皆有極大火聚出生，熾
+<lb n="0382b14" ed="T"/>然光焰，悉皆猛赫。彼等於中，以此四方四
+<lb n="0382b15" ed="T"/>大火聚之所圍繞，漸漸逼近，共相和合，令
+<lb n="0382b16" ed="T"/>諸眾生受諸痛苦，乃至受彼大嚴切苦。命既
+<lb n="0382b17" ed="T"/>未終，略說如上，於彼獄中，一切具受。</p>
+<lb n="0382b18" ed="T"/><cb:juan n="003" fun="close"><cb:jhead><title>起世<anchor xml:id="nkr_note_orig_0382002" n="0382002"/><anchor xml:id="beg0382002" n="0382002"/>因本<anchor xml:id="end0382002"/>經</title>卷第三</cb:jhead></cb:juan>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0377003" to="#end0377003"><lem wit="#wit1">因本</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0377004" to="#end0377004"><lem resp="#resp3" wit="#wit5 #wit6">隋天竺沙門達摩笈多譯<note type="cf1">K19n0661_p0361c02</note></lem><rdg wit="#wit1">隋天竺三藏達摩笈多譯</rdg><rdg resp="#resp1" wit="#wit4">隋三藏闍那崛多達摩笈多二法師共譯</rdg><rdg resp="#resp1" wit="#wit2 #wit3">隋三藏法師闍那崛等譯</rdg></app>
+<app from="#beg0377005" to="#end0377005"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit4">第四之二</rdg></app>
+<app from="#beg0377006" to="#end0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0377007" to="#end0377007"><lem wit="#wit1">皮破</lem><rdg resp="#resp1" wit="#wit3">破皮</rdg></app>
+<app from="#beg0377008" to="#end0377008"><lem wit="#wit1">獄</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">地獄</rdg></app>
+<app from="#beg_2d" to="#end_2d"><lem resp="#resp3" wit="#wit5 #wit6">被<note type="cf1">K19n0661_p0362c04</note></lem><rdg wit="#wit1">彼</rdg></app>
+<app from="#beg0377009" to="#end0377009"><lem wit="#wit1">爪</lem><rdg resp="#resp1" wit="#wit4 #wit2">瓜</rdg></app>
+<app from="#beg0377010" to="#end0377010"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">切</rdg></app>
+<app from="#beg0378001" to="#end0378001"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4">抹</rdg><rdg resp="#resp1" wit="#wit2">粖</rdg></app>
+<app from="#beg_2e" to="#end_2e" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_2f" to="#end_2f" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_30" to="#end_30" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_31" to="#end_31" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0378002" to="#end0378002"><lem wit="#wit1">焰</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">踏</rdg></app>
+<app from="#beg_32" to="#end_32" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0378003" to="#end0378003"><lem wit="#wit1">穎</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">頭</rdg></app>
+<app from="#beg_33" to="#end_33" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_34" to="#end_34" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0378004" to="#end0378004"><lem wit="#wit1">搩</lem><rdg resp="#resp1" wit="#wit3">磔</rdg></app>
+<app from="#beg_35" to="#end_35" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0378005" to="#end0378005"><lem wit="#wit1">纖</lem><rdg resp="#resp1" wit="#wit2 #wit3">銛</rdg></app>
+<app from="#beg_36" to="#end_36" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0379001" to="#end0379001"><lem wit="#wit1">融</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">鎔</rdg></app>
+<app from="#beg0379002" to="#end0379002"><lem wit="#wit1"><g ref="#CB00550">𣃆</g>斤</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">斵釿</rdg></app>
+<app from="#beg_37" to="#end_37" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_38" to="#end_38" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0379003" to="#end0379003"><lem wit="#wit1">斫</lem><rdg resp="#resp1" wit="#wit4 #wit3">破</rdg></app>
+<app from="#beg_39" to="#end_39" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_3a" to="#end_3a" corresp="#0377006"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0379004" to="#end0379004"><lem wit="#wit1">悉於中受</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">於中受之</rdg></app>
+<app from="#beg0380001" to="#end0380001"><lem wit="#wit1"><g ref="#CB00550">𣃆</g>斤</lem><rdg resp="#resp1" wit="#wit2">斵斤</rdg><rdg resp="#resp1" wit="#wit3">斵釿</rdg></app>
+<app from="#beg_3b" to="#end_3b" corresp="#0380001"><lem wit="#wit1"><g ref="#CB00550">𣃆</g>斤</lem><rdg resp="#resp1" wit="#wit2">斵斤</rdg><rdg resp="#resp1" wit="#wit3">斵釿</rdg></app>
+<app from="#beg_3c" to="#end_3c" corresp="#0380001"><lem wit="#wit1"><g ref="#CB00550">𣃆</g>斤</lem><rdg resp="#resp1" wit="#wit2">斵斤</rdg><rdg resp="#resp1" wit="#wit3">斵釿</rdg></app>
+<app from="#beg0380002" to="#end0380002"><lem wit="#wit1">及</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">乃</rdg></app>
+<app from="#beg0380003" to="#end0380003"><lem wit="#wit1">如是</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0380004" to="#end0380004"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg_3d" to="#end_3d" corresp="#0380004"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
+<app from="#beg0380005" to="#end0380005"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">次</rdg></app>
+<app from="#beg0380006" to="#end0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg_3e" to="#end_3e" corresp="#0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg_3f" to="#end_3f" corresp="#0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg0381001" to="#end0381001"><lem wit="#wit1">柞</lem><rdg resp="#resp1" wit="#wit4">笮</rdg><rdg resp="#resp1" wit="#wit2 #wit3"><g ref="#CB13375">󳐿</g></rdg></app>
+<app from="#beg_40" to="#end_40" corresp="#0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg_41" to="#end_41" corresp="#0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg_42" to="#end_42" corresp="#0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg0381002" to="#end0381002"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">見</rdg></app>
+<app from="#beg_43" to="#end_43" corresp="#0380006"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit4 #wit2">粖</rdg></app>
+<app from="#beg0381003" to="#end0381003"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">熾</rdg></app>
+<app from="#beg0381004" to="#end0381004"><lem wit="#wit1">瓮</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">甕</rdg></app>
+<app from="#beg0381005" to="#end0381005"><lem wit="#wit1">盥</lem><rdg resp="#resp1" wit="#wit2 #wit3">罐</rdg></app>
+<app from="#beg_44" to="#end_44" corresp="#0381004"><lem wit="#wit1">瓮</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">甕</rdg></app>
+<app from="#beg_45" to="#end_45"><lem resp="#resp3" wit="#wit5 #wit6">盆<note type="cf1">K19n0661_p0368c15</note></lem><rdg wit="#wit1">瓫</rdg></app>
+<app from="#beg_46" to="#end_46"><lem resp="#resp3" wit="#wit5 #wit6">面<note type="cf1">K19n0661_p0369a13</note></lem><rdg wit="#wit1">而</rdg></app>
+<app from="#beg0382001" to="#end0382001"><lem wit="#wit1">髮</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">後</rdg></app>
+<app from="#beg0382002" to="#end0382002"><lem wit="#wit1">因本</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0377004" resp="#resp2" type="mod" target="#nkr_note_mod_0377004"><!--CBETA todo type: ＊-->隋天竺三藏達摩笈多譯＝隋三藏闍那崛多達摩笈多二法師共譯【宋】＊，＝隋三藏法師闍那崛等譯【元】【明】＊，＝隋天竺沙門達摩笈多譯【麗-CB】【CB】</note>
+<note n="0377008" resp="#resp2" type="mod" target="#nkr_note_mod_0377008">（地）＋獄【宋】【元】【明】</note>
+<note n="0377010" resp="#resp2" type="mod" target="#nkr_note_mod_0377010">重＝切【宋】【元】【明】</note>
+<note n="0378001" resp="#resp2" type="mod" target="#nkr_note_mod_0378001"><!--CBETA todo type: ＊-->末＝抹【宋】＊，＝粖【元】＊</note>
+<note n="0378002" resp="#resp2" type="mod" target="#nkr_note_mod_0378002">焰＝踏【宋】【元】【明】</note>
+<note n="0378003" resp="#resp2" type="mod" target="#nkr_note_mod_0378003">穎＝頭【宋】【元】【明】</note>
+<note n="0379001" resp="#resp2" type="mod" target="#nkr_note_mod_0379001">融＝鎔【宋】【元】【明】</note>
+<note n="0379002" resp="#resp2" type="mod" target="#nkr_note_mod_0379002"><g ref="#CB00550">𣃆</g>斤＝斵釿【宋】【元】【明】</note>
+<note n="0379004" resp="#resp2" type="mod" target="#nkr_note_mod_0379004">悉於中受＝於中受之【宋】【元】【明】</note>
+<note n="0380001" resp="#resp2" type="mod" target="#nkr_note_mod_0380001"><g ref="#CB00550">𣃆</g>斤＝斵斤【元】＊，＝斵釿【明】＊</note>
+<note n="0380002" resp="#resp2" type="mod" target="#nkr_note_mod_0380002">及＝乃【宋】【元】【明】</note>
+<note n="0380003" resp="#resp2" type="mod" target="#nkr_note_mod_0380003">〔如是〕－【宋】【元】【明】</note>
+<note n="0380005" resp="#resp2" type="mod" target="#nkr_note_mod_0380005">後＝次【宋】【元】【明】</note>
+<note n="0381001" resp="#resp2" type="mod" target="#nkr_note_mod_0381001">柞＝笮【宋】，＝<g ref="#CB13375">󳐿</g>【元】【明】</note>
+<note n="0381002" resp="#resp2" type="mod" target="#nkr_note_mod_0381002">有＝見【宋】【元】【明】</note>
+<note n="0381003" resp="#resp2" type="mod" target="#nkr_note_mod_0381003">諸＝熾【宋】【元】【明】</note>
+<note n="0381004" resp="#resp2" type="mod" target="#nkr_note_mod_0381004">瓮＝甕【宋】＊【元】＊【明】＊</note>
+<note n="0382001" resp="#resp2" type="mod" target="#nkr_note_mod_0382001">髮＝後【宋】【元】【明】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0377003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377003">〔因本〕－【元】【明】</note>
+<note n="0377004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377004">譯號如卷第一【三】</note>
+<note n="0377005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377005">中＝第四之二【宋】</note>
+<note n="0377006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377006">支＝肢【元】【明】＊</note>
+<note n="0377007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377007">皮破＝破皮【明】</note>
+<note n="0377008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377008">（地）＋獄【三】</note>
+<note n="0377009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377009">爪＝瓜【宋】【元】</note>
+<note n="0377010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0377010">重＝切【三】</note>
+<note n="0378001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0378001">末＝抹【宋】＊，粖【元】＊</note>
+<note n="0378002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0378002">焰＝踏【三】</note>
+<note n="0378003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0378003">穎＝頭【三】</note>
+<note n="0378004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0378004">搩＝磔【明】</note>
+<note n="0378005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0378005">纖＝銛【元】【明】</note>
+<note n="0379001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0379001">融＝鎔【三】</note>
+<note n="0379002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0379002"><g ref="#CB00550">𣃆</g>斤＝斵釿【三】</note>
+<note n="0379003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0379003">斫＝破【宋】【明】</note>
+<note n="0379004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0379004">悉於中受＝於中受之【三】</note>
+<note n="0380001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0380001"><g ref="#CB00550">𣃆</g>斤＝斵斤【元】＊，斵釿【明】＊</note>
+<note n="0380002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0380002">及＝乃【三】</note>
+<note n="0380003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0380003">〔如是〕－【三】</note>
+<note n="0380004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0380004">支＝肢【元】【明】＊</note>
+<note n="0380005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0380005">後＝次【三】</note>
+<note n="0380006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0380006">末＝粖【宋】【元】＊</note>
+<note n="0381001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0381001">柞＝笮【宋】，<g ref="#CB13375">󳐿</g>【元】【明】</note>
+<note n="0381002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0381002">有＝見【三】</note>
+<note n="0381003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0381003">諸＝熾【三】</note>
+<note n="0381004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0381004">瓮＝甕【三】＊</note>
+<note n="0381005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0381005">盥＝罐【元】【明】</note>
+<note n="0382001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0382001">髮＝後【三】</note>
+<note n="0382002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0382002">〔因本〕－【元】【明】</note>
+</p>
+</cb:div>
+</back></text></TEI>

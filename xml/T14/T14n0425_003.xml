@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T14n0425">
+<teiHeader>
+        <fileDesc>
+                <titleStmt>
+                        <title>Taisho Tripitaka, Electronic version, No. 0425 賢劫經</title>
+                        <author>西晉 竺法護譯</author>
+                        <respStmt>
+                                <resp>Electronic Version by</resp>
+                                <name>CBETA</name>
+                        </respStmt>
+                </titleStmt>
+        <editionStmt>
+                <edition>$Revision: 1.18 $<date>$Date: 2012/08/27 03:14:45 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+        </editionStmt>
+        <extent>8卷</extent>
+        <publicationStmt>
+                <distributor>
+                        <name>中華電子佛典協會 (CBETA)</name>
+                        <address>
+                                <addrLine>service@cbeta.org</addrLine>
+                        </address>
+                </distributor>
+                <availability>
+                        <p>Available for non-commercial use when distributed with this header intact.</p>
+                </availability>
+                <date>$Date: 2012/08/27 03:14:45 $</date>
+        </publicationStmt>
+        <sourceDesc>
+                <bibl>Taisho Tripitaka Vol. 14, No. 425 </bibl>
+        <listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【聖】</witness>
+		<witness xml:id="wit3">【宋】</witness>
+		<witness xml:id="wit4">【元】</witness>
+		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【宮】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+        <projectDesc>
+                <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine</p>
+                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
+        </projectDesc>
+<charDecl>
+<char xml:id="CB00166">
+	<charName>CBETA CHARACTER CB00166</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[月*庸]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>傭</value>
+	</charProp>
+	<mapping type="unicode">U+267DB</mapping>
+	<mapping cb:dec="983206" type="PUA">U+F00A6</mapping>
+</char>
+<char xml:id="CB00279">
+	<charName>CBETA CHARACTER CB00279</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[立*寺]</value>
+	</charProp>
+	<mapping type="unicode">U+25A73</mapping>
+	<mapping cb:dec="983319" type="PUA">U+F0117</mapping>
+</char>
+<char xml:id="CB00877">
+	<charName>CBETA CHARACTER CB00877</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[卄/弊]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>蔽</value>
+	</charProp>
+	<mapping type="unicode">U+26FD4</mapping>
+	<mapping cb:dec="983917" type="PUA">U+F036D</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+                <langUsage>
+                        <language ident="en">English</language>
+                        <language ident="zh">Chinese</language>
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+        <change when="1999-10-12T08:42:28">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="8" type="品">8 無際品</cb:mulu>
+<lb n="0019b01" ed="T"/>
+<milestone n="3" unit="juan"/><cb:div type="pin">
+<lb n="0019b02" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷"></cb:mulu><cb:jhead><title>賢劫經</title>卷第<anchor xml:id="nkr_note_orig_0019009" n="0019009"/><anchor xml:id="nkr_note_mod_0019009" n="0019009"/><anchor xml:id="beg0019009" n="0019009"/>三<anchor xml:id="end0019009"/></cb:jhead></cb:juan>
+<lb n="0019b03" ed="T"/>
+<lb n="0019b04" ed="T"/><byline cb:type="Translator">西晉<anchor xml:id="fxT14p0019b01"/>月氏三藏竺法護<anchor xml:id="fxT14p0019b02"/>譯</byline>
+<lb n="0019b05" ed="T"/><cb:mulu level="1" n="9" type="品">9 聞持品</cb:mulu><head>聞持品第九</head>
+<lb n="0019b06" ed="T"/><p xml:id="pT14p0019b0601">佛告喜王菩薩：「何謂聞持度無極有六事？見
+<lb n="0019b07" ed="T"/>眾窮厄不能自濟，若宣法施，伏已致寶使眾
+<lb n="0019b08" ed="T"/>人聞，是曰布施；常以德本眾善之行，既自
+<lb n="0019b09" ed="T"/>身行復勸他人，若聞不持致大財富，是曰持
+<lb n="0019b10" ed="T"/>戒；若聞善說能忍眾苦不以為惱，假使菩薩
+<lb n="0019b11" ed="T"/>若為梵志，悉從愚人得有所聞，修十二年興
+<lb n="0019b12" ed="T"/>發建立無上大道，覺了所生，是曰忍辱；若
+<lb n="0019b13" ed="T"/>能精進<anchor xml:id="nkr_note_orig_0019010" n="0019010"/><anchor xml:id="nkr_note_mod_0019010" n="0019010"/><anchor xml:id="beg0019010" n="0019010"/>捐棄<anchor xml:id="end0019010"/>家業不以為難，是曰精進；其
+<lb n="0019b14" ed="T"/><anchor xml:id="nkr_note_orig_0019011" n="0019011"/><anchor xml:id="nkr_note_mod_0019011" n="0019011"/><anchor xml:id="beg0019011" n="0019011"/>解<anchor xml:id="end0019011"/>無常而聞因緣不以懈廢，是曰一心；學
+<lb n="0019b15" ed="T"/>無有師，方便平等於諸憎愛，是曰智慧；是為
+<lb n="0019b16" ed="T"/>六。</p><p xml:id="pT14p0019b1602" rend="inline">「何謂生死長度無極有六事？若惠施主得
+<lb n="0019b17" ed="T"/>無所從生法忍，是曰布施；其能依<anchor xml:id="nkr_note_orig_0019012" n="0019012"/><anchor xml:id="beg0019012" n="0019012"/>猗<anchor xml:id="end0019012"/>無極
+<lb n="0019b18" ed="T"/>大哀，是曰持戒；設以柔和勸慕弘誓，是曰
+<lb n="0019b19" ed="T"/>忍辱；若以博聞施於一切，是曰精進；假使
+<lb n="0019b20" ed="T"/>寂然加於無我，是曰一心；若以諸下<anchor xml:id="nkr_note_orig_0019013" n="0019013"/><anchor xml:id="nkr_note_mod_0019013" n="0019013"/><anchor xml:id="beg0019013" n="0019013"/>縱<anchor xml:id="end0019013"/>使
+<lb n="0019b21" ed="T"/>僕從，教誨忍和禪思弘聖，是曰智慧；是為
+<lb n="0019b22" ed="T"/>六。</p><p xml:id="pT14p0019b2202" rend="inline">「何謂無斷度無極有六事？若以所施興立
+<lb n="0019b23" ed="T"/>四恩救濟危厄，是曰布施；護身口心常謹慎
+<lb n="0019b24" ed="T"/>三，是曰持戒；其以<anchor xml:id="nkr_note_orig_0019014" n="0019014"/><anchor xml:id="beg0019014" n="0019014"/>人<anchor xml:id="end0019014"/>宜身心和同，志逮法
+<lb n="0019b25" ed="T"/>忍四事和業，是曰忍辱；若用勤修四意斷者，
+<lb n="0019b26" ed="T"/>無所中傷，皆由學是<anchor xml:id="nkr_note_orig_0019015" n="0019015"/><anchor xml:id="nkr_note_mod_0019015" n="0019015"/><anchor xml:id="beg0019015" n="0019015"/>建<anchor xml:id="end0019015"/>立至真，是曰精進；
+<lb n="0019b27" ed="T"/>其用寂靜逮四意止者，是曰一心；若以聖明
+<lb n="0019b28" ed="T"/>修四諦事無復虛偽，是<anchor xml:id="nkr_note_orig_0019016" n="0019016"/><anchor xml:id="nkr_note_mod_0019016" n="0019016"/><anchor xml:id="beg0019016" n="0019016"/>為<anchor xml:id="end0019016"/>智慧；是為六。</p><p xml:id="pT14p0019b2816" rend="inline">「何
+<lb n="0019b29" ed="T"/>謂欲樂純<anchor xml:id="nkr_note_orig_0019017" n="0019017"/><anchor xml:id="nkr_note_mod_0019017" n="0019017"/><anchor xml:id="beg0019017" n="0019017"/>熟<anchor xml:id="end0019017"/>度無極有六事？一切所有施而
+<pb n="0019c" ed="T" xml:id="T14.0425.0019c"/>
+<lb n="0019c01" ed="T"/>不悋，是曰布施；開化功勳見空脫門，是曰
+<lb n="0019c02" ed="T"/>持戒；若以至德教訓<anchor xml:id="nkr_note_orig_0019018" n="0019018"/><anchor xml:id="nkr_note_mod_0019018" n="0019018"/><anchor xml:id="beg0019018" n="0019018"/>用<anchor xml:id="end0019018"/>化戒禁，在於行業
+<lb n="0019c03" ed="T"/>心生其上，開度眾生顯以斯戒，以忍順意而
+<lb n="0019c04" ed="T"/>有殊特<anchor xml:id="nkr_note_orig_0019019" n="0019019"/><anchor xml:id="nkr_note_mod_0019019" n="0019019"/><anchor xml:id="beg0019019" n="0019019"/>人<anchor xml:id="end0019019"/>和能受，是曰忍辱；其以用法隨
+<lb n="0019c05" ed="T"/>時開化若干品訓，是曰精進；曉了時宜奉行
+<lb n="0019c06" ed="T"/>慈心，行四等意斷他苦樂，是曰一心；所欲訓
+<lb n="0019c07" ed="T"/>誨眾生一切哀護應法，其所至宜隨時不失，
+<lb n="0019c08" ed="T"/>是曰智慧；是為六。</p><p xml:id="pT14p0019c0808" rend="inline">「何謂禪定度無極有六事？
+<lb n="0019c09" ed="T"/>若建所施在在所欲不能違者，是曰布施；心
+<lb n="0019c10" ed="T"/>懷謹慎棄眾不可，是曰持戒；<anchor xml:id="nkr_note_orig_0019020" n="0019020"/><anchor xml:id="nkr_note_mod_0019020" n="0019020"/><anchor xml:id="beg0019020" n="0019020"/>仁任<anchor xml:id="end0019020"/>和忍諸
+<lb n="0019c11" ed="T"/>法自然入於和<anchor xml:id="nkr_note_orig_0019021" n="0019021"/><anchor xml:id="nkr_note_mod_0019021" n="0019021"/><anchor xml:id="beg0019021" n="0019021"/>忍<anchor xml:id="end0019021"/>，是曰忍辱；一心勤修思
+<lb n="0019c12" ed="T"/>惟建立，處所悉散毀滅諸非，是曰精進；若
+<lb n="0019c13" ed="T"/>以禪思聞所棄捐，身口心安承諸智明，是曰
+<lb n="0019c14" ed="T"/>一心；若蠲除欲以聖明德去眾穢行，是曰智
+<lb n="0019c15" ed="T"/>慧；是為六。</p><p xml:id="pT14p0019c1505" rend="inline">「何謂神通度無極有六事？若以
+<lb n="0019c16" ed="T"/><anchor xml:id="nkr_note_orig_0019022" n="0019022"/><anchor xml:id="beg0019022" n="0019022"/>燈<anchor xml:id="end0019022"/>施因得其報天眼徹視，是曰布施；其奉
+<lb n="0019c17" ed="T"/>禁戒專精聽經，無所毀犯致天耳聽，是曰持
+<lb n="0019c18" ed="T"/>戒；仁和無二以用勸助因發道意，是曰忍辱；
+<lb n="0019c19" ed="T"/>成就逮得識念宿命過去世事，神通自然為
+<lb n="0019c20" ed="T"/>眾生故處在世間，積功累德每生自剋，是曰
+<lb n="0019c21" ed="T"/>精進；懷來神通神足變化難逮無極，捨諸識
+<lb n="0019c22" ed="T"/>著受平等禪，是曰一心；以逮斯恩因緣之報，
+<lb n="0019c23" ed="T"/>以慧神通消滅眾垢，因其三昧究暢聖明，是
+<lb n="0019c24" ed="T"/>曰智慧盡諸漏<anchor xml:id="nkr_note_orig_0019023" n="0019023"/><anchor xml:id="beg0019023" n="0019023"/>矣<anchor xml:id="end0019023"/>；是為六。</p><p xml:id="pT14p0019c2411" rend="inline">「何謂世<anchor xml:id="nkr_note_orig_0019024" n="0019024"/><anchor xml:id="nkr_note_mod_0019024" n="0019024"/><anchor xml:id="beg0019024" n="0019024"/>人<anchor xml:id="end0019024"/>巧便
+<lb n="0019c25" ed="T"/>度無極有六事？不能勸學諸度無極，唯慕世
+<lb n="0019c26" ed="T"/>俗巧術之宜，俱<anchor xml:id="nkr_note_orig_0019025" n="0019025"/><anchor xml:id="nkr_note_mod_0019025" n="0019025"/><anchor xml:id="beg0019025" n="0019025"/>技<anchor xml:id="end0019025"/>他行，巧術所施使人修
+<lb n="0019c27" ed="T"/>德，是曰布施；後當得報，使無數人愛樂務道，
+<lb n="0019c28" ed="T"/>是曰持戒；能使一切<anchor xml:id="nkr_note_orig_0019026" n="0019026"/><anchor xml:id="beg0019026" n="0019026"/>技<anchor xml:id="end0019026"/>術巧便，皆達無餘
+<lb n="0019c29" ed="T"/>靡不通暢，是曰忍辱；其速奉行菩薩之法能
+<pb n="0020a" ed="T" xml:id="T14.0425.0020a"/>
+<lb n="0020a01" ed="T"/>令成就，是曰精進；若心以好，是曰一心；諮
+<lb n="0020a02" ed="T"/>受道法，是曰智慧；是為六。</p><p xml:id="pT14p0020a0211" rend="inline">「何謂慈愍護養
+<lb n="0020a03" ed="T"/>一切度無極有六事？若以心護一切眾生以
+<lb n="0020a04" ed="T"/>慈心施，是曰布施；用眾生故不貪己身，以
+<lb n="0020a05" ed="T"/>是持戒以時誓願，因得自在所生之處，訓化
+<lb n="0020a06" ed="T"/>眾生因奉善事而建立道，是曰持戒；猶過去
+<lb n="0020a07" ed="T"/>王名曰摩調，所興精進愁思勤修遵承隨時，
+<lb n="0020a08" ed="T"/>是曰忍辱；若作國王人求截頭心不發恚，無
+<lb n="0020a09" ed="T"/>央數人得生天上，以是精進若能堪任，復致
+<lb n="0020a10" ed="T"/>財業以與開導，是曰精進；其不逸禪無所藏
+<lb n="0020a11" ed="T"/>匿消滅六情，是曰一心；設用聖慧示無數眾，
+<lb n="0020a12" ed="T"/>人皆啟受報應大果，眾德六事諸所塵垢，勇
+<lb n="0020a13" ed="T"/>猛所<anchor xml:id="nkr_note_orig_0020001" n="0020001"/><anchor xml:id="beg0020001" n="0020001"/>報<anchor xml:id="end0020001"/>為不見侵，不以過去而有增損，是
+<lb n="0020a14" ed="T"/>曰智慧；是為六。</p><p xml:id="pT14p0020a1407" rend="inline">「何謂行哀度無極有六事？
+<lb n="0020a15" ed="T"/>以能布施心自發念，欲使眾生一切普安，是
+<lb n="0020a16" ed="T"/>曰布施；若棄他人不自厭身悉散眾結，是曰
+<lb n="0020a17" ed="T"/>持戒；若能忍己罵詈杖捶悉以能忍，亦化他
+<lb n="0020a18" ed="T"/>人<anchor xml:id="nkr_note_orig_0020002" n="0020002"/><anchor xml:id="nkr_note_mod_0020002" n="0020002"/><anchor xml:id="beg0020002" n="0020002"/>令<anchor xml:id="end0020002"/>忍，是曰忍辱；<anchor xml:id="nkr_note_orig_0020003" n="0020003"/><anchor xml:id="nkr_note_mod_0020003" n="0020003"/><anchor xml:id="beg0020003" n="0020003"/>若<anchor xml:id="end0020003"/>以精<anchor xml:id="nkr_note_orig_0020004" n="0020004"/><anchor xml:id="beg0020004" n="0020004"/>進<anchor xml:id="end0020004"/>具眾德本，
+<lb n="0020a19" ed="T"/>不以患厭度無<anchor xml:id="nkr_note_orig_0020005" n="0020005"/><anchor xml:id="nkr_note_mod_0020005" n="0020005"/><anchor xml:id="beg0020005" n="0020005"/>極<anchor xml:id="end0020005"/>眾，又以專精勸諸人眾使
+<lb n="0020a20" ed="T"/>出家學，是曰精進；若厭惡趣愛樂禪思功勳
+<lb n="0020a21" ed="T"/>究竟，是曰一心；愍哀<anchor xml:id="nkr_note_orig_0020006" n="0020006"/><anchor xml:id="nkr_note_mod_0020006" n="0020006"/><anchor xml:id="beg0020006" n="0020006"/>淨<anchor xml:id="end0020006"/>除一切惡<anchor xml:id="nkr_note_orig_0020007" n="0020007"/><anchor xml:id="nkr_note_mod_0020007" n="0020007"/><anchor xml:id="beg0020007" n="0020007"/>露<anchor xml:id="end0020007"/>而
+<lb n="0020a22" ed="T"/>不懈廢，所興法施訓化眾生，是曰智慧；是
+<lb n="0020a23" ed="T"/>為六。</p><p xml:id="pT14p0020a2303" rend="inline">「何謂歡喜度無極有六事？若能行恩其
+<lb n="0020a24" ed="T"/>心悅豫而不懷恨，是曰布施；篤信守禁而致
+<lb n="0020a25" ed="T"/>善德，是曰持戒；若以柔和成就慚愧不<anchor xml:id="nkr_note_orig_0020008" n="0020008"/><anchor xml:id="nkr_note_mod_0020008" n="0020008"/><anchor xml:id="beg0020008" n="0020008"/>報<anchor xml:id="end0020008"/>
+<lb n="0020a26" ed="T"/>麁獷，是曰忍辱；若以勤修心無瞋恨，自護安
+<lb n="0020a27" ed="T"/>彼而善思惟不懷湯火，是曰精進；若樂寂然
+<lb n="0020a28" ed="T"/>其心清淨，建立成就斷眾貪欲，是曰一心；
+<lb n="0020a29" ed="T"/>有所惠施心無所猗，奉行道法休息望報，觀
+<pb n="0020b" ed="T" xml:id="T14.0425.0020b"/>
+<lb n="0020b01" ed="T"/>於智慧而受覺意，選覺意已遵修無願建立
+<lb n="0020b02" ed="T"/>脫門，不處顛倒無所傷害，是曰智慧；是為
+<lb n="0020b03" ed="T"/>六。</p><p xml:id="pT14p0020b0302" rend="inline">「何謂勸護度無極有六事？若有所施心無
+<lb n="0020b04" ed="T"/>所著，<anchor xml:id="nkr_note_orig_0020009" n="0020009"/><anchor xml:id="beg0020009" n="0020009"/>奉<anchor xml:id="end0020009"/>平等法不懷妄想，是曰布施；若以
+<lb n="0020b05" ed="T"/>謹慎<anchor xml:id="nkr_note_orig_0020010" n="0020010"/><anchor xml:id="nkr_note_mod_0020010" n="0020010"/><anchor xml:id="beg0020010" n="0020010"/>親<anchor xml:id="end0020010"/>諸覺意，心受精進不懷惱熱，是曰
+<lb n="0020b06" ed="T"/>持戒；行無所想心志顯明，其內外安棄諸貪
+<lb n="0020b07" ed="T"/><anchor xml:id="nkr_note_orig_0020011" n="0020011"/><anchor xml:id="nkr_note_mod_0020011" n="0020011"/><anchor xml:id="beg0020011" n="0020011"/>羨<anchor xml:id="end0020011"/>，是曰忍辱；曉了有為觀於無為心不處
+<lb n="0020b08" ed="T"/>二，是曰精進；若以禪思觀察勢力，寂然精
+<lb n="0020b09" ed="T"/>進，在所遊至為一切首，是曰一心；若信聖
+<lb n="0020b10" ed="T"/>明遵修道義，無極哀故開化餘人，是曰智慧；
+<lb n="0020b11" ed="T"/>是為六。</p><p xml:id="pT14p0020b1104" rend="inline">「何謂勸邪見度無極有六事？若在
+<lb n="0020b12" ed="T"/>雜碎諸外異學，入其祠祀順從其意而開化
+<lb n="0020b13" ed="T"/>之，猶如隨藍梵志所興福德之業，是曰布施；
+<lb n="0020b14" ed="T"/><anchor xml:id="nkr_note_orig_0020012" n="0020012"/><anchor xml:id="nkr_note_mod_0020012" n="0020012"/><anchor xml:id="beg0020012" n="0020012"/>若<anchor xml:id="end0020012"/>顛倒戒眾賊集會，為賊所牽，而顯其行緣
+<lb n="0020b15" ed="T"/>斯化度，是曰持戒；若在眾雜若干惱行，而
+<lb n="0020b16" ed="T"/>來犯之不以患厭，是曰忍辱；有所施與若入
+<lb n="0020b17" ed="T"/>世俗不與同塵，而為<anchor xml:id="nkr_note_orig_0020013" n="0020013"/><anchor xml:id="beg0020013" n="0020013"/>頒宣<anchor xml:id="end0020013"/>寂然之義，是曰
+<lb n="0020b18" ed="T"/>精進；若興禪思遊在冥中而樂於此，樂無所
+<lb n="0020b19" ed="T"/>樂以法樂之，是曰一心；若梵志像欲化眾生，
+<lb n="0020b20" ed="T"/>隨其<anchor xml:id="nkr_note_orig_0020014" n="0020014"/><anchor xml:id="nkr_note_mod_0020014" n="0020014"/><anchor xml:id="beg0020014" n="0020014"/>所<anchor xml:id="end0020014"/>順行而訓誨之，是曰智慧；是為六。</p>
+<lb n="0020b21" ed="T"/><p xml:id="pT14p0020b2101">「何謂勸正見度無極有六事？若入習俗為設
+<lb n="0020b22" ed="T"/>法教，布施得福持戒生天，所作善惡皆有果
+<lb n="0020b23" ed="T"/>報，以此濟之，是曰布施；若世無佛，菩薩
+<lb n="0020b24" ed="T"/>未曾隨惡友教，是曰持戒；菩薩清淨鮮白無
+<lb n="0020b25" ed="T"/>瑕猶如雪山生好樹木，<anchor xml:id="nkr_note_orig_0020015" n="0020015"/><anchor xml:id="nkr_note_mod_0020015" n="0020015"/><anchor xml:id="beg0020015" n="0020015"/>曾<anchor xml:id="end0020015"/>有諸天鬼神眾龍
+<lb n="0020b26" ed="T"/>而遊樂中，是曰忍辱；所奉勤修除去彼我，
+<lb n="0020b27" ed="T"/>譬如賈客而遠遊行有所成辦，是曰精進；若
+<lb n="0020b28" ed="T"/>以智慧修治四禪亦無所護，是曰一心；若以
+<lb n="0020b29" ed="T"/>聖明多所愍傷，一切眾生建立不逮，猶如昔
+<pb n="0020c" ed="T" xml:id="T14.0425.0020c"/>
+<lb n="0020c01" ed="T"/>學本之所教，以一頌偈訓誨八萬四千國邑，
+<lb n="0020c02" ed="T"/>是曰智慧；是為六。</p><p xml:id="pT14p0020c0208" rend="inline">「何謂勸住見度無極有
+<lb n="0020c03" ed="T"/>六事？菩薩假使在於夢中心不慳嫉，雖佛
+<lb n="0020c04" ed="T"/>不興無有異心，況現在乎？是曰布施；若遇
+<lb n="0020c05" ed="T"/>惡罪及失身命未曾犯禁，是曰持戒；所生
+<lb n="0020c06" ed="T"/>之處與光明俱，適生輒聞本清淨忍乃得佛
+<lb n="0020c07" ed="T"/>道，是曰忍辱；所生之處常見頒宣開化眾
+<lb n="0020c08" ed="T"/>生，以此道法訓誨他人，是曰精進；在在所
+<lb n="0020c09" ed="T"/>生善思念道，快建立業有所覩見，本性自然
+<lb n="0020c10" ed="T"/>故致如是，是曰一心；若以度世及覩世事，
+<lb n="0020c11" ed="T"/>無師主者，其身獨立不從他受，其慧如是常
+<lb n="0020c12" ed="T"/>宣至誠，其身口心未曾有欺，是曰智慧；是
+<lb n="0020c13" ed="T"/>為六。</p><p xml:id="pT14p0020c1303" rend="inline">「何謂<anchor xml:id="nkr_note_orig_0020016" n="0020016"/><anchor xml:id="beg0020016" n="0020016"/>勸無<anchor xml:id="end0020016"/>住度無極有六事？若以權
+<lb n="0020c14" ed="T"/>惠<anchor xml:id="nkr_note_orig_0020017" n="0020017"/><anchor xml:id="nkr_note_mod_0020017" n="0020017"/><anchor xml:id="beg0020017" n="0020017"/>濟有所救<anchor xml:id="end0020017"/>窮厄之士，是曰布施；謹慎身
+<lb n="0020c15" ed="T"/>心心無所犯而無放逸，是曰持戒；逮不退轉
+<lb n="0020c16" ed="T"/>不起法忍，是曰忍辱；一切萬物思不可得，
+<lb n="0020c17" ed="T"/>勤修方便而無所住，以是無住勸六度無極，
+<lb n="0020c18" ed="T"/>是曰精進；若於內外悉無所著，而眾生迷心
+<lb n="0020c19" ed="T"/><anchor xml:id="nkr_note_orig_0020018" n="0020018"/><anchor xml:id="nkr_note_mod_0020018" n="0020018"/><anchor xml:id="beg0020018" n="0020018"/>心<anchor xml:id="end0020018"/>塞不解，計有我想不了無我，為分別說
+<lb n="0020c20" ed="T"/>了一切空，是曰一心；若不棄捨聲聞緣覺，以
+<lb n="0020c21" ed="T"/>聖明法依一切智，是曰智慧；是為六。</p><p xml:id="pT14p0020c2115" rend="inline">「何謂
+<lb n="0020c22" ed="T"/>勸無猗度無極有六事？若集加恩一切三界
+<lb n="0020c23" ed="T"/>皆得悅豫，猶如定光<anchor xml:id="nkr_note_orig_0020019" n="0020019"/><anchor xml:id="nkr_note_mod_0020019" n="0020019"/><anchor xml:id="beg0020019" n="0020019"/>所有<anchor xml:id="end0020019"/>發起，是曰布施；
+<lb n="0020c24" ed="T"/>若以禁行而無所依不有所求，是曰持戒；假
+<lb n="0020c25" ed="T"/>使其心仁和柔軟，未曾妄想一切諸法，是曰
+<lb n="0020c26" ed="T"/>忍辱；勤修眾行而無所著，是曰精進；禪定
+<lb n="0020c27" ed="T"/>所見入菩薩地不墮顛倒，是曰一心；若以聖
+<lb n="0020c28" ed="T"/><anchor xml:id="nkr_note_orig_0020020" n="0020020"/><anchor xml:id="nkr_note_mod_0020020" n="0020020"/><anchor xml:id="beg0020020" n="0020020"/>智<anchor xml:id="end0020020"/>消眾塵勞歸於大道，是曰智慧；是為六。</p>
+<lb n="0020c29" ed="T"/><p xml:id="pT14p0020c2901">「何謂勸意度無極有六事？意自念言菩薩所
+<pb n="0021a" ed="T" xml:id="T14.0425.0021a"/>
+<lb n="0021a01" ed="T"/>濟欲成佛國因致究竟，是曰布施；其自守行
+<lb n="0021a02" ed="T"/>斷三惡趣不為罪業，是曰持戒；以慈仁和報
+<lb n="0021a03" ed="T"/><anchor xml:id="nkr_note_orig_0021001" n="0021001"/><anchor xml:id="nkr_note_mod_0021001" n="0021001"/><anchor xml:id="beg0021001" n="0021001"/>德<anchor xml:id="end0021001"/>相好，端<anchor xml:id="nkr_note_orig_0021002" n="0021002"/><anchor xml:id="nkr_note_mod_0021002" n="0021002"/><anchor xml:id="beg0021002" n="0021002"/>政<anchor xml:id="end0021002"/>殊妙見莫不歡，是曰忍辱；以
+<lb n="0021a04" ed="T"/>勤修行往入大海致如意珠，消竭眾難得自
+<lb n="0021a05" ed="T"/>在法，是曰精進；若以禪思蠲除塵勞，如其
+<lb n="0021a06" ed="T"/>志願而致得之，是曰一心；若以聖明能壞眾
+<lb n="0021a07" ed="T"/>魔，所立訓化莫不從教，是曰智慧；是為六。</p>
+<lb n="0021a08" ed="T"/><p xml:id="pT14p0021a0801">「何謂勸忍度無極有六事？所出施與心在佛
+<lb n="0021a09" ed="T"/>道未曾忽忘，是曰布施；救護地獄以寂靜志，
+<lb n="0021a10" ed="T"/>魔不能犯法不迴轉，是曰持戒；順理所向奉
+<lb n="0021a11" ed="T"/>行正法不懷<anchor xml:id="nkr_note_orig_0021003" n="0021003"/><anchor xml:id="nkr_note_mod_0021003" n="0021003"/><anchor xml:id="beg0021003" n="0021003"/>嫉妬<anchor xml:id="end0021003"/>，如王太子號曰德光，布
+<lb n="0021a12" ed="T"/>施自在，一日悉捨一切所有施佛弟子，欲得
+<lb n="0021a13" ed="T"/>車乘象馬，滿四十里幡蓋<anchor xml:id="nkr_note_orig_0021004" n="0021004"/><anchor xml:id="beg0021004" n="0021004"/>欝<anchor xml:id="end0021004"/>茂瓔珞衣寶無
+<lb n="0021a14" ed="T"/>數華香，捨八萬四千婇女，棄國捐王，手足
+<lb n="0021a15" ed="T"/>耳鼻頭目肌肉支體妻子，不逆人意，出家作
+<lb n="0021a16" ed="T"/>沙門奉是正法，是曰忍辱；所奉眾戒處<anchor xml:id="nkr_note_orig_0021005" n="0021005"/><anchor xml:id="beg0021005" n="0021005"/>於<anchor xml:id="end0021005"/>
+<lb n="0021a17" ed="T"/>勤修而無所著，是曰精進；若於夢中見眾玉
+<lb n="0021a18" ed="T"/>女不以為貪，具身相好顏貌清淨，是曰一心；
+<lb n="0021a19" ed="T"/>若入城中心懷明智，設見比丘篤心敬之無
+<lb n="0021a20" ed="T"/>若干想，是曰智慧；是為六。</p><p xml:id="pT14p0021a2011" rend="inline">「何謂造業度無
+<lb n="0021a21" ed="T"/>極有六事？若身自立淨修梵行，所可勸助得
+<lb n="0021a22" ed="T"/>利養多，臨法<anchor xml:id="nkr_note_orig_0021006" n="0021006"/><anchor xml:id="beg0021006" n="0021006"/>滅<anchor xml:id="end0021006"/>盡衣<anchor xml:id="nkr_note_orig_0021007" n="0021007"/><anchor xml:id="nkr_note_mod_0021007" n="0021007"/><anchor xml:id="beg0021007" n="0021007"/>纔<anchor xml:id="end0021007"/>覆形，猶如<anchor xml:id="nkr_note_orig_0021008" n="0021008"/><anchor xml:id="beg0021008" n="0021008"/>炎<anchor xml:id="end0021008"/>華
+<lb n="0021a23" ed="T"/>學志所行，現毀佛身悉無所失，五<anchor xml:id="nkr_note_orig_0021009" n="0021009"/><anchor xml:id="beg0021009" n="0021009"/>枝<anchor xml:id="end0021009"/>新華
+<lb n="0021a24" ed="T"/>五<anchor xml:id="beg_a" type="star"/>枝<anchor xml:id="end_a"/>故華，<anchor xml:id="nkr_note_orig_0021010" n="0021010"/><anchor xml:id="nkr_note_mod_0021010" n="0021010"/><anchor xml:id="beg0021010" n="0021010"/>亦<anchor xml:id="end0021010"/>往上佛，以是報應道法興隆，
+<lb n="0021a25" ed="T"/>正法得立至五百歲，像法亦爾，是曰布施；
+<lb n="0021a26" ed="T"/>若以眾戒消除他人諸惡行業，隨其所乏以
+<lb n="0021a27" ed="T"/>救<anchor xml:id="nkr_note_orig_0021011" n="0021011"/><anchor xml:id="beg0021011" n="0021011"/>濟<anchor xml:id="end0021011"/>之，是曰持戒；所遵仁和若有罣礙而
+<lb n="0021a28" ed="T"/>無吉利必得濟厄，猶如賈客而入大海遇摩
+<lb n="0021a29" ed="T"/>竭魚，忽有浴池數二十五，各有白象輒乘其
+<pb n="0021b" ed="T" xml:id="T14.0425.0021b"/>
+<lb n="0021b01" ed="T"/>上得出<anchor xml:id="nkr_note_orig_0021012" n="0021012"/><anchor xml:id="beg0021012" n="0021012"/>大難<anchor xml:id="end0021012"/>，是曰忍辱；假使<anchor xml:id="nkr_note_orig_0021013" n="0021013"/><anchor xml:id="nkr_note_mod_0021013" n="0021013"/><anchor xml:id="beg0021013" n="0021013"/>遭<anchor xml:id="end0021013"/>值天上世
+<lb n="0021b02" ed="T"/>間快樂安隱，猶如往昔無<anchor xml:id="nkr_note_orig_0021014" n="0021014"/><anchor xml:id="beg0021014" n="0021014"/>開<anchor xml:id="end0021014"/>導主欲令精進，
+<lb n="0021b03" ed="T"/>有大梵天名曰英妙，勸化天帝訓誨眾<anchor xml:id="nkr_note_orig_0021015" n="0021015"/><anchor xml:id="nkr_note_mod_0021015" n="0021015"/><anchor xml:id="beg0021015" n="0021015"/>生<anchor xml:id="end0021015"/>
+<lb n="0021b04" ed="T"/><anchor xml:id="nkr_note_orig_0021016" n="0021016"/><anchor xml:id="beg0021016" n="0021016"/>令得<anchor xml:id="end0021016"/>生天，是曰精進；禪無所生，諸佛菩薩
+<lb n="0021b05" ed="T"/>之所講說，假使菩薩勸喻眾生，使生梵天，
+<lb n="0021b06" ed="T"/>從光音宮至無想天，是曰一心；聖明之業為
+<lb n="0021b07" ed="T"/>諸世俗說現世事講度世業，修十善行利益
+<lb n="0021b08" ed="T"/>群黎，猶昔國主名曰得生，王有好眼愛樂道
+<lb n="0021b09" ed="T"/>法，無數世中曉了此義，諸王慈行諸佛菩薩
+<lb n="0021b10" ed="T"/>之所開導，以斯言教宣示一切，是曰智慧；
+<lb n="0021b11" ed="T"/>是為六。</p><p xml:id="pT14p0021b1104" rend="inline">「何謂無所造業度無極有六事？心中
+<lb n="0021b12" ed="T"/>好喜所樂功勳，一切<anchor xml:id="nkr_note_orig_0021017" n="0021017"/><anchor xml:id="nkr_note_mod_0021017" n="0021017"/><anchor xml:id="beg0021017" n="0021017"/>原首<anchor xml:id="end0021017"/>心勸助施，所可
+<lb n="0021b13" ed="T"/>勸助則為是著，<anchor xml:id="nkr_note_orig_0021018" n="0021018"/><anchor xml:id="nkr_note_mod_0021018" n="0021018"/><anchor xml:id="beg0021018" n="0021018"/>昔者<anchor xml:id="end0021018"/>菩薩見定光佛，以華
+<lb n="0021b14" ed="T"/>五莖散供養佛，所<anchor xml:id="nkr_note_orig_0021019" n="0021019"/><anchor xml:id="nkr_note_mod_0021019" n="0021019"/><anchor xml:id="beg0021019" n="0021019"/>殖<anchor xml:id="end0021019"/>德本皆使獲此功祚道
+<lb n="0021b15" ed="T"/>德永無妄想，至法沒盡皆共<anchor xml:id="nkr_note_orig_0021020" n="0021020"/><anchor xml:id="beg0021020" n="0021020"/>倚<anchor xml:id="end0021020"/>之，是曰布
+<lb n="0021b16" ed="T"/>施；所學精進；將身口心無權方便，計有土
+<lb n="0021b17" ed="T"/>地生死處所，是曰持戒；所修仁和有所慕
+<lb n="0021b18" ed="T"/>樂求其<anchor xml:id="nkr_note_orig_0021021" n="0021021"/><anchor xml:id="beg0021021" n="0021021"/>苦<anchor xml:id="end0021021"/>本，是曰忍辱；有所精進建立
+<lb n="0021b19" ed="T"/>俗事化入道法，是曰精進；若修禪定<anchor xml:id="nkr_note_orig_0021022" n="0021022"/><anchor xml:id="nkr_note_mod_0021022" n="0021022"/><anchor xml:id="beg0021022" n="0021022"/>觀<anchor xml:id="end0021022"/>於
+<lb n="0021b20" ed="T"/>梵天壽命長短，是曰一心；所遵聖明未曾有
+<lb n="0021b21" ed="T"/>言，猶如菩薩號名<anchor xml:id="nkr_note_orig_0021023" n="0021023"/><anchor xml:id="beg0021023" n="0021023"/>如來日<anchor xml:id="end0021023"/>，隨其眾生宣一
+<lb n="0021b22" ed="T"/>品法，其餘有身宣若干品，造立寂然而滅度
+<lb n="0021b23" ed="T"/>之，後正法住立若干歲後<anchor xml:id="nkr_note_orig_0021024" n="0021024"/><anchor xml:id="nkr_note_mod_0021024" n="0021024"/><anchor xml:id="beg0021024" n="0021024"/>法<anchor xml:id="end0021024"/>沒盡，是曰智
+<lb n="0021b24" ed="T"/>慧；是為六。</p><p xml:id="pT14p0021b2405" rend="inline">「何謂<anchor xml:id="nkr_note_orig_0021025" n="0021025"/><anchor xml:id="beg0021025" n="0021025"/>有<anchor xml:id="end0021025"/>餘度無極有六事？往古
+<lb n="0021b25" ed="T"/>菩薩定光佛時，供養所奉以誓道願，是曰布
+<lb n="0021b26" ed="T"/>施；身口有餘依猗住禁，多所不信而樂己身，
+<lb n="0021b27" ed="T"/>是曰持戒；其性仁和而無麁獷歸燕坐力，是
+<lb n="0021b28" ed="T"/>曰忍辱；假使<anchor xml:id="nkr_note_orig_0021026" n="0021026"/><anchor xml:id="nkr_note_mod_0021026" n="0021026"/><anchor xml:id="beg0021026" n="0021026"/>勳<anchor xml:id="end0021026"/>修中間，猗有所樂不至正
+<lb n="0021b29" ed="T"/>真，是曰精進；禪思慕樂<anchor xml:id="nkr_note_orig_0021027" n="0021027"/><anchor xml:id="nkr_note_mod_0021027" n="0021027"/><anchor xml:id="beg0021027" n="0021027"/>侍<anchor xml:id="end0021027"/>行空無以斯為
+<pb n="0021c" ed="T" xml:id="T14.0425.0021c"/>
+<lb n="0021c01" ed="T"/>樂，是曰一心；若聞聖明心有所著或無所著，
+<lb n="0021c02" ed="T"/>是曰智慧；是為六。何<anchor xml:id="nkr_note_orig_0021028" n="0021028"/><anchor xml:id="beg0021028" n="0021028"/>謂<anchor xml:id="end0021028"/>住<anchor xml:id="nkr_note_orig_0021029" n="0021029"/><anchor xml:id="nkr_note_mod_0021029" n="0021029"/><anchor xml:id="beg0021029" n="0021029"/>有<anchor xml:id="end0021029"/>餘度無極？
+<lb n="0021c03" ed="T"/>不能順<anchor xml:id="nkr_note_orig_0021030" n="0021030"/><anchor xml:id="beg0021030" n="0021030"/>真<anchor xml:id="end0021030"/>反向異門，志空處所聲聞緣覺之
+<lb n="0021c04" ed="T"/>所報應，不長佛道，入十地業而復退轉，當
+<lb n="0021c05" ed="T"/>知其意，是曰菩薩有餘所行度無極。</p><p xml:id="pT14p0021c0515" rend="inline">「何謂無
+<lb n="0021c06" ed="T"/>餘菩薩所施度無極？勸助生死眾生報應，如
+<lb n="0021c07" ed="T"/>所能忍聲聞緣覺，寂然而定不隨退轉，是曰
+<lb n="0021c08" ed="T"/>布施；禁法之報離於智慧而能深入，是曰持
+<lb n="0021c09" ed="T"/>戒；其以仁和畏<anchor xml:id="nkr_note_orig_0021031" n="0021031"/><anchor xml:id="nkr_note_mod_0021031" n="0021031"/><anchor xml:id="beg0021031" n="0021031"/>至<anchor xml:id="end0021031"/>惡趣，勤苦之處心無所
+<lb n="0021c10" ed="T"/>犯，是曰忍辱；若以勤修求於魔業，欲消其
+<lb n="0021c11" ed="T"/><anchor xml:id="nkr_note_orig_0021032" n="0021032"/><anchor xml:id="beg0021032" n="0021032"/>界<anchor xml:id="end0021032"/>使無邪<anchor xml:id="nkr_note_orig_0021033" n="0021033"/><anchor xml:id="nkr_note_mod_0021033" n="0021033"/><anchor xml:id="beg0021033" n="0021033"/>元<anchor xml:id="end0021033"/>，是曰精進；<anchor xml:id="nkr_note_orig_0021034" n="0021034"/><anchor xml:id="nkr_note_mod_0021034" n="0021034"/><anchor xml:id="beg0021034" n="0021034"/>政<anchor xml:id="end0021034"/>行禪思知壽
+<lb n="0021c12" ed="T"/>命限究竟根元，是曰一心；若以智慧見知<anchor xml:id="nkr_note_orig_0021035" n="0021035"/><anchor xml:id="nkr_note_mod_0021035" n="0021035"/><anchor xml:id="beg0021035" n="0021035"/>其<anchor xml:id="end0021035"/>
+<lb n="0021c13" ed="T"/>宿命，斷眾苦患而好志願，是曰智慧無餘
+<lb n="0021c14" ed="T"/>度無極。何以得名曰度無極？謂是菩薩得從
+<lb n="0021c15" ed="T"/>順化隨世所好，然後名曰無餘六度無極。</p><p xml:id="pT14p0021c1517" rend="inline">「何
+<lb n="0021c16" ed="T"/>謂明度無極有六事？菩薩所施奉於尊長不
+<lb n="0021c17" ed="T"/>望其報，百千劫中服世飲食，不以身故而意
+<lb n="0021c18" ed="T"/>懷憂也，是曰布施；所修法義詣佛樹下，於
+<lb n="0021c19" ed="T"/>一切法不懷狐疑，緣是乃至一切<anchor xml:id="nkr_note_orig_0021036" n="0021036"/><anchor xml:id="beg0021036" n="0021036"/>愍<anchor xml:id="end0021036"/>智，是
+<lb n="0021c20" ed="T"/>曰持戒；其以禪思無所著法，斯一切智由從
+<lb n="0021c21" ed="T"/>此生，是曰忍辱；若奉勤修住于道慧化五陰
+<lb n="0021c22" ed="T"/>蓋，是曰精進；若以禪定成最正覺，逮得天
+<lb n="0021c23" ed="T"/>眼識其宿命覩所更歷，是曰一心；其以聖明
+<lb n="0021c24" ed="T"/>諸漏悉盡逮得佛眼，普達諸法心不猶豫，是
+<lb n="0021c25" ed="T"/>曰智慧；是為六。</p><p xml:id="pT14p0021c2507" rend="inline">「何謂<anchor xml:id="nkr_note_orig_0021037" n="0021037"/><anchor xml:id="beg0021037" n="0021037"/>住明持<anchor xml:id="end0021037"/>度無極有六
+<lb n="0021c26" ed="T"/>事？住於正法供養佛教存立經典，是曰布施；
+<lb n="0021c27" ed="T"/>行所止處入於如來，身明口淨無有眾想，是
+<lb n="0021c28" ed="T"/>曰持戒；其柔順行不近俗法無所動轉，是曰
+<lb n="0021c29" ed="T"/>忍辱；曉了聲聞緣覺之業，消眾塵勞乃至滅
+<pb n="0022a" ed="T" xml:id="T14.0425.0022a"/>
+<lb n="0022a01" ed="T"/>度，是曰精進；所以禪思求於眾生，心念所行
+<lb n="0022a02" ed="T"/>以惠音盡，是曰一心；以知得脫不失時節行
+<lb n="0022a03" ed="T"/>聖明慈，是曰智慧；是為六。</p><p xml:id="pT14p0022a0311" rend="inline">「何<anchor xml:id="nkr_note_orig_0022001" n="0022001"/><anchor xml:id="nkr_note_mod_0022001" n="0022001"/><anchor xml:id="beg0022001" n="0022001"/>謂<anchor xml:id="end0022001"/>興成就度
+<lb n="0022a04" ed="T"/>無極有六事？佛興世時成大財業，賢聖無量
+<lb n="0022a05" ed="T"/>受於過去諸佛之教，是曰布施；以行勸助而
+<lb n="0022a06" ed="T"/>得解脫，佛興現世消眾塵勞，是曰持戒；<anchor xml:id="nkr_note_orig_0022002" n="0022002"/><anchor xml:id="beg0022002" n="0022002"/>以
+<lb n="0022a07" ed="T"/>而<anchor xml:id="end0022002"/>仁和受世尊教，又知止足不懷懈惓乃至
+<lb n="0022a08" ed="T"/>大行，是曰忍辱；若以勤修建立弘誓，其人
+<lb n="0022a09" ed="T"/>功德若在王位心不違法，是曰精進；若以禪
+<lb n="0022a10" ed="T"/>思心常念佛不失至真，是曰一心；若以聖明
+<lb n="0022a11" ed="T"/>勸助滅度，如佛開化五人身心，是曰智慧；
+<lb n="0022a12" ed="T"/>是為六。</p><p xml:id="pT14p0022a1204" rend="inline">「何謂意不<anchor xml:id="nkr_note_orig_0022003" n="0022003"/><anchor xml:id="nkr_note_mod_0022003" n="0022003"/><anchor xml:id="beg0022003" n="0022003"/>惱<anchor xml:id="end0022003"/>度無極有六事？行恩
+<lb n="0022a13" ed="T"/>如意願誓奉道以化他人，是曰布施；遵其至
+<lb n="0022a14" ed="T"/>行以護他人御身口意，是曰持戒；所修仁和
+<lb n="0022a15" ed="T"/>是深妙忍，正法沒時堅固其志，是曰忍辱；
+<lb n="0022a16" ed="T"/>所立勤修懷來道慧心不迷惑，是曰精進；假
+<lb n="0022a17" ed="T"/>使禪思執持空無，不有<anchor xml:id="nkr_note_orig_0022004" n="0022004"/><anchor xml:id="beg0022004" n="0022004"/>想<anchor xml:id="end0022004"/>願心無<anchor xml:id="nkr_note_orig_0022005" n="0022005"/><anchor xml:id="nkr_note_mod_0022005" n="0022005"/><anchor xml:id="beg0022005" n="0022005"/>所<anchor xml:id="end0022005"/>冀，是
+<lb n="0022a18" ed="T"/>曰一心；以其聖明思惟愁慼，慈念一切欲救
+<lb n="0022a19" ed="T"/>濟之，是曰智慧；是為六。</p><p xml:id="pT14p0022a1910" rend="inline">「何謂佛興立在家
+<lb n="0022a20" ed="T"/>居度無極有六事？若以所施興發五事，何謂
+<lb n="0022a21" ed="T"/>為五？一曰成座、二曰說處、三曰成眷屬、四
+<lb n="0022a22" ed="T"/>曰成就法樂、五曰成其書疏，是曰布施；所
+<lb n="0022a23" ed="T"/>施立行其禁具足而無所犯，是曰持戒；其以
+<lb n="0022a24" ed="T"/>仁和棄捐人想不計壽命，是曰忍辱；若以勤
+<lb n="0022a25" ed="T"/>修奉平等業顯示道義，是曰精進；以心禪思
+<lb n="0022a26" ed="T"/>普修平等，奉行至德意無所願，是曰一心；
+<lb n="0022a27" ed="T"/>若以慧明歸諸聖諦靡所不通，是曰智慧；是
+<lb n="0022a28" ed="T"/>為六。</p><p xml:id="pT14p0022a2803" rend="inline">「何謂出家來度無極有六事？若有所施
+<lb n="0022a29" ed="T"/>與心俱合致無漏行，是曰布施；其以謹慎
+<pb n="0022b" ed="T" xml:id="T14.0425.0022b"/>
+<lb n="0022b01" ed="T"/><anchor xml:id="nkr_note_orig_0022006" n="0022006"/><anchor xml:id="nkr_note_mod_0022006" n="0022006"/><anchor xml:id="beg0022006" n="0022006"/>令護身口<anchor xml:id="end0022006"/>合於滅度，是曰持戒；若以仁和
+<lb n="0022b02" ed="T"/>厭於三界而無所著，是曰忍辱；勤修<anchor xml:id="nkr_note_orig_0022007" n="0022007"/><anchor xml:id="nkr_note_mod_0022007" n="0022007"/><anchor xml:id="beg0022007" n="0022007"/>政<anchor xml:id="end0022007"/>行
+<lb n="0022b03" ed="T"/>歸四意止而生道<anchor xml:id="nkr_note_orig_0022008" n="0022008"/><anchor xml:id="nkr_note_mod_0022008" n="0022008"/><anchor xml:id="beg0022008" n="0022008"/>意<anchor xml:id="end0022008"/>，是曰精進；所以禪思
+<lb n="0022b04" ed="T"/><anchor xml:id="nkr_note_orig_0022009" n="0022009"/><anchor xml:id="beg0022009" n="0022009"/>遵<anchor xml:id="end0022009"/>四等心，患厭周旋生死之難，是曰一心；
+<lb n="0022b05" ed="T"/>若以聖明而放遠，捨愁慼之思遵修至真，是
+<lb n="0022b06" ed="T"/>曰智慧；是為六。</p><p xml:id="pT14p0022b0607" rend="inline">「何謂愍哀博聞來度無極有
+<lb n="0022b07" ed="T"/>六事？若以頒宣訓精進教給眾窮匱，是曰布
+<lb n="0022b08" ed="T"/>施；奉受道法捨其身命無所貪愛，是曰持戒；
+<lb n="0022b09" ed="T"/><anchor xml:id="nkr_note_orig_0022010" n="0022010"/><anchor xml:id="nkr_note_mod_0022010" n="0022010"/><anchor xml:id="beg0022010" n="0022010"/>正<anchor xml:id="end0022010"/>以仁和正法欲沒，菩薩發心順其時宜，
+<lb n="0022b10" ed="T"/>自沒其身愛護正法，是曰忍辱；若以勤修逮
+<lb n="0022b11" ed="T"/>得總持恒識不忘，是曰精進；若以禪思其心
+<lb n="0022b12" ed="T"/>體解十二緣起而無所起，是曰一心；若以智
+<lb n="0022b13" ed="T"/>慧諸所更歷遵修寂靜，是曰智慧；是為六。</p>
+<lb n="0022b14" ed="T"/><p xml:id="pT14p0022b1401">「何謂出家不斷戒度無極有六事？所濟他人
+<lb n="0022b15" ed="T"/>如意所願奉<anchor xml:id="nkr_note_orig_0022011" n="0022011"/><anchor xml:id="nkr_note_mod_0022011" n="0022011"/><anchor xml:id="beg0022011" n="0022011"/>行<anchor xml:id="end0022011"/>法師命，是曰布施；所行禁
+<lb n="0022b16" ed="T"/>戒遵于大哀無有微恨，是曰持戒；所志仁和
+<lb n="0022b17" ed="T"/>不懷危害，謙下恭順而不自大，是曰忍辱；
+<lb n="0022b18" ed="T"/>所奉勤修強而有勢不為怯弱，是曰精進；所
+<lb n="0022b19" ed="T"/><anchor xml:id="nkr_note_orig_0022012" n="0022012"/><anchor xml:id="nkr_note_mod_0022012" n="0022012"/><anchor xml:id="beg0022012" n="0022012"/>禪志<anchor xml:id="end0022012"/>思行七<anchor xml:id="nkr_note_orig_0022013" n="0022013"/><anchor xml:id="beg0022013" n="0022013"/>覺<anchor xml:id="end0022013"/>意，通於遠近靡所不<anchor xml:id="nkr_note_orig_0022014" n="0022014"/><anchor xml:id="beg0022014" n="0022014"/>達<anchor xml:id="end0022014"/>，是
+<lb n="0022b20" ed="T"/>曰一心；所志智慧因能具足不起法忍，是曰
+<lb n="0022b21" ed="T"/>智慧；是為六<anchor xml:id="nkr_note_orig_0022015" n="0022015"/><anchor xml:id="nkr_note_mod_0022015" n="0022015"/><anchor xml:id="beg0022015" n="0022015"/><note place="inline">上文第十二幅初六度無極下，丹本有注云：准標文，脫佛興盛度無極</note><anchor xml:id="end0022015"/>。」</p></cb:div>
+<lb n="0022b22" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="10" type="品">10 神通品</cb:mulu><head><anchor type="circle"/><anchor xml:id="nkr_note_orig_0022016" n="0022016"/><anchor xml:id="nkr_note_mod_0022016" n="0022016"/>神通品第十</head>
+<lb n="0022b23" ed="T"/><p xml:id="pT14p0022b2301">佛告喜王菩薩：「何謂住神通度無極有六事？
+<lb n="0022b24" ed="T"/>若有所施至<anchor xml:id="nkr_note_orig_0022017" n="0022017"/><anchor xml:id="nkr_note_mod_0022017" n="0022017"/><anchor xml:id="beg0022017" n="0022017"/>於<anchor xml:id="end0022017"/>重財，不以貪悋，奉於道法而
+<lb n="0022b25" ed="T"/>受真教，是曰布施；行無所著不猗邪正<anchor xml:id="nkr_note_orig_0022018" n="0022018"/><anchor xml:id="beg0022018" n="0022018"/>志<anchor xml:id="end0022018"/>
+<lb n="0022b26" ed="T"/>于大道，是曰持戒；其以仁和不懷狐疑永無
+<lb n="0022b27" ed="T"/>猶豫，是曰忍辱；志在勤修建立弘誓不違本
+<lb n="0022b28" ed="T"/>願，是曰精進；所以禪思光明所照通於遠近，
+<lb n="0022b29" ed="T"/>是曰一心；聖明所遵應於道地，事事有緣牢
+<pb n="0022c" ed="T" xml:id="T14.0425.0022c"/>
+<lb n="0022c01" ed="T"/>堅<anchor xml:id="nkr_note_orig_0022019" n="0022019"/><anchor xml:id="nkr_note_mod_0022019" n="0022019"/><anchor xml:id="beg0022019" n="0022019"/>受持<anchor xml:id="end0022019"/>，是曰智慧；是為六。</p><p xml:id="pT14p0022c0111" rend="inline">「何謂神通不斷
+<lb n="0022c02" ed="T"/>度無極有六事？若有所救建立如來佛寺、精
+<lb n="0022c03" ed="T"/>舍以為元首，是曰布施；求於道業致智慧根
+<lb n="0022c04" ed="T"/>拔無明<anchor xml:id="nkr_note_orig_0022020" n="0022020"/><anchor xml:id="beg0022020" n="0022020"/>原<anchor xml:id="end0022020"/>，是曰持戒；所志柔和達於本際
+<lb n="0022c05" ed="T"/>而興正真，是曰忍辱；奉行勤修通達色想而
+<lb n="0022c06" ed="T"/>無所想，是曰精進；所以禪思寂然定意乃至
+<lb n="0022c07" ed="T"/>脫門，是曰一心；遵承聖明修<anchor xml:id="nkr_note_orig_0022021" n="0022021"/><anchor xml:id="nkr_note_mod_0022021" n="0022021"/><anchor xml:id="beg0022021" n="0022021"/>持<anchor xml:id="end0022021"/>總持，觀於
+<lb n="0022c08" ed="T"/>正行住淡泊地，是曰智慧；是為六。</p><p xml:id="pT14p0022c0814" rend="inline">「何謂入欲
+<lb n="0022c09" ed="T"/>度無極有六事？若有所濟合集勢力以給怨
+<lb n="0022c10" ed="T"/>家，是曰布施；所行羸劣次第順力建立大勢，
+<lb n="0022c11" ed="T"/>是曰持戒；其以柔和消諸陰蓋奉修道義，是
+<lb n="0022c12" ed="T"/>曰忍辱；若斷怨心猶王太子樂於<anchor xml:id="nkr_note_orig_0022022" n="0022022"/><anchor xml:id="beg0022022" n="0022022"/>清<anchor xml:id="end0022022"/>白，是曰
+<lb n="0022c13" ed="T"/>精進；若常禪思心不放逸專唯定意，是曰一
+<lb n="0022c14" ed="T"/>心；所以聖明有所度脫惡趣地獄生死之難
+<lb n="0022c15" ed="T"/><anchor xml:id="nkr_note_orig_0022023" n="0022023"/><anchor xml:id="beg0022023" n="0022023"/>勤<anchor xml:id="end0022023"/>修精進；猶如往古學之所行，是曰智慧；
+<lb n="0022c16" ed="T"/>是為六。</p><p xml:id="pT14p0022c1604" rend="inline">「何謂立度無極有六事？有<anchor xml:id="nkr_note_orig_0022024" n="0022024"/><anchor xml:id="nkr_note_mod_0022024" n="0022024"/><anchor xml:id="beg0022024" n="0022024"/>人<anchor xml:id="end0022024"/>行者
+<lb n="0022c17" ed="T"/>救於惡趣，誘在生死使得超出如頂相報，
+<lb n="0022c18" ed="T"/>是曰布施；所奉行者若世無佛，開化眾人各
+<lb n="0022c19" ed="T"/>令得所，猶如往昔摩調聖王慈化天下，是曰
+<lb n="0022c20" ed="T"/>持戒；所以<anchor xml:id="nkr_note_orig_0022025" n="0022025"/><anchor xml:id="beg0022025" n="0022025"/>仁<anchor xml:id="end0022025"/>和不起瞋恚，如羼提和<anchor xml:id="nkr_note_orig_0022026" n="0022026"/><anchor xml:id="nkr_note_mod_0022026" n="0022026"/><anchor xml:id="beg0022026" n="0022026"/>截<anchor xml:id="end0022026"/>手
+<lb n="0022c21" ed="T"/>足耳鼻不生恚心，是曰忍辱；其以精勤難可
+<lb n="0022c22" ed="T"/>制持終不曀滯，猶如海中如意明珠，從其所
+<lb n="0022c23" ed="T"/>求輒得所願，是曰精進；所修禪思如在中宮，
+<lb n="0022c24" ed="T"/>開化貴人使發道意超無等倫，猶如師子太
+<lb n="0022c25" ed="T"/>子自在有所教勅如風靡草，是曰一心；若入
+<lb n="0022c26" ed="T"/>聖明眾智境界一切悉捨，能惠與人不斷所
+<lb n="0022c27" ed="T"/>倖，猶如古王頭首布施，是曰智慧；是為六。</p>
+<lb n="0022c28" ed="T"/><p xml:id="pT14p0022c2801">「何謂應進度無極有六事？所持衣物施與眾
+<lb n="0022c29" ed="T"/>生，猶如鼈王<anchor xml:id="nkr_note_orig_0022027" n="0022027"/><anchor xml:id="nkr_note_mod_0022027" n="0022027"/><anchor xml:id="beg0022027" n="0022027"/>在海<anchor xml:id="end0022027"/>救厄，是曰布施；所奉持
+<pb n="0023a" ed="T" xml:id="T14.0425.0023a"/>
+<lb n="0023a01" ed="T"/>法猶如師子眷屬圍繞，救濟賈客亦復如是，
+<lb n="0023a02" ed="T"/>是曰持戒；所<anchor xml:id="nkr_note_orig_0023001" n="0023001"/><anchor xml:id="beg0023001" n="0023001"/>聞<anchor xml:id="end0023001"/>柔和，猶如梵志欲來害王
+<lb n="0023a03" ed="T"/>而取其頭即惠與之，是曰忍辱；所修精進如
+<lb n="0023a04" ed="T"/>梵志子名曰思義，棄五所欲救護他人而勸
+<lb n="0023a05" ed="T"/>度之，是曰精進；其所禪思如阿離<anchor xml:id="nkr_note_orig_0023002" n="0023002"/><anchor xml:id="nkr_note_mod_0023002" n="0023002"/><anchor xml:id="beg0023002" n="0023002"/>念<anchor xml:id="end0023002"/>在於
+<lb n="0023a06" ed="T"/>異學救護弟子及與他人，是曰一心；以聖明
+<lb n="0023a07" ed="T"/>事開化無數百千眾人，猶如<anchor xml:id="nkr_note_orig_0023003" n="0023003"/><anchor xml:id="beg0023003" n="0023003"/>鳥<anchor xml:id="end0023003"/>王救無反復，
+<lb n="0023a08" ed="T"/>是曰智慧；是為六。</p><p xml:id="pT14p0023a0808" rend="inline">「何謂眾報應度無極有
+<lb n="0023a09" ed="T"/>六事？若愍世人有所救濟，猶如離垢化眾行
+<lb n="0023a10" ed="T"/>淨，是曰布施；所奉至行住於梵天，為閻浮
+<lb n="0023a11" ed="T"/>利人造立德本令得入法，是曰持戒；所行仁
+<lb n="0023a12" ed="T"/>和加於眾生不惜身命，猶如在海見其船壞
+<lb n="0023a13" ed="T"/>自殺其身以度眾人，是曰忍辱；所行精進開
+<lb n="0023a14" ed="T"/>化無數多所成就，猶如導師名曰福事，採海
+<lb n="0023a15" ed="T"/>眾寶以濟窮匱，是曰精進；所以禪思愍傷他
+<lb n="0023a16" ed="T"/>人而行勸助，猶如童子名曰意義，於八萬歲
+<lb n="0023a17" ed="T"/>奉行慈心用安眾生，是曰一心；若以聖明<anchor xml:id="nkr_note_orig_0023004" n="0023004"/><anchor xml:id="nkr_note_mod_0023004" n="0023004"/><anchor xml:id="beg0023004" n="0023004"/>了
+<lb n="0023a18" ed="T"/>解<anchor xml:id="end0023004"/>現世度世智慧，以是智慧覺了<anchor xml:id="nkr_note_orig_0023005" n="0023005"/><anchor xml:id="nkr_note_mod_0023005" n="0023005"/><anchor xml:id="beg0023005" n="0023005"/>空<anchor xml:id="end0023005"/>無，如須
+<lb n="0023a19" ed="T"/>菩提解空識喻，眾塵樹葉悉能分別，其勸助
+<lb n="0023a20" ed="T"/>者報應過是，是曰智慧；是為六。</p><p xml:id="pT14p0023a2013" rend="inline">「何謂無報
+<lb n="0023a21" ed="T"/>度無極有六事？其所救濟，不受報應乃至滅
+<lb n="0023a22" ed="T"/>度，猶如大蓋有所覆護，菩薩所<anchor xml:id="nkr_note_orig_0023006" n="0023006"/><anchor xml:id="nkr_note_mod_0023006" n="0023006"/><anchor xml:id="beg0023006" n="0023006"/>修<anchor xml:id="end0023006"/>如是無
+<lb n="0023a23" ed="T"/>極，如江河沙眾生得度，是曰布施；所奉法
+<lb n="0023a24" ed="T"/>行諸漏已盡，至不退轉攝受普護，是曰持戒；
+<lb n="0023a25" ed="T"/>所志仁和未曾有恨逮致佛道，是曰忍辱；所
+<lb n="0023a26" ed="T"/>以勤修捨棄身命，一切萬物供養三寶，是曰
+<lb n="0023a27" ed="T"/>精進；所修禪定在佛樹下，宣歎頌偈遵承法
+<lb n="0023a28" ed="T"/>觀以此行護，是曰一心；所遵聖明不論道慧，
+<lb n="0023a29" ed="T"/>猶如海中<anchor xml:id="nkr_note_orig_0023007" n="0023007"/><anchor xml:id="nkr_note_mod_0023007" n="0023007"/><anchor xml:id="beg0023007" n="0023007"/>舍<anchor xml:id="end0023007"/>和樹<anchor xml:id="nkr_note_orig_0023008" n="0023008"/><anchor xml:id="nkr_note_mod_0023008" n="0023008"/><anchor xml:id="beg0023008" n="0023008"/>葉<anchor xml:id="end0023008"/>香美療病，菩薩如是，
+<pb n="0023b" ed="T" xml:id="T14.0425.0023b"/>
+<lb n="0023b01" ed="T"/>以<anchor xml:id="nkr_note_orig_0023009" n="0023009"/><anchor xml:id="beg0023009" n="0023009"/>道<anchor xml:id="end0023009"/>德香化於一切使發<anchor xml:id="nkr_note_orig_0023010" n="0023010"/><anchor xml:id="beg0023010" n="0023010"/>大<anchor xml:id="end0023010"/>道心，是曰智
+<lb n="0023b02" ed="T"/>慧；是為六。</p><p xml:id="pT14p0023b0205" rend="inline">「何謂無樂度無極有六事？所濟
+<lb n="0023b03" ed="T"/>眾<anchor xml:id="nkr_note_orig_0023011" n="0023011"/><anchor xml:id="beg0023011" n="0023011"/>生<anchor xml:id="end0023011"/>猶如滅度，譬如賢者名曰漢林，度眾
+<lb n="0023b04" ed="T"/>迷惑，故當曉<anchor xml:id="nkr_note_orig_0023012" n="0023012"/><anchor xml:id="beg0023012" n="0023012"/>知<anchor xml:id="end0023012"/>菩薩本行此宿所喻，是曰
+<lb n="0023b05" ed="T"/>布施；其禁無量，患厭眾難志願無為，猶如往
+<lb n="0023b06" ed="T"/>古菩薩所行，精進入海致無量寶，故引譬喻，
+<lb n="0023b07" ed="T"/>是曰持戒；其仁和行，若迦夷王而截其頭及
+<lb n="0023b08" ed="T"/>鼻手足不懷瞋恚，是曰忍辱；若勤修行出迦
+<lb n="0023b09" ed="T"/>維羅衛無有見者，所以平等入<anchor xml:id="nkr_note_orig_0023013" n="0023013"/><anchor xml:id="nkr_note_mod_0023013" n="0023013"/><anchor xml:id="beg0023013" n="0023013"/>正<anchor xml:id="end0023013"/>得佛，是
+<lb n="0023b10" ed="T"/>曰精進；所以禪思四品具足，淨修梵行慈悲
+<lb n="0023b11" ed="T"/>喜護，是曰一心；猶以智慧度無極成其亦難
+<lb n="0023b12" ed="T"/>致，在世正受心常等定，是曰智慧；是為六。</p>
+<lb n="0023b13" ed="T"/><p xml:id="pT14p0023b1301">「何謂時進度無極有六事？若得止處次第惠
+<lb n="0023b14" ed="T"/>救<anchor xml:id="nkr_note_orig_0023014" n="0023014"/><anchor xml:id="nkr_note_mod_0023014" n="0023014"/><anchor xml:id="beg0023014" n="0023014"/>眾<anchor xml:id="end0023014"/>厄<anchor xml:id="nkr_note_orig_0023015" n="0023015"/><anchor xml:id="nkr_note_mod_0023015" n="0023015"/><anchor xml:id="beg0023015" n="0023015"/>難<anchor xml:id="end0023015"/>，是曰布施；所行謹慎<anchor xml:id="nkr_note_orig_0023016" n="0023016"/><anchor xml:id="nkr_note_mod_0023016" n="0023016"/><anchor xml:id="beg0023016" n="0023016"/>如<anchor xml:id="end0023016"/>生鼈
+<lb n="0023b15" ed="T"/>中，其為鼈王時將護己身又濟他人，是曰持
+<lb n="0023b16" ed="T"/>戒；所志仁和親近眾行歸護身口，猶如<anchor xml:id="nkr_note_orig_0023017" n="0023017"/><anchor xml:id="nkr_note_mod_0023017" n="0023017"/><anchor xml:id="beg0023017" n="0023017"/>人<anchor xml:id="end0023017"/>
+<lb n="0023b17" ed="T"/>賢所行慈忍，斷其諸節不抱傷害，是曰忍辱；
+<lb n="0023b18" ed="T"/>所修精勤，佛興世時所在見佛，如來平等其
+<lb n="0023b19" ed="T"/>三昧印於一切行，三千歲未曾休懈，是曰精
+<lb n="0023b20" ed="T"/>進；所曰禪思在於中宮妓婇女間，常修清白
+<lb n="0023b21" ed="T"/>而不放逸，是曰一心；順智慧時在於生死，
+<lb n="0023b22" ed="T"/>在在所<anchor xml:id="nkr_note_orig_0023018" n="0023018"/><anchor xml:id="beg0023018" n="0023018"/>至<anchor xml:id="end0023018"/>將護諸我使了無我，是曰智慧；
+<lb n="0023b23" ed="T"/>是為六。</p><p xml:id="pT14p0023b2304" rend="inline">「何謂光明度無極有六事？若以華香
+<lb n="0023b24" ed="T"/><anchor xml:id="nkr_note_orig_0023019" n="0023019"/><anchor xml:id="nkr_note_mod_0023019" n="0023019"/><anchor xml:id="beg0023019" n="0023019"/>不<anchor xml:id="end0023019"/>飾貢上諸佛菩薩，是曰布施；所謹慎行
+<lb n="0023b25" ed="T"/>愍傷他人，猶如飛鳥空身飛去無所慕樂，是
+<lb n="0023b26" ed="T"/>曰持戒；所志仁和解一切空以逮法藏，是曰
+<lb n="0023b27" ed="T"/>忍辱；勤力橋梁救濟危<anchor xml:id="nkr_note_orig_0023020" n="0023020"/><anchor xml:id="nkr_note_mod_0023020" n="0023020"/><anchor xml:id="beg0023020" n="0023020"/>厄<anchor xml:id="end0023020"/>，是曰精進；所思
+<lb n="0023b28" ed="T"/>禪定如往古劫，始初菩薩之所奉行深入道
+<lb n="0023b29" ed="T"/>行，是曰一心；所修聖明興發法忍，如<anchor xml:id="nkr_note_orig_0023021" n="0023021"/><anchor xml:id="nkr_note_mod_0023021" n="0023021"/><anchor xml:id="beg0023021" n="0023021"/>兩<anchor xml:id="end0023021"/>童
+<pb n="0023c" ed="T" xml:id="T14.0425.0023c"/>
+<lb n="0023c01" ed="T"/>子執心如地，是曰智慧；是為六。</p><p xml:id="pT14p0023c0113" rend="inline">「何謂無量
+<lb n="0023c02" ed="T"/>光度無極有六事？善權方便而有所濟，因以
+<lb n="0023c03" ed="T"/>報致佛大光明周遍無數諸佛國土，是曰布
+<lb n="0023c04" ed="T"/>施；所奉<anchor xml:id="nkr_note_orig_0023022" n="0023022"/><anchor xml:id="beg0023022" n="0023022"/>勤<anchor xml:id="end0023022"/>修勸助逮得不起法忍，是曰持
+<lb n="0023c05" ed="T"/>戒；其仁和者勸助法<anchor xml:id="nkr_note_orig_0023023" n="0023023"/><anchor xml:id="nkr_note_mod_0023023" n="0023023"/><anchor xml:id="beg0023023" n="0023023"/>相<anchor xml:id="end0023023"/>而無所著，是曰忍
+<lb n="0023c06" ed="T"/>辱；所可精修奉行空法，勸助大道歸此空無，
+<lb n="0023c07" ed="T"/>是曰精進；所以禪定<anchor xml:id="nkr_note_orig_0023024" n="0023024"/><anchor xml:id="nkr_note_mod_0023024" n="0023024"/><anchor xml:id="beg0023024" n="0023024"/>助<anchor xml:id="end0023024"/>化眾生，常不懈廢
+<lb n="0023c08" ed="T"/>使不退轉，是曰一心；所修聖明住第八地，
+<lb n="0023c09" ed="T"/>在所勸化莫不蒙荷，是曰智慧；是為六。</p><p xml:id="pT14p0023c0916" rend="inline">「何
+<lb n="0023c10" ed="T"/>謂報安光度無極有六事？若至魔徑臨壽終
+<lb n="0023c11" ed="T"/>時，其功報應，猶兜術天忽沒來下，開化餓
+<lb n="0023c12" ed="T"/>鬼除其飢厄，是曰布施；降伏魔徑所奉愍哀，
+<lb n="0023c13" ed="T"/>放捨身縛亦脫罪厄，猶如往古國王太子名
+<lb n="0023c14" ed="T"/>曰須賴，所脫苦患，是曰持戒；其行仁和在於
+<lb n="0023c15" ed="T"/>魚中，安諸黿鼉隱樂得食，是曰忍辱；所勤
+<lb n="0023c16" ed="T"/>修行諸<anchor xml:id="nkr_note_orig_0023025" n="0023025"/><anchor xml:id="beg0023025" n="0023025"/>王<anchor xml:id="end0023025"/>女等，而在恐懼危厄<anchor xml:id="nkr_note_orig_0023026" n="0023026"/><anchor xml:id="beg0023026" n="0023026"/>艱難<anchor xml:id="end0023026"/>愍傷
+<lb n="0023c17" ed="T"/>濟之，是曰精進；所修禪思，在疾疫劫以藥療
+<lb n="0023c18" ed="T"/>之，猶如往古童子所作長益，以五頭首<anchor xml:id="nkr_note_orig_0023027" n="0023027"/><anchor xml:id="beg0023027" n="0023027"/>救<anchor xml:id="end0023027"/>
+<lb n="0023c19" ed="T"/><anchor xml:id="nkr_note_orig_0023028" n="0023028"/><anchor xml:id="beg0023028" n="0023028"/>寂<anchor xml:id="end0023028"/>閻浮提諸非邪惡，是曰一心；以此聖明
+<lb n="0023c20" ed="T"/>救濟一切，猶往古喻五百賈客，以五<anchor xml:id="nkr_note_orig_0023029" n="0023029"/><anchor xml:id="beg0023029" n="0023029"/>百<anchor xml:id="end0023029"/>玉
+<lb n="0023c21" ed="T"/>女及諸<anchor xml:id="nkr_note_orig_0023030" n="0023030"/><anchor xml:id="beg0023030" n="0023030"/>玉<anchor xml:id="end0023030"/>女，就為導師護五億人一心宿衛，
+<lb n="0023c22" ed="T"/>是曰智慧；是為六。</p><p xml:id="pT14p0023c2208" rend="inline">「何謂不迴還度無極有六
+<lb n="0023c23" ed="T"/>事？既有所濟不樂聲聞緣覺之業，願求無上
+<lb n="0023c24" ed="T"/>正真之道，是曰布施；所奉謹慎觀於至義而
+<lb n="0023c25" ed="T"/>不懈廢，是曰持戒；所遵仁和能暢究竟不中
+<lb n="0023c26" ed="T"/>懷恨，是曰忍辱；所行遵修執權方便，有所救
+<lb n="0023c27" ed="T"/>濟使不放逸，是曰精進；所修禪定顯明章句
+<lb n="0023c28" ed="T"/>而不迷憒，是曰一心；所謂聖明得至七住不
+<lb n="0023c29" ed="T"/>退轉地，是曰智慧；是為六。</p><p xml:id="pT14p0023c2911" rend="inline">「何謂<anchor xml:id="nkr_note_orig_0023031" n="0023031"/><anchor xml:id="nkr_note_mod_0023031" n="0023031"/><anchor xml:id="beg0023031" n="0023031"/>為<anchor xml:id="end0023031"/>娛樂度
+<pb n="0024a" ed="T" xml:id="T14.0425.0024a"/>
+<lb n="0024a01" ed="T"/>無極有六事？有所給與以開難化眾令發道
+<lb n="0024a02" ed="T"/>意，是曰布施；以行將養佛興世時，說其報
+<lb n="0024a03" ed="T"/>應而度脫之，猶如往古太子勢首救眾危厄，
+<lb n="0024a04" ed="T"/>是曰持戒；所修仁和，如功勳國王安和萬民，
+<lb n="0024a05" ed="T"/>如是安身亦安他人，一切適安我身亦安，是
+<lb n="0024a06" ed="T"/>曰忍辱；所進勤修逮得總持辯才無量，是曰
+<lb n="0024a07" ed="T"/>精進；所習禪定以用勸助，是功<anchor xml:id="nkr_note_orig_0024001" n="0024001"/><anchor xml:id="nkr_note_mod_0024001" n="0024001"/><anchor xml:id="beg0024001" n="0024001"/>德<anchor xml:id="end0024001"/>報令眾
+<lb n="0024a08" ed="T"/>生安，是曰一心；其以聖明在六住地，柔順
+<lb n="0024a09" ed="T"/>法忍至不退轉，是曰智慧；是為六。</p><p xml:id="pT14p0024a0914" rend="inline">「何謂鮮
+<lb n="0024a10" ed="T"/>潔度無極有六事？若有所<anchor xml:id="nkr_note_orig_0024002" n="0024002"/><anchor xml:id="nkr_note_mod_0024002" n="0024002"/><anchor xml:id="beg0024002" n="0024002"/>興<anchor xml:id="end0024002"/>無所依猗，亦不
+<lb n="0024a11" ed="T"/><anchor xml:id="nkr_note_orig_0024003" n="0024003"/><anchor xml:id="beg0024003" n="0024003"/>相<anchor xml:id="end0024003"/>報加於眾生，是曰布施；所修謹慎常抱
+<lb n="0024a12" ed="T"/>篤信，懷來七覺<anchor xml:id="nkr_note_orig_0024004" n="0024004"/><anchor xml:id="beg0024004" n="0024004"/>覺<anchor xml:id="end0024004"/>諸不覺，是曰持戒；所修
+<lb n="0024a13" ed="T"/>仁和慈念眾生，不貪其身亦不惜命，是曰忍
+<lb n="0024a14" ed="T"/>辱；所志勤修選擇諸法，合會至行致諸覺意，
+<lb n="0024a15" ed="T"/>是曰精進；若以禪思無所想念而不放逸，是
+<lb n="0024a16" ed="T"/>曰一心；所以聖明致得佛道而度一切，是曰
+<lb n="0024a17" ed="T"/>智慧；是為六。</p><p xml:id="pT14p0024a1706" rend="inline">「何謂成世法度無極有六事？
+<lb n="0024a18" ed="T"/>若以所濟報應無數，致於永安無復眾難，是
+<lb n="0024a19" ed="T"/>曰布施；所以謹慎慕求道法，八正之業至平
+<lb n="0024a20" ed="T"/>等慧，是曰持戒；所念仁和不疑道義決<anchor xml:id="nkr_note_orig_0024005" n="0024005"/><anchor xml:id="beg0024005" n="0024005"/>壞<anchor xml:id="end0024005"/>羅
+<lb n="0024a21" ed="T"/>網，是曰忍辱；所行勤修於現在法長得安
+<lb n="0024a22" ed="T"/>隱，是曰精進；所謂禪思精進本行滅寂正受，
+<lb n="0024a23" ed="T"/>是曰一心；其遵聖明所作<anchor xml:id="nkr_note_orig_0024006" n="0024006"/><anchor xml:id="nkr_note_mod_0024006" n="0024006"/><anchor xml:id="beg0024006" n="0024006"/>已<anchor xml:id="end0024006"/>辦受四意止，
+<lb n="0024a24" ed="T"/>是曰智慧；是為六。</p><p xml:id="pT14p0024a2408" rend="inline">「何謂淨<anchor xml:id="nkr_note_orig_0024007" n="0024007"/><anchor xml:id="beg0024007" n="0024007"/>俗<anchor xml:id="end0024007"/>度無極有六
+<lb n="0024a25" ed="T"/>事？其以所行救三千世界，從始至終無有異
+<lb n="0024a26" ed="T"/>心，是曰布施；從始生來普安一切，周旋往來
+<lb n="0024a27" ed="T"/>三界眾生，是曰持戒；發意以來教化群黎，至
+<lb n="0024a28" ed="T"/>無所至<anchor xml:id="nkr_note_orig_0024008" n="0024008"/><anchor xml:id="nkr_note_mod_0024008" n="0024008"/><anchor xml:id="beg0024008" n="0024008"/>使<anchor xml:id="end0024008"/>無處所，是曰忍辱；使三千<anchor xml:id="nkr_note_orig_0024009" n="0024009"/><anchor xml:id="beg0024009" n="0024009"/>世<anchor xml:id="end0024009"/>界
+<lb n="0024a29" ed="T"/>一切眾生精進滅度，猶初發意出家學故其
+<pb n="0024b" ed="T" xml:id="T14.0425.0024b"/>
+<lb n="0024b01" ed="T"/>心難當，是曰精進；所謂禪思令諸眾生<anchor xml:id="nkr_note_orig_0024010" n="0024010"/><anchor xml:id="nkr_note_mod_0024010" n="0024010"/><anchor xml:id="beg0024010" n="0024010"/>得
+<lb n="0024b02" ed="T"/>攝其意<anchor xml:id="end0024010"/>，專惟經法而不放逸，是曰一心；其
+<lb n="0024b03" ed="T"/>以聖明至於地獄，救濟危厄適生墮地，口有
+<lb n="0024b04" ed="T"/>所宣論講經道逮得法典，是曰智慧；是為六。</p>
+<lb n="0024b05" ed="T"/><p xml:id="pT14p0024b0501">「何謂成種度無極有六事？其<anchor xml:id="nkr_note_orig_0024011" n="0024011"/><anchor xml:id="nkr_note_mod_0024011" n="0024011"/><anchor xml:id="beg0024011" n="0024011"/>所救<anchor xml:id="end0024011"/>者，致眷
+<lb n="0024b06" ed="T"/>屬和無極大財，是曰布施；所謹慎行致眷屬
+<lb n="0024b07" ed="T"/>和而無罪殃，是曰持戒；所修仁和若干眷屬，
+<lb n="0024b08" ed="T"/>各各自安無能壞者，是曰忍辱；若有勤修
+<lb n="0024b09" ed="T"/>所有眷屬，不使自恣放逸之行，各各辦業用
+<lb n="0024b10" ed="T"/>意不廢，是曰精進；所遵禪思，若有瞋諍皆
+<lb n="0024b11" ed="T"/>令和合致明眷屬，是曰一心；所修聖明，一
+<lb n="0024b12" ed="T"/>切眷屬皆有智明而無闇蔽，是曰智慧；是為
+<lb n="0024b13" ed="T"/>六。</p><p xml:id="pT14p0024b1302" rend="inline">「何謂來成眷屬度無極有六事？於五百歲
+<lb n="0024b14" ed="T"/>開化勸誨諸大眾會使發道心，是曰布施；
+<lb n="0024b15" ed="T"/>所奉謹慎勸<anchor xml:id="nkr_note_orig_0024012" n="0024012"/><anchor xml:id="nkr_note_mod_0024012" n="0024012"/><anchor xml:id="beg0024012" n="0024012"/>和合<anchor xml:id="end0024012"/>同，無數眾人不以為<anchor xml:id="nkr_note_orig_0024013" n="0024013"/><anchor xml:id="nkr_note_mod_0024013" n="0024013"/><anchor xml:id="beg0024013" n="0024013"/>諍<anchor xml:id="end0024013"/>
+<lb n="0024b16" ed="T"/>如佛眷屬，是曰持戒；其所仁和為無央數眾
+<lb n="0024b17" ed="T"/>生之藏，猶昔摩竭有一大魚海水能受，所有
+<lb n="0024b18" ed="T"/>究竟從始至終，若有伴行如井中魚，是曰忍
+<lb n="0024b19" ed="T"/>辱；所謂勤修多護眾人除婬怒癡，猶如海中
+<lb n="0024b20" ed="T"/>明月珠藏隨時消水，是曰精進；所行禪思如
+<lb n="0024b21" ed="T"/>阿離念，彌學外異<anchor xml:id="nkr_note_orig_0024014" n="0024014"/><anchor xml:id="nkr_note_mod_0024014" n="0024014"/><anchor xml:id="beg0024014" n="0024014"/>微<anchor xml:id="end0024014"/>術，多愍眾生而勸化
+<lb n="0024b22" ed="T"/>之生于梵天，是曰一心；遵修聖明多所愍傷，
+<lb n="0024b23" ed="T"/>猶須菩提見有異人收捕鹿王，五百眾眷閉在
+<lb n="0024b24" ed="T"/>窮厄，悉解脫之，乃化天下一切眾生建立十
+<lb n="0024b25" ed="T"/>善，是曰智慧；是為六。</p><p xml:id="pT14p0024b2509" rend="inline">「何謂不壞眷屬度無
+<lb n="0024b26" ed="T"/>極有六事？若捨兩舌言常至誠不鬪亂福，是
+<lb n="0024b27" ed="T"/>曰布施；常懷慈心不抱危害，緣名遠聞靡不
+<lb n="0024b28" ed="T"/>敬愛，是曰持戒；所云仁和常有等心，慈愍
+<lb n="0024b29" ed="T"/>眾生而不<anchor xml:id="nkr_note_orig_0024015" n="0024015"/><anchor xml:id="beg0024015" n="0024015"/>偏<anchor xml:id="end0024015"/>黨，是曰忍辱；所以<anchor xml:id="nkr_note_orig_0024016" n="0024016"/><anchor xml:id="beg0024016" n="0024016"/>精修<anchor xml:id="end0024016"/>不以
+<pb n="0024c" ed="T" xml:id="T14.0425.0024c"/>
+<lb n="0024c01" ed="T"/>衣食，開化眾生唯以道法，是曰精進；其志
+<lb n="0024c02" ed="T"/>禪思逮得總持辯才無量，是曰一心；所以聖
+<lb n="0024c03" ed="T"/>明執持解脫，<anchor xml:id="nkr_note_orig_0024017" n="0024017"/><anchor xml:id="beg0024017" n="0024017"/>解<anchor xml:id="end0024017"/>諸結縛令無罣礙，是曰智
+<lb n="0024c04" ed="T"/>慧；是為六。</p><p xml:id="pT14p0024c0405" rend="inline">「何謂除塵來淨度無極有六事？
+<lb n="0024c05" ed="T"/>若有損耗使增功德，療諸疾疫普令安隱，是
+<lb n="0024c06" ed="T"/>曰布施；若在<anchor xml:id="nkr_note_orig_0024018" n="0024018"/><anchor xml:id="nkr_note_mod_0024018" n="0024018"/><anchor xml:id="beg0024018" n="0024018"/>弊<anchor xml:id="end0024018"/>礙不能自濟，為作救護
+<lb n="0024c07" ed="T"/>令心開解，是曰持戒；若有師父尊長罵詈，
+<lb n="0024c08" ed="T"/><anchor xml:id="nkr_note_orig_0024019" n="0024019"/><anchor xml:id="nkr_note_mod_0024019" n="0024019"/><anchor xml:id="beg0024019" n="0024019"/>供<anchor xml:id="end0024019"/>敬歸命不懷瞋恨，是曰忍辱；其所勤修
+<lb n="0024c09" ed="T"/>在胎心正，治眾<anchor xml:id="nkr_note_orig_0024020" n="0024020"/><anchor xml:id="nkr_note_mod_0024020" n="0024020"/><anchor xml:id="beg0024020" n="0024020"/>病<anchor xml:id="end0024020"/>疾將護開化及諸比丘、比
+<lb n="0024c10" ed="T"/>丘尼、清信士、清信女，是曰精進；若母疾病
+<lb n="0024c11" ed="T"/>瞻視給使，與諸可乏醫藥飲食，是曰一心；
+<lb n="0024c12" ed="T"/>若以聖明為無數眾而決狐疑，各得開達奉
+<lb n="0024c13" ed="T"/>無上真，是曰智慧；是為六。</p><p xml:id="pT14p0024c1311" rend="inline">「何謂觀土度無
+<lb n="0024c14" ed="T"/>極有六事？常抱仁慈不以<anchor xml:id="nkr_note_orig_0024021" n="0024021"/><anchor xml:id="beg0024021" n="0024021"/>害<anchor xml:id="end0024021"/>眼加視眾人，
+<lb n="0024c15" ed="T"/>是曰布施；而無罣礙無陰蓋心謹慎心念，是
+<lb n="0024c16" ed="T"/>曰持戒；志性仁和見諸怨家，念如赤子不懷
+<lb n="0024c17" ed="T"/>毒害，是曰忍辱；具足神通內外無弊，覩化
+<lb n="0024c18" ed="T"/>十方不中懈廢，是曰精進；若淨修行嚴治天
+<lb n="0024c19" ed="T"/>眼，見於一切五趣生死，是曰一心；若無數
+<lb n="0024c20" ed="T"/>世柔和其<anchor xml:id="nkr_note_orig_0024022" n="0024022"/><anchor xml:id="beg0024022" n="0024022"/>意<anchor xml:id="end0024022"/>，言辭和雅分別聖慧，是曰智
+<lb n="0024c21" ed="T"/>慧；是為六。</p><p xml:id="pT14p0024c2105" rend="inline">「何謂宣誓度無極有六事？以報
+<lb n="0024c22" ed="T"/>應德勸助眾生得受功<anchor xml:id="nkr_note_orig_0024023" n="0024023"/><anchor xml:id="nkr_note_mod_0024023" n="0024023"/><anchor xml:id="beg0024023" n="0024023"/>德<anchor xml:id="end0024023"/>，是曰布施；所謹
+<lb n="0024c23" ed="T"/>慎行消眾罣礙而無結滯，是曰持戒；<anchor xml:id="nkr_note_orig_0024024" n="0024024"/><anchor xml:id="nkr_note_mod_0024024" n="0024024"/><anchor xml:id="beg0024024" n="0024024"/>而<anchor xml:id="end0024024"/>無
+<lb n="0024c24" ed="T"/>所著不以為聞，了<anchor xml:id="nkr_note_orig_0024025" n="0024025"/><anchor xml:id="nkr_note_mod_0024025" n="0024025"/><anchor xml:id="beg0024025" n="0024025"/>嚮<anchor xml:id="end0024025"/>悉空興發仁和，是曰
+<lb n="0024c25" ed="T"/>忍辱；所志勤修日日增進，至未曾有入無上
+<lb n="0024c26" ed="T"/>道，是曰精進；若以四等慈悲喜護，<anchor xml:id="nkr_note_orig_0024026" n="0024026"/><anchor xml:id="beg0024026" n="0024026"/>護<anchor xml:id="end0024026"/>於一
+<lb n="0024c27" ed="T"/>切迷惑之眾，是曰一心；<anchor xml:id="nkr_note_orig_0024027" n="0024027"/><anchor xml:id="beg0024027" n="0024027"/>聖<anchor xml:id="end0024027"/>明眾生患厭不
+<lb n="0024c28" ed="T"/>可，奉柔順法乃至賢和，是曰智慧；是為六。</p>
+<lb n="0024c29" ed="T"/><p xml:id="pT14p0024c2901">「何謂無<anchor xml:id="nkr_note_orig_0024028" n="0024028"/><anchor xml:id="beg0024028" n="0024028"/>放<anchor xml:id="end0024028"/>逸度無極有六事？有所施與勸助
+<pb n="0025a" ed="T" xml:id="T14.0425.0025a"/>
+<lb n="0025a01" ed="T"/><anchor xml:id="nkr_note_orig_0025001" n="0025001"/><anchor xml:id="nkr_note_mod_0025001" n="0025001"/><anchor xml:id="beg0025001" n="0025001"/>道德<anchor xml:id="end0025001"/>不與俗業，是曰布施；若眷屬羸護奉
+<lb n="0025a02" ed="T"/><anchor xml:id="nkr_note_orig_0025002" n="0025002"/><anchor xml:id="nkr_note_mod_0025002" n="0025002"/><anchor xml:id="beg0025002" n="0025002"/>行<anchor xml:id="end0025002"/>業，其有人來節節解之，不生毒心慈勸
+<lb n="0025a03" ed="T"/>道法，如射獵師心懷怨結，若有人來節節解
+<lb n="0025a04" ed="T"/>之，獵師心悅不以懷害，是曰持戒；若以仁
+<lb n="0025a05" ed="T"/>和宣善義理，投之於火欲危其身不以懷結，
+<lb n="0025a06" ed="T"/>是曰忍辱；所以勤修竟至滅度，觀於有為如
+<lb n="0025a07" ed="T"/>火<anchor xml:id="nkr_note_orig_0025003" n="0025003"/><anchor xml:id="nkr_note_mod_0025003" n="0025003"/><anchor xml:id="beg0025003" n="0025003"/>熾然<anchor xml:id="end0025003"/>，消之以法，是曰精進；所謂禪思除
+<lb n="0025a08" ed="T"/>一切塵獨樂一處，若以戒法救眾人愚，是曰
+<lb n="0025a09" ed="T"/>一心；慧無所樂而等其心，猶國王子施得土
+<lb n="0025a10" ed="T"/>地，令其無罪而有勢力，是曰智慧；是為六。</p>
+<lb n="0025a11" ed="T"/><p xml:id="pT14p0025a1101">「何謂周旋度無極有六事？多有財業所加以
+<lb n="0025a12" ed="T"/>慈而不懷害，是曰布施；所可謹慎不抱<anchor xml:id="nkr_note_orig_0025004" n="0025004"/><anchor xml:id="beg0025004" n="0025004"/>諛<anchor xml:id="end0025004"/>
+<lb n="0025a13" ed="T"/>諂而自顯己，是曰持戒；其性仁和所作功<anchor xml:id="beg_b" type="star"/>德<anchor xml:id="end_b"/>
+<lb n="0025a14" ed="T"/>不以為厭，放捨宮殿無所貪愛隨時惠施，是
+<lb n="0025a15" ed="T"/>曰忍辱；所以精勤，奉平等法而不放逸，是
+<lb n="0025a16" ed="T"/>曰精進；若以禪思而不迴還，<anchor xml:id="nkr_note_orig_0025005" n="0025005"/><anchor xml:id="beg0025005" n="0025005"/>墮<anchor xml:id="end0025005"/>不可法默
+<lb n="0025a17" ed="T"/>然淡泊，是曰一心；若以聖明立一切法，堅住
+<lb n="0025a18" ed="T"/>不動不落聲聞緣覺之法，是曰智慧；是為六。</p>
+<lb n="0025a19" ed="T"/><p xml:id="pT14p0025a1901">「何謂滅度度無極有六事？若<anchor xml:id="nkr_note_orig_0025006" n="0025006"/><anchor xml:id="beg0025006" n="0025006"/>用<anchor xml:id="end0025006"/>餓鬼不行慳
+<lb n="0025a20" ed="T"/>貪，見苦眾生而愍傷之，是曰布施；心見眾
+<lb n="0025a21" ed="T"/>生罣礙之業，而慈哀之示以無弊，是曰持戒；
+<lb n="0025a22" ed="T"/>所行仁和聞地獄苦覩惡形色，益用四等而
+<lb n="0025a23" ed="T"/>哀愍之，是曰忍辱；所奉勤修斷諸邪見多懷
+<lb n="0025a24" ed="T"/>慈哀，猶昔<anchor xml:id="nkr_note_orig_0025007" n="0025007"/><anchor xml:id="beg0025007" n="0025007"/>阿<anchor xml:id="end0025007"/>王子字鳩那羅，棄諸婇女受辱
+<lb n="0025a25" ed="T"/>不怨，是曰精進；若禪脫門樂此寂靜，猶昔
+<lb n="0025a26" ed="T"/>菩薩坐閻浮樹道德巍巍影覆其身，是曰一
+<lb n="0025a27" ed="T"/>心；若以聖明滅婬怒癡，如王棄國出家為
+<lb n="0025a28" ed="T"/>道，衣毛為竪眾<anchor xml:id="nkr_note_orig_0025008" n="0025008"/><anchor xml:id="nkr_note_mod_0025008" n="0025008"/><anchor xml:id="beg0025008" n="0025008"/>默<anchor xml:id="end0025008"/>啼哭不以顧戀，是曰智
+<lb n="0025a29" ed="T"/>慧；是為六。</p><p xml:id="pT14p0025a2905" rend="inline">「何謂豪貴度無極有六事？其所
+<pb n="0025b" ed="T" xml:id="T14.0425.0025b"/>
+<lb n="0025b01" ed="T"/><anchor xml:id="nkr_note_orig_0025009" n="0025009"/><anchor xml:id="nkr_note_mod_0025009" n="0025009"/><anchor xml:id="beg0025009" n="0025009"/>聞<anchor xml:id="end0025009"/>能以割情，所珍愛寶惠與作福，是曰布
+<lb n="0025b02" ed="T"/>施；奉修謹慎而不自大，謙下<anchor xml:id="nkr_note_orig_0025010" n="0025010"/><anchor xml:id="nkr_note_mod_0025010" n="0025010"/><anchor xml:id="beg0025010" n="0025010"/>供<anchor xml:id="end0025010"/>順奉敬三
+<lb n="0025b03" ed="T"/>寶佛法聖眾，是曰持戒；不求名稱不慕世榮
+<lb n="0025b04" ed="T"/>唯法為上，是曰忍辱；所遵勤修奉事尊長父
+<lb n="0025b05" ed="T"/>母師友，是曰精進；所以禪思開化眾生，猶
+<lb n="0025b06" ed="T"/>如往古拘修摩王有太子多所救濟，<anchor xml:id="nkr_note_orig_0025011" n="0025011"/><anchor xml:id="beg0025011" n="0025011"/>往<anchor xml:id="end0025011"/>來周
+<lb n="0025b07" ed="T"/>旋奉行至法，本性清淨未曾<anchor xml:id="nkr_note_orig_0025012" n="0025012"/><anchor xml:id="nkr_note_mod_0025012" n="0025012"/><anchor xml:id="beg0025012" n="0025012"/>抱<anchor xml:id="end0025012"/>害，<anchor xml:id="nkr_note_orig_0025013" n="0025013"/><anchor xml:id="beg0025013" n="0025013"/>是曰一
+<lb n="0025b08" ed="T"/>心<anchor xml:id="end0025013"/>；以出家學求智度無極<anchor xml:id="nkr_note_orig_0025014" n="0025014"/><anchor xml:id="beg0025014" n="0025014"/>精<anchor xml:id="end0025014"/>進聖明，是曰
+<lb n="0025b09" ed="T"/>智慧；是為六。</p><p xml:id="pT14p0025b0906" rend="inline">「何謂眷屬<anchor xml:id="nkr_note_orig_0025015" n="0025015"/><anchor xml:id="nkr_note_mod_0025015" n="0025015"/><anchor xml:id="beg0025015" n="0025015"/>親里<anchor xml:id="end0025015"/>度無極有六
+<lb n="0025b10" ed="T"/>事？若以所救勸化<anchor xml:id="nkr_note_orig_0025016" n="0025016"/><anchor xml:id="nkr_note_mod_0025016" n="0025016"/><anchor xml:id="beg0025016" n="0025016"/>導<anchor xml:id="end0025016"/>法，愛樂出家志存放
+<lb n="0025b11" ed="T"/>捨，是曰布施；其以謹慎奉順<anchor xml:id="nkr_note_orig_0025017" n="0025017"/><anchor xml:id="nkr_note_mod_0025017" n="0025017"/><anchor xml:id="beg0025017" n="0025017"/>哀愍<anchor xml:id="end0025017"/>，所有子
+<lb n="0025b12" ed="T"/>孫開示義理頒宣至教，是曰持戒；其行仁和
+<lb n="0025b13" ed="T"/>所至惱<anchor xml:id="nkr_note_orig_0025018" n="0025018"/><anchor xml:id="beg0025018" n="0025018"/>熱<anchor xml:id="end0025018"/>，教訓開導不可計眾，如是無厭，
+<lb n="0025b14" ed="T"/>是曰忍辱；其勤修行<anchor xml:id="nkr_note_orig_0025019" n="0025019"/><anchor xml:id="beg0025019" n="0025019"/>志<anchor xml:id="end0025019"/>存聽法，見不達者
+<lb n="0025b15" ed="T"/>而為敷演各<anchor xml:id="nkr_note_orig_0025020" n="0025020"/><anchor xml:id="beg0025020" n="0025020"/>令<anchor xml:id="end0025020"/>心解，是曰精進；所以禪思助
+<lb n="0025b16" ed="T"/>合眾生示之罪福化不使亂，猶如往古善<anchor xml:id="nkr_note_orig_0025021" n="0025021"/><anchor xml:id="beg0025021" n="0025021"/>目<anchor xml:id="end0025021"/>
+<lb n="0025b17" ed="T"/>轉輪聖王，是曰一心；將護聖明二俱同黨，
+<lb n="0025b18" ed="T"/>若能自制不犯貪欲，而以救護頒宣說法建
+<lb n="0025b19" ed="T"/>立眾人，是曰智慧；是為六。</p><p xml:id="pT14p0025b1911" rend="inline">「何謂心無所<anchor xml:id="nkr_note_orig_0025022" n="0025022"/><anchor xml:id="beg0025022" n="0025022"/>亡<anchor xml:id="end0025022"/>
+<lb n="0025b20" ed="T"/>度無極有六事？自<anchor xml:id="nkr_note_orig_0025023" n="0025023"/><anchor xml:id="nkr_note_mod_0025023" n="0025023"/><anchor xml:id="beg0025023" n="0025023"/>能<anchor xml:id="end0025023"/>伏心不隨邪見，出于
+<lb n="0025b21" ed="T"/><anchor xml:id="nkr_note_orig_0025024" n="0025024"/><anchor xml:id="beg0025024" n="0025024"/>塹<anchor xml:id="end0025024"/>難不隨貪厄，是曰布施報；所可遵行眾
+<lb n="0025b22" ed="T"/>禁具足，不斷三寶興隆道教化眾不<anchor xml:id="nkr_note_orig_0025025" n="0025025"/><anchor xml:id="beg0025025" n="0025025"/>逮<anchor xml:id="end0025025"/>，是
+<lb n="0025b23" ed="T"/>曰<anchor xml:id="nkr_note_orig_0025026" n="0025026"/><anchor xml:id="nkr_note_mod_0025026" n="0025026"/><anchor xml:id="beg0025026" n="0025026"/>禁<anchor xml:id="end0025026"/>戒報；所云仁和安柔心行，身雖遭苦
+<lb n="0025b24" ed="T"/>由博聞故能忍眾患，猶如須賴人來加毒其
+<lb n="0025b25" ed="T"/>心不恨，是曰忍辱報；若以勤修<anchor xml:id="nkr_note_orig_0025027" n="0025027"/><anchor xml:id="beg0025027" n="0025027"/>行自<anchor xml:id="end0025027"/>伏其
+<lb n="0025b26" ed="T"/>心，超出<anchor xml:id="nkr_note_orig_0025028" n="0025028"/><anchor xml:id="nkr_note_mod_0025028" n="0025028"/><anchor xml:id="beg0025028" n="0025028"/>懈<anchor xml:id="end0025028"/>中將護他人，使不危厄長致安
+<lb n="0025b27" ed="T"/>隱，是曰精進報；其以禪思棄捨放恣，奉不貪
+<lb n="0025b28" ed="T"/>欲不<anchor xml:id="nkr_note_orig_0025029" n="0025029"/><anchor xml:id="nkr_note_mod_0025029" n="0025029"/><anchor xml:id="beg0025029" n="0025029"/>恨<anchor xml:id="end0025029"/>寂定，是曰一心報；其以聖明宿止
+<lb n="0025b29" ed="T"/>威儀禮節之法，心所依猗供養諸利，加以法
+<pb n="0025c" ed="T" xml:id="T14.0425.0025c"/>
+<lb n="0025c01" ed="T"/>施度眾盲冥，是曰智慧報；是為六<anchor xml:id="nkr_note_orig_0025030" n="0025030"/><anchor xml:id="nkr_note_mod_0025030" n="0025030"/><anchor xml:id="beg0025030" n="0025030"/>也<anchor xml:id="end0025030"/>。」</p><anchor xml:id="nkr_note_orig_0025031" n="0025031"/><anchor xml:id="nkr_note_mod_0025031" n="0025031"/><anchor type="circle"/></cb:div>
+<lb n="0025c02" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="11" type="品">11 三十二相品</cb:mulu><head><anchor type="circle"/><anchor xml:id="nkr_note_orig_0025032" n="0025032"/><anchor xml:id="nkr_note_mod_0025032" n="0025032"/>三十二相品第十一</head>
+<lb n="0025c03" ed="T"/><p xml:id="pT14p0025c0301">佛告喜王菩薩：「何謂諦住安平<anchor xml:id="nkr_note_orig_0025033" n="0025033"/><anchor xml:id="nkr_note_mod_0025033" n="0025033"/><anchor xml:id="beg0025033" n="0025033"/>止<anchor xml:id="end0025033"/>度無極有
+<lb n="0025c04" ed="T"/>六事？<anchor xml:id="nkr_note_orig_0025034" n="0025034"/><anchor xml:id="nkr_note_mod_0025034" n="0025034"/><anchor xml:id="beg0025034" n="0025034"/>遍<anchor xml:id="end0025034"/>從平地舉足前行追慕三昧，是曰
+<lb n="0025c05" ed="T"/>布施報；若建立安勸化眾人，不更惱害終始
+<lb n="0025c06" ed="T"/>無患，是曰持戒報；一切眾人不能動搖，心
+<lb n="0025c07" ed="T"/>不起恨意和顏悅色，是曰忍辱報；所立其意
+<lb n="0025c08" ed="T"/>奉開士法，不以有勞徑前不退，是曰精進報；
+<lb n="0025c09" ed="T"/><anchor xml:id="nkr_note_orig_0025035" n="0025035"/><anchor xml:id="beg0025035" n="0025035"/>顯<anchor xml:id="end0025035"/>發慕樂無上正真，令眾生安敷演禪思，
+<lb n="0025c10" ed="T"/>是曰一心報；說其報應所生之處，常見諸佛
+<lb n="0025c11" ed="T"/>諮受大道，是曰智慧報；是為六。</p><p xml:id="pT14p0025c1113" rend="inline">「何謂來千
+<lb n="0025c12" ed="T"/>輪度無極有六事？若以致來眾物所有，若干
+<lb n="0025c13" ed="T"/>種輪持用布施致千輻相報，是曰布施報；若
+<lb n="0025c14" ed="T"/>以各各奇異殊特好妙顏色，身在其中無所
+<lb n="0025c15" ed="T"/>破壞，是曰持戒報；若生異品若干種香，心不
+<lb n="0025c16" ed="T"/>以著無增減意，是曰忍辱報；其勤修者堅持
+<lb n="0025c17" ed="T"/>其志，猶有術師執持太<anchor xml:id="nkr_note_orig_0025036" n="0025036"/><anchor xml:id="beg0025036" n="0025036"/>屏<anchor xml:id="end0025036"/>，若因<anchor xml:id="nkr_note_orig_0025037" n="0025037"/><anchor xml:id="beg0025037" n="0025037"/>浮<anchor xml:id="end0025037"/><anchor xml:id="nkr_note_orig_0025038" n="0025038"/><anchor xml:id="beg0025038" n="0025038"/>筏<anchor xml:id="end0025038"/>徑
+<lb n="0025c18" ed="T"/><anchor xml:id="nkr_note_orig_0025039" n="0025039"/><anchor xml:id="nkr_note_mod_0025039" n="0025039"/><anchor xml:id="beg0025039" n="0025039"/>浮渡<anchor xml:id="end0025039"/>江及安眷屬，是曰精進報；<anchor xml:id="nkr_note_orig_0025040" n="0025040"/><anchor xml:id="nkr_note_mod_0025040" n="0025040"/><anchor xml:id="beg0025040" n="0025040"/>若演光明
+<lb n="0025c19" ed="T"/>普耀遠近，通於十方由得自在，是曰一心報<anchor xml:id="end0025040"/>；
+<lb n="0025c20" ed="T"/>若振大光一切蒙荷，悉得聖明眾冥消索，是
+<lb n="0025c21" ed="T"/>曰智慧報；是為六。</p><p xml:id="pT14p0025c2108" rend="inline">「何謂肌軟細度無極有六
+<lb n="0025c22" ed="T"/>事？若書文字斯非<anchor xml:id="nkr_note_orig_0025041" n="0025041"/><anchor xml:id="beg0025041" n="0025041"/>恬怕<anchor xml:id="end0025041"/>，以用開化一切眾
+<lb n="0025c23" ed="T"/>生示以罪福，是曰布施報；其依言教奉仰真
+<lb n="0025c24" ed="T"/>正，不為虛偽而懷來義，是曰持戒報；其以
+<lb n="0025c25" ed="T"/>具足眾德之本，來妙神明心不起滅，是曰忍
+<lb n="0025c26" ed="T"/>辱報；若諦超越眾惡之瑕，致眾開士來相化
+<lb n="0025c27" ed="T"/>導，是曰精進報；若無恚恨獲致功勳，和顏
+<lb n="0025c28" ed="T"/>悅色踊<anchor xml:id="nkr_note_orig_0025042" n="0025042"/><anchor xml:id="beg0025042" n="0025042"/>躍<anchor xml:id="end0025042"/><anchor xml:id="nkr_note_orig_0025043" n="0025043"/><anchor xml:id="beg0025043" n="0025043"/>存<anchor xml:id="end0025043"/>法心無所著，是曰一心報；在
+<lb n="0025c29" ed="T"/>於生死所生安和化眾愚冥，是曰智慧報；是
+<pb n="0026a" ed="T" xml:id="T14.0425.0026a"/>
+<lb n="0026a01" ed="T"/>為六。</p><p xml:id="pT14p0026a0103" rend="inline">「何謂足下平度無極有六事？若<anchor xml:id="nkr_note_orig_0026001" n="0026001"/><anchor xml:id="beg0026001" n="0026001"/>足下<anchor xml:id="end0026001"/>
+<lb n="0026a02" ed="T"/>平所至無難，足下所蹈蟲<anchor xml:id="nkr_note_orig_0026002" n="0026002"/><anchor xml:id="nkr_note_mod_0026002" n="0026002"/><anchor xml:id="beg0026002" n="0026002"/>蛾<anchor xml:id="end0026002"/>永安，是曰布施
+<lb n="0026a03" ed="T"/>報；其舉足時心無瘡病，行不犯法其心仁和，
+<lb n="0026a04" ed="T"/>是曰持戒報；若舉足時<anchor xml:id="nkr_note_orig_0026003" n="0026003"/><anchor xml:id="beg0026003" n="0026003"/>庠<anchor xml:id="end0026003"/>序安隱，性不<anchor xml:id="nkr_note_orig_0026004" n="0026004"/><anchor xml:id="beg0026004" n="0026004"/>卒<anchor xml:id="end0026004"/>
+<lb n="0026a05" ed="T"/>慌亦不惶懅，是曰精進報；其舉足時福致<anchor xml:id="nkr_note_orig_0026005" n="0026005"/><anchor xml:id="nkr_note_mod_0026005" n="0026005"/><anchor xml:id="beg0026005" n="0026005"/>弘
+<lb n="0026a06" ed="T"/>曠<anchor xml:id="end0026005"/>，猶如虛空用救眾生，是曰一心報；其足
+<lb n="0026a07" ed="T"/>底滿功<anchor xml:id="nkr_note_orig_0026006" n="0026006"/><anchor xml:id="nkr_note_mod_0026006" n="0026006"/><anchor xml:id="beg0026006" n="0026006"/>福<anchor xml:id="end0026006"/>熾盛而無邊際，是曰智慧報；是
+<lb n="0026a08" ed="T"/>為六。</p><p xml:id="pT14p0026a0803" rend="inline">「何謂長指度無極報有六事？其指長好，
+<lb n="0026a09" ed="T"/>宿德所致無有<anchor xml:id="nkr_note_orig_0026007" n="0026007"/><anchor xml:id="nkr_note_mod_0026007" n="0026007"/><anchor xml:id="beg0026007" n="0026007"/>曲<anchor xml:id="end0026007"/>穢，是皆所施報應之功
+<lb n="0026a10" ed="T"/><anchor xml:id="nkr_note_orig_0026008" n="0026008"/><anchor xml:id="nkr_note_mod_0026008" n="0026008"/><anchor xml:id="beg0026008" n="0026008"/>德<anchor xml:id="end0026008"/>，是曰布施報；其指纖好，漸稍相應而不
+<lb n="0026a11" ed="T"/>邪亂，宿命行安，是<anchor xml:id="nkr_note_orig_0026009" n="0026009"/><anchor xml:id="beg0026009" n="0026009"/>曰<anchor xml:id="end0026009"/>持戒報；應是功德指
+<lb n="0026a12" ed="T"/>長順調晃妙柔軟，是<anchor xml:id="beg_c" type="star"/>曰<anchor xml:id="end_c"/>忍辱<anchor xml:id="nkr_note_orig_0026010" n="0026010"/><anchor xml:id="nkr_note_mod_0026010" n="0026010"/><anchor xml:id="beg0026010" n="0026010"/>報<anchor xml:id="end0026010"/>；德行相
+<lb n="0026a13" ed="T"/>應指長微妙，漸稍細滑無<anchor xml:id="nkr_note_orig_0026011" n="0026011"/><anchor xml:id="beg0026011" n="0026011"/>麁文<anchor xml:id="end0026011"/>理，是皆精
+<lb n="0026a14" ed="T"/>進<anchor xml:id="nkr_note_orig_0026012" n="0026012"/><anchor xml:id="nkr_note_mod_0026012" n="0026012"/><anchor xml:id="beg0026012" n="0026012"/>報<anchor xml:id="end0026012"/>；指長吉祥，見者<anchor xml:id="nkr_note_orig_0026013" n="0026013"/><anchor xml:id="beg0026013" n="0026013"/>悅<anchor xml:id="end0026013"/>然無不吉<anchor xml:id="nkr_note_orig_0026014" n="0026014"/><anchor xml:id="nkr_note_mod_0026014" n="0026014"/><anchor xml:id="beg0026014" n="0026014"/>利<anchor xml:id="end0026014"/>，此
+<lb n="0026a15" ed="T"/><anchor xml:id="nkr_note_orig_0026015" n="0026015"/><anchor xml:id="beg0026015" n="0026015"/>者<anchor xml:id="end0026015"/>皆是一心<anchor xml:id="nkr_note_orig_0026016" n="0026016"/><anchor xml:id="nkr_note_mod_0026016" n="0026016"/><anchor xml:id="beg0026016" n="0026016"/>之<anchor xml:id="end0026016"/>報；其指光澤，隨次和順正
+<lb n="0026a16" ed="T"/>齊不亂，<anchor xml:id="nkr_note_orig_0026017" n="0026017"/><anchor xml:id="nkr_note_mod_0026017" n="0026017"/><anchor xml:id="beg0026017" n="0026017"/>是<anchor xml:id="end0026017"/>智慧<anchor xml:id="nkr_note_orig_0026018" n="0026018"/><anchor xml:id="nkr_note_mod_0026018" n="0026018"/><anchor xml:id="beg0026018" n="0026018"/>報<anchor xml:id="end0026018"/>；是為六。</p><p xml:id="pT14p0026a1611" rend="inline">「何謂手足<anchor xml:id="nkr_note_orig_0026019" n="0026019"/><anchor xml:id="beg0026019" n="0026019"/>縵<anchor xml:id="end0026019"/>
+<lb n="0026a17" ed="T"/>中度無極有六事？手足滿平而<anchor xml:id="beg_d" type="star"/>縵<anchor xml:id="end_d"/>中者，前世
+<lb n="0026a18" ed="T"/>之時若有所施滿足與之，是布施報；其指平
+<lb n="0026a19" ed="T"/>正建立安隱，無有不正視之心悅，是持戒報；
+<lb n="0026a20" ed="T"/>手足無瑕清淨極<anchor xml:id="nkr_note_orig_0026020" n="0026020"/><anchor xml:id="beg0026020" n="0026020"/>姝<anchor xml:id="end0026020"/>本行仁和，是忍辱報；
+<lb n="0026a21" ed="T"/><anchor xml:id="nkr_note_orig_0026021" n="0026021"/><anchor xml:id="nkr_note_mod_0026021" n="0026021"/><anchor xml:id="beg0026021" n="0026021"/>佛者<anchor xml:id="end0026021"/>手足紫金色者不受塵土，往昔勤修不
+<lb n="0026a22" ed="T"/>以懈怠，是精進報；手足柔軟而無麁惡光澤
+<lb n="0026a23" ed="T"/>甚好，是一心報；其手足鮮赫赫明好，與眾
+<lb n="0026a24" ed="T"/>超異見莫不歡<anchor xml:id="nkr_note_orig_0026022" n="0026022"/><anchor xml:id="nkr_note_mod_0026022" n="0026022"/><anchor xml:id="beg0026022" n="0026022"/>喜<anchor xml:id="end0026022"/>，是智慧報；是為六。</p><p xml:id="pT14p0026a2415" rend="inline">「何謂
+<lb n="0026a25" ed="T"/>膝平度無極有六事？其膝興正，<anchor xml:id="nkr_note_orig_0026023" n="0026023"/><anchor xml:id="nkr_note_mod_0026023" n="0026023"/><anchor xml:id="beg0026023" n="0026023"/>因稍<anchor xml:id="end0026023"/>轉上
+<lb n="0026a26" ed="T"/>普具有異，德行殊絕見莫不敬，是布施報；
+<lb n="0026a27" ed="T"/>其膝安和不相切摩，是持戒報；手足<anchor xml:id="nkr_note_orig_0026024" n="0026024"/><anchor xml:id="beg0026024" n="0026024"/><g ref="#CB00166">𦟛</g><anchor xml:id="end0026024"/>好
+<lb n="0026a28" ed="T"/>而不進退咸宜有常，是忍辱報；<anchor xml:id="nkr_note_orig_0026025" n="0026025"/><anchor xml:id="nkr_note_mod_0026025" n="0026025"/><anchor xml:id="beg0026025" n="0026025"/>宜<anchor xml:id="end0026025"/>則仁慈
+<lb n="0026a29" ed="T"/>行步舉足安和庠序亦不卒暴，是精進報；
+<pb n="0026b" ed="T" xml:id="T14.0425.0026b"/>
+<lb n="0026b01" ed="T"/><anchor xml:id="nkr_note_orig_0026026" n="0026026"/><anchor xml:id="nkr_note_mod_0026026" n="0026026"/><anchor xml:id="beg0026026" n="0026026"/>蓋<anchor xml:id="end0026026"/>修平正亦無偏邪常行寂然，是<anchor xml:id="nkr_note_orig_0026027" n="0026027"/><anchor xml:id="nkr_note_mod_0026027" n="0026027"/><anchor xml:id="beg0026027" n="0026027"/>曰<anchor xml:id="end0026027"/>一心
+<lb n="0026b02" ed="T"/>報；覩者悉歡光像分明，是智慧報；是為六。</p>
+<lb n="0026b03" ed="T"/><p xml:id="pT14p0026b0301">「何謂寂藏度無極有六事？其寂藏安<anchor xml:id="nkr_note_orig_0026028" n="0026028"/><anchor xml:id="nkr_note_mod_0026028" n="0026028"/><anchor xml:id="beg0026028" n="0026028"/>和<anchor xml:id="end0026028"/>光
+<lb n="0026b04" ed="T"/>色赫燿而不現體，是布施報；其寂以清潤澤
+<lb n="0026b05" ed="T"/>一切皆使蒙荷，是持戒報；其毛右旋，各各
+<lb n="0026b06" ed="T"/>齊正而不邪行，是忍辱報；其德巍巍在所
+<lb n="0026b07" ed="T"/>至到化變度<anchor xml:id="nkr_note_orig_0026029" n="0026029"/><anchor xml:id="beg0026029" n="0026029"/>人<anchor xml:id="end0026029"/>，是精進報；其演光明無所
+<lb n="0026b08" ed="T"/>不照多所安隱，是一心報；使他人見瑞應懷
+<lb n="0026b09" ed="T"/>來無上聖明，是智慧報；是為六。</p><p xml:id="pT14p0026b0913" rend="inline">「何謂臍深
+<lb n="0026b10" ed="T"/>度無極有六事？其行日進稍至玄深乃<anchor xml:id="nkr_note_orig_0026030" n="0026030"/><anchor xml:id="nkr_note_mod_0026030" n="0026030"/><anchor xml:id="beg0026030" n="0026030"/>志<anchor xml:id="end0026030"/>大
+<lb n="0026b11" ed="T"/>道，是布施報；其威神德淡然無畏心不懷難，
+<lb n="0026b12" ed="T"/>是持戒報；其奉柔潤深至平和，是忍辱報；
+<lb n="0026b13" ed="T"/>其行具足不以恐怖，是精進報；亦如好華柔
+<lb n="0026b14" ed="T"/>軟和安，精專不迷，是一心報；其臍無毀，長
+<lb n="0026b15" ed="T"/>益一切行不損減，是智慧報；是為六。</p><p xml:id="pT14p0026b1515" rend="inline">「何謂
+<lb n="0026b16" ed="T"/>毛一一生度無極有六事？其毛上向，右旋清
+<lb n="0026b17" ed="T"/>正順理獨立，是布施報；其髮紺色，光光明好
+<lb n="0026b18" ed="T"/>見無不<anchor xml:id="nkr_note_orig_0026031" n="0026031"/><anchor xml:id="nkr_note_mod_0026031" n="0026031"/><anchor xml:id="beg0026031" n="0026031"/>喜<anchor xml:id="end0026031"/>，是持戒報；毛柔軟細滑澤晃然，
+<lb n="0026b19" ed="T"/>是忍辱報；其色潤澤不受垢塵，是精進報；
+<lb n="0026b20" ed="T"/>毛色柔好各各右旋，是一心報；各各待立而
+<lb n="0026b21" ed="T"/>不<anchor xml:id="nkr_note_orig_0026032" n="0026032"/><anchor xml:id="beg0026032" n="0026032"/>卒<anchor xml:id="end0026032"/>暴，不相切摩各各齊正，是智慧報；是
+<lb n="0026b22" ed="T"/>為六。</p><p xml:id="pT14p0026b2203" rend="inline">「何謂紫金色度無極有六事？其<anchor xml:id="nkr_note_orig_0026033" n="0026033"/><anchor xml:id="nkr_note_mod_0026033" n="0026033"/><anchor xml:id="beg0026033" n="0026033"/>色<anchor xml:id="end0026033"/>如
+<lb n="0026b23" ed="T"/>火中金，是布施報；其柔潤色不為<anchor xml:id="fxT14p0026b01"/>麁獷，是
+<lb n="0026b24" ed="T"/>持戒報；清淨無瑕色<anchor xml:id="nkr_note_orig_0026034" n="0026034"/><anchor xml:id="beg0026034" n="0026034"/>踰<anchor xml:id="end0026034"/>日月，是忍辱報；其
+<lb n="0026b25" ed="T"/>光晃<anchor xml:id="nkr_note_orig_0026035" n="0026035"/><anchor xml:id="nkr_note_mod_0026035" n="0026035"/><anchor xml:id="beg0026035" n="0026035"/>昱<anchor xml:id="end0026035"/>照於遠近，是精進報；其無垢塵以
+<lb n="0026b26" ed="T"/>為清明，是一心報；其光柔妙色和燿好，是
+<lb n="0026b27" ed="T"/>智慧報；是為六。</p><p xml:id="pT14p0026b2707" rend="inline">「何謂師子胸<anchor xml:id="nkr_note_orig_0026036" n="0026036"/><anchor xml:id="beg0026036" n="0026036"/>臆<anchor xml:id="end0026036"/>度無極有
+<lb n="0026b28" ed="T"/>六事？其身漸滿而不缺減，是布施報；身盛
+<pb n="0026c" ed="T" xml:id="T14.0425.0026c"/>
+<lb n="0026c01" ed="T"/>妙好有巍巍德，是持戒報；身以堅強無能犯
+<lb n="0026c02" ed="T"/>者，是<anchor xml:id="nkr_note_orig_0026037" n="0026037"/><anchor xml:id="nkr_note_mod_0026037" n="0026037"/><anchor xml:id="beg0026037" n="0026037"/>曰<anchor xml:id="end0026037"/>忍辱報；眾所觀仰視無厭足，是精
+<lb n="0026c03" ed="T"/>進報；其身弘廣猶如難逮，是<anchor xml:id="beg_e" type="star"/>曰<anchor xml:id="end_e"/>一心報；身
+<lb n="0026c04" ed="T"/>無能壞堅如金剛，是<anchor xml:id="beg_f" type="star"/>曰<anchor xml:id="end_f"/>智慧報；是為六。</p><p xml:id="pT14p0026c0416" rend="inline">「何
+<lb n="0026c05" ed="T"/>謂常善次度無極有六事？其身所行具足充
+<lb n="0026c06" ed="T"/>滿，是<anchor xml:id="beg_10" type="star"/>曰<anchor xml:id="end_10"/>布施報；尊不可逮吉祥以滿，是<anchor xml:id="beg_11" type="star"/>曰<anchor xml:id="end_11"/>
+<lb n="0026c07" ed="T"/>持戒報；端<anchor xml:id="nkr_note_orig_0026038" n="0026038"/><anchor xml:id="nkr_note_mod_0026038" n="0026038"/><anchor xml:id="beg0026038" n="0026038"/>政<anchor xml:id="end0026038"/>絕好有見樂喜，是忍辱報；其
+<lb n="0026c08" ed="T"/>行德業平等滿者，是<anchor xml:id="beg_12" type="star"/>曰<anchor xml:id="end_12"/>精進報；計其相好
+<lb n="0026c09" ed="T"/>色若雜珍師工<anchor xml:id="nkr_note_orig_0026039" n="0026039"/><anchor xml:id="nkr_note_mod_0026039" n="0026039"/><anchor xml:id="beg0026039" n="0026039"/>作<anchor xml:id="end0026039"/>好畫，是<anchor xml:id="beg_13" type="star"/>曰<anchor xml:id="end_13"/>一心報；柔潤
+<lb n="0026c10" ed="T"/>光<anchor xml:id="nkr_note_orig_0026040" n="0026040"/><anchor xml:id="nkr_note_mod_0026040" n="0026040"/><anchor xml:id="beg0026040" n="0026040"/>明<anchor xml:id="end0026040"/>清淨無瑕，是<anchor xml:id="beg_14" type="star"/>曰<anchor xml:id="end_14"/>智慧報；是為六。</p><p xml:id="pT14p0026c1015" rend="inline">「何
+<lb n="0026c11" ed="T"/>謂長臂報度無極有六事？其身香<anchor xml:id="nkr_note_orig_0026041" n="0026041"/><anchor xml:id="beg0026041" n="0026041"/>勳<anchor xml:id="end0026041"/>而無斷
+<lb n="0026c12" ed="T"/>絕普聞一切，是曰布施報；<anchor xml:id="nkr_note_orig_0026042" n="0026042"/><anchor xml:id="beg0026042" n="0026042"/>真<anchor xml:id="end0026042"/>住正安而不
+<lb n="0026c13" ed="T"/>可動，是持戒報；和順庠序堅固不起其心和
+<lb n="0026c14" ed="T"/>調，是忍辱<anchor xml:id="nkr_note_orig_0026043" n="0026043"/><anchor xml:id="beg0026043" n="0026043"/>報<anchor xml:id="end0026043"/>；若以自致其臂長姝與眾超
+<lb n="0026c15" ed="T"/>異，是精進報；行步庠序臂長出膝天人所奉，
+<lb n="0026c16" ed="T"/>是一心報；現身柔潤光明赫赫照於一切，是
+<lb n="0026c17" ed="T"/>智慧報；是為六。</p><p xml:id="pT14p0026c1707" rend="inline">「何謂<anchor xml:id="beg_15" type="star"/><g ref="#CB00166">𦟛</g><anchor xml:id="end_15"/>髀度無極有六事？
+<lb n="0026c18" ed="T"/>若以身髀<g ref="#CB00166">𦟛</g>順雅好心慈志和，是布施報；獨
+<lb n="0026c19" ed="T"/>立坦然無能牽掣常得自在，是持戒報；善能
+<lb n="0026c20" ed="T"/>分別處所至安而無禍難，是忍辱報；<anchor xml:id="nkr_note_orig_0026044" n="0026044"/><anchor xml:id="beg0026044" n="0026044"/>以身<anchor xml:id="end0026044"/>齊
+<lb n="0026c21" ed="T"/>正肢體漸<anchor xml:id="beg_16" type="star"/><g ref="#CB00166">𦟛</g><anchor xml:id="end_16"/>，是精進報；威光巍巍無見頂
+<lb n="0026c22" ed="T"/>相，是一心報；一切眾生目所觀仰莫不愛敬，
+<lb n="0026c23" ed="T"/>是智慧報；是為六。</p><p xml:id="pT14p0026c2308" rend="inline">「何謂腦合充滿度無極有
+<lb n="0026c24" ed="T"/>六事？以漸覺滿功德成就，是布施報；心諦堅
+<lb n="0026c25" ed="T"/>住常懷和安，是持戒報；淨如明珠而<anchor xml:id="nkr_note_orig_0026045" n="0026045"/><anchor xml:id="nkr_note_mod_0026045" n="0026045"/><anchor xml:id="beg0026045" n="0026045"/>自焰<anchor xml:id="end0026045"/>
+<lb n="0026c26" ed="T"/>者，是忍辱報；若以平等而興治行無有懈廢，
+<lb n="0026c27" ed="T"/>是精進報；身口柔和其心安隱，是一心報；
+<lb n="0026c28" ed="T"/>和潤無<anchor xml:id="nkr_note_orig_0026046" n="0026046"/><anchor xml:id="nkr_note_mod_0026046" n="0026046"/><anchor xml:id="beg0026046" n="0026046"/>數<anchor xml:id="end0026046"/>毀莫能壞者，是智慧報；是為
+<pb n="0027a" ed="T" xml:id="T14.0425.0027a"/>
+<lb n="0027a01" ed="T"/>六。<anchor xml:id="nkr_note_orig_0027001" n="0027001"/><anchor xml:id="nkr_note_mod_0027001" n="0027001"/><anchor type="circle"/></p><p xml:id="pT14p0027a0102" rend="inline">「<anchor xml:id="nkr_note_orig_0027002" n="0027002"/><anchor xml:id="nkr_note_mod_0027002" n="0027002"/>何謂鉤鎖度無極有六事？見眾求者常
+<lb n="0027a02" ed="T"/>和悅豫，是布施報；漸以覺悅消眾不達，是持
+<lb n="0027a03" ed="T"/>戒報；其德各各若干普同，善相依因道法成
+<lb n="0027a04" ed="T"/>行，是忍辱報；若有所說咸共默然，悉和等受
+<lb n="0027a05" ed="T"/>適<anchor xml:id="nkr_note_orig_0027003" n="0027003"/><anchor xml:id="beg0027003" n="0027003"/>見<anchor xml:id="end0027003"/>奉行，是精進報；其光紺青煌煌照遠，
+<lb n="0027a06" ed="T"/>是一心報；若令世間一切眾生所縛眾厄自
+<lb n="0027a07" ed="T"/>得解脫，見無厭足，是智慧報；<anchor xml:id="nkr_note_orig_0027004" n="0027004"/><anchor xml:id="beg0027004" n="0027004"/>是<anchor xml:id="end0027004"/>為六。</p><p xml:id="pT14p0027a0715" rend="inline">「何謂
+<lb n="0027a08" ed="T"/>牙齒白淨度無極有六事？齒極白淨編合不
+<lb n="0027a09" ed="T"/><anchor xml:id="nkr_note_orig_0027005" n="0027005"/><anchor xml:id="nkr_note_mod_0027005" n="0027005"/><anchor xml:id="beg0027005" n="0027005"/>疏<anchor xml:id="end0027005"/>，是布施報；柔潤白好而無<anchor xml:id="nkr_note_orig_0027006" n="0027006"/><anchor xml:id="beg0027006" n="0027006"/>點<anchor xml:id="end0027006"/>污，是持
+<lb n="0027a10" ed="T"/>戒報；以順次第猶白蓮華平等安隱，是忍辱
+<lb n="0027a11" ed="T"/>報；齒堅白<anchor xml:id="nkr_note_orig_0027007" n="0027007"/><anchor xml:id="beg0027007" n="0027007"/>要<anchor xml:id="end0027007"/>而無雜黑，是精進報；所施建
+<lb n="0027a12" ed="T"/>立弘安無危，是一心報；身以潤澤柔軟光光，
+<lb n="0027a13" ed="T"/>覩其明曜未曾厭足，是智慧報；是為六。</p><p xml:id="pT14p0027a1316" rend="inline">「何
+<lb n="0027a14" ed="T"/>謂牙<anchor xml:id="nkr_note_orig_0027008" n="0027008"/><anchor xml:id="beg0027008" n="0027008"/>齒<anchor xml:id="end0027008"/>齊平度無極有六事？下齒齊平不以
+<lb n="0027a15" ed="T"/>邪傾，是布施報；上下柔澤悉以無麁，是持
+<lb n="0027a16" ed="T"/>戒報；次第合緻間無所受，是忍辱報；其齒
+<lb n="0027a17" ed="T"/><anchor xml:id="beg_17" type="star"/><g ref="#CB00166">𦟛</g><anchor xml:id="end_17"/>平亦無高下，是精進報；齒不毀損堅<anchor xml:id="nkr_note_orig_0027009" n="0027009"/><anchor xml:id="nkr_note_mod_0027009" n="0027009"/><anchor xml:id="beg0027009" n="0027009"/>固
+<lb n="0027a18" ed="T"/>強<anchor xml:id="end0027009"/>好，是一心報；下齒正上上齒正下，安隱
+<lb n="0027a19" ed="T"/>牢固見莫不歡，是智慧報；是為六。</p><p xml:id="pT14p0027a1914" rend="inline">「何謂四
+<lb n="0027a20" ed="T"/>十齒度無極報有六事？其四十齒具足而悉
+<lb n="0027a21" ed="T"/>平正不減，是布施報；齒不邪傾正齊如水，是
+<lb n="0027a22" ed="T"/>持戒報；齒妙殊特與眾不同，是忍辱報；<anchor xml:id="nkr_note_orig_0027010" n="0027010"/><anchor xml:id="nkr_note_mod_0027010" n="0027010"/><anchor xml:id="beg0027010" n="0027010"/>其
+<lb n="0027a23" ed="T"/>齒<anchor xml:id="end0027010"/>通利間無所礙等定不疎，是精進報；齒生
+<lb n="0027a24" ed="T"/>吉祥見無不利，是一心報；齒甚堅固不可動
+<lb n="0027a25" ed="T"/>搖可悅人意，是智慧報；是為六。</p><p xml:id="pT14p0027a2513" rend="inline">「何謂廣長
+<lb n="0027a26" ed="T"/>舌報度無極有六事？為菩薩時耳聽經典擇
+<lb n="0027a27" ed="T"/>說至言，是布施報；去舌上垢乃傳佛語淨口
+<lb n="0027a28" ed="T"/>宣義，是持戒報；口說平均不為偏黨，是忍辱
+<lb n="0027a29" ed="T"/>報；舌極廣長色如蓮華光明赫赫，是精進報；
+<pb n="0027b" ed="T" xml:id="T14.0425.0027b"/>
+<lb n="0027b01" ed="T"/>其相生妙各各別異，是一心報；舌如百葉光
+<lb n="0027b02" ed="T"/>色奇好晃昱遠燿，是智慧報；是為六。</p><p xml:id="pT14p0027b0215" rend="inline">「何謂梵
+<lb n="0027b03" ed="T"/>聲報度無極有六事？行菩薩道頒宣經典，高
+<lb n="0027b04" ed="T"/>舉唱音令眾人聞了了無疑，是布施報；音<anchor xml:id="nkr_note_orig_0027011" n="0027011"/><anchor xml:id="nkr_note_mod_0027011" n="0027011"/><anchor xml:id="beg0027011" n="0027011"/>嚮<anchor xml:id="end0027011"/>
+<lb n="0027b05" ed="T"/>可愛聞莫不喜，是持戒報；若干品音所宣各
+<lb n="0027b06" ed="T"/><anchor xml:id="nkr_note_orig_0027012" n="0027012"/><anchor xml:id="nkr_note_mod_0027012" n="0027012"/><anchor xml:id="beg0027012" n="0027012"/>各<anchor xml:id="end0027012"/>，是忍辱報；未曾有音和不可逮，是精進
+<lb n="0027b07" ed="T"/>報；音常和調言辭安隱而不斷絕，是一心報；
+<lb n="0027b08" ed="T"/>一切音好哀合和雅動眾人心，是智慧報；是
+<lb n="0027b09" ed="T"/>為六。」</p><p xml:id="pT14p0027b0903" rend="inline">佛言：「復次，喜<anchor xml:id="nkr_note_orig_0027013" n="0027013"/><anchor xml:id="beg0027013" n="0027013"/>王<anchor xml:id="end0027013"/>！將順身心常使和安，
+<lb n="0027b10" ed="T"/>是布施報；其以身行身口心定寂然安和，是
+<lb n="0027b11" ed="T"/>持戒報；若以十善興發所生，志<anchor xml:id="nkr_note_orig_0027014" n="0027014"/><anchor xml:id="nkr_note_mod_0027014" n="0027014"/><anchor xml:id="beg0027014" n="0027014"/>在<anchor xml:id="end0027014"/>天人使
+<lb n="0027b12" ed="T"/>為道業，是忍辱報；<anchor xml:id="nkr_note_orig_0027015" n="0027015"/><anchor xml:id="beg0027015" n="0027015"/>教<anchor xml:id="end0027015"/>告一切開化眾會無
+<lb n="0027b13" ed="T"/>所犯負，是精進報；悲和之音柔潤<anchor xml:id="beg_18" type="star"/>嚮<anchor xml:id="end_18"/>哀告
+<lb n="0027b14" ed="T"/>於眾生，是一心報；音宣法化決眾狐疑莫不
+<lb n="0027b15" ed="T"/>解悅，是智慧報；是為六。</p><p xml:id="pT14p0027b1510" rend="inline">「何謂味<anchor xml:id="nkr_note_orig_0027016" n="0027016"/><anchor xml:id="beg0027016" n="0027016"/>中上<anchor xml:id="end0027016"/>味度
+<lb n="0027b16" ed="T"/>無極有六事？若以食膳一切所供，其味殊特
+<lb n="0027b17" ed="T"/>可眾人意，是<anchor xml:id="nkr_note_orig_0027017" n="0027017"/><anchor xml:id="nkr_note_mod_0027017" n="0027017"/><anchor xml:id="beg0027017" n="0027017"/>曰<anchor xml:id="end0027017"/>布施報；其所惠與，食者
+<lb n="0027b18" ed="T"/>得安快而無患，是<anchor xml:id="beg_19" type="star"/>曰<anchor xml:id="end_19"/>持戒報；受者和同，與
+<lb n="0027b19" ed="T"/>檀越心無諍訟意，是<anchor xml:id="beg_1a" type="star"/>曰<anchor xml:id="end_1a"/>忍辱報；所施供具
+<lb n="0027b20" ed="T"/>多少使平令身無疾，是<anchor xml:id="beg_1b" type="star"/>曰<anchor xml:id="end_1b"/>精進報；食膳極
+<lb n="0027b21" ed="T"/>妙於口甘美而無穢臭，是<anchor xml:id="beg_1c" type="star"/>曰<anchor xml:id="end_1c"/>一心報；不熱
+<lb n="0027b22" ed="T"/>不冷其味和適而好輕柔，是<anchor xml:id="beg_1d" type="star"/>曰<anchor xml:id="end_1d"/>智慧報；是
+<lb n="0027b23" ed="T"/>為六。</p><p xml:id="pT14p0027b2303" rend="inline">「何謂師子頰車度無極有六事？其背廣
+<lb n="0027b24" ed="T"/><anchor xml:id="nkr_note_orig_0027018" n="0027018"/><anchor xml:id="nkr_note_mod_0027018" n="0027018"/><anchor xml:id="beg0027018" n="0027018"/>平<anchor xml:id="end0027018"/>師子形獨步三界，是布施報；猶如蓮華
+<lb n="0027b25" ed="T"/>光澤<anchor xml:id="nkr_note_orig_0027019" n="0027019"/><anchor xml:id="nkr_note_mod_0027019" n="0027019"/><anchor xml:id="beg0027019" n="0027019"/>色妙<anchor xml:id="end0027019"/>，行如師子，是持戒報；若如師子
+<lb n="0027b26" ed="T"/>轉進而前無所畏難，是忍辱報；所以顯現大
+<lb n="0027b27" ed="T"/>神巍巍尊妙殊特，是精進報；其餘所宣歡悅
+<lb n="0027b28" ed="T"/>一切眾生所敬，是一心報；其目見者莫不自
+<lb n="0027b29" ed="T"/>歸，面色喜悅覩德奉敬而無厭足，是智慧報；
+<pb n="0027c" ed="T" xml:id="T14.0425.0027c"/>
+<lb n="0027c01" ed="T"/>是為六。</p><p xml:id="pT14p0027c0104" rend="inline">「何謂眼如牛如<anchor xml:id="nkr_note_orig_0027020" n="0027020"/><anchor xml:id="beg0027020" n="0027020"/>月<anchor xml:id="end0027020"/>懷來以度無極有
+<lb n="0027c02" ed="T"/>六事報？其眼細妙引長而好如月初生，是
+<lb n="0027c03" ed="T"/>布施報；其<anchor xml:id="nkr_note_orig_0027021" n="0027021"/><anchor xml:id="beg0027021" n="0027021"/>目<anchor xml:id="end0027021"/>分明善諦巍巍無一短乏，是
+<lb n="0027c04" ed="T"/>持戒報；其目晃明柔軟鮮好殊絕難比，是忍
+<lb n="0027c05" ed="T"/>辱報；面無怯弱光<anchor xml:id="nkr_note_orig_0027022" n="0027022"/><anchor xml:id="nkr_note_mod_0027022" n="0027022"/><anchor xml:id="beg0027022" n="0027022"/>明澤<anchor xml:id="end0027022"/>潤，是精進報；顏貌
+<lb n="0027c06" ed="T"/>妙好身形平正如日初出，是一心報；光如日
+<lb n="0027c07" ed="T"/>月照于八方上下闇冥無能逮明，是智慧報；
+<lb n="0027c08" ed="T"/>是為六。</p><p xml:id="pT14p0027c0804" rend="inline">「何謂目紺青色度無極有六事？若有
+<lb n="0027c09" ed="T"/>見佛心中悅喜，以一心歸而敬眼視，是布施
+<lb n="0027c10" ed="T"/>報；眼之所覩而目寂定無一不正，是持戒報；
+<lb n="0027c11" ed="T"/>目微妙好無能訶者遠近皆伏，是忍辱報；眼
+<lb n="0027c12" ed="T"/>之所視亦無傷害多所加益，是精進報；遠見
+<lb n="0027c13" ed="T"/>玄逈解一切結，是一心報；所見無厭不可得
+<lb n="0027c14" ed="T"/>底所覩平等，是智慧報；是為六。</p><p xml:id="pT14p0027c1413" rend="inline">「何謂鼻如
+<lb n="0027c15" ed="T"/><anchor xml:id="nkr_note_orig_0027023" n="0027023"/><anchor xml:id="beg0027023" n="0027023"/>鸚鵡<anchor xml:id="end0027023"/>度無極有六事？鼻如<anchor xml:id="beg_1e" type="star"/>鸚鵡<anchor xml:id="end_1e"/>隆平正妙，
+<lb n="0027c16" ed="T"/>是布施報；常以寂定無有邪非，是持戒報；鼻
+<lb n="0027c17" ed="T"/>好潤澤燿如明珠，是忍辱報；柔軟<anchor xml:id="nkr_note_orig_0027024" n="0027024"/><anchor xml:id="beg0027024" n="0027024"/>諦忍<anchor xml:id="end0027024"/>仁
+<lb n="0027c18" ed="T"/>和<anchor xml:id="nkr_note_orig_0027025" n="0027025"/><anchor xml:id="beg0027025" n="0027025"/>威儀<anchor xml:id="end0027025"/>莫不奉仰，是精進報；眾人所見敬
+<lb n="0027c19" ed="T"/>愛無已而無厭足，是一心報；意捨所念受不
+<lb n="0027c20" ed="T"/>可猗，不存諸香以道為香，是智慧報；是為
+<lb n="0027c21" ed="T"/>六。</p><p xml:id="pT14p0027c2102" rend="inline">「何謂頂<anchor xml:id="nkr_note_orig_0027026" n="0027026"/><anchor xml:id="beg0027026" n="0027026"/>髻<anchor xml:id="end0027026"/>相度無極有六事？其髻團圓
+<lb n="0027c22" ed="T"/>自然興起光明昱昱，是布施報；<anchor xml:id="beg_1f" type="star"/>髻<anchor xml:id="end_1f"/>髮紺色
+<lb n="0027c23" ed="T"/>煒煒難量而<anchor xml:id="nkr_note_orig_0027027" n="0027027"/><anchor xml:id="nkr_note_mod_0027027" n="0027027"/><anchor xml:id="beg0027027" n="0027027"/>各<anchor xml:id="end0027027"/>右旋，是持戒報；<anchor xml:id="beg_20" type="star"/>髻<anchor xml:id="end_20"/>曜赫赫
+<lb n="0027c24" ed="T"/>光明所照不可得際，是忍辱報；肉<anchor xml:id="beg_21" type="star"/>髻<anchor xml:id="end_21"/>充滿
+<lb n="0027c25" ed="T"/>無有邪非<anchor xml:id="nkr_note_orig_0027028" n="0027028"/><anchor xml:id="nkr_note_mod_0027028" n="0027028"/><anchor xml:id="beg0027028" n="0027028"/>竚<anchor xml:id="end0027028"/>立而安，是精進報；滑澤迴旋
+<lb n="0027c26" ed="T"/>安諦相斷不相雜錯，是一心報；振曜光光所
+<lb n="0027c27" ed="T"/>照無限，是智慧報；是為六。</p><p xml:id="pT14p0027c2711" rend="inline">「何謂如來肉髻
+<lb n="0027c28" ed="T"/>度無極有六事？髮生青色如<anchor xml:id="nkr_note_orig_0027029" n="0027029"/><anchor xml:id="beg0027029" n="0027029"/>無<anchor xml:id="end0027029"/>上紺，滑澤
+<lb n="0027c29" ed="T"/>燿燿踰琉璃光，是布施報；髮毛右旋各順本
+<pb n="0028a" ed="T" xml:id="T14.0425.0028a"/>
+<lb n="0028a01" ed="T"/>根而不相猗，是持戒報；其身清淨塵垢不著，
+<lb n="0028a02" ed="T"/>猶如蓮華不著塵水，是忍辱報；<anchor xml:id="nkr_note_orig_0028001" n="0028001"/><anchor xml:id="nkr_note_mod_0028001" n="0028001"/><anchor xml:id="beg0028001" n="0028001"/>第<anchor xml:id="end0028001"/>三<anchor xml:id="nkr_note_orig_0028002" n="0028002"/><anchor xml:id="beg0028002" n="0028002"/>十<anchor xml:id="end0028002"/>二
+<lb n="0028a03" ed="T"/>上下諸天無能覩頂，是精進報；三界眾生莫
+<lb n="0028a04" ed="T"/>不樂見威德遠顯，是一心報；言若天雨不能
+<lb n="0028a05" ed="T"/>污之，淨如虛空音猶雷震，是智慧報；是為六。</p>
+<lb n="0028a06" ed="T"/><p xml:id="pT14p0028a0601">「何謂出遊步度無極有六事？其獨步出而無
+<lb n="0028a07" ed="T"/>罣礙，是布施報；若棄捐非能一心者，志行
+<lb n="0028a08" ed="T"/>弘安乃名佛子，是持戒報；無央數天往見奉
+<lb n="0028a09" ed="T"/>敬伏地自歸，是忍辱報；能自護已目無所著，
+<lb n="0028a10" ed="T"/>是精進報；勇高遊騰神足無極，是一心報；
+<lb n="0028a11" ed="T"/>一切所有能惠不悋宣暢道訓，是智慧報；是
+<lb n="0028a12" ed="T"/>為六<anchor xml:id="nkr_note_orig_0028003" n="0028003"/><anchor xml:id="nkr_note_mod_0028003" n="0028003"/><anchor xml:id="beg0028003" n="0028003"/><note place="inline">丹本有注云：三十二相中，舊闕二種文</note><anchor xml:id="end0028003"/>。」</p><anchor xml:id="nkr_note_orig_0028004" n="0028004"/><anchor xml:id="nkr_note_mod_0028004" n="0028004"/><anchor type="circle"/>
+<lb n="0028a13" ed="T"/><cb:juan n="003" fun="close"><cb:jhead><title>賢劫經</title>卷第三</cb:jhead></cb:juan></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0019009" to="#end0019009"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">四</rdg></app>
+<app from="#beg0019010" to="#end0019010"><lem wit="#wit1">捐棄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">棄捐</rdg></app>
+<app from="#beg0019011" to="#end0019011"><lem wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">解脫</rdg></app>
+<app from="#beg0019012" to="#end0019012"><lem wit="#wit1">猗</lem><rdg resp="#resp1" wit="#wit6">倚</rdg></app>
+<app from="#beg0019013" to="#end0019013"><lem wit="#wit1">縱</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">徒</rdg></app>
+<app from="#beg0019014" to="#end0019014"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit6">仁</rdg></app>
+<app from="#beg0019015" to="#end0019015"><lem wit="#wit1">建</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">逮</rdg></app>
+<app from="#beg0019016" to="#end0019016"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">曰</rdg></app>
+<app from="#beg0019017" to="#end0019017"><lem wit="#wit1">熟</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">淑</rdg></app>
+<app from="#beg0019018" to="#end0019018"><lem wit="#wit1">用</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">周</rdg></app>
+<app from="#beg0019019" to="#end0019019"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">仁</rdg></app>
+<app from="#beg0019020" to="#end0019020"><lem wit="#wit1">仁任</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">人仁</rdg></app>
+<app from="#beg0019021" to="#end0019021"><lem wit="#wit1">忍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">同</rdg></app>
+<app from="#beg0019022" to="#end0019022"><lem wit="#wit1">燈</lem><rdg resp="#resp1" wit="#wit6">鐙</rdg></app>
+<app from="#beg0019023" to="#end0019023"><lem wit="#wit1">矣</lem><rdg resp="#resp1" wit="#wit6">失</rdg></app>
+<app from="#beg0019024" to="#end0019024"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">之</rdg></app>
+<app from="#beg0019025" to="#end0019025"><lem wit="#wit1">技</lem><rdg resp="#resp1" wit="#wit3 #wit6">校</rdg><rdg resp="#resp1" wit="#wit4 #wit5">授</rdg></app>
+<app from="#beg0019026" to="#end0019026"><lem wit="#wit1">技</lem><rdg resp="#resp1" wit="#wit3 #wit6">伎</rdg></app>
+<app from="#beg0020001" to="#end0020001"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit5 #wit6">執</rdg></app>
+<app from="#beg0020002" to="#end0020002"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">使令行</rdg></app>
+<app from="#beg0020003" to="#end0020003"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">心若</rdg></app>
+<app from="#beg0020004" to="#end0020004"><lem wit="#wit1">進</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0020005" to="#end0020005"><lem wit="#wit1">極</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">數</rdg></app>
+<app from="#beg0020006" to="#end0020006"><lem wit="#wit1">淨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">滌</rdg></app>
+<app from="#beg0020007" to="#end0020007"><lem wit="#wit1">露</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">路</rdg></app>
+<app from="#beg0020008" to="#end0020008"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">執</rdg></app>
+<app from="#beg0020009" to="#end0020009"><lem wit="#wit1">奉</lem><rdg resp="#resp1" wit="#wit6">舉</rdg></app>
+<app from="#beg0020010" to="#end0020010"><lem wit="#wit1">親</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">觀</rdg></app>
+<app from="#beg0020011" to="#end0020011"><lem wit="#wit7">羨</lem><rdg wit="#wit1">羡</rdg><rdg resp="#resp1" wit="#wit3">美</rdg><rdg resp="#resp1" wit="#wit4 #wit5">著</rdg></app>
+<app from="#beg0020012" to="#end0020012"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">覩</rdg></app>
+<app from="#beg0020013" to="#end0020013"><lem wit="#wit1">頒宣</lem><rdg resp="#resp1" wit="#wit6">班宣</rdg></app>
+<app from="#beg0020014" to="#end0020014"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0020015" to="#end0020015"><lem wit="#wit1">曾</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">未曾</rdg></app>
+<app from="#beg0020016" to="#end0020016"><lem wit="#wit1">勸無</lem><rdg resp="#resp1" wit="#wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0020017" to="#end0020017"><lem wit="#wit1">濟有所救</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">有所救濟</rdg></app>
+<app from="#beg0020018" to="#end0020018"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0020019" to="#end0020019"><lem wit="#wit1">所有</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">有所</rdg></app>
+<app from="#beg0020020" to="#end0020020"><lem wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">慧</rdg></app>
+<app from="#beg0021001" to="#end0021001"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">得</rdg></app>
+<app from="#beg0021002" to="#end0021002"><lem wit="#wit1">政</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">正</rdg></app>
+<app from="#beg0021003" to="#end0021003"><lem wit="#wit1">嫉妬</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">妬嫉</rdg></app>
+<app from="#beg0021004" to="#end0021004"><lem wit="#wit1">欝</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">柯</rdg></app>
+<app from="#beg0021005" to="#end0021005"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit6">所</rdg></app>
+<app from="#beg0021006" to="#end0021006"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit6">沒</rdg></app>
+<app from="#beg0021007" to="#end0021007"><lem wit="#wit1">纔</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">裁</rdg></app>
+<app from="#beg0021008" to="#end0021008"><lem wit="#wit1">炎</lem><rdg resp="#resp1" wit="#wit4 #wit5">焰</rdg></app>
+<app from="#beg0021009" to="#end0021009"><lem wit="#wit1">枝</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">枚</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0021009"><lem wit="#wit1">枝</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">枚</rdg></app>
+<app from="#beg0021010" to="#end0021010"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">示</rdg></app>
+<app from="#beg0021011" to="#end0021011"><lem wit="#wit1">濟</lem><rdg resp="#resp1" wit="#wit3 #wit6">捨</rdg></app>
+<app from="#beg0021012" to="#end0021012"><lem wit="#wit1">大難</lem><rdg resp="#resp1" wit="#wit6">大難已</rdg></app>
+<app from="#beg0021013" to="#end0021013"><lem wit="#wit1">遭</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">遇</rdg></app>
+<app from="#beg0021014" to="#end0021014"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit6">間</rdg></app>
+<app from="#beg0021015" to="#end0021015"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">人</rdg></app>
+<app from="#beg0021016" to="#end0021016"><lem wit="#wit1">令得</lem><rdg resp="#resp1" wit="#wit6">得令</rdg></app>
+<app from="#beg0021017" to="#end0021017"><lem wit="#wit1">原首</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">無著</rdg></app>
+<app from="#beg0021018" to="#end0021018"><lem wit="#wit1">昔者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">往昔</rdg></app>
+<app from="#beg0021019" to="#end0021019"><lem wit="#wit1">殖</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">植</rdg></app>
+<app from="#beg0021020" to="#end0021020"><lem wit="#wit1">倚</lem><rdg resp="#resp1" wit="#wit6">荷</rdg></app>
+<app from="#beg0021021" to="#end0021021"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit4 #wit5">善</rdg></app>
+<app from="#beg0021022" to="#end0021022"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">覩</rdg></app>
+<app from="#beg0021023" to="#end0021023"><lem wit="#wit1">如來日</lem><rdg resp="#resp1" wit="#wit6">來白</rdg></app>
+<app from="#beg0021024" to="#end0021024"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">法乃</rdg><rdg resp="#resp1" wit="#wit6">乃</rdg></app>
+<app from="#beg0021025" to="#end0021025"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit6">身</rdg></app>
+<app from="#beg0021026" to="#end0021026"><lem wit="#wit1">勳</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">勤</rdg></app>
+<app from="#beg0021027" to="#end0021027"><lem wit="#wit1">侍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">恃</rdg></app>
+<app from="#beg0021028" to="#end0021028"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit6">以故</rdg></app>
+<app from="#beg0021029" to="#end0021029"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3 #wit6">名</rdg><rdg resp="#resp1" wit="#wit4 #wit5">名有</rdg></app>
+<app from="#beg0021030" to="#end0021030"><lem wit="#wit1">真</lem><rdg resp="#resp1" wit="#wit6">其</rdg></app>
+<app from="#beg0021031" to="#end0021031"><lem wit="#wit1">至</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">生</rdg></app>
+<app from="#beg0021032" to="#end0021032"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit6">果</rdg></app>
+<app from="#beg0021033" to="#end0021033"><lem wit="#wit1">元</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">見</rdg></app>
+<app from="#beg0021034" to="#end0021034"><lem wit="#wit1">政</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">正</rdg></app>
+<app from="#beg0021035" to="#end0021035"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0021036" to="#end0021036"><lem wit="#wit1">愍</lem><rdg resp="#resp1" wit="#wit6">敏</rdg></app>
+<app from="#beg0021037" to="#end0021037"><lem wit="#wit1">住明持</lem><rdg resp="#resp1" wit="#wit4 #wit5">持住明</rdg></app>
+<app from="#beg0022001" to="#end0022001"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">謂佛</rdg></app>
+<app from="#beg0022002" to="#end0022002"><lem wit="#wit1">以<lb n="0022a07" ed="T"/>而</lem><rdg resp="#resp1" wit="#wit5">而以</rdg></app>
+<app from="#beg0022003" to="#end0022003"><lem wit="#wit1">惱</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">忽</rdg></app>
+<app from="#beg0022004" to="#end0022004"><lem wit="#wit1">想</lem><rdg resp="#resp1" wit="#wit4 #wit5">相</rdg></app>
+<app from="#beg0022005" to="#end0022005"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">希</rdg></app>
+<app from="#beg0022006" to="#end0022006"><lem wit="#wit1">令護身口</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">護身口心</rdg></app>
+<app from="#beg0022007" to="#end0022007"><lem wit="#wit1">政</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">正</rdg></app>
+<app from="#beg0022008" to="#end0022008"><lem wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">慧</rdg></app>
+<app from="#beg0022009" to="#end0022009"><lem wit="#wit1">遵</lem><rdg resp="#resp1" wit="#wit3 #wit6">尊</rdg></app>
+<app from="#beg0022010" to="#end0022010"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">所</rdg></app>
+<app from="#beg0022011" to="#end0022011"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0022012" to="#end0022012"><lem wit="#wit1">禪志</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">志禪</rdg></app>
+<app from="#beg0022013" to="#end0022013"><lem wit="#wit1">覺</lem><rdg resp="#resp1" wit="#wit6">寶</rdg></app>
+<app from="#beg0022014" to="#end0022014"><lem wit="#wit1">達</lem><rdg resp="#resp1" wit="#wit6">違</rdg></app>
+<app from="#beg0022015" to="#end0022015"><lem wit="#wit1"><note place="inline">上文第十二幅初六度無極下，丹本有注云：准標文，脫佛興盛度無極</note></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0022017" to="#end0022017"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">有</rdg></app>
+<app from="#beg0022018" to="#end0022018"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit6">至</rdg></app>
+<app from="#beg0022019" to="#end0022019"><lem wit="#wit1">受持</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">持受</rdg></app>
+<app from="#beg0022020" to="#end0022020"><lem wit="#wit1">原</lem><rdg resp="#resp1" wit="#wit4 #wit5">源</rdg></app>
+<app from="#beg0022021" to="#end0022021"><lem wit="#wit1">持</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">治</rdg></app>
+<app from="#beg0022022" to="#end0022022"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit2">青</rdg></app>
+<app from="#beg0022023" to="#end0022023"><lem wit="#wit1">勤</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0022024" to="#end0022024"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">仁</rdg></app>
+<app from="#beg0022025" to="#end0022025"><lem wit="#wit1">仁</lem><rdg resp="#resp1" wit="#wit2">人</rdg></app>
+<app from="#beg0022026" to="#end0022026"><lem wit="#wit1">截</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">截其</rdg></app>
+<app from="#beg0022027" to="#end0022027"><lem wit="#wit1">在海</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">海中</rdg></app>
+<app from="#beg0023001" to="#end0023001"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit2">開</rdg></app>
+<app from="#beg0023002" to="#end0023002"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">念彌</rdg></app>
+<app from="#beg0023003" to="#end0023003"><lem wit="#wit1">鳥</lem><rdg resp="#resp1" wit="#wit5 #wit6">象</rdg></app>
+<app from="#beg0023004" to="#end0023004"><lem wit="#wit1">了<lb n="0023a18" ed="T"/>解</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">解了</rdg></app>
+<app from="#beg0023005" to="#end0023005"><lem wit="#wit1">空</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">虛</rdg></app>
+<app from="#beg0023006" to="#end0023006"><lem wit="#wit1">修</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">濟</rdg></app>
+<app from="#beg0023007" to="#end0023007"><lem wit="#wit1">舍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">尸舍</rdg></app>
+<app from="#beg0023008" to="#end0023008"><lem wit="#wit1">葉</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">華</rdg></app>
+<app from="#beg0023009" to="#end0023009"><lem wit="#wit1">道</lem><rdg resp="#resp1" wit="#wit6">是</rdg></app>
+<app from="#beg0023010" to="#end0023010"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit6">伏</rdg></app>
+<app from="#beg0023011" to="#end0023011"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0023012" to="#end0023012"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit2">智</rdg></app>
+<app from="#beg0023013" to="#end0023013"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">山</rdg></app>
+<app from="#beg0023014" to="#end0023014"><lem wit="#wit1">眾</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">眾窮</rdg></app>
+<app from="#beg0023015" to="#end0023015"><lem wit="#wit1">難</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">者</rdg></app>
+<app from="#beg0023016" to="#end0023016"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">猶如</rdg></app>
+<app from="#beg0023017" to="#end0023017"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">仁</rdg></app>
+<app from="#beg0023018" to="#end0023018"><lem wit="#wit1">至</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2">生</rdg></app>
+<app from="#beg0023019" to="#end0023019"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit4 #wit5">拂</rdg><rdg resp="#resp1" wit="#wit6">下</rdg></app>
+<app from="#beg0023020" to="#end0023020"><lem wit="#wit1">厄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">難</rdg></app>
+<app from="#beg0023021" to="#end0023021"><lem wit="#wit1">兩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">雨</rdg></app>
+<app from="#beg0023022" to="#end0023022"><lem wit="#wit1">勤</lem><rdg resp="#resp1" wit="#wit6">謹</rdg></app>
+<app from="#beg0023023" to="#end0023023"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">想</rdg></app>
+<app from="#beg0023024" to="#end0023024"><lem wit="#wit1">助</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">勤</rdg></app>
+<app from="#beg0023025" to="#end0023025"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit5 #wit6">玉</rdg></app>
+<app from="#beg0023026" to="#end0023026"><lem wit="#wit1">艱難</lem><rdg resp="#resp1" wit="#wit6">難言</rdg></app>
+<app from="#beg0023027" to="#end0023027"><lem wit="#wit1">救</lem><rdg resp="#resp1" wit="#wit3 #wit6">救濟</rdg></app>
+<app from="#beg0023028" to="#end0023028"><lem wit="#wit1">寂</lem><rdg resp="#resp1" wit="#wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0023029" to="#end0023029"><lem wit="#wit1">百</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0023030" to="#end0023030"><lem wit="#wit1">玉</lem><rdg resp="#resp1" wit="#wit2">王</rdg></app>
+<app from="#beg0023031" to="#end0023031"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0024001" to="#end0024001"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">福</rdg></app>
+<app from="#beg0024002" to="#end0024002"><lem wit="#wit1">興</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">與</rdg></app>
+<app from="#beg0024003" to="#end0024003"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2">想</rdg></app>
+<app from="#beg0024004" to="#end0024004"><lem wit="#wit1">覺</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0024005" to="#end0024005"><lem wit="#wit1">壞</lem><rdg resp="#resp1" wit="#wit2">懷</rdg></app>
+<app from="#beg0024006" to="#end0024006"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">以</rdg></app>
+<app from="#beg0024007" to="#end0024007"><lem wit="#wit1">俗</lem><rdg resp="#resp1" wit="#wit4 #wit5">世</rdg></app>
+<app from="#beg0024008" to="#end0024008"><lem wit="#wit1">使</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">便</rdg></app>
+<app from="#beg0024009" to="#end0024009"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0024010" to="#end0024010"><lem wit="#wit1">得<lb n="0024b02" ed="T"/>攝其意</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">攝其惡意</rdg></app>
+<app from="#beg0024011" to="#end0024011"><lem wit="#wit1">所救</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">救護</rdg></app>
+<app from="#beg0024012" to="#end0024012"><lem wit="#wit1">和合</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">悅和</rdg></app>
+<app from="#beg0024013" to="#end0024013"><lem wit="#wit1">諍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">煩</rdg><rdg resp="#resp1" wit="#wit2">順</rdg></app>
+<app from="#beg0024014" to="#end0024014"><lem wit="#wit1">微</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0024015" to="#end0024015"><lem wit="#wit1">偏</lem><rdg resp="#resp1" wit="#wit3">徧</rdg></app>
+<app from="#beg0024016" to="#end0024016"><lem wit="#wit1">精修</lem><rdg resp="#resp1" wit="#wit2">修精</rdg></app>
+<app from="#beg0024017" to="#end0024017"><lem wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0024018" to="#end0024018"><lem wit="#wit1">弊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">蔽</rdg><rdg resp="#resp1" wit="#wit2"><g ref="#CB00877">𦿔</g></rdg></app>
+<app from="#beg0024019" to="#end0024019"><lem wit="#wit1">供</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">恭</rdg></app>
+<app from="#beg0024020" to="#end0024020"><lem wit="#wit1">病</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">療</rdg></app>
+<app from="#beg0024021" to="#end0024021"><lem wit="#wit1">害</lem><rdg resp="#resp1" wit="#wit4 #wit5">惡</rdg></app>
+<app from="#beg0024022" to="#end0024022"><lem wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit6 #wit2">音</rdg></app>
+<app from="#beg0024023" to="#end0024023"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">勳</rdg></app>
+<app from="#beg0024024" to="#end0024024"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">如</rdg></app>
+<app from="#beg0024025" to="#end0024025"><lem wit="#wit1">嚮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">響</rdg></app>
+<app from="#beg0024026" to="#end0024026"><lem wit="#wit1">護</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0024027" to="#end0024027"><lem wit="#wit1">聖</lem><rdg resp="#resp1" wit="#wit4 #wit5">開</rdg></app>
+<app from="#beg0024028" to="#end0024028"><lem wit="#wit1">放</lem><rdg resp="#resp1" wit="#wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0025001" to="#end0025001"><lem wit="#wit1">道德</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">於道</rdg></app>
+<app from="#beg0025002" to="#end0025002"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">行道</rdg></app>
+<app from="#beg0025003" to="#end0025003"><lem wit="#wit1">熾然</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">然熾</rdg></app>
+<app from="#beg0025004" to="#end0025004"><lem wit="#wit1">諛</lem><rdg resp="#resp1" wit="#wit6 #wit2">諭</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0024023"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">勳</rdg></app>
+<app from="#beg0025005" to="#end0025005"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit6">隨</rdg></app>
+<app from="#beg0025006" to="#end0025006"><lem wit="#wit1">用</lem><rdg resp="#resp1" wit="#wit4 #wit5">作</rdg></app>
+<app from="#beg0025007" to="#end0025007"><lem wit="#wit1">阿</lem><rdg resp="#resp1" wit="#wit4 #wit5">阿育</rdg></app>
+<app from="#beg0025008" to="#end0025008"><lem wit="#wit1">默</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">黠</rdg></app>
+<app from="#beg0025009" to="#end0025009"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">聞者</rdg></app>
+<app from="#beg0025010" to="#end0025010"><lem wit="#wit1">供</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">恭</rdg></app>
+<app from="#beg0025011" to="#end0025011"><lem wit="#wit1">往</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0025012" to="#end0025012"><lem wit="#wit1">抱</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">懷</rdg></app>
+<app from="#beg0025013" to="#end0025013"><lem wit="#wit1">是曰一<lb n="0025b08" ed="T"/>心</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0025014" to="#end0025014"><lem wit="#wit1">精</lem><rdg resp="#resp1" wit="#wit2">情</rdg></app>
+<app from="#beg0025015" to="#end0025015"><lem wit="#wit1">親里</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">理</rdg><rdg resp="#resp1" wit="#wit2">親理</rdg></app>
+<app from="#beg0025016" to="#end0025016"><lem wit="#wit1">導</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">道</rdg></app>
+<app from="#beg0025017" to="#end0025017"><lem wit="#wit1">哀愍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">愍哀</rdg></app>
+<app from="#beg0025018" to="#end0025018"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2">勢</rdg></app>
+<app from="#beg0025019" to="#end0025019"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit6">忘</rdg></app>
+<app from="#beg0025020" to="#end0025020"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit2">各</rdg></app>
+<app from="#beg0025021" to="#end0025021"><lem wit="#wit1">目</lem><rdg resp="#resp1" wit="#wit2">耳</rdg></app>
+<app from="#beg0025022" to="#end0025022"><lem wit="#wit1">亡</lem><rdg resp="#resp1" wit="#wit4 #wit5">忘</rdg></app>
+<app from="#beg0025023" to="#end0025023"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">制</rdg></app>
+<app from="#beg0025024" to="#end0025024"><lem wit="#wit1">塹</lem><rdg resp="#resp1" wit="#wit2">漸</rdg></app>
+<app from="#beg0025025" to="#end0025025"><lem wit="#wit1">逮</lem><rdg resp="#resp1" wit="#wit4 #wit5">怠</rdg></app>
+<app from="#beg0025026" to="#end0025026"><lem wit="#wit1">禁</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">持</rdg></app>
+<app from="#beg0025027" to="#end0025027"><lem wit="#wit1">行自</lem><rdg resp="#resp1" wit="#wit2">修</rdg></app>
+<app from="#beg0025028" to="#end0025028"><lem wit="#wit1">懈</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2">塹</rdg><rdg resp="#resp1" wit="#wit6">壍</rdg></app>
+<app from="#beg0025029" to="#end0025029"><lem wit="#wit1">恨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">限</rdg></app>
+<app from="#beg0025030" to="#end0025030"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0025033" to="#end0025033"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">正</rdg></app>
+<app from="#beg0025034" to="#end0025034"><lem wit="#wit1">遍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">適</rdg></app>
+<app from="#beg0025035" to="#end0025035"><lem wit="#wit1">顯</lem><rdg resp="#resp1" wit="#wit2">頭</rdg></app>
+<app from="#beg0025036" to="#end0025036"><lem wit="#wit1">屏</lem><rdg resp="#resp1" wit="#wit4 #wit5">瓶</rdg></app>
+<app from="#beg0025037" to="#end0025037"><lem wit="#wit1">浮</lem><rdg resp="#resp1" wit="#wit4 #wit5">桴</rdg></app>
+<app from="#beg0025038" to="#end0025038"><lem wit="#wit1">筏</lem><rdg resp="#resp1" wit="#wit3 #wit6">栰</rdg></app>
+<app from="#beg0025039" to="#end0025039"><lem wit="#wit1">浮渡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">泅度</rdg><rdg resp="#resp1" wit="#wit2">涸度</rdg></app>
+<app cb:word-count="21" from="#beg0025040" to="#end0025040"><lem wit="#wit1">若演光明<lb n="0025c19" ed="T"/>普耀遠近，通於十方由得自在，是曰一心報</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0025041" to="#end0025041"><lem wit="#wit1">恬怕</lem><rdg resp="#resp1" wit="#wit6">恬恬</rdg></app>
+<app from="#beg0025042" to="#end0025042"><lem wit="#wit1">躍</lem><rdg resp="#resp1" wit="#wit2">曜</rdg></app>
+<app from="#beg0025043" to="#end0025043"><lem wit="#wit1">存</lem><rdg resp="#resp1" wit="#wit6">在</rdg></app>
+<app from="#beg0026001" to="#end0026001"><lem wit="#wit1">足下</lem><rdg resp="#resp1" wit="#wit3 #wit6">下足</rdg></app>
+<app from="#beg0026002" to="#end0026002"><lem wit="#wit1">蛾</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">蟻</rdg></app>
+<app from="#beg0026003" to="#end0026003"><lem wit="#wit1">庠</lem><rdg resp="#resp1" wit="#wit2">詳</rdg></app>
+<app from="#beg0026004" to="#end0026004"><lem wit="#wit1">卒</lem><rdg resp="#resp1" wit="#wit2">平</rdg></app>
+<app from="#beg0026005" to="#end0026005"><lem wit="#wit1">弘<lb n="0026a06" ed="T"/>曠</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">曠然</rdg></app>
+<app from="#beg0026006" to="#end0026006"><lem wit="#wit1">福</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">德</rdg></app>
+<app from="#beg0026007" to="#end0026007"><lem wit="#wit1">曲</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">惡</rdg></app>
+<app from="#beg0026008" to="#end0026008"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0026009" to="#end0026009"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0026009"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0026010" to="#end0026010"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">之報</rdg></app>
+<app from="#beg0026011" to="#end0026011"><lem wit="#wit1">麁文</lem><rdg resp="#resp1" wit="#wit3 #wit6">一麁</rdg></app>
+<app from="#beg0026012" to="#end0026012"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">之執也</rdg><rdg resp="#resp1" wit="#wit6">之報也</rdg></app>
+<app from="#beg0026013" to="#end0026013"><lem wit="#wit1">悅</lem><rdg resp="#resp1" wit="#wit6">惔</rdg></app>
+<app from="#beg0026014" to="#end0026014"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">和</rdg></app>
+<app from="#beg0026015" to="#end0026015"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0026016" to="#end0026016"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">之所</rdg><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0026017" to="#end0026017"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">是皆</rdg></app>
+<app from="#beg0026018" to="#end0026018"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">之報</rdg></app>
+<app from="#beg0026019" to="#end0026019"><lem wit="#wit1">縵</lem><rdg resp="#resp1" wit="#wit2">漫</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0026019"><lem wit="#wit1">縵</lem><rdg resp="#resp1" wit="#wit2">漫</rdg></app>
+<app from="#beg0026020" to="#end0026020"><lem wit="#wit1">姝</lem><rdg resp="#resp1" wit="#wit3 #wit6">殊</rdg></app>
+<app from="#beg0026021" to="#end0026021"><lem wit="#wit1">佛者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">諸佛</rdg></app>
+<app from="#beg0026022" to="#end0026022"><lem wit="#wit1">喜</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0026023" to="#end0026023"><lem wit="#wit1">因稍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">稍漸</rdg></app>
+<app from="#beg0026024" to="#end0026024"><lem wit="#wit1"><g ref="#CB00166">𦟛</g></lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2">傭</rdg></app>
+<app from="#beg0026025" to="#end0026025"><lem wit="#wit1">宜</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">儀</rdg></app>
+<app from="#beg0026026" to="#end0026026"><lem wit="#wit1">蓋</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">善</rdg></app>
+<app from="#beg0026027" to="#end0026027"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0026028" to="#end0026028"><lem wit="#wit1">和</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0026029" to="#end0026029"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0026030" to="#end0026030"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">至</rdg></app>
+<app from="#beg0026031" to="#end0026031"><lem wit="#wit1">喜</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">觀</rdg><rdg resp="#resp1" wit="#wit6">歡</rdg></app>
+<app from="#beg0026032" to="#end0026032"><lem wit="#wit1">卒</lem><rdg resp="#resp1" wit="#wit2">平</rdg></app>
+<app from="#beg0026033" to="#end0026033"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">色光明</rdg></app>
+<app from="#beg0026034" to="#end0026034"><lem wit="#wit1">踰</lem><rdg resp="#resp1" wit="#wit2">喻</rdg></app>
+<app from="#beg0026035" to="#end0026035"><lem wit="#wit1">昱</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">曜</rdg></app>
+<app from="#beg0026036" to="#end0026036"><lem wit="#wit1">臆</lem><rdg resp="#resp1" wit="#wit2">應</rdg></app>
+<app from="#beg0026037" to="#end0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_11" to="#end_11" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0026038" to="#end0026038"><lem wit="#wit1">政</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">正</rdg></app>
+<app from="#beg_12" to="#end_12" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0026039" to="#end0026039"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0026040" to="#end0026040"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2">光</rdg><rdg resp="#resp1" wit="#wit4 #wit5">澤</rdg></app>
+<app from="#beg_14" to="#end_14" corresp="#0026037"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0026041" to="#end0026041"><lem wit="#wit1">勳</lem><rdg resp="#resp1" wit="#wit4 #wit5">熏</rdg></app>
+<app from="#beg0026042" to="#end0026042"><lem wit="#wit1">真</lem><rdg resp="#resp1" wit="#wit2">直</rdg></app>
+<app from="#beg0026043" to="#end0026043"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0026024"><lem wit="#wit1"><g ref="#CB00166">𦟛</g></lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2">傭</rdg></app>
+<app from="#beg0026044" to="#end0026044"><lem wit="#wit1">以身</lem><rdg resp="#resp1" wit="#wit6 #wit2">身以</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0026024"><lem wit="#wit1"><g ref="#CB00166">𦟛</g></lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2">傭</rdg></app>
+<app from="#beg0026045" to="#end0026045"><lem wit="#wit1">自焰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">無自大</rdg></app>
+<app from="#beg0026046" to="#end0026046"><lem wit="#wit1">數</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0027003" to="#end0027003"><lem wit="#wit1">見</lem><rdg resp="#resp1" wit="#wit5">是</rdg></app>
+<app from="#beg0027004" to="#end0027004"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2">是何</rdg></app>
+<app from="#beg0027005" to="#end0027005"><lem wit="#wit1">疏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">踈</rdg></app>
+<app from="#beg0027006" to="#end0027006"><lem wit="#wit1">點</lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2">沾</rdg></app>
+<app from="#beg0027007" to="#end0027007"><lem wit="#wit1">要</lem><rdg resp="#resp1" wit="#wit4 #wit5">好</rdg></app>
+<app from="#beg0027008" to="#end0027008"><lem wit="#wit1">齒</lem><rdg resp="#resp1" wit="#wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0026024"><lem wit="#wit1"><g ref="#CB00166">𦟛</g></lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2">傭</rdg></app>
+<app from="#beg0027009" to="#end0027009"><lem wit="#wit1">固<lb n="0027a18" ed="T"/>強</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">強妙</rdg></app>
+<app from="#beg0027010" to="#end0027010"><lem wit="#wit1">其<lb n="0027a23" ed="T"/>齒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">齒皆</rdg></app>
+<app from="#beg0027011" to="#end0027011"><lem wit="#wit1">嚮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">響</rdg></app>
+<app from="#beg0027012" to="#end0027012"><lem wit="#wit1">各</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">各得解</rdg></app>
+<app from="#beg0027013" to="#end0027013"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit3 #wit6">王何謂如來身方正報</rdg><rdg resp="#resp1" wit="#wit4 #wit5">王何謂如來身方正報度無極有六事</rdg></app>
+<app from="#beg0027014" to="#end0027014"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">存</rdg></app>
+<app from="#beg0027015" to="#end0027015"><lem wit="#wit1">教</lem><rdg resp="#resp1" wit="#wit2">教教</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0027011"><lem wit="#wit1">嚮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">響</rdg></app>
+<app from="#beg0027016" to="#end0027016"><lem wit="#wit1">中上</lem><rdg resp="#resp1" wit="#wit6 #wit2">味次</rdg></app>
+<app from="#beg0027017" to="#end0027017"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_19" to="#end_19" corresp="#0027017"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0027017"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_1b" to="#end_1b" corresp="#0027017"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0027017"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_1d" to="#end_1d" corresp="#0027017"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0027018" to="#end0027018"><lem wit="#wit1">平</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">平如</rdg></app>
+<app from="#beg0027019" to="#end0027019"><lem wit="#wit1">色妙</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">好色</rdg></app>
+<app from="#beg0027020" to="#end0027020"><lem wit="#wit1">月</lem><rdg resp="#resp1" wit="#wit2">目</rdg></app>
+<app from="#beg0027021" to="#end0027021"><lem wit="#wit1">目</lem><rdg resp="#resp1" wit="#wit2">月</rdg></app>
+<app from="#beg0027022" to="#end0027022"><lem wit="#wit1">明澤</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2">澤益</rdg></app>
+<app from="#beg0027023" to="#end0027023"><lem wit="#wit1">鸚鵡</lem><rdg resp="#resp1" wit="#wit2">英武</rdg></app>
+<app from="#beg_1e" to="#end_1e" corresp="#0027023"><lem wit="#wit1">鸚鵡</lem><rdg resp="#resp1" wit="#wit2">英武</rdg></app>
+<app from="#beg0027024" to="#end0027024"><lem wit="#wit1">諦忍</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0027025" to="#end0027025"><lem wit="#wit1">威儀</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0027026" to="#end0027026"><lem wit="#wit1">髻</lem><rdg resp="#resp1" wit="#wit6 #wit2">結</rdg></app>
+<app from="#beg_1f" to="#end_1f" corresp="#0027026"><lem wit="#wit1">髻</lem><rdg resp="#resp1" wit="#wit6 #wit2">結</rdg></app>
+<app from="#beg0027027" to="#end0027027"><lem wit="#wit1">各</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">各各</rdg></app>
+<app from="#beg_20" to="#end_20" corresp="#0027026"><lem wit="#wit1">髻</lem><rdg resp="#resp1" wit="#wit6 #wit2">結</rdg></app>
+<app from="#beg_21" to="#end_21" corresp="#0027026"><lem wit="#wit1">髻</lem><rdg resp="#resp1" wit="#wit6 #wit2">結</rdg></app>
+<app from="#beg0027028" to="#end0027028"><lem wit="#wit1">竚</lem><rdg resp="#resp1" wit="#wit3">跱</rdg><rdg resp="#resp1" wit="#wit4 #wit5">峙</rdg><rdg resp="#resp1" wit="#wit6 #wit2"><g ref="#CB00279">𥩳</g></rdg></app>
+<app from="#beg0027029" to="#end0027029"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0028001" to="#end0028001"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0028002" to="#end0028002"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0028003" to="#end0028003"><lem wit="#wit1"><note place="inline">丹本有注云：三十二相中，舊闕二種文</note></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0019009" resp="#resp2" type="mod" target="#nkr_note_mod_0019009">三＝四【宋】【元】【明】【宮】</note>
+<note n="0019010" resp="#resp2" type="mod" target="#nkr_note_mod_0019010">捐棄＝棄捐【宋】【元】【明】【宮】</note>
+<note n="0019011" resp="#resp2" type="mod" target="#nkr_note_mod_0019011">解＋（脫）【宋】【元】【明】</note>
+<note n="0019013" resp="#resp2" type="mod" target="#nkr_note_mod_0019013">縱＝徒【宋】【元】【明】【宮】</note>
+<note n="0019015" resp="#resp2" type="mod" target="#nkr_note_mod_0019015">建＝逮【宋】【元】【明】【宮】</note>
+<note n="0019016" resp="#resp2" type="mod" target="#nkr_note_mod_0019016">為＝曰【宋】【元】【明】【宮】</note>
+<note n="0019017" resp="#resp2" type="mod" target="#nkr_note_mod_0019017">熟＝淑【宋】【元】【明】【宮】</note>
+<note n="0019018" resp="#resp2" type="mod" target="#nkr_note_mod_0019018">用＝周【宋】【元】【明】【宮】</note>
+<note n="0019019" resp="#resp2" type="mod" target="#nkr_note_mod_0019019">人＝仁【宋】【元】【明】【宮】</note>
+<note n="0019020" resp="#resp2" type="mod" target="#nkr_note_mod_0019020">仁任＝人仁【宋】【元】【明】</note>
+<note n="0019021" resp="#resp2" type="mod" target="#nkr_note_mod_0019021">忍＝同【宋】【元】【明】【宮】</note>
+<note n="0019024" resp="#resp2" type="mod" target="#nkr_note_mod_0019024">人＝之【宋】【元】【明】【宮】</note>
+<note n="0019025" resp="#resp2" type="mod" target="#nkr_note_mod_0019025">技＝校【宋】【宮】，＝授【元】【明】</note>
+<note n="0020002" resp="#resp2" type="mod" target="#nkr_note_mod_0020002">令＝使令行【宋】【元】【明】【宮】</note>
+<note n="0020003" resp="#resp2" type="mod" target="#nkr_note_mod_0020003">（心）＋若【宋】【元】【明】【宮】</note>
+<note n="0020005" resp="#resp2" type="mod" target="#nkr_note_mod_0020005">極＝數【宋】【元】【明】【宮】</note>
+<note n="0020006" resp="#resp2" type="mod" target="#nkr_note_mod_0020006">淨＝滌【宋】【元】【明】【宮】</note>
+<note n="0020007" resp="#resp2" type="mod" target="#nkr_note_mod_0020007">露＝路【宋】【元】【明】【宮】</note>
+<note n="0020008" resp="#resp2" type="mod" target="#nkr_note_mod_0020008">報＝執【宋】【元】【明】【宮】</note>
+<note n="0020010" resp="#resp2" type="mod" target="#nkr_note_mod_0020010">親＝觀【宋】【元】【明】</note>
+<note n="0020011" resp="#resp2" type="mod" target="#nkr_note_mod_0020011"><choice cb:resp="#resp3"><corr>羨</corr><sic>羡</sic></choice>＝美【宋】，＝著【元】【明】</note>
+<note n="0020012" resp="#resp2" type="mod" target="#nkr_note_mod_0020012">若＝覩【宋】【元】【明】【宮】</note>
+<note n="0020014" resp="#resp2" type="mod" target="#nkr_note_mod_0020014">〔所〕－【宋】【元】【明】【宮】</note>
+<note n="0020015" resp="#resp2" type="mod" target="#nkr_note_mod_0020015">（未）＋曾【宋】【元】【明】【宮】</note>
+<note n="0020017" resp="#resp2" type="mod" target="#nkr_note_mod_0020017">濟有所救＝有所救濟【宋】【元】【明】【宮】</note>
+<note n="0020018" resp="#resp2" type="mod" target="#nkr_note_mod_0020018">〔心〕－【宋】【元】【明】【宮】</note>
+<note n="0020019" resp="#resp2" type="mod" target="#nkr_note_mod_0020019">所有＝有所【宋】【元】【明】【宮】</note>
+<note n="0020020" resp="#resp2" type="mod" target="#nkr_note_mod_0020020">智＝慧【宋】【元】【明】【宮】</note>
+<note n="0021001" resp="#resp2" type="mod" target="#nkr_note_mod_0021001">德＝得【宋】【元】【明】【宮】</note>
+<note n="0021002" resp="#resp2" type="mod" target="#nkr_note_mod_0021002">政＝正【宋】【元】【明】【宮】</note>
+<note n="0021003" resp="#resp2" type="mod" target="#nkr_note_mod_0021003">嫉妬＝妬嫉【宋】【元】【明】【宮】</note>
+<note n="0021007" resp="#resp2" type="mod" target="#nkr_note_mod_0021007">纔＝裁【宋】【元】【明】【宮】</note>
+<note n="0021010" resp="#resp2" type="mod" target="#nkr_note_mod_0021010">亦＝示【宋】【元】【明】【宮】</note>
+<note n="0021013" resp="#resp2" type="mod" target="#nkr_note_mod_0021013">遭＝遇【宋】【元】【明】【宮】</note>
+<note n="0021015" resp="#resp2" type="mod" target="#nkr_note_mod_0021015">生＝人【宋】【元】【明】【宮】</note>
+<note n="0021017" resp="#resp2" type="mod" target="#nkr_note_mod_0021017">原首＝無著【宋】【元】【明】【宮】</note>
+<note n="0021018" resp="#resp2" type="mod" target="#nkr_note_mod_0021018">昔者＝往昔【宋】【元】【明】【宮】</note>
+<note n="0021019" resp="#resp2" type="mod" target="#nkr_note_mod_0021019">殖＝植【宋】【元】【明】【宮】</note>
+<note n="0021022" resp="#resp2" type="mod" target="#nkr_note_mod_0021022">觀＝覩【宋】【元】【明】【宮】</note>
+<note n="0021024" resp="#resp2" type="mod" target="#nkr_note_mod_0021024">法＋（乃）【宋】【元】【明】，＝乃【宮】</note>
+<note n="0021026" resp="#resp2" type="mod" target="#nkr_note_mod_0021026">勳＝勤【宋】【元】【明】【宮】</note>
+<note n="0021027" resp="#resp2" type="mod" target="#nkr_note_mod_0021027">侍＝恃【宋】【元】【明】【宮】</note>
+<note n="0021029" resp="#resp2" type="mod" target="#nkr_note_mod_0021029">有＝名【宋】【宮】，＝名有【元】【明】</note>
+<note n="0021031" resp="#resp2" type="mod" target="#nkr_note_mod_0021031">至＝生【宋】【元】【明】【宮】</note>
+<note n="0021033" resp="#resp2" type="mod" target="#nkr_note_mod_0021033">元＝見【宋】【元】【明】【宮】</note>
+<note n="0021034" resp="#resp2" type="mod" target="#nkr_note_mod_0021034">政＝正【宋】【元】【明】【宮】</note>
+<note n="0021035" resp="#resp2" type="mod" target="#nkr_note_mod_0021035">〔其〕－【宋】【元】【明】【宮】</note>
+<note n="0022001" resp="#resp2" type="mod" target="#nkr_note_mod_0022001">謂＋（佛）【宋】【元】【明】【宮】</note>
+<note n="0022003" resp="#resp2" type="mod" target="#nkr_note_mod_0022003">惱＝忽【宋】【元】【明】【宮】</note>
+<note n="0022005" resp="#resp2" type="mod" target="#nkr_note_mod_0022005">所＝希【宋】【元】【明】【宮】</note>
+<note n="0022006" resp="#resp2" type="mod" target="#nkr_note_mod_0022006">令護身口＝護身口心【宋】【元】【明】【宮】</note>
+<note n="0022007" resp="#resp2" type="mod" target="#nkr_note_mod_0022007">政＝正【宋】【元】【明】【宮】</note>
+<note n="0022008" resp="#resp2" type="mod" target="#nkr_note_mod_0022008">意＝慧【宋】【元】【明】【宮】</note>
+<note n="0022010" resp="#resp2" type="mod" target="#nkr_note_mod_0022010">正＝所【宋】【元】【明】【宮】</note>
+<note n="0022011" resp="#resp2" type="mod" target="#nkr_note_mod_0022011">〔行〕－【宋】【元】【明】【宮】</note>
+<note n="0022012" resp="#resp2" type="mod" target="#nkr_note_mod_0022012">禪志＝志禪【宋】【元】【明】【宮】</note>
+<note n="0022015" resp="#resp2" type="mod" target="#nkr_note_mod_0022015">〔上文第十二幅初六度無極下丹本有注云准標文脫佛興盛度無極〕夾註－【宋】【元】【明】【宮】</note>
+<note n="0022016" resp="#resp2" type="mod" target="#nkr_note_mod_0022016"><!--CBETA todo type: a-->卷第五首【聖】</note>
+<note n="0022017" resp="#resp2" type="mod" target="#nkr_note_mod_0022017">於＝有【宋】【元】【明】【宮】【聖】</note>
+<note n="0022019" resp="#resp2" type="mod" target="#nkr_note_mod_0022019">受持＝持受【宋】【元】【明】【宮】</note>
+<note n="0022021" resp="#resp2" type="mod" target="#nkr_note_mod_0022021">持＝治【宋】【元】【明】【宮】</note>
+<note n="0022024" resp="#resp2" type="mod" target="#nkr_note_mod_0022024">人＝仁【宋】【元】【明】【宮】</note>
+<note n="0022026" resp="#resp2" type="mod" target="#nkr_note_mod_0022026">截＋（其）【宋】【元】【明】【宮】</note>
+<note n="0022027" resp="#resp2" type="mod" target="#nkr_note_mod_0022027">在海＝海中【宋】【元】【明】【宮】</note>
+<note n="0023002" resp="#resp2" type="mod" target="#nkr_note_mod_0023002">念＋（彌）【宋】【元】【明】【宮】</note>
+<note n="0023004" resp="#resp2" type="mod" target="#nkr_note_mod_0023004">了解＝解了【宋】【元】【明】【宮】【聖】</note>
+<note n="0023005" resp="#resp2" type="mod" target="#nkr_note_mod_0023005">空＝虛【宋】【元】【明】【宮】</note>
+<note n="0023006" resp="#resp2" type="mod" target="#nkr_note_mod_0023006">修＝濟【宋】【元】【明】【宮】【聖】</note>
+<note n="0023007" resp="#resp2" type="mod" target="#nkr_note_mod_0023007">（尸）＋舍【宋】【元】【明】【宮】【聖】</note>
+<note n="0023008" resp="#resp2" type="mod" target="#nkr_note_mod_0023008">葉＝華【宋】【元】【明】【宮】</note>
+<note n="0023013" resp="#resp2" type="mod" target="#nkr_note_mod_0023013">正＝山【宋】【元】【明】【宮】</note>
+<note n="0023014" resp="#resp2" type="mod" target="#nkr_note_mod_0023014">眾＋（窮）【宋】【元】【明】【宮】</note>
+<note n="0023015" resp="#resp2" type="mod" target="#nkr_note_mod_0023015">難＝者【宋】【元】【明】【宮】</note>
+<note n="0023016" resp="#resp2" type="mod" target="#nkr_note_mod_0023016">（猶）＋如【宋】【元】【明】【宮】</note>
+<note n="0023017" resp="#resp2" type="mod" target="#nkr_note_mod_0023017">人＝仁【宋】【元】【明】【宮】</note>
+<note n="0023019" resp="#resp2" type="mod" target="#nkr_note_mod_0023019">不＝拂【元】【明】，＝下【宮】</note>
+<note n="0023020" resp="#resp2" type="mod" target="#nkr_note_mod_0023020">厄＝難【宋】【元】【明】【宮】</note>
+<note n="0023021" resp="#resp2" type="mod" target="#nkr_note_mod_0023021">兩＝雨【宋】【元】【明】【宮】</note>
+<note n="0023023" resp="#resp2" type="mod" target="#nkr_note_mod_0023023">相＝想【宋】【元】【明】【宮】【聖】</note>
+<note n="0023024" resp="#resp2" type="mod" target="#nkr_note_mod_0023024">助＝勤【宋】【元】【明】【宮】</note>
+<note n="0023031" resp="#resp2" type="mod" target="#nkr_note_mod_0023031">〔為〕－【宋】【元】【明】【宮】</note>
+<note n="0024001" resp="#resp2" type="mod" target="#nkr_note_mod_0024001">德＝福【宋】【元】【明】【宮】</note>
+<note n="0024002" resp="#resp2" type="mod" target="#nkr_note_mod_0024002">興＝與【宋】【元】【明】【宮】</note>
+<note n="0024006" resp="#resp2" type="mod" target="#nkr_note_mod_0024006">已＝以【宋】【元】【明】【宮】</note>
+<note n="0024008" resp="#resp2" type="mod" target="#nkr_note_mod_0024008">使＝便【宋】【元】【明】【宮】</note>
+<note n="0024010" resp="#resp2" type="mod" target="#nkr_note_mod_0024010">得攝其意＝攝其惡意【宋】【元】【明】【宮】</note>
+<note n="0024011" resp="#resp2" type="mod" target="#nkr_note_mod_0024011">所救＝救護【宋】【元】【明】【宮】</note>
+<note n="0024012" resp="#resp2" type="mod" target="#nkr_note_mod_0024012">和合＝悅和【宋】【元】【明】【宮】</note>
+<note n="0024013" resp="#resp2" type="mod" target="#nkr_note_mod_0024013">諍＝煩【宋】【元】【明】【宮】，＝順【聖】</note>
+<note n="0024014" resp="#resp2" type="mod" target="#nkr_note_mod_0024014">〔微〕－【宋】【元】【明】【宮】【聖】</note>
+<note n="0024018" resp="#resp2" type="mod" target="#nkr_note_mod_0024018">弊＝蔽【宋】【元】【明】【宮】，＝<g ref="#CB00877">𦿔</g>【聖】下同</note>
+<note n="0024019" resp="#resp2" type="mod" target="#nkr_note_mod_0024019">供＝恭【宋】【元】【明】【宮】</note>
+<note n="0024020" resp="#resp2" type="mod" target="#nkr_note_mod_0024020">病＝療【宋】【元】【明】【宮】【聖】</note>
+<note n="0024023" resp="#resp2" type="mod" target="#nkr_note_mod_0024023">德＝勳【宋】【元】【明】【宮】【聖】＊</note>
+<note n="0024024" resp="#resp2" type="mod" target="#nkr_note_mod_0024024">而＝如【宋】【元】【明】【宮】</note>
+<note n="0024025" resp="#resp2" type="mod" target="#nkr_note_mod_0024025">嚮＝響【宋】【元】【明】【宮】</note>
+<note n="0025001" resp="#resp2" type="mod" target="#nkr_note_mod_0025001">道德＝於道【宋】【元】【明】【宮】</note>
+<note n="0025002" resp="#resp2" type="mod" target="#nkr_note_mod_0025002">行＋（道）【宋】【元】【明】【宮】</note>
+<note n="0025003" resp="#resp2" type="mod" target="#nkr_note_mod_0025003">熾然＝然熾【宋】【元】【明】【宮】【聖】</note>
+<note n="0025008" resp="#resp2" type="mod" target="#nkr_note_mod_0025008">默＝黠【宋】【元】【明】【宮】</note>
+<note n="0025009" resp="#resp2" type="mod" target="#nkr_note_mod_0025009">聞＋（者）【宋】【元】【明】【宮】</note>
+<note n="0025010" resp="#resp2" type="mod" target="#nkr_note_mod_0025010">供＝恭【宋】【元】【明】【宮】</note>
+<note n="0025012" resp="#resp2" type="mod" target="#nkr_note_mod_0025012">抱＝懷【宋】【元】【明】【宮】</note>
+<note n="0025015" resp="#resp2" type="mod" target="#nkr_note_mod_0025015">親里＝理【宋】【元】【明】【宮】，＝親理【聖】</note>
+<note n="0025016" resp="#resp2" type="mod" target="#nkr_note_mod_0025016">導＝道【宋】【元】【明】【宮】</note>
+<note n="0025017" resp="#resp2" type="mod" target="#nkr_note_mod_0025017">哀愍＝愍哀【宋】【元】【明】【宮】</note>
+<note n="0025023" resp="#resp2" type="mod" target="#nkr_note_mod_0025023">能＝制【宋】【元】【明】【宮】</note>
+<note n="0025026" resp="#resp2" type="mod" target="#nkr_note_mod_0025026">禁＝持【宋】【元】【明】【宮】【聖】</note>
+<note n="0025028" resp="#resp2" type="mod" target="#nkr_note_mod_0025028">懈＝塹【元】【明】【聖】，＝壍【宮】</note>
+<note n="0025029" resp="#resp2" type="mod" target="#nkr_note_mod_0025029">恨＝限【宋】【元】【明】【宮】</note>
+<note n="0025030" resp="#resp2" type="mod" target="#nkr_note_mod_0025030">〔也〕－【宋】【元】【明】【宮】</note>
+<note n="0025031" resp="#resp2" type="mod" target="#nkr_note_mod_0025031"><!--CBETA todo type: a-->卷第四終【宋】【元】【明】【宮】</note>
+<note n="0025032" resp="#resp2" type="mod" target="#nkr_note_mod_0025032"><!--CBETA todo type: a-->卷第五首【宋】【元】【明】【宮】</note>
+<note n="0025033" resp="#resp2" type="mod" target="#nkr_note_mod_0025033">止＝正【宋】【元】【明】【宮】</note>
+<note n="0025034" resp="#resp2" type="mod" target="#nkr_note_mod_0025034">遍＝適【宋】【元】【明】【宮】【聖】</note>
+<note n="0025039" resp="#resp2" type="mod" target="#nkr_note_mod_0025039">浮渡＝泅度【宋】【元】【明】【宮】，＝涸度【聖】</note>
+<note n="0025040" resp="#resp2" type="mod" target="#nkr_note_mod_0025040">〔若演…心報〕二十一字－【聖】</note>
+<note n="0026002" resp="#resp2" type="mod" target="#nkr_note_mod_0026002">蛾＝蟻【宋】【元】【明】【宮】</note>
+<note n="0026005" resp="#resp2" type="mod" target="#nkr_note_mod_0026005">弘曠＝曠然【宋】【元】【明】【宮】</note>
+<note n="0026006" resp="#resp2" type="mod" target="#nkr_note_mod_0026006">福＝德【宋】【元】【明】【宮】</note>
+<note n="0026007" resp="#resp2" type="mod" target="#nkr_note_mod_0026007">曲＝惡【宋】【元】【明】【宮】</note>
+<note n="0026008" resp="#resp2" type="mod" target="#nkr_note_mod_0026008">〔德〕－【宋】【元】【明】【宮】</note>
+<note n="0026010" resp="#resp2" type="mod" target="#nkr_note_mod_0026010">（之）＋報【宋】【元】【明】【宮】</note>
+<note n="0026012" resp="#resp2" type="mod" target="#nkr_note_mod_0026012">報＝之執也【宋】【元】【明】，＝之報也【宮】</note>
+<note n="0026014" resp="#resp2" type="mod" target="#nkr_note_mod_0026014">利＝和【宋】【元】【明】【宮】</note>
+<note n="0026016" resp="#resp2" type="mod" target="#nkr_note_mod_0026016">之＋（所）【宋】【元】【明】【宮】，〔之〕－【聖】</note>
+<note n="0026017" resp="#resp2" type="mod" target="#nkr_note_mod_0026017">是＋（皆）【宋】【元】【明】【宮】</note>
+<note n="0026018" resp="#resp2" type="mod" target="#nkr_note_mod_0026018">（之）＋報【宋】【元】【明】【宮】</note>
+<note n="0026021" resp="#resp2" type="mod" target="#nkr_note_mod_0026021">佛者＝諸佛【宋】【元】【明】【宮】</note>
+<note n="0026022" resp="#resp2" type="mod" target="#nkr_note_mod_0026022">〔喜〕－【宋】【元】【明】【宮】</note>
+<note n="0026023" resp="#resp2" type="mod" target="#nkr_note_mod_0026023">因稍＝稍漸【宋】【元】【明】【宮】</note>
+<note n="0026025" resp="#resp2" type="mod" target="#nkr_note_mod_0026025">宜＝儀【宋】【元】【明】【宮】</note>
+<note n="0026026" resp="#resp2" type="mod" target="#nkr_note_mod_0026026">蓋＝善【宋】【元】【明】【宮】</note>
+<note n="0026027" resp="#resp2" type="mod" target="#nkr_note_mod_0026027">〔曰〕－【宋】【元】【明】【宮】【聖】</note>
+<note n="0026028" resp="#resp2" type="mod" target="#nkr_note_mod_0026028">〔和〕－【宋】【元】【明】【宮】【聖】</note>
+<note n="0026030" resp="#resp2" type="mod" target="#nkr_note_mod_0026030">志＝至【宋】【元】【明】【宮】</note>
+<note n="0026031" resp="#resp2" type="mod" target="#nkr_note_mod_0026031">喜＝觀【宋】【元】【明】，＝歡【宮】</note>
+<note n="0026033" resp="#resp2" type="mod" target="#nkr_note_mod_0026033">色＋（光明）【宋】【元】【明】【宮】</note>
+<note n="0026035" resp="#resp2" type="mod" target="#nkr_note_mod_0026035">昱＝曜【宋】【元】【明】【宮】</note>
+<note n="0026037" resp="#resp2" type="mod" target="#nkr_note_mod_0026037">〔曰〕－【宋】【元】【明】【宮】＊</note>
+<note n="0026038" resp="#resp2" type="mod" target="#nkr_note_mod_0026038">政＝正【宋】【元】【明】【宮】</note>
+<note n="0026039" resp="#resp2" type="mod" target="#nkr_note_mod_0026039">〔作〕－【宋】【元】【明】【宮】【聖】</note>
+<note n="0026040" resp="#resp2" type="mod" target="#nkr_note_mod_0026040">明＝光【宋】【宮】【聖】，＝澤【元】【明】</note>
+<note n="0026045" resp="#resp2" type="mod" target="#nkr_note_mod_0026045">自焰＝無自大【宋】【元】【明】，<!--CBETA todo type: i-->自焰＝無自大【宮】，＝自大【宮】</note>
+<note n="0026046" resp="#resp2" type="mod" target="#nkr_note_mod_0026046">〔數〕－【宋】【元】【明】【宮】</note>
+<note n="0027001" resp="#resp2" type="mod" target="#nkr_note_mod_0027001"><!--CBETA todo type: a-->卷第五終【聖】</note>
+<note n="0027002" resp="#resp2" type="mod" target="#nkr_note_mod_0027002"><!--CBETA todo type: a-->卷第六首【聖】</note>
+<note n="0027005" resp="#resp2" type="mod" target="#nkr_note_mod_0027005">疏＝踈【宋】【元】【明】【宮】</note>
+<note n="0027009" resp="#resp2" type="mod" target="#nkr_note_mod_0027009">固強＝強妙【宋】【元】【明】【宮】</note>
+<note n="0027010" resp="#resp2" type="mod" target="#nkr_note_mod_0027010">其齒＝齒皆【宋】【元】【明】【宮】</note>
+<note n="0027011" resp="#resp2" type="mod" target="#nkr_note_mod_0027011">嚮＝響【宋】【元】【明】【宮】＊</note>
+<note n="0027012" resp="#resp2" type="mod" target="#nkr_note_mod_0027012">各＋（得解）【宋】【元】【明】【宮】</note>
+<note n="0027014" resp="#resp2" type="mod" target="#nkr_note_mod_0027014">在＝存【宋】【元】【明】【宮】【聖】</note>
+<note n="0027017" resp="#resp2" type="mod" target="#nkr_note_mod_0027017">〔曰〕－【宋】【元】【明】【宮】＊</note>
+<note n="0027018" resp="#resp2" type="mod" target="#nkr_note_mod_0027018">平＋（如）【宋】【元】【明】【宮】</note>
+<note n="0027019" resp="#resp2" type="mod" target="#nkr_note_mod_0027019">色妙＝好色【宋】【元】【明】【宮】</note>
+<note n="0027022" resp="#resp2" type="mod" target="#nkr_note_mod_0027022">明澤＝澤益【宋】【元】【明】【宮】【聖】</note>
+<note n="0027027" resp="#resp2" type="mod" target="#nkr_note_mod_0027027">各＋（各）【宋】【元】【明】【宮】</note>
+<note n="0027028" resp="#resp2" type="mod" target="#nkr_note_mod_0027028">竚＝跱【宋】，＝峙【元】【明】，＝<g ref="#CB00279">𥩳</g>【宮】【聖】</note>
+<note n="0028001" resp="#resp2" type="mod" target="#nkr_note_mod_0028001">〔第〕－【宋】【元】【明】【宮】【聖】</note>
+<note n="0028003" resp="#resp2" type="mod" target="#nkr_note_mod_0028003">〔丹本有注云三十二相中舊闕二種文〕夾註－【宋】【元】【明】【宮】【聖】</note>
+<note n="0028004" resp="#resp2" type="mod" target="#nkr_note_mod_0028004"><!--CBETA todo type: a-->不分卷【宋】【元】【明】【宮】【聖】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0019009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019009">三＝四【三】【宮】</note>
+<note n="0019010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019010">捐棄＝棄捐【三】【宮】</note>
+<note n="0019011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019011">解＋（脫）【三】</note>
+<note n="0019012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019012">猗＝倚【宮】</note>
+<note n="0019013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019013">縱＝徒【三】【宮】</note>
+<note n="0019014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019014">人＝仁【宮】</note>
+<note n="0019015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019015">建＝逮【三】【宮】</note>
+<note n="0019016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019016">為＝曰【三】【宮】</note>
+<note n="0019017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019017">熟＝淑【三】【宮】</note>
+<note n="0019018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019018">用＝周【三】【宮】</note>
+<note n="0019019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019019">人＝仁【三】【宮】</note>
+<note n="0019020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019020">仁任＝人仁【三】</note>
+<note n="0019021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019021">忍＝同【三】【宮】</note>
+<note n="0019022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019022">燈＝鐙【宮】</note>
+<note n="0019023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019023">矣＝失【宮】</note>
+<note n="0019024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019024">人＝之【三】【宮】</note>
+<note n="0019025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019025">技＝校【宋】【宮】，授【元】【明】</note>
+<note n="0019026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0019026">技＝伎【宋】【宮】</note>
+<note n="0020001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020001">報＝執【明】【宮】</note>
+<note n="0020002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020002">令＝使令行【三】【宮】</note>
+<note n="0020003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020003">（心）＋若【三】【宮】</note>
+<note n="0020004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020004">〔進〕－【宮】</note>
+<note n="0020005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020005">極＝數【三】【宮】</note>
+<note n="0020006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020006">淨＝滌【三】【宮】</note>
+<note n="0020007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020007">露＝路【三】【宮】</note>
+<note n="0020008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020008">報＝執【三】【宮】</note>
+<note n="0020009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020009">奉＝舉【宮】</note>
+<note n="0020010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020010">親＝觀【三】</note>
+<note n="0020011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020011">羡＝美【宋】，著【元】【明】</note>
+<note n="0020012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020012">若＝覩【三】【宮】</note>
+<note n="0020013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020013">頒宣＝班宣【宮】下同</note>
+<note n="0020014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020014">〔所〕－【三】【宮】</note>
+<note n="0020015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020015">（未）＋曾【三】【宮】</note>
+<note n="0020016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020016">〔勸無〕－【宋】【元】</note>
+<note n="0020017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020017">濟有所救＝有所救濟【三】【宮】</note>
+<note n="0020018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020018">〔心〕－【三】【宮】</note>
+<note n="0020019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020019">所有＝有所【三】【宮】</note>
+<note n="0020020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0020020">智＝慧【三】【宮】</note>
+<note n="0021001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021001">德＝得【三】【宮】</note>
+<note n="0021002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021002">政＝正【三】【宮】</note>
+<note n="0021003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021003">嫉妬＝妬嫉【三】【宮】</note>
+<note n="0021004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021004">欝＝柯【元】【明】【宮】</note>
+<note n="0021005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021005">於＝所【宮】</note>
+<note n="0021006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021006">滅＝沒【宮】</note>
+<note n="0021007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021007">纔＝裁【三】【宮】</note>
+<note n="0021008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021008">炎＝焰【元】【明】</note>
+<note n="0021009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021009">枝＝枚【元】【明】【宮】＊</note>
+<note n="0021010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021010">亦＝示【三】【宮】</note>
+<note n="0021011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021011">濟＝捨【宋】【宮】</note>
+<note n="0021012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021012">大難＋（已）【宮】</note>
+<note n="0021013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021013">遭＝遇【三】【宮】</note>
+<note n="0021014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021014">開＝間【宮】</note>
+<note n="0021015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021015">生＝人【三】【宮】</note>
+<note n="0021016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021016">令得＝得令【宮】</note>
+<note n="0021017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021017">原首＝無著【三】【宮】</note>
+<note n="0021018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021018">昔者＝往昔【三】【宮】</note>
+<note n="0021019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021019">殖＝植【三】【宮】</note>
+<note n="0021020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021020">倚＝荷【宮】</note>
+<note n="0021021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021021">苦＝善【元】【明】</note>
+<note n="0021022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021022">觀＝覩【三】【宮】</note>
+<note n="0021023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021023">如來日＝來白【宮】</note>
+<note n="0021024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021024">法＋（乃）【三】，乃【宮】</note>
+<note n="0021025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021025">有＝身【宮】</note>
+<note n="0021026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021026">勳＝勤【三】【宮】</note>
+<note n="0021027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021027">侍＝恃【三】【宮】</note>
+<note n="0021028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021028">謂＝以故【宮】</note>
+<note n="0021029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021029">有＝名【宋】【宮】，名有【元】【明】</note>
+<note n="0021030" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021030">真＝其【宮】</note>
+<note n="0021031" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021031">至＝生【三】【宮】</note>
+<note n="0021032" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021032">界＝果【宮】</note>
+<note n="0021033" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021033">元＝見【三】【宮】</note>
+<note n="0021034" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021034">政＝正【三】【宮】</note>
+<note n="0021035" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021035">〔其〕－【三】【宮】</note>
+<note n="0021036" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021036">愍＝敏【宮】</note>
+<note n="0021037" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0021037">住明持＝持住明【元】【明】</note>
+<note n="0022001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022001">謂＋（佛）【三】【宮】</note>
+<note n="0022002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022002">以而＝而以【明】</note>
+<note n="0022003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022003">惱＝忽【三】【宮】</note>
+<note n="0022004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022004">想＝相【元】【明】</note>
+<note n="0022005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022005">所＝希【三】【宮】</note>
+<note n="0022006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022006">令護身口＝護身口心【三】【宮】</note>
+<note n="0022007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022007">政＝正【三】【宮】</note>
+<note n="0022008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022008">意＝慧【三】【宮】</note>
+<note n="0022009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022009">遵＝尊【宋】【宮】</note>
+<note n="0022010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022010">正＝所【三】【宮】</note>
+<note n="0022011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022011">〔行〕－【三】【宮】</note>
+<note n="0022012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022012">禪志＝志禪【三】【宮】</note>
+<note n="0022013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022013">覺＝寶【宮】</note>
+<note n="0022014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022014">達＝違【宮】</note>
+<note n="0022015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022015">無夾註【三】【宮】</note>
+<note n="0022016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022016">卷第五首【聖】</note>
+<note n="0022017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022017">於＝有【三】【宮】【聖】</note>
+<note n="0022018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022018">志＝至【宮】</note>
+<note n="0022019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022019">受持＝持受【三】【宮】</note>
+<note n="0022020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022020">原＝源【元】【明】</note>
+<note n="0022021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022021">持＝治【三】【宮】</note>
+<note n="0022022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022022">清＝青【聖】</note>
+<note n="0022023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022023">〔勤〕－【聖】</note>
+<note n="0022024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022024">人＝仁【三】【宮】</note>
+<note n="0022025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022025">仁＝人【聖】下同</note>
+<note n="0022026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022026">截＋（其）【三】【宮】</note>
+<note n="0022027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0022027">在海＝海中【三】【宮】</note>
+<note n="0023001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023001">聞＝開【聖】</note>
+<note n="0023002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023002">念＋（彌）【三】【宮】</note>
+<note n="0023003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023003">鳥＝象【明】【宮】</note>
+<note n="0023004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023004">了解＝解了【三】【宮】【聖】</note>
+<note n="0023005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023005">空＝虛【三】【宮】</note>
+<note n="0023006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023006">修＝濟【三】【宮】【聖】</note>
+<note n="0023007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023007">（尸）＋舍【三】【宮】【聖】</note>
+<note n="0023008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023008">葉＝華【三】【宮】</note>
+<note n="0023009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023009">道＝是【宮】</note>
+<note n="0023010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023010">大＝伏【宮】</note>
+<note n="0023011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023011">〔生〕－【宮】</note>
+<note n="0023012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023012">知＝智【聖】</note>
+<note n="0023013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023013">正＝山【三】【宮】</note>
+<note n="0023014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023014">眾＋（窮）【三】【宮】</note>
+<note n="0023015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023015">難＝者【三】【宮】</note>
+<note n="0023016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023016">（猶）＋如【三】【宮】</note>
+<note n="0023017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023017">人＝仁【三】【宮】</note>
+<note n="0023018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023018">至＝生【元】【明】【聖】</note>
+<note n="0023019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023019">不＝拂【元】【明】，下【宮】</note>
+<note n="0023020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023020">厄＝難【三】【宮】</note>
+<note n="0023021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023021">兩＝雨【三】【宮】</note>
+<note n="0023022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023022">勤＝謹【宮】</note>
+<note n="0023023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023023">相＝想【三】【宮】【聖】</note>
+<note n="0023024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023024">助＝勤【三】【宮】</note>
+<note n="0023025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023025">王＝玉【明】【宮】</note>
+<note n="0023026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023026">艱難＝難言【宮】</note>
+<note n="0023027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023027">救＋（濟）【宋】【宮】</note>
+<note n="0023028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023028">〔寂〕－【元】【明】</note>
+<note n="0023029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023029">〔百〕－【聖】</note>
+<note n="0023030" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023030">玉＝王【聖】</note>
+<note n="0023031" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0023031">〔為〕－【三】【宮】</note>
+<note n="0024001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024001">德＝福【三】【宮】</note>
+<note n="0024002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024002">興＝與【三】【宮】</note>
+<note n="0024003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024003">相＝想【元】【明】【聖】</note>
+<note n="0024004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024004">〔覺〕－【聖】</note>
+<note n="0024005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024005">壞＝懷【聖】</note>
+<note n="0024006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024006">已＝以【三】【宮】</note>
+<note n="0024007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024007">俗＝世【元】【明】</note>
+<note n="0024008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024008">使＝便【三】【宮】</note>
+<note n="0024009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024009">〔世〕－【宮】【聖】</note>
+<note n="0024010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024010">得攝其意＝攝其惡意【三】【宮】</note>
+<note n="0024011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024011">所救＝救護【三】【宮】</note>
+<note n="0024012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024012">和合＝悅和【三】【宮】</note>
+<note n="0024013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024013">諍＝煩【三】【宮】，順【聖】</note>
+<note n="0024014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024014">〔微〕－【三】【宮】【聖】</note>
+<note n="0024015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024015">偏＝徧【宋】</note>
+<note n="0024016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024016">精修＝修精【聖】</note>
+<note n="0024017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024017">〔解〕－【聖】</note>
+<note n="0024018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024018">弊＝蔽【三】【宮】，<g ref="#CB00877">𦿔</g>【聖】下同</note>
+<note n="0024019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024019">供＝恭【三】【宮】</note>
+<note n="0024020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024020">病＝療【三】【宮】【聖】</note>
+<note n="0024021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024021">害＝惡【元】【明】</note>
+<note n="0024022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024022">意＝音【宮】【聖】</note>
+<note n="0024023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024023">德＝勳【三】【宮】【聖】＊</note>
+<note n="0024024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024024">而＝如【三】【宮】</note>
+<note n="0024025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024025">嚮＝響【三】【宮】</note>
+<note n="0024026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024026">〔護〕－【聖】</note>
+<note n="0024027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024027">聖＝開【元】【明】</note>
+<note n="0024028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0024028">〔放〕－【宮】【聖】</note>
+<note n="0025001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025001">道德＝於道【三】【宮】</note>
+<note n="0025002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025002">行＋（道）【三】【宮】</note>
+<note n="0025003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025003">熾然＝然熾【三】【宮】【聖】</note>
+<note n="0025004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025004">諛＝諭【宮】【聖】</note>
+<note n="0025005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025005">墮＝隨【宮】</note>
+<note n="0025006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025006">用＝作【元】【明】</note>
+<note n="0025007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025007">阿＋（育）【元】【明】</note>
+<note n="0025008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025008">默＝黠【三】【宮】</note>
+<note n="0025009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025009">聞＋（者）【三】【宮】</note>
+<note n="0025010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025010">供＝恭【三】【宮】</note>
+<note n="0025011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025011">〔往〕－【聖】</note>
+<note n="0025012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025012">抱＝懷【三】【宮】</note>
+<note n="0025013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025013">〔是曰一心〕－【聖】</note>
+<note n="0025014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025014">精＝情【聖】</note>
+<note n="0025015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025015">親里＝理【三】【宮】，親理【聖】</note>
+<note n="0025016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025016">導＝道【三】【宮】</note>
+<note n="0025017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025017">哀愍＝愍哀【三】【宮】</note>
+<note n="0025018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025018">熱＝勢【聖】</note>
+<note n="0025019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025019">志＝忘【宮】</note>
+<note n="0025020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025020">令＝各【聖】</note>
+<note n="0025021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025021">目＝耳【聖】</note>
+<note n="0025022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025022">亡＝忘【元】【明】</note>
+<note n="0025023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025023">能＝制【三】【宮】</note>
+<note n="0025024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025024">塹＝漸【聖】</note>
+<note n="0025025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025025">逮＝怠【元】【明】</note>
+<note n="0025026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025026">禁＝持【三】【宮】【聖】</note>
+<note n="0025027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025027">行自＝修【聖】</note>
+<note n="0025028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025028">懈＝塹【元】【明】【聖】，壍【宮】</note>
+<note n="0025029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025029">恨＝限【三】【宮】</note>
+<note n="0025030" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025030">〔也〕－【三】【宮】</note>
+<note n="0025031" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025031">卷第四終【三】【宮】</note>
+<note n="0025032" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025032">卷第五首【三】【宮】</note>
+<note n="0025033" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025033">止＝正【三】【宮】</note>
+<note n="0025034" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025034">遍＝適【三】【宮】【聖】</note>
+<note n="0025035" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025035">顯＝頭【聖】</note>
+<note n="0025036" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025036">屏＝瓶【元】【明】</note>
+<note n="0025037" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025037">浮＝桴【元】【明】</note>
+<note n="0025038" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025038">筏＝栰【宋】【宮】</note>
+<note n="0025039" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025039">浮渡＝泅度【三】【宮】，涸度【聖】</note>
+<note n="0025040" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025040">〔若演…心報〕廿一字－【聖】</note>
+<note n="0025041" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025041">恬怕＝恬恬【宮】</note>
+<note n="0025042" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025042">躍＝曜【聖】</note>
+<note n="0025043" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0025043">存＝在【宮】</note>
+<note n="0026001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026001">足下＝下足【宋】【宮】</note>
+<note n="0026002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026002">蛾＝蟻【三】【宮】</note>
+<note n="0026003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026003">庠＝詳【聖】下同</note>
+<note n="0026004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026004">卒＝平【聖】</note>
+<note n="0026005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026005">弘曠＝曠然【三】【宮】</note>
+<note n="0026006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026006">福＝德【三】【宮】</note>
+<note n="0026007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026007">曲＝惡【三】【宮】</note>
+<note n="0026008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026008">〔德〕－【三】【宮】</note>
+<note n="0026009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026009">〔曰〕－【宮】【聖】＊</note>
+<note n="0026010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026010">（之）＋報【三】【宮】</note>
+<note n="0026011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026011">麁文＝一麁【宋】【宮】</note>
+<note n="0026012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026012">報＝之執也【三】，之報也【宮】</note>
+<note n="0026013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026013">悅＝惔【宮】</note>
+<note n="0026014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026014">利＝和【三】【宮】</note>
+<note n="0026015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026015">〔者〕－【聖】</note>
+<note n="0026016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026016">之＋（所）【三】【宮】，〔之〕－【聖】</note>
+<note n="0026017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026017">是＋（皆）【三】【宮】</note>
+<note n="0026018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026018">（之）＋報【三】【宮】</note>
+<note n="0026019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026019">縵＝漫【聖】＊</note>
+<note n="0026020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026020">姝＝殊【宋】【宮】</note>
+<note n="0026021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026021">佛者＝諸佛【三】【宮】</note>
+<note n="0026022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026022">〔喜〕－【三】【宮】</note>
+<note n="0026023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026023">因稍＝稍漸【三】【宮】</note>
+<note n="0026024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026024"><g ref="#CB00166">𦟛</g>＝傭【宋】【宮】【聖】＊</note>
+<note n="0026025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026025">宜＝儀【三】【宮】</note>
+<note n="0026026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026026">蓋＝善【三】【宮】</note>
+<note n="0026027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026027">〔曰〕－【三】【宮】【聖】</note>
+<note n="0026028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026028">〔和〕－【三】【宮】【聖】</note>
+<note n="0026029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026029">〔人〕－【聖】</note>
+<note n="0026030" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026030">志＝至【三】【宮】</note>
+<note n="0026031" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026031">喜＝觀【三】，歡【宮】</note>
+<note n="0026032" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026032">卒＝平【聖】</note>
+<note n="0026033" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026033">色＋（光明）【三】【宮】</note>
+<note n="0026034" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026034">踰＝喻【聖】</note>
+<note n="0026035" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026035">昱＝曜【三】【宮】</note>
+<note n="0026036" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026036">臆＝應【聖】</note>
+<note n="0026037" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026037">〔曰〕－【三】【宮】＊</note>
+<note n="0026038" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026038">政＝正【三】【宮】</note>
+<note n="0026039" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026039">〔作〕－【三】【宮】【聖】</note>
+<note n="0026040" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026040">明＝光【宋】【宮】【聖】，澤【元】【明】</note>
+<note n="0026041" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026041">勳＝熏【元】【明】</note>
+<note n="0026042" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026042">真＝直【聖】</note>
+<note n="0026043" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026043">〔報〕－【聖】</note>
+<note n="0026044" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026044">以身＝身以【宮】【聖】</note>
+<note n="0026045" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026045">自焰＝無自大【三】【宮】，自大【宮】</note>
+<note n="0026046" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0026046">〔數〕－【三】【宮】</note>
+<note n="0027001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027001">卷第五終【聖】</note>
+<note n="0027002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027002">卷第六首【聖】</note>
+<note n="0027003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027003">見＝是【明】</note>
+<note n="0027004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027004">是＋（何）【聖】</note>
+<note n="0027005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027005">疏＝踈【三】【宮】</note>
+<note n="0027006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027006">點＝沾【宋】【宮】【聖】</note>
+<note n="0027007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027007">要＝好【元】【明】</note>
+<note n="0027008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027008">〔齒〕－【宮】【聖】</note>
+<note n="0027009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027009">固強＝強妙【三】【宮】</note>
+<note n="0027010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027010">其齒＝齒皆【三】【宮】</note>
+<note n="0027011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027011">嚮＝響【三】【宮】＊</note>
+<note n="0027012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027012">各＋（得解）【三】【宮】</note>
+<note n="0027013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027013">王＋（何謂如來身方正報）【宋】【宮】，王＋（何謂如來身方正報度無極有六事）【元】【明】</note>
+<note n="0027014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027014">在＝存【三】【宮】【聖】</note>
+<note n="0027015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027015">教＋（教）【聖】</note>
+<note n="0027016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027016">中上＝味次【宮】【聖】</note>
+<note n="0027017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027017">〔曰〕－【三】【宮】＊</note>
+<note n="0027018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027018">平＋（如）【三】【宮】</note>
+<note n="0027019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027019">色妙＝好色【三】【宮】</note>
+<note n="0027020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027020">月＝目【聖】</note>
+<note n="0027021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027021">目＝月【聖】</note>
+<note n="0027022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027022">明澤＝澤益【三】【宮】【聖】</note>
+<note n="0027023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027023">鸚鵡＝英武【聖】＊</note>
+<note n="0027024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027024">〔諦忍〕－【宮】</note>
+<note n="0027025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027025">〔威儀〕－【宮】</note>
+<note n="0027026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027026">髻＝結【宮】【聖】＊</note>
+<note n="0027027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027027">各＋（各）【三】【宮】</note>
+<note n="0027028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027028">竚＝跱【宋】，峙【元】【明】，<g ref="#CB00279">𥩳</g>【宮】【聖】</note>
+<note n="0027029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0027029">〔無〕－【聖】</note>
+<note n="0028001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0028001">〔第〕－【三】【宮】【聖】</note>
+<note n="0028002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0028002">〔十〕－【聖】</note>
+<note n="0028003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0028003">無夾註【三】【宮】【聖】</note>
+<note n="0028004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0028004">不分卷【三】【宮】【聖】</note>
+</p>
+</cb:div>
+</back></text></TEI>

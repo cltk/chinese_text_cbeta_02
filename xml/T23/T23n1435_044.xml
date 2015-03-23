@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T23n1435">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1435 十誦律</title>
+			<author>後秦 弗若多羅共羅什譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.35 $<date>$Date: 2010/03/15 09:14:21 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+	</editionStmt>
+	<extent>61卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2010/03/15 09:14:21 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 23, No. 1435</bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宮】</witness>
+		<witness xml:id="wit3">【宋】</witness>
+		<witness xml:id="wit4">【元】</witness>
+		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【聖】</witness>
+		<witness xml:id="wit9">【聖乙】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Ven. Shi Ben-Chan</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，釋本禪法師提供新式標點</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00567">
+	<charName>CBETA CHARACTER CB00567</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[跳-兆+專]</value>
+	</charProp>
+	<mapping type="normal_unicode">U+28114</mapping>
+	<mapping cb:dec="983607" type="PUA">U+F0237</mapping>
+</char>
+<char xml:id="CB13416">
+	<charName>CBETA CHARACTER CB13416</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[蹲-酋+(十/田/ㄙ)]</value>
+	</charProp>
+	<mapping type="unicode">U+28114</mapping>
+	<mapping cb:dec="996456" type="PUA">U+F3468</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+	<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-05-12T23:26:44">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/5/12)</change>
+	<change when="1999-11-04T15:39:00">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/5/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="7" type="其他">七誦</cb:mulu><cb:mulu level="2" n="12" type="其他">12 尼律</cb:mulu><cb:mulu level="3" n="30" type="其他">3 尼三十捨墮法</cb:mulu><cb:div type="other"><cb:div type="other"><cb:div type="other">
+<pb n="0316b" ed="T" xml:id="T23.1435.0316b"/>
+<lb n="0316b01" ed="T"/><milestone n="44" unit="juan"/>
+<lb n="0316b02" ed="T"/>
+<lb n="0316b03" ed="T"/><cb:juan n="044" fun="open"><cb:mulu n="044" type="卷"></cb:mulu><cb:jhead><title>十誦律</title>卷第四十四<note place="inline">第七誦之三</note></cb:jhead>
+<lb n="0316b04" ed="T"/>
+<lb n="0316b05" ed="T"/><byline cb:type="Translator">後秦北印度三藏弗若多羅共羅什譯</byline>
+<lb n="0316b06" ed="T"/><cb:jhead type="pin">尼律第三<note place="inline">三十捨墮法之一</note></cb:jhead></cb:juan>
+<lb n="0316b07" ed="T"/><p xml:id="pT23p0316b0701"><anchor type="circle"/><anchor xml:id="nkr_note_orig_0316004" n="0316004"/><anchor xml:id="nkr_note_mod_0316004" n="0316004"/>佛在舍衛國。爾時諸比丘尼，行乞欲為多
+<lb n="0316b08" ed="T"/>人作房舍。諸居士問言：「欲作何等？」答言：「為多
+<lb n="0316b09" ed="T"/>人起房舍。」諸婆羅門居士有信者，多與財物。
+<lb n="0316b10" ed="T"/>比丘尼得財物已值世<anchor xml:id="nkr_note_orig_0316005" n="0316005"/><anchor xml:id="beg0316005" n="0316005"/>飢<anchor xml:id="end0316005"/>儉，作是思惟：「今世
+<lb n="0316b11" ed="T"/>飢儉宜自活命。若我活者，後當為多人作房。」
+<lb n="0316b12" ed="T"/>即於儉世食是物盡。飢儉世過豐樂時<anchor xml:id="nkr_note_orig_0316006" n="0316006"/><anchor xml:id="beg0316006" n="0316006"/>到<anchor xml:id="end0316006"/>，諸
+<lb n="0316b13" ed="T"/>比丘尼復行乞財物，諸居士問言：「欲作何等？」
+<lb n="0316b14" ed="T"/>答言：「欲作多人房舍。」諸居士言：「我等先所施
+<lb n="0316b15" ed="T"/>物，今何所在？」答言：「我等先所乞財物已值世
+<lb n="0316b16" ed="T"/>飢儉，作是思惟：『如今飢儉時宜自活命。若我
+<lb n="0316b17" ed="T"/>活者，後當作多人房舍。』我等於飢儉時食是
+<lb n="0316b18" ed="T"/>物盡。」諸居士呵責言：「諸比丘尼自言：『善好有
+<lb n="0316b19" ed="T"/>功德。』異乞異用，如王夫人、大臣婦。」是中有比
+<lb n="0316b20" ed="T"/>丘尼，少欲知足行頭陀，聞是事心不喜，種種
+<lb n="0316b21" ed="T"/>因緣呵責言：「云何名比丘尼，異乞異用？」種種
+<lb n="0316b22" ed="T"/>因緣呵已，向佛廣說。佛以是事集二部僧，知
+<lb n="0316b23" ed="T"/>而故問是比丘尼：「汝實作是事不？」答言：「實作。
+<lb n="0316b24" ed="T"/>世尊！」佛以種種因緣呵責是比丘尼：「云何名
+<lb n="0316b25" ed="T"/>比丘尼，異乞異用？」種種因緣呵已，語諸比丘：
+<lb n="0316b26" ed="T"/>「以十利故與比丘尼結戒，從今是戒應如是
+<lb n="0316b27" ed="T"/>說：若比丘尼為多人是事乞、作餘事用，尼薩
+<lb n="0316b28" ed="T"/>耆波<anchor xml:id="nkr_note_orig_0316007" n="0316007"/><anchor xml:id="nkr_note_mod_0316007" n="0316007"/><anchor xml:id="beg0316007" n="0316007"/>夜<anchor xml:id="end0316007"/>提。」</p><p xml:id="pT23p0316b2805" rend="inline">尼薩耆波夜提者，是物應捨，波
+<lb n="0316b29" ed="T"/>夜提罪應悔過。</p><p xml:id="pT23p0316b2907" rend="inline">是中犯者，若比丘尼為多人
+<pb n="0316c" ed="T" xml:id="T23.1435.0316c"/>
+<lb n="0316c01" ed="T"/>是事乞、作餘事用，尼薩耆波夜提。隨用時，隨
+<lb n="0316c02" ed="T"/>得爾所尼薩耆波夜提。<note place="inline"><anchor xml:id="nkr_note_orig_0316008" n="0316008"/><anchor xml:id="beg0316008" n="0316008"/>二<anchor xml:id="end0316008"/>十八事竟</note></p>
+<lb n="0316c03" ed="T"/><p xml:id="pT23p0316c0301">佛在舍衛國。爾時有比丘尼，名達摩提那，於
+<lb n="0316c04" ed="T"/>冬八夜寒風破竹時，著單薄衣行乞食。有<anchor xml:id="nkr_note_orig_0316009" n="0316009"/><anchor xml:id="beg0316009" n="0316009"/>估<anchor xml:id="end0316009"/>
+<lb n="0316c05" ed="T"/>客見是比丘尼，往語諸鬪將言：「汝得富樂，皆
+<lb n="0316c06" ed="T"/>由達摩提那比丘尼因緣，汝等不能各各與
+<lb n="0316c07" ed="T"/>比丘尼作厚衣耶？是比丘尼今冬八夜寒風
+<lb n="0316c08" ed="T"/>破竹時，著單衣行乞食，汝等若不能各各作
+<lb n="0316c09" ed="T"/>一衣與者，當共合作一衣與。」估客令其發憍
+<lb n="0316c10" ed="T"/>慢心故，皆言：「當共作與。」即喚比丘尼言：「汝須
+<lb n="0316c11" ed="T"/>何衣？隨汝意與。」是比丘尼言：「我須五百錢直
+<lb n="0316c12" ed="T"/>衣。」時諸鬪將隨意買與。是比丘尼著貴價衣
+<lb n="0316c13" ed="T"/>行乞食，諸居士呵責言：「諸比丘尼自言：『善好
+<lb n="0316c14" ed="T"/>有功德。』著貴價衣行乞食，如王夫人、大臣婦。」
+<lb n="0316c15" ed="T"/>是中有比丘尼，少欲知足行頭陀，聞是事心
+<lb n="0316c16" ed="T"/>不喜，呵責言：「云何名比丘尼，著貴價衣行乞
+<lb n="0316c17" ed="T"/>食？」種種因緣呵已，向佛廣說。佛以是事集二
+<lb n="0316c18" ed="T"/>部僧，知而故問達摩提那比丘尼：「汝實作是
+<lb n="0316c19" ed="T"/>事不？」答言：「實作。世尊！」佛以種種因緣呵責：「云
+<lb n="0316c20" ed="T"/>何名比丘尼，著貴價衣行乞食？」種種因緣呵
+<lb n="0316c21" ed="T"/>已，語諸比丘：「以十利故與<anchor xml:id="nkr_note_orig_0316010" n="0316010"/><anchor xml:id="beg0316010" n="0316010"/>比<anchor xml:id="end0316010"/>丘尼結戒。從
+<lb n="0316c22" ed="T"/>今是戒應如是說：若比丘尼欲乞重衣，乃至
+<lb n="0316c23" ed="T"/>直四錢應乞。若過是乞者，尼薩耆波夜提。」</p><p xml:id="pT23p0316c2317" rend="inline">錢
+<lb n="0316c24" ed="T"/>者，謂大錢乃至直十六小錢。</p><p xml:id="pT23p0316c2412" rend="inline">尼薩耆波夜提
+<lb n="0316c25" ed="T"/>者，是衣應捨，波夜提罪應悔過。</p><p xml:id="pT23p0316c2513" rend="inline">是中犯者，
+<lb n="0316c26" ed="T"/>若比丘尼乞過四錢重衣，尼薩耆波夜提。隨
+<lb n="0316c27" ed="T"/>乞，隨得爾所尼薩耆波夜提。<note place="inline"><anchor xml:id="beg_8d6" type="star"/>二<anchor xml:id="end_8d6"/>十九事竟</note></p>
+<lb n="0316c28" ed="T"/><p xml:id="pT23p0316c2801">佛在舍衛國。爾時冬寒過至熱時，達摩提那
+<lb n="0316c29" ed="T"/>比丘尼著重衣，頭面流汗眼闇而行乞食。
+<pb n="0317a" ed="T" xml:id="T23.1435.0317a"/>
+<lb n="0317a01" ed="T"/>有一估客見已，即往語諸鬪將言：「聚落主，汝
+<lb n="0317a02" ed="T"/>等得富樂者，皆由達摩提那比丘尼因緣，汝
+<lb n="0317a03" ed="T"/>等不能各各與作輕衣耶？是比丘尼今熱時
+<lb n="0317a04" ed="T"/>著重衣，頭面流汗眼闇<anchor xml:id="nkr_note_orig_0317001" n="0317001"/><anchor xml:id="beg0317001" n="0317001"/>而<anchor xml:id="end0317001"/>行乞食，汝等若不
+<lb n="0317a05" ed="T"/>能各各作輕衣與者，當共合作一衣與。」估客
+<lb n="0317a06" ed="T"/>令諸鬪將發憍慢心，皆言：「當共作與。」即喚比
+<lb n="0317a07" ed="T"/>丘尼來問言：「汝須何衣？隨汝意與。」答言：「我須
+<lb n="0317a08" ed="T"/>二百五十錢直衣。」時諸鬪將隨意買與。是比
+<lb n="0317a09" ed="T"/>丘尼著是衣行乞食，諸居士呵責言：「諸比丘
+<lb n="0317a10" ed="T"/>尼自言：『善好有功德。』著貴價輕衣行乞食，如
+<lb n="0317a11" ed="T"/>王夫人、大臣婦。」是中有比丘尼，少欲知足行
+<lb n="0317a12" ed="T"/>頭陀，聞是事心不喜，種種因緣呵責言：「云何
+<lb n="0317a13" ed="T"/>名比丘尼，著貴價輕衣行乞食？」種種因緣呵
+<lb n="0317a14" ed="T"/>已向佛廣說。佛以是事集二部僧，知而故問
+<lb n="0317a15" ed="T"/>是比丘尼：「汝實作是事不？」答言：「實作。世尊！」佛
+<lb n="0317a16" ed="T"/>以種種因緣呵責言：「云何名比丘尼，著貴價
+<lb n="0317a17" ed="T"/>輕衣行乞食？」種種因緣呵已，語諸比丘：「以十
+<lb n="0317a18" ed="T"/>利故與比丘尼結戒，從今是戒應如是說：若
+<lb n="0317a19" ed="T"/>比丘尼欲乞輕衣，應乃至直二錢半。過是乞
+<lb n="0317a20" ed="T"/>者，尼薩耆波夜提。」</p><p xml:id="pT23p0317a2008" rend="inline">錢者，謂大錢乃至直十六
+<lb n="0317a21" ed="T"/>小錢。</p><p xml:id="pT23p0317a2103" rend="inline">尼薩耆波夜提者，是衣應捨，波夜提罪
+<lb n="0317a22" ed="T"/>應悔過。</p><p xml:id="pT23p0317a2204" rend="inline">是中犯者，若比丘尼乞過二錢半輕
+<lb n="0317a23" ed="T"/>衣，尼薩耆波夜提。隨乞，隨得爾所尼薩耆波
+<lb n="0317a24" ed="T"/>夜提。<note place="inline"><anchor xml:id="nkr_note_orig_0317002" n="0317002"/><anchor xml:id="beg0317002" n="0317002"/>三<anchor xml:id="end0317002"/>十事竟</note></p></cb:div>
+<lb n="0317a25" ed="T"/><cb:div type="other"><cb:mulu level="3" n="31" type="其他">4 百七十八單波夜提法</cb:mulu><head><anchor xml:id="nkr_note_orig_0317003" n="0317003"/><anchor xml:id="nkr_note_mod_0317003" n="0317003"/><anchor xml:id="beg0317003" n="0317003"/>百<anchor xml:id="end0317003"/>七十八<anchor xml:id="nkr_note_orig_0317004" n="0317004"/><anchor xml:id="beg0317004" n="0317004"/>單波夜提法<anchor xml:id="end0317004"/><note place="inline"><anchor xml:id="nkr_note_orig_0317005" n="0317005"/><anchor xml:id="nkr_note_mod_0317005" n="0317005"/><anchor xml:id="beg0317005" n="0317005"/>前七十一與大僧同故不出，從此第七十二戒
+<lb n="0317a26" ed="T"/>已下一百七戒不同比丘故別明之<anchor xml:id="end0317005"/>。</note></head>
+<lb n="0317a27" ed="T"/><p xml:id="pT23p0317a2701"><anchor xml:id="nkr_note_orig_0317006" n="0317006"/><anchor xml:id="nkr_note_mod_0317006" n="0317006"/><anchor xml:id="beg0317006" n="0317006"/>初食蒜戒<anchor xml:id="end0317006"/></p>
+<lb n="0317a28" ed="T"/><p xml:id="pT23p0317a2801">佛在舍衛國。爾時有守蒜園人，名阿耆達多，
+<lb n="0317a29" ed="T"/>是人蒜菜茂盛，請諸比丘尼言：「須蒜者來取。」
+<pb n="0317b" ed="T" xml:id="T23.1435.0317b"/>
+<lb n="0317b01" ed="T"/>時式叉摩尼、沙彌尼，一年來拔蒜，至二、三年
+<lb n="0317b02" ed="T"/>蒜園不成，即捨蒜園去，不能復種。更有居士，
+<lb n="0317b03" ed="T"/>於故處種蒜，諸式叉摩尼、沙彌尼，以本意故，
+<lb n="0317b04" ed="T"/>復來拔蒜。是園主作是念：「誰偷我蒜，我當伺
+<lb n="0317b05" ed="T"/>捕。」是居士即於屏處伺看，見諸式叉摩尼、沙
+<lb n="0317b06" ed="T"/>彌尼拔蒜，居士言：「莫取我蒜。」答言：「舍衛城阿
+<lb n="0317b07" ed="T"/>耆達多居士，請我取蒜，何豫汝事？」是居士
+<lb n="0317b08" ed="T"/>言：「本田主以汝等因緣故，捨田而去。今我於
+<lb n="0317b09" ed="T"/>中種蒜，汝等莫取。」諸式叉摩尼、沙彌尼羞，作
+<lb n="0317b10" ed="T"/>是言：「我等不知，自今以後不敢復取。」諸居士
+<lb n="0317b11" ed="T"/><anchor xml:id="nkr_note_orig_0317007" n="0317007"/><anchor xml:id="nkr_note_mod_0317007" n="0317007"/><anchor xml:id="beg0317007" n="0317007"/>瞋<anchor xml:id="end0317007"/>呵責言：「諸比丘尼自言：『善好有功德。』噉
+<lb n="0317b12" ed="T"/>蒜如白衣女。」是中有比丘尼，少欲知足行頭
+<lb n="0317b13" ed="T"/>陀，聞是事心不喜，種種因緣呵責言：「云何名
+<lb n="0317b14" ed="T"/>比丘尼，噉蒜如白衣女？」種種因緣呵已，向佛
+<lb n="0317b15" ed="T"/>廣說。佛以是事集二部僧，知而故問是比丘
+<lb n="0317b16" ed="T"/>尼：「汝實作是事不？」答言：「實作。世尊！」佛以種
+<lb n="0317b17" ed="T"/>種因緣呵責言：「云何名比丘尼，噉蒜如白衣
+<lb n="0317b18" ed="T"/>女？」種種因緣呵已，語諸比丘：「以十利故與比
+<lb n="0317b19" ed="T"/>丘尼結戒。從今是戒應如是說：若比丘尼噉
+<lb n="0317b20" ed="T"/>生蒜、熟蒜，波夜提。」</p><p xml:id="pT23p0317b2008" rend="inline">波夜提者，燒煮覆障，若不
+<lb n="0317b21" ed="T"/>悔過，能障礙道。</p><p xml:id="pT23p0317b2107" rend="inline">是中犯者，若比丘尼噉生蒜，
+<lb n="0317b22" ed="T"/>波夜提。噉熟蒜，波夜提。若噉蒜子，波夜提。若
+<lb n="0317b23" ed="T"/>噉莖葉，波夜提。若噉蒜皮蒜鬚，突吉羅。若治
+<lb n="0317b24" ed="T"/>病、若塗瘡，不犯。<note place="inline"><anchor xml:id="nkr_note_orig_0317008" n="0317008"/><anchor xml:id="beg0317008" n="0317008"/>七<anchor xml:id="end0317008"/>十二<anchor xml:id="nkr_note_orig_0317009" n="0317009"/><anchor xml:id="beg0317009" n="0317009"/>事<anchor xml:id="end0317009"/>竟</note></p>
+<lb n="0317b25" ed="T"/><p xml:id="pT23p0317b2501">佛在舍衛國。爾時偷蘭難陀比丘尼，使人剃
+<lb n="0317b26" ed="T"/>大小便處毛。諸比丘尼問言：「汝作何等？」答言：
+<lb n="0317b27" ed="T"/>「剃大小便處毛，為好故。」是中有比丘尼，少欲
+<lb n="0317b28" ed="T"/>知足行頭陀，聞是事心不喜，種種因緣呵責
+<lb n="0317b29" ed="T"/>言：「云何名比丘尼，使人剃大小便處毛？」種種
+<pb n="0317c" ed="T" xml:id="T23.1435.0317c"/>
+<lb n="0317c01" ed="T"/>因緣呵已，向佛廣說。佛以是事集二部僧，知
+<lb n="0317c02" ed="T"/>而故問偷蘭難陀：「汝實作是事不？」答言：「實作。
+<lb n="0317c03" ed="T"/>世尊！」佛以種種因緣呵責言：「云何名比丘尼，
+<lb n="0317c04" ed="T"/>使人剃大小便處毛？」種種因緣呵已，語諸比
+<lb n="0317c05" ed="T"/>丘：「以十利故與比丘尼結戒。從今是戒應如
+<lb n="0317c06" ed="T"/>是說：若比丘尼剃大小便處毛，波夜提。」</p><p xml:id="pT23p0317c0616" rend="inline">波夜
+<lb n="0317c07" ed="T"/>提者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0317c0715" rend="inline">是中犯
+<lb n="0317c08" ed="T"/>者，若比丘尼剃大便處、毛波夜提。剃小便處
+<lb n="0317c09" ed="T"/>毛，波夜提。除二處，剃餘處毛，突吉羅。<note place="inline">七十三事竟</note></p>
+<lb n="0317c10" ed="T"/><p xml:id="pT23p0317c1001">佛在舍衛國。爾時偷蘭難陀比丘尼，以指
+<lb n="0317c11" ed="T"/>刺女根中。諸比丘尼問言：「汝作何等？」答言：
+<lb n="0317c12" ed="T"/>「受細滑故。」是中有比丘尼，少欲知足行頭陀，
+<lb n="0317c13" ed="T"/>聞是事心不喜，呵責言：「云何名比丘尼，以指
+<lb n="0317c14" ed="T"/>刺女根中，受細滑故？」種種因緣呵已，向佛廣
+<lb n="0317c15" ed="T"/>說。佛以是事集二部僧，知而故問偷蘭難陀：
+<lb n="0317c16" ed="T"/>「汝實作是事不？」答言：「實作。世尊！」佛以種種因
+<lb n="0317c17" ed="T"/>緣呵責：「云何名比丘尼，以指刺女根中，為細
+<lb n="0317c18" ed="T"/>滑故？」種種因緣呵已，語諸比丘：「以十利故與
+<lb n="0317c19" ed="T"/>比丘尼結戒。從今是戒應如是說：若比丘尼
+<lb n="0317c20" ed="T"/>以指刺女根中，波夜提。」</p><p xml:id="pT23p0317c2010" rend="inline">波夜提者，燒煮覆障，
+<lb n="0317c21" ed="T"/>若不悔過，能障礙道。</p><p xml:id="pT23p0317c2109" rend="inline">是中犯者，若比丘尼以
+<lb n="0317c22" ed="T"/>指刺女根中，波夜提。隨著，隨得爾所波夜提。</p>
+<lb n="0317c23" ed="T"/><p xml:id="pT23p0317c2301">一時有比丘尼，久不洗女根故臭爛，諸比丘
+<lb n="0317c24" ed="T"/>尼以是事白佛。佛以是事集二部僧，讚戒、讚
+<lb n="0317c25" ed="T"/>持戒，讚戒、讚持戒已，語諸比丘：「從今是戒應
+<lb n="0317c26" ed="T"/>如是說：若比丘尼以指刺女根中，除洗時，波
+<lb n="0317c27" ed="T"/>夜提。」</p><p xml:id="pT23p0317c2703" rend="inline">是中犯者，若比丘尼不洗，以指刺女根
+<lb n="0317c28" ed="T"/>中，波夜提。隨著，隨得爾所波夜提。</p><p xml:id="pT23p0317c2814" rend="inline"><anchor xml:id="nkr_note_orig_0317010" n="0317010"/><anchor xml:id="nkr_note_mod_0317010" n="0317010"/><anchor xml:id="beg0317010" n="0317010"/>又<anchor xml:id="end0317010"/>比丘尼
+<lb n="0317c29" ed="T"/>洗因緣故，以指深刺女根中，諸比丘尼以是
+<pb n="0318a" ed="T" xml:id="T23.1435.0318a"/>
+<lb n="0318a01" ed="T"/>事白佛。佛以是事集二部僧，語諸比丘：「從今
+<lb n="0318a02" ed="T"/>是戒應如是說：若比丘尼洗時，以指刺女根
+<lb n="0318a03" ed="T"/>中，過二指節，波夜提。」</p><p xml:id="pT23p0318a0309" rend="inline">是中犯者，若比丘尼以
+<lb n="0318a04" ed="T"/>指刺女根中，洗時過二指節波夜提。隨著，隨
+<lb n="0318a05" ed="T"/>得爾所波夜提。<note place="inline"><anchor xml:id="beg_8d7" type="star"/>七<anchor xml:id="end_8d7"/>十<anchor xml:id="nkr_note_orig_0318001" n="0318001"/><anchor xml:id="nkr_note_mod_0318001" n="0318001"/><anchor xml:id="beg0318001" n="0318001"/>四<anchor xml:id="end0318001"/>竟</note></p>
+<lb n="0318a06" ed="T"/><p xml:id="pT23p0318a0601">佛在舍衛國。爾時偷蘭難陀比丘尼，以掌拍
+<lb n="0318a07" ed="T"/>女根。諸比丘尼問言：「汝作何等？」答言：「欲使肥
+<lb n="0318a08" ed="T"/>好。」是中有比丘尼，少欲知足行頭陀，聞是事
+<lb n="0318a09" ed="T"/>心不喜，種種因緣呵責言：「云何名比丘尼，以
+<lb n="0318a10" ed="T"/>手掌拍女根欲使肥好？」種種因緣呵已向佛
+<lb n="0318a11" ed="T"/>廣說。佛以是事集二部僧，知而故問偷蘭難
+<lb n="0318a12" ed="T"/>陀：「汝實作是事不？」答言：「實作。世尊！」佛以種種
+<lb n="0318a13" ed="T"/>因緣呵責：「云何名比丘尼，以手掌拍女根欲
+<lb n="0318a14" ed="T"/>使肥好？」種種因緣呵已，語諸比丘：「以十利故
+<lb n="0318a15" ed="T"/>與比丘尼結戒，從今是戒應如是說：若比丘
+<lb n="0318a16" ed="T"/>尼以掌拍女根，波夜提。」</p><p xml:id="pT23p0318a1610" rend="inline">掌者，有二種：手掌、脚
+<lb n="0318a17" ed="T"/>掌。</p><p xml:id="pT23p0318a1702" rend="inline">波夜提者，燒煮覆障，若不悔過，能障礙道。</p>
+<lb n="0318a18" ed="T"/><p xml:id="pT23p0318a1801">是中犯者，若比丘尼以手掌拍女根，波夜提。
+<lb n="0318a19" ed="T"/>若以脚掌拍，亦波夜提。除手脚掌，以餘物拍，
+<lb n="0318a20" ed="T"/>突吉羅。<note place="inline"><anchor xml:id="beg_8d8" type="star"/>七<anchor xml:id="end_8d8"/>十<anchor xml:id="nkr_note_orig_0318002" n="0318002"/><anchor xml:id="beg0318002" n="0318002"/>五<anchor xml:id="end0318002"/>竟</note></p>
+<lb n="0318a21" ed="T"/><p xml:id="pT23p0318a2101">佛在舍衛國。爾時有二比丘尼：一名羅吒，二
+<lb n="0318a22" ed="T"/>名波羅吒，本出貴家。是二比丘尼早起，行至
+<lb n="0318a23" ed="T"/>諸親里知識檀越家，得好飲食噉，皆言：「不美。」
+<lb n="0318a24" ed="T"/>問言：「誰作此食？」主人答言：「厨士所作。」比丘尼
+<lb n="0318a25" ed="T"/>言：「何以作無氣味食？」主人問言：「汝能作不？」比
+<lb n="0318a26" ed="T"/>丘尼言：「能！若有好日欲作節會，若欲詣水
+<lb n="0318a27" ed="T"/>上便來語我，我當為汝作飲食。」後時主人好
+<lb n="0318a28" ed="T"/>日至，欲入園中，便喚比丘尼。是比丘尼來
+<lb n="0318a29" ed="T"/>為作飲食，是家中有客作食人，護厨到門下
+<pb n="0318b" ed="T" xml:id="T23.1435.0318b"/>
+<lb n="0318b01" ed="T"/>立，見有熟食，來出問言：「誰煮是食？」主人答
+<lb n="0318b02" ed="T"/>言：「有二比丘尼：一名羅吒，二名波羅吒，煮
+<lb n="0318b03" ed="T"/>是食。」客作食人瞋言：「是失比丘尼法、燒比丘
+<lb n="0318b04" ed="T"/>尼法，奪我生活業。」是中有比丘尼，少欲知足
+<lb n="0318b05" ed="T"/>行頭陀，聞是事心不喜，向佛廣說。佛以是事
+<lb n="0318b06" ed="T"/>集二部僧，知而故問二比丘尼：「汝實作是事
+<lb n="0318b07" ed="T"/>不？」答言：「實作。世尊！」佛以種種因緣呵責言：「云
+<lb n="0318b08" ed="T"/>何名比丘尼，煮生物作食？」種種因緣呵已，語
+<lb n="0318b09" ed="T"/>諸比丘：「以十利故與比丘尼結戒。從今是戒
+<lb n="0318b10" ed="T"/>應如是說：若比丘尼煮生物作食，波夜提。」</p><p xml:id="pT23p0318b1017" rend="inline">波
+<lb n="0318b11" ed="T"/>夜提者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0318b1116" rend="inline">是中
+<lb n="0318b12" ed="T"/>犯者，若比丘尼煮生物作食，波夜提。隨煮，隨
+<lb n="0318b13" ed="T"/>得爾所波夜提。</p><p xml:id="pT23p0318b1307" rend="inline">不犯者，若重煮、若有急因
+<lb n="0318b14" ed="T"/>緣，以火淨<anchor xml:id="nkr_note_orig_0318003" n="0318003"/><anchor xml:id="nkr_note_mod_0318003" n="0318003"/><anchor xml:id="beg0318003" n="0318003"/>煮者<anchor xml:id="end0318003"/>，不犯。<note place="inline"><anchor xml:id="beg_8d9" type="star"/>七<anchor xml:id="end_8d9"/>十六事竟</note></p>
+<lb n="0318b15" ed="T"/><p xml:id="pT23p0318b1501">佛在舍衛國。爾時有一居士，以無常因緣故，
+<lb n="0318b16" ed="T"/>失財物田宅，家人死盡，唯有夫婦二人。居士
+<lb n="0318b17" ed="T"/>作是念：「諸福德樂人無衰惱者，無過沙門釋
+<lb n="0318b18" ed="T"/>子，我何不詣彼求出家？」夫即詣祇<anchor xml:id="nkr_note_orig_0318004" n="0318004"/><anchor xml:id="beg0318004" n="0318004"/>洹<anchor xml:id="end0318004"/>作比
+<lb n="0318b19" ed="T"/>丘，婦詣王園精舍作比丘尼。是比丘得食時，
+<lb n="0318b20" ed="T"/>持食詣比丘尼精舍，是比丘尼先為辦<anchor xml:id="nkr_note_orig_0318005" n="0318005"/><anchor xml:id="nkr_note_mod_0318005" n="0318005"/><anchor xml:id="beg0318005" n="0318005"/>盤<anchor xml:id="end0318005"/>醬
+<lb n="0318b21" ed="T"/>菜果<anchor xml:id="nkr_note_orig_0318006" n="0318006"/><anchor xml:id="nkr_note_mod_0318006" n="0318006"/><anchor xml:id="beg0318006" n="0318006"/>蓏<anchor xml:id="end0318006"/>，待比丘來。時此比丘持食詣比丘
+<lb n="0318b22" ed="T"/>尼精舍坐食，此比丘尼起與醬菜，並說本居
+<lb n="0318b23" ed="T"/>家<anchor xml:id="nkr_note_orig_0318007" n="0318007"/><anchor xml:id="nkr_note_mod_0318007" n="0318007"/><anchor xml:id="beg0318007" n="0318007"/>中<anchor xml:id="end0318007"/>時事。比丘瞋不忍故，即以手中飯擲比
+<lb n="0318b24" ed="T"/>丘尼面。比丘尼瞋故，以熱羹澆比丘頭，不
+<lb n="0318b25" ed="T"/>淨可羞。是中有比丘尼，少欲知足行頭陀，聞
+<lb n="0318b26" ed="T"/>是事心不喜，呵責言：「云何名比丘尼，比丘食
+<lb n="0318b27" ed="T"/>時在前立侍？」種種因緣呵已，向佛廣說。佛以
+<lb n="0318b28" ed="T"/>是事集二部僧，知而故問是比丘尼：「汝實作
+<lb n="0318b29" ed="T"/>是事不？」答言：「實作。世尊！」佛以種種因緣呵責：
+<pb n="0318c" ed="T" xml:id="T23.1435.0318c"/>
+<lb n="0318c01" ed="T"/>「云何名比丘尼，比丘食時在前立侍？」種種因
+<lb n="0318c02" ed="T"/>緣呵已，語諸比丘：「以十利故與比丘尼結戒。
+<lb n="0318c03" ed="T"/>從今是戒應如是說：若比丘尼，比丘食時在
+<lb n="0318c04" ed="T"/>前立侍，波夜提。」</p><p xml:id="pT23p0318c0407" rend="inline">波夜提者，燒煮覆障，若不
+<lb n="0318c05" ed="T"/>悔過，能障礙道。</p><p xml:id="pT23p0318c0507" rend="inline">是中犯者，若比丘尼，比丘食
+<lb n="0318c06" ed="T"/>時在前立侍，波夜提。隨立，隨得爾所波夜提。
+<lb n="0318c07" ed="T"/>若與比丘食已還坐、若餘處去，不犯。<note place="inline"><anchor xml:id="beg_8da" type="star"/>七<anchor xml:id="end_8da"/>十七<anchor xml:id="beg_8db" type="star"/>事<anchor xml:id="end_8db"/>竟</note></p>
+<lb n="0318c08" ed="T"/><p xml:id="pT23p0318c0801">佛在舍衛國。爾時偷蘭難陀比丘尼，擲大小
+<lb n="0318c09" ed="T"/>便牆外。是僧坊近大巷，時波斯匿王大臣名
+<lb n="0318c10" ed="T"/>摩尼，著淨衣服從是巷過，屎墮頭上。是大臣
+<lb n="0318c11" ed="T"/>爾時為王所責，有知相婆羅門，隨大臣後行。
+<lb n="0318c12" ed="T"/>婆羅門言：「汝疾洗頭還到王所，此是吉相，必
+<lb n="0318c13" ed="T"/>得大利。」大臣即洗頭詣王所，王歡喜還復本
+<lb n="0318c14" ed="T"/>職。諸比丘尼，聞偷蘭難陀比丘尼以屎<anchor xml:id="nkr_note_orig_0318008" n="0318008"/><anchor xml:id="nkr_note_mod_0318008" n="0318008"/><anchor xml:id="beg0318008" n="0318008"/>尿<anchor xml:id="end0318008"/>擲
+<lb n="0318c15" ed="T"/>牆外，墮波斯匿王大臣頭上，污大臣頭故，
+<lb n="0318c16" ed="T"/>王與本職。「是摩尼大臣兇惡無慈，知當與我
+<lb n="0318c17" ed="T"/>等作何苦惱事？」以是思惟，怖畏故，除老病比
+<lb n="0318c18" ed="T"/>丘尼，餘皆走去。爾時摩尼大臣作是念：「我得
+<lb n="0318c19" ed="T"/>本職者，皆由比丘尼僧房因緣故，我當往安
+<lb n="0318c20" ed="T"/>慰諸比丘尼。」是摩尼大臣，即往比丘尼僧房，
+<lb n="0318c21" ed="T"/>見諸比丘尼少，問諸老病比丘尼言：「是中比
+<lb n="0318c22" ed="T"/>丘尼僧何以故少？」比丘尼言：「汝不知耶？」答言：
+<lb n="0318c23" ed="T"/>「不知。」比丘尼言：「偷蘭難陀比丘尼，以屎<anchor xml:id="beg_8dc" type="star"/>尿<anchor xml:id="end_8dc"/>
+<lb n="0318c24" ed="T"/>擲牆外。波斯匿王大臣摩尼，從此巷過，墮其
+<lb n="0318c25" ed="T"/>頭上。王與本職，是人兇惡無慈，諸比丘尼作
+<lb n="0318c26" ed="T"/>是思惟：『知當與我等作何等苦惱事？』如是思
+<lb n="0318c27" ed="T"/>惟，怖畏故，諸比丘尼皆悉走去。我等老病無
+<lb n="0318c28" ed="T"/>力，故不能去。」是大臣言：「波斯匿王大臣摩尼
+<lb n="0318c29" ed="T"/>者，即我身是。汝等莫怖畏，我與汝等飲食、薪
+<pb n="0319a" ed="T" xml:id="T23.1435.0319a"/>
+<lb n="0319a01" ed="T"/>草、燈燭、衣服及無畏施。」是中有比丘尼，少
+<lb n="0319a02" ed="T"/>欲知足行頭陀，聞是事心不喜，種種因緣呵
+<lb n="0319a03" ed="T"/>責言：「云何名比丘尼，以屎<anchor xml:id="beg_8dd" type="star"/>尿<anchor xml:id="end_8dd"/>擲牆外？」種種
+<lb n="0319a04" ed="T"/>因緣呵已向佛廣說。佛以是事集二部僧，知
+<lb n="0319a05" ed="T"/>而故問偷蘭難陀比丘尼：「汝實作是事不？」答
+<lb n="0319a06" ed="T"/>言：「實作。世尊！」佛以種種因緣呵責言：「云何名
+<lb n="0319a07" ed="T"/>比丘尼，以屎<anchor xml:id="beg_8de" type="star"/>尿<anchor xml:id="end_8de"/>擲牆外？」種種因緣呵已，語諸
+<lb n="0319a08" ed="T"/>比丘：「以十利故與比丘尼結戒。從今是戒應
+<lb n="0319a09" ed="T"/>如是說：若比丘尼以屎<anchor xml:id="beg_8df" type="star"/>尿<anchor xml:id="end_8df"/>擲牆外，波夜提。」</p><p xml:id="pT23p0319a0917" rend="inline">波
+<lb n="0319a10" ed="T"/>夜提者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0319a1016" rend="inline">是中
+<lb n="0319a11" ed="T"/>犯者，若比丘尼以屎<anchor xml:id="beg_8e0" type="star"/>尿<anchor xml:id="end_8e0"/>擲牆外，波夜提。隨擲，
+<lb n="0319a12" ed="T"/>隨得爾所波夜提。若二比丘尼，共大小便一
+<lb n="0319a13" ed="T"/>器中，一人舉授、一人擲牆外。舉者，突吉羅；擲
+<lb n="0319a14" ed="T"/>者，波夜提。若比丘尼，若以手擲，波夜提。若以
+<lb n="0319a15" ed="T"/>草土裏擲牆外者，突吉<anchor xml:id="nkr_note_orig_0319001" n="0319001"/><anchor xml:id="nkr_note_mod_0319001" n="0319001"/><anchor xml:id="beg0319001" n="0319001"/>羅<anchor xml:id="end0319001"/>。<note place="inline"><anchor xml:id="beg_8e1" type="star"/>七<anchor xml:id="end_8e1"/>十八事竟</note></p>
+<lb n="0319a16" ed="T"/><p xml:id="pT23p0319a1601">佛在舍衛國。爾時王園精舍，比丘尼僧房門
+<lb n="0319a17" ed="T"/>前有好生草，多有雜人在中集坐，看諸比丘
+<lb n="0319a18" ed="T"/>尼出入時形相，輕笑言：「汝看是比丘尼睞眼、
+<lb n="0319a19" ed="T"/>是眼爛、是短鼻、是癭、是白、是黑、是好、是醜。」諸
+<lb n="0319a20" ed="T"/>比丘尼聞是語心不喜，作是念：「諸人集此中
+<lb n="0319a21" ed="T"/>者，皆由生草茂盛好故。若無草者，不於中住。」
+<lb n="0319a22" ed="T"/>諸比丘尼集諸屎<anchor xml:id="beg_8e2" type="star"/>尿<anchor xml:id="end_8e2"/>棄著草上，草即臭爛乾
+<lb n="0319a23" ed="T"/>死。諸居士呵責言：「諸比丘尼不吉弊女，餘無
+<lb n="0319a24" ed="T"/>屏廁耶？於此淨茂草處著大小便。」是中有比
+<lb n="0319a25" ed="T"/>丘尼，少欲知足行頭陀，聞是事心不喜，向佛
+<lb n="0319a26" ed="T"/>廣說。佛以是事集二部僧，知而故問是比丘
+<lb n="0319a27" ed="T"/>尼：「汝等實作是事不？」答言：「實作。世尊！」佛以種
+<lb n="0319a28" ed="T"/>種因緣呵責言：「云何名比丘尼，棄屎<anchor xml:id="beg_8e3" type="star"/>尿<anchor xml:id="end_8e3"/>生草
+<lb n="0319a29" ed="T"/>上？」種種因緣呵已，語諸比丘：「以十利故與比
+<pb n="0319b" ed="T" xml:id="T23.1435.0319b"/>
+<lb n="0319b01" ed="T"/>丘尼結戒。從今是戒應如是說：若比丘尼棄
+<lb n="0319b02" ed="T"/>屎<anchor xml:id="beg_8e4" type="star"/>尿<anchor xml:id="end_8e4"/>著生草上，波夜提。」</p><p xml:id="pT23p0319b0210" rend="inline">波夜提者，燒煮覆
+<lb n="0319b03" ed="T"/>障，若不悔過，能障礙道。</p><p xml:id="pT23p0319b0310" rend="inline">是中犯者，若比丘尼
+<lb n="0319b04" ed="T"/>棄屎<anchor xml:id="beg_8e5" type="star"/>尿<anchor xml:id="end_8e5"/>生草上，波夜提。隨棄，隨得爾所波夜
+<lb n="0319b05" ed="T"/>提。<note place="inline"><anchor xml:id="beg_8e6" type="star"/>七<anchor xml:id="end_8e6"/>十九事竟</note></p>
+<lb n="0319b06" ed="T"/><p xml:id="pT23p0319b0601">佛在王舍城。爾時助調達比丘尼，獨與六群
+<lb n="0319b07" ed="T"/>比丘屏處共立共語。是中有比丘尼，少欲知
+<lb n="0319b08" ed="T"/>足行頭陀，聞是事心不喜，種因緣呵責：「云何
+<lb n="0319b09" ed="T"/>名比丘尼，獨與一比丘屏處共立共語？」種種
+<lb n="0319b10" ed="T"/>因緣呵已，向佛廣說。佛以是事集二部僧，知
+<lb n="0319b11" ed="T"/>而故問助調達比丘尼：「汝實作是事不？」答言：
+<lb n="0319b12" ed="T"/>「實作。世尊！」佛以種種因緣呵責言：「云何名比
+<lb n="0319b13" ed="T"/>丘尼，獨與一比丘屏處共立共語？」種種因緣
+<lb n="0319b14" ed="T"/>呵已，語諸比丘：「以十利故與比丘尼結戒。從
+<lb n="0319b15" ed="T"/>今是戒應如是說：若比丘尼獨與一比丘屏
+<lb n="0319b16" ed="T"/>處共立共語，波夜提。」</p><p xml:id="pT23p0319b1609" rend="inline">獨者，一比丘尼、一比丘，
+<lb n="0319b17" ed="T"/>更無第三人。</p><p xml:id="pT23p0319b1706" rend="inline">屏處者，若壁障、若衣障、籬障。</p><p xml:id="pT23p0319b1717" rend="inline">共
+<lb n="0319b18" ed="T"/>立者，可疑處。</p><p xml:id="pT23p0319b1806" rend="inline">共語者，可疑處。</p><p xml:id="pT23p0319b1812" rend="inline">波夜提者，燒
+<lb n="0319b19" ed="T"/>煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0319b1912" rend="inline">是中犯者，若比
+<lb n="0319b20" ed="T"/>丘尼獨與一比丘屏處共立、共語，波夜提。隨
+<lb n="0319b21" ed="T"/>共立、共語，隨得爾所波夜提。<note place="inline"><anchor xml:id="nkr_note_orig_0319002" n="0319002"/><anchor xml:id="beg0319002" n="0319002"/>八<anchor xml:id="end0319002"/><anchor xml:id="nkr_note_orig_0319003" n="0319003"/><anchor xml:id="nkr_note_mod_0319003" n="0319003"/><anchor xml:id="beg0319003" n="0319003"/>十<anchor xml:id="end0319003"/>竟</note></p>
+<lb n="0319b22" ed="T"/><p xml:id="pT23p0319b2201">佛在王舍城。爾時助調達比丘尼，獨與六群
+<lb n="0319b23" ed="T"/>比丘露地共立共語。是中有比丘尼，少欲知
+<lb n="0319b24" ed="T"/>足行頭陀聞是事心不喜，種種因緣呵責言：
+<lb n="0319b25" ed="T"/>「云何名比丘尼，獨與一比丘露地共立共語？」
+<lb n="0319b26" ed="T"/>種種因緣呵已，向佛廣說。佛以是事集二部
+<lb n="0319b27" ed="T"/>僧，知而故問助調達比丘尼：「汝實作是事不？」
+<lb n="0319b28" ed="T"/>答言：「實作。世尊！」佛以種種因緣呵責：「云何名
+<lb n="0319b29" ed="T"/>比丘尼，獨與一比丘露地共立共語？」種種因
+<pb n="0319c" ed="T" xml:id="T23.1435.0319c"/>
+<lb n="0319c01" ed="T"/>緣呵已，語諸比丘：「以十利故與比丘尼結戒。
+<lb n="0319c02" ed="T"/>從今是戒應如是說：若比丘尼獨與一比丘
+<lb n="0319c03" ed="T"/>露地共立共語，波夜提。」</p><p xml:id="pT23p0319c0310" rend="inline">獨者，一比丘尼、一比
+<lb n="0319c04" ed="T"/>丘，更無第三人。</p><p xml:id="pT23p0319c0407" rend="inline">露地者，無壁障、無衣障、無籬
+<lb n="0319c05" ed="T"/>障。</p><p xml:id="pT23p0319c0502" rend="inline">共立者，可疑處。</p><p xml:id="pT23p0319c0508" rend="inline">共語者，可疑處。</p><p xml:id="pT23p0319c0514" rend="inline">波夜提
+<lb n="0319c06" ed="T"/>者，燒煮覆障，若不悔過能障礙道。</p><p xml:id="pT23p0319c0614" rend="inline">是中犯者，
+<lb n="0319c07" ed="T"/>若比丘尼獨與一比丘，露地共立共語，波夜
+<lb n="0319c08" ed="T"/>提。隨共立共語，隨得爾所波夜提。<note place="inline"><anchor xml:id="beg_8e7" type="star"/>八<anchor xml:id="end_8e7"/>十一<anchor xml:id="nkr_note_orig_0319004" n="0319004"/><anchor xml:id="beg0319004" n="0319004"/>竟<anchor xml:id="end0319004"/></note></p>
+<lb n="0319c09" ed="T"/><p xml:id="pT23p0319c0901">佛在王舍城。爾時助調達比丘尼，獨與一白
+<lb n="0319c10" ed="T"/>衣男子屏處共立共語。是中有比丘尼，少欲
+<lb n="0319c11" ed="T"/>知足行頭陀，聞是事心不喜，種種因緣呵責
+<lb n="0319c12" ed="T"/>言：「云何名比丘尼，獨與一白衣男子屏處共
+<lb n="0319c13" ed="T"/>立共語？」種種因緣呵已，向佛廣說。佛以是事
+<lb n="0319c14" ed="T"/>集二部僧，知而故問助調達比丘尼：「汝實作
+<lb n="0319c15" ed="T"/>是事不？」答言：「實作。世尊！」佛以種種因緣呵責：
+<lb n="0319c16" ed="T"/>「云何名比丘尼，獨與一白衣男子屏處共立
+<lb n="0319c17" ed="T"/>共語？」種種因緣呵已，語諸比丘：「以十利故與
+<lb n="0319c18" ed="T"/>比丘尼結戒。從今是戒應如是說：若比丘尼，
+<lb n="0319c19" ed="T"/>獨與一白衣男子屏處共立、共語，波夜提。」</p><p xml:id="pT23p0319c1917" rend="inline">獨
+<lb n="0319c20" ed="T"/>者，一比丘尼、一白衣男子，更無第三人。</p><p xml:id="pT23p0319c2016" rend="inline">屏處
+<lb n="0319c21" ed="T"/>者，若壁障、若籬障、若衣障。</p><p xml:id="pT23p0319c2111" rend="inline">共立者，可疑處。</p><p xml:id="pT23p0319c2117" rend="inline">共
+<lb n="0319c22" ed="T"/>語者，可疑處。</p><p xml:id="pT23p0319c2206" rend="inline">波夜提者，燒煮覆障，若不悔過，
+<lb n="0319c23" ed="T"/>能障礙道。</p><p xml:id="pT23p0319c2305" rend="inline">是中犯者，若比丘尼獨與一白衣
+<lb n="0319c24" ed="T"/>男子屏處共立、共語，波夜提。隨共立共語，隨
+<lb n="0319c25" ed="T"/>得爾所波夜提。<note place="inline"><anchor xml:id="beg_8e8" type="star"/>八<anchor xml:id="end_8e8"/>十二<anchor xml:id="beg_8e9" type="star"/>竟<anchor xml:id="end_8e9"/></note></p>
+<lb n="0319c26" ed="T"/><p xml:id="pT23p0319c2601">佛在王舍城。爾時助調達比丘尼，獨與一白
+<lb n="0319c27" ed="T"/>衣男子露地共立共語。諸居士呵責言：「看此
+<lb n="0319c28" ed="T"/>等為是婦、為是私通？」是中有比丘尼，少欲知
+<lb n="0319c29" ed="T"/>足行頭陀，聞是事心不喜，種種因緣呵責：「云
+<pb n="0320a" ed="T" xml:id="T23.1435.0320a"/>
+<lb n="0320a01" ed="T"/>何名比丘尼，獨與一白衣男子露地共立共
+<lb n="0320a02" ed="T"/>語？」種種因緣呵已，向佛廣說。佛以是事集二
+<lb n="0320a03" ed="T"/>部僧，知而故問助調達比丘尼：「汝實作是事
+<lb n="0320a04" ed="T"/>不？」答言：「實作。世尊！」佛以種種因緣呵責言：「云
+<lb n="0320a05" ed="T"/>何名比丘尼，獨與一白衣男子露地共立共
+<lb n="0320a06" ed="T"/>語？」種種因緣呵已，語諸比丘：「以十利故與比
+<lb n="0320a07" ed="T"/>丘尼結戒，從今是戒應如是說：若比丘尼獨
+<lb n="0320a08" ed="T"/>與一白衣男子露地共立共語，波夜提。」</p><p xml:id="pT23p0320a0816" rend="inline">共立
+<lb n="0320a09" ed="T"/>者，可疑處。</p><p xml:id="pT23p0320a0905" rend="inline">共語者，可疑處。</p><p xml:id="pT23p0320a0911" rend="inline">波夜提者，燒煮
+<lb n="0320a10" ed="T"/>覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0320a1011" rend="inline">是中犯者，若比丘
+<lb n="0320a11" ed="T"/>尼獨與一白衣男子露地共立共語，波夜提。
+<lb n="0320a12" ed="T"/>隨共立共語，隨得爾所波夜提。<note place="inline"><anchor xml:id="beg_8ea" type="star"/>八<anchor xml:id="end_8ea"/>十三<anchor xml:id="beg_8eb" type="star"/>竟<anchor xml:id="end_8eb"/></note></p>
+<lb n="0320a13" ed="T"/><p xml:id="pT23p0320a1301">佛在舍衛國。爾時王園比丘尼僧<anchor xml:id="nkr_note_orig_0320001" n="0320001"/><anchor xml:id="nkr_note_mod_0320001" n="0320001"/><anchor xml:id="beg0320001" n="0320001"/>坊<anchor xml:id="end0320001"/>中，有
+<lb n="0320a14" ed="T"/>客作人，日暮雨墮故，入助調達比丘尼房中。
+<lb n="0320a15" ed="T"/>時助調達比丘尼，有大式叉摩尼。是客作人
+<lb n="0320a16" ed="T"/>先不與期，夜中摩觸式叉摩尼，式叉摩尼大
+<lb n="0320a17" ed="T"/>喚。多比丘尼集，問言：「何故？」式叉摩尼言：「然
+<lb n="0320a18" ed="T"/>燈。」問言：「何故？」「但然燈來。」即然燈來，見偷蘭難
+<lb n="0320a19" ed="T"/>陀比丘尼於闇中共男子坐。是中有比丘尼，
+<lb n="0320a20" ed="T"/>少欲知足行頭陀，聞是事<anchor xml:id="nkr_note_orig_0320002" n="0320002"/><anchor xml:id="nkr_note_mod_0320002" n="0320002"/><anchor xml:id="beg0320002" n="0320002"/>心不喜<anchor xml:id="end0320002"/>，種種因緣
+<lb n="0320a21" ed="T"/>呵責：「云何名比丘尼，闇中無燈共男子坐？」種
+<lb n="0320a22" ed="T"/>種因緣呵責已，向佛廣說。佛以是事集二部
+<lb n="0320a23" ed="T"/>僧知而故問：「汝實作是事不？」答言：「實作。世
+<lb n="0320a24" ed="T"/>尊！」佛以種種因緣呵責言：「云何名比丘尼，闇
+<lb n="0320a25" ed="T"/>中無燈共白衣男子坐？」種種因緣呵已，語諸
+<lb n="0320a26" ed="T"/>比丘：「以十利故與比丘尼結戒。從今是戒應
+<lb n="0320a27" ed="T"/>如是說：若比丘尼闇中無燈，與男子共立共
+<lb n="0320a28" ed="T"/>坐，波夜提。」</p><p xml:id="pT23p0320a2805" rend="inline">波夜提者，燒煮覆障，若不悔過，能
+<lb n="0320a29" ed="T"/>障礙道。</p><p xml:id="pT23p0320a2904" rend="inline">是中犯者，若比丘尼闇中無燈，與男
+<pb n="0320b" ed="T" xml:id="T23.1435.0320b"/>
+<lb n="0320b01" ed="T"/>子共立共坐，波夜提。隨共立共坐，隨得爾所
+<lb n="0320b02" ed="T"/>波夜提。<note place="inline"><anchor xml:id="beg_8ec" type="star"/>八<anchor xml:id="end_8ec"/>十四事竟</note></p>
+<lb n="0320b03" ed="T"/><p xml:id="pT23p0320b0301">佛在舍衛國。爾時偷蘭難陀比丘尼，以樹膠
+<lb n="0320b04" ed="T"/>作男根，繫著脚跟，後著女根中。爾時失火，燒
+<lb n="0320b05" ed="T"/>比丘尼房舍。偷蘭難陀比丘尼，忘不解<anchor xml:id="nkr_note_orig_0320003" n="0320003"/><anchor xml:id="beg0320003" n="0320003"/>却<anchor xml:id="end0320003"/>走
+<lb n="0320b06" ed="T"/>出房外，語諸居士言：「是中失火，以水澆滅。」有
+<lb n="0320b07" ed="T"/>一估客，見偷蘭難陀有如是事，語餘人言：「汝
+<lb n="0320b08" ed="T"/>等看是比丘尼，有如是好莊嚴具。」是中有比
+<lb n="0320b09" ed="T"/>丘尼，少欲知足行頭陀，聞是事心不喜，<anchor xml:id="nkr_note_orig_0320004" n="0320004"/><anchor xml:id="nkr_note_mod_0320004" n="0320004"/><anchor xml:id="beg0320004" n="0320004"/>種
+<lb n="0320b10" ed="T"/>種因緣呵責已<anchor xml:id="end0320004"/>，向佛廣說。佛以是事集二部
+<lb n="0320b11" ed="T"/>僧，知而故問：「汝實作是事不？」答言：「實作。世
+<lb n="0320b12" ed="T"/>尊！」佛以種種因緣呵責言：「云何名比丘尼，作
+<lb n="0320b13" ed="T"/>男根著女根中？」種種因緣呵已，語諸比丘：「以
+<lb n="0320b14" ed="T"/>十利故與比丘尼結戒。從今是戒應如是說：
+<lb n="0320b15" ed="T"/>若比丘尼作男根著女根中，波夜提。」</p><p xml:id="pT23p0320b1515" rend="inline">波夜提
+<lb n="0320b16" ed="T"/>者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0320b1614" rend="inline">是中犯者，
+<lb n="0320b17" ed="T"/>若比丘尼，以樹膠作男根著女根中，波夜提。
+<lb n="0320b18" ed="T"/>若韋囊、若脚指、若肉臠、若藕根、若<anchor xml:id="nkr_note_orig_0320005" n="0320005"/><anchor xml:id="nkr_note_mod_0320005" n="0320005"/><anchor xml:id="beg0320005" n="0320005"/>蘿蔔<anchor xml:id="end0320005"/>根、若
+<lb n="0320b19" ed="T"/>蕪菁根、若瓜、若瓠、若梨，著女根中，皆波夜
+<lb n="0320b20" ed="T"/>提。作時，突吉羅。若著他<anchor xml:id="nkr_note_orig_0320006" n="0320006"/><anchor xml:id="nkr_note_mod_0320006" n="0320006"/><anchor xml:id="beg0320006" n="0320006"/>比丘尼<anchor xml:id="end0320006"/>女根中，突
+<lb n="0320b21" ed="T"/>吉羅。<note place="inline"><anchor xml:id="beg_8ed" type="star"/>八<anchor xml:id="end_8ed"/>十五事竟</note></p>
+<lb n="0320b22" ed="T"/><p xml:id="pT23p0320b2201">佛在舍衛國。爾時偷蘭難陀比丘尼，惡性喜
+<lb n="0320b23" ed="T"/>瞋諸善比丘尼，<anchor xml:id="nkr_note_orig_0320007" n="0320007"/><anchor xml:id="nkr_note_mod_0320007" n="0320007"/><anchor xml:id="beg0320007" n="0320007"/>善比丘尼<anchor xml:id="end0320007"/>不喜共住，誑一無
+<lb n="0320b24" ed="T"/>智比丘尼言：「汝來共我住，諸所須物我當與
+<lb n="0320b25" ed="T"/>汝。」是比丘尼答言：「可爾。」偷蘭難陀比丘尼，喜
+<lb n="0320b26" ed="T"/>出入他家多知多識。天雨墮時，早起至他家，
+<lb n="0320b27" ed="T"/>從<anchor xml:id="nkr_note_orig_0320008" n="0320008"/><anchor xml:id="beg0320008" n="0320008"/>一<anchor xml:id="end0320008"/>家復至一家。日沒<anchor xml:id="nkr_note_orig_0320009" n="0320009"/><anchor xml:id="nkr_note_mod_0320009" n="0320009"/><anchor xml:id="beg0320009" n="0320009"/>時<anchor xml:id="end0320009"/>衣被皆濕，如阿
+<lb n="0320b28" ed="T"/>羅<anchor xml:id="nkr_note_orig_0320010" n="0320010"/><anchor xml:id="nkr_note_mod_0320010" n="0320010"/><anchor xml:id="beg0320010" n="0320010"/>羅<anchor xml:id="end0320010"/>鳥，還入房舍作是言：「我脚痛、<anchor xml:id="nkr_note_orig_0320011" n="0320011"/><anchor xml:id="nkr_note_mod_0320011" n="0320011"/><anchor xml:id="beg0320011" n="0320011"/><g ref="#CB13416">𨄔</g><anchor xml:id="end0320011"/>痛、脇
+<lb n="0320b29" ed="T"/>痛、背痛。」無智比丘尼言：「汝從何來？」答<anchor xml:id="nkr_note_orig_0320012" n="0320012"/><anchor xml:id="nkr_note_mod_0320012" n="0320012"/><anchor xml:id="beg0320012" n="0320012"/>曰<anchor xml:id="end0320012"/>：「我
+<pb n="0320c" ed="T" xml:id="T23.1435.0320c"/>
+<lb n="0320c01" ed="T"/>從某家出復<anchor xml:id="nkr_note_orig_0320013" n="0320013"/><anchor xml:id="nkr_note_mod_0320013" n="0320013"/><anchor xml:id="beg0320013" n="0320013"/>到<anchor xml:id="end0320013"/>某家。」<anchor xml:id="nkr_note_orig_0320014" n="0320014"/><anchor xml:id="nkr_note_mod_0320014" n="0320014"/><anchor xml:id="beg0320014" n="0320014"/>曰<anchor xml:id="end0320014"/>：「汝為佛事<anchor xml:id="nkr_note_orig_0320015" n="0320015"/><anchor xml:id="nkr_note_mod_0320015" n="0320015"/><anchor xml:id="beg0320015" n="0320015"/>為<anchor xml:id="end0320015"/>僧事
+<lb n="0320c02" ed="T"/>耶？」答言：「不為。」「若不為佛事、僧事，何以雨中去？
+<lb n="0320c03" ed="T"/>諸白衣多事，尚不於雨中出行。汝不善，汝何
+<lb n="0320c04" ed="T"/>以於雨中去？」偷蘭難陀比丘尼言：「汝是我<anchor xml:id="nkr_note_orig_0320016" n="0320016"/><anchor xml:id="beg0320016" n="0320016"/>和
+<lb n="0320c05" ed="T"/>上<anchor xml:id="end0320016"/>阿闍梨耶？何以教我？我前喚汝時，欲使汝
+<lb n="0320c06" ed="T"/>教我耶？汝<anchor xml:id="nkr_note_orig_0320017" n="0320017"/><anchor xml:id="nkr_note_mod_0320017" n="0320017"/><anchor xml:id="beg0320017" n="0320017"/>遠<anchor xml:id="end0320017"/>出去。」是比丘尼老病無力，偷
+<lb n="0320c07" ed="T"/>蘭難陀比丘尼強拽出垂死。是中有比丘尼，
+<lb n="0320c08" ed="T"/>少欲知足行頭陀，聞是事心不喜，種種因緣
+<lb n="0320c09" ed="T"/>呵責：「云何名比丘尼，自喚他比丘尼言：『善女
+<lb n="0320c10" ed="T"/>來共我住，諸所須物我當與汝。』後瞋拽出？」種
+<lb n="0320c11" ed="T"/>種因緣呵已，向佛廣說。佛以是事集二部僧，
+<lb n="0320c12" ed="T"/>知而故問偷蘭難陀比丘尼：「汝實作是事不？」
+<lb n="0320c13" ed="T"/>答言：「實作。世尊！」佛以種種因緣呵責言：「云何
+<lb n="0320c14" ed="T"/>名比丘尼，自喚他比丘尼言：『善女來共我住，
+<lb n="0320c15" ed="T"/>諸所須物我當與汝。』後瞋拽出？」種種因緣呵
+<lb n="0320c16" ed="T"/>已，語諸比丘：「以十利故與比丘尼結戒。從今
+<lb n="0320c17" ed="T"/>是戒應如是說：若比丘尼語比丘尼言：『善女
+<lb n="0320c18" ed="T"/>來共我房中住。』後瞋不喜，若自拽出、若使人
+<lb n="0320c19" ed="T"/>拽出，作如是言：『汝遠滅去，莫此中住。』以是因
+<lb n="0320c20" ed="T"/>緣無異者，波夜提。」</p><p xml:id="pT23p0320c2008" rend="inline">波夜提者，燒煮覆障，若不
+<lb n="0320c21" ed="T"/>悔過，能障礙道。</p><p xml:id="pT23p0320c2107" rend="inline">是中犯者，若比丘尼瞋不喜，
+<lb n="0320c22" ed="T"/>若自拽、若使<anchor xml:id="nkr_note_orig_0320018" n="0320018"/><anchor xml:id="nkr_note_mod_0320018" n="0320018"/><anchor xml:id="beg0320018" n="0320018"/>人<anchor xml:id="end0320018"/>拽，皆波夜提。不能拽出<anchor xml:id="nkr_note_orig_0320019" n="0320019"/><anchor xml:id="nkr_note_mod_0320019" n="0320019"/><anchor xml:id="beg0320019" n="0320019"/>者<anchor xml:id="end0320019"/>，
+<lb n="0320c23" ed="T"/>突吉羅。隨自拽出、隨使<anchor xml:id="beg_8ee" type="star"/>人<anchor xml:id="end_8ee"/>拽，隨得爾所波夜
+<lb n="0320c24" ed="T"/>提。不能<anchor xml:id="nkr_note_orig_0320020" n="0320020"/><anchor xml:id="beg0320020" n="0320020"/>出<anchor xml:id="end0320020"/>者，突吉羅。<note place="inline"><anchor xml:id="beg_8ef" type="star"/>八<anchor xml:id="end_8ef"/>十六事竟</note></p>
+<lb n="0320c25" ed="T"/><p xml:id="pT23p0320c2501">佛在王舍城。爾時助調達二比丘尼，共一床
+<lb n="0320c26" ed="T"/>臥作種種不清淨事。是中有比丘尼，少欲知
+<lb n="0320c27" ed="T"/>足行頭陀，聞是事心不喜，種種因緣呵責言：
+<lb n="0320c28" ed="T"/>「云何名比丘尼，二人共一床臥，作種種不<anchor xml:id="nkr_note_orig_0320021" n="0320021"/><anchor xml:id="nkr_note_mod_0320021" n="0320021"/><anchor xml:id="beg0320021" n="0320021"/>清<anchor xml:id="end0320021"/>
+<lb n="0320c29" ed="T"/>淨事？」種種因緣呵已，向佛廣說。佛以是事集
+<pb n="0321a" ed="T" xml:id="T23.1435.0321a"/>
+<lb n="0321a01" ed="T"/>二部僧，知而故問助調達比丘尼：「汝等實
+<lb n="0321a02" ed="T"/>作是事不？」答言：「實作。世尊！」佛以種種因緣呵
+<lb n="0321a03" ed="T"/><anchor xml:id="nkr_note_orig_0321001" n="0321001"/><anchor xml:id="beg0321001" n="0321001"/>責<anchor xml:id="end0321001"/>言：「云何名比丘尼，二人共<anchor xml:id="nkr_note_orig_0321002" n="0321002"/><anchor xml:id="nkr_note_mod_0321002" n="0321002"/><anchor xml:id="beg0321002" n="0321002"/>一<anchor xml:id="end0321002"/>床臥，作種
+<lb n="0321a04" ed="T"/>種不<anchor xml:id="beg_8f0" type="star"/>清<anchor xml:id="end_8f0"/>淨事？」種種因緣呵已，語諸比丘：「以十
+<lb n="0321a05" ed="T"/>利故與比丘尼結戒。從今是戒應如是說：若
+<lb n="0321a06" ed="T"/>二比丘尼共一床臥，波夜提。」</p><p xml:id="pT23p0321a0612" rend="inline">波夜提者，燒煮
+<lb n="0321a07" ed="T"/>覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0321a0711" rend="inline">是中犯者，若二比
+<lb n="0321a08" ed="T"/>丘尼共一床臥，<anchor xml:id="nkr_note_orig_0321003" n="0321003"/><anchor xml:id="nkr_note_mod_0321003" n="0321003"/><anchor xml:id="beg0321003" n="0321003"/>波逸提<anchor xml:id="end0321003"/>。隨共臥，隨得爾所波
+<lb n="0321a09" ed="T"/>夜提。</p><p xml:id="pT23p0321a0903" rend="inline">不犯者，若一人臥、一人坐，不犯。<note place="inline"><anchor xml:id="beg_8f1" type="star"/>八<anchor xml:id="end_8f1"/>十七事竟</note></p>
+<lb n="0321a10" ed="T"/><p xml:id="pT23p0321a1001">佛在王舍城。爾時助調達二比丘尼，共一敷
+<lb n="0321a11" ed="T"/>臥，作種種不<anchor xml:id="beg_8f2" type="star"/>清<anchor xml:id="end_8f2"/>淨事。是中有比丘尼，少欲
+<lb n="0321a12" ed="T"/>知足行頭陀，聞是事心不喜，種種因緣呵責
+<lb n="0321a13" ed="T"/>言：「云何名比丘尼，共一敷臥？」種種因緣呵已，
+<lb n="0321a14" ed="T"/>向佛廣說。佛以<anchor xml:id="nkr_note_orig_0321004" n="0321004"/><anchor xml:id="nkr_note_mod_0321004" n="0321004"/><anchor xml:id="beg0321004" n="0321004"/>此<anchor xml:id="end0321004"/>事集二部僧，知而故問助
+<lb n="0321a15" ed="T"/>調達比丘尼：「汝實作是事不？」答言：「實作。世尊！」
+<lb n="0321a16" ed="T"/>佛以種種因緣呵責言：「云何名比丘尼，共一
+<lb n="0321a17" ed="T"/>敷臥？」種種因緣呵已，語諸比丘：「以十利故與
+<lb n="0321a18" ed="T"/>比丘尼結戒。從今是戒應如是說：<anchor xml:id="nkr_note_orig_0321005" n="0321005"/><anchor xml:id="beg0321005" n="0321005"/>若<anchor xml:id="end0321005"/>二比丘
+<lb n="0321a19" ed="T"/>尼共一敷臥，波夜提。」</p><p xml:id="pT23p0321a1909" rend="inline">波夜提者，燒煮覆障，若
+<lb n="0321a20" ed="T"/>不悔過，能障礙道。</p><p xml:id="pT23p0321a2008" rend="inline">是中犯者，若二比丘尼共
+<lb n="0321a21" ed="T"/>一敷臥，波夜提。隨共臥，隨得爾所波夜提。</p><p xml:id="pT23p0321a2117" rend="inline">不
+<lb n="0321a22" ed="T"/>犯者，<anchor xml:id="nkr_note_orig_0321006" n="0321006"/><anchor xml:id="nkr_note_mod_0321006" n="0321006"/><anchor xml:id="beg0321006" n="0321006"/>若<anchor xml:id="end0321006"/>各各有別<anchor xml:id="nkr_note_orig_0321007" n="0321007"/><anchor xml:id="beg0321007" n="0321007"/>褥<anchor xml:id="end0321007"/>，不犯。<note place="inline"><anchor xml:id="beg_8f3" type="star"/>八<anchor xml:id="end_8f3"/>十<anchor xml:id="nkr_note_orig_0321008" n="0321008"/><anchor xml:id="beg0321008" n="0321008"/>八<anchor xml:id="end0321008"/>事竟</note></p>
+<lb n="0321a23" ed="T"/><p xml:id="pT23p0321a2301">佛在王舍城。爾時助調達二比丘尼，共一衣
+<lb n="0321a24" ed="T"/>覆臥，作種種不<anchor xml:id="beg_8f4" type="star"/>清<anchor xml:id="end_8f4"/>淨事。是中有比丘尼，少
+<lb n="0321a25" ed="T"/>欲知足行頭陀，聞是事心不喜，種種因緣呵
+<lb n="0321a26" ed="T"/>責言：「云何名比丘尼，二人共一衣覆臥？」種種
+<lb n="0321a27" ed="T"/>因緣呵已，向佛廣說。佛以是事集二部僧，知
+<lb n="0321a28" ed="T"/>而故問助調達比丘尼：「汝等實作是事不？」答
+<lb n="0321a29" ed="T"/>言：「實作。世尊！」佛以種種因緣呵責言：「云何名
+<pb n="0321b" ed="T" xml:id="T23.1435.0321b"/>
+<lb n="0321b01" ed="T"/>比丘尼，共一衣覆臥？」種種因緣呵已，語諸比
+<lb n="0321b02" ed="T"/>丘：「以十利故與比丘尼結戒。從今是戒應如
+<lb n="0321b03" ed="T"/>是說：若二比丘尼共一衣覆臥，波夜提。」</p><p xml:id="pT23p0321b0316" rend="inline">波夜
+<lb n="0321b04" ed="T"/>提者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0321b0415" rend="inline">是中犯
+<lb n="0321b05" ed="T"/>者，若二比丘尼共一衣覆臥，波夜提。隨共臥，
+<lb n="0321b06" ed="T"/>隨得爾所波夜提。</p><p xml:id="pT23p0321b0608" rend="inline">不犯者，若各各別有<anchor xml:id="nkr_note_orig_0321009" n="0321009"/><anchor xml:id="nkr_note_mod_0321009" n="0321009"/><anchor xml:id="beg0321009" n="0321009"/>襯<anchor xml:id="end0321009"/>身
+<lb n="0321b07" ed="T"/>衣，不犯。<note place="inline"><anchor xml:id="beg_8f5" type="star"/>八<anchor xml:id="end_8f5"/>十九<anchor xml:id="beg_8f6" type="star"/>事<anchor xml:id="end_8f6"/>竟</note></p>
+<lb n="0321b08" ed="T"/><p xml:id="pT23p0321b0801">佛在王舍城。爾時助調達比丘尼入檀越舍，
+<lb n="0321b09" ed="T"/>獨與六群比丘共立共語竊語，遣共行比丘
+<lb n="0321b10" ed="T"/>尼去。是中有比丘尼，少欲知足行頭陀，聞是
+<lb n="0321b11" ed="T"/>事心不喜，種種因緣呵責：「云何名比丘尼，入
+<lb n="0321b12" ed="T"/>白衣舍，獨與一比丘共立共語竊語？」種種因
+<lb n="0321b13" ed="T"/>緣呵已，向佛廣說。佛以是事集二部僧，知而
+<lb n="0321b14" ed="T"/>故問助調達比丘尼：「汝實作是事不？」答言：「實
+<lb n="0321b15" ed="T"/>作。世尊！」佛以種種因緣呵責言：「云何名比丘
+<lb n="0321b16" ed="T"/>尼，入白衣舍，獨與一比丘共立共語竊語？」種
+<lb n="0321b17" ed="T"/>種因緣呵已，語諸比丘：「以十利故與比丘尼
+<lb n="0321b18" ed="T"/>結戒。從今是戒應如是說：若比丘尼入白衣
+<lb n="0321b19" ed="T"/>舍，獨與一比丘共立共語竊語，遣共行比丘
+<lb n="0321b20" ed="T"/>尼去，求閑便故，波夜提。」</p><p xml:id="pT23p0321b2010" rend="inline">波夜提者，燒煮覆障，
+<lb n="0321b21" ed="T"/>若不悔過，能障礙道。</p><p xml:id="pT23p0321b2109" rend="inline">是中犯者，若比丘尼入
+<lb n="0321b22" ed="T"/>白衣舍，獨與一比丘共立，突吉羅；共語，突吉
+<lb n="0321b23" ed="T"/>羅；共竊語，突吉羅。求閑便故，遣共行比丘尼
+<lb n="0321b24" ed="T"/>離聞處去，波逸提。不離聞處，突吉羅。<note place="inline"><anchor xml:id="nkr_note_orig_0321010" n="0321010"/><anchor xml:id="beg0321010" n="0321010"/>九<anchor xml:id="end0321010"/>十事竟</note></p>
+<lb n="0321b25" ed="T"/><p xml:id="pT23p0321b2501">佛在王舍城。爾時助調達比丘尼入白衣舍，
+<lb n="0321b26" ed="T"/>獨與白衣男子共立共語竊語，遣共行比丘
+<lb n="0321b27" ed="T"/>尼去，求閑便故。是中有比丘尼，少欲知足行
+<lb n="0321b28" ed="T"/>頭陀，聞是事心不喜，種種因緣呵責言：「云何
+<lb n="0321b29" ed="T"/>名比丘尼，入白衣舍，獨與一白衣男子共立
+<pb n="0321c" ed="T" xml:id="T23.1435.0321c"/>
+<lb n="0321c01" ed="T"/>共語<anchor xml:id="nkr_note_orig_0321011" n="0321011"/><anchor xml:id="nkr_note_mod_0321011" n="0321011"/><anchor xml:id="beg0321011" n="0321011"/>共<anchor xml:id="end0321011"/>竊語，遣共行比丘尼去？」種種因緣呵
+<lb n="0321c02" ed="T"/>已，向佛廣說。佛以是事集二部僧，知而故問
+<lb n="0321c03" ed="T"/>是比丘尼：「汝實作是事不？」答言：「實作。世尊！」佛
+<lb n="0321c04" ed="T"/>以種種因緣呵責言：「云何名比丘尼，入白衣
+<lb n="0321c05" ed="T"/>舍，獨與一白衣男子共立共語<anchor xml:id="beg_8f7" type="star"/>共<anchor xml:id="end_8f7"/>竊語，遣
+<lb n="0321c06" ed="T"/>共行比丘尼去？」種種因緣呵已，語諸比丘：「以
+<lb n="0321c07" ed="T"/>十利故與比丘尼結戒。從今是戒應如是說：
+<lb n="0321c08" ed="T"/>若比丘尼入白衣舍，獨與一白衣男子共立
+<lb n="0321c09" ed="T"/>共語竊語，遣共行比丘尼去，求獨語故，波夜
+<lb n="0321c10" ed="T"/>提。」</p><p xml:id="pT23p0321c1002" rend="inline">波夜提者，燒煮覆障，若不悔過，能障礙道。</p>
+<lb n="0321c11" ed="T"/><p xml:id="pT23p0321c1101">是中犯者，若比丘尼入白衣舍，獨與一男子
+<lb n="0321c12" ed="T"/>共立，突吉羅；共語，突吉羅；共竊語，突吉羅。求
+<lb n="0321c13" ed="T"/>獨語故，遣共行比丘尼離聞處去，波夜提。不
+<lb n="0321c14" ed="T"/>離聞處，突吉羅。<note place="inline"><anchor xml:id="beg_8f8" type="star"/>九<anchor xml:id="end_8f8"/>十一事竟</note></p>
+<lb n="0321c15" ed="T"/><p xml:id="pT23p0321c1501">佛在舍衛國。爾時迦羅比丘尼，本是外道，共
+<lb n="0321c16" ed="T"/>諸比丘尼鬪諍相瞋，自打身啼。是中有比丘
+<lb n="0321c17" ed="T"/>尼，少欲知足行頭陀，聞是事心不喜，種種因
+<lb n="0321c18" ed="T"/>緣呵責言：「云何名比丘尼，共比丘尼鬪諍相
+<lb n="0321c19" ed="T"/>瞋，自打身啼？」種種因緣呵已，向佛廣說。佛以
+<lb n="0321c20" ed="T"/>是事集二部僧，知而故問迦羅比丘尼：「汝實
+<lb n="0321c21" ed="T"/>作是事不？」答言：「實作。世尊！」佛以種種因緣呵
+<lb n="0321c22" ed="T"/>責：「云何名比丘尼，共比丘尼鬪諍相瞋，自打
+<lb n="0321c23" ed="T"/>身啼？」種種因緣呵已，語諸比丘：「以十利故
+<lb n="0321c24" ed="T"/>與比丘尼結戒。從今是戒應如是說：若比
+<lb n="0321c25" ed="T"/>丘尼，共比丘尼鬪諍相瞋，自打身啼者，波
+<lb n="0321c26" ed="T"/>夜提。」</p><p xml:id="pT23p0321c2603" rend="inline">波夜提者，燒煮覆障，若不悔過，能障礙
+<lb n="0321c27" ed="T"/>道。</p><p xml:id="pT23p0321c2702" rend="inline">是中犯者，若比丘尼，共諸比丘尼鬪諍相
+<lb n="0321c28" ed="T"/>瞋，自打身啼，波夜提。若自打身不啼，得突吉
+<lb n="0321c29" ed="T"/>羅。隨打身啼，隨得爾所波夜提。<note place="inline"><anchor xml:id="beg_8f9" type="star"/>九<anchor xml:id="end_8f9"/>十二事竟</note></p><anchor xml:id="nkr_note_orig_0321012" n="0321012"/><anchor xml:id="nkr_note_mod_0321012" n="0321012"/><anchor type="circle"/>
+<pb n="0322a" ed="T" xml:id="T23.1435.0322a"/>
+<lb n="0322a01" ed="T"/><p xml:id="pT23p0322a0101"><anchor type="circle"/><anchor xml:id="nkr_note_orig_0322001" n="0322001"/><anchor xml:id="nkr_note_mod_0322001" n="0322001"/>佛在舍衛國。爾時迦羅比丘尼，本是外道，
+<lb n="0322a02" ed="T"/>共諸比丘尼鬪諍時，自作法呪、泥犁呪：「若汝
+<lb n="0322a03" ed="T"/>謗我是事者，令汝不得四念處、四正勤、四如
+<lb n="0322a04" ed="T"/>意足、五根、五力、七覺、八道，令汝世世墮地獄、
+<lb n="0322a05" ed="T"/>畜生、餓鬼。若我有是事者，令我不得四念處、
+<lb n="0322a06" ed="T"/>四正勤、四如意足、五根、五力、七覺、八道，當世
+<lb n="0322a07" ed="T"/>世墮地獄、畜生、餓鬼。」是中有比丘尼，少欲知
+<lb n="0322a08" ed="T"/>足行頭陀，聞是事心不喜，種種因緣呵責言：
+<lb n="0322a09" ed="T"/>「云何名比丘尼，共比丘尼鬪諍時，作法呪、泥
+<lb n="0322a10" ed="T"/>犁呪？」種種因緣呵已，向佛廣說。佛以是事集
+<lb n="0322a11" ed="T"/>二部僧，知而故問迦羅比丘尼：「汝實作是事
+<lb n="0322a12" ed="T"/>不？」答言：「實作。世尊！」佛以種種因緣呵責<anchor xml:id="nkr_note_orig_0322002" n="0322002"/><anchor xml:id="nkr_note_mod_0322002" n="0322002"/><anchor xml:id="beg0322002" n="0322002"/>言<anchor xml:id="end0322002"/>：
+<lb n="0322a13" ed="T"/>「云何名比丘尼，共比丘尼鬪諍時，作法呪、泥
+<lb n="0322a14" ed="T"/>犁呪？」種種因緣呵已，語諸比丘：「以十利故與
+<lb n="0322a15" ed="T"/>比丘尼結戒。從今是戒應如是說：若比丘尼，
+<lb n="0322a16" ed="T"/>共比丘尼鬪諍時，作法呪、泥犁呪，波夜提。」</p><p xml:id="pT23p0322a1617" rend="inline">波
+<lb n="0322a17" ed="T"/>夜提者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0322a1716" rend="inline">是中
+<lb n="0322a18" ed="T"/>犯者，若比丘尼，共比丘尼鬪諍時，作法呪、泥
+<lb n="0322a19" ed="T"/>犁呪，作是言：「若汝以<anchor xml:id="nkr_note_orig_0322003" n="0322003"/><anchor xml:id="nkr_note_mod_0322003" n="0322003"/><anchor xml:id="beg0322003" n="0322003"/>是<anchor xml:id="end0322003"/>事謗我者，令汝不得
+<lb n="0322a20" ed="T"/>四念處。」波夜提。「不得四正勤、四如意足、五根、
+<lb n="0322a21" ed="T"/>五力、七覺、八道」，皆波夜提。若言：「汝當世世墮
+<lb n="0322a22" ed="T"/>地獄。」波夜提。「墮畜生、餓鬼」，皆波夜提。若言：「我
+<lb n="0322a23" ed="T"/>有是事者，令我不得四念處、四正勤、四如意足、
+<lb n="0322a24" ed="T"/>五根、五力、七覺、八道。」皆波夜提。<anchor xml:id="nkr_note_orig_0322004" n="0322004"/><anchor xml:id="beg0322004" n="0322004"/>若<anchor xml:id="end0322004"/>言：「我世世
+<lb n="0322a25" ed="T"/>墮地獄、畜生、餓鬼。」皆波夜提。隨作是語，隨得
+<lb n="0322a26" ed="T"/>爾所波夜提。<note place="inline"><anchor xml:id="beg_8fa" type="star"/>九<anchor xml:id="end_8fa"/>十三事竟</note></p>
+<lb n="0322a27" ed="T"/><p xml:id="pT23p0322a2701">佛在舍衛國。爾時偷蘭難陀比丘尼，有共行
+<lb n="0322a28" ed="T"/>弟子名施越沙，善好樂持戒，喜忘師教。令舉
+<lb n="0322a29" ed="T"/>物<anchor xml:id="nkr_note_orig_0322005" n="0322005"/><anchor xml:id="nkr_note_mod_0322005" n="0322005"/><anchor xml:id="beg0322005" n="0322005"/>時<anchor xml:id="end0322005"/>，著異處餘處求，須是物時覓不能得，
+<pb n="0322b" ed="T" xml:id="T23.1435.0322b"/>
+<lb n="0322b01" ed="T"/>又時偷蘭難陀比丘尼從聚落還，弟子施越
+<lb n="0322b02" ed="T"/>沙往迎，欲代持衣鉢，却身不與。施越沙即
+<lb n="0322b03" ed="T"/>瞋，語諸比丘尼言：「我不偷奪，和<anchor xml:id="fxT23p0322b01"/>上尼不信
+<lb n="0322b04" ed="T"/>我。」諸比丘尼言：「云何不信？」「師行來還，我於道
+<lb n="0322b05" ed="T"/>中迎，欲代持鉢，却身不與。我欲代持衣，又却
+<lb n="0322b06" ed="T"/>身不與。」諸比丘尼往語偷蘭難陀比丘尼言：
+<lb n="0322b07" ed="T"/>「汝弟子善好持戒，何故不信？」答言：「我云何不
+<lb n="0322b08" ed="T"/>信？」諸比丘尼言：「汝弟子欲代汝持鉢，<anchor xml:id="nkr_note_orig_0322006" n="0322006"/><anchor xml:id="nkr_note_mod_0322006" n="0322006"/><anchor xml:id="beg0322006" n="0322006"/>汝<anchor xml:id="end0322006"/>却
+<lb n="0322b09" ed="T"/>身不與。欲代汝持衣，又却身不與。」偷蘭難陀
+<lb n="0322b10" ed="T"/>比丘尼言：「我非不信，是人憙忘，舉物異處便
+<lb n="0322b11" ed="T"/>餘處覓，若須物時覓不能得，是故不與。」是中
+<lb n="0322b12" ed="T"/>有比丘尼，少欲知足行頭陀，聞是事心不喜，
+<lb n="0322b13" ed="T"/>種種因緣呵責<anchor xml:id="beg_8fb" type="star"/>言<anchor xml:id="end_8fb"/>：「云何名比丘尼，不審諦看
+<lb n="0322b14" ed="T"/>物便嫌恨？」種種因緣呵已，向佛廣說。佛以是
+<lb n="0322b15" ed="T"/>事集二部僧，知而故問施越沙比丘尼：「汝實
+<lb n="0322b16" ed="T"/>作是事不？」答言：「實作。世尊！」佛以種種因緣呵
+<lb n="0322b17" ed="T"/>責<anchor xml:id="beg_8fc" type="star"/>言<anchor xml:id="end_8fc"/>：「云何名比丘尼，不審諦看物便嫌恨？」
+<lb n="0322b18" ed="T"/>種種因緣呵已，語諸比丘：「以十利故與比丘
+<lb n="0322b19" ed="T"/>尼結戒。從今是戒應如是說：若比丘尼不審
+<lb n="0322b20" ed="T"/>諦看物便嫌恨，波夜提。」</p><p xml:id="pT23p0322b2010" rend="inline">波夜提者，燒煮覆障，
+<lb n="0322b21" ed="T"/>若不悔過，能障礙道。</p><p xml:id="pT23p0322b2109" rend="inline">是中犯者，若比丘尼不
+<lb n="0322b22" ed="T"/>審諦看物便嫌恨，波夜提。隨嫌恨，隨得爾所
+<lb n="0322b23" ed="T"/>波夜提。<note place="inline"><anchor xml:id="beg_8fd" type="star"/>九<anchor xml:id="end_8fd"/>十四<anchor xml:id="beg_8fe" type="star"/>事<anchor xml:id="end_8fe"/>竟</note></p>
+<lb n="0322b24" ed="T"/><p xml:id="pT23p0322b2401">佛在王舍城，與多比丘僧王舍城安居。舍利
+<lb n="0322b25" ed="T"/>弗、目連、阿那律、難提、金毘羅等，是諸大弟子
+<lb n="0322b26" ed="T"/>皆共佛安居。爾時諸比丘尼，夏中遊行到他
+<lb n="0322b27" ed="T"/>國土，行時殺諸生草小蟲。諸居士瞋呵責言：
+<lb n="0322b28" ed="T"/>「佛與大眾舍利弗、目連、阿那律、難提、金毘羅
+<lb n="0322b29" ed="T"/>等，王舍城安居。是諸比丘尼自言：『善好有功
+<pb n="0322c" ed="T" xml:id="T23.1435.0322c"/>
+<lb n="0322c01" ed="T"/>德。』夏中遊行諸國，殺諸生草小蟲。」是中有比
+<lb n="0322c02" ed="T"/>丘尼，少欲知足行頭陀，聞是事心不喜，種種
+<lb n="0322c03" ed="T"/>因緣呵責言：「云何名比丘尼，夏中遊行諸國，
+<lb n="0322c04" ed="T"/>殺諸生草小蟲？」種種因緣呵已，向佛廣說。佛
+<lb n="0322c05" ed="T"/>以是事集二部僧，知而故問諸比丘尼：「汝實
+<lb n="0322c06" ed="T"/>作是事不？」答言：「實作。世尊！」佛以種種因緣
+<lb n="0322c07" ed="T"/>呵責言：「云何名比丘尼，夏中遊行諸國，殺諸
+<lb n="0322c08" ed="T"/>生草小蟲？」佛以種種因緣呵已，語諸比丘：「以
+<lb n="0322c09" ed="T"/>十利故與比丘尼結戒。從今是戒應如是說：
+<lb n="0322c10" ed="T"/>若比丘尼夏中無因緣遊行他國，波夜提。」</p><p xml:id="pT23p0322c1017" rend="inline">波
+<lb n="0322c11" ed="T"/>夜提者，燒煮覆障，若不悔過，能障礙道。</p><p xml:id="pT23p0322c1116" rend="inline">是中
+<lb n="0322c12" ed="T"/>犯者，若比丘尼夏中無因緣遊行他國，波夜
+<lb n="0322c13" ed="T"/>提。隨遊行，隨得爾所波夜提。<note place="inline"><anchor xml:id="beg_8ff" type="star"/>九<anchor xml:id="end_8ff"/>十五事竟</note></p>
+<lb n="0322c14" ed="T"/><p xml:id="pT23p0322c1401">佛在王舍城，自恣竟二月遊行他國，舍利弗、
+<lb n="0322c15" ed="T"/>目連、阿那律、難提、金毘羅等諸大弟子，皆從
+<lb n="0322c16" ed="T"/>佛遊行他國，是諸比丘尼住不去。諸居士呵
+<lb n="0322c17" ed="T"/>責言：「佛<anchor xml:id="nkr_note_orig_0322007" n="0322007"/><anchor xml:id="nkr_note_mod_0322007" n="0322007"/><anchor xml:id="beg0322007" n="0322007"/>在<anchor xml:id="end0322007"/>王舍城，自恣竟二月遊行他國，
+<lb n="0322c18" ed="T"/>與大弟子舍利弗、目連、阿那律、難提、金毘羅等
+<lb n="0322c19" ed="T"/>遊行，諸比丘尼不去。不善小女，不欲出是房
+<lb n="0322c20" ed="T"/>舍。」是中有比丘尼，少欲知足行頭陀，聞是事
+<lb n="0322c21" ed="T"/>心不喜，向佛廣說。佛以是事集二部僧，知而
+<lb n="0322c22" ed="T"/>故問諸比丘尼。汝等實爾不？答言：「實爾。世尊！」
+<lb n="0322c23" ed="T"/>佛以種種因緣呵責<anchor xml:id="beg_900" type="star"/>言<anchor xml:id="end_900"/>：「云何名比丘尼，自
+<lb n="0322c24" ed="T"/>恣竟不遊行餘處一宿？」種種因緣呵已，語諸
+<lb n="0322c25" ed="T"/>比丘：「以十利故與比丘尼結戒。從今是戒應
+<lb n="0322c26" ed="T"/>如是說：若比丘尼自恣竟，不遊行餘處一宿，
+<lb n="0322c27" ed="T"/>波夜提。」</p><p xml:id="pT23p0322c2704" rend="inline">波夜提者，燒煮覆障，若不悔過，能障
+<lb n="0322c28" ed="T"/>礙道。</p><p xml:id="pT23p0322c2803" rend="inline">是中犯者，若比丘尼自恣竟，不遊行餘
+<lb n="0322c29" ed="T"/>處一宿，波夜提。隨不去，隨得爾所波夜提。<note place="inline"><anchor xml:id="beg_901" type="star"/>九<anchor xml:id="end_901"/>十六事
+<pb n="0323a" ed="T" xml:id="T23.1435.0323a"/>
+<lb n="0323a01" ed="T"/>竟</note></p><anchor xml:id="nkr_note_orig_0323001" n="0323001"/><anchor xml:id="nkr_note_mod_0323001" n="0323001"/><anchor type="circle"/>
+<lb n="0323a02" ed="T"/><cb:juan n="044" fun="close"><cb:jhead><title>十誦尼律</title>卷第四十四</cb:jhead></cb:juan>
+</cb:div></cb:div></cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0316005" to="#end0316005"><lem wit="#wit1">飢</lem><rdg resp="#resp1" wit="#wit4 #wit5">饑</rdg></app>
+<app from="#beg0316006" to="#end0316006"><lem wit="#wit1">到</lem><rdg resp="#resp1" wit="#wit5">至</rdg></app>
+<app from="#beg0316007" to="#end0316007"><lem wit="#wit1">夜</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">逸</rdg></app>
+<app from="#beg0316008" to="#end0316008"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5">第二</rdg></app>
+<app from="#beg0316009" to="#end0316009"><lem wit="#wit1">估</lem><rdg resp="#resp1" wit="#wit4 #wit5">賈</rdg></app>
+<app from="#beg0316010" to="#end0316010"><lem wit="#wit1">比</lem><rdg resp="#resp1" wit="#wit5">戒</rdg></app>
+<app from="#beg_8d6" to="#end_8d6" corresp="#0316008"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5">第二</rdg></app>
+<app from="#beg0317001" to="#end0317001"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0317002" to="#end0317002"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit5">第三</rdg></app>
+<app from="#beg0317003" to="#end0317003"><lem wit="#wit1">百</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">一百</rdg></app>
+<app from="#beg0317004" to="#end0317004"><lem wit="#wit1">單波夜提法</lem><rdg resp="#resp1" wit="#wit3 #wit2"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit4 #wit5">波夜提法</rdg></app>
+<app cb:word-count="32" from="#beg0317005" to="#end0317005"><lem wit="#wit1">前七十一與大僧同故不出，從此第七十二戒<lb n="0317a26" ed="T"/>已下一百七戒不同比丘故別明之</lem><rdg resp="#resp1" wit="#wit3 #wit2">中第七十二共一百六不共</rdg><rdg resp="#resp1" wit="#wit4 #wit5">內七十二共一百六不共</rdg></app>
+<app from="#beg0317006" to="#end0317006"><lem wit="#wit1">初食蒜戒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0317007" to="#end0317007"><lem wit="#wit1">瞋</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">皆</rdg></app>
+<app from="#beg0317008" to="#end0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg0317009" to="#end0317009"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit3 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0317010" to="#end0317010"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">又時</rdg></app>
+<app from="#beg_8d7" to="#end_8d7" corresp="#0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg0318001" to="#end0318001"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">四事</rdg></app>
+<app from="#beg_8d8" to="#end_8d8" corresp="#0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg0318002" to="#end0318002"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit4 #wit5">五事</rdg></app>
+<app from="#beg0318003" to="#end0318003"><lem wit="#wit1">煮者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">者煮</rdg></app>
+<app from="#beg_8d9" to="#end_8d9" corresp="#0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg0318004" to="#end0318004"><lem wit="#wit1">洹</lem><rdg resp="#resp1" wit="#wit3 #wit2">桓</rdg></app>
+<app from="#beg0318005" to="#end0318005"><lem wit="#wit1">盤</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">槃</rdg></app>
+<app from="#beg0318006" to="#end0318006"><lem wit="#wit1">蓏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">瓜</rdg></app>
+<app from="#beg0318007" to="#end0318007"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8da" to="#end_8da" corresp="#0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg_8db" to="#end_8db" corresp="#0317009"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0318008" to="#end0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8dc" to="#end_8dc" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8dd" to="#end_8dd" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8de" to="#end_8de" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8df" to="#end_8df" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8e0" to="#end_8e0" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg0319001" to="#end0319001"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">羅罪</rdg></app>
+<app from="#beg_8e1" to="#end_8e1" corresp="#0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg_8e2" to="#end_8e2" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8e3" to="#end_8e3" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8e4" to="#end_8e4" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8e5" to="#end_8e5" corresp="#0318008"><lem wit="#wit1">尿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">溺</rdg></app>
+<app from="#beg_8e6" to="#end_8e6" corresp="#0317008"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">第七</rdg></app>
+<app from="#beg0319002" to="#end0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg0319003" to="#end0319003"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">十事</rdg></app>
+<app from="#beg_8e7" to="#end_8e7" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg0319004" to="#end0319004"><lem wit="#wit1">竟</lem><rdg resp="#resp1" wit="#wit2">事竟</rdg></app>
+<app from="#beg_8e8" to="#end_8e8" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg_8e9" to="#end_8e9" corresp="#0319004"><lem wit="#wit1">竟</lem><rdg resp="#resp1" wit="#wit2">事竟</rdg></app>
+<app from="#beg_8ea" to="#end_8ea" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg_8eb" to="#end_8eb" corresp="#0319004"><lem wit="#wit1">竟</lem><rdg resp="#resp1" wit="#wit2">事竟</rdg></app>
+<app from="#beg0320001" to="#end0320001"><lem wit="#wit1">坊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">房</rdg></app>
+<app from="#beg0320002" to="#end0320002"><lem wit="#wit1">心不喜</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8ec" to="#end_8ec" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg0320003" to="#end0320003"><lem wit="#wit1">却</lem><rdg resp="#resp1" wit="#wit2">脚</rdg></app>
+<app from="#beg0320004" to="#end0320004"><lem wit="#wit1">種<lb n="0320b10" ed="T"/>種因緣呵責已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320005" to="#end0320005"><lem wit="#wit1">蘿蔔</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">羅菔</rdg></app>
+<app from="#beg0320006" to="#end0320006"><lem wit="#wit1">比丘尼</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8ed" to="#end_8ed" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg0320007" to="#end0320007"><lem wit="#wit1">善比丘尼</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320008" to="#end0320008"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320009" to="#end0320009"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320010" to="#end0320010"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320011" to="#end0320011"><lem wit="#wit1"><g ref="#CB13416">𨄔</g></lem><rdg resp="#resp1" wit="#wit4 #wit5">腨</rdg></app>
+<app from="#beg0320012" to="#end0320012"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">言</rdg></app>
+<app from="#beg0320013" to="#end0320013"><lem wit="#wit1">到</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">至</rdg></app>
+<app from="#beg0320014" to="#end0320014"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320015" to="#end0320015"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0320016" to="#end0320016"><lem wit="#wit1">和<lb n="0320c05" ed="T"/>上</lem><rdg resp="#resp1" wit="#wit4 #wit5">和尚</rdg></app>
+<app from="#beg0320017" to="#end0320017"><lem wit="#wit1">遠</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">速</rdg></app>
+<app from="#beg0320018" to="#end0320018"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">他</rdg></app>
+<app from="#beg0320019" to="#end0320019"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8ee" to="#end_8ee" corresp="#0320018"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">他</rdg></app>
+<app from="#beg0320020" to="#end0320020"><lem wit="#wit1">出</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8ef" to="#end_8ef" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg0320021" to="#end0320021"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0321001" to="#end0321001"><lem wit="#wit1">責</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0321002" to="#end0321002"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8f0" to="#end_8f0" corresp="#0320021"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0321003" to="#end0321003"><lem wit="#wit1">波逸提</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">波夜提</rdg></app>
+<app from="#beg_8f1" to="#end_8f1" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg_8f2" to="#end_8f2" corresp="#0320021"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0321004" to="#end0321004"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">是</rdg></app>
+<app from="#beg0321005" to="#end0321005"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit4 #wit5">共</rdg></app>
+<app from="#beg0321006" to="#end0321006"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0321007" to="#end0321007"><lem wit="#wit1">褥</lem><rdg resp="#resp1" wit="#wit2">蓐</rdg></app>
+<app from="#beg_8f3" to="#end_8f3" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg0321008" to="#end0321008"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit3 #wit4">六</rdg></app>
+<app from="#beg_8f4" to="#end_8f4" corresp="#0320021"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0321009" to="#end0321009"><lem wit="#wit1">襯</lem><rdg resp="#resp1" wit="#wit3">儭</rdg><rdg resp="#resp1" wit="#wit2">嚫</rdg></app>
+<app from="#beg_8f5" to="#end_8f5" corresp="#0319002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">第八</rdg></app>
+<app from="#beg_8f6" to="#end_8f6" corresp="#0317009"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0321010" to="#end0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+<app from="#beg0321011" to="#end0321011"><lem wit="#wit1">共</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8f7" to="#end_8f7" corresp="#0321011"><lem wit="#wit1">共</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8f8" to="#end_8f8" corresp="#0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+<app from="#beg_8f9" to="#end_8f9" corresp="#0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+<app from="#beg0322002" to="#end0322002"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0322003" to="#end0322003"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2">此</rdg></app>
+<app from="#beg0322004" to="#end0322004"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8fa" to="#end_8fa" corresp="#0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+<app from="#beg0322005" to="#end0322005"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0322006" to="#end0322006"><lem wit="#wit1">汝</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8fb" to="#end_8fb" corresp="#0322002"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8fc" to="#end_8fc" corresp="#0322002"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_8fd" to="#end_8fd" corresp="#0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+<app from="#beg_8fe" to="#end_8fe" corresp="#0317009"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_8ff" to="#end_8ff" corresp="#0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+<app from="#beg0322007" to="#end0322007"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_900" to="#end_900" corresp="#0322002"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_901" to="#end_901" corresp="#0321010"><lem wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit5">第九</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0316004" resp="#resp2" type="mod" target="#nkr_note_mod_0316004"><!--CBETA todo type: a-->不分卷及章【宋】【元】【明】【宮】</note>
+<note n="0316007" resp="#resp2" type="mod" target="#nkr_note_mod_0316007">夜＝逸【宋】【元】【明】【宮】下同</note>
+<note n="0317003" resp="#resp2" type="mod" target="#nkr_note_mod_0317003">（一）＋百【宋】【元】【明】【宮】</note>
+<note n="0317005" resp="#resp2" type="mod" target="#nkr_note_mod_0317005">（（前七…之））三十二字＝（（中第七十二共一百六不共））十一字【宋】【宮】，＝（（內七十二共一百六不共））十字【元】【明】</note>
+<note n="0317006" resp="#resp2" type="mod" target="#nkr_note_mod_0317006">〔初食蒜戒〕－【宋】【元】【明】【宮】</note>
+<note n="0317007" resp="#resp2" type="mod" target="#nkr_note_mod_0317007">瞋＝皆【宋】【元】【明】【宮】</note>
+<note n="0317010" resp="#resp2" type="mod" target="#nkr_note_mod_0317010">又＋（時）【宋】【元】【明】【宮】</note>
+<note n="0318001" resp="#resp2" type="mod" target="#nkr_note_mod_0318001">四＋（事）【宋】【元】【明】【宮】</note>
+<note n="0318003" resp="#resp2" type="mod" target="#nkr_note_mod_0318003">煮者＝者煮【宋】【元】【明】【宮】</note>
+<note n="0318005" resp="#resp2" type="mod" target="#nkr_note_mod_0318005">盤＝槃【宋】【元】【明】【宮】</note>
+<note n="0318006" resp="#resp2" type="mod" target="#nkr_note_mod_0318006">蓏＝瓜【宋】【元】【明】【宮】</note>
+<note n="0318007" resp="#resp2" type="mod" target="#nkr_note_mod_0318007">〔中〕－【宋】【元】【明】【宮】</note>
+<note n="0318008" resp="#resp2" type="mod" target="#nkr_note_mod_0318008">尿＝溺【宋】【元】【明】【宮】＊</note>
+<note n="0319001" resp="#resp2" type="mod" target="#nkr_note_mod_0319001">羅＋（罪）【宋】【元】【明】【宮】</note>
+<note n="0319003" resp="#resp2" type="mod" target="#nkr_note_mod_0319003">十＋（事）【宋】【元】【明】【宮】</note>
+<note n="0320001" resp="#resp2" type="mod" target="#nkr_note_mod_0320001">坊＝房【宋】【元】【明】【宮】</note>
+<note n="0320002" resp="#resp2" type="mod" target="#nkr_note_mod_0320002">〔心不喜〕－【宋】【元】【明】【宮】</note>
+<note n="0320004" resp="#resp2" type="mod" target="#nkr_note_mod_0320004">〔種種因緣呵責已〕－【宋】【元】【明】【宮】</note>
+<note n="0320005" resp="#resp2" type="mod" target="#nkr_note_mod_0320005">蘿蔔＝羅菔【宋】【元】【明】【宮】</note>
+<note n="0320006" resp="#resp2" type="mod" target="#nkr_note_mod_0320006">〔比丘尼〕－【宋】【元】【明】【宮】</note>
+<note n="0320007" resp="#resp2" type="mod" target="#nkr_note_mod_0320007">〔善比丘尼〕－【宋】【元】【明】【宮】</note>
+<note n="0320009" resp="#resp2" type="mod" target="#nkr_note_mod_0320009">〔時〕－【宋】【元】【明】【宮】</note>
+<note n="0320010" resp="#resp2" type="mod" target="#nkr_note_mod_0320010">〔羅〕－【宋】【元】【明】【宮】</note>
+<note n="0320011" resp="#resp2" type="mod" target="#nkr_note_mod_0320011"><choice cb:resp="#resp4"><corr><g ref="#CB13416">𨄔</g></corr><sic><g ref="#CB00567">󰈷</g></sic></choice>＝腨【元】【明】</note>
+<note n="0320012" resp="#resp2" type="mod" target="#nkr_note_mod_0320012">曰＝言【宋】【元】【明】【宮】</note>
+<note n="0320013" resp="#resp2" type="mod" target="#nkr_note_mod_0320013">到＝至【宋】【元】【明】【宮】</note>
+<note n="0320014" resp="#resp2" type="mod" target="#nkr_note_mod_0320014">〔曰〕－【宋】【元】【明】【宮】</note>
+<note n="0320015" resp="#resp2" type="mod" target="#nkr_note_mod_0320015">〔為〕－【宋】【元】【明】【宮】</note>
+<note n="0320017" resp="#resp2" type="mod" target="#nkr_note_mod_0320017">遠＝速【宋】【元】【明】【宮】</note>
+<note n="0320018" resp="#resp2" type="mod" target="#nkr_note_mod_0320018">人＝他【宋】【元】【明】【宮】＊</note>
+<note n="0320019" resp="#resp2" type="mod" target="#nkr_note_mod_0320019">〔者〕－【宋】【元】【明】【宮】</note>
+<note n="0320021" resp="#resp2" type="mod" target="#nkr_note_mod_0320021">〔清〕－【宋】【元】【明】【宮】＊</note>
+<note n="0321002" resp="#resp2" type="mod" target="#nkr_note_mod_0321002">〔一〕－【宋】【元】【明】【宮】</note>
+<note n="0321003" resp="#resp2" type="mod" target="#nkr_note_mod_0321003">波逸提＝波夜提【宋】【元】【明】</note>
+<note n="0321004" resp="#resp2" type="mod" target="#nkr_note_mod_0321004">此＝是【宋】【元】【明】【宮】</note>
+<note n="0321006" resp="#resp2" type="mod" target="#nkr_note_mod_0321006">〔若〕－【宋】【元】【明】【宮】</note>
+<note n="0321009" resp="#resp2" type="mod" target="#nkr_note_mod_0321009">襯＝儭【宋】，＝嚫【宮】</note>
+<note n="0321011" resp="#resp2" type="mod" target="#nkr_note_mod_0321011">〔共〕－【宋】【元】【明】【宮】＊</note>
+<note n="0321012" resp="#resp2" type="mod" target="#nkr_note_mod_0321012"><!--CBETA todo type: a-->卷第四十三終【宋】【元】【宮】，卷第四十五終【明】</note>
+<note n="0322001" resp="#resp2" type="mod" target="#nkr_note_mod_0322001"><!--CBETA todo type: a-->卷第四十四首，第七誦之三尼律不共單提【宋】【元】【宮】，但提下元本有夾註共十八事四字，卷第四十六首，第七誦之三尼律不共單提共十八事【明】，但共十八事四字作夾註</note>
+<note n="0322002" resp="#resp2" type="mod" target="#nkr_note_mod_0322002">〔言〕－【宋】【元】【明】【宮】＊</note>
+<note n="0322003" resp="#resp2" type="mod" target="#nkr_note_mod_0322003">是＝此【宋】【元】【明】【宮】</note>
+<note n="0322005" resp="#resp2" type="mod" target="#nkr_note_mod_0322005">〔時〕－【宋】【元】【明】【宮】</note>
+<note n="0322006" resp="#resp2" type="mod" target="#nkr_note_mod_0322006">〔汝〕－【宋】【元】【明】【宮】</note>
+<note n="0322007" resp="#resp2" type="mod" target="#nkr_note_mod_0322007">〔在〕－【宋】【元】【明】【宮】</note>
+<note n="0323001" resp="#resp2" type="mod" target="#nkr_note_mod_0323001"><!--CBETA todo type: a-->不分卷及章【宋】【元】【明】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0316004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316004">不分卷及章【三】【宮】</note>
+<note n="0316005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316005">飢＝饑【元】【明】下同</note>
+<note n="0316006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316006">到＝至【明】</note>
+<note n="0316007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316007">夜＝逸【三】【宮】下同</note>
+<note n="0316008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316008">（第）＋二【明】＊</note>
+<note n="0316009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316009">估＝賈【元】【明】下同</note>
+<note n="0316010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0316010">比＝戒【明】</note>
+<note n="0317001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317001">〔而〕－【宮】</note>
+<note n="0317002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317002">（第）＋三【明】</note>
+<note n="0317003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317003">（一）＋百【三】【宮】</note>
+<note n="0317004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317004">〔單波夜提法〕－【宋】【宮】，〔單〕－【元】【明】</note>
+<note n="0317005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317005">（（前七…之））三十二字＝（（中第七十二共一百六不共））十一字【宋】【宮】，（（內七十二共一百六不共））十字【元】【明】</note>
+<note n="0317006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317006">〔初食蒜戒〕－【三】【宮】</note>
+<note n="0317007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317007">瞋＝皆【三】【宮】</note>
+<note n="0317008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317008">（第）＋七【明】＊</note>
+<note n="0317009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317009">〔事〕－【宋】＊【宮】</note>
+<note n="0317010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0317010">又＋（時）【三】【宮】</note>
+<note n="0318001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318001">四＋（事）【三】【宮】</note>
+<note n="0318002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318002">五＋（事）【元】【明】</note>
+<note n="0318003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318003">煮者＝者煮【三】【宮】</note>
+<note n="0318004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318004">洹＝桓【宋】【宮】</note>
+<note n="0318005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318005">盤＝槃【三】【宮】</note>
+<note n="0318006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318006">蓏＝瓜【三】【宮】</note>
+<note n="0318007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318007">〔中〕－【三】【宮】</note>
+<note n="0318008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0318008">尿＝溺【三】【宮】＊</note>
+<note n="0319001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0319001">羅＋（罪）【三】【宮】</note>
+<note n="0319002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0319002">（第）＋八【明】＊</note>
+<note n="0319003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0319003">十＋（事）【三】【宮】</note>
+<note n="0319004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0319004">（事）＋竟【宮】＊</note>
+<note n="0320001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320001">坊＝房【三】【宮】</note>
+<note n="0320002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320002">〔心不喜〕－【三】【宮】</note>
+<note n="0320003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320003">却＝脚【宮】</note>
+<note n="0320004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320004">〔種種因緣呵責已〕－【三】【宮】</note>
+<note n="0320005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320005">蘿蔔＝羅菔【三】【宮】</note>
+<note n="0320006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320006">〔比丘尼〕－【三】【宮】</note>
+<note n="0320007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320007">〔善比丘尼〕－【三】【宮】</note>
+<note n="0320008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320008">〔一〕－【宮】</note>
+<note n="0320009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320009">〔時〕－【三】【宮】</note>
+<note n="0320010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320010">〔羅〕－【三】【宮】</note>
+<note n="0320011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320011"><g ref="#CB00567">󰈷</g>＝腨【元】【明】</note>
+<note n="0320012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320012">曰＝言【三】【宮】</note>
+<note n="0320013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320013">到＝至【三】【宮】</note>
+<note n="0320014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320014">〔曰〕－【三】【宮】</note>
+<note n="0320015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320015">〔為〕－【三】【宮】</note>
+<note n="0320016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320016">和上＝和尚【元】【明】下同</note>
+<note n="0320017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320017">遠＝速【三】【宮】</note>
+<note n="0320018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320018">人＝他【三】【宮】＊</note>
+<note n="0320019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320019">〔者〕－【三】【宮】</note>
+<note n="0320020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320020">〔出〕－【宮】</note>
+<note n="0320021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0320021">〔清〕－【三】【宮】＊</note>
+<note n="0321001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321001">〔責〕－【宮】</note>
+<note n="0321002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321002">〔一〕－【三】【宮】</note>
+<note n="0321003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321003">波逸提＝波夜提【三】</note>
+<note n="0321004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321004">此＝是【三】【宮】</note>
+<note n="0321005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321005">若＝共【元】【明】</note>
+<note n="0321006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321006">〔若〕－【三】【宮】</note>
+<note n="0321007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321007">褥＝蓐【宮】</note>
+<note n="0321008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321008">八＝六【宋】【元】</note>
+<note n="0321009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321009">襯＝儭【宋】，嚫【宮】</note>
+<note n="0321010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321010">（第）＋九【明】＊</note>
+<note n="0321011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321011">〔共〕－【三】【宮】＊</note>
+<note n="0321012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0321012">卷第四十三終【宋】【元】【宮】，卷第四十五終【明】</note>
+<note n="0322001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322001">卷第四十四首，第七誦之三尼律不共單提【宋】【元】【宮】，但提下元本有夾註共十八事四字，卷第四十六首，第七誦之三尼律不共單提共十八事【明】，但共十八事四字作夾註</note>
+<note n="0322002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322002">〔言〕－【三】【宮】＊</note>
+<note n="0322003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322003">是＝此【三】【宮】</note>
+<note n="0322004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322004">〔若〕－【宮】</note>
+<note n="0322005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322005">〔時〕－【三】【宮】</note>
+<note n="0322006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322006">〔汝〕－【三】【宮】</note>
+<note n="0322007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0322007">〔在〕－【三】【宮】</note>
+<note n="0323001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0323001">不分卷及章【三】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="rest-notes">
+<head>其他註解</head>
+<p>
+</p>
+</cb:div>
+</back></text></TEI>

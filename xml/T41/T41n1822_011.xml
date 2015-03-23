@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T41n1822">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1822 俱舍論疏</title>
+			<author>唐 法寶撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.35 $<date>$Date: 2012/02/22 03:31:14 $</date></edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+	</editionStmt>
+	<extent>30卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/02/22 03:31:14 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 41, No. 1822 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【甲】</witness>
+		<witness xml:id="wit3">【乙】</witness>
+		<witness xml:id="wit4">【原】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00045">
+	<charName>CBETA CHARACTER CB00045</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*(一/巾)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>咂</value>
+	</charProp>
+	<mapping type="unicode">U+20BD7</mapping>
+	<mapping cb:dec="983085" type="PUA">U+F002D</mapping>
+</char>
+<char xml:id="CB01040">
+	<charName>CBETA CHARACTER CB01040</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[此/束]</value>
+	</charProp>
+	<mapping cb:dec="984080" type="PUA">U+F0410</mapping>
+</char>
+<char xml:id="CB01479">
+	<charName>CBETA CHARACTER CB01479</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[此/朿]</value>
+	</charProp>
+	<mapping type="unicode">U+3B70</mapping>
+	<mapping cb:dec="984519" type="PUA">U+F05C7</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="2000-08-22T10:54:03">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" type="品">3 分別世品</cb:mulu>
+<lb n="0614b19" ed="T"/>
+<milestone n="11" unit="juan"/>
+<lb n="0614b20" ed="T"/>
+<lb n="0614b21" ed="T"/><cb:juan n="011" fun="open"><cb:mulu n="11" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0614012" n="0614012"/><anchor xml:id="beg0614012" n="0614012"/>俱舍論疏卷<anchor xml:id="end0614012"/><anchor xml:id="nkr_note_rest_0614012" n="0614012"/>第十一</cb:jhead></cb:juan>
+<lb n="0614b22" ed="T"/>
+<lb n="0614b23" ed="T"/><byline cb:type="Author">沙門<anchor xml:id="nkr_note_orig_0614013" n="0614013"/><anchor xml:id="beg0614013" n="0614013"/>法<anchor xml:id="end0614013"/>寶<anchor xml:id="nkr_note_orig_0614014" n="0614014"/><anchor xml:id="beg0614014" n="0614014"/>撰<anchor xml:id="end0614014"/></byline>
+<lb n="0614b24" ed="T"/><cb:div type="pin"><head><anchor xml:id="nkr_note_orig_0614015" n="0614015"/>分別<anchor xml:id="nkr_note_orig_0614016" n="0614016"/><anchor xml:id="beg0614016" n="0614016"/>世<anchor xml:id="end0614016"/>品第三之四</head>
+<lb n="0614b25" ed="T"/><p xml:id="pT41p0614b2501">論。如是已說至今當說者。此下當品大文第
+<lb n="0614b26" ed="T"/>二明器世間　於中有三。一述所居器。二
+<lb n="0614b27" ed="T"/>述能居量。三述<anchor xml:id="nkr_note_orig_0614017" n="0614017"/><anchor xml:id="beg0614017" n="0614017"/>分<anchor xml:id="end0614017"/>齊　就明所居器中。
+<lb n="0614b28" ed="T"/>一別明小器。二總明大千　就別明小器
+<lb n="0614b29" ed="T"/>中。一明三輪。二明九山。三明八海。四明四
+<pb n="0614c" xml:id="T41.1822.0614c" ed="T"/>
+<lb n="0614c01" ed="T"/>洲。五<anchor xml:id="nkr_note_orig_0614018" n="0614018"/><anchor xml:id="beg0614018" n="0614018"/>黑<anchor xml:id="end0614018"/>山等。六明地獄。七明日．月。八明
+<lb n="0614c02" ed="T"/>天器　此下三行頌。第一明三輪。頌文可
+<lb n="0614c03" ed="T"/>知。</p><p xml:id="pT41p0614c0302" rend="inline">論曰至形量不同。此明三千大千世
+<lb n="0614c04" ed="T"/>界形量不同。三輪等異諸部同許。</p><p xml:id="pT41p0614c0414" rend="inline">論。謂
+<lb n="0614c05" ed="T"/>諸有情至踰繕那。明風輪廣厚也。</p><p xml:id="pT41p0614c0514" rend="inline">論。
+<lb n="0614c06" ed="T"/>如是風輪至風輪無損。明風輪堅密　大諾
+<lb n="0614c07" ed="T"/>健那者。是人中神名。此云露形。有大力也。</p>
+<lb n="0614c08" ed="T"/><p xml:id="pT41p0614c0801"><anchor xml:id="nkr_note_orig_0614019" n="0614019"/><anchor xml:id="beg0614019" n="0614019"/>論。又<anchor xml:id="end0614019"/>諸有情至踰繕那。此明水輪厚
+<lb n="0614c09" ed="T"/>也　廣同金輪故此不說。</p><p xml:id="pT41p0614c0910" rend="inline">論。如何水
+<lb n="0614c10" ed="T"/>輪不傍流散。問。</p><p xml:id="pT41p0614c1007" rend="inline">論。有餘師說至墮於熟
+<lb n="0614c11" ed="T"/><anchor xml:id="nkr_note_orig_0614020" n="0614020"/><anchor xml:id="beg0614020" n="0614020"/>藏<anchor xml:id="end0614020"/>。述餘師釋。</p><p xml:id="pT41p0614c1106" rend="inline">論。有餘部說至如篅持
+<lb n="0614c12" ed="T"/>穀。述異部釋。未知何部。應撿。</p><p xml:id="pT41p0614c1212" rend="inline">論。有情
+<lb n="0614c13" ed="T"/>業力至三億二萬明金輪也。及明成金已
+<lb n="0614c14" ed="T"/><anchor xml:id="nkr_note_orig_0614021" n="0614021"/><anchor xml:id="beg0614021" n="0614021"/>後<anchor xml:id="end0614021"/>二輪厚薄。</p><p xml:id="pT41p0614c1406" rend="inline">論。二輪廣量至踰繕那。
+<lb n="0614c15" ed="T"/>此明水．金二輪廣量。准此金．水二輪與風
+<lb n="0614c16" ed="T"/>輪不同。風輪無數理合大千同一。<anchor xml:id="nkr_note_orig_0614022" n="0614022"/><anchor xml:id="beg0614022" n="0614022"/>二<anchor xml:id="end0614022"/>徑十
+<lb n="0614c17" ed="T"/>二億等。即是<anchor xml:id="nkr_note_orig_0614023" n="0614023"/><anchor xml:id="beg0614023" n="0614023"/>唯<anchor xml:id="end0614023"/>。一四天下也。略計八山．七
+<lb n="0614c18" ed="T"/>海已六十萬<anchor xml:id="nkr_note_orig_0614024" n="0614024"/><anchor xml:id="beg0614024" n="0614024"/>餘<anchor xml:id="end0614024"/>踰繕那。更加外海．輪圍亦
+<lb n="0614c19" ed="T"/>有十二億。下文云十萬為<anchor xml:id="nkr_note_orig_0614025" n="0614025"/><anchor xml:id="beg0614025" n="0614025"/>洛叉<anchor xml:id="end0614025"/>。故知十萬
+<lb n="0614c20" ed="T"/>為億也　有人。謂十二餘億為大千之徑。
+<lb n="0614c21" ed="T"/><anchor xml:id="nkr_note_orig_0614026" n="0614026"/><anchor xml:id="beg0614026" n="0614026"/>全<anchor xml:id="end0614026"/>不相當。婆娑一百三十<anchor xml:id="nkr_note_orig_0614027" n="0614027"/><anchor xml:id="beg0614027" n="0614027"/>四<anchor xml:id="end0614027"/>。風輪廣則無
+<lb n="0614c22" ed="T"/>數　又云。如是水輪<anchor xml:id="nkr_note_orig_0614028" n="0614028"/><anchor xml:id="beg0614028" n="0614028"/>於<anchor xml:id="end0614028"/>未凝結位。深十一
+<lb n="0614c23" ed="T"/>億二萬踰繕那。有說廣量與風輪等。有說狹
+<lb n="0614c24" ed="T"/>小分百俱胝。百俱胝輪其量皆等。謂徑十二
+<lb n="0614c25" ed="T"/>億三千四百半。圍量三倍。謂三十六億一萬
+<lb n="0614c26" ed="T"/>三百五十踰繕那。有說金輪廣如水量。有師
+<lb n="0614c27" ed="T"/>復說少廣水輪　准此論釋。風．水之中取
+<lb n="0614c28" ed="T"/>其後說。水．金之內今取前師。今<anchor xml:id="nkr_note_orig_0614029" n="0614029"/><anchor xml:id="beg0614029" n="0614029"/>詳<anchor xml:id="end0614029"/>前之二
+<lb n="0614c29" ed="T"/>說前說為善。既同一雨水以成水輪。於中
+<pb n="0615a" xml:id="T41.1822.0615a" ed="T"/>
+<lb n="0615a01" ed="T"/>何要分金．水別。<anchor xml:id="nkr_note_orig_0615001" n="0615001"/><anchor xml:id="beg0615001" n="0615001"/>又<anchor xml:id="end0615001"/>三輪相依。風輪既等大
+<lb n="0615a02" ed="T"/>千。水．金因何即小。</p>
+<lb n="0615a03" ed="T"/><p xml:id="pT41p0615a0301">頌曰。已下有四行頌。第二明九山也　蘇
+<lb n="0615a04" ed="T"/>迷<anchor xml:id="nkr_note_orig_0615002" n="0615002"/><anchor xml:id="beg0615002" n="0615002"/>盧<anchor xml:id="end0615002"/>者。此云妙高　踰健達羅。此云持雙。
+<lb n="0615a05" ed="T"/><anchor xml:id="nkr_note_orig_0615003" n="0615003"/><anchor xml:id="beg0615003" n="0615003"/>此<anchor xml:id="end0615003"/>山頂上有其二道猶如車迹。山持二迹
+<lb n="0615a06" ed="T"/>故名持雙　伊沙馱羅。此云持軸山。峯上
+<lb n="0615a07" ed="T"/>聳猶如車軸故名持軸　竭地<anchor xml:id="nkr_note_orig_0615004" n="0615004"/><anchor xml:id="beg0615004" n="0615004"/>洛<anchor xml:id="end0615004"/>迦。印度
+<lb n="0615a08" ed="T"/>樹名。一此山寶樹形相似故從<anchor xml:id="nkr_note_orig_0615005" n="0615005"/><anchor xml:id="beg0615005" n="0615005"/>似<anchor xml:id="end0615005"/>為名　蘇
+<lb n="0615a09" ed="T"/>達梨舍<anchor xml:id="nkr_note_orig_0615006" n="0615006"/><anchor xml:id="beg0615006" n="0615006"/>那<anchor xml:id="end0615006"/>。此云善見。莊嚴殊妙見者稱善
+<lb n="0615a10" ed="T"/>故名善見　頞<anchor xml:id="nkr_note_orig_0615007" n="0615007"/><anchor xml:id="beg0615007" n="0615007"/>濕<anchor xml:id="end0615007"/>縛羯拏。此云馬耳。此山
+<lb n="0615a11" ed="T"/>上峯似馬耳也　毘那怛迦。此云象鼻。印
+<lb n="0615a12" ed="T"/>度神名。山形似彼象鼻故以名焉　尼民達
+<lb n="0615a13" ed="T"/>羅。此是魚名。其魚<g ref="#CB01479">㭰</g>尖。山峯似魚<g ref="#CB01040">󰐐</g>故以
+<lb n="0615a14" ed="T"/>為名。後之兩頌如文可知。</p><p xml:id="pT41p0615a1411" rend="inline">論曰至吠
+<lb n="0615a15" ed="T"/>琉璃色。此明九山安布處所。及能<anchor xml:id="nkr_note_orig_0615008" n="0615008"/><anchor xml:id="beg0615008" n="0615008"/>成財<anchor xml:id="end0615008"/>寶
+<lb n="0615a16" ed="T"/>有不同也。</p><p xml:id="pT41p0615a1605" rend="inline">論。如是寶等從何而生。問
+<lb n="0615a17" ed="T"/>也。</p><p xml:id="pT41p0615a1702" rend="inline">論。亦諸有情至轉變所成。以明眾寶
+<lb n="0615a18" ed="T"/>所從生也。由業風力水<anchor xml:id="nkr_note_orig_0615009" n="0615009"/><anchor xml:id="nkr_note_mod_0615009" n="0615009"/><anchor xml:id="beg0615009" n="0615009"/>減<anchor xml:id="end0615009"/>寶生。非即水
+<lb n="0615a19" ed="T"/>體轉變成色。</p><p xml:id="pT41p0615a1906" rend="inline">論。數論云何執轉變義。
+<lb n="0615a20" ed="T"/>問。</p><p xml:id="pT41p0615a2002" rend="inline">論。謂執有法至有餘法滅。<anchor xml:id="nkr_note_orig_0615010" n="0615010"/><anchor xml:id="beg0615010" n="0615010"/>答<anchor xml:id="end0615010"/>也。此
+<lb n="0615a21" ed="T"/><anchor xml:id="nkr_note_orig_0615011" n="0615011"/><anchor xml:id="beg0615011" n="0615011"/>外<anchor xml:id="end0615011"/>道說。如金為器。改變器<anchor xml:id="nkr_note_orig_0615012" n="0615012"/><anchor xml:id="beg0615012" n="0615012"/>時<anchor xml:id="end0615012"/>。金無生
+<lb n="0615a22" ed="T"/>滅。器有生滅。</p><p xml:id="pT41p0615a2206" rend="inline">論。如是轉變何理相違。
+<lb n="0615a23" ed="T"/>問違理也。</p><p xml:id="pT41p0615a2305" rend="inline">論。謂必無容至法滅法生。
+<lb n="0615a24" ed="T"/>出違理也。此意欲說<anchor xml:id="nkr_note_orig_0615013" n="0615013"/><anchor xml:id="beg0615013" n="0615013"/>金<anchor xml:id="end0615013"/>之與器體性無
+<lb n="0615a25" ed="T"/>別。如何說有別法是<anchor xml:id="nkr_note_orig_0615014" n="0615014"/><anchor xml:id="beg0615014" n="0615014"/>常<anchor xml:id="end0615014"/>。別法生滅。謂<anchor xml:id="nkr_note_orig_0615015" n="0615015"/><anchor xml:id="beg0615015" n="0615015"/>冥<anchor xml:id="end0615015"/>
+<lb n="0615a26" ed="T"/>諦常。二十三諦是無常也。</p><p xml:id="pT41p0615a2611" rend="inline">論。誰言法外
+<lb n="0615a27" ed="T"/>至名為有法。外道救也。誰言實諦之外別有
+<lb n="0615a28" ed="T"/>二十三諦。金<anchor xml:id="nkr_note_orig_0615016" n="0615016"/><anchor xml:id="beg0615016" n="0615016"/>外<anchor xml:id="end0615016"/>別有器也。即是實諦轉變
+<lb n="0615a29" ed="T"/>如金<anchor xml:id="nkr_note_orig_0615017" n="0615017"/><anchor xml:id="beg0615017" n="0615017"/>轉<anchor xml:id="end0615017"/>變相生滅也。</p><p xml:id="pT41p0615a2909" rend="inline">論。此亦非理。論
+<pb n="0615b" xml:id="T41.1822.0615b" ed="T"/>
+<lb n="0615b01" ed="T"/>主非也。</p><p xml:id="pT41p0615b0104" rend="inline">論。非理者何。外道問也。</p>
+<lb n="0615b02" ed="T"/><p xml:id="pT41p0615b0201">論。即是此物至<anchor xml:id="nkr_note_orig_0615018" n="0615018"/><anchor xml:id="nkr_note_mod_0615018" n="0615018"/>曾所未聞。論主破也。</p>
+<lb n="0615b03" ed="T"/><p xml:id="pT41p0615b0301">論。如是變生至內海外海。此明變生眾寶
+<lb n="0615b04" ed="T"/>等已復有業風各別為山為海等也。</p>
+<lb n="0615b05" ed="T"/><p xml:id="pT41p0615b0501">論。如是九山至出水量同。此明九山高廣量
+<lb n="0615b06" ed="T"/>也。</p>
+<lb n="0615b07" ed="T"/><p xml:id="pT41p0615b0701">頌曰。已下有兩行頌。第三明八海也。</p>
+<lb n="0615b08" ed="T"/><p xml:id="pT41p0615b0801">論曰至<anchor xml:id="nkr_note_orig_0615019" n="0615019"/><anchor xml:id="beg0615019" n="0615019"/>不<anchor xml:id="end0615019"/>傷腹明內海具八功德水。</p>
+<lb n="0615b09" ed="T"/><p xml:id="pT41p0615b0901">論。如是七海至踰繕那。明初海量也。准此
+<lb n="0615b10" ed="T"/>論文。妙高山方以其四面數各三倍。謂<anchor xml:id="nkr_note_orig_0615020" n="0615020"/><anchor xml:id="beg0615020" n="0615020"/>各<anchor xml:id="end0615020"/>
+<lb n="0615b11" ed="T"/>成二億四萬故。</p><p xml:id="pT41p0615b1107" rend="inline">論。其餘六海至二萬二
+<lb n="0615b12" ed="T"/>千。明餘六海及鹹海量。總略計九山及八
+<lb n="0615b13" ed="T"/>海。一四天下徑總有一百二十萬八百七十
+<lb n="0615b14" ed="T"/>五踰繕那。</p>
+<lb n="0615b15" ed="T"/><p xml:id="pT41p0615b1501">頌曰。已下有四行頌。第四明四大洲形量
+<lb n="0615b16" ed="T"/>也。</p><p xml:id="pT41p0615b1602" rend="inline">論曰至二千踰繕那。略舉四洲。竝明
+<lb n="0615b17" ed="T"/>南贍部洲相。</p><p xml:id="pT41p0615b1706" rend="inline">論。唯此洲中至能持此
+<lb n="0615b18" ed="T"/>故。明金剛座所在處也。</p><p xml:id="pT41p0615b1810" rend="inline">論。東勝身洲
+<lb n="0615b19" ed="T"/>至人面亦然。明餘三洲．及人面也。</p><p xml:id="pT41p0615b1914" rend="inline">論。
+<lb n="0615b20" ed="T"/>復有八中洲至羅剎婆居。明八中洲　<anchor xml:id="nkr_note_orig_0615021" n="0615021"/><anchor xml:id="beg0615021" n="0615021"/>遮<anchor xml:id="end0615021"/>
+<lb n="0615b21" ed="T"/>末羅者。此云猫牛　筏羅<anchor xml:id="beg_121" type="star"/>遮<anchor xml:id="end_121"/>末羅。此云勝
+<lb n="0615b22" ed="T"/>猫牛　提<anchor xml:id="nkr_note_orig_0615022" n="0615022"/><anchor xml:id="beg0615022" n="0615022"/>訶<anchor xml:id="end0615022"/>。此云身　毘提訶者。此云勝
+<lb n="0615b23" ed="T"/>身　舍搋者。此云諂　嗢怛羅漫怛里拏。此
+<lb n="0615b24" ed="T"/>云上議　矩。拉。婆者。此云勝邊　憍拉婆
+<lb n="0615b25" ed="T"/>者。此云有勝邊。一說八洲皆人所住。一說
+<lb n="0615b26" ed="T"/>唯一羅剎婆居。婆娑一百七十二云。此八洲
+<lb n="0615b27" ed="T"/>中人形短<anchor xml:id="nkr_note_orig_0615023" n="0615023"/><anchor xml:id="beg0615023" n="0615023"/>小<anchor xml:id="end0615023"/>如此方侏儒。有說七洲是人所
+<lb n="0615b28" ed="T"/>住。<anchor xml:id="beg_122" type="star"/>遮<anchor xml:id="end_122"/>末羅洲唯羅剎婆居。有說此所說八即
+<lb n="0615b29" ed="T"/>是四大洲之異名　以一一洲皆有二異名
+<pb n="0615c" xml:id="T41.1822.0615c" ed="T"/>
+<lb n="0615c01" ed="T"/>故。如是說者。應如初說　准此論文即二
+<lb n="0615c02" ed="T"/>說中前說為正。</p>
+<lb n="0615c03" ed="T"/><p xml:id="pT41p0615c0301">頌曰。已下有一行頌。第五明黑山等。</p>
+<lb n="0615c04" ed="T"/><p xml:id="pT41p0615c0401">論曰至以立洲號　香醉山者。此山中香氣
+<lb n="0615c05" ed="T"/>人嗅便醉故名香醉。一殑伽河。從東面出
+<lb n="0615c06" ed="T"/>遶池一匝流入東海。二信度河。從南面出
+<lb n="0615c07" ed="T"/>遶池一匝流入南海。三徙多河。從北面出
+<lb n="0615c08" ed="T"/>遶池一匝流入北海。四縛芻河。從西面出
+<lb n="0615c09" ed="T"/>遶池一匝流入西海。</p>
+<lb n="0615c10" ed="T"/><p xml:id="pT41p0615c1001">論。復於何處置捺落迦。已下第六明地獄。就
+<lb n="0615c11" ed="T"/>中有二。初明八大地獄。二明十六增。</p>
+<lb n="0615c12" ed="T"/><p xml:id="pT41p0615c1201">論曰至無如是事。明<anchor xml:id="nkr_note_orig_0615024" n="0615024"/><anchor xml:id="beg0615024" n="0615024"/>處<anchor xml:id="end0615024"/>及<anchor xml:id="nkr_note_orig_0615025" n="0615025"/><anchor xml:id="beg0615025" n="0615025"/>明<anchor xml:id="end0615025"/>無間大地獄
+<lb n="0615c13" ed="T"/>也。</p><p xml:id="pT41p0615c1302" rend="inline">論。有餘師說至而有等流。述異釋
+<lb n="0615c14" ed="T"/>也。順正理論有一說云。有說無隙立無間
+<lb n="0615c15" ed="T"/>名。雖有情少而身大故　此同婆娑一百一
+<lb n="0615c16" ed="T"/>十五云以諸有情造大惡業生彼地獄得
+<lb n="0615c17" ed="T"/>廣大身。一一身形悉皆廣大遍彼多處中無
+<lb n="0615c18" ed="T"/>間隙故名無間。又一百七十二有一師云。
+<lb n="0615c19" ed="T"/>雖亦有間假說無間。有說彼處恒受苦受
+<lb n="0615c20" ed="T"/>無喜樂間故<anchor xml:id="nkr_note_orig_0615026" n="0615026"/><anchor xml:id="beg0615026" n="0615026"/>名無間<anchor xml:id="end0615026"/>　即是此論後釋
+<lb n="0615c21" ed="T"/>　有說眾多有情造作惡業。相續生彼滿彼處
+<lb n="0615c22" ed="T"/>所故名無間。評曰不應作是說。生餘地獄
+<lb n="0615c23" ed="T"/>多生無間者少。所以者何。以造作增長上
+<lb n="0615c24" ed="T"/>品身．語．<anchor xml:id="nkr_note_orig_0615027" n="0615027"/><anchor xml:id="beg0615027" n="0615027"/>意<anchor xml:id="end0615027"/>惡業者乃生彼處。有情造作
+<lb n="0615c25" ed="T"/>增長上品惡業生彼處者少。造作增長中．
+<lb n="0615c26" ed="T"/>下品惡業生餘地獄者多。如造作增長上
+<lb n="0615c27" ed="T"/>品善業生有頂者少。造作增長中．下品善
+<lb n="0615c28" ed="T"/>生餘處者多故。應作是說。由造作增長
+<lb n="0615c29" ed="T"/><anchor xml:id="nkr_note_orig_0615028" n="0615028"/><anchor xml:id="beg0615028" n="0615028"/>增上<anchor xml:id="end0615028"/>不善業生彼所得身形廣大。一一有
+<pb n="0616a" xml:id="T41.1822.0616a" ed="T"/>
+<lb n="0616a01" ed="T"/>情據多處所中無間隙故名無間　此評
+<lb n="0616a02" ed="T"/>家義即是正理論中一師釋也。</p><p xml:id="pT41p0616a0213" rend="inline">論。七捺
+<lb n="0616a03" ed="T"/>落迦至七者等活。此則明餘七地獄也。</p>
+<lb n="0616a04" ed="T"/><p xml:id="pT41p0616a0401">論。有說。此七在無間傍。述異說。婆娑一百七
+<lb n="0616a05" ed="T"/>十二云。問地獄在何處。答多分在<anchor xml:id="nkr_note_orig_0616001" n="0616001"/><anchor xml:id="beg0616001" n="0616001"/>此<anchor xml:id="end0616001"/>贍部
+<lb n="0616a06" ed="T"/>洲下。云何安立。有說。從此洲下四萬踰繕
+<lb n="0616a07" ed="T"/>那至無間地獄底。無間地獄縱廣高下各二
+<lb n="0616a08" ed="T"/>萬踰繕那。次上一萬九千踰繕那中安立餘
+<lb n="0616a09" ed="T"/>七地獄。此七地獄一一縱廣萬踰繕那。有
+<lb n="0616a10" ed="T"/>說。從此洲下四萬踰繕那至無間地獄。此無
+<lb n="0616a11" ed="T"/>間地獄縱廣高下各二萬踰繕那。次上有三
+<lb n="0616a12" ed="T"/>萬五千踰繕那安立餘七地獄。一一縱廣高
+<lb n="0616a13" ed="T"/>下五千踰繕那。有說。無間地獄在於中央。餘
+<lb n="0616a14" ed="T"/>七地獄圍匝圍遶。如今聚落圍遶大城。</p>
+<lb n="0616a15" ed="T"/><p xml:id="pT41p0616a1501">論。八捺落迦增各十六。已下第二釋十六
+<lb n="0616a16" ed="T"/>增。先引經中二行頌證。後<anchor xml:id="nkr_note_orig_0616002" n="0616002"/><anchor xml:id="beg0616002" n="0616002"/>牒<anchor xml:id="end0616002"/>釋也。</p><p xml:id="pT41p0616a1614" rend="inline">論。
+<lb n="0616a17" ed="T"/>故薄伽梵至猛火恒洞然。引經證有十六
+<lb n="0616a18" ed="T"/>增也。</p><p xml:id="pT41p0616a1803" rend="inline">論。十六增者至各有四所。先標
+<lb n="0616a19" ed="T"/>數處。</p><p xml:id="pT41p0616a1903" rend="inline">論。煻煨增至平復如本。釋第一
+<lb n="0616a20" ed="T"/>也。</p><p xml:id="pT41p0616a2002" rend="inline">論。二屍糞增至<g ref="#CB00045">𠯗</g>食其髓。釋第二
+<lb n="0616a21" ed="T"/>也。</p><p xml:id="pT41p0616a2102" rend="inline">論。三鉾刃增至復有三種。此開第三
+<lb n="0616a22" ed="T"/>以為三也。</p><p xml:id="pT41p0616a2205" rend="inline">論。一刀刃路至平復如本。釋
+<lb n="0616a23" ed="T"/>第一也。</p><p xml:id="pT41p0616a2304" rend="inline">論。二釰葉林至齟掣食之。釋第
+<lb n="0616a24" ed="T"/>二也。</p><p xml:id="pT41p0616a2403" rend="inline">論。三鐵剌林至故一增攝。此釋第
+<lb n="0616a25" ed="T"/>三竝總結也。</p><p xml:id="pT41p0616a2506" rend="inline">論。四烈河增至故言皆十
+<lb n="0616a26" ed="T"/>六。釋第四增竝總結也。</p><p xml:id="pT41p0616a2610" rend="inline">論。此是增上
+<lb n="0616a27" ed="T"/>至重遭害故。釋<anchor xml:id="nkr_note_orig_0616003" n="0616003"/><anchor xml:id="beg0616003" n="0616003"/>增<anchor xml:id="end0616003"/>名也。以本地獄適被害
+<lb n="0616a28" ed="T"/>已重遭害故。故名增上被刑害所。</p><p xml:id="pT41p0616a2814" rend="inline">論。
+<lb n="0616a29" ed="T"/>有說有情至故說為增。述異釋也。前以苦
+<pb n="0616b" xml:id="T41.1822.0616b" ed="T"/>
+<lb n="0616b01" ed="T"/>重增上故名增。後釋<anchor xml:id="nkr_note_orig_0616004" n="0616004"/><anchor xml:id="beg0616004" n="0616004"/>以<anchor xml:id="end0616004"/>數受苦故名增。
+<lb n="0616b02" ed="T"/>評其論意。只是兩釋。不是三解。<anchor xml:id="nkr_note_orig_0616005" n="0616005"/><anchor xml:id="beg0616005" n="0616005"/>有人謂是
+<lb n="0616b03" ed="T"/>三解<anchor xml:id="end0616005"/>誤也。正理論云。此十六中受苦增劇
+<lb n="0616b04" ed="T"/>過本地獄故說為增。或於此中受種種苦。
+<lb n="0616b05" ed="T"/>苦具多<anchor xml:id="nkr_note_orig_0616006" n="0616006"/><anchor xml:id="beg0616006" n="0616006"/>類<anchor xml:id="end0616006"/>故說為增。</p><p xml:id="pT41p0616b0509" rend="inline">論。今於此中至
+<lb n="0616b06" ed="T"/>是有情不。自此已下明地獄卒是有情不。問
+<lb n="0616b07" ed="T"/>也。</p><p xml:id="pT41p0616b0702" rend="inline">論。有說非情。答。</p><p xml:id="pT41p0616b0708" rend="inline"><anchor xml:id="nkr_note_orig_0616007" n="0616007"/><anchor xml:id="beg0616007" n="0616007"/>如<anchor xml:id="end0616007"/>何動作。問。</p>
+<lb n="0616b08" ed="T"/><p xml:id="pT41p0616b0801">論。有情業力如成劫風。答。</p><p xml:id="pT41p0616b0811" rend="inline">論。若爾
+<lb n="0616b09" ed="T"/>云何至死作琰魔<anchor xml:id="nkr_note_orig_0616008" n="0616008"/><anchor xml:id="beg0616008" n="0616008"/>卒<anchor xml:id="end0616008"/>。難。</p><p xml:id="pT41p0616b0910" rend="inline">論。琰魔王使至
+<lb n="0616b10" ed="T"/>非實有情。此通難也。</p><p xml:id="pT41p0616b1009" rend="inline">論。有說有情。述
+<lb n="0616b11" ed="T"/>異說。</p><p xml:id="pT41p0616b1103" rend="inline">論。若爾此惡業何處受異熟。問。</p>
+<lb n="0616b12" ed="T"/><p xml:id="pT41p0616b1201">論。即地獄中至此何理遮。答。</p><p xml:id="pT41p0616b1212" rend="inline">論。若
+<lb n="0616b13" ed="T"/>爾何緣火不燒彼。難也。</p><p xml:id="pT41p0616b1310" rend="inline">論。此定由業力
+<lb n="0616b14" ed="T"/>至故不彼燒。釋。於中有兩釋。如文可解。正
+<lb n="0616b15" ed="T"/>理論云。無間．大熱．及炎熱三。於中皆無獄
+<lb n="0616b16" ed="T"/>卒防守。大叫．號叫．及眾合三少有獄卒。琰
+<lb n="0616b17" ed="T"/>魔王使時時往來巡撿彼故。其餘皆為獄卒
+<lb n="0616b18" ed="T"/>防守。有情無情異類獄卒防守治罰罪有情
+<lb n="0616b19" ed="T"/>故。</p><p xml:id="pT41p0616b1902" rend="inline">論。熱捺落迦至其八者何。已下釋
+<lb n="0616b20" ed="T"/>　八寒地獄。<anchor xml:id="nkr_note_orig_0616009" n="0616009"/><anchor xml:id="beg0616009" n="0616009"/>先<anchor xml:id="end0616009"/>即列名。後明處也。</p><p xml:id="pT41p0616b2013" rend="inline">論。一
+<lb n="0616b21" ed="T"/>頞部陀至摩訶鉢特摩。頞部陀者。此云皰。
+<lb n="0616b22" ed="T"/>嚴寒逼身生其皰也　尼剌部陀。此云皰
+<lb n="0616b23" ed="T"/>裂。嚴寒<anchor xml:id="nkr_note_orig_0616010" n="0616010"/><anchor xml:id="beg0616010" n="0616010"/>過前<anchor xml:id="end0616010"/>身皰裂也。已上從身皰及皰
+<lb n="0616b24" ed="T"/>裂得名　頞哳吒。是忍寒聲。寒增故口不
+<lb n="0616b25" ed="T"/>得開。但得動舌作哳吒聲。</p><p xml:id="pT41p0616b2511" rend="inline">臛臛婆者。
+<lb n="0616b26" ed="T"/>寒轉增故舌不得動。但得作臛臛聲　虎
+<lb n="0616b27" ed="T"/>虎婆者。寒增故不得開口。但得作虎虎聲
+<lb n="0616b28" ed="T"/>　嗢鉢羅者。此云青蓮花。寒轉增故身色變
+<lb n="0616b29" ed="T"/>青如青蓮花　鉢特摩者。此云赤蓮花。寒
+<pb n="0616c" xml:id="T41.1822.0616c" ed="T"/>
+<lb n="0616c01" ed="T"/>增故其身拆裂如赤蓮花　摩訶鉢特摩。此
+<lb n="0616c02" ed="T"/>云大赤蓮花。寒轉<anchor xml:id="nkr_note_orig_0616011" n="0616011"/><anchor xml:id="beg0616011" n="0616011"/>增<anchor xml:id="end0616011"/>故其身拆裂如大赤
+<lb n="0616c03" ed="T"/>蓮花。已上列名。</p><p xml:id="pT41p0616c0307" rend="inline">論。此中有情至以立其
+<lb n="0616c04" ed="T"/>名。釋立<anchor xml:id="nkr_note_orig_0616012" n="0616012"/><anchor xml:id="beg0616012" n="0616012"/>名<anchor xml:id="end0616012"/>所以。前二．後三隨身變立名。
+<lb n="0616c05" ed="T"/>第三．四．五從聲變立名也。</p><p xml:id="pT41p0616c0511" rend="inline">論。此八竝
+<lb n="0616c06" ed="T"/>居至大地獄傍。此明處也。</p><p xml:id="pT41p0616c0611" rend="inline">論。此贍部洲
+<lb n="0616c07" ed="T"/>至無間等耶。難。</p><p xml:id="pT41p0616c0707" rend="inline">論。洲如穀聚至漸陿漸
+<lb n="0616c08" ed="T"/>深。答。</p><p xml:id="pT41p0616c0803" rend="inline">論。如上所論至增上業感。總述
+<lb n="0616c09" ed="T"/>前地獄處是增上共業果也。</p><p xml:id="pT41p0616c0912" rend="inline">論。餘孤地
+<lb n="0616c10" ed="T"/>獄至空及餘<anchor xml:id="nkr_note_orig_0616013" n="0616013"/><anchor xml:id="beg0616013" n="0616013"/>處<anchor xml:id="end0616013"/>。明孤地獄各別業招處所
+<lb n="0616c11" ed="T"/>不定。</p><p xml:id="pT41p0616c1103" rend="inline">論。諸地獄器至支派不定。總結
+<lb n="0616c12" ed="T"/>地獄處也。</p><p xml:id="pT41p0616c1205" rend="inline">論。傍生住處至後流餘處。述
+<lb n="0616c13" ed="T"/>傍生處。</p><p xml:id="pT41p0616c1304" rend="inline">論。諸鬼本處至廣說如經。述鬼
+<lb n="0616c14" ed="T"/>住處竝貧富異。正理論云。此贍部洲南邊直
+<lb n="0616c15" ed="T"/>下深過五百踰繕那量有琰魔王都。縱廣量
+<lb n="0616c16" ed="T"/>亦爾　有人云。以此文證明知金剛座近
+<lb n="0616c17" ed="T"/>北。諸地獄等在王都下稍近南邊不相妨
+<lb n="0616c18" ed="T"/>也　今詳此釋事恐不然。無間地獄廣二萬
+<lb n="0616c19" ed="T"/>踰繕那。於四門外有十六增。或說七地獄
+<lb n="0616c20" ed="T"/>遶無間獄。其傍復有寒<anchor xml:id="nkr_note_orig_0616014" n="0616014"/><anchor xml:id="beg0616014" n="0616014"/>地<anchor xml:id="end0616014"/>獄處。縱少近南
+<lb n="0616c21" ed="T"/>亦侵金剛座下。今現人趣居處與鬼趣宅舍
+<lb n="0616c22" ed="T"/>不相障礙。故知地獄鬼趣與金剛座不相
+<lb n="0616c23" ed="T"/><anchor xml:id="nkr_note_orig_0616015" n="0616015"/><anchor xml:id="beg0616015" n="0616015"/>妨<anchor xml:id="end0616015"/>也。若不爾者。鬼<anchor xml:id="nkr_note_orig_0616016" n="0616016"/><anchor xml:id="beg0616016" n="0616016"/>趣<anchor xml:id="end0616016"/>等處豈無土石等
+<lb n="0616c24" ed="T"/><anchor xml:id="nkr_note_orig_0616017" n="0616017"/><anchor xml:id="beg0616017" n="0616017"/>耶<anchor xml:id="end0616017"/>。</p>
+<lb n="0616c25" ed="T"/><p xml:id="pT41p0616c2501">論。日月所居量等義者。自此已下有三行
+<lb n="0616c26" ed="T"/>頌。第七明日．月處量。</p><p xml:id="pT41p0616c2609" rend="inline">論曰至令不停
+<lb n="0616c27" ed="T"/>墜。明日．月等所依處也。</p><p xml:id="pT41p0616c2710" rend="inline">論。彼所住去
+<lb n="0616c28" ed="T"/>此至妙高山半。述高<anchor xml:id="nkr_note_orig_0616018" n="0616018"/><anchor xml:id="beg0616018" n="0616018"/>下<anchor xml:id="end0616018"/>也。</p><p xml:id="pT41p0616c2811" rend="inline">論。日月徑
+<lb n="0616c29" ed="T"/>量至十六踰繕那。述大小也。</p><p xml:id="pT41p0616c2912" rend="inline">論。日輪
+<pb n="0617a" xml:id="T41.1822.0617a" ed="T"/>
+<lb n="0617a01" ed="T"/>下面至為益為損。述體用也。因生長者為
+<lb n="0617a02" ed="T"/>益。因衰落者為損。</p><p xml:id="pT41p0617a0208" rend="inline">論。唯一日月至餘
+<lb n="0617a03" ed="T"/>例應知。述用廣狹　北洲夜半東洲日沒南
+<lb n="0617a04" ed="T"/>洲日中西洲日出者。此據一時而論。非全
+<lb n="0617a05" ed="T"/>盡理。若不爾者。北洲夜半南洲日中。理且
+<lb n="0617a06" ed="T"/>可然。東洲日沒當妙高山東南角。南洲日中
+<lb n="0617a07" ed="T"/>當妙高山正南。西方日出當妙高山西南。豈
+<lb n="0617a08" ed="T"/>全定也。</p><p xml:id="pT41p0617a0804" rend="inline">論。日行此洲至<anchor xml:id="nkr_note_orig_0617001" n="0617001"/><anchor xml:id="beg0617001" n="0617001"/>晝<anchor xml:id="end0617001"/>即漸增。述
+<lb n="0617a09" ed="T"/>日夜增減。汎言夜增晝增夜減晝減有其兩
+<lb n="0617a10" ed="T"/>義　一夜短其晝已去晝增。晝短其夜已去
+<lb n="0617a11" ed="T"/>名夜增。若取此義。即秋分已後是夜增。春
+<lb n="0617a12" ed="T"/>分已去名晝增。二起此時已去夜漸進長
+<lb n="0617a13" ed="T"/>即第二日長第一日等名夜增。晝增翻此。
+<lb n="0617a14" ed="T"/>若依此義即夏至日已去名夜增。冬至日已
+<lb n="0617a15" ed="T"/>去名晝增也　問此論所明增減為是何者
+<lb n="0617a16" ed="T"/>　答准論<anchor xml:id="nkr_note_orig_0617002" n="0617002"/><anchor xml:id="beg0617002" n="0617002"/>云<anchor xml:id="end0617002"/>。日行此洲向南向北。如其
+<lb n="0617a17" ed="T"/>次第夜增晝增。即夏至已後至冬至日夜
+<lb n="0617a18" ed="T"/>增。冬至日已後至夏至日晝增。婆娑一百三
+<lb n="0617a19" ed="T"/>十六云。然晝與夜增減相違。雖各二時而
+<lb n="0617a20" ed="T"/><anchor xml:id="nkr_note_orig_0617003" n="0617003"/><anchor xml:id="beg0617003" n="0617003"/>無<anchor xml:id="end0617003"/>四<anchor xml:id="nkr_note_orig_0617004" n="0617004"/><anchor xml:id="beg0617004" n="0617004"/>位<anchor xml:id="end0617004"/>。晝夜增減各一臘縛。則各一牟呼
+<lb n="0617a21" ed="T"/>栗多。三十牟呼栗多成一晝夜。於中晝夜多
+<lb n="0617a22" ed="T"/>少四類不同。增位極長不過十八。減位極
+<lb n="0617a23" ed="T"/>短唯有十二。晝夜停位各有十五。謂羯栗底
+<lb n="0617a24" ed="T"/>迦月白半第八日。晝夜各有十五牟呼栗多。
+<lb n="0617a25" ed="T"/>從此已後晝減夜增　釋曰。西方以黑月為
+<lb n="0617a26" ed="T"/>先。白月為後。羯栗底迦是此方八月。若以
+<lb n="0617a27" ed="T"/>此方七月十六日為月初。白半即當此方八
+<lb n="0617a28" ed="T"/>月八日。<anchor xml:id="nkr_note_orig_0617005" n="0617005"/><anchor xml:id="beg0617005" n="0617005"/>若<anchor xml:id="end0617005"/>以此方八月十六日為月初。白
+<lb n="0617a29" ed="T"/>半即當此方九月八日。晝夜停時當此方八
+<pb n="0617b" xml:id="T41.1822.0617b" ed="T"/>
+<lb n="0617b01" ed="T"/>月十五日。以八日後晝減．夜增故。亦<anchor xml:id="nkr_note_orig_0617006" n="0617006"/><anchor xml:id="beg0617006" n="0617006"/>即<anchor xml:id="end0617006"/>是
+<lb n="0617b02" ed="T"/>節氣月日。非是<anchor xml:id="nkr_note_orig_0617007" n="0617007"/><anchor xml:id="beg0617007" n="0617007"/>月<anchor xml:id="end0617007"/>生．<anchor xml:id="nkr_note_orig_0617008" n="0617008"/><anchor xml:id="beg0617008" n="0617008"/>月盡<anchor xml:id="end0617008"/>月日。此月生．
+<lb n="0617b03" ed="T"/>月<anchor xml:id="nkr_note_orig_0617009" n="0617009"/><anchor xml:id="beg0617009" n="0617009"/>盡<anchor xml:id="end0617009"/>晝夜增減不定故。若以此方八月八
+<lb n="0617b04" ed="T"/>日晝夜停。西方節氣<anchor xml:id="nkr_note_orig_0617010" n="0617010"/><anchor xml:id="beg0617010" n="0617010"/>先<anchor xml:id="end0617010"/>於此方<anchor xml:id="nkr_note_orig_0617011" n="0617011"/><anchor xml:id="beg0617011" n="0617011"/>七日。若
+<lb n="0617b05" ed="T"/>以此方九月八日晝夜停。西方節氣晚於此
+<lb n="0617b06" ed="T"/>方<anchor xml:id="end0617011"/>二十三日。准輪圍山徑一百二十萬八百
+<lb n="0617b07" ed="T"/>七十五踰繕那略計西洲。南洲。相去三十萬
+<lb n="0617b08" ed="T"/>踰繕那。南洲節氣不同計有九十日異。此國
+<lb n="0617b09" ed="T"/>去彼國無四五萬里。節氣七日不同是即不
+<lb n="0617b10" ed="T"/>違。若二十三日不同理即<anchor xml:id="nkr_note_orig_0617012" n="0617012"/><anchor xml:id="beg0617012" n="0617012"/>令隔<anchor xml:id="end0617012"/>。應以七月
+<lb n="0617b11" ed="T"/>十六日為羯栗底迦月。為月初定　又婆
+<lb n="0617b12" ed="T"/>娑云。至末伽始羅月白半第八日。夜有十六
+<lb n="0617b13" ed="T"/>牟<anchor xml:id="nkr_note_orig_0617013" n="0617013"/><anchor xml:id="beg0617013" n="0617013"/>呼<anchor xml:id="end0617013"/>栗多晝十四。至報沙月白半第八日。
+<lb n="0617b14" ed="T"/>夜有十七晝十三。至<anchor xml:id="nkr_note_orig_0617014" n="0617014"/><anchor xml:id="beg0617014" n="0617014"/>摩迦<anchor xml:id="end0617014"/>月白半第八日。
+<lb n="0617b15" ed="T"/>夜有十八晝十二。從此已後夜減晝增各一
+<lb n="0617b16" ed="T"/>臘縛。至頗勒窶那月白半第八日。夜有十七
+<lb n="0617b17" ed="T"/>晝<anchor xml:id="nkr_note_orig_0617015" n="0617015"/><anchor xml:id="beg0617015" n="0617015"/>有<anchor xml:id="end0617015"/>十三。至制怛羅月白半第八日。夜有
+<lb n="0617b18" ed="T"/>十六晝有十<anchor xml:id="nkr_note_orig_0617016" n="0617016"/><anchor xml:id="beg0617016" n="0617016"/>四<anchor xml:id="end0617016"/>。至吠舍佉月白半第八日。
+<lb n="0617b19" ed="T"/><note place="inline">此當此方二月八日。<anchor xml:id="nkr_note_orig_0617017" n="0617017"/><anchor xml:id="beg0617017" n="0617017"/>亦云<anchor xml:id="end0617017"/>從此已後夜減晝增</note>晝夜各十五。從此以後
+<lb n="0617b20" ed="T"/>夜減晝增各一臘縛。至誓瑟搋月白半第八
+<lb n="0617b21" ed="T"/>日。夜有十四晝有十六。至阿沙荼月白半
+<lb n="0617b22" ed="T"/>第八日。夜有十三晝有十七。至室羅筏拏
+<lb n="0617b23" ed="T"/>月白半第八日<note place="inline">此當此方五月八日</note>夜有十二晝十八。從
+<lb n="0617b24" ed="T"/>此已後晝減夜增各一臘縛。至婆達羅鉢陀
+<lb n="0617b25" ed="T"/>月白半第八日。夜有十三晝十七。至<anchor xml:id="nkr_note_orig_0617018" n="0617018"/><anchor xml:id="beg0617018" n="0617018"/>阿濕
+<lb n="0617b26" ed="T"/>縛庾闍月<anchor xml:id="end0617018"/>白半第八日。夜有十四晝十六。如
+<lb n="0617b27" ed="T"/>是復至羯栗底迦月白半第八日<note place="inline">當此方八月八日。西方八
+<lb n="0617b28" ed="T"/>月二十三日</note>晝夜停等。是名略說時之分齊　准
+<lb n="0617b29" ed="T"/>上論文。日向北六月夜減。向南六月夜增。
+<pb n="0617c" xml:id="T41.1822.0617c" ed="T"/>
+<lb n="0617c01" ed="T"/>然標晝．夜增．減言於四處<anchor xml:id="nkr_note_orig_0617019" n="0617019"/><anchor xml:id="beg0617019" n="0617019"/>至<anchor xml:id="end0617019"/>羯栗底迦
+<lb n="0617c02" ed="T"/>月白半第八。晝夜各十五牟呼栗多。此後<anchor xml:id="nkr_note_orig_0617020" n="0617020"/><anchor xml:id="beg0617020" n="0617020"/>復<anchor xml:id="end0617020"/>
+<lb n="0617c03" ed="T"/>云從此已後晝<anchor xml:id="nkr_note_orig_0617021" n="0617021"/><anchor xml:id="beg0617021" n="0617021"/>減<anchor xml:id="end0617021"/>夜增<anchor xml:id="nkr_note_orig_0617022" n="0617022"/><anchor xml:id="beg0617022" n="0617022"/><note place="inline">此當此方八月九日。西方八月二十四日</note>
+<lb n="0617c04" ed="T"/>至摩迦月白半第八日夜十八晝十二牟呼
+<lb n="0617c05" ed="T"/>栗多<note place="inline">當此方十一月</note>是夜極長。於此已後亦言從此
+<lb n="0617c06" ed="T"/>已後夜減晝增。至吠舍佉月白半第八日晝．
+<lb n="0617c07" ed="T"/>夜．各十五牟呼栗多。此後亦云從此已後
+<lb n="0617c08" ed="T"/>夜減晝增<anchor xml:id="end0617022"/><note place="inline">當此方二月九日</note>至<anchor xml:id="nkr_note_orig_0617023" n="0617023"/><anchor xml:id="beg0617023" n="0617023"/>室<anchor xml:id="end0617023"/>羅筏拏月白半第八
+<lb n="0617c09" ed="T"/>日。夜有十二晝十八<note place="inline">此當此方五月八日。西方五月<anchor xml:id="nkr_note_orig_0617024" n="0617024"/><anchor xml:id="beg0617024" n="0617024"/>二<anchor xml:id="end0617024"/>十三日</note>此後
+<lb n="0617c10" ed="T"/>亦云從此已後晝減夜增。當九日也　此
+<lb n="0617c11" ed="T"/>論云。日行此洲路有差別故令晝夜有減有
+<lb n="0617c12" ed="T"/>增者。當婆沙云然晝與夜增減相違雖各
+<lb n="0617c13" ed="T"/>二時而無四位　論云從雨際第二月後
+<lb n="0617c14" ed="T"/>半第九日夜漸增。此說五月九日．八月九
+<lb n="0617c15" ed="T"/>日。皆悉不違婆<anchor xml:id="nkr_note_orig_0617025" n="0617025"/><anchor xml:id="beg0617025" n="0617025"/>沙<anchor xml:id="end0617025"/>所說。於此<anchor xml:id="nkr_note_orig_0617026" n="0617026"/><anchor xml:id="beg0617026" n="0617026"/>雨際<anchor xml:id="end0617026"/>第八
+<lb n="0617c16" ed="T"/>日後。皆言從此後晝減夜增故。<anchor xml:id="fxT41p0617c01"/>准此論
+<lb n="0617c17" ed="T"/>文。五月九日婆<anchor xml:id="beg_123" type="star"/>沙<anchor xml:id="end_123"/>云白半。此論云後<anchor xml:id="nkr_note_orig_0617027" n="0617027"/><anchor xml:id="beg0617027" n="0617027"/>半<anchor xml:id="end0617027"/>。
+<lb n="0617c18" ed="T"/>故知第二月初即是四月十六日。第一月初
+<lb n="0617c19" ed="T"/>即是三月十六日　論云從寒際第四月後
+<lb n="0617c20" ed="T"/>半第九日夜漸減。此說十一月九日．二月九
+<lb n="0617c21" ed="T"/>日。皆悉不違婆<anchor xml:id="beg_124" type="star"/>沙<anchor xml:id="end_124"/>所說。於此兩月第八日
+<lb n="0617c22" ed="T"/>後皆言從此後夜<anchor xml:id="nkr_note_orig_0617028" n="0617028"/><anchor xml:id="beg0617028" n="0617028"/>減<anchor xml:id="end0617028"/>晝增故。<anchor xml:id="fxT41p0617c04"/>准此論文。
+<lb n="0617c23" ed="T"/>日向南夜增晝減。故云後半婆娑云白半。
+<lb n="0617c24" ed="T"/>故知是此方十一月九日夜極長也。若<anchor xml:id="nkr_note_orig_0617029" n="0617029"/><anchor xml:id="beg0617029" n="0617029"/>以<anchor xml:id="end0617029"/>五
+<lb n="0617c25" ed="T"/>月為雨際第二月即此方四月十六日為雨
+<lb n="0617c26" ed="T"/>際第二月初。與四分律不同。四分律以四
+<lb n="0617c27" ed="T"/>月十六日<anchor xml:id="nkr_note_orig_0617030" n="0617030"/><anchor xml:id="beg0617030" n="0617030"/>為<anchor xml:id="end0617030"/>雨際第一月故。若以八月
+<lb n="0617c28" ed="T"/>為雨際第二月。即此方<anchor xml:id="nkr_note_orig_0617031" n="0617031"/><anchor xml:id="beg0617031" n="0617031"/>六<anchor xml:id="end0617031"/>月十六日為<anchor xml:id="nkr_note_orig_0617032" n="0617032"/><anchor xml:id="beg0617032" n="0617032"/>雨<anchor xml:id="end0617032"/>
+<lb n="0617c29" ed="T"/>際<anchor xml:id="nkr_note_orig_0617033" n="0617033"/><anchor xml:id="beg0617033" n="0617033"/>第一月初。若以十一月為寒際第四月。
+<pb n="0618a" xml:id="T41.1822.0618a" ed="T"/>
+<lb n="0618a01" ed="T"/>即此方七月十六日為寒際<anchor xml:id="end0617033"/>之初。與四分律
+<lb n="0618a02" ed="T"/>不同。若以二月為寒際第四月。即十月十
+<lb n="0618a03" ed="T"/>六日為寒際初。皆不違婆沙文也。然取順
+<lb n="0618a04" ed="T"/>此方時。應以六月十六日為雨際之初。此
+<lb n="0618a05" ed="T"/>方立秋已去多雨故。唐三藏以三月十六日
+<lb n="0618a06" ed="T"/>為雨際之初。取五月九日夜增。亦不違婆
+<lb n="0618a07" ed="T"/>沙　然太法師釋以六月十六日是雨際之
+<lb n="0618a08" ed="T"/>初者。取八月後半第九日夜增。亦不違婆
+<lb n="0618a09" ed="T"/>沙。依四分律等。以四月十六日為雨際之
+<lb n="0618a10" ed="T"/>初。此是譯家誤。以此方五月十六日為雨
+<lb n="0618a11" ed="T"/>際第二月初。以此方六月前十五日。為五月
+<lb n="0618a12" ed="T"/>白半第八日也。亦可通云。毘婆沙是迦濕彌
+<lb n="0618a13" ed="T"/>羅國。四分律非有部宗。是其別國。寒．熱不
+<lb n="0618a14" ed="T"/>同兩月有異。故不同也。西域記云。有國亦
+<lb n="0618a15" ed="T"/>以十二月為雨際。彼國冬多雨故。其婆沙
+<lb n="0618a16" ed="T"/>五月．八<anchor xml:id="nkr_note_orig_0618001" n="0618001"/><anchor xml:id="beg0618001" n="0618001"/>月<anchor xml:id="end0618001"/>白半第九日皆說夜增。俱舍但
+<lb n="0618a17" ed="T"/>說日行向南夜增。即是婆沙五月白半第九
+<lb n="0618a18" ed="T"/>日也　今釋俱舍雨際第二月白半第九日。
+<lb n="0618a19" ed="T"/>即是此方五月<anchor xml:id="nkr_note_orig_0618002" n="0618002"/><anchor xml:id="beg0618002" n="0618002"/>第<anchor xml:id="end0618002"/>九日為定。然婆沙皆說
+<lb n="0618a20" ed="T"/>白半第八日晝夜增．減。此方皆十五日為冬
+<lb n="0618a21" ed="T"/>至．夏至<anchor xml:id="nkr_note_orig_0618003" n="0618003"/><anchor xml:id="beg0618003" n="0618003"/>日<anchor xml:id="end0618003"/>。春分．秋分者竝是節氣日月也。
+<lb n="0618a22" ed="T"/>所以不同<anchor xml:id="nkr_note_orig_0618004" n="0618004"/><anchor xml:id="beg0618004" n="0618004"/>也<anchor xml:id="end0618004"/>。節氣從西向東也。以日從西
+<lb n="0618a23" ed="T"/>向東故南方夏。西方秋。北方冬。東方春。南
+<lb n="0618a24" ed="T"/>方夜極短。<anchor xml:id="nkr_note_orig_0618005" n="0618005"/><anchor xml:id="beg0618005" n="0618005"/>北方夜極長<anchor xml:id="end0618005"/>。東．西方晝．夜停。</p>
+<lb n="0618a25" ed="T"/><p xml:id="pT41p0618a2501">論晝夜增時一晝夜增幾。問也。</p><p xml:id="pT41p0618a2513" rend="inline">論。增
+<lb n="0618a26" ed="T"/>一臘縛晝夜減亦然。答也。三十臘縛為<anchor xml:id="nkr_note_orig_0618006" n="0618006"/><anchor xml:id="beg0618006" n="0618006"/>一<anchor xml:id="end0618006"/>
+<lb n="0618a27" ed="T"/>須臾。一百八十日增至極長。一百八十日計
+<lb n="0618a28" ed="T"/>當六須臾。一百八十日減當六須臾。</p>
+<lb n="0618a29" ed="T"/><p xml:id="pT41p0618a2901">論。日行此洲至夜增晝<anchor xml:id="nkr_note_orig_0618007" n="0618007"/><anchor xml:id="beg0618007" n="0618007"/>增<anchor xml:id="end0618007"/>。此明日行增減
+<pb n="0618b" xml:id="T41.1822.0618b" ed="T"/>
+<lb n="0618b01" ed="T"/>義也。</p><p xml:id="pT41p0618b0103" rend="inline">論。何故月輪至見有缺耶。<anchor xml:id="nkr_note_orig_0618008" n="0618008"/><anchor xml:id="beg0618008" n="0618008"/>問<anchor xml:id="end0618008"/>。</p>
+<lb n="0618b02" ed="T"/><p xml:id="pT41p0618b0201">論。世施設中至見不圓滿。准此似月下
+<lb n="0618b03" ed="T"/>日高。此發影覆其<anchor xml:id="nkr_note_orig_0618009" n="0618009"/><anchor xml:id="beg0618009" n="0618009"/>自<anchor xml:id="end0618009"/>面故。</p><p xml:id="pT41p0618b0311" rend="inline">論。先舊師
+<lb n="0618b04" ed="T"/>釋至現有圓缺。述經部先舊師釋也。</p>
+<lb n="0618b05" ed="T"/><p xml:id="pT41p0618b0501">論。日等宮殿何有情居。問。</p><p xml:id="pT41p0618b0511" rend="inline">論。四大天王
+<lb n="0618b06" ed="T"/>所部天眾。答。</p><p xml:id="pT41p0618b0606" rend="inline">論。是諸天眾唯住此耶。
+<lb n="0618b07" ed="T"/>問。</p><p xml:id="pT41p0618b0702" rend="inline">論。若空居天至諸層級<anchor xml:id="nkr_note_orig_0618010" n="0618010"/><anchor xml:id="beg0618010" n="0618010"/>等<anchor xml:id="end0618010"/>。答也。</p>
+<lb n="0618b08" ed="T"/><p xml:id="pT41p0618b0801">論。有幾層級其量云何。<anchor xml:id="nkr_note_orig_0618011" n="0618011"/><anchor xml:id="beg0618011" n="0618011"/>已<anchor xml:id="end0618011"/>下第八明天
+<lb n="0618b09" ed="T"/>器。就中有三。一明大王眾天。二明<anchor xml:id="nkr_note_orig_0618012" n="0618012"/><anchor xml:id="beg0618012" n="0618012"/>三<anchor xml:id="end0618012"/>十三
+<lb n="0618b10" ed="T"/>天。三明餘色天。此<anchor xml:id="nkr_note_orig_0618013" n="0618013"/><anchor xml:id="beg0618013" n="0618013"/>下<anchor xml:id="end0618013"/>兩頌第一明四<anchor xml:id="nkr_note_orig_0618014" n="0618014"/><anchor xml:id="beg0618014" n="0618014"/>大<anchor xml:id="end0618014"/>王
+<lb n="0618b11" ed="T"/>眾天　就中有三問也。</p><p xml:id="pT41p0618b1109" rend="inline">論曰至八四
+<lb n="0618b12" ed="T"/>二千。明四層級量也。</p><p xml:id="pT41p0618b1209" rend="inline">論。有<anchor xml:id="nkr_note_orig_0618015" n="0618015"/><anchor xml:id="beg0618015" n="0618015"/>藥叉<anchor xml:id="end0618015"/>神至
+<lb n="0618b13" ed="T"/>共所居止。明四層級所依天<anchor xml:id="nkr_note_orig_0618016" n="0618016"/><anchor xml:id="beg0618016" n="0618016"/>別<anchor xml:id="end0618016"/>。</p><p xml:id="pT41p0618b1313" rend="inline">論。故
+<lb n="0618b14" ed="T"/>經依此說四大王眾天。引經釋<anchor xml:id="beg_125" type="star"/>名<anchor xml:id="end_125"/>。以所部
+<lb n="0618b15" ed="T"/>領天非一類故名眾也。</p><p xml:id="pT41p0618b1510" rend="inline">論。如妙高山
+<lb n="0618b16" ed="T"/>至所部<anchor xml:id="nkr_note_orig_0618017" n="0618017"/><anchor xml:id="beg0618017" n="0618017"/>封<anchor xml:id="end0618017"/>邑。此明七<anchor xml:id="nkr_note_orig_0618018" n="0618018"/><anchor xml:id="beg0618018" n="0618018"/>金<anchor xml:id="end0618018"/>山上天也。</p>
+<lb n="0618b17" ed="T"/><p xml:id="pT41p0618b1701">論。是名依地至此天最廣。結第一天竝明
+<lb n="0618b18" ed="T"/>廣也。</p>
+<lb n="0618b19" ed="T"/><p xml:id="pT41p0618b1901">論。三十三天住在何處。此<anchor xml:id="beg_126" type="star"/>下<anchor xml:id="end_126"/>四頌第二明
+<lb n="0618b20" ed="T"/>三十三天。</p><p xml:id="pT41p0618b2005" rend="inline">論曰至各唯二萬。明山頂
+<lb n="0618b21" ed="T"/>量。就中二說。一云上下量等。中腰細也。一
+<lb n="0618b22" ed="T"/>云下廣上<anchor xml:id="nkr_note_orig_0618019" n="0618019"/><anchor xml:id="beg0618019" n="0618019"/>狹<anchor xml:id="end0618019"/><anchor xml:id="fxT41p0618b03"/>准頌八萬即通兩釋。或徑或
+<lb n="0618b23" ed="T"/>周。<anchor xml:id="nkr_note_orig_0618020" n="0618020"/><anchor xml:id="beg0618020" n="0618020"/>然<anchor xml:id="end0618020"/>以山徑八萬為正。</p><p xml:id="pT41p0618b2310" rend="inline">論。山頂四角
+<lb n="0618b24" ed="T"/>至守護諸天。明山四峯量及住神也。</p>
+<lb n="0618b25" ed="T"/><p xml:id="pT41p0618b2501">論。於山頂中至所都大城。此明善見宮量及
+<lb n="0618b26" ed="T"/>嚴飾也。</p><p xml:id="pT41p0618b2604" rend="inline">論。於其城中至諸可愛事。此
+<lb n="0618b27" ed="T"/>明所都大城中殊勝殿量．及嚴飾也。</p><p xml:id="pT41p0618b2715" rend="inline">論。
+<lb n="0618b28" ed="T"/>城外四面至莊嚴大城。此明城外四<anchor xml:id="nkr_note_orig_0618021" n="0618021"/><anchor xml:id="beg0618021" n="0618021"/>苑<anchor xml:id="end0618021"/>遊戲
+<lb n="0618b29" ed="T"/>處也。</p><p xml:id="pT41p0618b2903" rend="inline">論。四<anchor xml:id="beg_127" type="star"/>苑<anchor xml:id="end_127"/>四邊至角勝歡娛。此明
+<pb n="0618c" xml:id="T41.1822.0618c" ed="T"/>
+<lb n="0618c01" ed="T"/><anchor xml:id="beg_128" type="star"/>苑<anchor xml:id="end_128"/>外勝地遊戲處也。</p><p xml:id="pT41p0618c0109" rend="inline">論。城外東北至
+<lb n="0618c02" ed="T"/>猶遍五十明圓生樹形量．妙香。</p><p xml:id="pT41p0618c0213" rend="inline">論。順
+<lb n="0618c03" ed="T"/>風可爾云何逆熏。問。</p><p xml:id="pT41p0618c0309" rend="inline">論。有餘師言至故
+<lb n="0618c04" ed="T"/>說逆熏。述異說。此師不許有逆風熏。</p>
+<lb n="0618c05" ed="T"/><p xml:id="pT41p0618c0501">論。理實圓生至如順風熏。述正義。此香力勝
+<lb n="0618c06" ed="T"/>而能逆風起於香也。由逆風故近處而滅
+<lb n="0618c07" ed="T"/>不同順風。</p><p xml:id="pT41p0618c0705" rend="inline">論。如是花香至別生香氣。
+<lb n="0618c08" ed="T"/>問。</p><p xml:id="pT41p0618c0802" rend="inline">論。此義無定至俱許無失。答也。</p>
+<lb n="0618c09" ed="T"/><p xml:id="pT41p0618c0901">論。若爾何故至遍諸方。引頌難。</p><p xml:id="pT41p0618c0913" rend="inline">論。據人
+<lb n="0618c10" ed="T"/>間香至無如是能。通也。</p><p xml:id="pT41p0618c1010" rend="inline">論。化地部說至
+<lb n="0618c11" ed="T"/>唯遍五十。述異部計。</p><p xml:id="pT41p0618c1109" rend="inline">論。外西南角至
+<lb n="0618c12" ed="T"/>不如法事。<anchor xml:id="nkr_note_orig_0618022" n="0618022"/><anchor xml:id="beg0618022" n="0618022"/>述<anchor xml:id="end0618022"/>善法堂。</p>
+<lb n="0618c13" ed="T"/><p xml:id="pT41p0618c1301">論。如是已辨三十三天。已下半行頌第三明
+<lb n="0618c14" ed="T"/>餘有色天住器。</p><p xml:id="pT41p0618c1407" rend="inline">論曰至皆依外器。釋頌
+<lb n="0618c15" ed="T"/>可知。</p>
+<lb n="0618c16" ed="T"/><p xml:id="pT41p0618c1601">論。如是所說諸天眾中。已下便明諸天諸事
+<lb n="0618c17" ed="T"/>　就中有五。一明欲時。二初生身量。三明
+<lb n="0618c18" ed="T"/>欲等生別。四明居器近遠。五明下見上不。
+<lb n="0618c19" ed="T"/>此下半頌第一明欲時<anchor xml:id="nkr_note_orig_0618023" n="0618023"/><anchor xml:id="beg0618023" n="0618023"/>也<anchor xml:id="end0618023"/>。</p><p xml:id="pT41p0618c1911" rend="inline">論曰至故
+<lb n="0618c20" ed="T"/>使之然。釋頌文。就中二說。如文可解。</p>
+<lb n="0618c21" ed="T"/><p xml:id="pT41p0618c2101">論。隨彼諸天至所生男女。明天男．女。雖是
+<lb n="0618c22" ed="T"/>化生即於彼天膝上生者。即是彼天男．女。
+<lb n="0618c23" ed="T"/>女天為母。男天為父。</p><p xml:id="pT41p0618c2309" rend="inline">論。初生天眾身
+<lb n="0618c24" ed="T"/>量云何。已下半頌第二明初生量。</p><p xml:id="pT41p0618c2414" rend="inline">論曰
+<lb n="0618c25" ed="T"/>至具妙衣服。釋頌文也。</p><p xml:id="pT41p0618c2510" rend="inline">論。一切天眾
+<lb n="0618c26" ed="T"/>至同中印度。明語同也。</p>
+<lb n="0618c27" ed="T"/><p xml:id="pT41p0618c2701">論。欲樂生別云何應知。已下半頌第三明欲
+<lb n="0618c28" ed="T"/>等生別。</p><p xml:id="pT41p0618c2804" rend="inline">論曰至及下四天。欲生三中明
+<lb n="0618c29" ed="T"/>第一也。</p><p xml:id="pT41p0618c2904" rend="inline">論。有諸有情至樂變化天。欲生
+<pb n="0619a" xml:id="T41.1822.0619a" ed="T"/>
+<lb n="0619a01" ed="T"/>三中明第二也。</p><p xml:id="pT41p0619a0107" rend="inline"><anchor xml:id="nkr_note_orig_0619001" n="0619001"/><anchor xml:id="beg0619001" n="0619001"/>論。有諸有情至他化
+<lb n="0619a02" ed="T"/>自在天。欲生三中明第三也<anchor xml:id="end0619001"/>。</p><p xml:id="pT41p0619a0212" rend="inline">論。依受
+<lb n="0619a03" ed="T"/>如生至差別三種。釋分三所以　如生等
+<lb n="0619a04" ed="T"/>者。稱生等境自在受也。婆沙一百七十三
+<lb n="0619a05" ed="T"/>云。問何故人．及前四天眾合立欲生。後二天
+<lb n="0619a06" ed="T"/>眾各別建立。答人．及前四天煩惱麁。後二天
+<lb n="0619a07" ed="T"/>煩惱細　有說。人．及<anchor xml:id="nkr_note_orig_0619002" n="0619002"/><anchor xml:id="beg0619002" n="0619002"/>前<anchor xml:id="end0619002"/>四天同樂受用自
+<lb n="0619a08" ed="T"/>然生境故合立一。第五．<anchor xml:id="nkr_note_orig_0619003" n="0619003"/><anchor xml:id="beg0619003" n="0619003"/>第六<anchor xml:id="end0619003"/>天眾獨樂受
+<lb n="0619a09" ed="T"/>用自<anchor xml:id="nkr_note_orig_0619004" n="0619004"/><anchor xml:id="beg0619004" n="0619004"/>化他<anchor xml:id="end0619004"/>境。故各立一。</p><p xml:id="pT41p0619a0910" rend="inline">論。樂生三者
+<lb n="0619a10" ed="T"/>至故名樂生。此釋樂生三天別。下三靜慮各
+<lb n="0619a11" ed="T"/>有三<anchor xml:id="nkr_note_orig_0619005" n="0619005"/><anchor xml:id="beg0619005" n="0619005"/>天<anchor xml:id="end0619005"/>故成九處。初定離生喜樂。二定定
+<lb n="0619a12" ed="T"/>生喜樂。三定離下喜樂。乃至長時受樂。第四
+<lb n="0619a13" ed="T"/>禪已上無樂受故<anchor xml:id="nkr_note_orig_0619006" n="0619006"/><anchor xml:id="beg0619006" n="0619006"/>不<anchor xml:id="end0619006"/>名樂生。</p><p xml:id="pT41p0619a1312" rend="inline">論。生
+<lb n="0619a14" ed="T"/>靜慮中間至亦號樂生天。論主難<anchor xml:id="nkr_note_orig_0619007" n="0619007"/><anchor xml:id="beg0619007" n="0619007"/>殺<anchor xml:id="end0619007"/>也。正
+<lb n="0619a15" ed="T"/>理論云。大梵既有喜樂現行名樂生天亦
+<lb n="0619a16" ed="T"/>無有失。</p>
+<lb n="0619a17" ed="T"/><p xml:id="pT41p0619a1701">論。所說諸天二十二處。已下半頌第四明居
+<lb n="0619a18" ed="T"/>器近．遠。</p><p xml:id="pT41p0619a1804" rend="inline">論曰至去下海等。釋頌文中
+<lb n="0619a19" ed="T"/>如文可解。</p><p xml:id="pT41p0619a1905" rend="inline">論。從此向上至得究竟名。
+<lb n="0619a20" ed="T"/>此二師釋色究竟名。如文可解。</p>
+<lb n="0619a21" ed="T"/><p xml:id="pT41p0619a2101">論。於下處生<anchor xml:id="nkr_note_orig_0619008" n="0619008"/><anchor xml:id="beg0619008" n="0619008"/>勝<anchor xml:id="end0619008"/>見上不。下半頌第五明下
+<lb n="0619a22" ed="T"/>見<anchor xml:id="nkr_note_orig_0619009" n="0619009"/><anchor xml:id="beg0619009" n="0619009"/>上<anchor xml:id="end0619009"/>。</p><p xml:id="pT41p0619a2203" rend="inline">論曰至下見上天。明下天眼
+<lb n="0619a23" ed="T"/><anchor xml:id="nkr_note_orig_0619010" n="0619010"/><anchor xml:id="beg0619010" n="0619010"/>見<anchor xml:id="end0619010"/>上天。以同一地．一繫縛故。</p><p xml:id="pT41p0619a2312" rend="inline">論。然
+<lb n="0619a24" ed="T"/>下眼不能至要作下地化。明下地眼不能得
+<lb n="0619a25" ed="T"/>見上界地色。及身不觸異地觸。以別地繫
+<lb n="0619a26" ed="T"/>麁細異故。若上地身。下地<anchor xml:id="nkr_note_orig_0619011" n="0619011"/><anchor xml:id="beg0619011" n="0619011"/>下<anchor xml:id="end0619011"/><anchor xml:id="nkr_note_orig_0619012" n="0619012"/><anchor xml:id="beg0619012" n="0619012"/>地<anchor xml:id="end0619012"/>。不能為
+<lb n="0619a27" ed="T"/><anchor xml:id="nkr_note_orig_0619013" n="0619013"/><anchor xml:id="beg0619013" n="0619013"/>礙<anchor xml:id="end0619013"/>故作化也。</p><p xml:id="pT41p0619a2706" rend="inline">論。有餘<anchor xml:id="nkr_note_orig_0619014" n="0619014"/><anchor xml:id="beg0619014" n="0619014"/>部<anchor xml:id="end0619014"/>說至下見上
+<lb n="0619a28" ed="T"/>天。述異<anchor xml:id="nkr_note_orig_0619015" n="0619015"/><anchor xml:id="beg0619015" n="0619015"/>部<anchor xml:id="end0619015"/>中大眾部計。</p><p xml:id="pT41p0619a2810" rend="inline">論。夜摩等
+<lb n="0619a29" ed="T"/>天宮依處量有幾。問<anchor xml:id="nkr_note_orig_0619016" n="0619016"/><anchor xml:id="beg0619016" n="0619016"/>已<anchor xml:id="end0619016"/>上天所居宮地量大
+<pb n="0619b" xml:id="T41.1822.0619b" ed="T"/>
+<lb n="0619b01" ed="T"/>小。</p><p xml:id="pT41p0619b0102" rend="inline">論。有餘師說至量無邊際。欲界<anchor xml:id="nkr_note_orig_0619017" n="0619017"/><anchor xml:id="beg0619017" n="0619017"/>四<anchor xml:id="end0619017"/>
+<lb n="0619b02" ed="T"/>天有其兩釋。初靜慮天有其<anchor xml:id="nkr_note_orig_0619018" n="0619018"/><anchor xml:id="beg0619018" n="0619018"/>三<anchor xml:id="end0619018"/>釋。如文
+<lb n="0619b03" ed="T"/>可解。</p>
+<lb n="0619b04" ed="T"/><p xml:id="pT41p0619b0401">論。齊何量說小中大千。已下兩<anchor xml:id="nkr_note_orig_0619019" n="0619019"/><anchor xml:id="beg0619019" n="0619019"/>行<anchor xml:id="end0619019"/>頌第二
+<lb n="0619b05" ed="T"/>明小．中．大千數也。</p><p xml:id="pT41p0619b0508" rend="inline">論曰至後當廣辨。
+<lb n="0619b06" ed="T"/>釋頌文。如文可解。</p>
+<lb n="0619b07" ed="T"/><p xml:id="pT41p0619b0701">論。如外器量別至身量亦別<anchor xml:id="nkr_note_orig_0619020" n="0619020"/><anchor xml:id="beg0619020" n="0619020"/>耶<anchor xml:id="end0619020"/>。已下兩行半
+<lb n="0619b08" ed="T"/>頌大文第二明能居量　就中有二。一明
+<lb n="0619b09" ed="T"/>身量。二明壽量。</p><p xml:id="pT41p0619b0907" rend="inline">論曰至滿萬六千。釋
+<lb n="0619b10" ed="T"/>頌。可解。婆沙一百二十八云。如<anchor xml:id="nkr_note_orig_0619021" n="0619021"/><anchor xml:id="beg0619021" n="0619021"/>曷<anchor xml:id="end0619021"/>邏呼阿
+<lb n="0619b11" ed="T"/>素落王所得身形其量廣大。如色究竟所得
+<lb n="0619b12" ed="T"/>身形一萬六千<anchor xml:id="nkr_note_orig_0619022" n="0619022"/><anchor xml:id="beg0619022" n="0619022"/>六<anchor xml:id="end0619022"/>踰繕那<anchor xml:id="nkr_note_orig_0619023" n="0619023"/><anchor xml:id="beg0619023" n="0619023"/>量<anchor xml:id="end0619023"/>　俱<anchor xml:id="nkr_note_orig_0619024" n="0619024"/><anchor xml:id="beg0619024" n="0619024"/>盧<anchor xml:id="end0619024"/>舍者。
+<lb n="0619b13" ed="T"/>此云鳴喚　所以無雲減三踰繕那者。有
+<lb n="0619b14" ed="T"/>人云。從變異受初修不變<anchor xml:id="nkr_note_orig_0619025" n="0619025"/><anchor xml:id="beg0619025" n="0619025"/>異<anchor xml:id="end0619025"/><anchor xml:id="nkr_note_orig_0619026" n="0619026"/><anchor xml:id="beg0619026" n="0619026"/>難<anchor xml:id="end0619026"/>　<anchor xml:id="nkr_note_orig_0619027" n="0619027"/><anchor xml:id="beg0619027" n="0619027"/>此<anchor xml:id="end0619027"/>似
+<lb n="0619b15" ed="T"/>倒也。既得難定身壽應加。應言下變異受
+<lb n="0619b16" ed="T"/>以樂欲心勝由此造業引壽等勝。不變異
+<lb n="0619b17" ed="T"/>受引欣心劣。由此造業引壽等減。</p>
+<lb n="0619b18" ed="T"/><p xml:id="pT41p0619b1801">論。身量既殊壽量別不。已下三行半頌。第二
+<lb n="0619b19" ed="T"/>明壽量　就中有二。一明善趣壽量。二明
+<lb n="0619b20" ed="T"/>惡趣壽量。此明善趣。</p><p xml:id="pT41p0619b2009" rend="inline">論曰至不能計
+<lb n="0619b21" ed="T"/>量。明人趣也。</p><p xml:id="pT41p0619b2106" rend="inline">論。已說人間至萬六千
+<lb n="0619b22" ed="T"/>歲。明欲界天。</p><p xml:id="pT41p0619b2206" rend="inline">論。持雙以上至依何得
+<lb n="0619b23" ed="T"/>成。有兩問。一<anchor xml:id="nkr_note_orig_0619028" n="0619028"/><anchor xml:id="nkr_note_mod_0619028" n="0619028"/><anchor xml:id="beg0619028" n="0619028"/>問年歲<anchor xml:id="end0619028"/>二問光明。</p><p xml:id="pT41p0619b2313" rend="inline">論。
+<lb n="0619b24" ed="T"/>依花開合至成外光明事。答兩問也。</p>
+<lb n="0619b25" ed="T"/><p xml:id="pT41p0619b2501">論。已說欲<anchor xml:id="nkr_note_orig_0619029" n="0619029"/><anchor xml:id="beg0619029" n="0619029"/>界<anchor xml:id="end0619029"/>天至萬六千劫。明色天也。</p>
+<lb n="0619b26" ed="T"/><p xml:id="pT41p0619b2601">論。已說色界至六八萬劫。明無色界。</p>
+<lb n="0619b27" ed="T"/><p xml:id="pT41p0619b2701">論。上所說劫至為中為大。問劫量也。</p>
+<lb n="0619b28" ed="T"/><p xml:id="pT41p0619b2801">論。<anchor xml:id="nkr_note_orig_0619030" n="0619030"/><anchor xml:id="beg0619030" n="0619030"/>少<anchor xml:id="end0619030"/>光以上至所壽劫量。明上下天劫
+<lb n="0619b29" ed="T"/>大．中不同。初定三天以半大劫為其一劫。
+<pb n="0619c" xml:id="T41.1822.0619c" ed="T"/>
+<lb n="0619c01" ed="T"/>二定已上以大全劫為一劫。詳其上壽量
+<lb n="0619c02" ed="T"/>增．減。<anchor xml:id="nkr_note_orig_0619031" n="0619031"/><anchor xml:id="beg0619031" n="0619031"/>及身量增減<anchor xml:id="end0619031"/>。欲天。色<anchor xml:id="nkr_note_orig_0619032" n="0619032"/><anchor xml:id="beg0619032" n="0619032"/>天<anchor xml:id="end0619032"/>。及無色天。
+<lb n="0619c03" ed="T"/>色天初定以半劫為劫。及<anchor xml:id="nkr_note_orig_0619033" n="0619033"/><anchor xml:id="beg0619033" n="0619033"/>中<anchor xml:id="end0619033"/>間靜慮身量
+<lb n="0619c04" ed="T"/>等不同者。皆是生死法爾因果。如此。不可
+<lb n="0619c05" ed="T"/>細求所以。多眼．三眼．二眼．一眼。及無足．多
+<lb n="0619c06" ed="T"/>足等也。</p>
+<lb n="0619c07" ed="T"/><p xml:id="pT41p0619c0701">論。已說善趣壽量短長。已下三頌第二明惡
+<lb n="0619c08" ed="T"/>趣。</p><p xml:id="pT41p0619c0802" rend="inline">論曰至壽一中劫。明地獄壽量。</p>
+<lb n="0619c09" ed="T"/><p xml:id="pT41p0619c0901">論。傍生壽量至能持大地。明傍生壽量。</p>
+<lb n="0619c10" ed="T"/><p xml:id="pT41p0619c1001">論。鬼以人間至壽五百年。明鬼趣也。</p>
+<lb n="0619c11" ed="T"/><p xml:id="pT41p0619c1101">論。寒那落迦至地獄壽量。明寒地獄
+<lb n="0619c12" ed="T"/>　佉梨者。受一斛器名。如此間計升．斛等名
+<lb n="0619c13" ed="T"/>　婆訶者。此云篅。受二十斛。即是二十佉梨
+<lb n="0619c14" ed="T"/>一<anchor xml:id="nkr_note_orig_0619034" n="0619034"/><anchor xml:id="beg0619034" n="0619034"/>麻<anchor xml:id="end0619034"/>婆訶量。篅盛麻故名麻篅也。摩<anchor xml:id="nkr_note_orig_0619035" n="0619035"/><anchor xml:id="beg0619035" n="0619035"/>揭<anchor xml:id="end0619035"/>
+<lb n="0619c15" ed="T"/>陀國盛麻篅多受二十石。餘文可解。百年
+<lb n="0619c16" ed="T"/>取一篅中麻也。</p>
+<lb n="0619c17" ed="T"/><p xml:id="pT41p0619c1701">論。此諸壽量有中夭耶。已下半行頌文便<anchor xml:id="nkr_note_orig_0619036" n="0619036"/><anchor xml:id="beg0619036" n="0619036"/>明<anchor xml:id="end0619036"/>
+<lb n="0619c18" ed="T"/>有中夭。</p><p xml:id="pT41p0619c1804" rend="inline">論曰至皆無中夭。釋頌有二。
+<lb n="0619c19" ed="T"/>一<anchor xml:id="nkr_note_orig_0619037" n="0619037"/><anchor xml:id="beg0619037" n="0619037"/>處<anchor xml:id="end0619037"/>無中夭。二就別人明無中夭。如文
+<lb n="0619c20" ed="T"/>可解。</p></cb:div>
+<lb n="0619c21" ed="T"/><cb:juan n="011" fun="close"><anchor xml:id="nkr_note_orig_0619038" n="0619038"/><anchor xml:id="nkr_note_mod_0619038" n="0619038"/><cb:jhead>俱舍論疏卷第十一</cb:jhead></cb:juan>
+<lb n="0619c22" ed="T"/><cb:div type="w"><anchor xml:id="nkr_note_orig_0619039" n="0619039"/><anchor xml:id="beg0619039" n="0619039"/><p xml:id="pT41p0619c2201" rend="margin-left:2em">次夜點了<note place="inline">今日春祭也令人調聲遙聞之</note></p>
+<lb n="0619c23" ed="T"/><p xml:id="pT41p0619c2301" rend="margin-left:2em">晝夜增減事不審非一以黃薗本一
+<lb n="0619c24" ed="T"/>交了</p><anchor xml:id="end0619039"/></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0614012" to="#end0614012"><lem wit="#wit1">俱舍論疏卷</lem><rdg resp="#resp1" wit="#wit2">論本</rdg></app>
+<app from="#beg0614013" to="#end0614013"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3">釋法</rdg></app>
+<app from="#beg0614014" to="#end0614014"><lem wit="#wit1">撰</lem><rdg resp="#resp1" wit="#wit2">述</rdg></app>
+<app from="#beg0614016" to="#end0614016"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit3">世間</rdg></app>
+<app from="#beg0614017" to="#end0614017"><lem wit="#wit1">分</lem><rdg resp="#resp1" wit="#wit2 #wit3">三分</rdg></app>
+<app from="#beg0614018" to="#end0614018"><lem wit="#wit1">黑</lem><rdg resp="#resp1" wit="#wit2 #wit3">明黑</rdg></app>
+<app from="#beg0614019" to="#end0614019"><lem wit="#wit1">論。又</lem><rdg resp="#resp1" wit="#wit3">諸文</rdg></app>
+<app from="#beg0614020" to="#end0614020"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit3">義</rdg></app>
+<app from="#beg0614021" to="#end0614021"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2 #wit3">復</rdg></app>
+<app from="#beg0614022" to="#end0614022"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3">二輪</rdg></app>
+<app from="#beg0614023" to="#end0614023"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0614024" to="#end0614024"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0614025" to="#end0614025"><lem wit="#wit1">洛叉</lem><rdg resp="#resp1" wit="#wit2 #wit3">落刃</rdg></app>
+<app from="#beg0614026" to="#end0614026"><lem wit="#wit1">全</lem><rdg resp="#resp1" wit="#wit2 #wit3">至</rdg></app>
+<app from="#beg0614027" to="#end0614027"><lem resp="#resp1" wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">三</rdg></app>
+<app from="#beg0614028" to="#end0614028"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0614029" to="#end0614029"><lem wit="#wit1">詳</lem><rdg resp="#resp1" wit="#wit2 #wit3">譯</rdg></app>
+<app from="#beg0615001" to="#end0615001"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit2 #wit3">文</rdg></app>
+<app from="#beg0615002" to="#end0615002"><lem wit="#wit1">盧</lem><rdg resp="#resp1" wit="#wit2 #wit3">慮</rdg></app>
+<app from="#beg0615003" to="#end0615003"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0615004" to="#end0615004"><lem wit="#wit1">洛</lem><rdg resp="#resp1" wit="#wit2 #wit3">路</rdg></app>
+<app from="#beg0615005" to="#end0615005"><lem wit="#wit1">似</lem><rdg resp="#resp1" wit="#wit2 #wit3">以</rdg></app>
+<app from="#beg0615006" to="#end0615006"><lem wit="#wit1">那</lem><rdg resp="#resp1" wit="#wit2 #wit3">耶</rdg></app>
+<app from="#beg0615007" to="#end0615007"><lem wit="#wit1">濕</lem><rdg resp="#resp1" wit="#wit2 #wit3">涅</rdg></app>
+<app from="#beg0615008" to="#end0615008"><lem wit="#wit1">成財</lem><rdg resp="#resp1" wit="#wit2 #wit3">述餘</rdg></app>
+<app from="#beg0615009" to="#end0615009"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit2 #wit3">凝</rdg><rdg resp="#resp1" wit="#wit1" type="correctionRemark">滅</rdg></app>
+<app from="#beg0615010" to="#end0615010"><lem wit="#wit1">答</lem><rdg resp="#resp1" wit="#wit2 #wit3">立</rdg></app>
+<app from="#beg0615011" to="#end0615011"><lem wit="#wit1">外</lem><rdg resp="#resp1" wit="#wit3">非</rdg></app>
+<app from="#beg0615012" to="#end0615012"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0615013" to="#end0615013"><lem wit="#wit1">金</lem><rdg resp="#resp1" wit="#wit2 #wit3">必</rdg></app>
+<app from="#beg0615014" to="#end0615014"><lem wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit2 #wit3">當</rdg></app>
+<app from="#beg0615015" to="#end0615015"><lem wit="#wit1">冥</lem><rdg resp="#resp1" wit="#wit2 #wit3">實</rdg></app>
+<app from="#beg0615016" to="#end0615016"><lem wit="#wit1">外</lem><rdg resp="#resp1" wit="#wit2 #wit3">水</rdg></app>
+<app from="#beg0615017" to="#end0615017"><lem wit="#wit1">轉</lem><rdg resp="#resp1" wit="#wit2 #wit3">輪</rdg></app>
+<app from="#beg0615019" to="#end0615019"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2 #wit3">已不</rdg></app>
+<app from="#beg0615020" to="#end0615020"><lem wit="#wit1">各</lem><rdg resp="#resp1" wit="#wit2 #wit3">水</rdg></app>
+<app from="#beg0615021" to="#end0615021"><lem wit="#wit1">遮</lem><rdg resp="#resp1" wit="#wit2 #wit3">庶</rdg></app>
+<app from="#beg_121" to="#end_121" corresp="#0615021"><lem wit="#wit1">遮</lem><rdg resp="#resp1" wit="#wit2 #wit3">庶</rdg></app>
+<app from="#beg0615022" to="#end0615022"><lem wit="#wit1">訶</lem><rdg resp="#resp1" wit="#wit2 #wit3">訶者</rdg></app>
+<app from="#beg0615023" to="#end0615023"><lem wit="#wit1">小</lem><rdg resp="#resp1" wit="#wit2 #wit3">少</rdg></app>
+<app from="#beg_122" to="#end_122" corresp="#0615021"><lem wit="#wit1">遮</lem><rdg resp="#resp1" wit="#wit2 #wit3">庶</rdg></app>
+<app from="#beg0615024" to="#end0615024"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0615025" to="#end0615025"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2 #wit3">明處</rdg></app>
+<app from="#beg0615026" to="#end0615026"><lem wit="#wit1">名無間</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0615027" to="#end0615027"><lem wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0615028" to="#end0615028"><lem wit="#wit1">增上</lem><rdg resp="#resp1" wit="#wit2 #wit3">上品</rdg></app>
+<app from="#beg0616001" to="#end0616001"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616002" to="#end0616002"><lem wit="#wit1">牒</lem><rdg resp="#resp1" wit="#wit2 #wit3">勝</rdg></app>
+<app from="#beg0616003" to="#end0616003"><lem wit="#wit1">增</lem><rdg resp="#resp1" wit="#wit2 #wit3">增上</rdg></app>
+<app from="#beg0616004" to="#end0616004"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616005" to="#end0616005"><lem wit="#wit1">有人謂是<lb n="0616b03" ed="T"/>三解</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616006" to="#end0616006"><lem wit="#wit1">類</lem><rdg resp="#resp1" wit="#wit2 #wit3">種</rdg></app>
+<app from="#beg0616007" to="#end0616007"><lem resp="#resp1" wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">論如</rdg></app>
+<app from="#beg0616008" to="#end0616008"><lem wit="#wit1">卒</lem><rdg resp="#resp1" wit="#wit2 #wit3">寄</rdg></app>
+<app from="#beg0616009" to="#end0616009"><lem wit="#wit1">先</lem><rdg resp="#resp1" wit="#wit2 #wit3">者</rdg></app>
+<app from="#beg0616010" to="#end0616010"><lem wit="#wit1">過前</lem><rdg resp="#resp1" wit="#wit3">逼身</rdg></app>
+<app from="#beg0616011" to="#end0616011"><lem wit="#wit1">增</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616012" to="#end0616012"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616013" to="#end0616013"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit2 #wit3">所</rdg></app>
+<app from="#beg0616014" to="#end0616014"><lem wit="#wit1">地</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616015" to="#end0616015"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit2 #wit3">防</rdg></app>
+<app from="#beg0616016" to="#end0616016"><lem wit="#wit1">趣</lem><rdg resp="#resp1" wit="#wit2 #wit3">都</rdg></app>
+<app from="#beg0616017" to="#end0616017"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0616018" to="#end0616018"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617001" to="#end0617001"><lem wit="#wit1">晝</lem><rdg resp="#resp1" wit="#wit2 #wit3">盡</rdg></app>
+<app from="#beg0617002" to="#end0617002"><lem wit="#wit1">云</lem><rdg resp="#resp1" wit="#wit2 #wit3">曰</rdg></app>
+<app from="#beg0617003" to="#end0617003"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3">立</rdg></app>
+<app from="#beg0617004" to="#end0617004"><lem wit="#wit1">位</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617005" to="#end0617005"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3">若以此方八月十六日為月初白半即當此方八月八日若</rdg></app>
+<app from="#beg0617006" to="#end0617006"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617007" to="#end0617007"><lem wit="#wit1">月</lem><rdg resp="#resp1" wit="#wit2 #wit3">日</rdg></app>
+<app from="#beg0617008" to="#end0617008"><lem wit="#wit1">月盡</lem><rdg resp="#resp1" wit="#wit2 #wit3">晝</rdg></app>
+<app from="#beg0617009" to="#end0617009"><lem wit="#wit1">盡</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617010" to="#end0617010"><lem wit="#wit1">先</lem><rdg resp="#resp1" wit="#wit2 #wit3">順</rdg></app>
+<app cb:word-count="21" from="#beg0617011" to="#end0617011"><lem wit="#wit1">七日。若<lb n="0617b05" ed="T"/>以此方九月八日晝夜停。西方節氣晚於此<lb n="0617b06" ed="T"/>方</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617012" to="#end0617012"><lem wit="#wit1">令隔</lem><rdg resp="#resp1" wit="#wit2 #wit3">羯</rdg></app>
+<app from="#beg0617013" to="#end0617013"><lem wit="#wit1">呼</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617014" to="#end0617014"><lem wit="#wit1">摩迦</lem><rdg resp="#resp1" wit="#wit2 #wit3">磨伽</rdg></app>
+<app from="#beg0617015" to="#end0617015"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617016" to="#end0617016"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit3">五</rdg></app>
+<app from="#beg0617017" to="#end0617017"><lem wit="#wit1">亦云</lem><rdg resp="#resp1" wit="#wit2 #wit3">去</rdg></app>
+<app from="#beg0617018" to="#end0617018"><lem wit="#wit1">阿濕<lb n="0617b26" ed="T"/>縛庾闍月</lem><rdg resp="#resp1" wit="#wit2 #wit3">阿濕縛疾縛庾闍月</rdg></app>
+<app from="#beg0617019" to="#end0617019"><lem wit="#wit1">至</lem><rdg resp="#resp1" wit="#wit2 #wit3">有</rdg></app>
+<app from="#beg0617020" to="#end0617020"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617021" to="#end0617021"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app cb:word-count="90" from="#beg0617022" to="#end0617022"><lem wit="#wit1"><note place="inline">此當此方八月九日。西方八月二十四日</note>
+<lb n="0617c04" ed="T"/>至摩迦月白半第八日夜十八晝十二牟呼<lb n="0617c05" ed="T"/>栗多<note place="inline">當此方十一月</note>是夜極長。於此已後亦言從此<lb n="0617c06" ed="T"/>已後夜減晝增。至吠舍佉月白半第八日晝．<lb n="0617c07" ed="T"/>夜．各十五牟呼栗多。此後亦云從此已後<lb n="0617c08" ed="T"/>夜減晝增</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617023" to="#end0617023"><lem wit="#wit1">室</lem><rdg resp="#resp1" wit="#wit2 #wit3">審</rdg></app>
+<app from="#beg0617024" to="#end0617024"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617025" to="#end0617025"><lem wit="#wit1">沙</lem><rdg resp="#resp1" wit="#wit2 #wit3">娑</rdg></app>
+<app from="#beg0617026" to="#end0617026"><lem wit="#wit1">雨際</lem><rdg resp="#resp1" wit="#wit2 #wit3">兩月</rdg></app>
+<app from="#beg_123" to="#end_123" corresp="#0617025"><lem wit="#wit1">沙</lem><rdg resp="#resp1" wit="#wit2 #wit3">娑</rdg></app>
+<app from="#beg0617027" to="#end0617027"><lem wit="#wit1">半</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_124" to="#end_124" corresp="#0617025"><lem wit="#wit1">沙</lem><rdg resp="#resp1" wit="#wit2 #wit3">娑</rdg></app>
+<app from="#beg0617028" to="#end0617028"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617029" to="#end0617029"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617030" to="#end0617030"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0617031" to="#end0617031"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit2 #wit3">七</rdg></app>
+<app from="#beg0617032" to="#end0617032"><lem wit="#wit1">雨</lem><rdg resp="#resp1" wit="#wit2 #wit3">寒</rdg></app>
+<app cb:word-count="26" from="#beg0617033" to="#end0617033"><lem wit="#wit1">第一月初。若以十一月為寒際第四月。<lb n="0618a01" ed="T"/>即此方七月十六日為寒際</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618001" to="#end0618001"><lem wit="#wit1">月</lem><rdg resp="#resp1" wit="#wit2 #wit3">日</rdg></app>
+<app from="#beg0618002" to="#end0618002"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618003" to="#end0618003"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618004" to="#end0618004"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2 #wit3">者</rdg></app>
+<app from="#beg0618005" to="#end0618005"><lem wit="#wit1">北方夜極長</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618006" to="#end0618006"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3">二</rdg></app>
+<app from="#beg0618007" to="#end0618007"><lem wit="#wit1">增</lem><rdg resp="#resp1" wit="#wit2 #wit3">減</rdg></app>
+<app from="#beg0618008" to="#end0618008"><lem wit="#wit1">問</lem><rdg resp="#resp1" wit="#wit2 #wit3">問也</rdg></app>
+<app from="#beg0618009" to="#end0618009"><lem wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit2 #wit3">白</rdg></app>
+<app from="#beg0618010" to="#end0618010"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit3">第</rdg></app>
+<app from="#beg0618011" to="#end0618011"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3">也</rdg></app>
+<app from="#beg0618012" to="#end0618012"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3">二</rdg></app>
+<app from="#beg0618013" to="#end0618013"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2 #wit3">品</rdg></app>
+<app from="#beg0618014" to="#end0618014"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618015" to="#end0618015"><lem wit="#wit1">藥叉</lem><rdg resp="#resp1" wit="#wit2 #wit3">夜刃</rdg></app>
+<app from="#beg0618016" to="#end0618016"><lem wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit2 #wit3">列</rdg></app>
+<app from="#beg_125" to="#end_125" corresp="#0616012"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618017" to="#end0618017"><lem wit="#wit1">封</lem><rdg resp="#resp1" wit="#wit2 #wit3">村</rdg></app>
+<app from="#beg0618018" to="#end0618018"><lem wit="#wit1">金</lem><rdg resp="#resp1" wit="#wit2 #wit3">金剛</rdg></app>
+<app from="#beg_126" to="#end_126" corresp="#0618013"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2 #wit3">品</rdg></app>
+<app from="#beg0618019" to="#end0618019"><lem wit="#wit1">狹</lem><rdg resp="#resp1" wit="#wit2 #wit3">陿</rdg></app>
+<app from="#beg0618020" to="#end0618020"><lem wit="#wit1">然</lem><rdg resp="#resp1" wit="#wit2 #wit3">結</rdg></app>
+<app from="#beg0618021" to="#end0618021"><lem wit="#wit1">苑</lem><rdg resp="#resp1" wit="#wit3">薗</rdg></app>
+<app from="#beg_127" to="#end_127" corresp="#0618021"><lem wit="#wit1">苑</lem><rdg resp="#resp1" wit="#wit3">薗</rdg></app>
+<app from="#beg_128" to="#end_128" corresp="#0618021"><lem wit="#wit1">苑</lem><rdg resp="#resp1" wit="#wit3">薗</rdg></app>
+<app from="#beg0618022" to="#end0618022"><lem wit="#wit1">述</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0618023" to="#end0618023"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2 #wit3">已</rdg></app>
+<app cb:word-count="19" from="#beg0619001" to="#end0619001"><lem wit="#wit1">論。有諸有情至他化<lb n="0619a02" ed="T"/>自在天。欲生三中明第三也</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619002" to="#end0619002"><lem wit="#wit1">前</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619003" to="#end0619003"><lem wit="#wit1">第六</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619004" to="#end0619004"><lem wit="#wit1">化他</lem><rdg resp="#resp1" wit="#wit2 #wit3">他化</rdg></app>
+<app from="#beg0619005" to="#end0619005"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit2 #wit3">釋</rdg></app>
+<app from="#beg0619006" to="#end0619006"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619007" to="#end0619007"><lem wit="#wit1">殺</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619008" to="#end0619008"><lem wit="#wit1">勝</lem><rdg resp="#resp1" wit="#wit3">昇</rdg></app>
+<app from="#beg0619009" to="#end0619009"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2 #wit3">上不</rdg></app>
+<app from="#beg0619010" to="#end0619010"><lem wit="#wit1">見</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619011" to="#end0619011"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619012" to="#end0619012"><lem resp="#resp1" wit="#wit1">地</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">色</rdg></app>
+<app from="#beg0619013" to="#end0619013"><lem wit="#wit1">礙</lem><rdg resp="#resp1" wit="#wit2 #wit3">等</rdg></app>
+<app from="#beg0619014" to="#end0619014"><lem wit="#wit1">部</lem><rdg resp="#resp1" wit="#wit2 #wit3">師</rdg></app>
+<app from="#beg0619015" to="#end0619015"><lem wit="#wit1">部</lem><rdg resp="#resp1" wit="#wit2 #wit3">部計</rdg></app>
+<app from="#beg0619016" to="#end0619016"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619017" to="#end0619017"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit2 #wit3">問</rdg></app>
+<app from="#beg0619018" to="#end0619018"><lem resp="#resp1" wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">二</rdg></app>
+<app from="#beg0619019" to="#end0619019"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619020" to="#end0619020"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619021" to="#end0619021"><lem wit="#wit1">曷</lem><rdg resp="#resp1" wit="#wit3">而</rdg></app>
+<app from="#beg0619022" to="#end0619022"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619023" to="#end0619023"><lem wit="#wit1">量</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619024" to="#end0619024"><lem wit="#wit1">盧</lem><rdg resp="#resp1" wit="#wit2 #wit3">慮</rdg></app>
+<app from="#beg0619025" to="#end0619025"><lem wit="#wit1">異</lem><rdg resp="#resp1" wit="#wit2 #wit3">異受</rdg></app>
+<app from="#beg0619026" to="#end0619026"><lem wit="#wit1">難</lem><rdg resp="#resp1" wit="#wit2 #wit3">難故</rdg></app>
+<app from="#beg0619027" to="#end0619027"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3">此言</rdg></app>
+<app from="#beg0619028" to="#end0619028"><lem wit="#wit1">問年歲</lem><rdg resp="#resp1" wit="#wit2 #wit3">向手成</rdg><rdg resp="#resp1" wit="#wit1" type="correctionRemark">問晝夜</rdg></app>
+<app from="#beg0619029" to="#end0619029"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619030" to="#end0619030"><lem wit="#wit1">少</lem><rdg resp="#resp1" wit="#wit2 #wit3">小</rdg></app>
+<app from="#beg0619031" to="#end0619031"><lem wit="#wit1">及身量增減</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619032" to="#end0619032"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0619033" to="#end0619033"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2 #wit3">於中</rdg></app>
+<app from="#beg0619034" to="#end0619034"><lem wit="#wit1">麻</lem><rdg resp="#resp1" wit="#wit2 #wit3">磨</rdg></app>
+<app from="#beg0619035" to="#end0619035"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit2 #wit3">偈</rdg></app>
+<app from="#beg0619036" to="#end0619036"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2 #wit3">得</rdg></app>
+<app from="#beg0619037" to="#end0619037"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit2 #wit3">就處</rdg></app>
+<app cb:word-count="32" from="#beg0619039" to="#end0619039"><lem wit="#wit1"><p rend="margin-left:2em">次夜點了<note place="inline">今日春祭也令人調聲遙聞之</note></p>
+<lb n="0619c23" ed="T"/><p rend="margin-left:2em">晝夜增減事不審非一以黃薗本一<lb n="0619c24" ed="T"/>交了</p></lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0615009" resp="#resp2" type="mod" target="#nkr_note_mod_0615009">減＝凝【甲】【乙】，＝滅？</note>
+<note n="0615018" resp="#resp2" type="mod" target="#nkr_note_mod_0615018"><!--CBETA todo type: a-->〔曾所…生至〕十四字－【甲】【乙】</note>
+<note n="0619028" resp="#resp2" type="mod" target="#nkr_note_mod_0619028">問年歲＝向手成【甲】【乙】，＝問晝夜？</note>
+<note n="0619038" resp="#resp2" type="mod" target="#nkr_note_mod_0619038"><!--CBETA todo type: a-->甲本尾題缺</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0614012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614012">【原】保延三年覺樹校石山寺藏寫本，【甲】鎌倉時代寫東大寺藏本，【乙】寶永元年版本，俱舍論疏卷＝論本【甲】</note>
+<note n="0614013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614013">（釋）＋法【乙】</note>
+<note n="0614014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614014">撰＝述【甲】</note>
+<note n="0614015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614015">品題新加，甲本品題缺</note>
+<note n="0614016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614016">世＋（間）【乙】</note>
+<note n="0614017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614017">（三）＋分【甲】【乙】</note>
+<note n="0614018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614018">（明）＋黑【甲】【乙】</note>
+<note n="0614019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614019">論又＝諸文【乙】</note>
+<note n="0614020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614020">藏＝義【乙】</note>
+<note n="0614021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614021">後＝復【甲】【乙】</note>
+<note n="0614022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614022">二＋（輪）【甲】【乙】</note>
+<note n="0614023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614023">〔唯〕－【甲】【乙】</note>
+<note n="0614024" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614024">〔餘〕－【甲】【乙】</note>
+<note n="0614025" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614025">洛叉＝落刃【甲】【乙】</note>
+<note n="0614026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614026">全＝至【甲】【乙】</note>
+<note n="0614027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614027">四＝三？</note>
+<note n="0614028" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614028">〔於〕－【甲】【乙】</note>
+<note n="0614029" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0614029">詳＝譯【甲】【乙】</note>
+<note n="0615001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615001">又＝文【甲】【乙】</note>
+<note n="0615002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615002">盧＝慮【甲】【乙】</note>
+<note n="0615003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615003">〔此〕－【甲】【乙】</note>
+<note n="0615004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615004">洛＝路【甲】【乙】</note>
+<note n="0615005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615005">似＝以【甲】【乙】</note>
+<note n="0615006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615006">那＝耶【甲】【乙】</note>
+<note n="0615007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615007">濕＝涅【甲】【乙】</note>
+<note n="0615008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615008">成財＝述餘【甲】【乙】</note>
+<note n="0615009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615009">減＝凝【甲】【乙】，滅？</note>
+<note n="0615010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615010">答＝立【甲】【乙】</note>
+<note n="0615011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615011">外＝非【乙】</note>
+<note n="0615012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615012">〔時〕－【甲】【乙】</note>
+<note n="0615013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615013">金＝必【甲】【乙】</note>
+<note n="0615014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615014">常＝當【甲】【乙】</note>
+<note n="0615015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615015">冥＝實【甲】【乙】</note>
+<note n="0615016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615016">外＝水【甲】【乙】</note>
+<note n="0615017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615017">轉＝輪【甲】【乙】</note>
+<note n="0615018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615018">〔曾所…生至〕十四字－【甲】【乙】</note>
+<note n="0615019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615019">（已）＋不【甲】【乙】</note>
+<note n="0615020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615020">各＝水【甲】【乙】</note>
+<note n="0615021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615021">遮＝庶【甲】【乙】＊</note>
+<note n="0615022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615022">訶＋（者）【甲】【乙】</note>
+<note n="0615023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615023">小＝少【甲】【乙】</note>
+<note n="0615024" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615024">〔處〕－【甲】【乙】</note>
+<note n="0615025" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615025">明＋（處）【甲】【乙】</note>
+<note n="0615026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615026">〔名無間〕－【甲】【乙】</note>
+<note n="0615027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615027">〔意〕－【甲】【乙】</note>
+<note n="0615028" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0615028">增上＝上品【甲】【乙】</note>
+<note n="0616001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616001">〔此〕－【甲】【乙】</note>
+<note n="0616002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616002">牒＝勝【甲】【乙】</note>
+<note n="0616003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616003">增＋（上）【甲】【乙】</note>
+<note n="0616004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616004">〔以〕－【甲】【乙】</note>
+<note n="0616005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616005">〔有人謂是三解〕－【乙】</note>
+<note n="0616006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616006">類＝種【甲】【乙】</note>
+<note n="0616007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616007">（論）＋如？</note>
+<note n="0616008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616008">卒＝寄【甲】【乙】</note>
+<note n="0616009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616009">先＝者【甲】【乙】</note>
+<note n="0616010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616010">過前＝逼身【乙】</note>
+<note n="0616011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616011">〔增〕－【甲】【乙】</note>
+<note n="0616012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616012">〔名〕－【甲】【乙】＊</note>
+<note n="0616013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616013">處＝所【甲】【乙】</note>
+<note n="0616014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616014">〔地〕－【甲】【乙】</note>
+<note n="0616015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616015">妨＝防【甲】【乙】</note>
+<note n="0616016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616016">趣＝都【甲】【乙】</note>
+<note n="0616017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616017">〔耶〕－【甲】【乙】</note>
+<note n="0616018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0616018">〔下〕－【乙】</note>
+<note n="0617001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617001">晝＝盡【甲】【乙】</note>
+<note n="0617002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617002">云＝曰【甲】【乙】</note>
+<note n="0617003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617003">無＝立【甲】【乙】</note>
+<note n="0617004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617004">〔位〕－【乙】</note>
+<note n="0617005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617005">（若以此方八月十六日為月初白半即當此方八月八日）＋若【甲】【乙】</note>
+<note n="0617006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617006">〔即〕－【甲】【乙】</note>
+<note n="0617007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617007">月＝日【甲】【乙】</note>
+<note n="0617008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617008">月盡＝晝【甲】【乙】</note>
+<note n="0617009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617009">〔盡〕－【甲】【乙】</note>
+<note n="0617010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617010">先＝順【甲】【乙】</note>
+<note n="0617011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617011">〔七日…此方〕二十一字－【甲】【乙】</note>
+<note n="0617012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617012">令隔＝羯【甲】【乙】</note>
+<note n="0617013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617013">〔呼〕－【甲】【乙】</note>
+<note n="0617014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617014">摩迦＝磨伽【甲】【乙】</note>
+<note n="0617015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617015">〔有〕－【乙】</note>
+<note n="0617016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617016">四＝五【乙】</note>
+<note n="0617017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617017">亦云＝去【甲】【乙】</note>
+<note n="0617018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617018">阿濕縛庾闍月＝阿濕縛疾縛庾闍月【甲】【乙】</note>
+<note n="0617019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617019">至＝有【甲】【乙】</note>
+<note n="0617020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617020">〔復〕－【甲】【乙】</note>
+<note n="0617021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617021">〔減〕－【甲】【乙】</note>
+<note n="0617022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617022">〔此當…晝增〕九十字－【甲】【乙】</note>
+<note n="0617023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617023">室＝審【甲】【乙】</note>
+<note n="0617024" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617024">〔二〕－【甲】【乙】</note>
+<note n="0617025" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617025">沙＝娑【甲】【乙】＊</note>
+<note n="0617026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617026">雨際＝兩月【甲】【乙】</note>
+<note n="0617027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617027">〔半〕－【甲】【乙】</note>
+<note n="0617028" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617028">〔減〕－【甲】【乙】</note>
+<note n="0617029" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617029">〔以〕－【甲】【乙】</note>
+<note n="0617030" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617030">〔為〕－【甲】【乙】</note>
+<note n="0617031" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617031">六＝七【甲】【乙】</note>
+<note n="0617032" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617032">雨＝寒【甲】【乙】</note>
+<note n="0617033" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0617033">〔第一…寒際〕二十六字－【甲】【乙】</note>
+<note n="0618001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618001">月＝日【甲】【乙】</note>
+<note n="0618002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618002">〔第〕－【甲】【乙】</note>
+<note n="0618003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618003">〔日〕－【甲】【乙】</note>
+<note n="0618004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618004">也＝者【甲】【乙】</note>
+<note n="0618005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618005">〔北方夜極長〕－【甲】【乙】</note>
+<note n="0618006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618006">一＝二【甲】【乙】</note>
+<note n="0618007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618007">增＝減【甲】【乙】</note>
+<note n="0618008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618008">問＋（也）【甲】【乙】</note>
+<note n="0618009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618009">自＝白【甲】【乙】</note>
+<note n="0618010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618010">等＝第【乙】</note>
+<note n="0618011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618011">已＝也【甲】【乙】</note>
+<note n="0618012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618012">三＝二【乙】</note>
+<note n="0618013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618013">下＝品【甲】【乙】＊</note>
+<note n="0618014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618014">〔大〕－【甲】【乙】</note>
+<note n="0618015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618015">藥叉＝夜刃【甲】【乙】</note>
+<note n="0618016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618016">別＝列【甲】【乙】</note>
+<note n="0618017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618017">封＝村【甲】【乙】</note>
+<note n="0618018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618018">金＋（剛）【甲】【乙】</note>
+<note n="0618019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618019">狹＝陿【甲】【乙】</note>
+<note n="0618020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618020">然＝結【甲】【乙】</note>
+<note n="0618021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618021">苑＝薗【乙】＊</note>
+<note n="0618022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618022">〔述〕－【甲】【乙】</note>
+<note n="0618023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0618023">也＝已【甲】【乙】</note>
+<note n="0619001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619001">〔論…三也〕十九字－【甲】【乙】</note>
+<note n="0619002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619002">〔前〕－【甲】【乙】</note>
+<note n="0619003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619003">〔第六〕－【甲】【乙】</note>
+<note n="0619004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619004">化他＝他化【甲】【乙】</note>
+<note n="0619005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619005">天＝釋【甲】【乙】</note>
+<note n="0619006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619006">〔不〕－【甲】【乙】</note>
+<note n="0619007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619007">〔殺〕－【甲】【乙】</note>
+<note n="0619008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619008">勝＝昇【乙】</note>
+<note n="0619009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619009">上＋（不）【甲】【乙】</note>
+<note n="0619010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619010">〔見〕－【甲】【乙】</note>
+<note n="0619011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619011">〔下〕－【甲】【乙】</note>
+<note n="0619012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619012">地＝色？</note>
+<note n="0619013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619013">礙＝等【甲】【乙】</note>
+<note n="0619014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619014">部＝師【甲】【乙】</note>
+<note n="0619015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619015">部＋（計）【甲】【乙】</note>
+<note n="0619016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619016">〔已〕－【甲】【乙】</note>
+<note n="0619017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619017">四＝問【甲】【乙】</note>
+<note n="0619018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619018">三＝二？</note>
+<note n="0619019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619019">〔行〕－【甲】【乙】</note>
+<note n="0619020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619020">〔耶〕－【甲】【乙】</note>
+<note n="0619021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619021">曷＝而【乙】</note>
+<note n="0619022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619022">〔六〕－【甲】【乙】</note>
+<note n="0619023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619023">〔量〕－【甲】【乙】</note>
+<note n="0619024" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619024">盧＝慮【甲】【乙】</note>
+<note n="0619025" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619025">異＋（受）【甲】【乙】</note>
+<note n="0619026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619026">難＋（故）【甲】【乙】</note>
+<note n="0619027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619027">此＋（言）【甲】【乙】</note>
+<note n="0619028" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619028">問年歲＝向手成【甲】【乙】，問晝夜？</note>
+<note n="0619029" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619029">〔界〕－【甲】【乙】</note>
+<note n="0619030" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619030">少＝小【甲】【乙】</note>
+<note n="0619031" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619031">〔及身量增減〕－【甲】【乙】</note>
+<note n="0619032" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619032">〔天〕－【甲】【乙】</note>
+<note n="0619033" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619033">（於）＋中【甲】【乙】</note>
+<note n="0619034" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619034">麻＝磨【甲】【乙】</note>
+<note n="0619035" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619035">揭＝偈【甲】【乙】</note>
+<note n="0619036" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619036">明＝得【甲】【乙】</note>
+<note n="0619037" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619037">（就）＋處【甲】【乙】</note>
+<note n="0619038" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619038">甲本尾題缺</note>
+<note n="0619039" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0619039">〔次夜…交了〕三十二字－【甲】【乙】</note>
+</p>
+</cb:div>
+<cb:div type="rest-notes">
+<head>其他註解</head>
+<p>
+<note n="0614012" type="rest" place="foot" target="#nkr_note_rest_0614012">【原】保延三年覺樹校石山寺藏寫本，【甲】鎌倉時代寫東大寺藏本，【乙】寶永元年版本</note>
+</p>
+</cb:div>
+</back></text></TEI>

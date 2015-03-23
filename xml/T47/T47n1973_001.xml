@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T47n1973">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1973 廬山蓮宗寶鑑</title>
+			<author>元 普度編</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.25 $<date>$Date: 2010/10/25 08:25:22 $</date></edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+	</editionStmt>
+	<extent>10卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2010/10/25 08:25:22 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 47, No. 1973 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【甲】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00808">
+	<charName>CBETA CHARACTER CB00808</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[臣*責]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>賾</value>
+	</charProp>
+	<mapping type="unicode">U+268F1</mapping>
+	<mapping cb:dec="983848" type="PUA">U+F0328</mapping>
+</char>
+<char xml:id="CB05277">
+	<charName>CBETA CHARACTER CB05277</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[竺-二+雉]</value>
+	</charProp>
+	<mapping type="unicode">U+425C</mapping>
+	<mapping cb:dec="988317" type="PUA">U+F149D</mapping>
+</char>
+<char xml:id="CB05335">
+	<charName>CBETA CHARACTER CB05335</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[檐-(色-巴)+├]</value>
+	</charProp>
+	<mapping cb:dec="988375" type="PUA">U+F14D7</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="2000-08-10T15:07:48">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0302c10" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0302c11" ed="T"/>
+<lb n="0302c12" ed="T"/><cb:docNumber>No. 1973</cb:docNumber>
+<lb n="0302c13" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">蓮宗寶鑑序</cb:mulu><head><anchor xml:id="nkr_note_orig_0302001" n="0302001"/>蓮宗寶鑑序</head>
+<lb n="0302c14" ed="T"/>
+<lb n="0302c15" ed="T"/><p xml:id="pT47p0302c1501">禪淨二門分袒各幟幾同敵國矣。慈覺賾禪
+<lb n="0302c16" ed="T"/>師有營田開庫之喻。各隨所好皆得如心。此
+<lb n="0302c17" ed="T"/>亦方便和會之談耳。二物可會若本非二和
+<lb n="0302c18" ed="T"/>會奚為。夫禪有如來禪祖師禪。祖師禪且置。
+<lb n="0302c19" ed="T"/>佛語禪那華言靜慮。所謂八禪八定也。念佛
+<lb n="0302c20" ed="T"/>三昧曰一心不亂。都攝六根。淨念相繼非靜
+<lb n="0302c21" ed="T"/>定耶且念佛與唱佛不同。唱者口也。念者憶
+<lb n="0302c22" ed="T"/>也。母憶子子憶母口乎心乎。所念之佛栴檀
+<lb n="0302c23" ed="T"/>耶。閻浮檀金耶。毘首羯磨所作耶。應身耶。報
+<lb n="0302c24" ed="T"/>身耶。法身耶。過去佛耶。現未佛耶。淨土在西
+<lb n="0302c25" ed="T"/>方耶。舉足下足即道場耶。觀經金口所宣。而
+<lb n="0302c26" ed="T"/>曰是心作佛是心是佛。故觀心即觀佛也。觀
+<lb n="0302c27" ed="T"/>佛即念佛也。極而言之念本無念佛亦無佛。
+<lb n="0302c28" ed="T"/>能念空所念亦空。如來禪即祖師禪也。故大
+<lb n="0302c29" ed="T"/>勢至念佛無生。觀世音反聞自性。二菩薩似
+<pb n="0303a" xml:id="T47.1973.0303a" ed="T"/>
+<lb n="0303a01" ed="T"/>各一圓通。而同在安養左右彌陀。接引東土
+<lb n="0303a02" ed="T"/>明乎。即淨即禪眾聖一揆。而後來釋子分張
+<lb n="0303a03" ed="T"/>門戶。譬之祖宗房屋原只一間。而子孫于中
+<lb n="0303a04" ed="T"/>牆壁夾斷。插籬種棘不相往來。其為執迷顛
+<lb n="0303a05" ed="T"/>倒極矣。或難言三聖接引。則淨土在西方明
+<lb n="0303a06" ed="T"/>矣。得無與自性惟心之旨相矛盾乎。余曰。彌
+<lb n="0303a07" ed="T"/>陀者。眾生之彌陀也。眾生者。彌陀之眾生也。
+<lb n="0303a08" ed="T"/>極樂者。彌陀之惟心也。惟心者。眾生之極樂
+<lb n="0303a09" ed="T"/>也。故識自性惟心之旨。謂西方有彌陀。可謂
+<lb n="0303a10" ed="T"/>東土皆彌陀。亦可謂法報身是佛。可謂丈六
+<lb n="0303a11" ed="T"/>劣應身。與毘首羯磨所作是佛。亦可謂念過
+<lb n="0303a12" ed="T"/>去佛。可謂念現來一切佛亦可。而又何禪淨
+<lb n="0303a13" ed="T"/>之分別為耶。蓮宗寶鑑一書乃廬山優曇和
+<lb n="0303a14" ed="T"/>尚所集。標真正譌尋香討根。實淨土之指南
+<lb n="0303a15" ed="T"/>也。因屬楞嚴白法師。刻而傳之而僭為之
+<lb n="0303a16" ed="T"/>引。</p>
+<lb n="0303a17" ed="T"/><p xml:id="pT47p0303a1701" rend="margin-left:2em">紫柏弟子錢士升書於放下菴之更雨堂</p></cb:div>
+<lb n="0303a18" ed="T"/><cb:div type="xu">
+<lb n="0303a19" ed="T"/><cb:mulu level="1" type="序">廬山東林禪寺蓮宗善法祖堂勸修淨業</cb:mulu><head><anchor xml:id="nkr_note_orig_0303001" n="0303001"/>廬山東林禪寺蓮宗善法祖堂勸修淨業</head><byline><note place="inline">臣</note>
+<lb n="0303a20" ed="T"/>僧<note place="inline">普度</note>謹自編集</byline>
+<lb n="0303a21" ed="T"/><p xml:id="pT47p0303a2101">蓮宗寶鑑一部。發明佛祖念佛三昧。已蒙諸
+<lb n="0303a22" ed="T"/>尊宿善知識題跋印證。來詣大都。禮拜罽賓
+<lb n="0303a23" ed="T"/>國公班的。答師父主盟佛法得奉法旨教。般
+<lb n="0303a24" ed="T"/>若室利長老賢耶那室利闊羅羅司丞。於至
+<lb n="0303a25" ed="T"/>大元年十月十一日至隆福宮今上皇帝潛龍
+<lb n="0303a26" ed="T"/>時分月。海怯薛第一日。親捧蓮宗寶鑑。啟奉
+<lb n="0303a27" ed="T"/>令旨教刊板印行者。敬此即於大都明理不
+<lb n="0303a28" ed="T"/>花丞相施到無量壽法王寺內。鏤板已遂畢
+<lb n="0303a29" ed="T"/>工所集洪因端為祝延皇帝聖壽萬安皇太后
+<pb n="0303b" xml:id="T47.1973.0303b" ed="T"/>
+<lb n="0303b01" ed="T"/>皇后齊年太子諸王千秋文武官僚高增祿
+<lb n="0303b02" ed="T"/>位。皇圖永固。佛日<anchor xml:id="nkr_note_orig_0303002" n="0303002"/><anchor xml:id="beg0303002" n="0303002"/>光<anchor xml:id="end0303002"/>輝。凡曰見聞同成佛
+<lb n="0303b03" ed="T"/>道。</p>
+<lb n="0303b04" ed="T"/><p xml:id="pT47p0303b0401" rend="margin-left:2em">皇慶壬子正月圓日優曇<note place="inline">普度</note>謹識</p></cb:div>
+<lb n="0303b05" ed="T"/><cb:div type="xu"><p xml:id="pT47p0303b0501">按經中說。西方世界國名極樂。其土有佛號
+<lb n="0303b06" ed="T"/>阿彌陀。巍巍蕩蕩超太古皇。不令不申自然
+<lb n="0303b07" ed="T"/>而化。瓊池金地不染一塵。樹林水鳥皆演苦
+<lb n="0303b08" ed="T"/>空。佛願力故攝彼群情。一念相應即登金臺。
+<lb n="0303b09" ed="T"/>雖下下品亦胎華蓮。雁門尊者社結勝流策
+<lb n="0303b10" ed="T"/>勳淨業。是以念佛之道唱行於世。迨今千年
+<lb n="0303b11" ed="T"/>謂之蓮宗也。去古已遠法流成弊。邪道混淆
+<lb n="0303b12" ed="T"/>微旨曖昧。由是優曇和尚乘宿願力。痛嗟正
+<lb n="0303b13" ed="T"/>宗奮真實心探尋要旨。編次本末剖分偽真。
+<lb n="0303b14" ed="T"/>定為十門名曰寶鑑。齎赴大都。咨扣罽賓班
+<lb n="0303b15" ed="T"/>的。答灌頂國師證。無叢脞契合佛經。乃為
+<lb n="0303b16" ed="T"/>聞奏欽遇皇上金輪皇帝。聖通佛慧道合天
+<lb n="0303b17" ed="T"/>心。至照無私獎稱曰善教。刊板印行載上書。
+<lb n="0303b18" ed="T"/>乞復教上可之。頒降聖旨遍行各省。洗佛日
+<lb n="0303b19" ed="T"/>重光於聖世。起祖風載振於虎溪。策精進而
+<lb n="0303b20" ed="T"/>勿荒。發闡提而必信悟。覺花開於心地。顯佛
+<lb n="0303b21" ed="T"/>性存於本源。咸知極樂之歸。悉稟無為之化。
+<lb n="0303b22" ed="T"/>明教上仁宗正宗論息闢佛之議。於當時優
+<lb n="0303b23" ed="T"/>曇獻皇上寶鑑編復<anchor xml:id="nkr_note_orig_0303003" n="0303003"/><anchor xml:id="beg0303003" n="0303003"/>白蓮之教<anchor xml:id="end0303003"/>。於今日雖年
+<lb n="0303b24" ed="T"/>代相遠。蓋事實相符其名同芳而不萎。其功
+<lb n="0303b25" ed="T"/>並垂而不朽矣。</p>
+<lb n="0303b26" ed="T"/><p xml:id="pT47p0303b2601" rend="margin-left:2em">延祐甲寅住大仰山。大圓佛鑑禪師傳
+<lb n="0303b27" ed="T"/>法沙門希陵拜手。</p></cb:div>
+<lb n="0303b28" ed="T"/><cb:div type="xu"><p xml:id="pT47p0303b2801">夫心性役乎塵勞煩惱。而不為塵勞煩惱之
+<lb n="0303b29" ed="T"/>所<anchor xml:id="beg_1" type="cb-app"/>汩<anchor xml:id="end_1"/>汲。如蓮生淤泥。而不因淤泥染污其質
+<pb n="0303c" xml:id="T47.1973.0303c" ed="T"/>
+<lb n="0303c01" ed="T"/>故。直指之為蓮也。心性通乎三乘諸法。而
+<lb n="0303c02" ed="T"/>不為三乘諸法之所凌奪。由宗分支派而不
+<lb n="0303c03" ed="T"/>因支派忘失其本。故念佛之為宗也。心性虛
+<lb n="0303c04" ed="T"/>空含育萬有。譬海中四珠出無盡藏。故標之
+<lb n="0303c05" ed="T"/>為寶也。心性明淨照了色象。喻一鏡當臺能
+<lb n="0303c06" ed="T"/>辨妍醜。故名之為鑑也。優曇和尚。浙之丹陽
+<lb n="0303c07" ed="T"/>蔣氏。家世事佛。積善生而敏銳。弱冠則厭俗
+<lb n="0303c08" ed="T"/>緣投簪<anchor xml:id="nkr_note_orig_0303004" n="0303004"/><anchor xml:id="beg0303004" n="0303004"/><g ref="#CB05277">䉜</g><anchor xml:id="end0303004"/>髮。初參龍華寶山慧禪師。一見器
+<lb n="0303c09" ed="T"/>之。誡其歷叩諸老之門。琢磨淘汰達心淨土
+<lb n="0303c10" ed="T"/>見性彌陀。深惜祖道湮微。述集念佛警要。目
+<lb n="0303c11" ed="T"/>之曰蓮宗寶鑑。言言破惑井井有條。天童東
+<lb n="0303c12" ed="T"/>巖圓應日禪師。見而證之曰。善哉善哉。如是
+<lb n="0303c13" ed="T"/>如是。繼之京都開法於法王禪寺。道合灌頂
+<lb n="0303c14" ed="T"/>國師捧寶鑑而上奏。金輪興正宗而下頒玉
+<lb n="0303c15" ed="T"/>旨。忘軀為法異世龜鑑。開導人天續佛慧命。
+<lb n="0303c16" ed="T"/>實僧中寶正本齊末。統眾歸宗不捨悲願。融
+<lb n="0303c17" ed="T"/>真混俗示火中蓮。振復東林遠公祖師。已墜
+<lb n="0303c18" ed="T"/>之風于千古之下。所謂廬山蓮宗寶鑑者豈
+<lb n="0303c19" ed="T"/>徒言哉。宿師名德公大人跋讚品題備于卷
+<lb n="0303c20" ed="T"/>末。後之修淨業者披閱是集。洞明佛祖旨趣。
+<lb n="0303c21" ed="T"/>弘揚斯道。垂之無窮。其功詎可比量也耶。延
+<lb n="0303c22" ed="T"/>祐改元甲寅孟夏前婺之明智。崇勝禪寺比
+<lb n="0303c23" ed="T"/>丘。大中德合再拜為之敘云。</p></cb:div>
+<lb n="0303c24" ed="T"/><cb:div type="xu"><head>廬山蓮宗寶鑑敘</head>
+<lb n="0303c25" ed="T"/><p xml:id="pT47p0303c2501">夫真法界性。生佛平等而無異無同。妙覺明
+<lb n="0303c26" ed="T"/>心染淨混融而非一非二。然則塵塵淨土。他
+<lb n="0303c27" ed="T"/>方此界皆為極樂之邦。念念彌陀蠢動含靈
+<lb n="0303c28" ed="T"/>盡是法身之佛。蓋為情生智隔想變體殊心。
+<lb n="0303c29" ed="T"/>隨生住異滅之變遷。境有坑坎堆阜之高下。
+<pb n="0304a" xml:id="T47.1973.0304a" ed="T"/>
+<lb n="0304a01" ed="T"/>所以淨剎穢方苦樂有異。眾生諸佛凡聖不
+<lb n="0304a02" ed="T"/>同。是致六趣茫茫匍匐九居之內。四生浩浩
+<lb n="0304a03" ed="T"/>升沈三界之中。從迷入迷由苦入苦。動經塵
+<lb n="0304a04" ed="T"/>劫無解脫期。故我佛開方便門。教以念佛三
+<lb n="0304a05" ed="T"/>昧。指有淨土為歸向焉。所謂念佛三昧者。梵
+<lb n="0304a06" ed="T"/>語佛陀。此云覺者。自覺覺他覺行圓滿。故
+<lb n="0304a07" ed="T"/>名曰佛。如睡夢覺如蓮花開。為令有情返照
+<lb n="0304a08" ed="T"/>回光。淨念相繼久久純熟。惑盡障除一念不
+<lb n="0304a09" ed="T"/>生。前後際斷悟此覺性。內無能念之心。外無
+<lb n="0304a10" ed="T"/>所念之境。能所兩忘生佛無二。故曰念佛。梵
+<lb n="0304a11" ed="T"/>語三昧。此云正定。謂思專想寂神智明妙也。
+<lb n="0304a12" ed="T"/>經云。若念佛者。當知此人則是人中芬陀利
+<lb n="0304a13" ed="T"/>華。東晉遠公祖師。因聽彌天法師講般若經。
+<lb n="0304a14" ed="T"/>豁然大悟。入於無量甚深三昧。遊止廬山與
+<lb n="0304a15" ed="T"/>高僧朝士結緣修行。故云諸教三昧其名甚
+<lb n="0304a16" ed="T"/>眾。功高易進念佛為先。因以<anchor xml:id="nkr_note_orig_0304001" n="0304001"/><anchor xml:id="beg0304001" n="0304001"/>白蓮<anchor xml:id="end0304001"/>名其社
+<lb n="0304a17" ed="T"/>焉。師乃著念佛三昧敘。蓋發揚此理也。天台
+<lb n="0304a18" ed="T"/>智者判教。謂觀無量壽經為大乘終實之教。
+<lb n="0304a19" ed="T"/>以三觀澄心者。蓋顯念佛之旨也。法照尊者
+<lb n="0304a20" ed="T"/>禮文殊而求指蓋指此法也。省常禪師結淨
+<lb n="0304a21" ed="T"/>行緣。宰相名卿歸嚮同修者。蓋此道也。長蘆
+<lb n="0304a22" ed="T"/>賾禪師結蓮花勝會。感普賢普慧二菩薩入
+<lb n="0304a23" ed="T"/>會。蓋證明此道也。慈照宗主以本願力。示現
+<lb n="0304a24" ed="T"/>世間發廣度心。引權就實隨機化導。蓋欲令
+<lb n="0304a25" ed="T"/>利根鈍根俱悟此道也。集白蓮懺開四土圖。
+<lb n="0304a26" ed="T"/>以信行願為資糧。以戒定慧為樞要。蓋立此
+<lb n="0304a27" ed="T"/>念佛正宗也。宋高宗御書蓮社二字。蓋崇此
+<lb n="0304a28" ed="T"/>法門也。欽惟大元普天一統。諸國來朝人心
+<lb n="0304a29" ed="T"/>樂善。廬山東林禪寺東巖圓應日禪師。欽奉
+<pb n="0304b" xml:id="T47.1973.0304b" ed="T"/>
+<lb n="0304b01" ed="T"/>聖旨。住持道場修營梵宇。集諸賢傳乃追古
+<lb n="0304b02" ed="T"/>而整宗綱。架大法橋名宗遠。而開祖道一十
+<lb n="0304b03" ed="T"/>八載。提唱宗乘之外。常以念佛三昧開導人
+<lb n="0304b04" ed="T"/>天。至元壬辰秋赴慶元路育王山廣利禪寺。
+<lb n="0304b05" ed="T"/>請而遜席于開先。悅堂誾禪師相繼住持。元
+<lb n="0304b06" ed="T"/>貞元年正月述明居士燕覺道破衣和尚。欽
+<lb n="0304b07" ed="T"/>奉聖旨<anchor xml:id="nkr_note_orig_0304002" n="0304002"/><anchor xml:id="beg0304002" n="0304002"/>賜。白<anchor xml:id="end0304002"/>蓮宗善法堂護持教法。元貞二
+<lb n="0304b08" ed="T"/>年正月又欽奉聖旨。賜通慧大師<anchor xml:id="nkr_note_orig_0304003" n="0304003"/><anchor xml:id="beg0304003" n="0304003"/>白蓮宗。主<anchor xml:id="end0304003"/>
+<lb n="0304b09" ed="T"/>仍賜金襴袈裟於大德五年十月。欽奉聖朝。
+<lb n="0304b10" ed="T"/>頒降御香金旛到寺。自晉至今僅乎千載感
+<lb n="0304b11" ed="T"/>斯恩耀遐方異域。若賢若愚皆從化焉。悉以
+<lb n="0304b12" ed="T"/>齊心念佛。仰祝皇帝聖壽萬安。天下太平法
+<lb n="0304b13" ed="T"/>輪常轉。熙熙然舜日堯風。即此世界為極樂
+<lb n="0304b14" ed="T"/>世界也。普度濫叨釋裔無補教門。嘗見稱蓮
+<lb n="0304b15" ed="T"/>宗者。未諳念佛旨趣棄本逐末。著相修行淨
+<lb n="0304b16" ed="T"/>業正因。逮將沈沒皆是懷寶迷邦背真向偽。
+<lb n="0304b17" ed="T"/>從其事者紛如牛毛。具正見者尠若麟角。致
+<lb n="0304b18" ed="T"/>令上慢之徒輕忽吾佛之道。悲夫去古時遙
+<lb n="0304b19" ed="T"/>法久成弊。正道湮微邪法增熾。人多錯解蹉
+<lb n="0304b20" ed="T"/>入邪途。不思淨土一門乃出輪迴之捷徑。其
+<lb n="0304b21" ed="T"/>直如絃其朗如日。奧旨在於經懺之間。不遇
+<lb n="0304b22" ed="T"/>明師啟迪。猶若群盲摸象各說異端。從冥入
+<lb n="0304b23" ed="T"/>冥永纏邪見可痛惜哉。矧今恭遇佛心天子
+<lb n="0304b24" ed="T"/>正法治世。迺君臣慶會之時政。佛法流通之
+<lb n="0304b25" ed="T"/>際。得不以祖師念佛三昧。開示人天用作將
+<lb n="0304b26" ed="T"/>來眼目。俾同悟入佛知見哉。予乃翹心淨土。
+<lb n="0304b27" ed="T"/>探賾先宗。編集要言目曰寶鑑。照明真偽。凡
+<lb n="0304b28" ed="T"/>一十篇。其首曰念佛正因。謂入室必由戶也。
+<lb n="0304b29" ed="T"/>次曰正教。乃示念佛法門。漸偏頓圓使進修
+<pb n="0304c" xml:id="T47.1973.0304c" ed="T"/>
+<lb n="0304c01" ed="T"/>者。隨根器而歸乎至道也。又其次曰正宗。蓋
+<lb n="0304c02" ed="T"/>示念佛三昧正心之理。俾修習者明其宗而
+<lb n="0304c03" ed="T"/>達其本也。又其次曰正派。蓋明佛祖暨諸宗
+<lb n="0304c04" ed="T"/>師得道之本末。欲令後學知有其自也。又其
+<lb n="0304c05" ed="T"/>次曰正信正行正願。俾信正法修正行發正
+<lb n="0304c06" ed="T"/>誓而求生西方也。次曰往生正訣。蓋示臨終
+<lb n="0304c07" ed="T"/>生淨土之路也。次曰正報。蓋明修行所得淨
+<lb n="0304c08" ed="T"/>土依正之功德莊嚴也。次曰正論。蓋引諸佛
+<lb n="0304c09" ed="T"/>誠言。破群邪異見。欲令改不善而從善也。非
+<lb n="0304c10" ed="T"/>敢有助於宗風。為益於未聞者也。欲其枉者
+<lb n="0304c11" ed="T"/>直之。邪者正之。疑者決之。迷者悟之。盡大地
+<lb n="0304c12" ed="T"/>人於一念中。同得念佛三昧。共證菩提不亦
+<lb n="0304c13" ed="T"/>偉歟。修淨業者無悋慈悲。試一展卷見聞隨
+<lb n="0304c14" ed="T"/>喜。讚輔流通其如佛祖未出世一句子。請高
+<lb n="0304c15" ed="T"/>著眼。</p>
+<lb n="0304c16" ed="T"/><p xml:id="pT47p0304c1601">時大德九年乙巳彌陀示相日。江州廬山東
+<lb n="0304c17" ed="T"/>林禪寺。<anchor xml:id="nkr_note_orig_0304004" n="0304004"/><anchor xml:id="beg0304004" n="0304004"/>白<anchor xml:id="end0304004"/>蓮宗善法堂主。僧優曇普度齋沐
+<lb n="0304c18" ed="T"/>謹題。</p></cb:div>
+<lb n="0304c19" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">廬山蓮宗寶鑑綱目</cb:mulu><head>廬山蓮宗寶鑑綱目</head>
+<lb n="0304c20" ed="T"/><p xml:id="pT47p0304c2001" rend="margin-left:1em">念佛寶鑑敘</p>
+<lb n="0304c21" ed="T"/><p xml:id="pT47p0304c2101" rend="margin-left:1em">念佛正因卷第一</p>
+<lb n="0304c22" ed="T"/><p xml:id="pT47p0304c2201" rend="margin-left:1em">念佛正教卷第二</p>
+<lb n="0304c23" ed="T"/><p xml:id="pT47p0304c2301" rend="margin-left:1em">念佛正宗卷第三</p>
+<lb n="0304c24" ed="T"/><p xml:id="pT47p0304c2401" rend="margin-left:1em">念佛正派卷第四</p>
+<lb n="0304c25" ed="T"/><p xml:id="pT47p0304c2501" rend="margin-left:1em">念佛正信卷第五</p>
+<lb n="0304c26" ed="T"/><p xml:id="pT47p0304c2601" rend="margin-left:1em">念佛正行卷第六</p>
+<lb n="0304c27" ed="T"/><p xml:id="pT47p0304c2701" rend="margin-left:1em">念佛正願卷第七</p>
+<lb n="0304c28" ed="T"/><p xml:id="pT47p0304c2801" rend="margin-left:1em">念佛往生正訣卷第八</p>
+<lb n="0304c29" ed="T"/><p xml:id="pT47p0304c2901" rend="margin-left:1em">念佛正報卷第九</p>
+<pb n="0305a" xml:id="T47.1973.0305a" ed="T"/>
+<lb n="0305a01" ed="T"/><p xml:id="pT47p0305a0101" rend="margin-left:1em">念佛正論卷第十</p></cb:div>
+<lb n="0305a02" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">目錄</cb:mulu><head>目錄</head>
+<lb n="0305a03" ed="T"/><p xml:id="pT47p0305a0301" rend="margin-left:1em">第一卷<note place="inline">一十四章</note></p>
+<lb n="0305a04" ed="T"/><p xml:id="pT47p0305a0401" rend="margin-left:2em">念佛正因說　阿彌陀佛因地　彌陀釋
+<lb n="0305a05" ed="T"/>迦本願因地　佛為韋提希聖后說淨業
+<lb n="0305a06" ed="T"/>正因　孝養父母奉事師長　歸依三寶
+<lb n="0305a07" ed="T"/>　發菩提心　受持戒法　慈心不殺
+<lb n="0305a08" ed="T"/>修十善業　深信因果　讀誦大乘　觀
+<lb n="0305a09" ed="T"/>進行者</p>
+<lb n="0305a10" ed="T"/><p xml:id="pT47p0305a1001" rend="margin-left:1em">第二卷<note place="inline">一十九章</note></p>
+<lb n="0305a11" ed="T"/><p xml:id="pT47p0305a1101" rend="margin-left:2em">念佛正教說　佛為父王說念佛　善財
+<lb n="0305a12" ed="T"/>參見德雲比丘說念佛門　智首菩薩說
+<lb n="0305a13" ed="T"/>念佛　龍樹大士說念佛　念佛功德有
+<lb n="0305a14" ed="T"/>七種勝　修持法門　離相念佛三昧無
+<lb n="0305a15" ed="T"/>住法門　天台念佛三昧三觀法門　空
+<lb n="0305a16" ed="T"/>觀念佛三昧無念法門　日觀念佛三昧
+<lb n="0305a17" ed="T"/>專想法門　參禪念佛三昧究竟法門
+<lb n="0305a18" ed="T"/>　攝心念佛三昧調息法門　一相念佛三
+<lb n="0305a19" ed="T"/>昧專念法門　六時念佛功德迴向法門
+<lb n="0305a20" ed="T"/>　懺罪念佛功德繫念法門　晨昏念佛
+<lb n="0305a21" ed="T"/>功德信願法門　簡徑念佛功德十念法
+<lb n="0305a22" ed="T"/>門　慈照宗主圓融四土</p>
+<lb n="0305a23" ed="T"/><p xml:id="pT47p0305a2301" rend="margin-left:1em">第三卷<note place="inline">八章</note></p>
+<lb n="0305a24" ed="T"/><p xml:id="pT47p0305a2401" rend="margin-left:2em">念佛正宗說　定明宗體　念佛參禪求
+<lb n="0305a25" ed="T"/>宗旨說　淨土非鈍根權說　真歇了禪
+<lb n="0305a26" ed="T"/>師淨土宗要　寂室大師示淨土實見
+<lb n="0305a27" ed="T"/>　大智律師示念佛事理不二　文法師淨
+<lb n="0305a28" ed="T"/>行念佛宗要</p>
+<lb n="0305a29" ed="T"/><p xml:id="pT47p0305a2901" rend="margin-left:1em">第四卷<note place="inline">二十二章</note></p>
+<pb n="0305b" xml:id="T47.1973.0305b" ed="T"/>
+<lb n="0305b01" ed="T"/><p xml:id="pT47p0305b0101" rend="margin-left:2em">念佛正派說　遠祖師事實　遠祖師歷
+<lb n="0305b02" ed="T"/>朝<anchor xml:id="beg_2" type="cb-app"/>諡<anchor xml:id="end_2"/>號　明教大師題遠祖師影堂記
+<lb n="0305b03" ed="T"/>　廬山十八大賢名氏　貫休禪師題十八
+<lb n="0305b04" ed="T"/>賢影堂記　<anchor xml:id="nkr_note_orig_0305001" n="0305001"/><anchor xml:id="beg0305001" n="0305001"/>辨<anchor xml:id="end0305001"/>明遠祖師成道事　璧
+<lb n="0305b05" ed="T"/>谷曇鸞大師　天台智者大師　京師善
+<lb n="0305b06" ed="T"/>導和尚　金臺法照大師　睦州少康法
+<lb n="0305b07" ed="T"/>師　省常大師　長蘆慈覺禪師　永明
+<lb n="0305b08" ed="T"/>壽禪師　天竺慈雲懺主　文潞公傳
+<lb n="0305b09" ed="T"/>　潞府宗坦疏主　慈照宗主　無為子楊
+<lb n="0305b10" ed="T"/>提刑　龍舒居士王虛中儀真王侍郎</p>
+<lb n="0305b11" ed="T"/><p xml:id="pT47p0305b1101" rend="margin-left:1em">第五卷<note place="inline">六章</note></p>
+<lb n="0305b12" ed="T"/><p xml:id="pT47p0305b1201" rend="margin-left:2em">念佛正信說　斷疑生信　勸發信心
+<lb n="0305b13" ed="T"/>　慈雲式懺主往生正信偈　智者大師淨
+<lb n="0305b14" ed="T"/>土十疑論敘　楊提刑直指淨土決疑序</p>
+<lb n="0305b15" ed="T"/><p xml:id="pT47p0305b1501" rend="margin-left:1em">第六卷<note place="inline">一十四章</note></p>
+<lb n="0305b16" ed="T"/><p xml:id="pT47p0305b1601" rend="margin-left:2em">念佛正行說　修進工夫　資生助道
+<lb n="0305b17" ed="T"/>　作福助緣　去惡取善　拔濟幽趣　放
+<lb n="0305b18" ed="T"/>諸生命　六度萬行齊修　維摩大士示
+<lb n="0305b19" ed="T"/>淨土八法　較明修行難易　天台示淨
+<lb n="0305b20" ed="T"/>土欣厭二行門　淨業道場　自行化他
+<lb n="0305b21" ed="T"/>　以事檢心</p>
+<lb n="0305b22" ed="T"/><p xml:id="pT47p0305b2201" rend="margin-left:1em">第七卷<note place="inline">七章</note></p>
+<lb n="0305b23" ed="T"/><p xml:id="pT47p0305b2301" rend="margin-left:2em">念佛正願說　勸發大願　慈照宗主示
+<lb n="0305b24" ed="T"/>念佛人發願偈并序　求生淨土要在發
+<lb n="0305b25" ed="T"/>願　善導和尚修行發願儀　白侍郎發
+<lb n="0305b26" ed="T"/>願求生淨土文　憑濟川施經發淨土願
+<lb n="0305b27" ed="T"/>文</p>
+<lb n="0305b28" ed="T"/><p xml:id="pT47p0305b2801" rend="margin-left:1em">第八卷<note place="inline">一十二章</note></p>
+<lb n="0305b29" ed="T"/><p xml:id="pT47p0305b2901" rend="margin-left:2em">念佛往生正訣說　父母臨終往生淨土
+<pb n="0305c" xml:id="T47.1973.0305c" ed="T"/>
+<lb n="0305c01" ed="T"/>　臨終三疑　臨終四關　臨終決疑撮
+<lb n="0305c02" ed="T"/>要　僧濟臨終注想西方　善導和尚臨
+<lb n="0305c03" ed="T"/>終往生正念文　化佛來迎　賢首菩薩
+<lb n="0305c04" ed="T"/>臨終讚念佛偈　情想多少論報高下
+<lb n="0305c05" ed="T"/>　命終善惡感報優劣　臨終十事不剋念
+<lb n="0305c06" ed="T"/>佛勉勸預修</p>
+<lb n="0305c07" ed="T"/><p xml:id="pT47p0305c0701" rend="margin-left:1em">第九卷<note place="inline">五章</note></p>
+<lb n="0305c08" ed="T"/><p xml:id="pT47p0305c0801" rend="margin-left:2em">念佛正報說　功德莊嚴　淨土增修聖
+<lb n="0305c09" ed="T"/>果　淨土三十益　淨土成佛</p>
+<lb n="0305c10" ed="T"/><p xml:id="pT47p0305c1001" rend="margin-left:1em">第十卷<note place="inline">二十五章</note></p>
+<lb n="0305c11" ed="T"/><p xml:id="pT47p0305c1101" rend="margin-left:2em">念佛正論說　西方彌陀說　真如本性
+<lb n="0305c12" ed="T"/>說　辨真妄身心　辨明三寶　辨見聞
+<lb n="0305c13" ed="T"/>覺知　破妄說災福　辨明空見　辨一
+<lb n="0305c14" ed="T"/>合相　辨明雙修　辨明三車　辨明三
+<lb n="0305c15" ed="T"/>關　辨明大小二乘　辨明不生不滅
+<lb n="0305c16" ed="T"/>　辨明曹溪路　辨佛法隱藏　辨明超日
+<lb n="0305c17" ed="T"/>月光　辨明髻中珠　辨明無漏果　辨
+<lb n="0305c18" ed="T"/>明趙州茶　辨明教外別傳　辨關閉諸
+<lb n="0305c19" ed="T"/>惡趣門開示涅槃正路　辨明四生　破
+<lb n="0305c20" ed="T"/>妄立十號　誓願流通</p>
+<lb n="0305c21" ed="T"/><p xml:id="pT47p0305c2101" rend="margin-left:1em">名德題跋<note place="inline">十一章</note></p>
+<lb n="0305c22" ed="T"/><p xml:id="pT47p0305c2201" rend="margin-left:2em">明州天童長老東巖和尚跋語　廬山白
+<lb n="0305c23" ed="T"/>蓮宗主悅堂和尚跋語　西峯及菴和尚
+<lb n="0305c24" ed="T"/>信公長老跋語　大慶壽寺都總統西雲
+<lb n="0305c25" ed="T"/>和尚跋語　饒州薦福長老月礀和尚跋
+<lb n="0305c26" ed="T"/>語　姑蘇幻住禪庵中峯和尚跋語　荊
+<lb n="0305c27" ed="T"/>岑普賢接待院不會禪師跋語　天峯祐
+<lb n="0305c28" ed="T"/>禪師跋語　翰林承旨張疇齋題跋　廬
+<lb n="0305c29" ed="T"/>山無住道人竺源跋　廬山優曇普度題</p>
+<pb n="0306a" xml:id="T47.1973.0306a" ed="T"/>
+<lb n="0306a01" ed="T"/><p xml:id="pT47p0306a0101">廬山蓮宗寶鑑目錄終</p></cb:div>
+<lb n="0306a02" ed="T"/>
+<lb n="0306a03" ed="T"/><cb:div type="other">
+<lb n="0306a04" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead>廬山蓮宗寶鑑念佛正因卷第一
+<lb n="0306a05" ed="T"/><note place="inline">十四章</note></cb:jhead></cb:juan>
+<lb n="0306a06" ed="T"/>
+<lb n="0306a07" ed="T"/><cb:mulu level="1" type="其他">念佛正因說</cb:mulu><head>念佛正因說</head>
+<lb n="0306a08" ed="T"/><p xml:id="pT47p0306a0801">蓋聞。恒河沙數眾如來彌陀第一。十方微塵
+<lb n="0306a09" ed="T"/>諸佛剎極樂是歸。至理本秖唯心初門必由
+<lb n="0306a10" ed="T"/>因地。故知合抱之木發於毫芒。千里之行始
+<lb n="0306a11" ed="T"/>於初步。欲超生死以淨土為歸趣之方。將證
+<lb n="0306a12" ed="T"/>涅槃故念佛乃正心之要。深信極樂真解脫
+<lb n="0306a13" ed="T"/>之妙門。諦想彌陀實眾<anchor xml:id="nkr_note_orig_0306001" n="0306001"/><anchor xml:id="beg0306001" n="0306001"/>生<anchor xml:id="end0306001"/>慈父。先明落處
+<lb n="0306a14" ed="T"/>故望果以修因。漸履玄途是從因而至果。故
+<lb n="0306a15" ed="T"/>知集群賢而結社有其旨焉。專念佛以勸人
+<lb n="0306a16" ed="T"/>興其教也。因該果海果徹因源。形直無不影
+<lb n="0306a17" ed="T"/>端。聲和自然響順。勢至示證圓通之要。世尊
+<lb n="0306a18" ed="T"/>說修淨業之因。從聞思修登三摩地。憑信行
+<lb n="0306a19" ed="T"/>願入法界門。是以一念興而萬靈知。信心生
+<lb n="0306a20" ed="T"/>而諸佛現。纔稱寶號已投種於蓮胎。一發菩
+<lb n="0306a21" ed="T"/>提即標名於金地。有緣斯遇自悟自修。淺信
+<lb n="0306a22" ed="T"/>不持大愚大錯。故云一乘極唱終歸。獲至於
+<lb n="0306a23" ed="T"/>樂邦。萬行圓修最勝。獨稱於寶號。八十<anchor xml:id="nkr_note_orig_0306002" n="0306002"/><anchor xml:id="beg0306002" n="0306002"/>億<anchor xml:id="end0306002"/>
+<lb n="0306a24" ed="T"/>劫之重罪廓爾煙消。十萬億剎之遐方倏如
+<lb n="0306a25" ed="T"/>羽化。想念專注即觀心而見佛身。心境交參
+<lb n="0306a26" ed="T"/>即因門而成勝果。十方淨穢卷舒同在於毫
+<lb n="0306a27" ed="T"/>端。一性包融浩博該羅於法界。是則諸佛與
+<lb n="0306a28" ed="T"/>眾生交徹。淨土與穢土冥通。彼此互修事理
+<lb n="0306a29" ed="T"/>無礙。若神珠之頓含眾寶。猶帝網之交映千
+<pb n="0306b" xml:id="T47.1973.0306b" ed="T"/>
+<lb n="0306b01" ed="T"/>光。我心既然生佛同爾。是知遊神億剎實生
+<lb n="0306b02" ed="T"/>乎自己心中。孕質九蓮豈逃於剎那際內。二
+<lb n="0306b03" ed="T"/>乘賢輩回心即達於金池。五逆凡夫十念便
+<lb n="0306b04" ed="T"/>登於寶界。嗟乎識昏障重信寡疑多。貶淨業
+<lb n="0306b05" ed="T"/>為權乘。嗤誦持為麁行。豈非耽溺火宅自甘
+<lb n="0306b06" ed="T"/>永劫之沈迷。悖悷慈親深痛一生之虛喪。須
+<lb n="0306b07" ed="T"/>信非憑他力截業惑以無由。不遇<anchor xml:id="nkr_note_orig_0306003" n="0306003"/><anchor xml:id="beg0306003" n="0306003"/>此門脫<anchor xml:id="end0306003"/>生
+<lb n="0306b08" ed="T"/>死而無路。誓同諸佛敢傚前修勸勉。後賢深
+<lb n="0306b09" ed="T"/>崇此道。已發願今發願當發願。事事而回向
+<lb n="0306b10" ed="T"/>彌陀。若已生若今生若當生。念念而皆歸淨
+<lb n="0306b11" ed="T"/>土。欲取一生事辦便於這裏留心。一切時中
+<lb n="0306b12" ed="T"/>千車合轍。四威儀內萬善同歸。齊登極樂妙
+<lb n="0306b13" ed="T"/>門。速成念佛三昧。最初一步要分明。直至西
+<lb n="0306b14" ed="T"/>方無異路。</p></cb:div>
+<lb n="0306b15" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">阿彌陀佛因地</cb:mulu><head>阿彌陀佛因地</head>
+<lb n="0306b16" ed="T"/><p xml:id="pT47p0306b1601">鼓音王經云。過去劫中有國名妙喜。王名憍
+<lb n="0306b17" ed="T"/>尸迦。祖父清泰國王。父月上轉輪王。母殊勝
+<lb n="0306b18" ed="T"/>妙顏。生三子長曰月明。次曰憍尸迦。三曰帝
+<lb n="0306b19" ed="T"/>眾。時有一佛出世。名曰世自在王。憍尸迦心
+<lb n="0306b20" ed="T"/>發道意。棄捨國位投佛出家。號曰法藏比丘。
+<lb n="0306b21" ed="T"/>又大彌陀經云。法藏比丘於世自在王佛所。
+<lb n="0306b22" ed="T"/>發無上意。一切世間無能及者。時佛說二百
+<lb n="0306b23" ed="T"/>一十億諸佛剎土應其心願。法藏稽首禮佛。
+<lb n="0306b24" ed="T"/>廣說四十八願云<note place="inline">本經具載</note>若不爾者誓不成佛。
+<lb n="0306b25" ed="T"/>是時大地震動。天雨妙華空中。同聲讚言決
+<lb n="0306b26" ed="T"/>定成佛。</p></cb:div>
+<lb n="0306b27" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">彌陀釋迦本願因地</cb:mulu><head>彌陀釋迦本願因地</head>
+<lb n="0306b28" ed="T"/><p xml:id="pT47p0306b2801">悲華經云。往昔劫中有轉輪王。名無諍念。大
+<lb n="0306b29" ed="T"/>臣寶海為善知識。同於寶藏佛所發菩提心。
+<pb n="0306c" xml:id="T47.1973.0306c" ed="T"/>
+<lb n="0306c01" ed="T"/>無諍念發願云。我修大乘取於淨土。終不願
+<lb n="0306c02" ed="T"/>於穢土成阿耨多羅三藐三菩提。世界眾生
+<lb n="0306c03" ed="T"/>無諸苦惱。我不得如是佛剎。爾乃不成正覺。
+<lb n="0306c04" ed="T"/>今既果滿號阿彌陀故現淨土。寶海大臣願
+<lb n="0306c05" ed="T"/>於穢土成熟有情。今已果滿號釋迦牟尼。於
+<lb n="0306c06" ed="T"/>此濁惡世中成佛菩提。</p></cb:div>
+<lb n="0306c07" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">佛為韋提希聖后說淨業正因</cb:mulu><head>佛為韋提希聖后說淨業正因</head>
+<lb n="0306c08" ed="T"/><p xml:id="pT47p0306c0801">觀無量壽佛經云。爾時韋提希號泣向佛白
+<lb n="0306c09" ed="T"/>言。世尊。惟願為我廣說無憂惱處。我當往生。
+<lb n="0306c10" ed="T"/>不樂閻浮濁惡世也。爾時世尊。放眉間光。遍
+<lb n="0306c11" ed="T"/>照十方無量世界。諸佛國土皆於中現。時韋
+<lb n="0306c12" ed="T"/>提希見已。白佛言。是諸佛土雖復清淨皆有
+<lb n="0306c13" ed="T"/>光明。我今樂生極樂世界阿彌陀佛所。惟願
+<lb n="0306c14" ed="T"/>世尊。教我思惟教我正受。佛告韋提希。阿彌
+<lb n="0306c15" ed="T"/>陀佛去此不遠。汝當繫念諦觀彼國。我今廣
+<lb n="0306c16" ed="T"/>為汝說。亦令未來凡夫修淨業者得生西方
+<lb n="0306c17" ed="T"/>極樂國土。欲生彼國者。當修三福。一者孝養
+<lb n="0306c18" ed="T"/>父母奉事師長。慈心不殺修十善業。二者受
+<lb n="0306c19" ed="T"/>持三歸具足眾戒不犯威儀。三者發菩提心
+<lb n="0306c20" ed="T"/>深信因果。讀誦大乘勸進行者。如此三事名
+<lb n="0306c21" ed="T"/>為淨業正因。佛告阿難及韋提希。諦聽諦聽
+<lb n="0306c22" ed="T"/>善思念之。</p></cb:div>
+<lb n="0306c23" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">孝養父母</cb:mulu><head>孝養父母</head>
+<lb n="0306c24" ed="T"/><p xml:id="pT47p0306c2401">念佛乃諸法之要。孝養為百行之先。孝心即
+<lb n="0306c25" ed="T"/>是佛心。孝行無非佛行。欲得道同諸佛。先須
+<lb n="0306c26" ed="T"/>孝養二親。故<g ref="#CB00808">𦣱</g>禪師云。孝之一字眾妙之門。
+<lb n="0306c27" ed="T"/>佛語以孝為宗。佛經以孝為戒。言中不昧口
+<lb n="0306c28" ed="T"/>出戒光。直下分明頓開心地。夫孝者有在家
+<lb n="0306c29" ed="T"/>之孝。有出家之孝。在家孝者。父母愛之喜
+<pb n="0307a" xml:id="T47.1973.0307a" ed="T"/>
+<lb n="0307a01" ed="T"/>而不忘。父母惡之勞而不怨。承順顏色以盡
+<lb n="0307a02" ed="T"/>養生。出家孝者。割愛辭親飡微契本。深入無
+<lb n="0307a03" ed="T"/>為之理上酬罔極之恩。趣解脫之要途。報慈
+<lb n="0307a04" ed="T"/>親之捷徑。非但未來獲益。亦於現世成功。所
+<lb n="0307a05" ed="T"/>以如來子夜踰城道圓雪嶺。盧能白金遺母。
+<lb n="0307a06" ed="T"/>法繼黃梅。然而以法斷恩應思報德。是以迦
+<lb n="0307a07" ed="T"/>維省父忉利。寧親至於貧乏無依理合躬親
+<lb n="0307a08" ed="T"/>給侍。是故畢陵迦起盡心之戒。忍大師有養
+<lb n="0307a09" ed="T"/>母之堂。陳睦州織屨供親。朗法師荷<anchor xml:id="nkr_note_orig_0307001" n="0307001"/><anchor xml:id="nkr_note_mod_0307001" n="0307001"/><anchor xml:id="beg0307001" n="0307001"/><g ref="#CB05335">󱓗</g><anchor xml:id="end0307001"/>遊
+<lb n="0307a10" ed="T"/>學。然則出家者以法味為甘旨。不忘返哺之
+<lb n="0307a11" ed="T"/>心。以佛事為勤勞。未遺世諦之禮。非但一世
+<lb n="0307a12" ed="T"/>父母。而多生父母皆報。不惟一身父母。而法
+<lb n="0307a13" ed="T"/>界父母皆度。同登覺岸。豈止周公之配天。普
+<lb n="0307a14" ed="T"/>示迷津。故逾考叔之純孝。出家之孝其利<anchor xml:id="nkr_note_orig_0307002" n="0307002"/><anchor xml:id="beg0307002" n="0307002"/>博<anchor xml:id="end0307002"/>
+<lb n="0307a15" ed="T"/>哉。如或因緣未和。父母不聽宜盡在家之孝。
+<lb n="0307a16" ed="T"/>勸修出世之因。若能即俗而真。亦有成佛之
+<lb n="0307a17" ed="T"/>路。覬反嬰兒之行無虧膝下之嚴。報雙親顧
+<lb n="0307a18" ed="T"/>復之勞。致一乘圓滿之地。遂使在家菩薩行
+<lb n="0307a19" ed="T"/>解無疑。出俗高人因斯可鑑其有局。於事佛
+<lb n="0307a20" ed="T"/>不能盡。於事親覩茲有感。于中可以克全其
+<lb n="0307a21" ed="T"/>孝。嗚呼光陰易往父母難忘。有親在堂如佛
+<lb n="0307a22" ed="T"/>在世。以此報親之德。圓成念佛之功。是知父
+<lb n="0307a23" ed="T"/>母喜歡則諸佛喜歡。此心清淨則佛土清淨。
+<lb n="0307a24" ed="T"/>可謂野色更無山隔斷。月光直與水相通。</p></cb:div>
+<lb n="0307a25" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">奉事師長</cb:mulu><head>奉事師長</head>
+<lb n="0307a26" ed="T"/><p xml:id="pT47p0307a2601">古德云。生我者父母。成我者師。<anchor xml:id="nkr_note_orig_0307003" n="0307003"/><anchor xml:id="beg0307003" n="0307003"/>友<anchor xml:id="end0307003"/>是知師
+<lb n="0307a27" ed="T"/>者迷途之明導。暗室之慧燈。苦海之舟航。人
+<lb n="0307a28" ed="T"/>天之眼目。恩逾父母德重乾坤。弟子所以事
+<lb n="0307a29" ed="T"/>師不敢慢易也。豈不見捨全身而求半偈。斷
+<pb n="0307b" xml:id="T47.1973.0307b" ed="T"/>
+<lb n="0307b01" ed="T"/>一臂而扣真乘。以身為座而奉師。腰石負舂
+<lb n="0307b02" ed="T"/>而續祖。賣心肝而學般若。投火聚以證菩提。
+<lb n="0307b03" ed="T"/>方之古人深為慶幸。奉師學道可不勉哉。應
+<lb n="0307b04" ed="T"/>知出世投師須求正見。參方請益莫附邪宗。
+<lb n="0307b05" ed="T"/>要明罪福之因。由審辨正邪之利害。正則成
+<lb n="0307b06" ed="T"/>佛。邪則成魔。打頭不遇作家到老翻成骨董。
+<lb n="0307b07" ed="T"/>是以如來知師非而捨去。夫子擇善者而從
+<lb n="0307b08" ed="T"/>之。觀古聖之如斯。何今人而不爾。況當末運
+<lb n="0307b09" ed="T"/>多有邪師。凡欲修行切莫親近。但存正念終
+<lb n="0307b10" ed="T"/>值明師。要了大緣慎勿容易。是故弟子事師。
+<lb n="0307b11" ed="T"/>即同事佛也。可謂四事供養。敢辭勞萬兩黃
+<lb n="0307b12" ed="T"/>金亦消得。</p></cb:div>
+<lb n="0307b13" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">歸依三寶</cb:mulu><head>歸依三寶</head>
+<lb n="0307b14" ed="T"/><p xml:id="pT47p0307b1401">佛為三界大師。法是群生眼目。僧乃六和上
+<lb n="0307b15" ed="T"/>士。並為真淨福田。背之則邪。順之則正。神功
+<lb n="0307b16" ed="T"/>莫並。聖力難思。除苦如藥鼓落鏃脫難。若
+<lb n="0307b17" ed="T"/><anchor xml:id="nkr_note_orig_0307004" n="0307004"/><anchor xml:id="beg0307004" n="0307004"/>霜<anchor xml:id="end0307004"/>劍突圍。變苦為樂而剎那。革凡成聖而頃
+<lb n="0307b18" ed="T"/>刻。是以火車相現歸依而便獲清涼。地獲將
+<lb n="0307b19" ed="T"/>臨稱念而悉皆離苦。普明與諸王免難空定
+<lb n="0307b20" ed="T"/>功焉。帝釋却頂生之威般若力也。所以信心
+<lb n="0307b21" ed="T"/>佛子歸依三寶。真慈香花供養於佛僧。讀誦
+<lb n="0307b22" ed="T"/>流通於法寶。集茲善利迴向菩提。普暨眾生
+<lb n="0307b23" ed="T"/>同生淨土。不見道頻伽鸚鵡稱念而得生西
+<lb n="0307b24" ed="T"/>方。諸天帝王欽敬而誓求聖道。皆能上成佛
+<lb n="0307b25" ed="T"/>果。下脫苦輪。可謂禪是大溈詩是朴。大唐天
+<lb n="0307b26" ed="T"/>子只三人。</p></cb:div>
+<lb n="0307b27" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">發菩提心</cb:mulu><head>發菩提心</head>
+<lb n="0307b28" ed="T"/><p xml:id="pT47p0307b2801">無上佛果名曰菩提。若發此心決定成佛。淨
+<lb n="0307b29" ed="T"/>行法門曰。凡修淨土須善發心。若為自己厭
+<pb n="0307c" xml:id="T47.1973.0307c" ed="T"/>
+<lb n="0307c01" ed="T"/>五濁忻九品則違菩提心。是聲聞行不應發
+<lb n="0307c02" ed="T"/>也。若為眾生起大悲心。求往彼國希速成就。
+<lb n="0307c03" ed="T"/>道力神通遍歷十方。救度一切令共成佛。則
+<lb n="0307c04" ed="T"/>順菩提心是菩薩行應當發也。今勸淨業高
+<lb n="0307c05" ed="T"/>流凡欲利己利他。須是發心立志應於三寶
+<lb n="0307c06" ed="T"/>前。虔奉香花。志心發願云。南無佛南無法南
+<lb n="0307c07" ed="T"/>無僧。弟子<note place="inline">某</note>從於今日。發此大心不為自求
+<lb n="0307c08" ed="T"/>人天福報。緣覺聲聞乃至權乘諸位菩薩。唯
+<lb n="0307c09" ed="T"/>依最上乘法發菩提心。願與現生父母及多
+<lb n="0307c10" ed="T"/>生父母。法界眾生一切怨親。同生淨土皆得
+<lb n="0307c11" ed="T"/>不退轉於阿耨多羅三藐三菩提。如是三說
+<lb n="0307c12" ed="T"/>此心時時要發日日常然。所以善財一生證
+<lb n="0307c13" ed="T"/>果。龍女八歲成佛。地獄發心頓超十地。沙
+<lb n="0307c14" ed="T"/>彌發意已越二乘。可謂一氣回元運恩沾萬
+<lb n="0307c15" ed="T"/>物深。</p></cb:div>
+<lb n="0307c16" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">受持戒法</cb:mulu><head>受持戒法</head>
+<lb n="0307c17" ed="T"/><p xml:id="pT47p0307c1701">既發菩提心應修菩薩行。初受三歸。次持五
+<lb n="0307c18" ed="T"/>戒。漸修十種善法圓滿三聚律儀。根熟則<anchor xml:id="nkr_note_orig_0307005" n="0307005"/><anchor xml:id="beg0307005" n="0307005"/>全<anchor xml:id="end0307005"/>
+<lb n="0307c19" ed="T"/>持根生則分受。年有三善。月有六齋。如或五
+<lb n="0307c20" ed="T"/>戒難行且除酒肉二味。十重易犯且持不殺
+<lb n="0307c21" ed="T"/>一門。輕塵積嶽墜露添流。一適下崖終歸大
+<lb n="0307c22" ed="T"/>海。故涅槃經云。佛在世日以佛為師。佛滅
+<lb n="0307c23" ed="T"/>度後以戒為師。梵網經云。戒如明日月亦如
+<lb n="0307c24" ed="T"/>瓔珞珠。微塵菩薩眾由是成正覺。所以龍無
+<lb n="0307c25" ed="T"/>犯殺之心。狼有持齋之意。比丘苦節至於繫
+<lb n="0307c26" ed="T"/>草。護鵝居士病緣終不飲酒食肉。是知諸善
+<lb n="0307c27" ed="T"/>之本五戒為先。王者履之以治國。君子奉之
+<lb n="0307c28" ed="T"/>以立身。不可造次而離。不可須臾而廢。佛稱
+<lb n="0307c29" ed="T"/>五德。儒謂五常。在天為五星在地為五嶽。在
+<pb n="0308a" xml:id="T47.1973.0308a" ed="T"/>
+<lb n="0308a01" ed="T"/>人為五藏。在處為五方。廣而言之無所不統。
+<lb n="0308a02" ed="T"/>仰觀俯察莫能加焉。故法苑珠林云。世俗所
+<lb n="0308a03" ed="T"/>尚仁義禮智信也。貪識所資殺盜淫妄酒也。
+<lb n="0308a04" ed="T"/>道俗雖乖漸教通也。正法內訓必始<anchor xml:id="nkr_note_orig_0308001" n="0308001"/><anchor xml:id="beg0308001" n="0308001"/>于<anchor xml:id="end0308001"/>因。此
+<lb n="0308a05" ed="T"/>則在乎實法。指事直言不假飾辭。託名現意
+<lb n="0308a06" ed="T"/>如斯。而修因不期果而果證。從茲而入道不
+<lb n="0308a07" ed="T"/><anchor xml:id="beg_3" type="cb-app"/>羨<anchor xml:id="end_3"/>樂而樂彰。今見持戒不殺不求仁而仁著。
+<lb n="0308a08" ed="T"/>守戒不盜不忻義而義敷。不婬者不祈禮而
+<lb n="0308a09" ed="T"/>禮立。不妄者不慕信而信揚。不飲者不行智
+<lb n="0308a10" ed="T"/>而智明。非但律己防非亦以助國揚化。欲修
+<lb n="0308a11" ed="T"/>成於淨行須嚴護於戒根。可謂萬善和融同
+<lb n="0308a12" ed="T"/>佛<anchor xml:id="nkr_note_orig_0308002" n="0308002"/><anchor xml:id="beg0308002" n="0308002"/>土<anchor xml:id="end0308002"/>。熙熙長樂太平時。</p></cb:div>
+<lb n="0308a13" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">慈心不殺</cb:mulu><head>慈心不殺</head>
+<lb n="0308a14" ed="T"/><p xml:id="pT47p0308a1401">卵胎濕化飛走蟲魚。皆未來諸佛之流。或過
+<lb n="0308a15" ed="T"/>去多生父母。至於顒顒怖死汲汲<anchor xml:id="nkr_note_orig_0308003" n="0308003"/><anchor xml:id="beg0308003" n="0308003"/>貧<anchor xml:id="end0308003"/>生。避苦
+<lb n="0308a16" ed="T"/>而樂其身此情一等。求安而養其命斯理萬
+<lb n="0308a17" ed="T"/>均。何乃聲哀哀而牽上。刀砧眼盻盻而驅就
+<lb n="0308a18" ed="T"/>死地。或張羅亘野布網連山。火逐嶺以高低。
+<lb n="0308a19" ed="T"/>煙隨處而疎密。疾電之鷹爭舉追風之馬競
+<lb n="0308a20" ed="T"/>前。猿覩箭以魂飛。雁看弓而膽落。解頭陷
+<lb n="0308a21" ed="T"/>腦之酸難抵。洞胸徹骨之痛奚禁。況斯等共
+<lb n="0308a22" ed="T"/>稟五行。俱含四象同沾佛性共有神明。何乃
+<lb n="0308a23" ed="T"/>陳此肉山樹茲炮烙。充其口腹美彼心肝。殊
+<lb n="0308a24" ed="T"/>不知斷其命者。是出佛身之血。食其肉者寧
+<lb n="0308a25" ed="T"/>非父母之身。造殺害之深尤斷慈悲之種性。
+<lb n="0308a26" ed="T"/>生前福壽暗裏消磨。死後沈淪刀山劍樹。還
+<lb n="0308a27" ed="T"/>作雞猪魚兔。次第填償至於宰割烹炮因果
+<lb n="0308a28" ed="T"/>相似。諦觀食肉可謂寒心。縱售易於屠門亦
+<lb n="0308a29" ed="T"/>難逃於重罪。菩薩寧當破骨終不食噉眾生。
+<pb n="0308b" xml:id="T47.1973.0308b" ed="T"/>
+<lb n="0308b01" ed="T"/>是以白兔焚身而仙人不顧也。草尚不拔肉
+<lb n="0308b02" ed="T"/>豈容。甞<anchor xml:id="nkr_note_orig_0308004" n="0308004"/><anchor xml:id="beg0308004" n="0308004"/>還<anchor xml:id="end0308004"/>彼庖厨有聞聲不忍之訓養。他
+<lb n="0308b03" ed="T"/>出賣同口殺心食之尤大聖垂慈。所以制戒
+<lb n="0308b04" ed="T"/>永斷殺生其德大也。修淨土人故<anchor xml:id="nkr_note_orig_0308005" n="0308005"/><anchor xml:id="beg0308005" n="0308005"/>堂<anchor xml:id="end0308005"/>持守。可
+<lb n="0308b05" ed="T"/>謂不貪香餌味。始是碧潭龍。</p></cb:div>
+<lb n="0308b06" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">修十善業</cb:mulu><head>修十善業</head>
+<lb n="0308b07" ed="T"/><p xml:id="pT47p0308b0701">夫大乘玄要。元不離於一心。淨業正因必先
+<lb n="0308b08" ed="T"/>修於十善。斷身口七重之罪。七行斯成。滅意
+<lb n="0308b09" ed="T"/>識三毒之根。三學自備。彌陀經內求淨土者
+<lb n="0308b10" ed="T"/>之所當修。華嚴經中離垢地者乃能親證。人
+<lb n="0308b11" ed="T"/>天至於有頂以十善為受生之緣。聲聞以至
+<lb n="0308b12" ed="T"/>佛乘由十善為入道之本。弗遵佛制墮三塗
+<lb n="0308b13" ed="T"/>之要門。縱得人身獲二種之惡報。不修乃十
+<lb n="0308b14" ed="T"/>不善道。奉持為十戒法門實乃淨土鎡基。普
+<lb n="0308b15" ed="T"/>勸常修此行。是菩薩之法苑。宜令安住其中
+<lb n="0308b16" ed="T"/>可以至無畏大城。可以登不退轉地。功德詎
+<lb n="0308b17" ed="T"/>可思量。佛子所以當學。</p></cb:div>
+<lb n="0308b18" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">深信因果</cb:mulu><head>深信因果</head>
+<lb n="0308b19" ed="T"/><p xml:id="pT47p0308b1901">擬步玄途洗心大道。深信世間因果。究明出
+<lb n="0308b20" ed="T"/>世根源。將窮其源必<anchor xml:id="nkr_note_orig_0308006" n="0308006"/><anchor xml:id="beg0308006" n="0308006"/>存<anchor xml:id="end0308006"/>其要。要而在用者其
+<lb n="0308b21" ed="T"/>於心法乎。心也者彌綸於萬行會通於群數。
+<lb n="0308b22" ed="T"/>蓋以心無常法乘善惡而迭用以罪福為影響
+<lb n="0308b23" ed="T"/>故因果不相違。是知涉境而動謂之因。動而
+<lb n="0308b24" ed="T"/>生識謂之緣。緣起則有業相。隨有業則果報
+<lb n="0308b25" ed="T"/>定矣。是以善行惡行世間之因也。三界六道
+<lb n="0308b26" ed="T"/>九有四生世間之果也。念佛法門出世間之
+<lb n="0308b27" ed="T"/>因也。九品化生淨土成佛。出世間之果也。於
+<lb n="0308b28" ed="T"/>上因果心中明了故。不樂著世間之法。於出
+<lb n="0308b29" ed="T"/>世間法心行不違。念念不忘於淨土。心心不
+<pb n="0308c" xml:id="T47.1973.0308c" ed="T"/>
+<lb n="0308c01" ed="T"/>離於彌陀。何以知其然。如今是因。臨終是果。
+<lb n="0308c02" ed="T"/>應知因實果則不虛。夫善惡二輪。苦樂二報。
+<lb n="0308c03" ed="T"/>皆三業所造。四緣所生。六因所成。五果所攝。
+<lb n="0308c04" ed="T"/>若一念心瞋恚邪婬即地獄業。慳貪不實即
+<lb n="0308c05" ed="T"/>餓鬼業。愚癡闇蔽即畜生業。我慢貢高即修
+<lb n="0308c06" ed="T"/>羅業。堅持五戒即人業。精修十善即天業。證
+<lb n="0308c07" ed="T"/>悟人空即聲聞業。知緣性離即緣覺業。六度
+<lb n="0308c08" ed="T"/>齊修即菩薩業。真慈平等即佛業。若心淨則
+<lb n="0308c09" ed="T"/>香臺寶樹淨剎化生。心垢則丘陵坑坎穢土
+<lb n="0308c10" ed="T"/>受形皆是等倫之果。能感增上之緣。是以離
+<lb n="0308c11" ed="T"/>自心源更無別體。維摩經云。欲得淨土。但淨
+<lb n="0308c12" ed="T"/>其心。故知一切歸心萬法由我。欲成淨果。但
+<lb n="0308c13" ed="T"/>行淨因。又當知闡提邪見定應墮千劫泥犁。
+<lb n="0308c14" ed="T"/>誹謗撥無即此是邪魔眷屬觀報應之。若是
+<lb n="0308c15" ed="T"/>如影如形信因果之歷然可驚可懼。所謂苦
+<lb n="0308c16" ed="T"/>瓠連根苦。甜瓜徹蒂甜。</p></cb:div>
+<lb n="0308c17" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">讀誦大乘</cb:mulu><head>讀誦大乘</head>
+<lb n="0308c18" ed="T"/><p xml:id="pT47p0308c1801">既慕西方當求了義。暗中有寶無燈照終不
+<lb n="0308c19" ed="T"/>自知。古鏡埋塵不揩磨豈能光顯。調和三業
+<lb n="0308c20" ed="T"/>體究一心恭奉真文。研味聖意深入法源之
+<lb n="0308c21" ed="T"/>底。洞探諸佛之機理路豁通心花發現不見
+<lb n="0308c22" ed="T"/>道。倚松之葛上聳千尋。附托勝因方能廣益。
+<lb n="0308c23" ed="T"/>譬夫桂生高嶺<anchor xml:id="nkr_note_orig_0308007" n="0308007"/><anchor xml:id="beg0308007" n="0308007"/>零<anchor xml:id="end0308007"/>露方得泫其華。蓮出綠波
+<lb n="0308c24" ed="T"/>飛塵不能污其葉。雖蓮性自潔而桂質本貞
+<lb n="0308c25" ed="T"/>良由所附者。高則微物不能累。所憑者淨濁
+<lb n="0308c26" ed="T"/>類不能沾。夫以卉木無知尚猶資善而成至
+<lb n="0308c27" ed="T"/>善。人倫有識得不因心而證佛心。豈不聞智
+<lb n="0308c28" ed="T"/>者誦法華見靈山之未散。圭峯讀圓覺。忽心
+<lb n="0308c29" ed="T"/>地以開通達本情。忘普庵契華嚴之旨應無
+<pb n="0309a" xml:id="T47.1973.0309a" ed="T"/>
+<lb n="0309a01" ed="T"/>所住。六祖悟般若之宗。觀先德而可遵。豈今
+<lb n="0309a02" ed="T"/>人而不學。可謂渡河須用筏。到岸不須船。</p></cb:div>
+<lb n="0309a03" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">勸進行者</cb:mulu><head>勸進行者</head>
+<lb n="0309a04" ed="T"/><p xml:id="pT47p0309a0401">夫學佛初門大悲是菩薩正轍。利他要行勸
+<lb n="0309a05" ed="T"/>進乃淨業勝<anchor xml:id="nkr_note_orig_0309001" n="0309001"/><anchor xml:id="beg0309001" n="0309001"/>曰<anchor xml:id="end0309001"/>。晉社群賢願祈生於安養。十
+<lb n="0309a06" ed="T"/>方海眾忻出離於娑婆。痛嗟生死之難逃。堪
+<lb n="0309a07" ed="T"/>嘆無常之期速。可不景行前哲導彼後昆哉。
+<lb n="0309a08" ed="T"/>勸一人二人以至多人。是佛門之法施。念一
+<lb n="0309a09" ed="T"/>佛二佛以至萬佛。趣樂土之玄猷。日課千聲
+<lb n="0309a10" ed="T"/>佛名。積月至年則有三十六萬聲佛。積而不
+<lb n="0309a11" ed="T"/>迨亦幾於佛地乎。日行小善一事積月至年
+<lb n="0309a12" ed="T"/>則有三百六十善事。積而不迨亦幾於君子
+<lb n="0309a13" ed="T"/>乎。為愚為小人而不通懺悔。同禽獸者良由
+<lb n="0309a14" ed="T"/>不學。亦無勸進之人也。經言若人以四天下
+<lb n="0309a15" ed="T"/>七寶供養佛。及菩薩緣覺聲聞得福甚多。不
+<lb n="0309a16" ed="T"/>如勸人念佛一聲其福勝彼。此世尊之勸進
+<lb n="0309a17" ed="T"/>也。語云己欲立而立人。己欲達而達人。此仲
+<lb n="0309a18" ed="T"/>尼之勸進也。勉爾同盟熏<anchor xml:id="nkr_note_orig_0309002" n="0309002"/><anchor xml:id="beg0309002" n="0309002"/>陶<anchor xml:id="end0309002"/>淨行。或正月
+<lb n="0309a19" ed="T"/>五月九月為一集。或半年一年三年為一期。
+<lb n="0309a20" ed="T"/>深植善根普皆迴向。常為道侶更互相資。一
+<lb n="0309a21" ed="T"/>人退惰則協力提携一人。捨凡則遞相照顧。
+<lb n="0309a22" ed="T"/>雖不能弘教利物。亦可以溫故知新。豈不見
+<lb n="0309a23" ed="T"/>施人一錢人稱受惠。益人一語彼豈無知。財
+<lb n="0309a24" ed="T"/>施則濟一世之貧。食施則濟一日之命。法施
+<lb n="0309a25" ed="T"/>則令人出世。其功德詎可比倫。財施如燈止
+<lb n="0309a26" ed="T"/>明一室。法施如日遍照大千。悋法而不勸修
+<lb n="0309a27" ed="T"/>累劫沈於黑獄。推己而行化導現生則是阿
+<lb n="0309a28" ed="T"/>彌。敢冀運慈遞相勸發。以斯悲願結此淨緣。
+<lb n="0309a29" ed="T"/>拔滯溺之沈流。出輪迴之捷徑。齊登樂土圖
+<pb n="0309b" xml:id="T47.1973.0309b" ed="T"/>
+<lb n="0309b01" ed="T"/>報佛恩。可謂未度者令度矣。</p>
+<lb n="0309b02" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>廬山蓮宗寶鑑念佛正因卷第一<anchor xml:id="nkr_note_orig_0309003" n="0309003"/><anchor xml:id="beg0309003" n="0309003"/><note place="inline">終</note><anchor xml:id="end0309003"/></cb:jhead></cb:juan></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0303002" to="#end0303002"><lem wit="#wit1">光</lem><rdg resp="#resp1" wit="#wit2">增</rdg></app>
+<app from="#beg0303003" to="#end0303003"><lem wit="#wit1">白蓮之教</lem><rdg resp="#resp1" wit="#wit2">蓮宗之旨</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>汩</corr><sic>汨</sic></choice>
+<app from="#beg0303004" to="#end0303004"><lem wit="#wit1"><g ref="#CB05277">䉜</g></lem><rdg resp="#resp1" wit="#wit2">薙</rdg></app>
+<app from="#beg0304001" to="#end0304001"><lem wit="#wit1">白蓮</lem><rdg resp="#resp1" wit="#wit2">蓮宗</rdg></app>
+<app from="#beg0304002" to="#end0304002"><lem wit="#wit1">賜。白</lem><rdg resp="#resp1" wit="#wit2">勅明</rdg></app>
+<app from="#beg0304003" to="#end0304003"><lem wit="#wit1">白蓮宗。主</lem><rdg resp="#resp1" wit="#wit2">蓮社正宗</rdg></app>
+<app from="#beg0304004" to="#end0304004"><lem wit="#wit1">白</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>諡</corr><sic>謚</sic></choice>
+<app from="#beg0305001" to="#end0305001"><lem wit="#wit1">辨</lem><rdg resp="#resp1" wit="#wit2">辯</rdg></app>
+<app from="#beg0306001" to="#end0306001"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit2">生之</rdg></app>
+<app from="#beg0306002" to="#end0306002"><lem wit="#wit1">億</lem><rdg resp="#resp1" wit="#wit2">一</rdg></app>
+<app from="#beg0306003" to="#end0306003"><lem wit="#wit1">此門脫</lem><rdg resp="#resp1" wit="#wit2">此宗出</rdg></app>
+<app from="#beg0307001" to="#end0307001"><lem wit="#wit1"><g ref="#CB05335">󱓗</g></lem><rdg resp="#resp1" wit="#wit2">擔</rdg></app>
+<app from="#beg0307002" to="#end0307002"><lem wit="#wit1">博</lem><rdg resp="#resp1" wit="#wit2">溥</rdg></app>
+<app from="#beg0307003" to="#end0307003"><lem wit="#wit1">友</lem><rdg resp="#resp1" wit="#wit2">方</rdg></app>
+<app from="#beg0307004" to="#end0307004"><lem wit="#wit1">霜</lem><rdg resp="#resp1" wit="#wit2">雙</rdg></app>
+<app from="#beg0307005" to="#end0307005"><lem wit="#wit1">全</lem><rdg resp="#resp1" wit="#wit2">今</rdg></app>
+<app from="#beg0308001" to="#end0308001"><lem wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit2">於</rdg></app>
+<choice cb:from="#beg_3" cb:to="#end_3"><corr>羨</corr><sic>羡</sic></choice>
+<app from="#beg0308002" to="#end0308002"><lem wit="#wit1">土</lem><rdg resp="#resp1" wit="#wit2">士</rdg></app>
+<app from="#beg0308003" to="#end0308003"><lem wit="#wit1">貧</lem><rdg resp="#resp1" wit="#wit2">貪</rdg></app>
+<app from="#beg0308004" to="#end0308004"><lem wit="#wit1">還</lem><rdg resp="#resp1" wit="#wit2">遠</rdg></app>
+<app from="#beg0308005" to="#end0308005"><lem wit="#wit1">堂</lem><rdg resp="#resp1" wit="#wit2">當</rdg></app>
+<app from="#beg0308006" to="#end0308006"><lem wit="#wit1">存</lem><rdg resp="#resp1" wit="#wit2">在</rdg></app>
+<app from="#beg0308007" to="#end0308007"><lem wit="#wit1">零</lem><rdg resp="#resp1" wit="#wit2">雲</rdg></app>
+<app from="#beg0309001" to="#end0309001"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit2">因</rdg></app>
+<app from="#beg0309002" to="#end0309002"><lem wit="#wit1">陶</lem><rdg resp="#resp1" wit="#wit2">淘</rdg></app>
+<app from="#beg0309003" to="#end0309003"><lem wit="#wit1"><note place="inline">終</note></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0307001" resp="#resp3" type="mod" target="#nkr_note_mod_0307001"><choice cb:resp="#resp4"><corr><g ref="#CB05335">󱓗</g></corr><sic>檐</sic></choice>＝擔【甲】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0302001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0302001">【原】宣德四年刊德富蘇峯氏藏本，【甲】崇禎十七年刊增上寺藏本，此序依甲本載之</note>
+<note n="0303001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0303001">蘆字前行甲本有廬山蓮宗寶鑑念佛正因卷第一十三字</note>
+<note n="0303002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0303002">光＝增【甲】</note>
+<note n="0303003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0303003">白蓮之教＝蓮宗之旨【甲】</note>
+<note n="0303004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0303004"><g ref="#CB05277">䉜</g>＝薙【甲】</note>
+<note n="0304001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304001">白蓮＝蓮宗【甲】</note>
+<note n="0304002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304002">賜白＝勅明【甲】</note>
+<note n="0304003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304003">白蓮宗主＝蓮社正宗【甲】</note>
+<note n="0304004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304004">〔白〕－【甲】</note>
+<note n="0305001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305001">辨＝辯【甲】</note>
+<note n="0306001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306001">生＋（之）【甲】</note>
+<note n="0306002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306002">億＝一【甲】</note>
+<note n="0306003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306003">此門脫＝此宗出【甲】</note>
+<note n="0307001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307001">檐＝擔【甲】</note>
+<note n="0307002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307002">博＝溥【甲】</note>
+<note n="0307003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307003">友＝方【甲】</note>
+<note n="0307004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307004">霜＝雙【甲】</note>
+<note n="0307005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307005">全＝今【甲】</note>
+<note n="0308001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308001">于＝於【甲】</note>
+<note n="0308002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308002">土＝士【甲】</note>
+<note n="0308003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308003">貧＝貪【甲】</note>
+<note n="0308004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308004">還＝遠【甲】</note>
+<note n="0308005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308005">堂＝當【甲】</note>
+<note n="0308006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308006">存＝在【甲】</note>
+<note n="0308007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308007">零＝雲【甲】</note>
+<note n="0309001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309001">曰＝因【甲】</note>
+<note n="0309002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309002">陶＝淘【甲】</note>
+<note n="0309003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309003">〔終〕－【甲】</note>
+</p>
+</cb:div>
+</back></text></TEI>

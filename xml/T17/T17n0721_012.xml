@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T17n0721">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0721 正法念處經</title>
+			<author>元魏 瞿曇般若流支譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.31 $<date>$Date: 2012/04/10 07:44:09 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.Shao-Yun</name></respStmt>
+		<respStmt xml:id="resp6"><resp>corrections</resp><name>【明】</name></respStmt>
+	</editionStmt>
+	<extent>70卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/04/10 07:44:09 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 17, No. 721 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit10">【南藏】</witness>
+		<witness xml:id="wit11">【磧砂】</witness>
+		<witness xml:id="wit2">【宋】</witness>
+		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【聖】</witness>
+		<witness xml:id="wit9">【北藏】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jaero Chen</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jaero Chen 提供新式標點</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00579">
+	<charName>CBETA CHARACTER CB00579</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[漂*寸]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>漂</value>
+	</charProp>
+	<mapping type="unicode">U+3D71</mapping>
+	<mapping cb:dec="983619" type="PUA">U+F0243</mapping>
+</char>
+<char xml:id="CB13549">
+	<charName>CBETA CHARACTER CB13549</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[仁-二+蜀]</value>
+	</charProp>
+	<mapping type="unicode">U+3494</mapping>
+	<mapping cb:dec="996589" type="PUA">U+F34ED</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-10-12T10:15:50">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" type="品">3 地獄品(五-一五)</cb:mulu><cb:div type="pin">
+<lb n="0065c07" ed="T"/>
+<milestone n="12" unit="juan"/>
+<lb n="0065c08" ed="T"/>
+<lb n="0065c09" ed="T"/><cb:juan n="012" fun="open"><cb:mulu n="012" type="卷"></cb:mulu><cb:jhead><title>正法念處經</title>卷第十二</cb:jhead>
+<lb n="0065c10" ed="T"/>
+<lb n="0065c11" ed="T"/><byline cb:type="Translator">元魏婆羅門瞿曇般若流支譯</byline>
+<lb n="0065c12" ed="T"/><cb:jhead type="pin">地獄<anchor xml:id="nkr_note_orig_0065012" n="0065012"/><anchor xml:id="nkr_note_mod_0065012" n="0065012"/><anchor xml:id="beg0065012" n="0065012"/>品<anchor xml:id="end0065012"/>之八</cb:jhead></cb:juan>
+<lb n="0065c13" ed="T"/><p xml:id="pT17p0065c1301">「又偷盜果：以惡業故，彼地獄中見自己物，他
+<lb n="0065c14" ed="T"/>人劫奪，即便走逐。既如是走，閻魔羅人以
+<lb n="0065c15" ed="T"/>利鐵刀執取斫割，脈脈皆斷，斷已復生。又復
+<lb n="0065c16" ed="T"/>更有餘地獄人疾走而來，閻魔羅人亦復捉
+<lb n="0065c17" ed="T"/>取，刀戟杵枷皆悉焰燃，斫刺築打，是彼偷
+<lb n="0065c18" ed="T"/>盜惡業果報。如是無量百千年歲，乃至偷盜
+<lb n="0065c19" ed="T"/>不善業果破壞無氣、腐爛盡滅，彼人彼處爾
+<lb n="0065c20" ed="T"/>乃得脫。</p>
+<lb n="0065c21" ed="T"/><p xml:id="pT17p0065c2101">「又<anchor xml:id="nkr_note_orig_0065013" n="0065013"/><anchor xml:id="beg0065013" n="0065013"/>邪<anchor xml:id="end0065013"/>行者：見本婦女灰河所<anchor xml:id="nkr_note_orig_0065014" n="0065014"/><anchor xml:id="beg0065014" n="0065014"/>漂<anchor xml:id="end0065014"/>，極大唱喚，
+<lb n="0065c22" ed="T"/>惡波所推或有出者、或有沒者，喚地獄人而
+<lb n="0065c23" ed="T"/>作是言：『我今在此灰河惡處，無導無救，汝今
+<lb n="0065c24" ed="T"/>可來救我此難？』彼地獄人既聞啼哭，惡業癡
+<lb n="0065c25" ed="T"/>心入彼灰河，即<anchor xml:id="nkr_note_orig_0065015" n="0065015"/><anchor xml:id="beg0065015" n="0065015"/>於<anchor xml:id="end0065015"/>入時，一切身分為灰所爛，
+<lb n="0065c26" ed="T"/>乃至無有芥子許在，<anchor xml:id="nkr_note_orig_0065016" n="0065016"/><anchor xml:id="beg0065016" n="0065016"/>唯<anchor xml:id="end0065016"/>有殘骨後復肉生。肉
+<lb n="0065c27" ed="T"/>既生已，而復更見向者婦女稍遠於前，在灰
+<lb n="0065c28" ed="T"/>河中而復唱喚，作如是言：『救我，救我！』彼人即
+<lb n="0065c29" ed="T"/>前，而彼婦女疾走往赴，既前到已，欲抱婦女。
+<pb n="0066a" ed="T" xml:id="T17.0721.0066a"/>
+<lb n="0066a01" ed="T"/>婦女抱之，彼婦女身皆是熱鐵，焰起熾燃，鋒
+<lb n="0066a02" ed="T"/>利鐵<anchor xml:id="nkr_note_orig_0066001" n="0066001"/><anchor xml:id="beg0066001" n="0066001"/>爪<anchor xml:id="end0066001"/>，既抱得已，即便攫之身體碎壞，無
+<lb n="0066a03" ed="T"/>芥子許全處可得，唯有骨在。如是罪人普身
+<lb n="0066a04" ed="T"/>皆血，唯有筋網。彼地獄人欲心所覆，見彼
+<lb n="0066a05" ed="T"/>婦女而復走往彼灰河中，乃經無量百千年
+<lb n="0066a06" ed="T"/>歲，如是惡<anchor xml:id="beg_74" type="star"/>漂<anchor xml:id="end_74"/>、如是惡燒，乃至惡業未壞未
+<lb n="0066a07" ed="T"/>爛、業氣未盡，於一切時與苦不止，彼處業盡，
+<lb n="0066a08" ed="T"/>爾乃得脫。如是復生，飢渴燒身，處處浪走，復
+<lb n="0066a09" ed="T"/>見有河陂池清水，望冷水故，疾走往赴。既
+<lb n="0066a10" ed="T"/>走到已，彼河池等洋白<anchor xml:id="nkr_note_orig_0066002" n="0066002"/><anchor xml:id="beg0066002" n="0066002"/>鑞<anchor xml:id="end0066002"/>汁皆悉充滿，饒惡
+<lb n="0066a11" ed="T"/>毒蛇普遍其中，彼地獄人熱渴甚急，即飲
+<lb n="0066a12" ed="T"/>如是毒蛇和合洋白<anchor xml:id="beg_75" type="star"/>鑞<anchor xml:id="end_75"/>汁。彼惡毒蛇罪業所
+<lb n="0066a13" ed="T"/>作，極甚微細，入罪人口，既入腹已，即便麁
+<lb n="0066a14" ed="T"/>大，地獄人肚亦復增長，如是惡蛇在其身內，
+<lb n="0066a15" ed="T"/>所有一切皆悉遍齧，先齧小腸而唼食之，是
+<lb n="0066a16" ed="T"/>破戒人飲酒罪過。如是無量百千年歲，惡業
+<lb n="0066a17" ed="T"/>所誑，彼蛇所齧、白<anchor xml:id="beg_76" type="star"/>鑞<anchor xml:id="end_76"/>所燒，如是燒齧，死已
+<lb n="0066a18" ed="T"/>復生，戒人飲酒破戒罪<anchor xml:id="nkr_note_orig_0066003" n="0066003"/><anchor xml:id="beg0066003" n="0066003"/>過<anchor xml:id="end0066003"/>。
+<lb n="0066a19" ed="T"/>又復妄語惡業果故，彼蛇齧舌，如是無量百
+<lb n="0066a20" ed="T"/>千年歲受大苦惱，乃至惡業未壞未爛、業氣
+<lb n="0066a21" ed="T"/>未盡，於一切時與苦不止，彼處業盡，爾乃
+<lb n="0066a22" ed="T"/>得脫。</p><p xml:id="pT17p0066a2203" rend="inline">「脫彼處已，處處浪走而復更見不慈
+<lb n="0066a23" ed="T"/>心果。彼地獄人，業作眾生如是說言：『汝等
+<lb n="0066a24" ed="T"/>云何無辜被燒，更可無處而住於此？我示汝
+<lb n="0066a25" ed="T"/>處，令汝得樂。』閻魔羅人如是語已，取地獄
+<lb n="0066a26" ed="T"/>人於地獄中更置餘處，彼處別異別異苦
+<lb n="0066a27" ed="T"/>惱多多更與。閻魔羅人如是更與地獄罪
+<lb n="0066a28" ed="T"/>人種種苦惱，所謂在於一切方處大火所燒
+<lb n="0066a29" ed="T"/>受種種苦，周匝嶮岸處處遍燒。又復更入
+<pb n="0066b" ed="T" xml:id="T17.0721.0066b"/>
+<lb n="0066b01" ed="T"/>大身惡吼可畏之處常燒常煮，如是受苦，身
+<lb n="0066b02" ed="T"/>大極軟十由旬量。又復更入名火<anchor xml:id="nkr_note_orig_0066004" n="0066004"/><anchor xml:id="nkr_note_mod_0066004" n="0066004"/><anchor xml:id="beg0066004" n="0066004"/>髻<anchor xml:id="end0066004"/>處，於
+<lb n="0066b03" ed="T"/>彼處生受大苦惱，彼火髻處大火甚熱於一
+<lb n="0066b04" ed="T"/>切火，此火最勝更無相似。彼火髻處常雨火
+<lb n="0066b05" ed="T"/>沙而燒煮之，彼沙稠<anchor xml:id="nkr_note_orig_0066005" n="0066005"/><anchor xml:id="nkr_note_mod_0066005" n="0066005"/><anchor xml:id="beg0066005" n="0066005"/>浚<anchor xml:id="end0066005"/>如夏時雨。復有異
+<lb n="0066b06" ed="T"/>處名內沸熱，彼處闇火常燒常煮，令彼罪
+<lb n="0066b07" ed="T"/>人身體脹滿猶如皮囊。復更有處，彼處名
+<lb n="0066b08" ed="T"/>為吒吒吒嚌，彼地獄地，一切罪人以諸身分
+<lb n="0066b09" ed="T"/>迭相揩割，受大苦惱。復有別處，彼處名為
+<lb n="0066b10" ed="T"/>普受一切資生苦惱，彼處惡煮受大苦惱，彼
+<lb n="0066b11" ed="T"/>如是處，多有可畏惡狗師子、烏鷲猪蛇，一切
+<lb n="0066b12" ed="T"/>與苦。復有惡河，彼河名為鞞多羅尼，惡燒
+<lb n="0066b13" ed="T"/>惡<anchor xml:id="beg_77" type="star"/>漂<anchor xml:id="end_77"/>，彼處燒煮皆悉爛熟，彼河熱灰、赤銅
+<lb n="0066b14" ed="T"/>白<anchor xml:id="beg_78" type="star"/>鑞<anchor xml:id="end_78"/>焰燃沸熱，百種千種惡<anchor xml:id="beg_79" type="star"/>漂<anchor xml:id="end_79"/>燒煮，如是
+<lb n="0066b15" ed="T"/>燒煮。復有別處名無間闇，罪人入中闇火
+<lb n="0066b16" ed="T"/>燒煮受種種苦。復更有處名苦鬘處，罪人
+<lb n="0066b17" ed="T"/>入中燒煮受苦，熱焰鐵輪轉在其頭，一切
+<lb n="0066b18" ed="T"/>身分鋸割劈裂。若得脫已，復入異處名雨
+<lb n="0066b19" ed="T"/>縷鬘抖擻，更燒更煮普身焰燃，如是燒<anchor xml:id="beg_7a" type="cb-app"/>已<anchor xml:id="end_7a"/>，
+<lb n="0066b20" ed="T"/>閻魔羅人百到千到焰刀刺割。若得脫已，而
+<lb n="0066b21" ed="T"/>復更入鬘塊烏處而燒煮之，彼處骨身，如
+<lb n="0066b22" ed="T"/>雪相似，自身生火，彼地獄人各執利刀，迭
+<lb n="0066b23" ed="T"/>相割削，如是無量百千年歲。若得脫已，而
+<lb n="0066b24" ed="T"/>復更入悲苦吼處，在彼惡處常燒常煮，既如
+<lb n="0066b25" ed="T"/>是煮，發聲大吼，如是吼聲，自餘一切諸<anchor xml:id="nkr_note_orig_0066006" n="0066006"/><anchor xml:id="beg0066006" n="0066006"/>地
+<lb n="0066b26" ed="T"/>獄<anchor xml:id="end0066006"/>中無如是吼。</p><p xml:id="pT17p0066b2607" rend="inline">「若得脫已，而復更入名大悲
+<lb n="0066b27" ed="T"/>處，彼人邪見，非法惡法讚說為法，彼邪見
+<lb n="0066b28" ed="T"/>人以惡業故，見所愛色或父或子、或兄或
+<lb n="0066b29" ed="T"/>弟，在大悲處而被燒煮，捩身受苦，啼哭喚
+<pb n="0066c" ed="T" xml:id="T17.0721.0066c"/>
+<lb n="0066c01" ed="T"/>言：『我今孤獨，可來救我？』彼父子等，極大悲苦，
+<lb n="0066c02" ed="T"/>伸臂向上大聲唱喚。彼地獄人如是見已，憂
+<lb n="0066c03" ed="T"/>悲火生，燒燃愛薪，憂悲火熱形，地獄火猶如
+<lb n="0066c04" ed="T"/>氷雪。如是二種大火所燒，極受苦惱，發聲
+<lb n="0066c05" ed="T"/>唱喚。</p><p xml:id="pT17p0066c0503" rend="inline">「閻魔羅人而為說偈，呵<anchor xml:id="nkr_note_orig_0066007" n="0066007"/><anchor xml:id="beg0066007" n="0066007"/>責<anchor xml:id="end0066007"/>之言：</p>
+<lb n="0066c06" ed="T"/><lg xml:id="lgT17p0066c0601" rend="margin-left:2em;text-indent:-2em"><l>「『愛火熱於火，</l><l>餘火則如氷，</l>
+<lb n="0066c07" ed="T"/><l>此中地獄火，</l><l>愛火三界中。</l>
+<lb n="0066c08" ed="T"/><l>如是地獄火，</l><l>蓋少不足言，</l>
+<lb n="0066c09" ed="T"/><l>若愛因生火，</l><l><anchor xml:id="nkr_note_orig_0066008" n="0066008"/><anchor xml:id="beg0066008" n="0066008"/>饒<anchor xml:id="end0066008"/>焰而毒熱。</l>
+<lb n="0066c10" ed="T"/><l>惡行地獄人，</l><l>業盡乃得脫，</l>
+<lb n="0066c11" ed="T"/><l>愛火燒三界，</l><l>未有得脫期。</l>
+<lb n="0066c12" ed="T"/><l>愛能繫縛人，</l><l>在無始生死，</l>
+<lb n="0066c13" ed="T"/><l>愛火是地獄，</l><l>非地獄生火。</l>
+<lb n="0066c14" ed="T"/><l>地獄火雖熱，</l><l>唯能燒於身，</l>
+<lb n="0066c15" ed="T"/><l>愛火燒眾生，</l><l>身心俱被燒。</l>
+<lb n="0066c16" ed="T"/><l>愛因緣生火，</l><l>火中最為上，</l>
+<lb n="0066c17" ed="T"/><l>地獄火不普，</l><l>愛火一切遍。</l>
+<lb n="0066c18" ed="T"/><l>三因三處行，</l><l>三種業顯現，</l>
+<lb n="0066c19" ed="T"/><l>於三時中生，</l><l>皆是愛心火。</l>
+<lb n="0066c20" ed="T"/><l>天中欲火燒，</l><l>畜生瞋火燒，</l>
+<lb n="0066c21" ed="T"/><l>地獄癡火燒，</l><l>愛火一切燒。</l>
+<lb n="0066c22" ed="T"/><l>如是愛心火，</l><l>三界皆焰燃，</l>
+<lb n="0066c23" ed="T"/><l>見何不樂法？</l><l><anchor xml:id="nkr_note_orig_0066009" n="0066009"/><anchor xml:id="nkr_note_mod_0066009" n="0066009"/><anchor xml:id="beg0066009" n="0066009"/>今<anchor xml:id="end0066009"/>如是心悔。』</l></lg>
+<lb n="0066c24" ed="T"/><p xml:id="pT17p0066c2401">「閻魔羅人於彼地獄大悲之處，如是呵責地
+<lb n="0066c25" ed="T"/>獄罪人。既呵責已，而復更與種種苦惱。如
+<lb n="0066c26" ed="T"/>是罪人彼處得脫，而復更於無悲闇處地獄
+<lb n="0066c27" ed="T"/>中煮，彼處普火燒地獄人，其色猶如甄叔迦
+<lb n="0066c28" ed="T"/>樹。如是罪人若脫彼處，復於木轉地獄中煮，
+<lb n="0066c29" ed="T"/>彼地獄人在彼地獄十六處煮，邪見所攝，犯
+<pb n="0067a" ed="T" xml:id="T17.0721.0067a"/>
+<lb n="0067a01" ed="T"/>比丘尼，惡業罪過。彼人彼處於無數年久
+<lb n="0067a02" ed="T"/>時長燒，乃至惡業未壞未爛、業氣未盡，於一
+<lb n="0067a03" ed="T"/>切時與苦不止；若惡業盡，彼地獄中爾乃得
+<lb n="0067a04" ed="T"/>脫。雖脫彼處，復生餓鬼、畜生之中，無量千
+<lb n="0067a05" ed="T"/>世飢渴燒煮，迭互相食，食百千身。如是畜生
+<lb n="0067a06" ed="T"/>以惡邪見，復犯淨行比丘尼戒，彼人如是難
+<lb n="0067a07" ed="T"/>得人身，如龜遇孔。若生人中同業之處，於
+<lb n="0067a08" ed="T"/>五百世作不能男，犯比丘尼不善惡業餘殘
+<lb n="0067a09" ed="T"/>果報。</p>
+<lb n="0067a10" ed="T"/><p xml:id="pT17p0067a1001">「<anchor xml:id="nkr_note_orig_0067001" n="0067001"/><anchor xml:id="beg0067001" n="0067001"/>又<anchor xml:id="end0067001"/>彼比丘知業果報，觀大焦熱大地獄處。
+<lb n="0067a11" ed="T"/>彼見聞知：若人殺生、偷盜、邪行、飲酒、妄語、邪見
+<lb n="0067a12" ed="T"/>業果如前所說，又復若人毀犯清淨優婆夷
+<lb n="0067a13" ed="T"/>戒，身壞命終墮於惡處，在彼地獄，在一切
+<lb n="0067a14" ed="T"/><anchor xml:id="nkr_note_orig_0067002" n="0067002"/><anchor xml:id="nkr_note_mod_0067002" n="0067002"/><anchor xml:id="beg0067002" n="0067002"/>方<anchor xml:id="end0067002"/>焦熱處生，受大苦惱。所謂苦者：彼地獄
+<lb n="0067a15" ed="T"/>處，一切無間乃至虛空皆悉焰燃，無針孔
+<lb n="0067a16" ed="T"/>許不焰燃處。彼人火中伸手向上，發聲唱
+<lb n="0067a17" ed="T"/>喚第一急惡，大力堅苦熾火所燒，灰亦叵得，
+<lb n="0067a18" ed="T"/>又復更生，如是無量百千年歲常燒不止。彼
+<lb n="0067a19" ed="T"/>處若脫，望救望歸走向異處，既如是走，閻
+<lb n="0067a20" ed="T"/>魔羅人復更執之，普焰鐵繩從脚而纏乃至
+<lb n="0067a21" ed="T"/>於頭，次第急纏，血皆上流集在頭中，然後
+<lb n="0067a22" ed="T"/>復以焰燃鐵鉤釘其頭上，頷下而出。復捉
+<lb n="0067a23" ed="T"/>鐵鉤急轉急捩，而復抽掣罪人血出，如赤
+<lb n="0067a24" ed="T"/>銅汁熱焰熾燃，灌其身體。如是無量百千
+<lb n="0067a25" ed="T"/>年中，血灌其身而燒煮之，死而復生、死而
+<lb n="0067a26" ed="T"/>復生。惡業力故，常一切時如是燒煮，乃至
+<lb n="0067a27" ed="T"/>惡業未壞未爛、業氣未盡，於一切時與苦
+<lb n="0067a28" ed="T"/>不止；若惡業盡，彼地獄處爾乃得脫，復於
+<lb n="0067a29" ed="T"/>無量百千年歲，生於餓鬼、畜生之中。若生餓
+<pb n="0067b" ed="T" xml:id="T17.0721.0067b"/>
+<lb n="0067b01" ed="T"/>鬼，受飢渴苦；於畜生中，迭相食苦，乃於無
+<lb n="0067b02" ed="T"/>量百千世中，為他所殺而噉食之。彼惡業人
+<lb n="0067b03" ed="T"/>受彼苦已，難得人身，如龜遇孔。若生人中
+<lb n="0067b04" ed="T"/>同業之處，貧窮多病，於他人所常得熱惱，心
+<lb n="0067b05" ed="T"/>亂不止，復不長命，於四百世作不男人。是
+<lb n="0067b06" ed="T"/>彼惡業餘殘<anchor xml:id="nkr_note_orig_0067003" n="0067003"/><anchor xml:id="beg0067003" n="0067003"/>果<anchor xml:id="end0067003"/>報。</p>
+<lb n="0067b07" ed="T"/><p xml:id="pT17p0067b0701">「又彼比丘知業果報，觀大焦熱大地獄處。彼
+<lb n="0067b08" ed="T"/>見聞知：若人殺生、偷盜、邪行、飲酒、妄語、邪見
+<lb n="0067b09" ed="T"/>業果如前所說，又復若人毀犯淨行沙彌戒
+<lb n="0067b10" ed="T"/>故，身壞命終墮於惡處，在彼地獄大身惡吼
+<lb n="0067b11" ed="T"/>可畏處生，受大苦惱。所謂苦者，如前所說，活
+<lb n="0067b12" ed="T"/>等地獄所受苦惱，彼一切苦大身惡吼可畏
+<lb n="0067b13" ed="T"/>之處皆悉具受。復有勝者：彼罪人身一由
+<lb n="0067b14" ed="T"/>旬量，第一柔軟如生<anchor xml:id="nkr_note_orig_0067004" n="0067004"/><anchor xml:id="beg0067004" n="0067004"/>酥<anchor xml:id="end0067004"/>塊，閻魔羅人執持
+<lb n="0067b15" ed="T"/>其身，以微細鉗遍拔其毛，合肉拔之，從足至
+<lb n="0067b16" ed="T"/>頭皆悉遍拔，無芥子許而不拔處。彼人如是
+<lb n="0067b17" ed="T"/>極受碎苦，唱聲大喚，餘地獄人聞之心破開
+<lb n="0067b18" ed="T"/><anchor xml:id="nkr_note_orig_0067005" n="0067005"/><anchor xml:id="beg0067005" n="0067005"/>裂<anchor xml:id="end0067005"/>分散，心怨所誑造作惡業，自業所誑，如
+<lb n="0067b19" ed="T"/>是聲出。</p><p xml:id="pT17p0067b1904" rend="inline">「地獄罪人如是受苦，閻魔羅人為呵
+<lb n="0067b20" ed="T"/><anchor xml:id="nkr_note_orig_0067006" n="0067006"/><anchor xml:id="nkr_note_mod_0067006" n="0067006"/><anchor xml:id="beg0067006" n="0067006"/>責<anchor xml:id="end0067006"/>故，而說偈言：</p>
+<lb n="0067b21" ed="T"/><lg xml:id="lgT17p0067b2101" rend="margin-left:2em;text-indent:-2em"><l>「『欲心出甜語，</l><l>聞甜語欲發，</l>
+<lb n="0067b22" ed="T"/><l>欲語是大惡，</l><l>今受如是果。</l>
+<lb n="0067b23" ed="T"/><l>欲語最利刃，</l><l>彼刃自割身，</l>
+<lb n="0067b24" ed="T"/><l>寧自割其舌，</l><l>不說婬欲語。</l>
+<lb n="0067b25" ed="T"/><l>欲所誑眾生，</l><l>瞋心急熾燃，</l>
+<lb n="0067b26" ed="T"/><l>癡心所秉故，</l><l>說婬欲甜語。</l>
+<lb n="0067b27" ed="T"/><l>婬欲樂至少，</l><l>作惡業甚多，</l>
+<lb n="0067b28" ed="T"/><l>癡人欲心秉，</l><l>從苦而得苦。</l>
+<lb n="0067b29" ed="T"/><l>欲樂一念頃，</l><l>非樂亦非常，</l>
+<pb n="0067c" ed="T" xml:id="T17.0721.0067c"/>
+<lb n="0067c01" ed="T"/><l>轉身受極苦，</l><l>如是應捨欲。</l>
+<lb n="0067c02" ed="T"/><l>為欲覆之人，</l><l>住於地獄舍，</l>
+<lb n="0067c03" ed="T"/><l>若不屬欲者，</l><l>則不畏地獄。</l>
+<lb n="0067c04" ed="T"/><l>若人作惡業，</l><l>決定受苦惱，</l>
+<lb n="0067c05" ed="T"/><l>悲苦凡鄙人，</l><l>何故今唱喚？</l>
+<lb n="0067c06" ed="T"/><l>惡行地獄人，</l><l>業盡乃得脫，</l>
+<lb n="0067c07" ed="T"/><l>無有多唱喚，</l><l>而得解脫理。</l>
+<lb n="0067c08" ed="T"/><l>若人欲自在，</l><l>作不愛惡業，</l>
+<lb n="0067c09" ed="T"/><l>癡人今受苦，</l><l>唱喚何所益？</l>
+<lb n="0067c10" ed="T"/><l>若見未來果，</l><l>現在喜樂善，</l>
+<lb n="0067c11" ed="T"/><l>彼人不唱喚，</l><l>如汝今朝日。』</l></lg>
+<lb n="0067c12" ed="T"/><p xml:id="pT17p0067c1201">「閻魔羅人如是<anchor xml:id="beg_7b" type="star"/>責<anchor xml:id="end_7b"/>疏惡業行人。既呵<anchor xml:id="beg_7c" type="star"/>責<anchor xml:id="end_7c"/>已，
+<lb n="0067c13" ed="T"/>復與種種無量苦惱，乃至惡業未壞未爛、業
+<lb n="0067c14" ed="T"/>氣未盡，於一切時與<anchor xml:id="nkr_note_orig_0067007" n="0067007"/><anchor xml:id="beg0067007" n="0067007"/>若<anchor xml:id="end0067007"/>不止；若惡業盡，彼地
+<lb n="0067c15" ed="T"/>獄處爾乃得脫。既得脫已，無量千世生於餓
+<lb n="0067c16" ed="T"/>鬼、畜生之中。彼處脫已，難得人身，如龜遇
+<lb n="0067c17" ed="T"/>孔。若生人中同業之處，短命貧窮，心亂不
+<lb n="0067c18" ed="T"/>正，所有語言一切不信，於四千世作不能
+<lb n="0067c19" ed="T"/>男。是彼惡業餘殘果報。</p>
+<lb n="0067c20" ed="T"/><p xml:id="pT17p0067c2001">「又彼比丘知業果報，觀大焦熱大地獄處。彼
+<lb n="0067c21" ed="T"/>見聞知：復有異處名火髻處，是彼地獄第
+<lb n="0067c22" ed="T"/>三別處。眾生何業生於彼處？彼見：有人殺生、
+<lb n="0067c23" ed="T"/>偷盜、邪行、飲酒、妄語、邪見，樂行多作，業及果
+<lb n="0067c24" ed="T"/>報如前所說，若復有人於攝威儀正行婦女，
+<lb n="0067c25" ed="T"/>行其非道。彼人以是惡業因緣，身壞命終墮
+<lb n="0067c26" ed="T"/>於惡處，在彼地獄生火髻處受大苦惱。所
+<lb n="0067c27" ed="T"/>謂苦者，如前所說，活等地獄所受苦惱，彼一
+<lb n="0067c28" ed="T"/>切苦此中具受十倍更重。復有勝者：如是
+<lb n="0067c29" ed="T"/>地獄火髻之處，以惡業故，多有惡虫名為似
+<pb n="0068a" ed="T" xml:id="T17.0721.0068a"/>
+<lb n="0068a01" ed="T"/>髻，在地獄處，長似弓弦，其毒甚嚴、其齒極
+<lb n="0068a02" ed="T"/>利。閻魔羅人執地獄人，縛其手足、敷其身
+<lb n="0068a03" ed="T"/>體在熱鐵鉤極熱鐵地。彼地獄人如是受苦，
+<lb n="0068a04" ed="T"/>唱喚啼哭，先燒其背，受極苦惱。閻魔羅人取
+<lb n="0068a05" ed="T"/>似髻虫置其糞門，彼似髻虫形如弓弦，入其
+<lb n="0068a06" ed="T"/>身中，能作第一堅毒急苦，其觸如火，初燒
+<lb n="0068a07" ed="T"/>糞門，燒已而食；食糞門已，次復上行入其
+<lb n="0068a08" ed="T"/>熟藏，燒已而食；食熟藏已，次復上行入其
+<lb n="0068a09" ed="T"/>生藏，即燒生藏而復食之；如是食已，次第
+<lb n="0068a10" ed="T"/>復入小腸大腸燒齧而食，如是食盡在其身
+<lb n="0068a11" ed="T"/>內，處處遍走罪人身內如白鴿兒，猶故不死。
+<lb n="0068a12" ed="T"/>如是惡虫走向咽筒，走而未到，燒煮其心，燒
+<lb n="0068a13" ed="T"/>已遍食。彼地獄人如是受苦，唱喚號哭，彼人
+<lb n="0068a14" ed="T"/>如是二火所燒，身內則有似髻虫食，身外則
+<lb n="0068a15" ed="T"/>有地獄大火。彼似髻虫食咽筒已，次走向
+<lb n="0068a16" ed="T"/>面，既到<anchor xml:id="nkr_note_orig_0068001" n="0068001"/><anchor xml:id="beg0068001" n="0068001"/>面<anchor xml:id="end0068001"/>已，先燒舌根；燒舌根已，齧而食
+<lb n="0068a17" ed="T"/>之；如是食已，走向耳根，復食其耳；食耳根
+<lb n="0068a18" ed="T"/>已，走向髑髏，次食其腦；既食盡已，破頭而
+<lb n="0068a19" ed="T"/>出。彼地獄人猶故不死，是彼惡業之勢力故，
+<lb n="0068a20" ed="T"/>遍身有孔，如是惡虫復入孔內，復為地獄大
+<lb n="0068a21" ed="T"/>火所燒，普身內外一切焰燃，惡業行故。如
+<lb n="0068a22" ed="T"/>是無量百千年歲食<anchor xml:id="nkr_note_orig_0068002" n="0068002"/><anchor xml:id="nkr_note_mod_0068002" n="0068002"/><anchor xml:id="beg0068002" n="0068002"/>復食食<anchor xml:id="end0068002"/>，食已復生，生已
+<lb n="0068a23" ed="T"/>復食，死已復活，如是罪人受大苦惱，是彼
+<lb n="0068a24" ed="T"/>惡業作集勢力。彼地獄人彼處脫已，走向異
+<lb n="0068a25" ed="T"/>處，見大蛇眾一時俱來，彼人見已，極大怖
+<lb n="0068a26" ed="T"/>畏走向餘處。如是蛇眾，惡業所作，走疾如
+<lb n="0068a27" ed="T"/>風向彼罪人。到已纏絞普身周遍，其牙甚
+<lb n="0068a28" ed="T"/>利，有大惡毒，齧彼罪人，受百千種最大苦
+<lb n="0068a29" ed="T"/>惱。彼地獄人如是具有三火所燒：一、飢渴
+<pb n="0068b" ed="T" xml:id="T17.0721.0068b"/>
+<lb n="0068b01" ed="T"/>火；二、蛇毒火；三、地獄火。如是無量百千年
+<lb n="0068b02" ed="T"/>歲常如是燒，無有年數時節長遠，乃至惡業
+<lb n="0068b03" ed="T"/>未壞未爛、業氣未盡，於一切時與苦不止；若
+<lb n="0068b04" ed="T"/>惡業盡，彼地獄處爾乃得脫。既得脫已，無量
+<lb n="0068b05" ed="T"/>千世生在餓鬼、畜生之中，於餓鬼中飢渴極
+<lb n="0068b06" ed="T"/>燒；遍生一切畜生之中，生生常為他所殺害，
+<lb n="0068b07" ed="T"/>殺已而食。若脫彼處，難得人身，如龜遇孔。若
+<lb n="0068b08" ed="T"/>生人中同業之處，於五百世為第三人，所謂
+<lb n="0068b09" ed="T"/>不男。是彼惡業餘殘果<anchor xml:id="nkr_note_orig_0068003" n="0068003"/><anchor xml:id="beg0068003" n="0068003"/>報<anchor xml:id="end0068003"/>。</p>
+<lb n="0068b10" ed="T"/><p xml:id="pT17p0068b1001">「又彼比丘知業果報，觀大焦熱大地獄處。彼
+<lb n="0068b11" ed="T"/>見聞知：復有異處名雨沙火，是彼地獄第四
+<lb n="0068b12" ed="T"/>別處。眾生何業生於彼處？彼見：有人殺生、偷
+<lb n="0068b13" ed="T"/>盜、邪行、飲酒、妄語、邪見，樂行多作，業及果報
+<lb n="0068b14" ed="T"/>如前所說。復有邪行：於沙彌尼作惡行已，心
+<lb n="0068b15" ed="T"/>生歡喜，猶故喜樂。彼人以是惡業因緣，身壞
+<lb n="0068b16" ed="T"/>命終墮於惡處，在彼地獄雨沙火處受大苦
+<lb n="0068b17" ed="T"/>惱。所謂苦者，如前所說，活等地獄所受苦惱，
+<lb n="0068b18" ed="T"/>彼一切苦此中具受。復有勝者，所謂：彼處五
+<lb n="0068b19" ed="T"/>百由旬大火充滿，一切焰燃，有金剛沙遍滿
+<lb n="0068b20" ed="T"/>其中，柔軟如水，能燒之人猶尚畏沒，況重
+<lb n="0068b21" ed="T"/>惡業地獄之人。彼地獄人入中則沒，猶如
+<lb n="0068b22" ed="T"/>沒水，惡業因故，沒已復出。彼金剛沙有三
+<lb n="0068b23" ed="T"/>角塊刃<anchor xml:id="nkr_note_orig_0068004" n="0068004"/><anchor xml:id="nkr_note_mod_0068004" n="0068004"/><anchor xml:id="beg0068004" n="0068004"/>火<anchor xml:id="end0068004"/>極利，揩罪人身乃至骨盡，盡已
+<lb n="0068b24" ed="T"/>復生；生復更揩，揩已復盡；盡已復生，死而
+<lb n="0068b25" ed="T"/>復活，無能救者。墮焰沙中唱喚號哭、呼嗟
+<lb n="0068b26" ed="T"/>涕泣，以惡業故，於彼苦處不能自脫，時節
+<lb n="0068b27" ed="T"/>長久；若惡業盡，彼地獄處爾乃得脫。雖脫彼
+<lb n="0068b28" ed="T"/>處，無量千世生於餓鬼、畜生之中。若生餓鬼，
+<lb n="0068b29" ed="T"/>飢渴燒煮；畜生之中，迭相噉食，於一千世常
+<pb n="0068c" ed="T" xml:id="T17.0721.0068c"/>
+<lb n="0068c01" ed="T"/>被他殺。若脫彼處，難得人身，如龜遇孔。若
+<lb n="0068c02" ed="T"/>生人中同業之<anchor xml:id="nkr_note_orig_0068005" n="0068005"/><anchor xml:id="beg0068005" n="0068005"/>處<anchor xml:id="end0068005"/>，常貧常病，人所不信，為
+<lb n="0068c03" ed="T"/>不男人。是彼惡業餘殘果報。</p>
+<lb n="0068c04" ed="T"/><p xml:id="pT17p0068c0401">「又彼比丘知業果報，觀大焦熱之大地獄，復
+<lb n="0068c05" ed="T"/>有何處？彼見聞知：復有異處名內熱沸，是
+<lb n="0068c06" ed="T"/>彼地獄第五別處。眾生何業生於彼處？彼見：
+<lb n="0068c07" ed="T"/>有人殺生、偷盜、邪行、飲酒、妄語、邪見，樂行多
+<lb n="0068c08" ed="T"/>作，業及果報如前所說。又復有人邪見邪
+<lb n="0068c09" ed="T"/>行：於持五戒優婆夷邊，強行非法，污其梵
+<lb n="0068c10" ed="T"/>行，令戒缺壞。彼作是意——破戒無罪，不信業
+<lb n="0068c11" ed="T"/>果。彼人以是惡意惡行業因緣故，身壞命終
+<lb n="0068c12" ed="T"/>墮於惡處，在彼地獄內熱沸處受大苦惱。所
+<lb n="0068c13" ed="T"/>謂苦者，如前所說，活等地獄所受苦惱，彼一
+<lb n="0068c14" ed="T"/>切苦此中具受。復有勝者，所謂：彼處有五<anchor xml:id="nkr_note_orig_0068006" n="0068006"/><anchor xml:id="beg0068006" n="0068006"/>火<anchor xml:id="end0068006"/>
+<lb n="0068c15" ed="T"/>山皆內熱沸，如是五山普遍地獄皆悉熱
+<lb n="0068c16" ed="T"/>沸，一名普燒，二名極深無底，三名闇火聚
+<lb n="0068c17" ed="T"/><anchor xml:id="nkr_note_orig_0068007" n="0068007"/><anchor xml:id="beg0068007" n="0068007"/>觸<anchor xml:id="end0068007"/>，四名割截，五名業證，遍彼地獄一千由
+<lb n="0068c18" ed="T"/>旬。如是五山，去普輪山及大輪山道<anchor xml:id="nkr_note_orig_0068008" n="0068008"/><anchor xml:id="beg0068008" n="0068008"/>理<anchor xml:id="end0068008"/>極
+<lb n="0068c19" ed="T"/>遠，彼地獄人見彼五山優鉢羅華，於彼山
+<lb n="0068c20" ed="T"/>中多有樹林、陂池具足，悕望彼處，欲得安
+<lb n="0068c21" ed="T"/>樂，疾走往赴。以惡業故，彼山內<anchor xml:id="nkr_note_orig_0068009" n="0068009"/><anchor xml:id="beg0068009" n="0068009"/>火<anchor xml:id="end0068009"/>惡風所
+<lb n="0068c22" ed="T"/>吹，吹已熾燃，燒地獄人普身捩轉。如是燒
+<lb n="0068c23" ed="T"/>已，復見有山，青色而大，既燒受<anchor xml:id="nkr_note_orig_0068010" n="0068010"/><anchor xml:id="beg0068010" n="0068010"/>苦<anchor xml:id="end0068010"/>，復更走
+<lb n="0068c24" ed="T"/><anchor xml:id="nkr_note_orig_0068011" n="0068011"/><anchor xml:id="nkr_note_mod_0068011" n="0068011"/><anchor xml:id="beg0068011" n="0068011"/>趣<anchor xml:id="end0068011"/>望救望歸。既到彼山，勢墮其中，猶如弩
+<lb n="0068c25" ed="T"/>弦所放鐵箭射入蟻封，如是入已，不知所在。
+<lb n="0068c26" ed="T"/>如是如是，彼地獄人在內熱沸火山之中，沒
+<lb n="0068c27" ed="T"/>無處所。彼地獄人在於彼處如是燒已、焦
+<lb n="0068c28" ed="T"/>已炙已，又復更入闇火聚觸惡山之中，諸根
+<lb n="0068c29" ed="T"/>閉塞受一切苦，如<anchor xml:id="nkr_note_orig_0068012" n="0068012"/><anchor xml:id="nkr_note_mod_0068012" n="0068012"/><anchor xml:id="beg0068012" n="0068012"/>埵<anchor xml:id="end0068012"/>納箭，具受一切惡業
+<pb n="0069a" ed="T" xml:id="T17.0721.0069a"/>
+<lb n="0069a01" ed="T"/>果報。如是罪人作集惡業，闇火聚觸惡山
+<lb n="0069a02" ed="T"/>之中，受如是果苦惱急惡，無主無救、無有
+<lb n="0069a03" ed="T"/>伴侶，食自業果，久受極苦，常燒常煮，業風
+<lb n="0069a04" ed="T"/>所吹，彼熱沸處，一切身熟。得出彼處，無足
+<lb n="0069a05" ed="T"/>力故不能得走，閻魔羅人而復更執，置割
+<lb n="0069a06" ed="T"/>截山，以鐵焰鋸割其人根，割已復生，新生
+<lb n="0069a07" ed="T"/>軟<anchor xml:id="nkr_note_orig_0069001" n="0069001"/><anchor xml:id="beg0069001" n="0069001"/>嫩<anchor xml:id="end0069001"/>而復更割，如是無量百千鋸割受大
+<lb n="0069a08" ed="T"/>苦惱。</p><p xml:id="pT17p0069a0803" rend="inline">「又復更入業證山中受大苦惱，唱喚
+<lb n="0069a09" ed="T"/>偈言：</p>
+<lb n="0069a10" ed="T"/><lg xml:id="lgT17p0069a1001" rend="margin-left:2em;text-indent:-2em"><l>「『如我自作業，</l><l>我如是受果，</l>
+<lb n="0069a11" ed="T"/><l>欲怨燒我故，</l><l>今到此地獄。</l>
+<lb n="0069a12" ed="T"/><l>放逸地不善，</l><l>欲火燒人身，</l>
+<lb n="0069a13" ed="T"/><l>彼羂繫縛我，</l><l>是故到此處。</l>
+<lb n="0069a14" ed="T"/><l>我先時不知，</l><l>欲果如是苦，</l>
+<lb n="0069a15" ed="T"/><l>為癡之所誑，</l><l>自作今自受。</l>
+<lb n="0069a16" ed="T"/><l>無悲心惡人，</l><l>將我在此處，</l>
+<lb n="0069a17" ed="T"/><l>無邊苦惱海，</l><l>云何可得脫？</l>
+<lb n="0069a18" ed="T"/><l>業為苦中苦，</l><l>我今如是受，</l>
+<lb n="0069a19" ed="T"/><l>不曾見有樂，</l><l>地獄苦不盡。』</l></lg>
+<lb n="0069a20" ed="T"/><p xml:id="pT17p0069a2001">「彼地獄人灰火地獄受第一苦，如是唱喚。彼
+<lb n="0069a21" ed="T"/>地獄人常一切時受大苦惱，乃至惡業未壞
+<lb n="0069a22" ed="T"/>未爛、業氣未盡，於一切時與若不止；若惡業
+<lb n="0069a23" ed="T"/>盡，彼地獄處爾乃得脫。若得脫已，復於無量
+<lb n="0069a24" ed="T"/>百千世中，生於餓鬼、畜生之道：於餓鬼中，迭
+<lb n="0069a25" ed="T"/>互相見，飢渴燒身；於畜生中，迭相食噉，於
+<lb n="0069a26" ed="T"/>百千世死而復生。彼人彼處既得脫已，難得
+<lb n="0069a27" ed="T"/>人身，如龜遇孔。若<anchor xml:id="nkr_note_orig_0069002" n="0069002"/><anchor xml:id="beg0069002" n="0069002"/>生人<anchor xml:id="end0069002"/>中同業之處，惡業
+<lb n="0069a28" ed="T"/>力故，貧窮多病，身分不具。是彼惡業餘殘果
+<lb n="0069a29" ed="T"/>報。</p>
+<pb n="0069b" ed="T" xml:id="T17.0721.0069b"/>
+<lb n="0069b01" ed="T"/><p xml:id="pT17p0069b0101">「又彼比丘知業果報，觀大焦熱之大地獄，復
+<lb n="0069b02" ed="T"/>有何處？彼見聞知：復有異處，彼處名為吒
+<lb n="0069b03" ed="T"/>吒吒嚌，是彼地獄第六別處。眾生何業生於
+<lb n="0069b04" ed="T"/>彼處？彼見：有人殺生、偷盜、邪行、飲酒、妄語、邪
+<lb n="0069b05" ed="T"/>見，樂行多作，業及果報如前所說。復有邪
+<lb n="0069b06" ed="T"/>行，謂：於受戒正行婦女，行非梵行，或時一
+<lb n="0069b07" ed="T"/>到、二到、三到、四到、五到，彼人如是不相應行，
+<lb n="0069b08" ed="T"/>或於姊妹、或於同姓、或於香火、或香火婦、或
+<lb n="0069b09" ed="T"/>知識婦，誑誘邪行。彼人以是惡業因緣，身壞
+<lb n="0069b10" ed="T"/>命終墮於惡處，在彼地獄吒吒吒嚌別異中
+<lb n="0069b11" ed="T"/>生，受大苦惱。所謂<anchor xml:id="nkr_note_orig_0069003" n="0069003"/><anchor xml:id="beg0069003" n="0069003"/>若<anchor xml:id="end0069003"/>者，如前所說，活等地
+<lb n="0069b12" ed="T"/>獄所受苦惱，彼一切苦此中具受。復有勝者，
+<lb n="0069b13" ed="T"/>謂：有惡風第一勢觸，極飄極吹，令彼地獄
+<lb n="0069b14" ed="T"/>罪人之身，分分分解猶如劫貝，急惡抖擻如
+<lb n="0069b15" ed="T"/>彈羊毛。如是勢急極惡大風吹罪人身，毛塊
+<lb n="0069b16" ed="T"/>毛塊，分分分散猶如細毛，毛亦叵見。如何
+<lb n="0069b17" ed="T"/>者毛？劫貝<anchor xml:id="nkr_note_orig_0069004" n="0069004"/><anchor xml:id="nkr_note_mod_0069004" n="0069004"/><anchor xml:id="beg0069004" n="0069004"/>沙<anchor xml:id="end0069004"/>毛。彼毛既散，還復聚合，彼罪
+<lb n="0069b18" ed="T"/>人身亦復如是。惡風所吹分散十方。彼罪
+<lb n="0069b19" ed="T"/>人身於地獄中，惡風如刀，分分割<anchor xml:id="beg_7d" type="star"/>裂<anchor xml:id="end_7d"/>碎散
+<lb n="0069b20" ed="T"/>如沙，乃至無有一物可見，如是身分，毛亦叵
+<lb n="0069b21" ed="T"/>見。以惡業故，一切身分而復更生，生已復散，
+<lb n="0069b22" ed="T"/>欲力故爾。欲如前說。如是無量百千年歲，乃
+<lb n="0069b23" ed="T"/>至惡業未壞未爛、業氣未盡，於一切時與苦
+<lb n="0069b24" ed="T"/>不止。若脫此苦，彼處復有金剛惡鼠，食其
+<lb n="0069b25" ed="T"/>人根，分令破碎如芥子許，受苦唱喚。食人
+<lb n="0069b26" ed="T"/>根已，次食其腸；既食腸已，次食熟藏；食熟
+<lb n="0069b27" ed="T"/>藏已，從背而出，次食其背；既食背已，次食
+<lb n="0069b28" ed="T"/>背骨。彼惡業人以惡業故，如是無量百千
+<lb n="0069b29" ed="T"/>年歲受地獄苦，於長久時，得脫彼處所受
+<pb n="0069c" ed="T" xml:id="T17.0721.0069c"/>
+<lb n="0069c01" ed="T"/>苦惱。既得脫已，走向異處，復有<anchor xml:id="nkr_note_orig_0069005" n="0069005"/><anchor xml:id="beg0069005" n="0069005"/>黑<anchor xml:id="end0069005"/>虫纏絞
+<lb n="0069c02" ed="T"/>其身，先纏人根燒而食之，受極苦惱，唱聲
+<lb n="0069c03" ed="T"/>大喚。如是黑虫常纏常食，乃至彼人作集
+<lb n="0069c04" ed="T"/>惡業未壞未爛、業氣未盡，於一切時與苦
+<lb n="0069c05" ed="T"/>不止；若惡業盡，彼地獄處爾乃得脫。既得
+<lb n="0069c06" ed="T"/>脫已，復於無量百千世中，於食自肉餓鬼中
+<lb n="0069c07" ed="T"/>生，自食身肉。雖自食肉而復不死，以作業
+<lb n="0069c08" ed="T"/>時，自姊妹等行非梵行，自受樂故，於餓鬼
+<lb n="0069c09" ed="T"/>中自食身肉。若脫彼處，生畜生中常作<anchor xml:id="nkr_note_orig_0069006" n="0069006"/><anchor xml:id="beg0069006" n="0069006"/>牝<anchor xml:id="end0069006"/>
+<lb n="0069c10" ed="T"/>猪，自食其子，如人中時，於親等中行婬業
+<lb n="0069c11" ed="T"/>故。彼人彼處若得脫已，難得人身，如龜遇
+<lb n="0069c12" ed="T"/>孔。若生人中同業之處，彼人常有人根惡
+<lb n="0069c13" ed="T"/>病，如是人<anchor xml:id="nkr_note_orig_0069007" n="0069007"/><anchor xml:id="beg0069007" n="0069007"/>根<anchor xml:id="end0069007"/>惡病急故，自割人根。彼業因
+<lb n="0069c14" ed="T"/>緣，若自有妻，為下賤人之所侵逼，不相應
+<lb n="0069c15" ed="T"/>人共行婬欲，以作業時犯他妻故。一切惡
+<lb n="0069c16" ed="T"/>中，邪見邪行最為深重，此不善業於世、出
+<lb n="0069c17" ed="T"/>世皆不相應。</p>
+<lb n="0069c18" ed="T"/><p xml:id="pT17p0069c1801">「又彼比丘知業果報，觀大焦熱之大地獄，復
+<lb n="0069c19" ed="T"/>有何處？彼見聞知：復有異處，彼處名為普
+<lb n="0069c20" ed="T"/>受一切資生苦惱，是彼地獄第七別處。眾生
+<lb n="0069c21" ed="T"/>何業生於彼處？彼見：有人殺生、偷盜、邪行、飲
+<lb n="0069c22" ed="T"/>酒、妄語、邪見，樂行多作，業及果報如前所說。
+<lb n="0069c23" ed="T"/>復有邪行，所謂：比丘貪染心故不相應行，以
+<lb n="0069c24" ed="T"/>酒誘誑持戒婦人，壞其心已，然後共行或與
+<lb n="0069c25" ed="T"/>財物。彼人以是惡業因緣，身壞命終墮於
+<lb n="0069c26" ed="T"/>惡處，在彼地獄普受一切資生苦處，受大苦
+<lb n="0069c27" ed="T"/>惱。所謂苦者，如前所說，活等地獄所受苦
+<lb n="0069c28" ed="T"/>惱，彼一切苦此中具受。彼人常恒修習<anchor xml:id="nkr_note_orig_0069008" n="0069008"/><anchor xml:id="nkr_note_mod_0069008" n="0069008"/><anchor xml:id="beg0069008" n="0069008"/>苦
+<lb n="0069c29" ed="T"/>栽<anchor xml:id="end0069008"/>而捨善行修習惡道，如是不善惡業行人，
+<pb n="0070a" ed="T" xml:id="T17.0721.0070a"/>
+<lb n="0070a01" ed="T"/>習不善道，喜樂習行，以惡業行之因緣故，於
+<lb n="0070a02" ed="T"/>彼地獄受更重苦，極急堅惡大重苦惱，活
+<lb n="0070a03" ed="T"/>等地獄所受苦惱，彼一切苦此中具受，所
+<lb n="0070a04" ed="T"/>謂：彼處自從足指乃至於頭，焰刀剝割一切
+<lb n="0070a05" ed="T"/>身皮，不侵其肉，如是剝<anchor xml:id="nkr_note_orig_0070001" n="0070001"/><anchor xml:id="nkr_note_mod_0070001" n="0070001"/><anchor xml:id="beg0070001" n="0070001"/>削<anchor xml:id="end0070001"/>一切身分與大
+<lb n="0070a06" ed="T"/>苦惱，既剝其皮，與身相連，敷在熱地以火
+<lb n="0070a07" ed="T"/>燒之。身既無皮，閻魔羅人以熱鐵鉢盛熱
+<lb n="0070a08" ed="T"/>沸灰，灌其身體，彼人如是被燒烝煮受大
+<lb n="0070a09" ed="T"/>苦惱，唱聲大喚、呼嗟號哭。如是無量百千
+<lb n="0070a10" ed="T"/>年歲受大苦惱，年歲無數不可得脫，常受
+<lb n="0070a11" ed="T"/>如是竪鞕苦惱，<anchor xml:id="nkr_note_orig_0070002" n="0070002"/><anchor xml:id="beg0070002" n="0070002"/>乃<anchor xml:id="end0070002"/>至惡業未壞未爛、業氣未
+<lb n="0070a12" ed="T"/>盡，於一切時與苦不止；若惡業盡，彼地獄
+<lb n="0070a13" ed="T"/>處爾乃得脫。若於前世過去久遠有<anchor xml:id="nkr_note_orig_0070003" n="0070003"/><anchor xml:id="beg0070003" n="0070003"/>善<anchor xml:id="end0070003"/>業
+<lb n="0070a14" ed="T"/>熟，不生餓鬼、畜生之道，難得人身，如龜遇
+<lb n="0070a15" ed="T"/>孔。若生人中同業之處，常貧常病，得極惡病，
+<lb n="0070a16" ed="T"/>海畔眾生，同業生人形體不具，所謂一脚、
+<lb n="0070a17" ed="T"/>一眼、一臂，其身<anchor xml:id="nkr_note_orig_0070004" n="0070004"/><anchor xml:id="nkr_note_mod_0070004" n="0070004"/><anchor xml:id="beg0070004" n="0070004"/>獨<anchor xml:id="end0070004"/>短，命則不長，或一日壽，
+<lb n="0070a18" ed="T"/>如是處生。是彼惡業餘殘果報。</p>
+<lb n="0070a19" ed="T"/><p xml:id="pT17p0070a1901">「又彼比丘知業果報，觀大焦熱之大地獄，復
+<lb n="0070a20" ed="T"/>有何處？彼見聞知：復有異處，所謂<anchor xml:id="nkr_note_orig_0070005" n="0070005"/><anchor xml:id="beg0070005" n="0070005"/>有<anchor xml:id="end0070005"/>河，其
+<lb n="0070a21" ed="T"/>河名曰鞞多羅尼惡燒惡<anchor xml:id="beg_7e" type="star"/>漂<anchor xml:id="end_7e"/>，是彼地獄第
+<lb n="0070a22" ed="T"/>八別處。眾生何業生於彼處？彼見：有人殺生、
+<lb n="0070a23" ed="T"/>偷盜、邪行、飲酒、妄語、邪見，樂行多作，業及果
+<lb n="0070a24" ed="T"/>報如前所說。復有邪行，所謂：有人燒香索
+<lb n="0070a25" ed="T"/>婦，把手相付，彼婦無過，心生厭賤，強與作
+<lb n="0070a26" ed="T"/>過，既與過已，猶故喜樂而共行欲。彼人以
+<lb n="0070a27" ed="T"/>是惡業因緣，身壞命終墮於惡處，在彼地
+<lb n="0070a28" ed="T"/>獄鞞多羅尼惡燒惡<anchor xml:id="beg_7f" type="star"/>漂<anchor xml:id="end_7f"/>大河之處，受大苦惱。
+<lb n="0070a29" ed="T"/>所謂苦者，如前所說，活等地獄所受苦惱，彼
+<pb n="0070b" ed="T" xml:id="T17.0721.0070b"/>
+<lb n="0070b01" ed="T"/>一切苦此中具受。復有勝者，謂：於闇聚虛
+<lb n="0070b02" ed="T"/>空之中，雨熱鐵杖，惡業所作，其杖極利入
+<lb n="0070b03" ed="T"/>在地獄罪人身中，入已極燒，一切身分普皆
+<lb n="0070b04" ed="T"/>作孔，<anchor xml:id="nkr_note_orig_0070006" n="0070006"/><anchor xml:id="beg0070006" n="0070006"/>劈<anchor xml:id="end0070006"/>割燒煮，一切身分皆悉分離，內外
+<lb n="0070b05" ed="T"/>火燒受極苦惱。焰燃鐵杖如是<anchor xml:id="beg_80" type="star"/>劈<anchor xml:id="end_80"/>已，極受
+<lb n="0070b06" ed="T"/>大苦，彼苦堅鞕不可譬喻，彼地獄人既受
+<lb n="0070b07" ed="T"/>大苦，處處馳走墮在嶮岸，岸下有河，其河
+<lb n="0070b08" ed="T"/>名曰鞞多羅尼惡燒惡<anchor xml:id="beg_81" type="star"/>漂<anchor xml:id="end_81"/>。以惡業故，滿中
+<lb n="0070b09" ed="T"/>惡蛇，罪人見之驚怖極苦，如是惡蛇，焰牙
+<lb n="0070b10" ed="T"/>惡毒，碎其身體分分如塵而噉食之，極受
+<lb n="0070b11" ed="T"/>大苦，唱聲號哭。乃至惡業未壞未爛、業氣未
+<lb n="0070b12" ed="T"/>盡，於一切時與苦不止，年歲無數；若惡業盡，
+<lb n="0070b13" ed="T"/>彼地獄處爾乃得脫。若其不墮餓鬼、畜生，難
+<lb n="0070b14" ed="T"/>得人身，如龜遇孔。若生人中同業之處，常
+<lb n="0070b15" ed="T"/>貧常病、常有悲苦，為他所使，諸根不具，生
+<lb n="0070b16" ed="T"/>在邊地凍山雪山，其面極醜如<anchor xml:id="nkr_note_orig_0070007" n="0070007"/><anchor xml:id="beg0070007" n="0070007"/>草<anchor xml:id="end0070007"/>馬面，唯
+<lb n="0070b17" ed="T"/>食根<anchor xml:id="nkr_note_orig_0070008" n="0070008"/><anchor xml:id="nkr_note_mod_0070008" n="0070008"/><anchor xml:id="beg0070008" n="0070008"/>菓<anchor xml:id="end0070008"/>以存性命，不曾知有稻粟等食。是
+<lb n="0070b18" ed="T"/>彼本業餘殘果報。</p>
+<lb n="0070b19" ed="T"/><p xml:id="pT17p0070b1901">「又彼比丘知業果報，觀大焦熱之大地獄，復
+<lb n="0070b20" ed="T"/>有何處？彼見聞知：復有異處名無間闇，是彼
+<lb n="0070b21" ed="T"/>地獄第九別處。眾生何業生於彼處？彼見：有
+<lb n="0070b22" ed="T"/>人殺生、偷盜、邪行、飲酒、妄語、邪見，樂行多作，
+<lb n="0070b23" ed="T"/>業及果報如前所說。又復有人於離外染境
+<lb n="0070b24" ed="T"/>界繫縛貪欲、瞋、癡三煩惱，軟修善之人，而遣
+<lb n="0070b25" ed="T"/>婦女勸誘令退。彼人以是惡業因緣，身壞命
+<lb n="0070b26" ed="T"/>終墮於惡處，在彼地獄無間闇處受大苦惱。
+<lb n="0070b27" ed="T"/>所謂苦者，如前所說，活等地獄一切所受堅
+<lb n="0070b28" ed="T"/>惡苦惱，彼一切苦此中具受。復有勝者：彼
+<lb n="0070b29" ed="T"/>地獄處有地<anchor xml:id="nkr_note_orig_0070009" n="0070009"/><anchor xml:id="nkr_note_mod_0070009" n="0070009"/><anchor xml:id="beg0070009" n="0070009"/>盆<anchor xml:id="end0070009"/>虫，口嘴極利能破金剛，令
+<pb n="0070c" ed="T" xml:id="T17.0721.0070c"/>
+<lb n="0070c01" ed="T"/>如水沫。罪人惡業有如是虫，於彼惡虫所得
+<lb n="0070c02" ed="T"/>苦惱勝地獄苦，若受虫苦，彼地獄苦則為
+<lb n="0070c03" ed="T"/>大樂。彼地<anchor xml:id="beg_82" type="star"/>盆<anchor xml:id="end_82"/>虫破罪人骨而食其髓，彼地
+<lb n="0070c04" ed="T"/>獄中一切諸苦皆悉和合，於受虫苦百分之
+<lb n="0070c05" ed="T"/>中不及其一，於千分中不及其一，百千分中
+<lb n="0070c06" ed="T"/>亦不及一。於彼惡虫不能得脫，處處遍走，隨
+<lb n="0070c07" ed="T"/>彼彼處皆不得脫。如是無量百千年歲常
+<lb n="0070c08" ed="T"/>燒常煮，於餘一切地獄罪人所受苦惱最惡
+<lb n="0070c09" ed="T"/>最重，受如是苦。於一切時，彼地獄處如是
+<lb n="0070c10" ed="T"/>燒煮而亦不死。以彼惡業作集勢力，地獄
+<lb n="0070c11" ed="T"/>和集常如是燒、常如是煮，乃至作集惡不
+<lb n="0070c12" ed="T"/>善業未壞未爛、業氣未盡，於一切時與苦
+<lb n="0070c13" ed="T"/>不止；若惡業盡，彼地獄處爾乃得脫。若於
+<lb n="0070c14" ed="T"/>前世過去久遠有善業熟，不生餓鬼、畜生之
+<lb n="0070c15" ed="T"/>道，難得人身，如龜遇孔。若生人中同業之
+<lb n="0070c16" ed="T"/>處，生婬女家為彼作奴，顏色不好，手足破
+<lb n="0070c17" ed="T"/><anchor xml:id="beg_83" type="star"/>裂<anchor xml:id="end_83"/>，恒常負水。是彼惡業餘殘果報。</p>
+<lb n="0070c18" ed="T"/><p xml:id="pT17p0070c1801">「又彼比丘知業果報，觀大焦熱之大地獄，復
+<lb n="0070c19" ed="T"/>有何處？彼見聞知：復有異處名苦鬘處，是
+<lb n="0070c20" ed="T"/>彼地獄第十別處。眾生何業生於彼處？彼見：
+<lb n="0070c21" ed="T"/>有人殺生、偷盜、邪行、飲酒、妄語、邪見，樂行多
+<lb n="0070c22" ed="T"/>作，業及果報如前所說。復有惡婬：有善比
+<lb n="0070c23" ed="T"/>丘持戒正行，於律無犯。種姓有事故生怖
+<lb n="0070c24" ed="T"/>畏，入所信家，而彼舍主邪婬婦人，語言：『比
+<lb n="0070c25" ed="T"/>丘共我行欲。若不肯者，我則舉告，必令比丘
+<lb n="0070c26" ed="T"/>於王得罰。或語我夫，作如是言：「比丘侵我。」若
+<lb n="0070c27" ed="T"/>共我欲，多與比丘佉陀尼食、種種美飲，我與
+<lb n="0070c28" ed="T"/>比丘二人極樂，更無人知。我向人說：「此好比
+<lb n="0070c29" ed="T"/>丘，第一持戒。有多臥具、病藥因緣具足檀
+<pb n="0071a" ed="T" xml:id="T17.0721.0071a"/>
+<lb n="0071a01" ed="T"/>越，我能教化，必令比丘事事皆得。」』彼人如是
+<lb n="0071a02" ed="T"/>誑善比丘，令退正道。如是婦女惡業因緣，身
+<lb n="0071a03" ed="T"/>壞命終墮於惡處，在彼地獄生苦鬘處受大
+<lb n="0071a04" ed="T"/>苦惱。所謂苦者，如前所說，活等地獄所受苦
+<lb n="0071a05" ed="T"/>惱，彼一切苦此中具受。復有勝者，所謂：彼處
+<lb n="0071a06" ed="T"/>閻魔羅人取彼婦女，以利鐵刷，刷其皮肉，
+<lb n="0071a07" ed="T"/>肉盡骨在而復<anchor xml:id="nkr_note_orig_0071001" n="0071001"/><anchor xml:id="beg0071001" n="0071001"/>更<anchor xml:id="end0071001"/>生，生則軟<anchor xml:id="beg_84" type="star"/>嫩<anchor xml:id="end_84"/>而復更刷；
+<lb n="0071a08" ed="T"/>刷已復生，生已復刷。閻魔羅人取彼婦女，肉
+<lb n="0071a09" ed="T"/>生轉多而復<anchor xml:id="nkr_note_orig_0071002" n="0071002"/><anchor xml:id="beg0071002" n="0071002"/>坏<anchor xml:id="end0071002"/><anchor xml:id="beg_85" type="star"/>嫩<anchor xml:id="end_85"/>，鐵刷焰燃遍刷其身而
+<lb n="0071a10" ed="T"/>復火燒。如是婦女極受苦惱，唱喚<anchor xml:id="nkr_note_orig_0071003" n="0071003"/><anchor xml:id="nkr_note_mod_0071003" n="0071003"/><anchor xml:id="beg0071003" n="0071003"/>啼<anchor xml:id="end0071003"/>哭，作
+<lb n="0071a11" ed="T"/>集惡業，常一切時如是受苦，處處馳走。以
+<lb n="0071a12" ed="T"/>惡業故，見本比丘來向其身，欲意所誑，疾走
+<lb n="0071a13" ed="T"/>往趣，業怨難捨。如是惡處，欲心猶在，見彼
+<lb n="0071a14" ed="T"/>比丘抱其身體，則入火<anchor xml:id="beg_86" type="star"/>盆<anchor xml:id="end_86"/>，普火焰燃。如是
+<lb n="0071a15" ed="T"/>無量百千年歲，於苦鬘處受極堅鞕第一大
+<lb n="0071a16" ed="T"/>苦，乃至惡業未壞未爛、業氣未盡，於一切時
+<lb n="0071a17" ed="T"/>與苦不止；若惡業盡，彼地獄處爾乃得脫。雖
+<lb n="0071a18" ed="T"/>脫彼處，於五百世生畜生中。若脫彼處，難得
+<lb n="0071a19" ed="T"/>人身，如龜遇孔。若生人中同業之處，則為婦
+<lb n="0071a20" ed="T"/>女，在於城中常除糞屎；城中所有一切人中
+<lb n="0071a21" ed="T"/>最為凡鄙，貧窮醜陋、手足<anchor xml:id="nkr_note_orig_0071004" n="0071004"/><anchor xml:id="nkr_note_mod_0071004" n="0071004"/><anchor xml:id="beg0071004" n="0071004"/>劈<anchor xml:id="end0071004"/><anchor xml:id="nkr_note_rest_0071004" n="0071004"/>裂、脣口兔缺、
+<lb n="0071a22" ed="T"/>面色甚惡，無父無母、無有諸親兄弟姊妹，常
+<lb n="0071a23" ed="T"/>從他人乞食活命，衣裳破壞，垢穢不淨，身闕
+<lb n="0071a24" ed="T"/>一<anchor xml:id="nkr_note_orig_0071005" n="0071005"/><anchor xml:id="nkr_note_mod_0071005" n="0071005"/><anchor xml:id="beg0071005" n="0071005"/>廂<anchor xml:id="end0071005"/>；於顯現處身有傷破，為諸童子之所
+<lb n="0071a25" ed="T"/>打擲，受苦而活。是彼惡業餘殘果報。</p>
+<lb n="0071a26" ed="T"/><cb:juan n="012" fun="close"><cb:jhead><anchor xml:id="nkr_note_orig_0071006" n="0071006"/><anchor xml:id="beg0071006" n="0071006"/><title>正法念處經</title>卷第十二<anchor xml:id="end0071006"/></cb:jhead></cb:juan>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0065012" to="#end0065012"><lem wit="#wit1">品</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">品第三</rdg></app>
+<app from="#beg0065013" to="#end0065013"><lem wit="#wit1">邪</lem><rdg resp="#resp2" wit="#wit4">衺</rdg></app>
+<app from="#beg0065014" to="#end0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<app from="#beg0065015" to="#end0065015"><lem wit="#wit1">於</lem><rdg resp="#resp2" wit="#wit4">于</rdg></app>
+<app from="#beg0065016" to="#end0065016"><lem wit="#wit1">唯</lem><rdg resp="#resp2" wit="#wit4">惟</rdg></app>
+<app from="#beg0066001" to="#end0066001"><lem wit="#wit1">爪</lem><rdg resp="#resp2" wit="#wit5">扴</rdg></app>
+<app from="#beg_74" to="#end_74" corresp="#0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<app from="#beg0066002" to="#end0066002"><lem wit="#wit1">鑞</lem><rdg resp="#resp2" wit="#wit4">蠟</rdg></app>
+<app from="#beg_75" to="#end_75" corresp="#0066002"><lem wit="#wit1">鑞</lem><rdg resp="#resp2" wit="#wit4">蠟</rdg></app>
+<app from="#beg_76" to="#end_76" corresp="#0066002"><lem wit="#wit1">鑞</lem><rdg resp="#resp2" wit="#wit4">蠟</rdg></app>
+<app from="#beg0066003" to="#end0066003"><lem wit="#wit1">過</lem><rdg resp="#resp2" wit="#wit4">過<note place="inline">彼疑作被義穩但經文常用不必改</note></rdg></app>
+<app from="#beg0066004" to="#end0066004"><lem wit="#wit1">髻</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">鬘</rdg></app>
+<app from="#beg0066005" to="#end0066005"><lem wit="#wit1">浚</lem><rdg resp="#resp2" wit="#wit3 #wit4">迅</rdg><rdg resp="#resp2" wit="#wit5">後</rdg></app>
+<app from="#beg_77" to="#end_77" corresp="#0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<app from="#beg_78" to="#end_78" corresp="#0066002"><lem wit="#wit1">鑞</lem><rdg resp="#resp2" wit="#wit4">蠟</rdg></app>
+<app from="#beg_79" to="#end_79" corresp="#0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<choice cb:from="#beg_7a" cb:to="#end_7a"><corr>已</corr><sic>己</sic></choice>
+<app from="#beg0066006" to="#end0066006"><lem wit="#wit1">地<lb n="0066b26" ed="T"/>獄</lem><rdg resp="#resp2" wit="#wit4">獄地</rdg></app>
+<app from="#beg0066007" to="#end0066007"><lem wit="#wit1">責</lem><rdg resp="#resp2" wit="#wit4">嘖</rdg></app>
+<app from="#beg0066008" to="#end0066008"><lem wit="#wit1">饒</lem><rdg resp="#resp2" wit="#wit5">燒</rdg></app>
+<app from="#beg0066009" to="#end0066009"><lem wit="#wit1">今</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">令</rdg></app>
+<app from="#beg0067001" to="#end0067001"><lem wit="#wit1">又</lem><rdg resp="#resp2" wit="#wit5">一又</rdg></app>
+<app from="#beg0067002" to="#end0067002"><lem wit="#wit1">方</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">大</rdg></app>
+<app from="#beg0067003" to="#end0067003"><lem wit="#wit1">果</lem><rdg resp="#resp2" wit="#wit4">果<note place="inline">死生後句倒今正</note></rdg></app>
+<app from="#beg0067004" to="#end0067004"><lem wit="#wit1">酥</lem><rdg resp="#resp2" wit="#wit2 #wit5">蘇</rdg></app>
+<app from="#beg0067005" to="#end0067005"><lem wit="#wit1">裂</lem><rdg resp="#resp2" wit="#wit2 #wit5">烈</rdg></app>
+<app from="#beg0067006" to="#end0067006"><lem wit="#wit1">責</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">嘖</rdg></app>
+<app from="#beg_7b" to="#end_7b" corresp="#0067006"><lem wit="#wit1">責</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">嘖</rdg></app>
+<app from="#beg_7c" to="#end_7c" corresp="#0067006"><lem wit="#wit1">責</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">嘖</rdg></app>
+<app from="#beg0067007" to="#end0067007"><lem wit="#wit1">若</lem><rdg resp="#resp2" wit="#wit5">苦</rdg></app>
+<app from="#beg0068001" to="#end0068001"><lem wit="#wit1">面</lem><rdg resp="#resp2" wit="#wit5">而</rdg></app>
+<app from="#beg0068002" to="#end0068002"><lem wit="#wit1">復食食</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">已復食</rdg></app>
+<app from="#beg0068003" to="#end0068003"><lem wit="#wit1">報</lem><rdg resp="#resp2" wit="#wit4">報<note place="inline">食已復食已下三句當改正作食已復生活已復食生已復食</note></rdg></app>
+<app from="#beg0068004" to="#end0068004"><lem wit="#wit1">火</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">尖</rdg></app>
+<app from="#beg0068005" to="#end0068005"><lem wit="#wit1">處</lem><rdg resp="#resp2" wit="#wit4">業</rdg></app>
+<app from="#beg0068006" to="#end0068006"><lem wit="#wit1">火</lem><rdg resp="#resp2" wit="#wit5">大</rdg></app>
+<app from="#beg0068007" to="#end0068007"><lem wit="#wit1">觸</lem><rdg resp="#resp2" wit="#wit5">角</rdg></app>
+<app from="#beg0068008" to="#end0068008"><lem wit="#wit1">理</lem><rdg resp="#resp2" wit="#wit4">里</rdg></app>
+<app from="#beg0068009" to="#end0068009"><lem wit="#wit1">火</lem><rdg resp="#resp2" wit="#wit2">有大</rdg><rdg resp="#resp2" wit="#wit3 #wit4 #wit5">有火</rdg></app>
+<app from="#beg0068010" to="#end0068010"><lem wit="#wit1">苦</lem><rdg resp="#resp2" wit="#wit5">若</rdg></app>
+<app from="#beg0068011" to="#end0068011"><lem wit="#wit1">趣</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">赴</rdg></app>
+<app from="#beg0068012" to="#end0068012"><lem wit="#wit1">埵</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">垛</rdg></app>
+<app from="#beg0069001" to="#end0069001"><lem wit="#wit1">嫩</lem><rdg resp="#resp2" wit="#wit5">始生</rdg></app>
+<app from="#beg0069002" to="#end0069002"><lem wit="#wit1">生人</lem><rdg resp="#resp2" wit="#wit4">人生</rdg></app>
+<app from="#beg0069003" to="#end0069003"><lem wit="#wit1">若</lem><rdg resp="#resp2" wit="#wit5">苦</rdg></app>
+<app from="#beg0069004" to="#end0069004"><lem wit="#wit1">沙</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">娑</rdg><rdg resp="#resp2" wit="#wit5">婆</rdg></app>
+<app from="#beg_7d" to="#end_7d" corresp="#0067005"><lem wit="#wit1">裂</lem><rdg resp="#resp2" wit="#wit2 #wit5">烈</rdg></app>
+<app from="#beg0069005" to="#end0069005"><lem wit="#wit1">黑</lem><rdg resp="#resp2" wit="#wit5">異</rdg></app>
+<app from="#beg0069006" to="#end0069006"><lem wit="#wit1">牝</lem><rdg resp="#resp2" wit="#wit5">牡</rdg></app>
+<app from="#beg0069007" to="#end0069007"><lem wit="#wit1">根</lem><rdg resp="#resp2" wit="#wit5">相</rdg></app>
+<app from="#beg0069008" to="#end0069008"><lem wit="#wit1">苦<lb n="0069c29" ed="T"/>栽</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">善戒</rdg></app>
+<app from="#beg0070001" to="#end0070001"><lem wit="#wit1">削</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">割</rdg></app>
+<app from="#beg0070002" to="#end0070002"><lem wit="#wit1">乃</lem><rdg resp="#resp2" wit="#wit2 #wit5">及</rdg></app>
+<app from="#beg0070003" to="#end0070003"><lem wit="#wit1">善</lem><rdg resp="#resp2" wit="#wit5">業</rdg></app>
+<app from="#beg0070004" to="#end0070004"><lem wit="#wit1">獨</lem><rdg resp="#resp2" wit="#wit2 #wit3"><g ref="#CB13549">㒔</g></rdg><rdg resp="#resp2" wit="#wit5">蜀</rdg></app>
+<app from="#beg0070005" to="#end0070005"><lem wit="#wit1">有</lem><rdg resp="#resp2" wit="#wit5">何</rdg></app>
+<app from="#beg_7e" to="#end_7e" corresp="#0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<app from="#beg_7f" to="#end_7f" corresp="#0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<app from="#beg0070006" to="#end0070006"><lem wit="#wit1">劈</lem><rdg resp="#resp2" wit="#wit5">礕</rdg></app>
+<app from="#beg_80" to="#end_80" corresp="#0070006"><lem wit="#wit1">劈</lem><rdg resp="#resp2" wit="#wit5">礕</rdg></app>
+<app from="#beg_81" to="#end_81" corresp="#0065014"><lem wit="#wit1">漂</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit5"><g ref="#CB00579">㵱</g></rdg></app>
+<app from="#beg0070007" to="#end0070007"><lem wit="#wit1">草</lem><rdg resp="#resp2" wit="#wit3 #wit4">騲</rdg></app>
+<app from="#beg0070008" to="#end0070008"><lem wit="#wit1">菓</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">草</rdg></app>
+<app from="#beg0070009" to="#end0070009"><lem wit="#wit1">盆</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">甕</rdg></app>
+<app from="#beg_82" to="#end_82" corresp="#0070009"><lem wit="#wit1">盆</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">甕</rdg></app>
+<app from="#beg_83" to="#end_83" corresp="#0067005"><lem wit="#wit1">裂</lem><rdg resp="#resp2" wit="#wit2 #wit5">烈</rdg></app>
+<app from="#beg0071001" to="#end0071001"><lem wit="#wit1">更</lem><rdg resp="#resp2" wit="#wit5">受</rdg></app>
+<app from="#beg_84" to="#end_84" corresp="#0069001"><lem wit="#wit1">嫩</lem><rdg resp="#resp2" wit="#wit5">始生</rdg></app>
+<app from="#beg0071002" to="#end0071002"><lem wit="#wit1">坏</lem><rdg resp="#resp2" wit="#wit3 #wit4">衃</rdg></app>
+<app from="#beg_85" to="#end_85" corresp="#0069001"><lem wit="#wit1">嫩</lem><rdg resp="#resp2" wit="#wit5">始生</rdg></app>
+<app from="#beg0071003" to="#end0071003"><lem wit="#wit1">啼</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">號</rdg></app>
+<app from="#beg_86" to="#end_86" corresp="#0070009"><lem wit="#wit1">盆</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4 #wit5">甕</rdg></app>
+<app from="#beg0071004" to="#end0071004"><lem wit="#wit1">劈</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">擘</rdg></app>
+<app from="#beg0071005" to="#end0071005"><lem wit="#wit1">廂</lem><rdg resp="#resp2" wit="#wit2">箱</rdg><rdg resp="#resp2" wit="#wit5">相</rdg></app>
+<app cb:word-count="9" from="#beg0071006" to="#end0071006"><lem wit="#wit1"><title>正法念處經</title>卷第十二</lem><rdg resp="#resp2" wit="#wit4"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0065012" resp="#resp3" type="mod" target="#nkr_note_mod_0065012">品＋（第三）【宋】【元】【明】【宮】</note>
+<note n="0066004" resp="#resp3" type="mod" target="#nkr_note_mod_0066004">髻＝鬘【宋】下同【元】下同【明】下同</note>
+<note n="0066005" resp="#resp3" type="mod" target="#nkr_note_mod_0066005">浚＝迅【元】【明】，＝後【宮】</note>
+<note n="0066009" resp="#resp3" type="mod" target="#nkr_note_mod_0066009">今＝令【宋】【元】【明】【宮】</note>
+<note n="0067002" resp="#resp3" type="mod" target="#nkr_note_mod_0067002">方＝大【宋】【元】【明】</note>
+<note n="0067006" resp="#resp3" type="mod" target="#nkr_note_mod_0067006">責＝嘖【宋】【元】【明】【宮】＊</note>
+<note n="0068002" resp="#resp3" type="mod" target="#nkr_note_mod_0068002">復食食＝已復食【宋】【元】【明】【宮】</note>
+<note n="0068004" resp="#resp3" type="mod" target="#nkr_note_mod_0068004">火＝尖【宋】【元】【明】【宮】</note>
+<note n="0068011" resp="#resp3" type="mod" target="#nkr_note_mod_0068011">趣＝赴【宋】【元】【明】【宮】</note>
+<note n="0068012" resp="#resp3" type="mod" target="#nkr_note_mod_0068012">埵＝垛【宋】【元】【明】</note>
+<note n="0069004" resp="#resp3" type="mod" target="#nkr_note_mod_0069004">沙＝娑【宋】【元】【明】，＝婆【宮】</note>
+<note n="0069008" resp="#resp3" type="mod" target="#nkr_note_mod_0069008">苦栽＝善戒【宋】【元】【明】【宮】</note>
+<note n="0070001" resp="#resp3" type="mod" target="#nkr_note_mod_0070001">削＝割【宋】【元】【明】【宮】</note>
+<note n="0070004" resp="#resp3" type="mod" target="#nkr_note_mod_0070004">獨＝<g ref="#CB13549">㒔</g>【宋】【元】，＝蜀【宮】</note>
+<note n="0070008" resp="#resp3" type="mod" target="#nkr_note_mod_0070008">菓＝草【宋】【元】【明】</note>
+<note n="0070009" resp="#resp3" type="mod" target="#nkr_note_mod_0070009">盆＝甕【宋】【元】【明】【宮】＊</note>
+<note n="0071003" resp="#resp3" type="mod" target="#nkr_note_mod_0071003">啼＝號【宋】【元】【明】【宮】</note>
+<note n="0071004" resp="#resp3" type="mod" target="#nkr_note_mod_0071004">劈＝擘【宋】【元】【明】，明註曰劈字二藏竝作擘宜用劈</note>
+<note n="0071005" resp="#resp3" type="mod" target="#nkr_note_mod_0071005">廂＝箱【宋】，＝相【宮】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0065012" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0065012">品＋（第三）【三】【宮】</note>
+<note n="0065013" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0065013">邪＝衺【明】下同</note>
+<note n="0065014" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0065014">漂＝<g ref="#CB00579">㵱</g>【宋】【元】【宮】＊</note>
+<note n="0065015" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0065015">於＝于【明】下同</note>
+<note n="0065016" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0065016">唯＝惟【明】下同</note>
+<note n="0066001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066001">爪＝扴【宮】</note>
+<note n="0066002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066002">鑞＝蠟【明】＊</note>
+<note n="0066003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066003">過＋（彼疑作被義穩但經文常用不必改）夾註【明】</note>
+<note n="0066004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066004">髻＝鬘【三】下同</note>
+<note n="0066005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066005">浚＝迅【元】【明】，後【宮】</note>
+<note n="0066006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066006">地獄＝獄地【明】</note>
+<note n="0066007" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066007">責＝嘖【明】下同</note>
+<note n="0066008" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066008">饒＝燒【宮】</note>
+<note n="0066009" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0066009">今＝令【三】【宮】</note>
+<note n="0067001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067001">（一）＋又【宮】</note>
+<note n="0067002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067002">方＝大【三】</note>
+<note n="0067003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067003">果＋（死生後句倒今正）夾註【明】</note>
+<note n="0067004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067004">酥＝蘇【宋】【宮】</note>
+<note n="0067005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067005">裂＝烈【宋】【宮】＊</note>
+<note n="0067006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067006">責＝嘖【三】【宮】＊</note>
+<note n="0067007" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0067007">若＝苦【宮】</note>
+<note n="0068001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068001">面＝而【宮】</note>
+<note n="0068002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068002">復食食＝已復食【三】【宮】</note>
+<note n="0068003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068003">報＋（食已復食已下三句當改正作食已復生活已復食生已復食）夾註【明】</note>
+<note n="0068004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068004">火＝尖【三】【宮】</note>
+<note n="0068005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068005">處＝業【明】</note>
+<note n="0068006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068006">火＝大【宮】</note>
+<note n="0068007" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068007">觸＝角【宮】</note>
+<note n="0068008" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068008">理＝里【明】</note>
+<note n="0068009" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068009">火＝有大【宋】，（有）＋火【元】【明】【宮】</note>
+<note n="0068010" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068010">苦＝若【宮】</note>
+<note n="0068011" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068011">趣＝赴【三】【宮】</note>
+<note n="0068012" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0068012">埵＝垛【三】</note>
+<note n="0069001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069001">嫩＝始生【宮】＊</note>
+<note n="0069002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069002">生人＝人生【明】</note>
+<note n="0069003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069003">若＝苦【宮】</note>
+<note n="0069004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069004">沙＝娑【三】，婆【宮】</note>
+<note n="0069005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069005">黑＝異【宮】</note>
+<note n="0069006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069006">牝＝牡【宮】</note>
+<note n="0069007" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069007">根＝相【宮】</note>
+<note n="0069008" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0069008">苦栽＝善戒【三】【宮】</note>
+<note n="0070001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070001">削＝割【三】【宮】</note>
+<note n="0070002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070002">乃＝及【宋】【宮】</note>
+<note n="0070003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070003">善＝業【宮】</note>
+<note n="0070004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070004">獨＝<g ref="#CB13549">㒔</g>【宋】【元】，蜀【宮】</note>
+<note n="0070005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070005">有＝何【宮】</note>
+<note n="0070006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070006">劈＝礕【宮】＊</note>
+<note n="0070007" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070007">草＝騲【元】【明】</note>
+<note n="0070008" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070008">菓＝草【三】</note>
+<note n="0070009" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0070009">盆＝甕【三】【宮】＊</note>
+<note n="0071001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0071001">更＝受【宮】</note>
+<note n="0071002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0071002">坏＝衃【元】【明】</note>
+<note n="0071003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0071003">啼＝號【三】【宮】</note>
+<note n="0071004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0071004">劈＝擘【三】，明註曰劈字二藏竝作擘宜用劈</note>
+<note n="0071005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0071005">廂＝箱【宋】，相【宮】</note>
+<note n="0071006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0071006">〔正法…二〕九字－【明】</note>
+</p>
+</cb:div>
+<cb:div type="rest-notes">
+<head>其他註解</head>
+<p>
+<note n="0071004" place="foot" type="rest" target="#nkr_note_rest_0071004">明註曰劈字二藏竝作擘宜用劈</note>
+</p>
+</cb:div>
+</back></text></TEI>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T13n0411">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0411 大乘大集地藏十輪經</title>
+			<author>唐 玄奘譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.27 $<date>$Date: 2012/08/27 03:14:44 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+	</editionStmt>
+	<extent>10卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/08/27 03:14:44 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 13, No. 411 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宋】</witness>
+		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【聖】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as inputted by Buddhist Tripitaka OCR Team, Text as provided by Anonymous from USA, Punctuated text as provided by Lilneige</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，佛教藏 OCR 小組輸入，北美某大德提供，Lilneige 提供新式標點</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB02800">
+	<charName>CBETA CHARACTER CB02800</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[病-丙+今]</value>
+	</charProp>
+	<mapping type="unicode">U+24D3D</mapping>
+	<mapping cb:dec="985840" type="PUA">U+F0AF0</mapping>
+</char>
+<char xml:id="CB08370">
+	<charName>CBETA CHARACTER CB08370</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[舌*今]</value>
+	</charProp>
+	<mapping type="unicode">U+269C8</mapping>
+	<mapping cb:dec="991410" type="PUA">U+F20B2</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-10-12T08:28:30">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="5" type="品">4 有依行品</cb:mulu><cb:div type="pin">
+<lb n="0756b18" ed="T"/>
+<milestone n="7" unit="juan"/>
+<lb n="0756b19" ed="T"/>
+<lb n="0756b20" ed="T"/><cb:juan n="007" fun="open"><cb:mulu n="007" type="卷"></cb:mulu><cb:jhead><title>大乘大集地藏十輪經</title>卷第七</cb:jhead>
+<lb n="0756b21" ed="T"/>
+<lb n="0756b22" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0756004" n="0756004"/><anchor xml:id="beg0756004" n="0756004"/>三<anchor xml:id="end0756004"/>藏法師玄奘奉　詔譯</byline>
+<lb n="0756b23" ed="T"/><cb:jhead type="pin">有依行品第四之三</cb:jhead></cb:juan>
+<lb n="0756b24" ed="T"/><p xml:id="pT13p0756b2401">「復次，善男子！有諸眾生，稟性暴惡，言<anchor xml:id="nkr_note_orig_0756005" n="0756005"/><anchor xml:id="nkr_note_mod_0756005" n="0756005"/><anchor xml:id="beg0756005" n="0756005"/>辭<anchor xml:id="end0756005"/>麁
+<lb n="0756b25" ed="T"/>獷；實是愚癡，懷聰明慢，不斷殺生，乃至邪
+<lb n="0756b26" ed="T"/>見。於他所得利養、恭敬、世所稱譽，深生嫉
+<lb n="0756b27" ed="T"/>妬；常自追求利養、恭敬、世所稱譽，曾無厭
+<lb n="0756b28" ed="T"/>倦。恒自讚<anchor xml:id="nkr_note_orig_0756006" n="0756006"/><anchor xml:id="nkr_note_mod_0756006" n="0756006"/><anchor xml:id="beg0756006" n="0756006"/>譽<anchor xml:id="end0756006"/>，輕毀於他；不自防護身、語、意
+<lb n="0756b29" ed="T"/>業，常樂習行一切惡行；內<anchor xml:id="nkr_note_orig_0756007" n="0756007"/><anchor xml:id="nkr_note_mod_0756007" n="0756007"/><anchor xml:id="beg0756007" n="0756007"/>行<anchor xml:id="end0756007"/>磣毒，無有悲
+<pb n="0756c" ed="T" xml:id="T13.0411.0756c"/>
+<lb n="0756c01" ed="T"/>愍，無慚、無愧，憙觸惱他，於諸福田好簡勝
+<lb n="0756c02" ed="T"/>劣。於歸我法諸出家人，常樂伺求，所有瑕
+<lb n="0756c03" ed="T"/>隙，纔得少相，未審真虛，即便輕毀、呵罵、讁
+<lb n="0756c04" ed="T"/>罰；其心剛強，<anchor xml:id="nkr_note_orig_0756008" n="0756008"/><anchor xml:id="nkr_note_mod_0756008" n="0756008"/><anchor xml:id="beg0756008" n="0756008"/>佷<anchor xml:id="end0756008"/>戾迷亂，常憙觸惱諸出家
+<lb n="0756c05" ed="T"/>人，不省己過念譏他闕。雖聞讚歎大乘
+<lb n="0756c06" ed="T"/>功德發意趣求，而心好為諸重惡事，曾未
+<lb n="0756c07" ed="T"/>寂靜。誑惑他故，於大乘法，現自聽聞教他
+<lb n="0756c08" ed="T"/>聽聞，現自讀誦教他讀誦。為自薦舉<anchor xml:id="nkr_note_orig_0756009" n="0756009"/><anchor xml:id="nkr_note_mod_0756009" n="0756009"/><anchor xml:id="beg0756009" n="0756009"/>陵<anchor xml:id="end0756009"/>伏
+<lb n="0756c09" ed="T"/>他故，於大乘法恭敬讚美，自於大乘諸行
+<lb n="0756c10" ed="T"/>境界，不曾修學未能悟解，而自稱號我是
+<lb n="0756c11" ed="T"/>大乘，誘勸他人附己修學，規求名利以
+<lb n="0756c12" ed="T"/>自活命。譬如破戒惡持律師，自犯尸羅，樂
+<lb n="0756c13" ed="T"/>行惡行，為名利故誘勸他人，令勤修學
+<lb n="0756c14" ed="T"/>毘奈耶藏。如是諂曲虛詐眾生，下賤人身尚
+<lb n="0756c15" ed="T"/>當難得，退失善趣、二乘涅槃，況得大乘終
+<lb n="0756c16" ed="T"/>無是處，當墮惡趣難有出期，諸有智人不
+<lb n="0756c17" ed="T"/>應親近。而無慚愧於大眾中，自號大乘
+<lb n="0756c18" ed="T"/>如師子吼，為名利故，誘誑愚癡，令親附
+<lb n="0756c19" ed="T"/>己共為朋黨。譬如有驢<anchor xml:id="nkr_note_orig_0756010" n="0756010"/><anchor xml:id="nkr_note_mod_0756010" n="0756010"/><anchor xml:id="beg0756010" n="0756010"/>披<anchor xml:id="end0756010"/>師子皮，而便自
+<lb n="0756c20" ed="T"/>謂以為師子。有人遙見謂真師子，及至鳴
+<lb n="0756c21" ed="T"/>已皆識是驢，咸共唾言：『此非師子，是食不
+<lb n="0756c22" ed="T"/>淨，真弊惡驢。』種種呵叱，皆共捨去。</p><p xml:id="pT13p0756c2214" rend="inline">「我說如是
+<lb n="0756c23" ed="T"/>補特伽羅，常樂習行十惡業道，燒滅一切人
+<lb n="0756c24" ed="T"/>天種子，尚退聲聞獨覺乘法，況於大乘能
+<lb n="0756c25" ed="T"/>成法器！愚癡憍慢自號大乘，誑惑他人招
+<lb n="0756c26" ed="T"/>集利養。譬如<anchor xml:id="beg_59" type="cb-app"/>癡<anchor xml:id="end_59"/>慢無手足人，欲興戰伐入
+<lb n="0756c27" ed="T"/>於大陣，徒設功效，終無剋成。詐號大乘亦
+<lb n="0756c28" ed="T"/>復如是，信手戒足無有一全，不自崖揆所
+<lb n="0756c29" ed="T"/>堪行業，欲興戰伐煩惱大陣，徒設功效，終
+<pb n="0757a" ed="T" xml:id="T13.0411.0757a"/>
+<lb n="0757a01" ed="T"/>無剋成。我說是人不護三業，專行惡行，妄
+<lb n="0757a02" ed="T"/>號大乘，實於三乘皆非法器，而欲破壞一
+<lb n="0757a03" ed="T"/>切眾生勇健堅牢煩惱大陣，欲皆顯示一切
+<lb n="0757a04" ed="T"/>眾生八支聖道，令入無畏涅槃之城，終無
+<lb n="0757a05" ed="T"/>是處。</p><p xml:id="pT13p0757a0503" rend="inline">「所以者何？善男子！夫大乘者，受持第
+<lb n="0757a06" ed="T"/>一清淨律儀，修行第一微妙善行，具足第一
+<lb n="0757a07" ed="T"/>堅固慚愧。深見深畏後世苦果，遠離所有一
+<lb n="0757a08" ed="T"/>切惡法，常樂修行一切善法。慈悲常遍一切
+<lb n="0757a09" ed="T"/>有情，恒普為作利益安樂，救濟度脫一切
+<lb n="0757a10" ed="T"/>有情所有厄難生死眾苦，不顧自身所有安
+<lb n="0757a11" ed="T"/>樂，唯求安樂一切有情。如是名為住大乘
+<lb n="0757a12" ed="T"/>者。</p><p xml:id="pT13p0757a1202" rend="inline">「善男子！有何等相名聲聞乘？謂諸眾生，
+<lb n="0757a13" ed="T"/>常勤精進，安住正念，樂等引定，離諸諂誑，
+<lb n="0757a14" ed="T"/>信知業果，不著五欲，世間<anchor xml:id="nkr_note_orig_0757001" n="0757001"/><anchor xml:id="beg0757001" n="0757001"/>八<anchor xml:id="end0757001"/>法所不能
+<lb n="0757a15" ed="T"/>染，修善勇猛如救頭然，常審諦觀諸蘊界
+<lb n="0757a16" ed="T"/>處，恒樂安住所有聖種。具此相者，名聲聞
+<lb n="0757a17" ed="T"/>乘。如是眾生，尚未能成獨覺乘器，況復能
+<lb n="0757a18" ed="T"/>成大乘法器！</p><p xml:id="pT13p0757a1806" rend="inline">「善男子！有何等相名獨覺乘？
+<lb n="0757a19" ed="T"/>謂諸眾生，具上聲聞一切功德，復能於彼五
+<lb n="0757a20" ed="T"/>取蘊中，數數安住隨無常觀，數數安住隨生
+<lb n="0757a21" ed="T"/>滅觀。普於一切緣生法中，能審諦觀皆是滅
+<lb n="0757a22" ed="T"/>法。具此相者名獨覺乘。如是眾生非大乘
+<lb n="0757a23" ed="T"/>器。」</p><p xml:id="pT13p0757a2302" rend="inline">爾時，世尊重顯此義而說頌曰：</p>
+<lb n="0757a24" ed="T"/><lg xml:id="lgT13p0757a2401" rend="margin-left:1em;text-indent:-1em"><l>「若真善人剎帝利，</l><l>乃至真善<anchor xml:id="beg_5a" type="cb-app"/>戍<anchor xml:id="end_5a"/>達羅，</l>
+<lb n="0757a25" ed="T"/><l>修信等十有依輪，</l><l>於聲聞乘速成器。</l>
+<lb n="0757a26" ed="T"/><l>求獨覺乘三業淨，</l><l>具足慚愧怖諸蘊，</l>
+<lb n="0757a27" ed="T"/><l>知過樂靜住空閑，</l><l>念守諸根心寂定；</l>
+<lb n="0757a28" ed="T"/><l>善觀緣起修靜慮，</l><l>諸蘊界處巧能觀，</l>
+<lb n="0757a29" ed="T"/><l>具此十行有依輪，</l><l>成勝乘器度有海。</l>
+<pb n="0757b" ed="T" xml:id="T13.0411.0757b"/>
+<lb n="0757b01" ed="T"/><l>修共三乘二乘輪，</l><l>自求解脫煩惱苦，</l>
+<lb n="0757b02" ed="T"/><l>不度有情不捨習，</l><l>此人俱非大乘器。</l>
+<lb n="0757b03" ed="T"/><l>愚癡懈怠根下劣，</l><l>於二乘法不勤修，</l>
+<lb n="0757b04" ed="T"/><l>定不能具大乘輪，</l><l>故非大乘廣大器。</l>
+<lb n="0757b05" ed="T"/><l>愚癡獨一求解脫，</l><l>劣意下行無慈悲，</l>
+<lb n="0757b06" ed="T"/><l>樂著斷見向惡趣，</l><l>棄捨正法說非法；</l>
+<lb n="0757b07" ed="T"/><l>毀謗二乘捨律行，</l><l>受具足戒號大乘，</l>
+<lb n="0757b08" ed="T"/><l>破亂我法惑眾生，</l><l>由此人身難復得。</l>
+<lb n="0757b09" ed="T"/><l>惱亂我法諸賢聖，</l><l><anchor xml:id="nkr_note_orig_0757002" n="0757002"/><anchor xml:id="nkr_note_mod_0757002" n="0757002"/><anchor xml:id="beg0757002" n="0757002"/>讁<anchor xml:id="end0757002"/>罰被赤袈裟人，</l>
+<lb n="0757b10" ed="T"/><l>呵罵遮奪衣鉢等，</l><l>長時退失人天趣。</l>
+<lb n="0757b11" ed="T"/><l>是故若欲復人身，</l><l>不患舌<anchor xml:id="nkr_note_orig_0757003" n="0757003"/><anchor xml:id="nkr_note_mod_0757003" n="0757003"/><anchor xml:id="beg0757003" n="0757003"/>庈<anchor xml:id="end0757003"/>而捨命，</l>
+<lb n="0757b12" ed="T"/><l>常樂值遇諸佛者，</l><l>普應弘護三乘法。</l>
+<lb n="0757b13" ed="T"/><l>欲得三乘最上乘，</l><l>應善觀察三乘法，</l>
+<lb n="0757b14" ed="T"/><l>歡喜為他普開示，</l><l>當得成佛定無疑。</l>
+<lb n="0757b15" ed="T"/><l>破戒慳<anchor xml:id="nkr_note_orig_0757004" n="0757004"/><anchor xml:id="nkr_note_mod_0757004" n="0757004"/><anchor xml:id="beg0757004" n="0757004"/>嫉<anchor xml:id="end0757004"/>懷憍慢，</l><l>自讚毀他號大乘，</l>
+<lb n="0757b16" ed="T"/><l>捨離此人依智者，</l><l>定當成佛度三界。</l>
+<lb n="0757b17" ed="T"/><l>於三乘器隨所宜，</l><l>慈悲為說三乘法，</l>
+<lb n="0757b18" ed="T"/><l>隨願令滿無慳嫉，</l><l>當得成佛定無疑。</l>
+<lb n="0757b19" ed="T"/><l>知蘊界處皆空寂，</l><l>無所依住譬虛空，</l>
+<lb n="0757b20" ed="T"/><l>說法等攝諸有情，</l><l>當獲妙覺無邊智。</l>
+<lb n="0757b21" ed="T"/><l>破戒意樂懷惡心，</l><l>聞說大乘勝功德，</l>
+<lb n="0757b22" ed="T"/><l>詐號大乘為名利，</l><l>如弊驢披師子皮。</l>
+<lb n="0757b23" ed="T"/><l>我今普告一切眾，</l><l>若欲疾得勝菩提，</l>
+<lb n="0757b24" ed="T"/><l>當善修持十善業，</l><l>護持我法勿毀壞。</l>
+<lb n="0757b25" ed="T"/><l>我昔諸餘契經說，</l><l>應求大覺行大乘，</l>
+<lb n="0757b26" ed="T"/><l>捨離聲聞獨覺乘，</l><l>為清淨者說斯法，</l>
+<lb n="0757b27" ed="T"/><l>曾供無量俱胝佛，</l><l>斷惡勤勞修淨心，</l>
+<lb n="0757b28" ed="T"/><l>我為勸進彼眾生，</l><l>故說一乘無第二。</l>
+<lb n="0757b29" ed="T"/><l>今此眾具三乘器，</l><l>有但堪住聲聞乘，</l>
+<pb n="0757c" ed="T" xml:id="T13.0411.0757c"/>
+<lb n="0757c01" ed="T"/><l>心極憂怖多事業，</l><l>彼非上妙菩提器；</l>
+<lb n="0757c02" ed="T"/><l>有癡樂靜住獨覺，</l><l>彼非上妙菩提器；</l>
+<lb n="0757c03" ed="T"/><l>有堪安住上妙智，</l><l>故隨所樂說三乘。</l>
+<lb n="0757c04" ed="T"/><l>具淨功德樂解脫，</l><l>聞說大乘墮惡趣，</l>
+<lb n="0757c05" ed="T"/><l>如病痰癊教服乳，</l><l>此增毒害非除疾。</l>
+<lb n="0757c06" ed="T"/><l>如是非器聲聞乘，</l><l>聞說大乘心迷亂，</l>
+<lb n="0757c07" ed="T"/><l>便起斷見墜惡趣，</l><l>故應說法審觀機。」</l></lg></cb:div>
+<lb n="0757c08" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="6" type="品">5 懺悔品</cb:mulu><head><title><anchor xml:id="nkr_note_orig_0757005" n="0757005"/><anchor xml:id="beg0757005" n="0757005"/>大乘大集地藏十輪經<anchor xml:id="end0757005"/></title>懺悔品第五</head>
+<lb n="0757c09" ed="T"/><p xml:id="pT13p0757c0901">爾時世尊說是頌已，於眾會中有無量百
+<lb n="0757c10" ed="T"/>千眾生——曾誤聞法，謬生空解，撥無因果，斷
+<lb n="0757c11" ed="T"/>滅善根，往諸惡趣，聞說此經還得正見——即
+<lb n="0757c12" ed="T"/>從座起，頂禮佛足，於世尊前，深生慚愧至
+<lb n="0757c13" ed="T"/>誠懺悔，合掌恭敬，而白佛言：「大德世尊！我等
+<lb n="0757c14" ed="T"/>本在聲聞乘中曾種善根，未能成熟聲聞
+<lb n="0757c15" ed="T"/>乘器。後復遇聞獨覺乘法，迷惑不了，便生
+<lb n="0757c16" ed="T"/>空見，撥無因果。由是因緣，造身、語、意無量
+<lb n="0757c17" ed="T"/>罪業，往諸惡趣。我等今者於世尊前，聞說
+<lb n="0757c18" ed="T"/>此經還得正見，深心慚愧，發露懺悔，不敢
+<lb n="0757c19" ed="T"/>覆藏，願悉除滅。從今<anchor xml:id="nkr_note_orig_0757006" n="0757006"/><anchor xml:id="beg0757006" n="0757006"/>已<anchor xml:id="end0757006"/>往永不復作，防護
+<lb n="0757c20" ed="T"/>當來所有罪障。唯願世尊！哀愍攝受令我等，
+<lb n="0757c21" ed="T"/>罪皆悉<anchor xml:id="nkr_note_orig_0757007" n="0757007"/><anchor xml:id="nkr_note_mod_0757007" n="0757007"/><anchor xml:id="beg0757007" n="0757007"/>銷<anchor xml:id="end0757007"/>滅，於當來世永不更造。唯願世
+<lb n="0757c22" ed="T"/>尊！哀愍濟拔我等當來惡趣苦報。我等今者
+<lb n="0757c23" ed="T"/>還願受行先所修集聲聞乘行，唯願世尊！
+<lb n="0757c24" ed="T"/>哀愍教授。」</p><p xml:id="pT13p0757c2405" rend="inline">世尊告曰：「善哉，善哉！汝等乃能如
+<lb n="0757c25" ed="T"/>是慚愧、發露懺悔。於我法中，有二種人名
+<lb n="0757c26" ed="T"/>無所犯：一者、稟性專精，本來不犯；二者、犯已，
+<lb n="0757c27" ed="T"/>慚愧、發露懺悔。此二種人於我法中，名為勇
+<lb n="0757c28" ed="T"/>健得清淨者。」</p><p xml:id="pT13p0757c2806" rend="inline">於是，世尊隨其所樂，方便為
+<lb n="0757c29" ed="T"/>說四聖諦法。於彼眾中，有得下品忍者，
+<pb n="0758a" ed="T" xml:id="T13.0411.0758a"/>
+<lb n="0758a01" ed="T"/>有得中品忍者，有得上品忍者，有得世
+<lb n="0758a02" ed="T"/>間第一法者，有得預流果者，有得一來
+<lb n="0758a03" ed="T"/>果者，有得不還果者。於中復有八萬四千
+<lb n="0758a04" ed="T"/>苾芻，諸漏永盡心得解脫，意善清淨成阿羅
+<lb n="0758a05" ed="T"/>漢。歡喜禮佛，還復本座。</p>
+<lb n="0758a06" ed="T"/><p xml:id="pT13p0758a0601">時，眾會中復有五十七百千那庾多眾生——曾
+<lb n="0758a07" ed="T"/>誤聞法，謬生空解，撥無因果，斷滅善根，往
+<lb n="0758a08" ed="T"/>諸惡趣，聞說此經還得正見——即從座起，頂
+<lb n="0758a09" ed="T"/>禮佛足，於世尊前，深生慚愧至誠懺悔，合
+<lb n="0758a10" ed="T"/>掌恭敬，而白佛言：「大德世尊！我等本在獨覺
+<lb n="0758a11" ed="T"/>乘中曾種善根，未能成熟獨覺乘器。後復
+<lb n="0758a12" ed="T"/>遇聞說大乘法，雖生愛樂而不能解。愚
+<lb n="0758a13" ed="T"/>冥疑惑，便生空見，撥無因果。由是因緣，造
+<lb n="0758a14" ed="T"/>身、語、意無量罪業。乘此業緣，於無量劫墮
+<lb n="0758a15" ed="T"/>諸惡趣，受種種苦楚毒難忍。我等今者於
+<lb n="0758a16" ed="T"/>世尊前，聞說此經還得正見，深<anchor xml:id="nkr_note_orig_0758001" n="0758001"/><anchor xml:id="nkr_note_mod_0758001" n="0758001"/><anchor xml:id="beg0758001" n="0758001"/>心<anchor xml:id="end0758001"/>慚愧，發
+<lb n="0758a17" ed="T"/>露懺悔，不敢覆藏，願悉除滅。從今<anchor xml:id="nkr_note_orig_0758002" n="0758002"/><anchor xml:id="nkr_note_mod_0758002" n="0758002"/><anchor xml:id="beg0758002" n="0758002"/>已<anchor xml:id="end0758002"/>往永
+<lb n="0758a18" ed="T"/>不復作，防護當來所有罪障。唯願世尊！哀
+<lb n="0758a19" ed="T"/>愍攝受，令我等罪皆<anchor xml:id="nkr_note_orig_0758003" n="0758003"/><anchor xml:id="nkr_note_mod_0758003" n="0758003"/><anchor xml:id="beg0758003" n="0758003"/>悉<anchor xml:id="end0758003"/><anchor xml:id="beg_5b" type="star"/>銷<anchor xml:id="end_5b"/>滅，於當來世永
+<lb n="0758a20" ed="T"/>不更造。唯願世尊！哀愍濟拔我等當來惡趣
+<lb n="0758a21" ed="T"/>苦報。我等今者還願受行先所修集獨覺
+<lb n="0758a22" ed="T"/>乘行，<anchor xml:id="nkr_note_orig_0758004" n="0758004"/><anchor xml:id="nkr_note_mod_0758004" n="0758004"/><anchor xml:id="beg0758004" n="0758004"/>惟<anchor xml:id="end0758004"/>願世尊！哀愍教授。」</p><p xml:id="pT13p0758a2211" rend="inline">世尊告曰：「善哉，
+<lb n="0758a23" ed="T"/>善哉！汝等乃能如是慚愧、發露懺悔。於我法
+<lb n="0758a24" ed="T"/>中有二種人，名無所犯：一者、稟性專精，本
+<lb n="0758a25" ed="T"/>來不犯；二者、犯已，慚愧、發露懺悔。此二種人
+<lb n="0758a26" ed="T"/>於我法中，名為勇健得清淨者。」</p><p xml:id="pT13p0758a2613" rend="inline">於是，世尊
+<lb n="0758a27" ed="T"/>隨其所樂，方便為說諸緣起法。令彼一切
+<lb n="0758a28" ed="T"/>修緣覺乘，漸次圓滿，皆悉證得幢相緣定，
+<lb n="0758a29" ed="T"/>於獨覺乘得不退轉。歡喜禮佛，還復本
+<pb n="0758b" ed="T" xml:id="T13.0411.0758b"/>
+<lb n="0758b01" ed="T"/>座。</p>
+<lb n="0758b02" ed="T"/><p xml:id="pT13p0758b0201">時，眾會中復有八十百千那庾多眾生——曾於
+<lb n="0758b03" ed="T"/>過去諸佛法中，毀謗佛教下至一頌，由是因
+<lb n="0758b04" ed="T"/>緣，墮諸惡趣受眾苦報。初復人身生便瘖
+<lb n="0758b05" ed="T"/><anchor xml:id="nkr_note_orig_0758005" n="0758005"/><anchor xml:id="nkr_note_mod_0758005" n="0758005"/><anchor xml:id="beg0758005" n="0758005"/>啞<anchor xml:id="end0758005"/>，常患舌<anchor xml:id="fxT13p0758b01"/><g ref="#CB02800">𤴽</g>口不能言，聞說此經還
+<lb n="0758b06" ed="T"/>得正見——即從座起，頂禮佛足，於世尊前，深
+<lb n="0758b07" ed="T"/>生慚愧，至誠懺悔宿世惡業，合掌恭敬，瞻
+<lb n="0758b08" ed="T"/>仰世尊，佛神力故皆悉能語。爾時，世尊知而
+<lb n="0758b09" ed="T"/>故問：「汝等宿世作何惡業，今處眾中口不
+<lb n="0758b10" ed="T"/>能語？」</p><p xml:id="pT13p0758b1003" rend="inline">彼諸人眾俱時白佛，於中一類作如
+<lb n="0758b11" ed="T"/>是言：「大德世尊！我等往昔，於毘鉢尸如來法
+<lb n="0758b12" ed="T"/>中，或言毀謗大乘正法、或言毀謗獨覺乘法、
+<lb n="0758b13" ed="T"/>或言毀謗聲聞乘法，下至一頌。我等由是惡
+<lb n="0758b14" ed="T"/>業障故，九十一劫流轉生死，常處地獄、傍
+<lb n="0758b15" ed="T"/>生、餓鬼，瘖啞、無舌都不能言，受諸苦毒痛
+<lb n="0758b16" ed="T"/>切難忍。<anchor xml:id="nkr_note_orig_0758006" n="0758006"/><anchor xml:id="beg0758006" n="0758006"/>始<anchor xml:id="end0758006"/>於今世得復人身，而猶瘖啞
+<lb n="0758b17" ed="T"/>常患舌<anchor xml:id="fxT13p0758b02"/><g ref="#CB02800">𤴽</g>。蒙佛神力方始能言，復能憶念
+<lb n="0758b18" ed="T"/>自過去世所有因緣諸惡業障。」</p><p xml:id="pT13p0758b1813" rend="inline">復有一類
+<lb n="0758b19" ed="T"/>作如是言：「大德世尊！我等往昔，於尸棄如
+<lb n="0758b20" ed="T"/>來法中，或言毀謗大乘正法，各隨本緣如
+<lb n="0758b21" ed="T"/>前廣說。」</p><p xml:id="pT13p0758b2104" rend="inline">復有一類作如是言：「大德世尊！我
+<lb n="0758b22" ed="T"/>等往昔，於毘攝浮如來法中，或言毀謗大乘
+<lb n="0758b23" ed="T"/>正法，各隨本緣如前廣說。」</p><p xml:id="pT13p0758b2311" rend="inline">復有一類作如
+<lb n="0758b24" ed="T"/>是言：「大德世尊！我等往昔，於羯洛迦孫駄如
+<lb n="0758b25" ed="T"/>來法中，或言毀謗大乘正法，各隨本緣如
+<lb n="0758b26" ed="T"/>前廣說。」</p><p xml:id="pT13p0758b2604" rend="inline">復有一類作如是言：「大德世尊！我
+<lb n="0758b27" ed="T"/>等往昔，於羯諾迦牟尼如來法中，或言毀謗
+<lb n="0758b28" ed="T"/>大乘正法，各隨本緣如前廣說。」</p><p xml:id="pT13p0758b2813" rend="inline">復有一類
+<lb n="0758b29" ed="T"/>作如是言：「大德世尊！我等往昔，於迦葉波
+<pb n="0758c" ed="T" xml:id="T13.0411.0758c"/>
+<lb n="0758c01" ed="T"/>如來法中，或言毀謗大乘正法、或言毀謗獨
+<lb n="0758c02" ed="T"/>覺乘法、或言毀謗聲聞乘法，下至一頌。我等
+<lb n="0758c03" ed="T"/>由是惡業障故，從爾以來流轉生死，常處
+<lb n="0758c04" ed="T"/>地獄、傍生、餓鬼，瘖啞、無舌都不能言，受諸
+<lb n="0758c05" ed="T"/>苦毒痛切難忍。始於今世得復人身，<anchor xml:id="nkr_note_orig_0758007" n="0758007"/><anchor xml:id="beg0758007" n="0758007"/>而<anchor xml:id="end0758007"/>
+<lb n="0758c06" ed="T"/>猶瘖啞常患舌<anchor xml:id="fxT13p0758c01"/>庈。蒙佛神力方始能言，
+<lb n="0758c07" ed="T"/>復能憶念自過去世所有因緣諸惡業障。我
+<lb n="0758c08" ed="T"/>等今者於世尊前，聞說此經獲得正見，深
+<lb n="0758c09" ed="T"/>心慚愧，發露懺悔，不敢覆藏，願悉除滅。從今
+<lb n="0758c10" ed="T"/>以往永不復作，防護當來所有罪障。唯願世
+<lb n="0758c11" ed="T"/>尊！哀愍攝受，令我等罪皆悉<anchor xml:id="beg_5c" type="star"/>銷<anchor xml:id="end_5c"/>滅，於當來
+<lb n="0758c12" ed="T"/>世永不更造。唯願世尊！哀愍濟拔我等當
+<lb n="0758c13" ed="T"/>來惡趣苦報。唯願世尊！哀愍我等，為說正
+<lb n="0758c14" ed="T"/>法。」</p><p xml:id="pT13p0758c1402" rend="inline">世尊告曰：「善哉！善哉！汝等乃能如是慚
+<lb n="0758c15" ed="T"/>愧、發露懺悔。於我法中有二種人，名無所
+<lb n="0758c16" ed="T"/>犯：一者、稟性專精，本來不犯：二者、犯已，慚愧、
+<lb n="0758c17" ed="T"/>發露懺悔。此二種人於我法中，名為勇健
+<lb n="0758c18" ed="T"/>得清淨者。」</p><p xml:id="pT13p0758c1805" rend="inline">於是，世尊隨其所樂，方便為說
+<lb n="0758c19" ed="T"/>種種正法。各隨所宜，皆得利益。歡喜禮佛，
+<lb n="0758c20" ed="T"/>還復本座。</p>
+<lb n="0758c21" ed="T"/><p xml:id="pT13p0758c2101">時，眾會中復有無量百千聲聞，及無量百千那
+<lb n="0758c22" ed="T"/>庾多菩薩，聞說此經，憶昔所造諸惡業障。
+<lb n="0758c23" ed="T"/>即從座起，頂禮佛足，於世尊前，深生慚愧
+<lb n="0758c24" ed="T"/>至誠懺悔，合掌恭敬，皆白佛言：「大德世尊！
+<lb n="0758c25" ed="T"/>我等憶昔曾於無量諸佛法中，或有說言
+<lb n="0758c26" ed="T"/>我等於彼諸佛弟子、或是法器、或非法器，多
+<lb n="0758c27" ed="T"/>行忿恨、呵罵、毀辱、譏刺、輕誚、種種誹謗，隱善
+<lb n="0758c28" ed="T"/>揚惡。我等由此惡業障故，經無量劫墮諸
+<lb n="0758c29" ed="T"/>惡趣，受諸重苦楚毒難忍。後得值遇無量
+<pb n="0759a" ed="T" xml:id="T13.0411.0759a"/>
+<lb n="0759a01" ed="T"/>諸佛，皆曾親近、承事供養。又得值遇無量菩
+<lb n="0759a02" ed="T"/>薩摩訶薩眾，亦皆親近、承事供養。於一一佛、
+<lb n="0759a03" ed="T"/>一一菩薩摩訶薩前，皆深慚愧、發露懺悔諸
+<lb n="0759a04" ed="T"/>惡業障。於一一佛、一一菩薩摩訶薩所，皆得
+<lb n="0759a05" ed="T"/>聽受無量法門，精勤護持，修學無量難行
+<lb n="0759a06" ed="T"/>苦行。由彼業障有餘未盡，令我等輩，未能
+<lb n="0759a07" ed="T"/>證得安樂涅槃、未能證得三摩地門殊勝
+<lb n="0759a08" ed="T"/>功德。我等今者於世尊前聞說此經，復深
+<lb n="0759a09" ed="T"/>慚愧、發露懺悔，不敢覆藏，願悉除滅。從今以
+<lb n="0759a10" ed="T"/>往永<anchor xml:id="beg_5d" type="cb-app"/>不<anchor xml:id="end_5d"/>復作，防護當來所有罪障。唯願世尊！
+<lb n="0759a11" ed="T"/>哀愍攝受，令我等罪皆悉除滅，於當來世
+<lb n="0759a12" ed="T"/>永不更造。唯願世尊！哀愍濟拔我等當來惡
+<lb n="0759a13" ed="T"/>趣苦報。我等今者承佛威力，願隨所樂，速
+<lb n="0759a14" ed="T"/>能證得安樂涅槃，或能證得三摩地門殊勝
+<lb n="0759a15" ed="T"/>功德。」</p><p xml:id="pT13p0759a1503" rend="inline">復有說言：「我等於彼諸佛弟子，或是法
+<lb n="0759a16" ed="T"/>器、或非法器，以麁惡言期尅迫愶。我等由
+<lb n="0759a17" ed="T"/>此惡業障故，經無量劫墮諸惡趣，應知如
+<lb n="0759a18" ed="T"/>前次第廣說。」</p><p xml:id="pT13p0759a1806" rend="inline">復有說言：「我等於彼諸佛弟子，
+<lb n="0759a19" ed="T"/>或是法器、或非法器，打棒傷害。我等由此惡
+<lb n="0759a20" ed="T"/>業障故，經無量劫墮諸惡趣，應知如前次
+<lb n="0759a21" ed="T"/>第廣說。」</p><p xml:id="pT13p0759a2104" rend="inline">復有說言：「我等於彼諸佛弟子，或
+<lb n="0759a22" ed="T"/>是法器、或非法器，侵奪衣鉢。我等由此惡業
+<lb n="0759a23" ed="T"/>障故，經無量劫墮諸惡趣，應知如前次第
+<lb n="0759a24" ed="T"/>廣說。」</p><p xml:id="pT13p0759a2403" rend="inline">復有說言：「我等於彼諸佛弟子，或是法
+<lb n="0759a25" ed="T"/>器、或非法器，侵奪種種資生眾具，絕其飲
+<lb n="0759a26" ed="T"/>食。我等由此惡業障故，經無量劫墮諸惡
+<lb n="0759a27" ed="T"/>趣，應知如前次第廣說。」</p><p xml:id="pT13p0759a2710" rend="inline">復有說言：「我等於
+<lb n="0759a28" ed="T"/>彼無量諸佛出家弟子，或是法器、或非法器，退
+<lb n="0759a29" ed="T"/>令還俗，脫其袈裟，課稅役使。我等由此惡
+<pb n="0759b" ed="T" xml:id="T13.0411.0759b"/>
+<lb n="0759b01" ed="T"/>業障故，經無量劫墮諸惡趣，應知如前次
+<lb n="0759b02" ed="T"/>第廣說。」</p><p xml:id="pT13p0759b0204" rend="inline">復有說言：「我等於彼無量諸佛出家
+<lb n="0759b03" ed="T"/>弟子，或是法器、或非法器，或有罪犯、或無罪
+<lb n="0759b04" ed="T"/>犯，枷鎖繫縛，禁閉牢獄。我等由此惡業障
+<lb n="0759b05" ed="T"/>故，經無量劫墮諸惡趣，應知如前次第廣
+<lb n="0759b06" ed="T"/>說。」</p><p xml:id="pT13p0759b0602" rend="inline">復有說言：「我等於彼無量諸佛出家弟子，
+<lb n="0759b07" ed="T"/>或是法器、或非法器，起輕慢心，種種觸惱令
+<lb n="0759b08" ed="T"/>不安樂。我等由此惡業障故，經無量劫受
+<lb n="0759b09" ed="T"/>諸重苦，楚毒難忍。後得值遇無量諸佛，皆
+<lb n="0759b10" ed="T"/>曾親近、承事供養。又得值遇無量菩薩摩訶
+<lb n="0759b11" ed="T"/>薩眾，亦皆親近、承事供養。於一一佛、一一菩
+<lb n="0759b12" ed="T"/>薩摩訶薩前，皆深慚愧、<anchor xml:id="nkr_note_orig_0759001" n="0759001"/><anchor xml:id="beg0759001" n="0759001"/>發<anchor xml:id="end0759001"/>露懺悔諸惡業
+<lb n="0759b13" ed="T"/>障。於一一佛、一一菩薩摩訶薩所，皆得聽
+<lb n="0759b14" ed="T"/>受無量法門，精勤護持，修學無量難行苦行。
+<lb n="0759b15" ed="T"/>由彼業障有餘未盡，令我等輩，未能證得
+<lb n="0759b16" ed="T"/>安樂涅槃，未能證得三摩地門殊勝功德。
+<lb n="0759b17" ed="T"/>我等今者於世尊前聞說此經，復深慚愧、
+<lb n="0759b18" ed="T"/>發露懺悔，不敢覆藏，願悉除滅。從今<anchor xml:id="nkr_note_orig_0759002" n="0759002"/><anchor xml:id="beg0759002" n="0759002"/>以<anchor xml:id="end0759002"/>往
+<lb n="0759b19" ed="T"/>永不復作，防護當來所有罪障。唯願世尊！
+<lb n="0759b20" ed="T"/>哀愍攝受，令我等罪皆悉消滅，於當來世永
+<lb n="0759b21" ed="T"/>不更造。唯願世尊！哀愍濟拔我等當來惡趣
+<lb n="0759b22" ed="T"/>苦報。我等今者承佛神力，願隨所樂，速能
+<lb n="0759b23" ed="T"/>證得安樂涅槃，或能證得三摩地門殊勝功
+<lb n="0759b24" ed="T"/>德。」</p><p xml:id="pT13p0759b2402" rend="inline">於是世尊普告聲聞菩薩眾曰：「善哉，善
+<lb n="0759b25" ed="T"/>哉！汝等乃能如是慚愧、發露懺悔。有二種
+<lb n="0759b26" ed="T"/>人，名無所犯：一者、稟性專精，本來不犯；二者、
+<lb n="0759b27" ed="T"/>犯已，慚愧、發露懺悔。此二種人於我法中，名
+<lb n="0759b28" ed="T"/>為勇健得清淨者。又善男子！如是惱亂佛
+<lb n="0759b29" ed="T"/>弟子罪，比前所說近無間罪，彼但有名，未
+<pb n="0759c" ed="T" xml:id="T13.0411.0759c"/>
+<lb n="0759c01" ed="T"/>足稱罪；然此惱亂佛弟子罪，亦過前說五
+<lb n="0759c02" ed="T"/>無間罪無量倍數。所以者何？若諸苾芻毀破
+<lb n="0759c03" ed="T"/>禁戒，作諸惡法，猶能示導無量百千俱胝那
+<lb n="0759c04" ed="T"/>庾多眾生，善趣涅槃，無顛倒路；與諸眾生，作
+<lb n="0759c05" ed="T"/>大功德，珍寶伏藏，如前廣說。況持禁戒修
+<lb n="0759c06" ed="T"/>善法者！以是義故，若有惱亂佛弟子眾諸
+<lb n="0759c07" ed="T"/>出家人，當知則為斷三寶種，亦則名為，挑
+<lb n="0759c08" ed="T"/>壞一切眾生法眼；亦為毀滅我久勤苦所得
+<lb n="0759c09" ed="T"/>正法，與諸眾生作大衰損。是故，惱亂佛弟
+<lb n="0759c10" ed="T"/>子罪，過前所說五無間罪無量倍數。是故，
+<lb n="0759c11" ed="T"/>汝等今於我前，起至誠心增上慚愧，慇懃懇
+<lb n="0759c12" ed="T"/>切發露懺悔往昔所造諸惡業障。我今慈悲
+<lb n="0759c13" ed="T"/>攝受汝等，令惡業障漸得消滅。於此佛土
+<lb n="0759c14" ed="T"/>大賢劫中，有千如來出現於世，汝等於彼
+<lb n="0759c15" ed="T"/>諸如來前，亦當至誠發露懺悔諸惡業障，
+<lb n="0759c16" ed="T"/>防護當來所有罪<anchor xml:id="nkr_note_orig_0759003" n="0759003"/><anchor xml:id="beg0759003" n="0759003"/>咎<anchor xml:id="end0759003"/>。於此賢劫千如來中
+<lb n="0759c17" ed="T"/>最後如來，名曰盧至如來、應、正等覺、明行圓
+<lb n="0759c18" ed="T"/>滿、善逝、世間解、無上丈夫、調御士、天人師、佛、薄
+<lb n="0759c19" ed="T"/>伽梵，十號具足。汝等於彼盧至佛前，亦當
+<lb n="0759c20" ed="T"/>至誠發露、懺悔諸惡業障，乃得滅盡無有
+<lb n="0759c21" ed="T"/>遺餘。」</p><p xml:id="pT13p0759c2103" rend="inline">時，諸聲聞及菩薩眾俱時白佛：「唯然，世
+<lb n="0759c22" ed="T"/>尊！我等審當於彼最後盧至佛所，獲得正
+<lb n="0759c23" ed="T"/>見，離諸邪見，諸惡業障盡滅無餘，解脫一
+<lb n="0759c24" ed="T"/>切眾苦惱者。若令我等於大賢劫，常處無
+<lb n="0759c25" ed="T"/>間大地獄中，恒受種種極重苦惱，亦能堪忍。」</p>
+<lb n="0759c26" ed="T"/><p xml:id="pT13p0759c2601">世尊告曰：「善哉，善哉！汝等乃能如是勇猛。汝
+<lb n="0759c27" ed="T"/>等由此堅固精進自誓願力，定能於彼盧至
+<lb n="0759c28" ed="T"/>佛前，宿世所集諸惡業障皆悉消滅，定能發
+<lb n="0759c29" ed="T"/>起增上信敬，親近、供養盧至如來；定能永
+<pb n="0760a" ed="T" xml:id="T13.0411.0760a"/>
+<lb n="0760a01" ed="T"/>斷一切煩惱，成阿羅漢；或定能證三摩地
+<lb n="0760a02" ed="T"/>門殊勝功德。」</p><p xml:id="pT13p0760a0206" rend="inline">時，諸聲聞及菩薩眾，歡喜禮佛，
+<lb n="0760a03" ed="T"/>還復本座。</p>
+<lb n="0760a04" ed="T"/><p xml:id="pT13p0760a0401">爾時，世尊告金剛藏菩薩摩訶薩言：「善男子！
+<lb n="0760a05" ed="T"/>我以佛眼觀諸世間，見未來世此佛土中，
+<lb n="0760a06" ed="T"/>有無量、無數、百千俱胝那庾多，剎帝利旃荼
+<lb n="0760a07" ed="T"/>羅、婆羅門旃荼羅、宰官旃荼羅、居士旃荼羅、
+<lb n="0760a08" ed="T"/>長者旃荼羅、沙門旃荼羅、<anchor xml:id="nkr_note_orig_0760001" n="0760001"/><anchor xml:id="beg0760001" n="0760001"/>茷<anchor xml:id="end0760001"/>舍旃荼羅、<anchor xml:id="beg_5e" type="cb-app"/>戍<anchor xml:id="end_5e"/>達
+<lb n="0760a09" ed="T"/>羅旃荼羅，若男、若女，少種善根，雖得人身，
+<lb n="0760a10" ed="T"/>而隨惡友起諸邪見，造諸惡行，壞我甚深
+<lb n="0760a11" ed="T"/>無上正法，於我所說無有熾然，滅熾然法
+<lb n="0760a12" ed="T"/>不生信樂。或於我說與聲聞乘相應正法，
+<lb n="0760a13" ed="T"/>誹謗、輕毀、障蔽、隱沒，不令流布。或於我說
+<lb n="0760a14" ed="T"/>與獨覺乘相應正法，誹謗、輕毀、障蔽、隱沒，不
+<lb n="0760a15" ed="T"/>令流布。或於我說與無上乘相應正法，誹
+<lb n="0760a16" ed="T"/>謗、輕毀、障蔽、隱沒，不令流布。或於歸我諸
+<lb n="0760a17" ed="T"/>出家人，若是法器、若非法器，多行忿恨、呵罵、
+<lb n="0760a18" ed="T"/>毀辱、譏刺、輕誚、種種誹謗，隱善揚惡，廣說乃
+<lb n="0760a19" ed="T"/>至，起輕慢心種種觸惱。如是諸人非聖法
+<lb n="0760a20" ed="T"/>器，自實愚癡，懷聰明慢，從此命終墮三惡
+<lb n="0760a21" ed="T"/>趣，受無量種增上猛利難忍苦毒，經於無量
+<lb n="0760a22" ed="T"/>百千俱胝那庾多劫難復人身，如前廣說。
+<lb n="0760a23" ed="T"/>善男子！如是眾生，寧處無間大地獄中受
+<lb n="0760a24" ed="T"/>諸重苦，不受如是鄙惡人身，憍慢、貢高，隨
+<lb n="0760a25" ed="T"/>順惡友，造作如是惡、不善業，流轉生死，難
+<lb n="0760a26" ed="T"/>可濟度，常處生死，受諸苦惱。」</p>
+<lb n="0760a27" ed="T"/><p xml:id="pT13p0760a2701">爾時，會中有無量、無數大慧有情，從座而起，
+<lb n="0760a28" ed="T"/>頂禮佛足，合掌向佛，悲泣墮淚，而白佛言：
+<lb n="0760a29" ed="T"/>「大德世尊諦觀如是世間眾生，雖皆獲得
+<pb n="0760b" ed="T" xml:id="T13.0411.0760b"/>
+<lb n="0760b01" ed="T"/>難得人身，而遠離正信、遠離正願、遠離正
+<lb n="0760b02" ed="T"/>意樂、遠離正見、遠離善知識、遠離好時、遠
+<lb n="0760b03" ed="T"/>離好處、遠離淨戒、遠離正定、遠離正慧。如
+<lb n="0760b04" ed="T"/>是眾生，雖皆獲得難得人身，而由愚癡、憍
+<lb n="0760b05" ed="T"/>慢力故，造作如前所說重罪，毀謗世尊所
+<lb n="0760b06" ed="T"/>說正法，觸惱世尊出家弟子。我等今者對世
+<lb n="0760b07" ed="T"/>尊前，以至誠心發真誓願：『我等從今流轉
+<lb n="0760b08" ed="T"/>生死，乃至未得解脫已來，常願不遇如是
+<lb n="0760b09" ed="T"/>惡緣，決定不造如是重罪；終不毀謗諸佛
+<lb n="0760b10" ed="T"/>正法，亦不觸惱諸出家人；必不挑壞眾生
+<lb n="0760b11" ed="T"/>法眼，亦不斷滅三寶種性。』<anchor xml:id="beg_5f" type="star"/>惟<anchor xml:id="end_5f"/>願世尊！哀愍
+<lb n="0760b12" ed="T"/>攝受我等所發如是誓願。」</p><p xml:id="pT13p0760b1211" rend="inline">時，眾會中復有
+<lb n="0760b13" ed="T"/>無量百千俱胝那庾多聰慧有情，從座而起，
+<lb n="0760b14" ed="T"/>頂禮佛足，合掌恭敬，而白佛言：「大德世尊！
+<lb n="0760b15" ed="T"/>我等今者對世尊前，以至誠心發真誓願：
+<lb n="0760b16" ed="T"/>『我等從今流轉生死，乃至未得法忍已來，
+<lb n="0760b17" ed="T"/>於其中間，常願不處諸帝王位，常願不處
+<lb n="0760b18" ed="T"/>諸宰官位，常願不處諸國師位，常願不處
+<lb n="0760b19" ed="T"/>城邑、聚落、鎮邏長位，常願不處諸軍將位，常
+<lb n="0760b20" ed="T"/>願不處諸商主位，常願不處一切祠祀寺
+<lb n="0760b21" ed="T"/>觀主位，常願不處長者、居士、沙門主位，常願
+<lb n="0760b22" ed="T"/>不處諸師長位，常願不處諸家長位，常願
+<lb n="0760b23" ed="T"/>不處斷事者位，常願不處乃至一切富貴
+<lb n="0760b24" ed="T"/>尊位。乃至未得法忍已來，我等若處如是
+<lb n="0760b25" ed="T"/>諸位，則於佛法名惡因緣，造諸重罪，毀謗
+<lb n="0760b26" ed="T"/>諸佛所說正法，觸惱諸佛出家弟子，必當
+<lb n="0760b27" ed="T"/>挑壞眾生法眼，亦為斷滅三寶種性，亦為
+<lb n="0760b28" ed="T"/>損惱無量有情；由是定當墮無間獄，輪轉
+<lb n="0760b29" ed="T"/>惡趣難有出期。』唯願世尊！哀愍攝受我等
+<pb n="0760c" ed="T" xml:id="T13.0411.0760c"/>
+<lb n="0760c01" ed="T"/>所發如是誓願。」</p><p xml:id="pT13p0760c0107" rend="inline">爾時，一切諸來大眾，天、龍、藥
+<lb n="0760c02" ed="T"/>叉、健達縛、人、非人等，皆從座起，頂禮佛足，悲
+<lb n="0760c03" ed="T"/>號感切涕淚交流，合掌恭敬而白佛言：「大德
+<lb n="0760c04" ed="T"/>世尊！我等無始生死已來，愚癡、憍慢起諸惡
+<lb n="0760c05" ed="T"/>業，或身惡業、或語惡業、或意惡業，自作教他，
+<lb n="0760c06" ed="T"/>見聞隨喜。如是諸罪，今對佛前，皆深慚愧、發
+<lb n="0760c07" ed="T"/>露懺悔，不敢覆藏，願悉除滅。從今以往永
+<lb n="0760c08" ed="T"/>不復作，防護當來所有罪咎。第二、第三亦如
+<lb n="0760c09" ed="T"/>是說。我等至誠發真誓願：『從今乃至生死
+<lb n="0760c10" ed="T"/>後際，於其中間，常願不逢諸惡知識，亦願
+<lb n="0760c11" ed="T"/>不遇諸惡因緣，設當逢遇願不隨順，決定
+<lb n="0760c12" ed="T"/>不造如前所說諸惡罪業，勿令我等長夜
+<lb n="0760c13" ed="T"/>受苦。』唯願世尊！哀愍攝受我等所發如
+<lb n="0760c14" ed="T"/>是誓願。」</p>
+<lb n="0760c15" ed="T"/><p xml:id="pT13p0760c1501">爾時，世尊普告一切諸來大眾：「善哉，善哉！汝
+<lb n="0760c16" ed="T"/>等乃能於後世苦，深見怖畏，發露懺悔。汝
+<lb n="0760c17" ed="T"/>等今者，欲度生死深廣<anchor xml:id="nkr_note_orig_0760002" n="0760002"/><anchor xml:id="nkr_note_mod_0760002" n="0760002"/><anchor xml:id="beg0760002" n="0760002"/>瀑<anchor xml:id="end0760002"/>流，欲入無畏涅
+<lb n="0760c18" ed="T"/>槃之城，發如是願。諸善男子！有十種法，能
+<lb n="0760c19" ed="T"/>令菩薩摩訶薩等，獲得無罪正路法忍。何等
+<lb n="0760c20" ed="T"/>為十？諸善男子！若諸菩薩摩訶薩等，不著
+<lb n="0760c21" ed="T"/>內身、不著外身、不著內外身，不著過去
+<lb n="0760c22" ed="T"/>身、不著未來身、不著現在身，名第一法，
+<lb n="0760c23" ed="T"/>能令菩薩摩訶薩等，獲得無罪正路法忍。</p><p xml:id="pT13p0760c2317" rend="inline">「又
+<lb n="0760c24" ed="T"/>善男子！若諸菩薩摩訶薩等，不著內受、不
+<lb n="0760c25" ed="T"/>著外受、不著內外受，不著過去受、不著
+<lb n="0760c26" ed="T"/>未來受、不著現在受，名第二法，能令菩薩
+<lb n="0760c27" ed="T"/>摩訶薩等，獲得無罪正路法忍。</p><p xml:id="pT13p0760c2713" rend="inline">「又善男子！若
+<lb n="0760c28" ed="T"/>諸菩薩摩訶薩等，不著內想、不著外想、
+<lb n="0760c29" ed="T"/>不著內外想，不著過去想、不著未來想、不
+<pb n="0761a" ed="T" xml:id="T13.0411.0761a"/>
+<lb n="0761a01" ed="T"/>著現在想，名第三法，能令菩薩摩訶薩等，
+<lb n="0761a02" ed="T"/>獲得無罪正路法忍。</p><p xml:id="pT13p0761a0209" rend="inline">「又善男子！若諸菩薩摩
+<lb n="0761a03" ed="T"/>訶薩等，不著內行、不著外行、不著內外
+<lb n="0761a04" ed="T"/>行，不著過去行、不著未來行、不著現在
+<lb n="0761a05" ed="T"/>行，名第四法，能令菩薩摩訶薩等，獲得無
+<lb n="0761a06" ed="T"/>罪正路法忍。</p><p xml:id="pT13p0761a0606" rend="inline">「又善男子！若諸菩薩摩訶薩等，
+<lb n="0761a07" ed="T"/>不著內識、不著外識、不著內外識，不著
+<lb n="0761a08" ed="T"/>過去識、不著未來識、不著現在識，名第五
+<lb n="0761a09" ed="T"/>法，能令菩薩摩訶薩等，獲得無罪正路法忍。</p>
+<lb n="0761a10" ed="T"/><p xml:id="pT13p0761a1001">「又善男子！若諸菩薩摩訶薩等，不著此世，
+<lb n="0761a11" ed="T"/>名<anchor xml:id="nkr_note_orig_0761001" n="0761001"/><anchor xml:id="beg0761001" n="0761001"/>第<anchor xml:id="end0761001"/>六法，能令菩薩摩訶薩等，獲得無罪
+<lb n="0761a12" ed="T"/>正路法忍。</p><p xml:id="pT13p0761a1205" rend="inline">「又善男子！若諸菩薩摩訶薩等，不
+<lb n="0761a13" ed="T"/>著他世，名第七法，能令菩薩摩訶薩等，獲
+<lb n="0761a14" ed="T"/>得無罪正路法忍。</p><p xml:id="pT13p0761a1408" rend="inline">「又善男子！若諸菩薩摩訶
+<lb n="0761a15" ed="T"/>薩等，不著欲界，名第八法，能令菩薩摩訶
+<lb n="0761a16" ed="T"/>薩等，獲得無罪正路法忍。</p><p xml:id="pT13p0761a1611" rend="inline">「又善男子！若諸菩
+<lb n="0761a17" ed="T"/>薩摩訶薩等，不著色界，名第九法，能令菩
+<lb n="0761a18" ed="T"/>薩摩訶薩等，獲得無罪正路法忍。</p><p xml:id="pT13p0761a1814" rend="inline">「又善男子！
+<lb n="0761a19" ed="T"/>若諸菩薩摩訶薩等，不著無色界，名第十
+<lb n="0761a20" ed="T"/>法，能令菩薩摩訶薩等，獲得無罪正路法忍。</p>
+<lb n="0761a21" ed="T"/><p xml:id="pT13p0761a2101">「諸善男子！是名十法，能令菩薩摩訶薩等，
+<lb n="0761a22" ed="T"/>獲得無罪正路法忍。」</p><p xml:id="pT13p0761a2209" rend="inline">世尊為眾說此法時，
+<lb n="0761a23" ed="T"/>於眾會中有七十二百千俱胝菩薩摩訶薩，
+<lb n="0761a24" ed="T"/>同時證得無生法忍。復有八十四百千那庾
+<lb n="0761a25" ed="T"/>多菩薩，證得隨順法忍。復有無量百千聲
+<lb n="0761a26" ed="T"/>聞，乃至永斷一切煩惱，成阿羅漢。復有百
+<lb n="0761a27" ed="T"/>千那庾多眾生，先未發心，今發無上正等覺
+<lb n="0761a28" ed="T"/>心，於如來智住不退地。復有無量、無數眾
+<lb n="0761a29" ed="T"/>生，先未發心，於今乃發獨覺乘心。復有無
+<pb n="0761b" ed="T" xml:id="T13.0411.0761b"/>
+<lb n="0761b01" ed="T"/>量、無數眾生，先未發心，於今乃發聲聞乘
+<lb n="0761b02" ed="T"/>心。</p>
+<lb n="0761b03" ed="T"/><p xml:id="pT13p0761b0301">爾時，世尊復告大眾：「若諸有情，已得法忍，處
+<lb n="0761b04" ed="T"/>剎帝利灌頂王位，受用種種勝大財業，及處
+<lb n="0761b05" ed="T"/>種種富貴尊位，是我所許，非餘有情。」</p><p xml:id="pT13p0761b0515" rend="inline">金剛
+<lb n="0761b06" ed="T"/>藏菩薩白佛言：「世尊！若諸有情，未得法忍，
+<lb n="0761b07" ed="T"/>於剎帝利灌頂王位，受用種種勝大財業，及
+<lb n="0761b08" ed="T"/>餘種種富貴尊位，定不許處？為亦許耶？」</p><p xml:id="pT13p0761b0816" rend="inline">世
+<lb n="0761b09" ed="T"/>尊告曰：「若諸有情，未得法忍，有能受行十
+<lb n="0761b10" ed="T"/>善業道，亦勸眾生令受學者，我亦聽許，處
+<lb n="0761b11" ed="T"/>剎帝利灌頂王位，受用種種勝大財業，及餘
+<lb n="0761b12" ed="T"/>種種富貴尊位。若諸有情，未得法忍，亦不
+<lb n="0761b13" ed="T"/>受行十善業道，及勸眾生令勤受學，以強
+<lb n="0761b14" ed="T"/>勢力，處剎帝利灌頂王位，受用種種勝大財
+<lb n="0761b15" ed="T"/>業，及處種種富貴尊位，名剎帝利旃荼羅王，
+<lb n="0761b16" ed="T"/>及餘種種富貴尊位旃荼羅王。愚癡、憍慢、毀
+<lb n="0761b17" ed="T"/>壞、擾亂、我甚深法，滅正法燈斷三寶種。於
+<lb n="0761b18" ed="T"/>我出家諸弟子眾，種種惱亂捶拷刑罰，奪其
+<lb n="0761b19" ed="T"/>衣鉢基業財產，退令還俗，課稅役使，繫閉
+<lb n="0761b20" ed="T"/>牢獄，乃至斷命。於我所說微妙法義，誹謗、
+<lb n="0761b21" ed="T"/>輕毀、障蔽、隱沒，不令流布，奪窣堵波，及僧祇
+<lb n="0761b22" ed="T"/>物。如是諸人，皆當墜墮無間地獄，受諸劇
+<lb n="0761b23" ed="T"/>苦輪轉惡趣，難有出期。」</p><p xml:id="pT13p0761b2310" rend="inline">時金剛藏菩薩復
+<lb n="0761b24" ed="T"/>白佛言：「世尊！若諸有情，未得法忍，亦不受
+<lb n="0761b25" ed="T"/>行十善業道，及勸眾生令勤受學，以強勢
+<lb n="0761b26" ed="T"/>力，處剎帝利灌頂王位，受用種種勝大財業，
+<lb n="0761b27" ed="T"/>及餘種種富貴尊位。頗有別緣得方便救，
+<lb n="0761b28" ed="T"/>令其免墮無間地獄，及餘惡趣受諸苦不？」</p>
+<lb n="0761b29" ed="T"/><p xml:id="pT13p0761b2901">世尊告曰：「亦有別緣得方便救。謂有眾生
+<pb n="0761c" ed="T" xml:id="T13.0411.0761c"/>
+<lb n="0761c01" ed="T"/>處剎帝利灌頂王位，及餘種種富貴尊位，雖
+<lb n="0761c02" ed="T"/>復未得成就法忍十善業道，而有信力尊
+<lb n="0761c03" ed="T"/>敬三寶，於佛所說三乘相應諸出要法，下至
+<lb n="0761c04" ed="T"/>一頌，終不謗毀、障蔽、隱沒、不令流布。於佛
+<lb n="0761c05" ed="T"/>出家諸弟子眾，持戒、破戒、下至無戒剃除鬚
+<lb n="0761c06" ed="T"/>髮被袈裟者，皆不惱亂、捶拷、謫罰，侵奪衣
+<lb n="0761c07" ed="T"/>鉢、基業、財產，退令還俗、課稅役使、繫閉牢
+<lb n="0761c08" ed="T"/>獄、乃至斷命，亦不侵奪窣堵波物及僧祇
+<lb n="0761c09" ed="T"/>物，遮<anchor xml:id="nkr_note_orig_0761002" n="0761002"/><anchor xml:id="beg0761002" n="0761002"/>制<anchor xml:id="end0761002"/>摧伏諸暴惡人，不令惱亂諸出
+<lb n="0761c10" ed="T"/>家眾，不令侵奪三寶財物。於佛所說三乘
+<lb n="0761c11" ed="T"/>相應諸出要法，恭敬聽受，既聽受已，精進修
+<lb n="0761c12" ed="T"/>行，法隨法行。於我三乘賢聖弟子，恭敬供養、
+<lb n="0761c13" ed="T"/>親近承事。於大乘中，誓願堅固，終無疑難退
+<lb n="0761c14" ed="T"/>屈之心，亦常勸導安置眾生，令於大乘信
+<lb n="0761c15" ed="T"/>受修學。此剎帝利旃荼羅王，及餘種種富貴
+<lb n="0761c16" ed="T"/>尊位旃荼羅王，過去諸佛皆共聽許，處帝王
+<lb n="0761c17" ed="T"/>位，及餘種種富貴尊位。雖復受用種種國土、
+<lb n="0761c18" ed="T"/>城邑、聚落、勝大財業，而得免墮無間地獄及
+<lb n="0761c19" ed="T"/>餘惡趣。我亦聽許，處帝王位，及餘種種富貴
+<lb n="0761c20" ed="T"/>尊位，雖復受用種種國土、執邑、聚落，而得
+<lb n="0761c21" ed="T"/>免墮無間地獄及諸惡趣。</p><p xml:id="pT13p0761c2111" rend="inline">「若諸有情，欲得
+<lb n="0761c22" ed="T"/>懺悔除滅一切諸惡業障令無餘者，於我
+<lb n="0761c23" ed="T"/>所說如是法門，當勤修學勿令廢忘。有
+<lb n="0761c24" ed="T"/>能如此現前大眾，慚愧、懺悔諸惡業者，先世
+<lb n="0761c25" ed="T"/>所造一切惡業，皆得銷滅無有遺餘。」</p>
+<lb n="0761c26" ed="T"/><cb:juan n="007" fun="close"><cb:jhead><title>大乘大集地藏十輪經</title>卷第七</cb:jhead></cb:juan>
+<pb n="0762a" ed="T" xml:id="T13.0411.0762a"/></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0756004" to="#end0756004"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3">大唐三</rdg><rdg resp="#resp1" wit="#wit4">唐三</rdg></app>
+<app from="#beg0756005" to="#end0756005"><lem wit="#wit1">辭</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">詞</rdg></app>
+<app from="#beg0756006" to="#end0756006"><lem wit="#wit1">譽</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">舉</rdg></app>
+<app from="#beg0756007" to="#end0756007"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">心</rdg></app>
+<app from="#beg0756008" to="#end0756008"><lem wit="#wit1">佷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">很</rdg></app>
+<app from="#beg0756009" to="#end0756009"><lem wit="#wit1">陵</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">凌</rdg></app>
+<app from="#beg0756010" to="#end0756010"><lem wit="#wit1">披</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">被</rdg></app>
+<choice cb:resp="#resp4" cb:from="#beg_59" cb:to="#end_59"><corr>癡</corr><sic>礙</sic></choice>
+<app from="#beg0757001" to="#end0757001"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5">人</rdg></app>
+<choice cb:resp="#resp4" cb:from="#beg_5a" cb:to="#end_5a"><corr>戍</corr><sic>戌</sic></choice>
+<app from="#beg0757002" to="#end0757002"><lem wit="#wit1">讁</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謫</rdg></app>
+<app from="#beg0757003" to="#end0757003"><lem wit="#wit1">庈</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><g ref="#CB08370">𦧈</g></rdg></app>
+<app from="#beg0757004" to="#end0757004"><lem wit="#wit1">嫉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">貪</rdg></app>
+<app cb:word-count="9" from="#beg0757005" to="#end0757005"><lem wit="#wit1">大乘大集地藏十輪經</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0757006" to="#end0757006"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit5">以</rdg></app>
+<app from="#beg0757007" to="#end0757007"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">消</rdg></app>
+<app from="#beg0758001" to="#end0758001"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">生</rdg></app>
+<app from="#beg0758002" to="#end0758002"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">以</rdg></app>
+<app from="#beg0758003" to="#end0758003"><lem wit="#wit1">悉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">得</rdg></app>
+<app from="#beg_5b" to="#end_5b" corresp="#0757007"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">消</rdg></app>
+<app from="#beg0758004" to="#end0758004"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唯</rdg></app>
+<app from="#beg0758005" to="#end0758005"><lem wit="#wit1">啞</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">瘂</rdg></app>
+<app from="#beg0758006" to="#end0758006"><lem wit="#wit1">始</lem><rdg resp="#resp1" wit="#wit4">如</rdg></app>
+<app from="#beg0758007" to="#end0758007"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit3 #wit4">却</rdg></app>
+<app from="#beg_5c" to="#end_5c" corresp="#0757007"><lem wit="#wit1">銷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">消</rdg></app>
+<choice cb:resp="#resp4" cb:from="#beg_5d" cb:to="#end_5d"><corr>不</corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg0759001" to="#end0759001"><lem wit="#wit1">發</lem><rdg resp="#resp1" wit="#wit3 #wit4">已</rdg></app>
+<app from="#beg0759002" to="#end0759002"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit3 #wit4">已</rdg></app>
+<app from="#beg0759003" to="#end0759003"><lem wit="#wit1">咎</lem><rdg resp="#resp1" wit="#wit2">各</rdg></app>
+<app from="#beg0760001" to="#end0760001"><lem wit="#wit1">茷</lem><rdg resp="#resp1" wit="#wit4">筏</rdg></app>
+<choice cb:resp="#resp4" cb:from="#beg_5e" cb:to="#end_5e"><corr>戍</corr><sic>戌</sic></choice>
+<app from="#beg_5f" to="#end_5f" corresp="#0758004"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唯</rdg></app>
+<app from="#beg0760002" to="#end0760002"><lem wit="#wit1">瀑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">暴</rdg></app>
+<app from="#beg0761001" to="#end0761001"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit4">等</rdg></app>
+<app from="#beg0761002" to="#end0761002"><lem wit="#wit1">制</lem><rdg resp="#resp1" wit="#wit5">製</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0756005" resp="#resp2" type="mod" target="#nkr_note_mod_0756005">辭＝詞【宋】【元】【明】【宮】</note>
+<note n="0756006" resp="#resp2" type="mod" target="#nkr_note_mod_0756006">譽＝舉【宋】【元】【明】【宮】</note>
+<note n="0756007" resp="#resp2" type="mod" target="#nkr_note_mod_0756007">行＝心【宋】【元】【明】【宮】</note>
+<note n="0756008" resp="#resp2" type="mod" target="#nkr_note_mod_0756008">佷＝很【宋】【元】【明】【宮】</note>
+<note n="0756009" resp="#resp2" type="mod" target="#nkr_note_mod_0756009">陵＝凌【宋】【元】【明】【宮】</note>
+<note n="0756010" resp="#resp2" type="mod" target="#nkr_note_mod_0756010">披＝被【宋】【元】【明】</note>
+<note n="0757002" resp="#resp2" type="mod" target="#nkr_note_mod_0757002">讁＝謫【宋】【元】【明】【宮】</note>
+<note n="0757003" resp="#resp2" type="mod" target="#nkr_note_mod_0757003">庈＝<g ref="#CB08370">𦧈</g>【宋】【元】【明】【宮】</note>
+<note n="0757004" resp="#resp2" type="mod" target="#nkr_note_mod_0757004">嫉＝貪【宋】【元】【明】【宮】</note>
+<note n="0757007" resp="#resp2" type="mod" target="#nkr_note_mod_0757007">銷＝消【宋】【元】【明】【宮】＊</note>
+<note n="0758001" resp="#resp2" type="mod" target="#nkr_note_mod_0758001">心＝生【宋】【元】【明】【宮】</note>
+<note n="0758002" resp="#resp2" type="mod" target="#nkr_note_mod_0758002">已＝以【宋】【元】【明】【宮】</note>
+<note n="0758003" resp="#resp2" type="mod" target="#nkr_note_mod_0758003">悉＝得【宋】【元】【明】【宮】</note>
+<note n="0758004" resp="#resp2" type="mod" target="#nkr_note_mod_0758004">惟＝唯【宋】【元】【明】【宮】＊</note>
+<note n="0758005" resp="#resp2" type="mod" target="#nkr_note_mod_0758005">啞＝瘂【宋】【元】【明】【宮】下同</note>
+<note n="0760002" resp="#resp2" type="mod" target="#nkr_note_mod_0760002">瀑＝暴【宋】【元】【明】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0756004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756004">（大唐）＋三【元】，（唐）＋三【明】</note>
+<note n="0756005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756005">辭＝詞【三】【宮】</note>
+<note n="0756006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756006">譽＝舉【三】【宮】</note>
+<note n="0756007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756007">行＝心【三】【宮】</note>
+<note n="0756008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756008">佷＝很【三】【宮】</note>
+<note n="0756009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756009">陵＝凌【三】【宮】</note>
+<note n="0756010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0756010">披＝被【三】</note>
+<note n="0757001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757001">八＝人【宮】</note>
+<note n="0757002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757002">讁＝謫【三】【宮】</note>
+<note n="0757003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757003">庈＝<g ref="#CB08370">𦧈</g>【三】【宮】</note>
+<note n="0757004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757004">嫉＝貪【三】【宮】</note>
+<note n="0757005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757005">〔大乘…經〕－【明】</note>
+<note n="0757006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757006">已＝以【宮】</note>
+<note n="0757007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0757007">銷＝消【三】【宮】＊</note>
+<note n="0758001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758001">心＝生【三】【宮】</note>
+<note n="0758002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758002">已＝以【三】【宮】</note>
+<note n="0758003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758003">悉＝得【三】【宮】</note>
+<note n="0758004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758004">惟＝唯【三】【宮】＊</note>
+<note n="0758005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758005">啞＝瘂【三】【宮】下同</note>
+<note n="0758006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758006">始＝如【明】</note>
+<note n="0758007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0758007">而＝却【元】【明】</note>
+<note n="0759001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0759001">發＝已【元】【明】</note>
+<note n="0759002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0759002">以＝已【元】【明】</note>
+<note n="0759003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0759003">咎＝各【宋】</note>
+<note n="0760001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0760001">茷＝筏【明】</note>
+<note n="0760002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0760002">瀑＝暴【三】</note>
+<note n="0761001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0761001">第＝等【明】</note>
+<note n="0761002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0761002">制＝製【宮】</note>
+</p>
+</cb:div>
+</back></text></TEI>

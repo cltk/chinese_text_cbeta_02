@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T16n0675">
+<teiHeader>
+        <fileDesc>
+                <titleStmt>
+                        <title>Taisho Tripitaka, Electronic version, No. 0675 深密解脫經</title>
+                        <author>元魏 菩提流支譯</author>
+                        <respStmt>
+                                <resp>Electronic Version by</resp>
+                                <name>CBETA</name>
+                        </respStmt>
+                </titleStmt>
+        <editionStmt>
+                <edition>$Revision: 1.23 $<date>$Date: 2012/08/27 03:15:06 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+        </editionStmt>
+        <extent>5卷</extent>
+        <publicationStmt>
+                <distributor>
+                        <name>中華電子佛典協會 (CBETA)</name>
+                        <address>
+                                <addrLine>service@cbeta.org</addrLine>
+                        </address>
+                </distributor>
+                <availability>
+                        <p>Available for non-commercial use when distributed with this header intact.</p>
+                </availability>
+                <date>$Date: 2012/08/27 03:15:06 $</date>
+        </publicationStmt>
+        <sourceDesc>
+                <bibl>Taisho Tripitaka Vol. 16, No. 675 </bibl>
+        <listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宋】</witness>
+		<witness xml:id="wit3">【宮】</witness>
+		<witness xml:id="wit4">【聖】</witness>
+		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【明】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
+		<witness xml:id="wit9">【聖乙】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+        <projectDesc>
+                <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An and Liao Yu-Ci</p>
+                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，毛佩君、廖予安、廖予慈大德提供新式標點</p>
+        </projectDesc>
+<charDecl>
+<char xml:id="CB01505">
+	<charName>CBETA CHARACTER CB01505</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[卄/狠]</value>
+	</charProp>
+	<mapping type="unicode">U+26D2D</mapping>
+	<mapping cb:dec="984545" type="PUA">U+F05E1</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+                <langUsage>
+                        <language ident="en">English</language>
+                        <language ident="zh">Chinese</language>
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+        <change when="1999-10-12T09:44:46">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="9" type="品">9 聖者彌勒菩薩問品(三-四)</cb:mulu><cb:div type="pin">
+<lb n="0679a17" ed="T"/>
+<milestone n="4" unit="juan"/>
+<lb n="0679a18" ed="T"/><cb:juan n="004" fun="open"><cb:mulu n="004" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0679003" n="0679003"/><anchor xml:id="beg0679003" n="0679003"/><title>深密解脫經</title>卷<anchor xml:id="fxT16p0679a04"/>第四<anchor xml:id="end0679003"/></cb:jhead>
+<lb n="0679a19" ed="T"/>
+<lb n="0679a20" ed="T"/><byline cb:type="Translator"><anchor xml:id="fxT16p0679a05"/>元魏天竺三<anchor xml:id="fxT16p0679a06"/>藏菩提<anchor xml:id="fxT16p0679a07"/>流支<anchor xml:id="fxT16p0679a08"/>譯</byline>
+<lb n="0679a21" ed="T"/><cb:jhead type="pin"><anchor xml:id="nkr_note_orig_0679004" n="0679004"/><anchor xml:id="beg0679004" n="0679004"/>彌<anchor xml:id="end0679004"/>勒菩薩問<anchor xml:id="nkr_note_orig_0679005" n="0679005"/><anchor xml:id="beg0679005" n="0679005"/>品<anchor xml:id="end0679005"/>之<anchor xml:id="nkr_note_orig_0679006" n="0679006"/><anchor xml:id="nkr_note_mod_0679006" n="0679006"/><anchor xml:id="beg0679006" n="0679006"/>二<anchor xml:id="end0679006"/></cb:jhead></cb:juan>
+<lb n="0679a22" ed="T"/><p xml:id="pT16p0679a2201">彌勒菩薩言：「世尊！云何菩薩摩訶薩修菩薩
+<lb n="0679a23" ed="T"/>行現得菩薩諸勝妙果？」</p><p xml:id="pT16p0679a2310" rend="inline">佛言：「彌勒！若菩薩
+<lb n="0679a24" ed="T"/>如實能知六種法者，是人能得菩薩妙果。何
+<lb n="0679a25" ed="T"/>等六種？所謂善知心生、善知心住、善知心
+<lb n="0679a26" ed="T"/>起、善知法來、善知善法增長、善知巧方便。</p><p xml:id="pT16p0679a2617" rend="inline">「彌
+<lb n="0679a27" ed="T"/>勒！云何菩薩善知心生？彌勒！若菩薩知十六
+<lb n="0679a28" ed="T"/>種心生，所謂：不覺不知不動器世間識，譬如
+<lb n="0679a29" ed="T"/>阿陀那識；取種種相觀識，譬如一時取色等
+<pb n="0679b" ed="T" xml:id="T16.0675.0679b"/>
+<lb n="0679b01" ed="T"/>可取境界，無分別意識知內外色，一念間入
+<lb n="0679b02" ed="T"/>無量三昧、見無量佛國土、見無量諸佛；彌勒！
+<lb n="0679b03" ed="T"/>少相觀相應識，譬如欲界相相應識；彌勒！大
+<lb n="0679b04" ed="T"/>相觀相應識，譬如色界相相應識；彌勒！無量
+<lb n="0679b05" ed="T"/>相觀<anchor xml:id="nkr_note_orig_0679007" n="0679007"/><anchor xml:id="beg0679007" n="0679007"/>相應<anchor xml:id="end0679007"/>識，譬如一切虛空一切識相相應
+<lb n="0679b06" ed="T"/>識；彌勒！細相觀相應識，譬如少相相應識；彌
+<lb n="0679b07" ed="T"/>勒！遍相觀相應識，譬如非想非非想<anchor xml:id="nkr_note_orig_0679008" n="0679008"/><anchor xml:id="nkr_note_mod_0679008" n="0679008"/><anchor xml:id="beg0679008" n="0679008"/>相<anchor xml:id="end0679008"/>應
+<lb n="0679b08" ed="T"/>識；彌勒！極細相觀相應識，譬如出世間相相
+<lb n="0679b09" ed="T"/>應識；彌勒！苦相觀相應識，譬如惡道識；彌
+<lb n="0679b10" ed="T"/>勒！雜相、受相觀相應識，譬如欲界識；彌勒！喜
+<lb n="0679b11" ed="T"/>相觀相應識，譬如初禪、二禪識；彌勒！樂相觀
+<lb n="0679b12" ed="T"/>相應識，譬如第三禪識；彌勒！不苦不樂相觀
+<lb n="0679b13" ed="T"/>相應識，譬如第四禪乃至非<anchor xml:id="nkr_note_orig_0679009" n="0679009"/><anchor xml:id="beg0679009" n="0679009"/>想<anchor xml:id="end0679009"/>非非想識；彌
+<lb n="0679b14" ed="T"/>勒！染相觀相應識，譬如染煩<anchor xml:id="nkr_note_orig_0679010" n="0679010"/><anchor xml:id="beg0679010" n="0679010"/>惱<anchor xml:id="end0679010"/>隨順煩<anchor xml:id="beg_45" type="star"/>惱<anchor xml:id="end_45"/>
+<lb n="0679b15" ed="T"/>識；彌勒！善法相觀相應識，譬如修行信等相
+<lb n="0679b16" ed="T"/>應識；彌勒！無記相觀相應識，譬如遠離彼二
+<lb n="0679b17" ed="T"/>法識。彌勒！是名菩薩知<anchor xml:id="nkr_note_orig_0679011" n="0679011"/><anchor xml:id="beg0679011" n="0679011"/>諸<anchor xml:id="end0679011"/>法生。</p>
+<lb n="0679b18" ed="T"/><p xml:id="pT16p0679b1801">「彌勒！云何菩薩如實知諸法住？彌勒！若菩薩
+<lb n="0679b19" ed="T"/>如實能知<anchor xml:id="nkr_note_orig_0679012" n="0679012"/><anchor xml:id="nkr_note_mod_0679012" n="0679012"/><anchor xml:id="beg0679012" n="0679012"/>唯<anchor xml:id="end0679012"/>是識體，是名菩薩知諸法住。</p><p xml:id="pT16p0679b1917" rend="inline">「彌
+<lb n="0679b20" ed="T"/>勒！云何菩薩善知諸法起？彌勒！若菩薩如實
+<lb n="0679b21" ed="T"/>能知二種相煩惱縛，若知彼已，作是思惟：『應
+<lb n="0679b22" ed="T"/>捨此法。』彌勒！菩薩如是名善知諸法起。</p><p xml:id="pT16p0679b2216" rend="inline">「彌勒！
+<lb n="0679b23" ed="T"/>云何菩薩善知法來？彌勒！若菩薩善知彼煩
+<lb n="0679b24" ed="T"/>惱，對<anchor xml:id="nkr_note_orig_0679013" n="0679013"/><anchor xml:id="beg0679013" n="0679013"/>治<anchor xml:id="end0679013"/>心增長，知諸法增長已，是名菩薩善
+<lb n="0679b25" ed="T"/>知我法增長。</p><p xml:id="pT16p0679b2506" rend="inline">「彌勒！云何菩薩善知諸法下？彌
+<lb n="0679b26" ed="T"/>勒！若菩薩知彼對治法——煩惱染相心下損——善
+<lb n="0679b27" ed="T"/>知諸法損，彌勒！是名菩薩善知諸法下。</p><p xml:id="pT16p0679b2716" rend="inline">「彌勒！
+<lb n="0679b28" ed="T"/>云何菩薩善知巧方便？彌勒！若菩薩觀察解
+<lb n="0679b29" ed="T"/>脫勝處一切入，彌勒！是名菩薩善知巧方便。</p>
+<pb n="0679c" ed="T" xml:id="T16.0675.0679c"/>
+<lb n="0679c01" ed="T"/><p xml:id="pT16p0679c0101">「彌勒！菩薩摩訶薩善知如是修行菩薩行者
+<lb n="0679c02" ed="T"/>能得菩薩最勝妙果。彌勒！過去一切菩薩亦
+<lb n="0679c03" ed="T"/>如是、未來一切菩薩亦如是、現在一切菩薩
+<lb n="0679c04" ed="T"/>亦如是，修行菩薩行得菩薩妙果。」</p>
+<lb n="0679c05" ed="T"/><p xml:id="pT16p0679c0501">彌勒菩薩言：「世尊！如來常說無餘涅槃界中
+<lb n="0679c06" ed="T"/>一切受滅盡無餘。世尊！何者是彼受相而言
+<lb n="0679c07" ed="T"/>一切受相滅？」</p><p xml:id="pT16p0679c0706" rend="inline">佛言：「彌勒！略說二種受滅，所謂
+<lb n="0679c08" ed="T"/>見身受相滅、受彼果境界受相滅。</p><p xml:id="pT16p0679c0814" rend="inline">「彌勒！身受
+<lb n="0679c09" ed="T"/>相滅者，有四種受應知。何等四種？所謂依止
+<lb n="0679c10" ed="T"/>色受相、依止非色受相、成就果受相、不成就
+<lb n="0679c11" ed="T"/>果受相。</p><p xml:id="pT16p0679c1104" rend="inline">「彌勒！成就果受相者，謂現前受相；不
+<lb n="0679c12" ed="T"/>成就<anchor xml:id="nkr_note_orig_0679014" n="0679014"/><anchor xml:id="nkr_note_mod_0679014" n="0679014"/><anchor xml:id="beg0679014" n="0679014"/>受果<anchor xml:id="end0679014"/>相者，謂未來世因受。</p><p xml:id="pT16p0679c1213" rend="inline">「彼果報境界
+<lb n="0679c13" ed="T"/>受相亦有四種，所謂：住持受相、資生受相、受
+<lb n="0679c14" ed="T"/>用受相、對受相。</p><p xml:id="pT16p0679c1407" rend="inline">「彌勒！有餘涅槃界中非成就
+<lb n="0679c15" ed="T"/>受相果，明觸受相受，是故，依彼對一切受相未
+<lb n="0679c16" ed="T"/>滅以有餘受相。彌勒！成就果相、受相一切種，
+<lb n="0679c17" ed="T"/>彼二受相滅，但有明觸受相受。無餘涅槃界
+<lb n="0679c18" ed="T"/>中，彼受亦滅，以無餘涅<anchor xml:id="nkr_note_orig_0679015" n="0679015"/><anchor xml:id="nkr_note_mod_0679015" n="0679015"/><anchor xml:id="beg0679015" n="0679015"/>槃<anchor xml:id="end0679015"/>中<anchor xml:id="nkr_note_orig_0679016" n="0679016"/><anchor xml:id="beg0679016" n="0679016"/>更<anchor xml:id="end0679016"/>無明觸相。
+<lb n="0679c19" ed="T"/>是故，我說無餘涅槃<anchor xml:id="nkr_note_orig_0679017" n="0679017"/><anchor xml:id="beg0679017" n="0679017"/>中<anchor xml:id="end0679017"/>滅一切受相。」</p><p xml:id="pT16p0679c1915" rend="inline">爾時，世
+<lb n="0679c20" ed="T"/>尊告彌勒菩薩摩訶薩言：「善哉，善哉！彌勒！汝
+<lb n="0679c21" ed="T"/>依如<anchor xml:id="nkr_note_orig_0679018" n="0679018"/><anchor xml:id="beg0679018" n="0679018"/>實<anchor xml:id="end0679018"/>修行故問滿足清淨菩薩行相。彌
+<lb n="0679c22" ed="T"/>勒！汝於如實修行法中善學具足，是故問我
+<lb n="0679c23" ed="T"/>如實行法。彌勒！我已善<anchor xml:id="nkr_note_orig_0679019" n="0679019"/><anchor xml:id="beg0679019" n="0679019"/>說<anchor xml:id="end0679019"/>菩薩滿足清淨修
+<lb n="0679c24" ed="T"/>行法應知，彌勒！過去諸佛亦如是說、未來諸
+<lb n="0679c25" ed="T"/>佛亦如是說、現在諸佛亦如是說，過去、未來、
+<lb n="0679c26" ed="T"/>現在一切諸善男子亦如是問。是故，一切諸
+<lb n="0679c27" ed="T"/>善男子、善女人等應當至心行菩薩行。」</p><p xml:id="pT16p0679c2716" rend="inline">爾時，
+<lb n="0679c28" ed="T"/>世尊而說偈言：</p>
+<lb n="0679c29" ed="T"/><lg xml:id="lgT16p0679c2901" rend="margin-left:1em;text-indent:-1em"><l>「此說法<anchor xml:id="nkr_note_orig_0679020" n="0679020"/><anchor xml:id="nkr_note_mod_0679020" n="0679020"/><anchor xml:id="beg0679020" n="0679020"/>行中<anchor xml:id="end0679020"/>，</l><l>若人不放逸，</l>
+<pb n="0680a" ed="T" xml:id="T16.0675.0680a"/>
+<lb n="0680a01" ed="T"/><l>智人正思惟，</l><l>能得無上道。</l>
+<lb n="0680a02" ed="T"/><l>若人取法相，</l><l>欲得彼法體，</l>
+<lb n="0680a03" ed="T"/><l>彼離如實行，</l><l>空地不相應。</l>
+<lb n="0680a04" ed="T"/><l>見為眾生<anchor xml:id="nkr_note_orig_0680001" n="0680001"/><anchor xml:id="beg0680001" n="0680001"/>性<anchor xml:id="end0680001"/>，</l><l>利眾生勇猛，</l>
+<lb n="0680a05" ed="T"/><l>得無染著相、</l><l>一切出世<anchor xml:id="nkr_note_orig_0680002" n="0680002"/><anchor xml:id="nkr_note_mod_0680002" n="0680002"/><anchor xml:id="beg0680002" n="0680002"/>善<anchor xml:id="end0680002"/>。</l>
+<lb n="0680a06" ed="T"/><l>為求欲說法，</l><l>彼人還得法，</l>
+<lb n="0680a07" ed="T"/><l>彼得無價<anchor xml:id="nkr_note_orig_0680003" n="0680003"/><anchor xml:id="beg0680003" n="0680003"/>寶<anchor xml:id="end0680003"/>，</l><l>乞求行世間。</l>
+<lb n="0680a08" ed="T"/><l>解脫諸戲論，</l><l>精進行堅固，</l>
+<lb n="0680a09" ed="T"/><l>為利益眾生，</l><l>修行此實行。」</l></lg>
+<lb n="0680a10" ed="T"/><p xml:id="pT16p0680a1001">爾時，彌勒菩薩摩訶薩白佛言：「世尊！此深密
+<lb n="0680a11" ed="T"/>解脫經中，當何名此法門？云何奉持？」</p><p xml:id="pT16p0680a1115" rend="inline">佛言：
+<lb n="0680a12" ed="T"/>「彌勒！此法門名為『如實修行了義修多羅』，汝
+<lb n="0680a13" ed="T"/>當奉持。」</p><p xml:id="pT16p0680a1304" rend="inline">說是如實修行了義修多羅時，六千
+<lb n="0680a14" ed="T"/>眾生發阿耨多羅三<anchor xml:id="nkr_note_orig_0680004" n="0680004"/><anchor xml:id="beg0680004" n="0680004"/>藐<anchor xml:id="end0680004"/>三菩提心、三千聲聞
+<lb n="0680a15" ed="T"/>遠塵離垢得法眼淨、十萬五千聲聞離諸漏
+<lb n="0680a16" ed="T"/>得心解脫、七萬五千菩薩得大乘如實修行
+<lb n="0680a17" ed="T"/>觀成就。</p></cb:div>
+<lb n="0680a18" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="10" type="品">10 聖者觀世自在菩薩問品(四-五)</cb:mulu><head><anchor xml:id="fxT16p0680a01"/>聖者觀世自在菩薩問品第十<anchor xml:id="nkr_note_orig_0680005" n="0680005"/><anchor xml:id="nkr_note_mod_0680005" n="0680005"/><anchor xml:id="beg0680005" n="0680005"/>之一<anchor xml:id="end0680005"/></head>
+<lb n="0680a19" ed="T"/><p xml:id="pT16p0680a1901">爾時，聖者觀世自在菩薩摩訶薩白佛言：「世
+<lb n="0680a20" ed="T"/>尊！世尊為諸菩薩說十地差別，所謂：歡喜地、
+<lb n="0680a21" ed="T"/>離垢地、光明地、炎地、難勝地、現前地、遠行
+<lb n="0680a22" ed="T"/>地、不動地、善慧地、法雲地、第十一佛地。世
+<lb n="0680a23" ed="T"/>尊！有幾種清淨？攝此諸地有幾種分？」</p><p xml:id="pT16p0680a2315" rend="inline">佛言：「觀
+<lb n="0680a24" ed="T"/>世自在！有四種清淨、十一分攝此諸地應知。
+<lb n="0680a25" ed="T"/>觀世自在！增上清淨攝初地、增上戒清淨攝
+<lb n="0680a26" ed="T"/>二地、增上心清淨攝三地、增上慧清淨攝四
+<lb n="0680a27" ed="T"/>地乃至上上勝妙從四地乃至佛地。觀世自
+<lb n="0680a28" ed="T"/>在！是名四種清淨攝諸地應知。</p><p xml:id="pT16p0680a2813" rend="inline">「觀世自在！何
+<lb n="0680a29" ed="T"/>者十一分攝諸地義？觀世自在！從菩薩起信
+<pb n="0680b" ed="T" xml:id="T16.0675.0680b"/>
+<lb n="0680b01" ed="T"/>行地修行十種信心，能善思惟菩薩乘，彼信
+<lb n="0680b02" ed="T"/>行地行過彼信地，入於定聚滿足彼分。觀世
+<lb n="0680b03" ed="T"/>自在！彼諸菩薩雖滿彼分，於微細行中而猶
+<lb n="0680b04" ed="T"/>不能如實修行；彼諸菩薩不滿彼分，為滿足
+<lb n="0680b05" ed="T"/>故修行進求得滿彼分，雖滿彼分而猶不能
+<lb n="0680b06" ed="T"/>如實滿足世間三昧三摩跋提及未滿足聞
+<lb n="0680b07" ed="T"/>持陀羅尼；彼諸菩薩不滿彼分，為滿足故修
+<lb n="0680b08" ed="T"/>行進求得滿彼分，雖滿彼分如菩提分而猶
+<lb n="0680b09" ed="T"/>不能如實修行，心不能捨三昧愛法；彼諸菩
+<lb n="0680b10" ed="T"/>薩不滿彼分，為滿足故修行進求得滿彼分，
+<lb n="0680b11" ed="T"/>雖滿彼分而猶不能如實觀察一切諸諦，亦
+<lb n="0680b12" ed="T"/>不能捨方便所攝修菩提分，世間涅槃一向
+<lb n="0680b13" ed="T"/>現前、一向不現前；彼諸菩薩不滿彼分，為滿
+<lb n="0680b14" ed="T"/><anchor xml:id="nkr_note_orig_0680006" n="0680006"/><anchor xml:id="beg0680006" n="0680006"/>足<anchor xml:id="end0680006"/>故修行進求得滿彼分，雖滿彼分而猶不
+<lb n="0680b15" ed="T"/>能如實知諸世間生死、現見修行及無相正
+<lb n="0680b16" ed="T"/>念，不能多修；彼諸菩薩不滿彼分，為滿足故
+<lb n="0680b17" ed="T"/>修行進求得滿彼分，雖滿彼分而猶不能如
+<lb n="0680b18" ed="T"/>實而知，無間不斷無相正念，不能多修；彼諸
+<lb n="0680b19" ed="T"/>菩薩不滿彼分，為滿足故修行進求得滿彼
+<lb n="0680b20" ed="T"/>分，雖滿彼分而猶不能捨無相行自然而行，
+<lb n="0680b21" ed="T"/>無相行中不得自在；彼諸菩薩彼分不滿，為
+<lb n="0680b22" ed="T"/>滿足故修行進求得滿彼分，雖滿彼分而猶
+<lb n="0680b23" ed="T"/>不能於彼種種名字諸相無礙而說一切諸
+<lb n="0680b24" ed="T"/>法及不能得說法自在；彼諸菩薩不滿彼分，
+<lb n="0680b25" ed="T"/>為滿足故修行進求得滿彼分，雖滿彼分而
+<lb n="0680b26" ed="T"/>不能得滿足法身及不能得受樂法身；彼諸
+<lb n="0680b27" ed="T"/>菩薩不滿彼分，為滿足故修行進求得滿彼
+<lb n="0680b28" ed="T"/>分，雖滿彼分而不能得於諸一切境界相中
+<lb n="0680b29" ed="T"/>無障無礙智慧具足；彼諸菩薩不滿彼分，為
+<pb n="0680c" ed="T" xml:id="T16.0675.0680c"/>
+<lb n="0680c01" ed="T"/>滿足故修行進求得滿彼分，得滿彼分已，名
+<lb n="0680c02" ed="T"/>為滿足一切菩提分，得滿菩提，菩薩名之為
+<lb n="0680c03" ed="T"/>佛。觀世自在！如是十一種分攝諸地應知。」</p>
+<lb n="0680c04" ed="T"/><p xml:id="pT16p0680c0401">觀世自在菩薩白佛言：「世尊！世尊<anchor xml:id="nkr_note_orig_0680007" n="0680007"/><anchor xml:id="nkr_note_mod_0680007" n="0680007"/><anchor xml:id="beg0680007" n="0680007"/>何故說初<anchor xml:id="end0680007"/>
+<lb n="0680c05" ed="T"/>名歡喜地乃至佛地說名佛地？」</p><p xml:id="pT16p0680c0513" rend="inline">佛言：「觀世自
+<lb n="0680c06" ed="T"/>在！菩薩初離生死，得出世間大利，清淨勝妙，
+<lb n="0680c07" ed="T"/>歡喜踊躍，是故，初地名歡喜地；遠離一切微
+<lb n="0680c08" ed="T"/>細破戒障故，是故，第二名離垢地；依無量智
+<lb n="0680c09" ed="T"/>光明照曜，照諸三昧及聞持陀羅尼而得自
+<lb n="0680c10" ed="T"/>在，能作光明，是故，第三名光明地；智火炎熾，
+<lb n="0680c11" ed="T"/>燒菩提分煩惱習垢，是故，第四名為炎地；即
+<lb n="0680c12" ed="T"/>彼菩提分方便修行，難勝得勝，是故，第五名難
+<lb n="0680c13" ed="T"/>勝地；正念思惟諸有為行，現前證知諸法無
+<lb n="0680c14" ed="T"/>相，是故，第六名現前地；無間無斷無相正念，
+<lb n="0680c15" ed="T"/>遠入<anchor xml:id="nkr_note_orig_0680008" n="0680008"/><anchor xml:id="nkr_note_mod_0680008" n="0680008"/><anchor xml:id="beg0680008" n="0680008"/>行<anchor xml:id="end0680008"/>，近清淨地，是故，第七名遠行地；無有
+<lb n="0680c16" ed="T"/>諸相，自然修行，相不能動，是故，第八名不動
+<lb n="0680c17" ed="T"/>地；說一切法、一切種智無礙自在，得廣大智，
+<lb n="0680c18" ed="T"/><anchor xml:id="nkr_note_orig_0680009" n="0680009"/><anchor xml:id="nkr_note_mod_0680009" n="0680009"/><anchor xml:id="beg0680009" n="0680009"/>他<anchor xml:id="end0680009"/>不降伏，是故，第九名善慧地；眾生煩惱、過
+<lb n="0680c19" ed="T"/>患之身如虛空等，如來法身猶如大雲，覆眾
+<lb n="0680c20" ed="T"/>生界說法示現，是故，第十名法雲地；離一切
+<lb n="0680c21" ed="T"/>無明微細習氣、離一切境界智障習氣，無障
+<lb n="0680c22" ed="T"/>無礙，於一切法中而得自在，是故，第十一名
+<lb n="0680c23" ed="T"/>為佛地。」</p>
+<lb n="0680c24" ed="T"/><p xml:id="pT16p0680c2401">觀世自在菩薩白佛言：「世尊！世尊！此諸地有
+<lb n="0680c25" ed="T"/>幾種無明？幾種障對？」</p><p xml:id="pT16p0680c2509" rend="inline">佛言：「觀世自在！有二十二
+<lb n="0680c26" ed="T"/>種無明、十一種<anchor xml:id="nkr_note_orig_0680010" n="0680010"/><anchor xml:id="nkr_note_mod_0680010" n="0680010"/><anchor xml:id="beg0680010" n="0680010"/>障<anchor xml:id="end0680010"/>。</p><p xml:id="pT16p0680c2608" rend="inline">「觀世自在！於初地中執
+<lb n="0680c27" ed="T"/>著人我法我無明、惡道煩惱染相無明，迷沒
+<lb n="0680c28" ed="T"/>彼二是故<anchor xml:id="nkr_note_orig_0680011" n="0680011"/><anchor xml:id="nkr_note_mod_0680011" n="0680011"/><anchor xml:id="beg0680011" n="0680011"/>名障<anchor xml:id="end0680011"/>；於二地中，微細過無明、種
+<lb n="0680c29" ed="T"/>種業道無明，迷沒彼二是故名障；於三地中，
+<pb n="0681a" ed="T" xml:id="T16.0675.0681a"/>
+<lb n="0681a01" ed="T"/>求欲法無明、滿足聞持陀羅尼無明，迷沒彼
+<lb n="0681a02" ed="T"/>二是故名障；於四地中，愛三摩跋提無明、愛
+<lb n="0681a03" ed="T"/>法無明，迷沒彼二是故名障；於五地中，於世
+<lb n="0681a04" ed="T"/>間正念思惟非一向背世間非一向現世間
+<lb n="0681a05" ed="T"/>無明、於涅槃正念思惟非一向背涅槃非一
+<lb n="0681a06" ed="T"/>向趣涅槃無明，迷沒彼二是故名障；於六地
+<lb n="0681a07" ed="T"/>中，不如實知有為行現前無明、多集諸相無
+<lb n="0681a08" ed="T"/>明，迷沒彼二是故名障；於七地中，微細相行
+<lb n="0681a09" ed="T"/>無明、一向思惟方便無明，迷沒彼二是故名
+<lb n="0681a10" ed="T"/>障；於八地中，無自然無相無明、諸相不得自
+<lb n="0681a11" ed="T"/>在無明，迷沒彼二是故名障；於九地中，無量
+<lb n="0681a12" ed="T"/>說法無量名句上上樂說智慧陀羅尼無明、
+<lb n="0681a13" ed="T"/>樂說辯才自在無明，迷沒彼二是故名障；於
+<lb n="0681a14" ed="T"/>十地中大通無明、入微細密無明，迷沒彼二
+<lb n="0681a15" ed="T"/>是故名<anchor xml:id="nkr_note_orig_0681001" n="0681001"/><anchor xml:id="nkr_note_mod_0681001" n="0681001"/><anchor xml:id="beg0681001" n="0681001"/>障<anchor xml:id="end0681001"/>；於佛地中，於一切境界極微細無
+<lb n="0681a16" ed="T"/>明、他障無明，迷沒彼二是故名<anchor xml:id="beg_46" type="star"/>障<anchor xml:id="end_46"/>。</p><p xml:id="pT16p0681a1614" rend="inline">「觀世自
+<lb n="0681a17" ed="T"/>在！是名二十二種無明、十一種<anchor xml:id="beg_47" type="star"/>障<anchor xml:id="end_47"/>說諸地差
+<lb n="0681a18" ed="T"/>別。觀世自在！而阿耨多羅三藐三菩提，此諸
+<lb n="0681a19" ed="T"/>法不相應。」</p><p xml:id="pT16p0681a1905" rend="inline">觀世自在菩薩言：「希有，世尊！阿耨
+<lb n="0681a20" ed="T"/>多羅三<anchor xml:id="beg_48" type="star"/>藐<anchor xml:id="end_48"/>三菩提大利大果，彼諸菩薩破大
+<lb n="0681a21" ed="T"/>無明迷沒羅<anchor xml:id="nkr_note_orig_0681002" n="0681002"/><anchor xml:id="beg0681002" n="0681002"/>網<anchor xml:id="end0681002"/>、亦滅一切虛妄對稠林，得阿
+<lb n="0681a22" ed="T"/>耨多羅三<anchor xml:id="beg_49" type="star"/>藐<anchor xml:id="end_49"/>三菩提。」</p>
+<lb n="0681a23" ed="T"/><p xml:id="pT16p0681a2301">觀世自在菩薩白佛言：「世尊！世尊！說此諸
+<lb n="0681a24" ed="T"/>地有幾種殊勝？」</p><p xml:id="pT16p0681a2407" rend="inline">佛言：「觀世自在！有八種清
+<lb n="0681a25" ed="T"/>淨，所謂：直心清淨、<anchor xml:id="nkr_note_orig_0681003" n="0681003"/><anchor xml:id="beg0681003" n="0681003"/>慈<anchor xml:id="end0681003"/>清淨、悲清淨、波羅蜜
+<lb n="0681a26" ed="T"/>清淨、見諸佛供養清淨、教化眾生清淨、生清
+<lb n="0681a27" ed="T"/>淨、力清淨。</p><p xml:id="pT16p0681a2705" rend="inline">「觀世自在！於初地中直心清淨
+<lb n="0681a28" ed="T"/>乃至力清淨，復有上上地乃至佛地直心清
+<lb n="0681a29" ed="T"/>淨、力清淨，彼清淨、極清淨、增上清淨應知。</p><p xml:id="pT16p0681a2917" rend="inline">「觀
+<pb n="0681b" ed="T" xml:id="T16.0675.0681b"/>
+<lb n="0681b01" ed="T"/>世自在！除佛地生清淨，所謂初地諸功德——彼
+<lb n="0681b02" ed="T"/>諸地功德乃至上上地——彼初地功德平等無
+<lb n="0681b03" ed="T"/>差別，而地地有勝功德應知。」</p>
+<lb n="0681b04" ed="T"/><p xml:id="pT16p0681b0401">觀世自在菩薩白佛言：「世尊！世尊何故說一
+<lb n="0681b05" ed="T"/>切諸生中菩薩摩訶薩生為最勝？」</p><p xml:id="pT16p0681b0514" rend="inline">佛言：「觀世
+<lb n="0681b06" ed="T"/>自在！有四種法，所謂：善集諸善根清淨故、得
+<lb n="0681b07" ed="T"/>內心方便故、起大慈悲救<anchor xml:id="nkr_note_orig_0681004" n="0681004"/><anchor xml:id="beg0681004" n="0681004"/>護<anchor xml:id="end0681004"/>一切諸眾生故、
+<lb n="0681b08" ed="T"/>自無染故，能令一切眾生無染。」</p>
+<lb n="0681b09" ed="T"/><p xml:id="pT16p0681b0901">觀世自在菩薩白佛言：「世尊！世尊何故說諸
+<lb n="0681b10" ed="T"/>菩薩能發一切妙願、勝願、殊勝力願？」</p><p xml:id="pT16p0681b1015" rend="inline">佛言：「觀
+<lb n="0681b11" ed="T"/>世自在！有四種法菩薩能如實知涅槃妙樂
+<lb n="0681b12" ed="T"/>故，速得阿耨多羅三<anchor xml:id="beg_4a" type="star"/>藐<anchor xml:id="end_4a"/>三菩提、復<anchor xml:id="nkr_note_orig_0681005" n="0681005"/><anchor xml:id="nkr_note_mod_0681005" n="0681005"/><anchor xml:id="beg0681005" n="0681005"/>能<anchor xml:id="end0681005"/>捨彼
+<lb n="0681b13" ed="T"/>速得菩提勝妙樂行、不為報恩而發大心為
+<lb n="0681b14" ed="T"/>利眾生、於六道中長夜受諸種種苦惱。觀世
+<lb n="0681b15" ed="T"/>自在！是故，我說諸菩薩摩訶薩妙願、勝願、殊
+<lb n="0681b16" ed="T"/>勝力願。」</p>
+<lb n="0681b17" ed="T"/><p xml:id="pT16p0681b1701">觀世自在菩薩白佛言：「世尊！世尊！菩薩摩訶
+<lb n="0681b18" ed="T"/>薩有幾種學事？」</p><p xml:id="pT16p0681b1807" rend="inline">佛告觀世自在菩薩言：「觀世
+<lb n="0681b19" ed="T"/>自在！菩薩學事有六種。何等為六？所謂檀波
+<lb n="0681b20" ed="T"/>羅蜜、尸羅波羅蜜、羼提波羅蜜、毘梨耶波羅
+<lb n="0681b21" ed="T"/>蜜、禪波羅蜜、般若波羅蜜。」</p>
+<lb n="0681b22" ed="T"/><p xml:id="pT16p0681b2201">觀世自在菩薩白佛言：「世尊！此六種學，幾增
+<lb n="0681b23" ed="T"/>上戒學？幾增上心學？幾增上<anchor xml:id="nkr_note_orig_0681006" n="0681006"/><anchor xml:id="beg0681006" n="0681006"/>慧<anchor xml:id="end0681006"/>學？」</p><p xml:id="pT16p0681b2314" rend="inline">佛言：「觀
+<lb n="0681b24" ed="T"/>世自在！初三學——檀波羅蜜、尸<anchor xml:id="nkr_note_orig_0681007" n="0681007"/><anchor xml:id="nkr_note_mod_0681007" n="0681007"/><anchor xml:id="beg0681007" n="0681007"/>羅<anchor xml:id="end0681007"/>波羅蜜、羼
+<lb n="0681b25" ed="T"/>提波羅蜜——增上戒學，禪波羅蜜增上心學，般
+<lb n="0681b26" ed="T"/>若波羅蜜增上慧學，毘梨耶波羅蜜遍諸波
+<lb n="0681b27" ed="T"/>羅蜜。觀世自在！三種增上攝六種學事應知。」</p>
+<lb n="0681b28" ed="T"/><p xml:id="pT16p0681b2801">觀世自在菩薩白佛言：「世尊！此六種修行，幾
+<lb n="0681b29" ed="T"/>功德莊嚴？幾智慧莊嚴？」</p><p xml:id="pT16p0681b2910" rend="inline">佛言：「觀世自在！增
+<pb n="0681c" ed="T" xml:id="T16.0675.0681c"/>
+<lb n="0681c01" ed="T"/>上戒學功德莊嚴，增上慧學智慧莊嚴，精進
+<lb n="0681c02" ed="T"/>波羅蜜、禪波羅蜜遍諸波羅蜜應知。」</p>
+<lb n="0681c03" ed="T"/><p xml:id="pT16p0681c0301">觀世自在菩薩白佛言：「世尊！世尊！菩薩云何
+<lb n="0681c04" ed="T"/>學此諸學？」</p><p xml:id="pT16p0681c0405" rend="inline">佛言：「觀世自在！有五種觀法學此
+<lb n="0681c05" ed="T"/>諸<anchor xml:id="nkr_note_orig_0681008" n="0681008"/><anchor xml:id="beg0681008" n="0681008"/>學<anchor xml:id="end0681008"/>。何等為五？所謂依諸波羅蜜說法、依
+<lb n="0681c06" ed="T"/>菩薩藏初至心信，次有十種法行，如實修行
+<lb n="0681c07" ed="T"/>聞、思、修慧智故；護諸菩提心故；親近善知識
+<lb n="0681c08" ed="T"/>故；不休息，修行一切諸善根故。觀世自在！是
+<lb n="0681c09" ed="T"/>名菩薩學諸學事應知。」</p>
+<lb n="0681c10" ed="T"/><p xml:id="pT16p0681c1001">觀世自在菩薩白佛言：「世尊！世尊！此諸學事
+<lb n="0681c11" ed="T"/>何故說六種數？」</p><p xml:id="pT16p0681c1107" rend="inline">佛言：「觀世自在！有二種義。何
+<lb n="0681c12" ed="T"/>等為二？所謂攝取一切眾生故、對治諸障故。
+<lb n="0681c13" ed="T"/>觀世自在！三種學攝取眾生利益故、三種學
+<lb n="0681c14" ed="T"/>對治諸障故。</p><p xml:id="pT16p0681c1406" rend="inline">「觀世自在！菩薩修行檀波羅蜜，
+<lb n="0681c15" ed="T"/>資生利益攝取眾生；菩薩修行尸波羅蜜，不
+<lb n="0681c16" ed="T"/>惱、不害，以無畏施攝取眾生；菩薩修行羼提
+<lb n="0681c17" ed="T"/>波羅蜜，無報怨心攝取眾生。觀世自在！以此
+<lb n="0681c18" ed="T"/>三學攝取眾生。</p><p xml:id="pT16p0681c1807" rend="inline">「觀世自在！菩薩修行毘梨耶
+<lb n="0681c19" ed="T"/>波羅蜜，動諸煩惱、殺害諸使，修行分中不為
+<lb n="0681c20" ed="T"/>一切煩惱所動；菩薩修行禪波羅蜜，縛諸煩
+<lb n="0681c21" ed="T"/>惱；菩薩修行般若波羅蜜，斷一切使。觀世自
+<lb n="0681c22" ed="T"/>在！是三種波羅蜜對治所治煩惱故。」</p>
+<lb n="0681c23" ed="T"/><p xml:id="pT16p0681c2301">觀世自在菩薩白<anchor xml:id="nkr_note_orig_0681009" n="0681009"/><anchor xml:id="nkr_note_mod_0681009" n="0681009"/><anchor xml:id="beg0681009" n="0681009"/>佛<anchor xml:id="end0681009"/>：「世尊！世尊何故說餘四
+<lb n="0681c24" ed="T"/>波羅蜜但有四數？」</p><p xml:id="pT16p0681c2408" rend="inline">佛言：「觀世自在！為成就彼
+<lb n="0681c25" ed="T"/>六波羅蜜伴故，說餘四波羅蜜。觀世自在！菩
+<lb n="0681c26" ed="T"/>薩三波羅蜜攝取眾生、攝事方便、攝取眾生
+<lb n="0681c27" ed="T"/>置善法中。是故，我說方便波羅蜜與三波羅
+<lb n="0681c28" ed="T"/>蜜為伴。</p><p xml:id="pT16p0681c2804" rend="inline">「觀世自在！菩薩現身依多煩惱而亂
+<lb n="0681c29" ed="T"/>其心，不能修行如實之法，而復信樂少行少
+<pb n="0682a" ed="T" xml:id="T16.0675.0682a"/>
+<lb n="0682a01" ed="T"/>法，微薄直心，不能攝取內心正定，聞菩薩藏
+<lb n="0682a02" ed="T"/>如聞而觀，不能入定，而不能起<anchor xml:id="nkr_note_orig_0682001" n="0682001"/><anchor xml:id="beg0682001" n="0682001"/>出<anchor xml:id="end0682001"/>世間智，但
+<lb n="0682a03" ed="T"/>修少分功德智慧莊嚴之相；依彼少分智慧
+<lb n="0682a04" ed="T"/>莊嚴為薄未來煩惱作願，是菩薩願波羅蜜。
+<lb n="0682a05" ed="T"/>願未來世諸煩惱薄，能成精進波羅蜜。是故，
+<lb n="0682a06" ed="T"/>我說願波羅蜜與毘梨耶波羅蜜為伴。</p>
+<lb n="0682a07" ed="T"/><p xml:id="pT16p0682a0701">「觀世自在！菩薩親近善知識故聽聞正法，如
+<lb n="0682a08" ed="T"/>實思惟而能隨順，如實修行轉彼薄心、增長
+<lb n="0682a09" ed="T"/>善力，於彼真如法界之中得增上力，是菩薩
+<lb n="0682a10" ed="T"/>力波羅蜜得內心定。是故，我說力波羅蜜與
+<lb n="0682a11" ed="T"/>禪波羅蜜為伴。</p>
+<lb n="0682a12" ed="T"/><p xml:id="pT16p0682a1201">「觀世自在！菩薩依於菩薩藏故聞慧正觀、修
+<lb n="0682a13" ed="T"/>禪波羅蜜，是菩薩智波羅蜜，依智波羅蜜能
+<lb n="0682a14" ed="T"/>生出世般若波羅蜜。是故，我說智波羅蜜與
+<lb n="0682a15" ed="T"/>般若波羅蜜為<anchor xml:id="nkr_note_orig_0682002" n="0682002"/><anchor xml:id="beg0682002" n="0682002"/>伴<anchor xml:id="end0682002"/>。」</p>
+<lb n="0682a16" ed="T"/><p xml:id="pT16p0682a1601">觀世自在菩薩白佛言：「世尊！世尊何故說六
+<lb n="0682a17" ed="T"/>波羅蜜如是次第？」</p><p xml:id="pT16p0682a1708" rend="inline">佛言：「觀世自在！依前後上
+<lb n="0682a18" ed="T"/><anchor xml:id="nkr_note_orig_0682003" n="0682003"/><anchor xml:id="beg0682003" n="0682003"/>上<anchor xml:id="end0682003"/>轉勝故。觀世自在！菩薩遠離受用欲心，受
+<lb n="0682a19" ed="T"/>持淨戒；受持淨戒已，能忍諸惡；能忍諸惡已，
+<lb n="0682a20" ed="T"/>能成精進；能成精進已，能入諸禪；能入諸禪
+<lb n="0682a21" ed="T"/>已，能得出世間智慧。觀世自在！是故，我說六
+<lb n="0682a22" ed="T"/>波羅蜜如是次第應知。」</p>
+<lb n="0682a23" ed="T"/><p xml:id="pT16p0682a2301">觀世自在菩薩白佛言：「世尊！世尊說諸波羅
+<lb n="0682a24" ed="T"/>蜜各有幾種差別？」</p><p xml:id="pT16p0682a2408" rend="inline">佛言：「觀世自在！諸波羅蜜
+<lb n="0682a25" ed="T"/>各有三種差別。觀世自在！檀波羅蜜有三種，
+<lb n="0682a26" ed="T"/>所謂法施、財施、無畏施；尸羅波羅蜜有三種，
+<lb n="0682a27" ed="T"/>所謂離諸惡行戒、修諸善行戒、利益眾生戒；
+<lb n="0682a28" ed="T"/>羼提波羅蜜有三種，所謂忍諸惡忍、忍諸苦
+<lb n="0682a29" ed="T"/>忍、忍諸法忍；毘梨耶波羅蜜有三種，所謂發
+<pb n="0682b" ed="T" xml:id="T16.0675.0682b"/>
+<lb n="0682b01" ed="T"/>起精進、修行善法精進、利益眾生精進；禪波
+<lb n="0682b02" ed="T"/>羅蜜有三種，所謂無分別寂靜極寂靜對治
+<lb n="0682b03" ed="T"/>煩惱受樂行禪、起諸功德禪、起利益眾生禪；
+<lb n="0682b04" ed="T"/>般若波羅蜜有三種，所謂觀世諦般若、觀第
+<lb n="0682b05" ed="T"/>一義諦般若、觀利益眾生般若。觀世自在！是
+<lb n="0682b06" ed="T"/>名諸法波羅蜜各有三種差別應知。」</p>
+<lb n="0682b07" ed="T"/><p xml:id="pT16p0682b0701">觀世自在菩薩白佛言：「世尊！以何義故說諸
+<lb n="0682b08" ed="T"/>波羅蜜名波羅蜜？」</p><p xml:id="pT16p0682b0808" rend="inline">佛言：「觀世自在！有五種義
+<lb n="0682b09" ed="T"/>說名波羅蜜，所謂不著、不<anchor xml:id="nkr_note_orig_0682004" n="0682004"/><anchor xml:id="nkr_note_mod_0682004" n="0682004"/><anchor xml:id="beg0682004" n="0682004"/>悕望<anchor xml:id="end0682004"/>、無過、不分
+<lb n="0682b10" ed="T"/>別、迴向。觀世自<anchor xml:id="nkr_note_orig_0682005" n="0682005"/><anchor xml:id="nkr_note_mod_0682005" n="0682005"/><anchor xml:id="beg0682005" n="0682005"/>在<anchor xml:id="end0682005"/>！不著者，所謂不著諸波
+<lb n="0682b11" ed="T"/>羅蜜相違事；不悕望者，於諸波羅蜜受用果
+<lb n="0682b12" ed="T"/>報報恩，中無求心；無過者，遠離諸波羅蜜
+<lb n="0682b13" ed="T"/>無方便雜染法；不分別者，諸波羅蜜中不如
+<lb n="0682b14" ed="T"/>所聞執著自相；迴向者，諸波羅蜜所作所集
+<lb n="0682b15" ed="T"/>迴取大菩提果<anchor xml:id="nkr_note_orig_0682006" n="0682006"/><anchor xml:id="beg0682006" n="0682006"/>故<anchor xml:id="end0682006"/>。觀世自在！是故，我說名波
+<lb n="0682b16" ed="T"/>羅蜜。」</p>
+<lb n="0682b17" ed="T"/><p xml:id="pT16p0682b1701">觀世自在菩薩白佛言：「世尊！諸波羅蜜相違
+<lb n="0682b18" ed="T"/>事有幾種？」</p><p xml:id="pT16p0682b1805" rend="inline">佛言：「觀世自在！波羅蜜相違事有
+<lb n="0682b19" ed="T"/>六種。何等為六？所謂樂於五欲資生自在，我
+<lb n="0682b20" ed="T"/>受樂見功德<anchor xml:id="nkr_note_orig_0682007" n="0682007"/><anchor xml:id="nkr_note_mod_0682007" n="0682007"/><anchor xml:id="beg0682007" n="0682007"/>利<anchor xml:id="end0682007"/>自在故；隨身口意行自在故；
+<lb n="0682b21" ed="T"/>於他輕惱心不堪忍故；著自身樂故；專念世
+<lb n="0682b22" ed="T"/>間散亂行故；於世間中見聞覺知名字分別
+<lb n="0682b23" ed="T"/>為勝功德故。觀世自在！是名諸波羅蜜相違
+<lb n="0682b24" ed="T"/>事。」</p>
+<lb n="0682b25" ed="T"/><p xml:id="pT16p0682b2501">觀世自在菩薩白佛言：「世尊！世尊！何者是諸
+<lb n="0682b26" ed="T"/>波羅蜜果報？」</p><p xml:id="pT16p0682b2606" rend="inline">佛言：「觀世自在！諸波羅蜜果報
+<lb n="0682b27" ed="T"/>有六種應知。何等為六？所謂得富財故、趣善
+<lb n="0682b28" ed="T"/>道故、無怨敵故、不壞多喜樂故、常為眾生
+<lb n="0682b29" ed="T"/><anchor xml:id="nkr_note_orig_0682008" n="0682008"/><anchor xml:id="beg0682008" n="0682008"/>主<anchor xml:id="end0682008"/>故、不害自身<anchor xml:id="nkr_note_orig_0682009" n="0682009"/><anchor xml:id="beg0682009" n="0682009"/>故<anchor xml:id="end0682009"/>、大威德力故。觀世自在！
+<pb n="0682c" ed="T" xml:id="T16.0675.0682c"/>
+<lb n="0682c01" ed="T"/>是名諸波羅蜜六種果報。」</p>
+<lb n="0682c02" ed="T"/><p xml:id="pT16p0682c0201">觀世自在菩薩白佛言：「世尊！何者是諸波羅
+<lb n="0682c03" ed="T"/>蜜雜染法？」</p><p xml:id="pT16p0682c0305" rend="inline">佛言：「觀世自在！諸波羅蜜有四種
+<lb n="0682c04" ed="T"/>不如法行，名為雜染。何等為四？所謂無慈心
+<lb n="0682c05" ed="T"/>行故、不正念行故、不斷惡行故、不至心行
+<lb n="0682c06" ed="T"/>故。」</p>
+<lb n="0682c07" ed="T"/><p xml:id="pT16p0682c0701">觀世自在菩薩白佛言：「世尊！何者是不正思
+<lb n="0682c08" ed="T"/>惟？」</p><p xml:id="pT16p0682c0802" rend="inline">佛言：「觀世自在！所謂修行諸波羅蜜離餘
+<lb n="0682c09" ed="T"/>波羅蜜行，是名不正思惟。」</p>
+<lb n="0682c10" ed="T"/><p xml:id="pT16p0682c1001">觀世自在菩薩白佛言：「世尊！何者是菩薩無
+<lb n="0682c11" ed="T"/>方便修行？」</p><p xml:id="pT16p0682c1105" rend="inline">佛言：「觀世自在！若菩薩修波羅蜜
+<lb n="0682c12" ed="T"/>行攝取眾生，但施飲食、資生等樂以為滿足，
+<lb n="0682c13" ed="T"/>而不能令離不善處、置於善處，是名菩薩無方
+<lb n="0682c14" ed="T"/>便修行。何以故？觀世自在！非施飲食如是等
+<lb n="0682c15" ed="T"/>樂名為利益。觀世自在！譬如糞穢，若多、若少，
+<lb n="0682c16" ed="T"/>無人能令生香美氣。觀世自在！如是，一切有
+<lb n="0682c17" ed="T"/>為行苦、一切眾生自性諸苦，飲食、資生攝取
+<lb n="0682c18" ed="T"/>眾生不可為樂。觀世自在！若置眾生在於第
+<lb n="0682c19" ed="T"/>一上善法中究竟樂處，名為攝取與大利益。」</p>
+<lb n="0682c20" ed="T"/><p xml:id="pT16p0682c2001">觀世自在菩薩白佛言：「世尊！世尊！此諸波羅
+<lb n="0682c21" ed="T"/>蜜有幾種清淨？」</p><p xml:id="pT16p0682c2107" rend="inline">佛言：「觀世自在！我不說離五
+<lb n="0682c22" ed="T"/>種清淨更有清淨。觀世自在！而我依此五種
+<lb n="0682c23" ed="T"/>清淨略廣說諸波羅蜜清淨之相。</p><p xml:id="pT16p0682c2314" rend="inline">「<anchor xml:id="nkr_note_orig_0682010" n="0682010"/><anchor xml:id="beg0682010" n="0682010"/>觀<anchor xml:id="end0682010"/>世自
+<lb n="0682c24" ed="T"/>在！何者是略說諸波羅蜜清淨之相？觀世自
+<lb n="0682c25" ed="T"/>在！一切波羅蜜有七種清淨。何等為七？所謂
+<lb n="0682c26" ed="T"/>菩薩離我說法，復於他邊不求智慧故；此見
+<lb n="0682c27" ed="T"/>諸法不生執著，知一切法能取大菩提故；不
+<lb n="0682c28" ed="T"/>生異意、異疑故；不自讚歎、不毀他人故；不欺、
+<lb n="0682c29" ed="T"/>不憍慢、不放逸故；得少善法不生滿足心故；
+<pb n="0683a" ed="T" xml:id="T16.0675.0683a"/>
+<lb n="0683a01" ed="T"/>得此諸法，於他人邊不生嫉妬、慳悋心故。觀
+<lb n="0683a02" ed="T"/>世自在！是名略說諸波羅蜜七種清淨應
+<lb n="0683a03" ed="T"/>知。</p>
+<lb n="0683a04" ed="T"/><p xml:id="pT16p0683a0401">「觀世自在！我復廣說諸波羅蜜清淨之相，依
+<lb n="0683a05" ed="T"/>彼七種說諸波羅蜜清淨。何等七種？觀世自
+<lb n="0683a06" ed="T"/>在！我說諸菩薩摩訶薩檀波羅蜜<anchor xml:id="nkr_note_orig_0683001" n="0683001"/><anchor xml:id="beg0683001" n="0683001"/>七<anchor xml:id="end0683001"/>種清淨，
+<lb n="0683a07" ed="T"/>如實修行。何等為七？所謂依悲心施清淨、施
+<lb n="0683a08" ed="T"/>清淨即戒清淨、見清淨、心清淨、口清淨、智清
+<lb n="0683a09" ed="T"/>淨、意清淨。是名檀波羅蜜七種清淨應知。</p>
+<lb n="0683a10" ed="T"/><p xml:id="pT16p0683a1001">「觀世自在！如是，戒波羅蜜有七種清淨。何等
+<lb n="0683a11" ed="T"/>為七？所謂菩薩摩訶薩於菩薩受持戒、如實
+<lb n="0683a12" ed="T"/>知一切戒、如<anchor xml:id="nkr_note_orig_0683002" n="0683002"/><anchor xml:id="beg0683002" n="0683002"/>實<anchor xml:id="end0683002"/>能知離諸過法、彼法恒持
+<lb n="0683a13" ed="T"/>堅固戒、至心戒、常隨順戒、於諸學中如實持
+<lb n="0683a14" ed="T"/>戒。</p>
+<lb n="0683a15" ed="T"/>觀世自在！是名戒波羅蜜七種清淨，應知。
+<lb n="0683a16" ed="T"/><p xml:id="pT16p0683a1601">「觀世自在！如是，羼提波羅蜜有七種清淨。何
+<lb n="0683a17" ed="T"/>等為七？所謂菩薩自信業報，於諸一切不饒
+<lb n="0683a18" ed="T"/>益事心不瞋恨；若罵、若瞋、若打，一切惡事來
+<lb n="0683a19" ed="T"/>加其身，不生報心、不懷結恨；若彼求悔應時
+<lb n="0683a20" ed="T"/>即受不令他惱；不求他求、不為有畏、不為飲
+<lb n="0683a21" ed="T"/>食而行忍辱；於受他恩不忘還報。觀世自在！
+<lb n="0683a22" ed="T"/>是名忍辱波羅蜜七種清淨應知。</p>
+<lb n="0683a23" ed="T"/><p xml:id="pT16p0683a2301">「觀世自在！毘梨耶波羅蜜有七種清淨。何等
+<lb n="0683a24" ed="T"/>為七？所謂菩薩如實知精進平等故、不為精
+<lb n="0683a25" ed="T"/>進自高下他故、身體安住如山不動故、常勤
+<lb n="0683a26" ed="T"/>精進故、心不怯弱故、所行堅固故、於諸善法
+<lb n="0683a27" ed="T"/>起精進心不休息故。觀世自在！是名毘梨耶
+<lb n="0683a28" ed="T"/>波羅蜜七種清淨應知。</p>
+<lb n="0683a29" ed="T"/><p xml:id="pT16p0683a2901">「觀世自在！禪波羅蜜有七種清淨。何等為七？
+<pb n="0683b" ed="T" xml:id="T16.0675.0683b"/>
+<lb n="0683b01" ed="T"/>所謂菩薩善決定知諸相三昧禪波羅蜜、滿
+<lb n="0683b02" ed="T"/>足三昧禪波羅蜜、如實知<anchor xml:id="nkr_note_orig_0683003" n="0683003"/><anchor xml:id="nkr_note_mod_0683003" n="0683003"/><anchor xml:id="beg0683003" n="0683003"/>二<anchor xml:id="end0683003"/>分三昧禪波羅
+<lb n="0683b03" ed="T"/>蜜、如實知隨順三昧<anchor xml:id="nkr_note_orig_0683004" n="0683004"/><anchor xml:id="beg0683004" n="0683004"/>去<anchor xml:id="end0683004"/>禪波羅蜜、不依止三
+<lb n="0683b04" ed="T"/>昧禪波羅蜜、善練諸業所作善三昧禪波羅
+<lb n="0683b05" ed="T"/>蜜、觀菩薩藏無量三昧禪波羅蜜。觀世自在！
+<lb n="0683b06" ed="T"/>是名禪波羅蜜七種清淨應知。</p>
+<lb n="0683b07" ed="T"/><p xml:id="pT16p0683b0701">「觀世自在！般若波羅蜜有七種清淨。何等為
+<lb n="0683b08" ed="T"/>七？所謂離有、無謗，中道般若，依般若力如實
+<lb n="0683b09" ed="T"/>能知三解脫義，謂空、無相、無願；如實能知三
+<lb n="0683b10" ed="T"/>種：分別、他力、第一義諦；如實能知三種：名相、
+<lb n="0683b11" ed="T"/>生相、第一義相自體；如實能知世諦五明處；
+<lb n="0683b12" ed="T"/>如實能知第一義諦；於七種真如不分別、不
+<lb n="0683b13" ed="T"/>戲論；一味多修行無量差別觀法、奢摩他、毘
+<lb n="0683b14" ed="T"/>婆舍那；隨聞如實修行成就。觀世自在！是名
+<lb n="0683b15" ed="T"/>般若波羅蜜七種清淨應知。」</p>
+<lb n="0683b16" ed="T"/><p xml:id="pT16p0683b1601">觀世自在菩薩白佛言：「世尊！世尊！此五種觀，
+<lb n="0683b17" ed="T"/>一一觀有何等業？」</p><p xml:id="pT16p0683b1708" rend="inline">佛言：「觀世自在！此五種觀
+<lb n="0683b18" ed="T"/>各有<anchor xml:id="nkr_note_orig_0683005" n="0683005"/><anchor xml:id="beg0683005" n="0683005"/>五<anchor xml:id="end0683005"/>業應知。何等為五？所謂菩薩不著現
+<lb n="0683b19" ed="T"/>報，常至心行諸波羅蜜，不放逸故；不悕望報
+<lb n="0683b20" ed="T"/>恩，攝取未來，不放逸故；無諸過失，能善滿足、
+<lb n="0683b21" ed="T"/>善清淨、善白淨，修諸波羅蜜故；依無分別巧
+<lb n="0683b22" ed="T"/>方便，速滿諸波羅蜜故；依迴向力，一切生處
+<lb n="0683b23" ed="T"/>得善果報，依彼如實修行諸波羅蜜不盡，乃
+<lb n="0683b24" ed="T"/>至得阿耨多羅三<anchor xml:id="beg_4b" type="star"/>藐<anchor xml:id="end_4b"/>三菩提故。觀世自在！
+<lb n="0683b25" ed="T"/>是名菩薩諸波羅蜜差別業應知。」</p>
+<lb n="0683b26" ed="T"/><p xml:id="pT16p0683b2601">觀世自在菩薩白佛言：「世尊！世尊！此諸波羅
+<lb n="0683b27" ed="T"/>蜜何者最勝？」</p><p xml:id="pT16p0683b2706" rend="inline">佛言：「觀世自在！所謂不悋資
+<lb n="0683b28" ed="T"/><anchor xml:id="nkr_note_orig_0683006" n="0683006"/><anchor xml:id="beg0683006" n="0683006"/>財<anchor xml:id="end0683006"/>、不著果報、迴向大菩提，觀世自在！是名
+<lb n="0683b29" ed="T"/>最勝應知。」</p><p xml:id="pT16p0683b2905" rend="inline">觀世自在言：「世尊！何者是無染
+<pb n="0683c" ed="T" xml:id="T16.0675.0683c"/>
+<lb n="0683c01" ed="T"/>法？」</p><p xml:id="pT16p0683c0102" rend="inline">佛言：「所謂無諸過、無分別，是名無染法應
+<lb n="0683c02" ed="T"/>知。」</p><p xml:id="pT16p0683c0202" rend="inline">觀世自<anchor xml:id="nkr_note_orig_0683007" n="0683007"/><anchor xml:id="nkr_note_mod_0683007" n="0683007"/><anchor xml:id="beg0683007" n="0683007"/>在<anchor xml:id="end0683007"/>言：「世尊！何者為明妙？」</p><p xml:id="pT16p0683c0214" rend="inline">佛言：「所
+<lb n="0683c03" ed="T"/>謂緣滅諸法應知。」</p><p xml:id="pT16p0683c0308" rend="inline">觀世自在菩薩白佛言：「世
+<lb n="0683c04" ed="T"/>尊！世尊！何者是菩薩不動地？」</p><p xml:id="pT16p0683c0412" rend="inline">佛言：「觀世自
+<lb n="0683c05" ed="T"/>在！菩薩入初歡喜地，具足大力，不退諸法，是
+<lb n="0683c06" ed="T"/>名菩薩不動地應知。」</p><p xml:id="pT16p0683c0609" rend="inline">觀世自在言：「世尊！何等
+<lb n="0683c07" ed="T"/>法是<anchor xml:id="nkr_note_orig_0683008" n="0683008"/><anchor xml:id="nkr_note_mod_0683008" n="0683008"/><anchor xml:id="beg0683008" n="0683008"/>善<anchor xml:id="end0683008"/>清淨法？」</p><p xml:id="pT16p0683c0707" rend="inline">佛言：「所謂滿足十地乃至
+<lb n="0683c08" ed="T"/>滿足佛地應知。」</p><p xml:id="pT16p0683c0807" rend="inline">觀世自在菩薩白佛言：「世尊！
+<lb n="0683c09" ed="T"/>世尊！何故菩薩諸波羅蜜不盡，愛樂果報亦
+<lb n="0683c10" ed="T"/>不盡？」</p><p xml:id="pT16p0683c1003" rend="inline">佛言：「所謂<anchor xml:id="nkr_note_orig_0683009" n="0683009"/><anchor xml:id="nkr_note_mod_0683009" n="0683009"/><anchor xml:id="beg0683009" n="0683009"/>迭<anchor xml:id="end0683009"/>相因生<anchor xml:id="nkr_note_orig_0683010" n="0683010"/><anchor xml:id="nkr_note_mod_0683010" n="0683010"/><anchor xml:id="beg0683010" n="0683010"/>妙<anchor xml:id="end0683010"/>果應知。」<anchor xml:id="nkr_note_orig_0683011" n="0683011"/></p>
+<lb n="0683c11" ed="T"/><cb:juan n="004" fun="close"><cb:jhead><title>深密解脫經</title>卷第四</cb:jhead></cb:juan>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app cb:word-count="8" from="#beg0679003" to="#end0679003"><lem wit="#wit1"><title>深密解脫經</title>卷<anchor xml:id="fxT16p0679a04_back"/>第四</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0679004" to="#end0679004"><lem wit="#wit1">彌</lem><rdg resp="#resp1" wit="#wit4">深密解脫經彌</rdg></app>
+<app from="#beg0679005" to="#end0679005"><lem wit="#wit1">品</lem><rdg resp="#resp1" wit="#wit6">品第九</rdg></app>
+<app from="#beg0679006" to="#end0679006"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">餘</rdg><rdg resp="#resp1" wit="#wit4">二卷四</rdg></app>
+<app from="#beg0679007" to="#end0679007"><lem wit="#wit1">相應</lem><rdg resp="#resp1" wit="#wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0679008" to="#end0679008"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">相相</rdg></app>
+<app from="#beg0679009" to="#end0679009"><lem wit="#wit1">想</lem><rdg resp="#resp1" wit="#wit9">相</rdg></app>
+<app from="#beg0679010" to="#end0679010"><lem wit="#wit1">惱</lem><rdg resp="#resp1" wit="#wit4 #wit9">惚</rdg></app>
+<app from="#beg_45" to="#end_45" corresp="#0679010"><lem wit="#wit1">惱</lem><rdg resp="#resp1" wit="#wit4 #wit9">惚</rdg></app>
+<app from="#beg0679011" to="#end0679011"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit3">識</rdg></app>
+<app from="#beg0679012" to="#end0679012"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">惟</rdg></app>
+<app from="#beg0679013" to="#end0679013"><lem wit="#wit1">治</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit9">對</rdg></app>
+<app from="#beg0679014" to="#end0679014"><lem wit="#wit1">受果</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">果受</rdg></app>
+<app from="#beg0679015" to="#end0679015"><lem wit="#wit1">槃</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">槃界</rdg></app>
+<app from="#beg0679016" to="#end0679016"><lem wit="#wit1">更</lem><rdg resp="#resp1" wit="#wit4 #wit9">受</rdg></app>
+<app from="#beg0679017" to="#end0679017"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3">界中</rdg></app>
+<app from="#beg0679018" to="#end0679018"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit5">寶</rdg></app>
+<app from="#beg0679019" to="#end0679019"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit4 #wit9">記</rdg></app>
+<app from="#beg0679020" to="#end0679020"><lem wit="#wit1">行中</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">中行</rdg></app>
+<app from="#beg0680001" to="#end0680001"><lem wit="#wit1">性</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit4 #wit9">怯</rdg></app>
+<app from="#beg0680002" to="#end0680002"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">間</rdg><rdg resp="#resp1" wit="#wit9">法</rdg></app>
+<app from="#beg0680003" to="#end0680003"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit4 #wit9">實</rdg></app>
+<app from="#beg0680004" to="#end0680004"><lem wit="#wit1">藐</lem><rdg resp="#resp1" wit="#wit4 #wit9"><g ref="#CB01505">𦴭</g></rdg></app>
+<app from="#beg0680005" to="#end0680005"><lem wit="#wit1">之一</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0680006" to="#end0680006"><lem wit="#wit1">足</lem><rdg resp="#resp1" wit="#wit5">是</rdg></app>
+<app from="#beg0680007" to="#end0680007"><lem wit="#wit1">何故說初</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9">何故菩薩初地說</rdg></app>
+<app from="#beg0680008" to="#end0680008"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">妙行</rdg></app>
+<app from="#beg0680009" to="#end0680009"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6">無</rdg></app>
+<app from="#beg0680010" to="#end0680010"><lem wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9">對</rdg></app>
+<app from="#beg0680011" to="#end0680011"><lem wit="#wit1">名障</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9">名對</rdg></app>
+<app from="#beg0681001" to="#end0681001"><lem wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">對</rdg></app>
+<app from="#beg_46" to="#end_46" corresp="#0680010"><lem wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9">對</rdg></app>
+<app from="#beg_47" to="#end_47" corresp="#0680010"><lem wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9">對</rdg></app>
+<app from="#beg_48" to="#end_48" corresp="#0680004"><lem wit="#wit1">藐</lem><rdg resp="#resp1" wit="#wit4 #wit9"><g ref="#CB01505">𦴭</g></rdg></app>
+<app from="#beg0681002" to="#end0681002"><lem wit="#wit1">網</lem><rdg resp="#resp1" wit="#wit4">細</rdg></app>
+<app from="#beg_49" to="#end_49" corresp="#0680004"><lem wit="#wit1">藐</lem><rdg resp="#resp1" wit="#wit4 #wit9"><g ref="#CB01505">𦴭</g></rdg></app>
+<app from="#beg0681003" to="#end0681003"><lem wit="#wit1">慈</lem><rdg resp="#resp1" wit="#wit4 #wit9">心</rdg></app>
+<app from="#beg0681004" to="#end0681004"><lem wit="#wit1">護</lem><rdg resp="#resp1" wit="#wit5 #wit6">諸</rdg></app>
+<app from="#beg_4a" to="#end_4a" corresp="#0680004"><lem wit="#wit1">藐</lem><rdg resp="#resp1" wit="#wit4 #wit9"><g ref="#CB01505">𦴭</g></rdg></app>
+<app from="#beg0681005" to="#end0681005"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">有</rdg></app>
+<app from="#beg0681006" to="#end0681006"><lem wit="#wit1">慧</lem><rdg resp="#resp1" wit="#wit5">上</rdg></app>
+<app from="#beg0681007" to="#end0681007"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0681008" to="#end0681008"><lem wit="#wit1">學</lem><rdg resp="#resp1" wit="#wit2 #wit3">學行</rdg></app>
+<app from="#beg0681009" to="#end0681009"><lem wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4">佛言</rdg></app>
+<app from="#beg0682001" to="#end0682001"><lem wit="#wit1">出</lem><rdg resp="#resp1" wit="#wit5">世</rdg></app>
+<app from="#beg0682002" to="#end0682002"><lem wit="#wit1">伴</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0682003" to="#end0682003"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit9">上上</rdg></app>
+<app from="#beg0682004" to="#end0682004"><lem wit="#wit1">悕望</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">希望</rdg></app>
+<app from="#beg0682005" to="#end0682005"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">在菩薩</rdg></app>
+<app from="#beg0682006" to="#end0682006"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0682007" to="#end0682007"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">利益</rdg></app>
+<app from="#beg0682008" to="#end0682008"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0682009" to="#end0682009"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0682010" to="#end0682010"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2">勤</rdg></app>
+<app from="#beg0683001" to="#end0683001"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit5">十</rdg></app>
+<app from="#beg0683002" to="#end0683002"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit5 #wit6">常</rdg></app>
+<app from="#beg0683003" to="#end0683003"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">三</rdg></app>
+<app from="#beg0683004" to="#end0683004"><lem wit="#wit1">去</lem><rdg resp="#resp1" wit="#wit6">法</rdg><rdg resp="#resp1" wit="#wit3">去來</rdg></app>
+<app from="#beg0683005" to="#end0683005"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit9">一</rdg></app>
+<app from="#beg_4b" to="#end_4b" corresp="#0680004"><lem wit="#wit1">藐</lem><rdg resp="#resp1" wit="#wit4 #wit9"><g ref="#CB01505">𦴭</g></rdg></app>
+<app from="#beg0683006" to="#end0683006"><lem wit="#wit1">財</lem><rdg resp="#resp1" wit="#wit4 #wit9">生</rdg></app>
+<app from="#beg0683007" to="#end0683007"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">在菩薩白佛</rdg></app>
+<app from="#beg0683008" to="#end0683008"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6">菩薩</rdg></app>
+<app from="#beg0683009" to="#end0683009"><lem wit="#wit1">迭</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3">遞</rdg></app>
+<app from="#beg0683010" to="#end0683010"><lem wit="#wit1">妙</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6 #wit3 #wit4 #wit9">妙樂</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0679006" resp="#resp2" type="mod" target="#nkr_note_mod_0679006">二＝餘【宋】【元】【明】【宮】，二＋（卷四）【聖】</note>
+<note n="0679008" resp="#resp2" type="mod" target="#nkr_note_mod_0679008">（相）＋相【宋】【元】【明】【宮】</note>
+<note n="0679012" resp="#resp2" type="mod" target="#nkr_note_mod_0679012">唯＝惟【宋】【元】【明】【宮】</note>
+<note n="0679014" resp="#resp2" type="mod" target="#nkr_note_mod_0679014">受果＝果受【宋】【元】【明】【宮】</note>
+<note n="0679015" resp="#resp2" type="mod" target="#nkr_note_mod_0679015">槃＋（界）【宋】【元】【明】【宮】</note>
+<note n="0679020" resp="#resp2" type="mod" target="#nkr_note_mod_0679020">行中＝中行【宋】【元】【明】【宮】</note>
+<note n="0680002" resp="#resp2" type="mod" target="#nkr_note_mod_0680002">善＝間【宋】【元】【明】【宮】，＝法【聖乙】</note>
+<note n="0680005" resp="#resp2" type="mod" target="#nkr_note_mod_0680005">〔之一〕－【宋】【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0680007" resp="#resp2" type="mod" target="#nkr_note_mod_0680007">何故說初＝何故菩薩初地說【宋】【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0680008" resp="#resp2" type="mod" target="#nkr_note_mod_0680008">（妙）＋行【宋】【元】【明】【宮】</note>
+<note n="0680009" resp="#resp2" type="mod" target="#nkr_note_mod_0680009">他＝無【宋】【元】【明】</note>
+<note n="0680010" resp="#resp2" type="mod" target="#nkr_note_mod_0680010">障＝對【宋】【元】【明】【宮】【聖】【聖乙】＊</note>
+<note n="0680011" resp="#resp2" type="mod" target="#nkr_note_mod_0680011">名障＝名對【宋】【元】【明】【宮】【聖】【聖乙】下同</note>
+<note n="0681001" resp="#resp2" type="mod" target="#nkr_note_mod_0681001">障＝對【宋】【元】【明】【宮】</note>
+<note n="0681005" resp="#resp2" type="mod" target="#nkr_note_mod_0681005">能＝有【宋】【元】【明】【宮】</note>
+<note n="0681007" resp="#resp2" type="mod" target="#nkr_note_mod_0681007">〔羅〕－【宋】【元】【明】【宮】【聖乙】</note>
+<note n="0681009" resp="#resp2" type="mod" target="#nkr_note_mod_0681009">佛＋（言）【宋】【元】【明】【宮】【聖】</note>
+<note n="0682004" resp="#resp2" type="mod" target="#nkr_note_mod_0682004">悕望＝希望【宋】【元】【明】【宮】下同</note>
+<note n="0682005" resp="#resp2" type="mod" target="#nkr_note_mod_0682005">在＋（菩薩）【宋】【元】【明】【宮】</note>
+<note n="0682007" resp="#resp2" type="mod" target="#nkr_note_mod_0682007">利＋（益）【宋】【元】【明】【宮】</note>
+<note n="0683003" resp="#resp2" type="mod" target="#nkr_note_mod_0683003">二＝三【宋】【元】【明】【宮】</note>
+<note n="0683007" resp="#resp2" type="mod" target="#nkr_note_mod_0683007">在＋（菩薩白佛）【宋】【元】【明】【宮】</note>
+<note n="0683008" resp="#resp2" type="mod" target="#nkr_note_mod_0683008">善＝菩薩【宋】【元】【明】</note>
+<note n="0683009" resp="#resp2" type="mod" target="#nkr_note_mod_0683009">迭＝遞【宋】【元】【明】【宮】＊</note>
+<note n="0683010" resp="#resp2" type="mod" target="#nkr_note_mod_0683010">妙＋（樂）【宋】【元】【明】【宮】【聖】【聖乙】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0679003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679003">〔深密…四〕八字－【聖】</note>
+<note n="0679004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679004">（深密解脫經）＋彌【聖】</note>
+<note n="0679005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679005">品＋（第九）【明】</note>
+<note n="0679006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679006">二＝餘【三】【宮】，二＋（卷四）【聖】</note>
+<note n="0679007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679007">〔相應〕－【聖】【聖乙】</note>
+<note n="0679008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679008">（相）＋相【三】【宮】</note>
+<note n="0679009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679009">想＝相【聖乙】</note>
+<note n="0679010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679010">惱＝惚【聖】【聖乙】＊</note>
+<note n="0679011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679011">諸＝識【宮】</note>
+<note n="0679012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679012">唯＝惟【三】【宮】</note>
+<note n="0679013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679013">治＝對【宮】【聖】【聖乙】</note>
+<note n="0679014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679014">受果＝果受【三】【宮】</note>
+<note n="0679015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679015">槃＋（界）【三】【宮】</note>
+<note n="0679016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679016">更＝受【聖】【聖乙】</note>
+<note n="0679017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679017">（界）＋中【元】【明】【宮】</note>
+<note n="0679018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679018">實＝寶【元】</note>
+<note n="0679019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679019">說＝記【聖】【聖乙】</note>
+<note n="0679020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0679020">行中＝中行【三】【宮】</note>
+<note n="0680001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680001">性＝怯【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0680002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680002">善＝間【三】【宮】，法【聖乙】</note>
+<note n="0680003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680003">寶＝實【聖】【聖乙】</note>
+<note n="0680004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680004">藐＝<g ref="#CB01505">𦴭</g>【聖】【聖乙】＊</note>
+<note n="0680005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680005">〔之一〕－【三】【宮】【聖】【聖乙】</note>
+<note n="0680006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680006">足＝是【元】</note>
+<note n="0680007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680007">何故說初＝何故菩薩初地說【三】【宮】【聖】【聖乙】</note>
+<note n="0680008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680008">（妙）＋行【三】【宮】</note>
+<note n="0680009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680009">他＝無【三】</note>
+<note n="0680010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680010">障＝對【三】【宮】【聖】【聖乙】＊</note>
+<note n="0680011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0680011">名障＝名對【三】【宮】【聖】【聖乙】下同</note>
+<note n="0681001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681001">障＝對【三】【宮】</note>
+<note n="0681002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681002">網＝細【聖】</note>
+<note n="0681003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681003">慈＝心【聖】【聖乙】</note>
+<note n="0681004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681004">護＝諸【元】【明】</note>
+<note n="0681005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681005">能＝有【三】【宮】</note>
+<note n="0681006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681006">慧＝上【元】</note>
+<note n="0681007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681007">〔羅〕－【三】【宮】【聖乙】</note>
+<note n="0681008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681008">學＋（行）【宋】【宮】</note>
+<note n="0681009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0681009">佛＋（言）【三】【宮】【聖】</note>
+<note n="0682001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682001">出＝世【元】</note>
+<note n="0682002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682002">〔伴〕－【聖】</note>
+<note n="0682003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682003">上＋（上）【聖乙】</note>
+<note n="0682004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682004">悕望＝希望【三】【宮】下同</note>
+<note n="0682005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682005">在＋（菩薩）【三】【宮】</note>
+<note n="0682006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682006">〔故〕－【宮】</note>
+<note n="0682007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682007">利＋（益）【三】【宮】</note>
+<note n="0682008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682008">〔主〕－【宮】</note>
+<note n="0682009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682009">〔故〕－【明】</note>
+<note n="0682010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0682010">觀＝勤【宋】</note>
+<note n="0683001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683001">七＝十【元】</note>
+<note n="0683002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683002">實＝常【元】【明】</note>
+<note n="0683003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683003">二＝三【三】【宮】</note>
+<note n="0683004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683004">去＝法【明】，去＋（來）【宮】</note>
+<note n="0683005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683005">五＝一【宮】【聖】【聖乙】</note>
+<note n="0683006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683006">財＝生【聖】【聖乙】</note>
+<note n="0683007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683007">在＋（菩薩白佛）【三】【宮】</note>
+<note n="0683008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683008">善＝菩薩【三】</note>
+<note n="0683009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683009">迭＝遞【三】【宮】＊</note>
+<note n="0683010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683010">妙＋（樂）【三】【宮】【聖】【聖乙】</note>
+<note n="0683011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0683011">此下聖本有光明皇后願文并天平勝寶七歲九月三日從七位上守大學直講上毛野君立麻呂正大德元興寺沙門勝叡大德沙門了行大德沙門尊應業了沙門法隆五十四字奧書</note>
+</p>
+</cb:div>
+</back></text></TEI>

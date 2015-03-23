@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T29n1559">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1559 阿毘達磨俱舍釋論</title>
+			<author>婆藪盤豆造  陳 真諦譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.20 $<date>$Date: 2010/03/15 09:14:48 $</date></edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+	</editionStmt>
+	<extent>22卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2010/03/15 09:14:48 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 29, No. 1559</bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宋】</witness>
+		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by SAT, Japan, Text as provided by Anonymous from USA</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，日本 SAT 組織提供，北美某大德提供</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00144">
+	<charName>CBETA CHARACTER CB00144</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[少/免]</value>
+	</charProp>
+	<mapping type="normal_unicode">U+3779</mapping>
+	<mapping cb:dec="983184" type="PUA">U+F0090</mapping>
+</char>
+<char xml:id="CB00145">
+	<charName>CBETA CHARACTER CB00145</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[少/兔]</value>
+	</charProp>
+	<mapping type="unicode">U+3779</mapping>
+	<mapping cb:dec="983185" type="PUA">U+F0091</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-06-28T20:31:48">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/6/28)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="8" type="品">8 分別三摩跋提品</cb:mulu>
+<lb n="0304a11" ed="T"/>
+<milestone n="22" unit="juan"/>
+<lb n="0304a12" ed="T"/>
+<lb n="0304a13" ed="T"/><cb:juan n="022" fun="open"><cb:mulu n="022" type="卷"></cb:mulu><cb:jhead><title>阿毘達磨俱舍<anchor xml:id="fxT29p0304a02"/>釋論</title>卷第二十二</cb:jhead></cb:juan>
+<lb n="0304a14" ed="T"/>
+<lb n="0304a15" ed="T"/><byline cb:type="Author"><anchor xml:id="fxT29p0304a03"/>婆藪盤豆造</byline>
+<lb n="0304a16" ed="T"/><byline cb:type="Translator">陳<anchor xml:id="fxT29p0304a04"/>天竺<anchor xml:id="nkr_note_orig_0304001" n="0304001"/><anchor xml:id="beg0304001" n="0304001"/>三藏<anchor xml:id="end0304001"/>真諦譯</byline>
+<lb n="0304a17" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="9" type="品">9 破說我品</cb:mulu><head><anchor xml:id="nkr_note_orig_0304002" n="0304002"/><anchor xml:id="beg0304002" n="0304002"/>破<anchor xml:id="end0304002"/><anchor xml:id="nkr_note_orig_0304003" n="0304003"/><anchor xml:id="beg0304003" n="0304003"/>說<anchor xml:id="end0304003"/>我品第九</head>
+<lb n="0304a18" ed="T"/><lg xml:id="lgT29p0304a1801"><l>大師世間眼已閉</l><l>又證教人稍滅散</l>
+<lb n="0304a19" ed="T"/><l>不見實義無制人</l><l>由不如思動亂法</l>
+<lb n="0304a20" ed="T"/><l>自覺已入最妙靜</l><l>荷負教人隨入滅</l>
+<lb n="0304a21" ed="T"/><l>世間無<anchor xml:id="nkr_note_orig_0304004" n="0304004"/><anchor xml:id="nkr_note_mod_0304004" n="0304004"/><anchor xml:id="beg0304004" n="0304004"/>主<anchor xml:id="end0304004"/>能壞德</l><l>無鉤制惑隨意行</l>
+<lb n="0304a22" ed="T"/><l>若知佛法壽</l><l>將盡已至喉</l>
+<lb n="0304a23" ed="T"/><l>是<anchor xml:id="nkr_note_orig_0304005" n="0304005"/><anchor xml:id="beg0304005" n="0304005"/>惑<anchor xml:id="end0304005"/>力盛時</l><l>求脫勿放逸</l></lg>
+<lb n="0304a24" ed="T"/><p xml:id="pT29p0304a2401">離此法於餘法為無得解脫耶。無。云何如此。
+<lb n="0304a25" ed="T"/>非如我見誑於心故。何以故。彼人不於五陰
+<lb n="0304a26" ed="T"/>相續中假立我言故。何為由彼分別有別實
+<lb n="0304a27" ed="T"/>物名我一切。或以我執為生本故。於餘法無解
+<lb n="0304a28" ed="T"/>脫義。云何得知。如此但於五陰相續中。假起
+<lb n="0304a29" ed="T"/>我言。非於餘義。由我非證比二量所知故。餘
+<pb n="0304b" xml:id="T29.1559.0304b" ed="T"/>
+<lb n="0304b01" ed="T"/>法若實有若無障礙。必定由證量得知。譬如
+<lb n="0304b02" ed="T"/>六塵及心。或由比量得知。譬如五根。此中如
+<lb n="0304b03" ed="T"/>此比知。若有因緣。餘因緣不有故。不見事生。
+<lb n="0304b04" ed="T"/>若有則見事生。色塵等緣<anchor xml:id="nkr_note_orig_0304006" n="0304006"/><anchor xml:id="beg0304006" n="0304006"/>若<anchor xml:id="end0304006"/>具有。能障礙法
+<lb n="0304b05" ed="T"/>若悉不有。盲聾等人及非盲聾等人。於色等
+<lb n="0304b06" ed="T"/>塵眼等識不生生故。可得比量別因不有有
+<lb n="0304b07" ed="T"/>義。別因即是眼等根。如此證量及比量。於我
+<lb n="0304b08" ed="T"/>不有故。是故說決定無我。是跋私弗多羅部
+<lb n="0304b09" ed="T"/>所說。必定有我。與五陰不一不異。此言宜應
+<lb n="0304b10" ed="T"/>簡擇。為彼執由實物故有。由假名故有。實有
+<lb n="0304b11" ed="T"/>相云何。假有相云何。若如色等別有。名實有
+<lb n="0304b12" ed="T"/>物。若如乳等但聚集有。名假名有。若由實物
+<lb n="0304b13" ed="T"/>有與陰別性故。應說與陰有異。譬如別<anchor xml:id="nkr_note_orig_0304007" n="0304007"/><anchor xml:id="nkr_note_mod_0304007" n="0304007"/><anchor xml:id="beg0304007" n="0304007"/>別<anchor xml:id="end0304007"/>
+<lb n="0304b14" ed="T"/>陰。必定須說此我因。若無因即是無為。則同
+<lb n="0304b15" ed="T"/>外論師說。亦無別用。若汝執由假名有故有。
+<lb n="0304b16" ed="T"/>此說最<anchor xml:id="nkr_note_orig_0304008" n="0304008"/><anchor xml:id="nkr_note_mod_0304008" n="0304008"/><anchor xml:id="beg0304008" n="0304008"/>勝<anchor xml:id="end0304008"/>。我等亦說如此。我等立我有。不由
+<lb n="0304b17" ed="T"/>實有說有。亦不由假名有說有。此何為。約內
+<lb n="0304b18" ed="T"/>所取現世諸陰執說為我。今此別言。於義復
+<lb n="0304b19" ed="T"/>不開顯。非我等所解。此約言顯何義。若義如
+<lb n="0304b20" ed="T"/>此。謂緣諸陰。於諸陰中假名說我。此義應成。
+<lb n="0304b21" ed="T"/>譬如緣色。等物假名說乳。復次若義如此。謂
+<lb n="0304b22" ed="T"/>因諸陰故。我言成諸陰。是說我言因故。此執
+<lb n="0304b23" ed="T"/>亦同前失。我等說我不如此。若不爾云何。如
+<lb n="0304b24" ed="T"/>約薪執說火。約陰執說人亦爾。云何約薪執
+<lb n="0304b25" ed="T"/>說火。若離薪火不可執說。不可立火與薪有
+<lb n="0304b26" ed="T"/>異與薪無異。若火異薪。薪應不熱。若火不異
+<lb n="0304b27" ed="T"/>薪。所燒應即是能燒。如此離諸陰。不可執說
+<lb n="0304b28" ed="T"/>人。亦不可說人異諸陰。由有常過失故。亦不
+<lb n="0304b29" ed="T"/>可說人與諸陰不異。由有斷過失故。善友願
+<pb n="0304c" xml:id="T29.1559.0304c" ed="T"/>
+<lb n="0304c01" ed="T"/>汝為我說。何物為薪。何物為火。後我當得知
+<lb n="0304c02" ed="T"/>約薪執說火義。此中何所應說。所燒是薪。能
+<lb n="0304c03" ed="T"/>燒是火。若有應說必如此說。此中汝須更決
+<lb n="0304c04" ed="T"/>說。何物是所燒。何物是能燒。於世間中可然
+<lb n="0304c05" ed="T"/>物說名薪。亦名所燒。若然能燒光最<anchor xml:id="nkr_note_orig_0304009" n="0304009"/><anchor xml:id="nkr_note_mod_0304009" n="0304009"/><anchor xml:id="beg0304009" n="0304009"/>熱<anchor xml:id="end0304009"/>說名
+<lb n="0304c06" ed="T"/>火。何以故。此物能然彼能燒彼。由能變異彼
+<lb n="0304c07" ed="T"/>相續後不如本故。此二各有八物所成。緣薪火
+<lb n="0304c08" ed="T"/>得生。譬如緣乳酪生。緣摩偷酢生。是故言約
+<lb n="0304c09" ed="T"/>薪<anchor xml:id="beg_ae" type="star"/>熱<anchor xml:id="end_ae"/>說火。若爾則知火與薪異。由不同時故。
+<lb n="0304c10" ed="T"/>若人如火必定緣陰生異於陰則成無常。復
+<lb n="0304c11" ed="T"/>次若於然薪中。是<anchor xml:id="beg_af" type="star"/>熱<anchor xml:id="end_af"/>觸說名火。所餘三<anchor xml:id="nkr_note_orig_0304010" n="0304010"/><anchor xml:id="nkr_note_mod_0304010" n="0304010"/><anchor xml:id="beg0304010" n="0304010"/>大<anchor xml:id="end0304010"/>
+<lb n="0304c12" ed="T"/>與此共生。許此名薪。此二互有差別。明了易
+<lb n="0304c13" ed="T"/>知。由相有異故。約薪有火義。汝今應說。云何
+<lb n="0304c14" ed="T"/>約薪<anchor xml:id="beg_b0" type="star"/>熱<anchor xml:id="end_b0"/>說火。何以故。此薪非是火因。亦非
+<lb n="0304c15" ed="T"/><anchor xml:id="beg_b1" type="star"/>熱<anchor xml:id="end_b1"/>說火因。何以故。但火是<anchor xml:id="beg_b2" type="star"/>熱<anchor xml:id="end_b2"/>說火因。若汝
+<lb n="0304c16" ed="T"/>說約言。是依止義。或共有義若爾諸陰於人
+<lb n="0304c17" ed="T"/>應成依止。應成共生。彼互差別亦明了易知。
+<lb n="0304c18" ed="T"/>復次若陰滅人應即滅。譬如薪滅火即滅。是
+<lb n="0304c19" ed="T"/>汝所說。若火異薪。薪應不熱。此中何物名熱。
+<lb n="0304c20" ed="T"/>若汝說熱性名熱。薪應不熱。別火性故。復次
+<lb n="0304c21" ed="T"/>若汝說。若有熱性名熱。此物雖<anchor xml:id="nkr_note_orig_0304011" n="0304011"/><anchor xml:id="nkr_note_mod_0304011" n="0304011"/><anchor xml:id="beg0304011" n="0304011"/>與<anchor xml:id="end0304011"/>熱性火
+<lb n="0304c22" ed="T"/>異。此復成熱。與熱性相應故。是故於別異無
+<lb n="0304c23" ed="T"/>過失。復次若汝言。正然物說名薪。亦說名火。
+<lb n="0304c24" ed="T"/>是故約義。汝今應說若是陰即是人。此不異
+<lb n="0304c25" ed="T"/>義。即至不可遮。是故此譬不成。如前云約薪
+<lb n="0304c26" ed="T"/>執說火。約陰執說人亦爾復次若不可說人
+<lb n="0304c27" ed="T"/>與陰異所知。有五種。謂過去未來現在無為
+<lb n="0304c28" ed="T"/>不可言。此應不可說。何以故。此所知於過去
+<lb n="0304c29" ed="T"/>等。不可說為第五及非第五故是時汝等執
+<pb n="0305a" xml:id="T29.1559.0305a" ed="T"/>
+<lb n="0305a01" ed="T"/>說人為觀諸陰執說人。為觀人執說人。若觀
+<lb n="0305a02" ed="T"/>諸陰執說人名。但約陰中執說人名。由人不
+<lb n="0305a03" ed="T"/>可得故。<anchor xml:id="nkr_note_orig_0305001" n="0305001"/><anchor xml:id="nkr_note_mod_0305001" n="0305001"/><anchor xml:id="beg0305001" n="0305001"/>若<anchor xml:id="end0305001"/>觀人執說人。云何言約陰執說
+<lb n="0305a04" ed="T"/>人。何以故。此執說但人是所緣境故。若汝言
+<lb n="0305a05" ed="T"/>諸陰若有人則可知是故言約陰執說有人。
+<lb n="0305a06" ed="T"/>若爾眼根思惟光明等。若有是時此色方可
+<lb n="0305a07" ed="T"/>知。亦應約眼根等執說色。是有此義。汝應
+<lb n="0305a08" ed="T"/>說。人於六識中。是何識所知。彼說由六識所
+<lb n="0305a09" ed="T"/>知。此義云何。若緣眼所知色分別觀人。應說
+<lb n="0305a10" ed="T"/>此人是眼所知。不可說即色非即色。乃至若
+<lb n="0305a11" ed="T"/>緣意所知法分別觀人。應說此人是意所知。
+<lb n="0305a12" ed="T"/>不可說即法非即法。若爾此人應成與乳等
+<lb n="0305a13" ed="T"/>同。若緣眼所知色分別觀乳。或觀水等。應說
+<lb n="0305a14" ed="T"/>乳水是眼所知。不可說即色非即色。如此應
+<lb n="0305a15" ed="T"/>說。鼻舌身所知亦爾。乃至不可說即觸非即
+<lb n="0305a16" ed="T"/>觸。勿乳水等非四物所成。此非所許義。是故
+<lb n="0305a17" ed="T"/>如色等具物假說名乳及水等。如此亦應具
+<lb n="0305a18" ed="T"/>諸陰假說名人。此義應成。是汝所說。緣眼所
+<lb n="0305a19" ed="T"/>知色分別觀人。此言有何義。為色是觀察人
+<lb n="0305a20" ed="T"/>智因。為正證知色即證知人。若色是人智因。
+<lb n="0305a21" ed="T"/><anchor xml:id="nkr_note_orig_0305002" n="0305002"/><anchor xml:id="nkr_note_mod_0305002" n="0305002"/><anchor xml:id="beg0305002" n="0305002"/>亦<anchor xml:id="end0305002"/>不可說人異於彼。若爾色與光明眼根
+<lb n="0305a22" ed="T"/><anchor xml:id="nkr_note_orig_0305003" n="0305003"/><anchor xml:id="nkr_note_mod_0305003" n="0305003"/><anchor xml:id="beg0305003" n="0305003"/>覺<anchor xml:id="end0305003"/>觀等。亦應不可說異。彼是色智因故。若正
+<lb n="0305a23" ed="T"/>證知色。即證知人。為即由色證智證知人。為
+<lb n="0305a24" ed="T"/>由別智。若即由色證智證知人。人與色不應
+<lb n="0305a25" ed="T"/>成異性。或於色但假說人。若不爾。若由一智
+<lb n="0305a26" ed="T"/>所證知。此人非色此色非人。此二云何<anchor xml:id="nkr_note_orig_0305004" n="0305004"/><anchor xml:id="nkr_note_mod_0305004" n="0305004"/><anchor xml:id="beg0305004" n="0305004"/>可<anchor xml:id="end0305004"/>分
+<lb n="0305a27" ed="T"/>別若不能如此分別。云何強立此言。謂色是
+<lb n="0305a28" ed="T"/>有。人亦是有。何以故。由隨證知可說彼有如
+<lb n="0305a29" ed="T"/>色乃至於法亦應說如此。若由別智分別此
+<pb n="0305b" xml:id="T29.1559.0305b" ed="T"/>
+<lb n="0305b01" ed="T"/>二。別時所得故。人應成異色。譬如黃色異青
+<lb n="0305b02" ed="T"/>等。又如前後剎那。乃至於法亦應說如此。若
+<lb n="0305b03" ed="T"/>汝言。如色及人一異不可說能證知。此二智
+<lb n="0305b04" ed="T"/>一異亦不可說。是故此智亦不可說是有為。
+<lb n="0305b05" ed="T"/>則<anchor xml:id="nkr_note_orig_0305005" n="0305005"/><anchor xml:id="beg0305005" n="0305005"/>破<anchor xml:id="end0305005"/>自悉檀。若說人是有。但不可說即色非
+<lb n="0305b06" ed="T"/>即色云何佛世尊說。色無我乃至識亦無我。
+<lb n="0305b07" ed="T"/>是汝所說。眼識能證見人。此識為緣色生。為
+<lb n="0305b08" ed="T"/>緣人生。為緣二生。若爾何有。若緣色生。則不
+<lb n="0305b09" ed="T"/>能緣人生。譬如聲等。何以故。若緣此塵此識
+<lb n="0305b10" ed="T"/>得生。唯此塵是此識緣緣。若緣人及二。此執
+<lb n="0305b11" ed="T"/>與經不相應故。則為佛經所<anchor xml:id="nkr_note_orig_0305006" n="0305006"/><anchor xml:id="beg0305006" n="0305006"/>違<anchor xml:id="end0305006"/>何以故。經中
+<lb n="0305b12" ed="T"/>已決判此義。唯依緣二法諸識得生。復有別
+<lb n="0305b13" ed="T"/>經。亦違此執。經云比丘眼是因色是緣。能生
+<lb n="0305b14" ed="T"/>眼識。何以故。一切所有眼識。唯因眼緣色生。
+<lb n="0305b15" ed="T"/>若如汝所執。此人應成無<anchor xml:id="nkr_note_orig_0305007" n="0305007"/><anchor xml:id="beg0305007" n="0305007"/>常<anchor xml:id="end0305007"/>。何以故。是因
+<lb n="0305b16" ed="T"/>是緣能生眼識。彼皆無常。由此經言故。若汝
+<lb n="0305b17" ed="T"/>執。人非眼識境人則非眼識所知。復次若汝
+<lb n="0305b18" ed="T"/>立義。人是六<anchor xml:id="nkr_note_orig_0305008" n="0305008"/><anchor xml:id="beg0305008" n="0305008"/>識所<anchor xml:id="end0305008"/>知。此人由耳識所知故。
+<lb n="0305b19" ed="T"/>應成異色。譬如聲由眼識所知故。應成異聲。
+<lb n="0305b20" ed="T"/>譬如色。於餘塵應知亦如此復次此經文句。
+<lb n="0305b21" ed="T"/>違汝所執。經云婆羅門。是五根各別行處。各
+<lb n="0305b22" ed="T"/>別境界。是因自行處境界。彼各各受用。非別
+<lb n="0305b23" ed="T"/>根能受用別根行處境界。謂眼根耳根鼻根
+<lb n="0305b24" ed="T"/>舌根身根。心能受用五根行處境界。是故心
+<lb n="0305b25" ed="T"/>是彼所依止。人非境界。若非境界。不應是六
+<lb n="0305b26" ed="T"/>識所知。若爾意根應成別不通經云有六種
+<lb n="0305b27" ed="T"/>根。各別行處各別境界。樂欲自自行處境界。
+<lb n="0305b28" ed="T"/>此言於六眾生我譬中說。是義不然。於此經
+<lb n="0305b29" ed="T"/>中不定說六根為根。是五根樂欲見等事不
+<pb n="0305c" xml:id="T29.1559.0305c" ed="T"/>
+<lb n="0305c01" ed="T"/>有故。彼識亦爾。彼增上處所引意識。立此為
+<lb n="0305c02" ed="T"/>根。故說名根。是獨類心增上緣所引意識。此
+<lb n="0305c03" ed="T"/>識非能樂欲受用餘根行處境界。是故無失。
+<lb n="0305c04" ed="T"/>復次佛世尊說。比丘我今為汝等說一切所
+<lb n="0305c05" ed="T"/>應知一切所應識法門。眼根是所應知。是所
+<lb n="0305c06" ed="T"/>應識。色眼識眼觸。由眼觸因緣。於內生受。謂
+<lb n="0305c07" ed="T"/>苦樂不苦不樂等。乃至由意觸因緣。於內生
+<lb n="0305c08" ed="T"/>受。謂苦樂不苦不樂等。是名一切所應知一
+<lb n="0305c09" ed="T"/>切所應識法門。由此經。若有所應知及所
+<lb n="0305c10" ed="T"/>應識決。唯此量不出於此。於中不說人。是故
+<lb n="0305c11" ed="T"/>人決定非所應知。智及識境界同故。執我諸
+<lb n="0305c12" ed="T"/>人說云。我等由眼見人。於非我所。見有我故。
+<lb n="0305c13" ed="T"/>彼則墮我見處深坑。於經中佛世尊自了義
+<lb n="0305c14" ed="T"/>說云。但於五陰說假名人。於人經中說。依眼
+<lb n="0305c15" ed="T"/>緣色生眼識。由三和合生觸。共生受想作意
+<lb n="0305c16" ed="T"/>等。是四種無色陰。及眼根并色。唯如此量說
+<lb n="0305c17" ed="T"/>名人。於此中立諸名。謂薩埵那羅摩<anchor xml:id="beg_b3" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_b3"/>闍摩
+<lb n="0305c18" ed="T"/>那婆弗伽羅時婆布灑善<anchor xml:id="nkr_note_orig_0305009" n="0305009"/><anchor xml:id="beg0305009" n="0305009"/>斗<anchor xml:id="end0305009"/>。於中立言。我由
+<lb n="0305c19" ed="T"/>眼見色。於中有世傳云。此命者如此名。如此
+<lb n="0305c20" ed="T"/>姓。如此種類。如此食。如此受苦樂。如此長壽。
+<lb n="0305c21" ed="T"/>如此久住。如此壽際。比丘如此事。唯名為量。
+<lb n="0305c22" ed="T"/>唯言為量。唯傳為量如此等一切法無常有
+<lb n="0305c23" ed="T"/>為。故意所造。由因緣生。如此了義經。於此執
+<lb n="0305c24" ed="T"/>中。佛世尊說為依為量。此經不可更別思量。
+<lb n="0305c25" ed="T"/>復次有別經說。婆羅門若說一切有。唯是十
+<lb n="0305c26" ed="T"/>二入。若人非<anchor xml:id="nkr_note_orig_0305010" n="0305010"/><anchor xml:id="nkr_note_mod_0305010" n="0305010"/><anchor xml:id="beg0305010" n="0305010"/>人<anchor xml:id="end0305010"/>所攝。此人必定不有。此義
+<lb n="0305c27" ed="T"/>則成。若<anchor xml:id="nkr_note_orig_0305011" n="0305011"/><anchor xml:id="beg0305011" n="0305011"/>入<anchor xml:id="end0305011"/>入攝。非不可言。於彼部中有如
+<lb n="0305c28" ed="T"/>此經。經言比丘。若所有眼。若所有色。廣說
+<lb n="0305c29" ed="T"/>如經。由唯此量。比丘諸佛如來。說一切有窮
+<pb n="0306a" xml:id="T29.1559.0306a" ed="T"/>
+<lb n="0306a01" ed="T"/>顯一切說。又<anchor xml:id="nkr_note_orig_0306001" n="0306001"/><anchor xml:id="nkr_note_mod_0306001" n="0306001"/><anchor xml:id="beg0306001" n="0306001"/>頻<anchor xml:id="end0306001"/>琵<anchor xml:id="nkr_note_orig_0306002" n="0306002"/><anchor xml:id="beg0306002" n="0306002"/>娑<anchor xml:id="end0306002"/>羅經中說。比丘嬰兒
+<lb n="0306a02" ed="T"/>無聞凡夫隨逐假名我言。此中無我無我所。
+<lb n="0306a03" ed="T"/>唯苦欲生得生。廣說如經。有阿羅漢比丘尼。
+<lb n="0306a04" ed="T"/>名世羅。對魔王說此偈言。</p>
+<lb n="0306a05" ed="T"/><lg xml:id="lgT29p0306a0501"><l>如從和合分</l><l>於中說車名</l>
+<lb n="0306a06" ed="T"/><l>如此依諸陰</l><l>假名說眾生</l></lg>
+<lb n="0306a07" ed="T"/><p xml:id="pT29p0306a0701">於少分阿含中。為波遮利婆羅門。說此偈言。</p>
+<lb n="0306a08" ed="T"/><lg xml:id="lgT29p0306a0801"><l>波遮利汝聽</l><l>能解諸結法</l>
+<lb n="0306a09" ed="T"/><l>由此心有染</l><l><anchor xml:id="nkr_note_orig_0306003" n="0306003"/><anchor xml:id="beg0306003" n="0306003"/>復<anchor xml:id="end0306003"/>由此心淨</l>
+<lb n="0306a10" ed="T"/><l>我者無我體</l><l>顛倒故分別</l>
+<lb n="0306a11" ed="T"/><l>無我無眾生</l><l>唯法謂因果</l>
+<lb n="0306a12" ed="T"/><l>有分唯十二</l><l>唯有陰入界</l>
+<lb n="0306a13" ed="T"/><l>熟思尋此法</l><l>人實不可得</l>
+<lb n="0306a14" ed="T"/><l>如觀內是空</l><l>觀外亦如是</l>
+<lb n="0306a15" ed="T"/><l>此二不可得</l><l>能修及空義</l></lg>
+<lb n="0306a16" ed="T"/><p xml:id="pT29p0306a1601">復有經說。我執中有五種過失。謂起我見眾
+<lb n="0306a17" ed="T"/>生見。墮於見處。與外道不異。僻行邪道心。不
+<lb n="0306a18" ed="T"/>入空義。不生淨信心。於中不住。於此人聖法
+<lb n="0306a19" ed="T"/>不得清淨。彼不以此文為依量。何以故。此文
+<lb n="0306a20" ed="T"/>於我部中。非<anchor xml:id="nkr_note_orig_0306004" n="0306004"/><anchor xml:id="nkr_note_mod_0306004" n="0306004"/><anchor xml:id="beg0306004" n="0306004"/>所<anchor xml:id="end0306004"/>誦說。為以部為依量。為以
+<lb n="0306a21" ed="T"/>佛言為依量。若取部為依量。佛世尊於彼則
+<lb n="0306a22" ed="T"/>非正教師。彼便非釋迦種子。若取佛言為依
+<lb n="0306a23" ed="T"/>量。如此等文句。云何不取為依量。彼云如此
+<lb n="0306a24" ed="T"/>等文句。非是佛言。<anchor xml:id="nkr_note_orig_0306005" n="0306005"/><anchor xml:id="nkr_note_mod_0306005" n="0306005"/><anchor xml:id="beg0306005" n="0306005"/>云何非佛言<anchor xml:id="end0306005"/>。於我部中
+<lb n="0306a25" ed="T"/>非昔所誦故。於今非理事起。此中有何非理。
+<lb n="0306a26" ed="T"/>此文句是一切餘部所讀誦。此文句不違佛
+<lb n="0306a27" ed="T"/>經及法爾。由我等不讀誦故。此非佛言。此言
+<lb n="0306a28" ed="T"/>一向非正思量。但由強作。於彼為無此經耶。
+<lb n="0306a29" ed="T"/>謂一切法無我。若汝言。不說人是法。不說人
+<pb n="0306b" xml:id="T29.1559.0306b" ed="T"/>
+<lb n="0306b01" ed="T"/>異法。若爾此人應成非意識所知。緣二識得
+<lb n="0306b02" ed="T"/>生。由經文決故。於此文中汝云何分別救難。
+<lb n="0306b03" ed="T"/>經<anchor xml:id="nkr_note_orig_0306006" n="0306006"/><anchor xml:id="nkr_note_mod_0306006" n="0306006"/><anchor xml:id="beg0306006" n="0306006"/>言<anchor xml:id="end0306006"/>於無我我執。是想倒心倒見倒。於無我
+<lb n="0306b04" ed="T"/>我執是顛倒非於我。何者非我。諸陰入界。汝
+<lb n="0306b05" ed="T"/>於前云。不可說我是色非色。此言最不可忍。
+<lb n="0306b06" ed="T"/>何以故。於餘經說。比丘若有沙門婆羅門。觀
+<lb n="0306b07" ed="T"/>執有我。彼一切但依五取陰。起此觀執。是
+<lb n="0306b08" ed="T"/>故一切不於我起我執。復有經說。若有諸人。
+<lb n="0306b09" ed="T"/>能憶種種宿住。已憶正憶當憶。彼一切唯依
+<lb n="0306b10" ed="T"/>五陰。若爾此經云何說此言。我如此色等。於
+<lb n="0306b11" ed="T"/>宿世已生。此言為顯能憶宿住人能憶多種
+<lb n="0306b12" ed="T"/>宿住。若見人有色。應墮身見過失。若不說
+<lb n="0306b13" ed="T"/>我。一切色等則無屬處故說。此言不為顯我。
+<lb n="0306b14" ed="T"/>是故人是假名有。譬如聚流等。若爾佛世尊。
+<lb n="0306b15" ed="T"/>不應成一切智人。何以故。無有心及心法能
+<lb n="0306b16" ed="T"/>知一切法剎那剎那生滅故。是故人能知。若
+<lb n="0306b17" ed="T"/>爾心滅時。由執人不滅故。汝則已信許人是
+<lb n="0306b18" ed="T"/>常住。我等不說於一切境由智一時現前佛
+<lb n="0306b19" ed="T"/>世尊是一切智。若不爾此云何。是相續稱
+<lb n="0306b20" ed="T"/>為佛。有如此勝能。於隨所欲知境中。唯<anchor xml:id="nkr_note_orig_0306007" n="0306007"/><anchor xml:id="beg0306007" n="0306007"/>由<anchor xml:id="end0306007"/>
+<lb n="0306b21" ed="T"/>迴心生智無倒故。稱一切智。此中說偈。</p>
+<lb n="0306b22" ed="T"/><lg xml:id="lgT29p0306b2201"><l>由相續有能</l><l>稱火食一切</l>
+<lb n="0306b23" ed="T"/><l>說遍知亦然</l><l>不由俱悉解</l></lg>
+<lb n="0306b24" ed="T"/><p xml:id="pT29p0306b2401">此義云何可知。由說過去等世故。如偈<anchor xml:id="nkr_note_orig_0306008" n="0306008"/><anchor xml:id="nkr_note_mod_0306008" n="0306008"/><anchor xml:id="beg0306008" n="0306008"/>曰<anchor xml:id="end0306008"/>。</p>
+<lb n="0306b25" ed="T"/><lg xml:id="lgT29p0306b2501"><l>是過去諸佛</l><l>是未來諸佛</l>
+<lb n="0306b26" ed="T"/><l>是現在<anchor xml:id="nkr_note_orig_0306009" n="0306009"/><anchor xml:id="nkr_note_mod_0306009" n="0306009"/><anchor xml:id="beg0306009" n="0306009"/>世<anchor xml:id="end0306009"/>佛</l><l>能除眾生憂</l></lg>
+<lb n="0306b27" ed="T"/><p xml:id="pT29p0306b2701">汝等但許五陰有三世非許人。若唯五陰名
+<lb n="0306b28" ed="T"/>人。云何說此經。經云我今為汝。說重擔取重
+<lb n="0306b29" ed="T"/>擔捨重擔荷負重擔。云何此言不可說。重擔
+<pb n="0306c" xml:id="T29.1559.0306c" ed="T"/>
+<lb n="0306c01" ed="T"/>不能自荷負重擔故。云何不能此事。非所曾
+<lb n="0306c02" ed="T"/>見故不可言。亦不可言此事非所曾見故。復
+<lb n="0306c03" ed="T"/>次應立取重擔非陰所攝。為成此義故。佛世
+<lb n="0306c04" ed="T"/>尊分別荷負重擔人。是命者如此名。如此姓。
+<lb n="0306c05" ed="T"/>乃至如此久住。及壽際。應知是名荷負重擔。
+<lb n="0306c06" ed="T"/>勿作別物意知。或執為常住。或執為不可言。
+<lb n="0306c07" ed="T"/>諸陰自能滅諸陰。謂前陰於後陰。為顯荷<anchor xml:id="nkr_note_orig_0306010" n="0306010"/><anchor xml:id="nkr_note_mod_0306010" n="0306010"/><anchor xml:id="beg0306010" n="0306010"/>負<anchor xml:id="end0306010"/>
+<lb n="0306c08" ed="T"/>重擔義。故說此文。必定有人。何以故。由此
+<lb n="0306c09" ed="T"/>經言。無自然生眾生。此執是邪見。何人說無
+<lb n="0306c10" ed="T"/>自然生眾生。如佛世尊分別眾生。我說亦爾。
+<lb n="0306c11" ed="T"/>是故若人撥無於餘生中自然生。五陰相續
+<lb n="0306c12" ed="T"/>世<anchor xml:id="nkr_note_orig_0306011" n="0306011"/><anchor xml:id="nkr_note_mod_0306011" n="0306011"/><anchor xml:id="beg0306011" n="0306011"/>一<anchor xml:id="end0306011"/>間立名自然生眾生。說<anchor xml:id="nkr_note_orig_0306012" n="0306012"/><anchor xml:id="beg0306012" n="0306012"/>此<anchor xml:id="end0306012"/>人起邪見。
+<lb n="0306c13" ed="T"/>謂無自然生眾生。由有諸陰自然生故。是汝
+<lb n="0306c14" ed="T"/>所說撥<anchor xml:id="nkr_note_orig_0306013" n="0306013"/><anchor xml:id="nkr_note_mod_0306013" n="0306013"/><anchor xml:id="beg0306013" n="0306013"/>人<anchor xml:id="end0306013"/>邪見。見何諦所滅。此邪見不應由
+<lb n="0306c15" ed="T"/>見諦滅。亦不應由修道滅。何以故。人不屬四
+<lb n="0306c16" ed="T"/>諦攝故。若汝言有別經為證。顯人非陰。經言
+<lb n="0306c17" ed="T"/>一人於世間向生。生為利益安樂多人。廣說
+<lb n="0306c18" ed="T"/>如經。由此經言故人非陰。是義不然。由於聚
+<lb n="0306c19" ed="T"/>中假說一故。譬如說一麻一米。或於一聚說
+<lb n="0306c20" ed="T"/>一言。<anchor xml:id="nkr_note_orig_0306014" n="0306014"/><anchor xml:id="beg0306014" n="0306014"/>如說一<anchor xml:id="end0306014"/>山一屋。應說人即是有為。由
+<lb n="0306c21" ed="T"/>汝許有生故。如陰先未有後有。人生不爾不
+<lb n="0306c22" ed="T"/>爾云何。生由取別陰故。譬如延若師生毘伽
+<lb n="0306c23" ed="T"/>羅論師生。由取明處故說名生。又如比丘生
+<lb n="0306c24" ed="T"/>道人生。由取相故說名。生又如老者已生病
+<lb n="0306c25" ed="T"/>者已生。由取別<anchor xml:id="nkr_note_orig_0306015" n="0306015"/><anchor xml:id="nkr_note_mod_0306015" n="0306015"/><anchor xml:id="beg0306015" n="0306015"/>位<anchor xml:id="end0306015"/>故說名生。是義不然。由
+<lb n="0306c26" ed="T"/>被撥故。於經中佛世尊已撥此義。何經於真
+<lb n="0306c27" ed="T"/>實空經。經云。比丘如此有業有果報。作者不
+<lb n="0306c28" ed="T"/>可得。實無有故。是能棄捨此陰。往取彼陰。唯
+<lb n="0306c29" ed="T"/>除於法世流布<anchor xml:id="nkr_note_orig_0306016" n="0306016"/><anchor xml:id="nkr_note_mod_0306016" n="0306016"/><anchor xml:id="beg0306016" n="0306016"/>語<anchor xml:id="end0306016"/>所立人。又於頗求那經中
+<pb n="0307a" xml:id="T29.1559.0307a" ed="T"/>
+<lb n="0307a01" ed="T"/>說。我亦不說眾生能取陰。唯諸法相續起。由
+<lb n="0307a02" ed="T"/>此經。是故知。無有一人能取諸陰能捨諸陰。
+<lb n="0307a03" ed="T"/>汝今信執何延若師生。乃至病者生。立為人
+<lb n="0307a04" ed="T"/>譬。若執我此不成就。非有故。若執心及心法。
+<lb n="0307a05" ed="T"/>彼剎那剎那。未曾有有故。不可為譬。若執身
+<lb n="0307a06" ed="T"/>亦如心。如身明相。陰及人應成差別。老病此
+<lb n="0307a07" ed="T"/>二是別身。是僧<anchor xml:id="nkr_note_orig_0307001" n="0307001"/><anchor xml:id="beg0307001" n="0307001"/>佉<anchor xml:id="end0307001"/>所立變異義。於前已破。
+<lb n="0307a08" ed="T"/>是故延若師等不成譬。若汝執。諸陰有未有
+<lb n="0307a09" ed="T"/>有義。人則不爾。若爾人應異陰。亦是常住。此
+<lb n="0307a10" ed="T"/>義分明所顯。汝說陰五人一。云何不說人與
+<lb n="0307a11" ed="T"/>陰異。汝云何說<anchor xml:id="nkr_note_orig_0307002" n="0307002"/><anchor xml:id="nkr_note_mod_0307002" n="0307002"/><anchor xml:id="beg0307002" n="0307002"/>四大<anchor xml:id="end0307002"/>色一。色不異四大。如
+<lb n="0307a12" ed="T"/>此是立義過失。何者立義。立唯有大義。雖然
+<lb n="0307a13" ed="T"/>如唯四大是色如此唯五陰是人。此義已許。
+<lb n="0307a14" ed="T"/>若唯陰名人。云何佛世尊。不記命者即是身。
+<lb n="0307a15" ed="T"/>命者異<anchor xml:id="nkr_note_orig_0307003" n="0307003"/><anchor xml:id="nkr_note_mod_0307003" n="0307003"/><anchor xml:id="beg0307003" n="0307003"/>於<anchor xml:id="end0307003"/>身。由觀問人意。是故不記。此問人
+<lb n="0307a16" ed="T"/>執。有一別實物名命者。於內是作者。彼人依
+<lb n="0307a17" ed="T"/>此為問。此物必定實無。云何可記是一<anchor xml:id="nkr_note_orig_0307004" n="0307004"/><anchor xml:id="nkr_note_mod_0307004" n="0307004"/><anchor xml:id="beg0307004" n="0307004"/>是<anchor xml:id="end0307004"/>異。
+<lb n="0307a18" ed="T"/>譬如龜毛強澁軟滑。此結宿舊諸師先已解
+<lb n="0307a19" ed="T"/>釋。有大德那伽斯那阿羅漢。旻隣陀王。至大
+<lb n="0307a20" ed="T"/>德所說云。我今欲問大德。沙門多漫言。如我
+<lb n="0307a21" ed="T"/>所問。若大德直答。我當問大德。大德言。王但
+<lb n="0307a22" ed="T"/>問。王即問。命者為即是身。為命者異身異。大
+<lb n="0307a23" ed="T"/>德言。此義非所<anchor xml:id="nkr_note_orig_0307005" n="0307005"/><anchor xml:id="nkr_note_mod_0307005" n="0307005"/><anchor xml:id="beg0307005" n="0307005"/>記<anchor xml:id="end0307005"/>。王言。大德。我先為不令
+<lb n="0307a24" ed="T"/>大德立誓耶。謂不應說別語。我有別語。此義
+<lb n="0307a25" ed="T"/>非可語。大德言。我今欲問大王。諸王多漫言。
+<lb n="0307a26" ed="T"/>如我所問。王若直答。我當問王。王言。大德但
+<lb n="0307a27" ed="T"/>問。大德即問。於王內中菴羅樹。此子為酸為
+<lb n="0307a28" ed="T"/>甜。王言。我內中無菴羅樹。大德言。大王。我
+<lb n="0307a29" ed="T"/>先為不令王立誓耶。謂不應說別語。王言。我
+<pb n="0307b" xml:id="T29.1559.0307b" ed="T"/>
+<lb n="0307b01" ed="T"/>說何別語。<anchor xml:id="nkr_note_orig_0307006" n="0307006"/><anchor xml:id="nkr_note_mod_0307006" n="0307006"/><anchor xml:id="beg0307006" n="0307006"/>我內中無菴羅樹。樹既無云何得<anchor xml:id="end0307006"/>
+<lb n="0307b02" ed="T"/>記子味酸甜。大王。如此命者既無。我云何能
+<lb n="0307b03" ed="T"/>記異身不異身。云何佛世尊。不直記無我。由
+<lb n="0307b04" ed="T"/>佛觀問人意。故不直<anchor xml:id="beg_b4" type="star"/>記<anchor xml:id="end_b4"/>。何以故。是諸陰相
+<lb n="0307b05" ed="T"/>續。立名命者。勿問人由執此不有墮於邪見。
+<lb n="0307b06" ed="T"/>是故不說。由彼未通達十二緣生理故。是故
+<lb n="0307b07" ed="T"/>彼非受此正說器。復次由此道理應決此義。
+<lb n="0307b08" ed="T"/>為是由世尊說。此言阿難。跋娑同姓外道問
+<lb n="0307b09" ed="T"/>我。我為有為不有。我不答。若說此言。為非相
+<lb n="0307b10" ed="T"/>應耶。謂一切法無我。阿難。若我答跋娑同姓
+<lb n="0307b11" ed="T"/>外道問。說一切法無我。此外道於先已在癡
+<lb n="0307b12" ed="T"/>闇。為不更過前量<anchor xml:id="nkr_note_orig_0307007" n="0307007"/><anchor xml:id="beg0307007" n="0307007"/>入<anchor xml:id="end0307007"/>癡闇耶。昔時我有我。
+<lb n="0307b13" ed="T"/>今時永無我。若執有我則墮常見。若執無我
+<lb n="0307b14" ed="T"/>則墮斷見。廣說如經。此中說偈。</p>
+<lb n="0307b15" ed="T"/><lg xml:id="lgT29p0307b1501"><l>觀見牙傷身</l><l>及棄捨善業</l>
+<lb n="0307b16" ed="T"/><l>諸佛說正法</l><l>如雌虎銜子</l>
+<lb n="0307b17" ed="T"/><l>若信說有我</l><l>見牙傷徹身</l>
+<lb n="0307b18" ed="T"/><l>若棄假名我</l><l>善子即墮落</l></lg>
+<lb n="0307b19" ed="T"/><p xml:id="pT29p0307b1901">復說偈言。</p>
+<lb n="0307b20" ed="T"/><lg xml:id="lgT29p0307b2001"><l>由人實無故</l><l>佛不<anchor xml:id="beg_b5" type="star"/>記<anchor xml:id="end_b5"/>一異</l>
+<lb n="0307b21" ed="T"/><l>亦不得說無</l><l>勿執無假我</l>
+<lb n="0307b22" ed="T"/><l>是陰相續中</l><l>有善惡果理</l>
+<lb n="0307b23" ed="T"/><l>說命者撥無</l><l>由說無命者</l>
+<lb n="0307b24" ed="T"/><l>彼人未堪受</l><l>正說真空理</l>
+<lb n="0307b25" ed="T"/><l>問有我無我</l><l>故不答我無</l>
+<lb n="0307b26" ed="T"/><l>若由觀問意</l><l>於有何不記</l>
+<lb n="0307b27" ed="T"/><l>同前無涅槃</l><l>墮難故不記</l></lg>
+<lb n="0307b28" ed="T"/><p xml:id="pT29p0307b2801">世間常住等問。佛亦不記。由觀問人意故。若
+<lb n="0307b29" ed="T"/>彼執我為世間。此無故四答不應理。若彼執
+<pb n="0307c" xml:id="T29.1559.0307c" ed="T"/>
+<lb n="0307c01" ed="T"/>一切生死名世間答此亦不應理。何以故。若
+<lb n="0307c02" ed="T"/>世間常住。無一人得般涅槃若非常住。則一
+<lb n="0307c03" ed="T"/>切皆斷滅。自然般涅槃。若具二必定。一分不
+<lb n="0307c04" ed="T"/>得涅槃。一分自得。若非二。應成非得涅槃非
+<lb n="0307c05" ed="T"/>非得涅槃。由涅槃至得隨屬道故。是故不可
+<lb n="0307c06" ed="T"/>定為四答。譬如不記尼乾弟子握中之雀。由
+<lb n="0307c07" ed="T"/>此義世間有邊等四問。佛亦不記。此四問同
+<lb n="0307c08" ed="T"/>前四義故。何以知然。有外道名郁胝柯。以
+<lb n="0307c09" ed="T"/>此四問佛。復問。為一切世間由此道得出離。
+<lb n="0307c10" ed="T"/>為世間一分。大德阿難言。郁胝柯。是義汝於
+<lb n="0307c11" ed="T"/>初已問世尊。今何故。復以方便更問此義。如
+<lb n="0307c12" ed="T"/>來有異死等四問。由觀問人意故。佛亦不記。
+<lb n="0307c13" ed="T"/>何以故。彼人執已解脫我名如來。故為此問。
+<lb n="0307c14" ed="T"/>於執有我人。應作如此問云何世尊記生存
+<lb n="0307c15" ed="T"/>人有。不記於異死人有。為離墮常過失故。此
+<lb n="0307c16" ed="T"/>事云何記。佛言。彌底<anchor xml:id="nkr_note_orig_0307008" n="0307008"/><anchor xml:id="beg0307008" n="0307008"/><note place="inline">知履反</note><anchor xml:id="end0307008"/>履也。今汝於未來
+<lb n="0307c17" ed="T"/>當成如來阿羅訶三<anchor xml:id="nkr_note_orig_0307009" n="0307009"/><anchor xml:id="beg0307009" n="0307009"/>藐<anchor xml:id="end0307009"/>三佛陀。復云何聲聞
+<lb n="0307c18" ed="T"/>過世已死於後生。記彼言。某甲某處受生。如
+<lb n="0307c19" ed="T"/>此亦應墮常過失。若世尊先時見眾生存在。
+<lb n="0307c20" ed="T"/>般涅槃已則不復見。故不記者。此應由無明
+<lb n="0307c21" ed="T"/>故不記。則撥大師一切智德。汝或應信受此
+<lb n="0307c22" ed="T"/>義。謂由我不有故佛不記。若佛見人不記。雖
+<lb n="0307c23" ed="T"/>不記此人是有。亦是常住。此義自成。若汝說
+<lb n="0307c24" ed="T"/>此義亦不可言。謂佛見及不見。若爾汝應漸
+<lb n="0307c25" ed="T"/>漸成此義。令皆不可言佛世尊是一切智。不
+<lb n="0307c26" ed="T"/>可言非一切智。亦不可言我必定有。由此言
+<lb n="0307c27" ed="T"/>依實依住。撥我無我說名見處。說有亦是見
+<lb n="0307c28" ed="T"/>處。是故此言不可以為證。阿毘達磨師說。此
+<lb n="0307c29" ed="T"/>二皆是邊見。斷常二邊見所攝故。此言是理。
+<pb n="0308a" xml:id="T29.1559.0308a" ed="T"/>
+<lb n="0308a01" ed="T"/>如跋<anchor xml:id="nkr_note_orig_0308001" n="0308001"/><anchor xml:id="nkr_note_mod_0308001" n="0308001"/><anchor xml:id="beg0308001" n="0308001"/>婆<anchor xml:id="end0308001"/>經中言。阿難若說有我。此人則墮常
+<lb n="0308a02" ed="T"/>見。若說無我。此人則墮斷見。若汝言。人無何
+<lb n="0308a03" ed="T"/>物往還生死。何以故。生死自往還。此義不可
+<lb n="0308a04" ed="T"/>言。佛世尊說。諸眾生以無明為蓋。貪愛為縛。
+<lb n="0308a05" ed="T"/>往還此彼。或於地獄。或於畜生餓鬼人天道
+<lb n="0308a06" ed="T"/>中。如此長夜受於眾苦。增益貪愛。常聚血滴。
+<lb n="0308a07" ed="T"/>若爾此人云何往還生死。由捨此陰。<anchor xml:id="nkr_note_orig_0308002" n="0308002"/><anchor xml:id="nkr_note_mod_0308002" n="0308002"/><anchor xml:id="beg0308002" n="0308002"/>受<anchor xml:id="end0308002"/>彼別
+<lb n="0308a08" ed="T"/>陰。汝今所立義。於前已破。若爾離人生死云
+<lb n="0308a09" ed="T"/>何自往還。譬如火剎那剎那滅。由相續故說
+<lb n="0308a10" ed="T"/>行。如此陰聚。說名眾生。以貪愛為取。約相續
+<lb n="0308a11" ed="T"/>說名往還。若世間唯是陰聚。云何佛世尊說。
+<lb n="0308a12" ed="T"/>今我於昔時曾作世師。名曰善<anchor xml:id="nkr_note_orig_0308003" n="0308003"/><anchor xml:id="nkr_note_mod_0308003" n="0308003"/><anchor xml:id="beg0308003" n="0308003"/>目<anchor xml:id="end0308003"/>。云何不應
+<lb n="0308a13" ed="T"/>說如此。由諸陰異故。若爾何者有人。若昔人
+<lb n="0308a14" ed="T"/>即是今人。人則常住是故今我是昔世師。此
+<lb n="0308a15" ed="T"/>言顯一<anchor xml:id="nkr_note_orig_0308004" n="0308004"/><anchor xml:id="beg0308004" n="0308004"/>相<anchor xml:id="end0308004"/>續。譬如有言。是於彼火燒然至
+<lb n="0308a16" ed="T"/>此。若我實有。唯諸佛如來能明了見。見已世
+<lb n="0308a17" ed="T"/>尊即立我執。令成堅實。我既是有我所亦成。
+<lb n="0308a18" ed="T"/>由佛說經為顯此義。眾生於五陰中。生我所
+<lb n="0308a19" ed="T"/>執。則成堅實。是彼於五陰則成。身見我所見
+<lb n="0308a20" ed="T"/>有已。彼我所愛復成堅實。彼以我所愛。為堅
+<lb n="0308a21" ed="T"/>實繫縛。則於解脫轉成極遠。若汝言。於我不
+<lb n="0308a22" ed="T"/>生我愛。此言應何道理。謂於無我由信有我
+<lb n="0308a23" ed="T"/>起我愛。於實我不起我愛。是故於如來正法
+<lb n="0308a24" ed="T"/>中。無因緣起見瘡疱。謂有諸人撥無我。起有
+<lb n="0308a25" ed="T"/>我執。復有諸人。撥有執一切無。是諸外道計。
+<lb n="0308a26" ed="T"/>執我實有別物。正法內人起有我執。及執一
+<lb n="0308a27" ed="T"/>切無。如此等人同不得解脫。由無差別故。若
+<lb n="0308a28" ed="T"/>由一切種我實不有。心既<anchor xml:id="nkr_note_orig_0308005" n="0308005"/><anchor xml:id="beg0308005" n="0308005"/>剎<anchor xml:id="end0308005"/>那剎那生滅。
+<lb n="0308a29" ed="T"/>久遠時所曾更事。今云何憶。云何更知。從憶
+<pb n="0308b" xml:id="T29.1559.0308b" ed="T"/>
+<lb n="0308b01" ed="T"/>念境界相類差別。心念及更知生。從此想類
+<lb n="0308b02" ed="T"/>差別心。無間念得生。其相云何。由與於彼迴
+<lb n="0308b03" ed="T"/>向覺觀同有相應及想等。無依止差別。憂悲
+<lb n="0308b04" ed="T"/>散亂等損其勢力。何以故。此想類差別心。若
+<lb n="0308b05" ed="T"/>同境非同類。不能生此念。若同類非同境。亦
+<lb n="0308b06" ed="T"/>不能生此念。若二同但一剎那。亦不能生此
+<lb n="0308b07" ed="T"/>念。若異此三。則能生此念。若念生必由此生。
+<lb n="0308b08" ed="T"/>不見餘物。於念有功<anchor xml:id="nkr_note_orig_0308006" n="0308006"/><anchor xml:id="beg0308006" n="0308006"/>能<anchor xml:id="end0308006"/>故。今云何別心所見
+<lb n="0308b09" ed="T"/>餘心得憶。何以故。天與心所見。祠與心不應
+<lb n="0308b10" ed="T"/>得憶是義不然。不相應故。天與心祠與心。此
+<lb n="0308b11" ed="T"/>二不相應。非因果故。如一相續心有相應。彼
+<lb n="0308b12" ed="T"/>則不爾。我等不說。別心所見。別心能憶。此云
+<lb n="0308b13" ed="T"/>何。從見心有別憶念心生。由相續變異故。如
+<lb n="0308b14" ed="T"/>前所說。若爾有何失。從憶念心。更知心生若
+<lb n="0308b15" ed="T"/>無我孰能憶能憶是何義。由念能取境。此取
+<lb n="0308b16" ed="T"/>境為異念。不異此念。能作取故。是我前所說。
+<lb n="0308b17" ed="T"/>因緣能生此念。謂想類差別心。復次是汝所
+<lb n="0308b18" ed="T"/>說。及多憶念從此相續稱名及多見憶念生。
+<lb n="0308b19" ed="T"/>說名憶念。若無我此念是誰念。又第六別言
+<lb n="0308b20" ed="T"/>是何義主為義。譬如人問。此以何為主。譬如
+<lb n="0308b21" ed="T"/>婆羅門牛。云何婆羅門為此牛主。由乘將使
+<lb n="0308b22" ed="T"/>等事屬婆羅門故。若爾此念。於何處可使。由
+<lb n="0308b23" ed="T"/>此以我為彼<anchor xml:id="nkr_note_orig_0308007" n="0308007"/><anchor xml:id="beg0308007" n="0308007"/>主<anchor xml:id="end0308007"/>。於應憶境中。於中何用。使
+<lb n="0308b24" ed="T"/>彼為憶境故。希有樂自在人。作此言說謂使
+<lb n="0308b25" ed="T"/>此為生此。云何此可使為<anchor xml:id="nkr_note_orig_0308008" n="0308008"/><anchor xml:id="beg0308008" n="0308008"/>生<anchor xml:id="end0308008"/>彼名使為遣彼
+<lb n="0308b26" ed="T"/>名使。由念無行故。因生說使。若爾主應成財
+<lb n="0308b27" ed="T"/>因。財應成主果。何以故。由因於果果有增上。
+<lb n="0308b28" ed="T"/>由果因有所得。是因能生念。此念屬此因。是
+<lb n="0308b29" ed="T"/>故主以因為義。諸行聚相續攝在一處。立名
+<pb n="0308c" xml:id="T29.1559.0308c" ed="T"/>
+<lb n="0308c01" ed="T"/>天與。立名牛主。此假名人。於餘處牛變異生
+<lb n="0308c02" ed="T"/>中。思量為因緣故。說名牛主。於中無一人名
+<lb n="0308c03" ed="T"/>天與。無一物名牛。是故於中若離因義。不可
+<lb n="0308c04" ed="T"/>立為主。何物能識。此識是誰識。應如念釋。此
+<lb n="0308c05" ed="T"/>識因緣。謂根塵覺觀思惟。如理應知。是此差
+<lb n="0308c06" ed="T"/>別。若有人說我有。由有觀有者故。一切有等
+<lb n="0308c07" ed="T"/>事必定觀有者等。譬如天與行。此中有事名
+<lb n="0308c08" ed="T"/>行。必定觀行者天與識事亦爾。是物能識。此
+<lb n="0308c09" ed="T"/>識必應依彼生。應問此人。汝所說天與是何
+<lb n="0308c10" ed="T"/>物。若說我為天與。此我於前已破。不可成立。
+<lb n="0308c11" ed="T"/>若汝說。世流布所顯。此人不成一物。諸行聚
+<lb n="0308c12" ed="T"/>得如此名。此中如說天與行。說天與識亦爾
+<lb n="0308c13" ed="T"/>云何說天與行。諸行剎那剎那生滅相應無
+<lb n="0308c14" ed="T"/>別異說名天與。諸凡夫執彼。許為一眾生彼
+<lb n="0308c15" ed="T"/>於別處作自相續因。世間於彼說天與行。於
+<lb n="0308c16" ed="T"/>餘處生說名行。譬如光聲相續於別處生說
+<lb n="0308c17" ed="T"/>名行。是彼正作識因。說名天與識。聖人由世
+<lb n="0308c18" ed="T"/>流布所立。亦說彼事。為與言說相應故。於經
+<lb n="0308c19" ed="T"/>中說識識境。此中識何所作。悉無所作。<anchor xml:id="nkr_note_orig_0308009" n="0308009"/><anchor xml:id="beg0308009" n="0308009"/>如
+<lb n="0308c20" ed="T"/>識<anchor xml:id="end0308009"/><anchor xml:id="nkr_note_orig_0308010" n="0308010"/><anchor xml:id="nkr_note_mod_0308010" n="0308010"/><anchor xml:id="beg0308010" n="0308010"/>果<anchor xml:id="end0308010"/>隨似因。悉無所作。但由得相似體故說
+<lb n="0308c21" ed="T"/>如此。說識識境亦爾。悉無所作。但由得相似
+<lb n="0308c22" ed="T"/>體。識相似有何義。體生似彼。是故此識。雖從
+<lb n="0308c23" ed="T"/>根生。但說識塵。不說識根。復次此中識相續。
+<lb n="0308c24" ed="T"/>由於後識是因故。說識識境。此言無失由於
+<lb n="0308c25" ed="T"/>因中立作者名故。譬如說鈴正鳴。復次譬如
+<lb n="0308c26" ed="T"/>燈行。識識境亦爾。云何燈行。於光相續。假名
+<lb n="0308c27" ed="T"/>說燈。此相續正生於餘處說燈行餘處。如此
+<lb n="0308c28" ed="T"/>於心相續。假名說識。此心相續於餘塵中生
+<lb n="0308c29" ed="T"/>識。此識彼塵復次譬如世間說。色有色生色
+<pb n="0309a" xml:id="T29.1559.0309a" ed="T"/>
+<lb n="0309a01" ed="T"/>住。此中能有等不異有等。亦有二言。於識二
+<lb n="0309a02" ed="T"/>言亦爾。若從識識生。不從我生。云何生不恒
+<lb n="0309a03" ed="T"/>似本。又不由決定次第生。譬如芽節葉等。由
+<lb n="0309a04" ed="T"/>住異諸行相故。一切有為法性。皆如此必定。
+<lb n="0309a05" ed="T"/>相續不同。若不爾。入如意得定。觀人身心。相
+<lb n="0309a06" ed="T"/>似生故。一切相續。與初剎那不異故。後時不
+<lb n="0309a07" ed="T"/>應自然出定。亦有決定次第心生。若心應從
+<lb n="0309a08" ed="T"/>此心生。從此彼必定生故。亦有別心。同相有
+<lb n="0309a09" ed="T"/>功能生同相心。由性差別故。譬如從女人心
+<lb n="0309a10" ed="T"/>次第若穢污身心生。或此夫及子等心生。復
+<lb n="0309a11" ed="T"/>於後時。由相續變異故。更生女人心。此心於
+<lb n="0309a12" ed="T"/>穢污身心生中。或於此夫及子等心生中有
+<lb n="0309a13" ed="T"/>功能。由同性故。若異此則無功能。復次從此
+<lb n="0309a14" ed="T"/>女人心。由別因緣。生無量別心。於此眾心中。
+<lb n="0309a15" ed="T"/>若心多生。明了生最近生。從此心次第先生。
+<lb n="0309a16" ed="T"/>是彼修習力最強故。除現時身外因緣差別。
+<lb n="0309a17" ed="T"/>此心修習力強。云何不恒受果。由此心有<anchor xml:id="nkr_note_orig_0309001" n="0309001"/><anchor xml:id="nkr_note_mod_0309001" n="0309001"/><anchor xml:id="beg0309001" n="0309001"/>住<anchor xml:id="end0309001"/>
+<lb n="0309a18" ed="T"/>異相故。此住異相。於別修習果生中。隨順功
+<lb n="0309a19" ed="T"/>德故。此法相於一切心種類中。是方無間因
+<lb n="0309a20" ed="T"/>智中。諸佛世尊有自在。此中說偈。</p>
+<lb n="0309a21" ed="T"/><lg xml:id="lgT29p0309a2101"><l>於孔雀一尾</l><l>具一切相因</l>
+<lb n="0309a22" ed="T"/><l>餘人不能知</l><l>此智是佛力</l></lg>
+<lb n="0309a23" ed="T"/><p xml:id="pT29p0309a2301">何況無色諸心差別。我等能知。有餘外道執。
+<lb n="0309a24" ed="T"/>從我心生。此二難。於彼外道最明了成。云何
+<lb n="0309a25" ed="T"/>心不恒生同一相。云何不決定次第生。譬如
+<lb n="0309a26" ed="T"/>芽節葉等。若汝執。由觀心和合差別故異。是
+<lb n="0309a27" ed="T"/>義不然。由別和合不成就故。由二和合物有
+<lb n="0309a28" ed="T"/>定量故。彼說和合相者。非至為先後至說名
+<lb n="0309a29" ed="T"/>和合。由彼所執和合相。則應立我有定量。遍
+<pb n="0309b" xml:id="T29.1559.0309b" ed="T"/>
+<lb n="0309b01" ed="T"/>義則不成。是故由心有行。亦應說我有行及
+<lb n="0309b02" ed="T"/>滅。若汝執。由於一分和合。是義不然。此一物
+<lb n="0309b03" ed="T"/>無分故。我亦許汝有和合。雖然若心恒不異。
+<lb n="0309b04" ed="T"/>云何和合有差別。若汝說。由觀智有差別。是
+<lb n="0309b05" ed="T"/>故心有差別。是義不然。智與心同難故。我既
+<lb n="0309b06" ed="T"/>無差別。智云何有差別。若汝執。觀功用差別。
+<lb n="0309b07" ed="T"/>從我和合智差別生。是義不然。云何不執。但
+<lb n="0309b08" ed="T"/>從功用差別。相應心智差別生。何以故。此中
+<lb n="0309b09" ed="T"/>無有我功能。隨一可知得故。譬如藥事成時
+<lb n="0309b10" ed="T"/>有誑惑醫說<anchor xml:id="nkr_note_orig_0309002" n="0309002"/><anchor xml:id="beg0309002" n="0309002"/>部<anchor xml:id="end0309002"/>莎訶言。若汝說由我有此二
+<lb n="0309b11" ed="T"/>得成。此執但有語言。若汝言。此我是彼依止。
+<lb n="0309b12" ed="T"/>若爾於中何者是所依。何者是能依。何以故。
+<lb n="0309b13" ed="T"/>此二非所持。譬如畫色及婆陀羅子。亦非能
+<lb n="0309b14" ed="T"/>持。譬如壁及瓶由<anchor xml:id="nkr_note_orig_0309003" n="0309003"/><anchor xml:id="nkr_note_mod_0309003" n="0309003"/><anchor xml:id="beg0309003" n="0309003"/>有<anchor xml:id="end0309003"/>相礙。俱有二<anchor xml:id="nkr_note_orig_0309004" n="0309004"/><anchor xml:id="beg0309004" n="0309004"/>過<anchor xml:id="end0309004"/>失故。
+<lb n="0309b15" ed="T"/>若我為彼依止不如此。若不爾。云何如地大。
+<lb n="0309b16" ed="T"/>是香等依止。我今大喜此譬。乃證我義。謂我
+<lb n="0309b17" ed="T"/>無如離香等別地大不可得。於香等假名說
+<lb n="0309b18" ed="T"/>地大。如此於功用及心。無有別我。但於此二
+<lb n="0309b19" ed="T"/>假名說我。何人能決了有地異於香等。汝今
+<lb n="0309b20" ed="T"/>應知。譬如無自在人有第二頭。異色等五塵。
+<lb n="0309b21" ed="T"/>若離香等無別地。云何說於地有四德。為各
+<lb n="0309b22" ed="T"/>分別彼令他得知香等得<anchor xml:id="nkr_note_orig_0309005" n="0309005"/><anchor xml:id="nkr_note_mod_0309005" n="0309005"/><anchor xml:id="beg0309005" n="0309005"/>地等<anchor xml:id="end0309005"/>名無別地等。
+<lb n="0309b23" ed="T"/>譬如說木像身形雖然若由觀功用差別故。
+<lb n="0309b24" ed="T"/>智有差別。云何不一時生一切智。若功用最
+<lb n="0309b25" ed="T"/>強。是功用遮餘功用。若爾是最強功用。云何
+<lb n="0309b26" ed="T"/>不恒生果。是彼道理。<anchor xml:id="nkr_note_orig_0309006" n="0309006"/><anchor xml:id="nkr_note_mod_0309006" n="0309006"/><anchor xml:id="beg0309006" n="0309006"/>是彼道理<anchor xml:id="end0309006"/>即是彼修分
+<lb n="0309b27" ed="T"/>別。我則無復用。必定應信受。有我念等。由求
+<lb n="0309b28" ed="T"/>那性故。此求那必定依止物故。是故念依我。
+<lb n="0309b29" ed="T"/>是我德若執彼依止餘物。則不相應。離我餘
+<pb n="0309c" xml:id="T29.1559.0309c" ed="T"/>
+<lb n="0309c01" ed="T"/>物無覺故。是義不然。彼求那性不成就故。是
+<lb n="0309c02" ed="T"/>汝所立。念等是求那性。於我不成就。我等執
+<lb n="0309c03" ed="T"/>一切所有皆名陀蠟脾<anchor xml:id="nkr_note_orig_0309007" n="0309007"/><anchor xml:id="beg0309007" n="0309007"/><note place="inline">毘邪<anchor xml:id="beg_b6" type="cb-app"/>反<anchor xml:id="end_b6"/></note><anchor xml:id="end0309007"/>。由經言。沙門果
+<lb n="0309c04" ed="T"/>者唯有六物。是故彼<anchor xml:id="nkr_note_orig_0309008" n="0309008"/><anchor xml:id="beg0309008" n="0309008"/>依<anchor xml:id="end0309008"/>止陀蠟脾為性不成。
+<lb n="0309c05" ed="T"/>何以故。是依止義。前已簡擇。不成就故。<anchor xml:id="nkr_note_orig_0309009" n="0309009"/><anchor xml:id="beg0309009" n="0309009"/>是
+<lb n="0309c06" ed="T"/>故<anchor xml:id="end0309009"/>此言。但是<anchor xml:id="nkr_note_orig_0309010" n="0309010"/><anchor xml:id="nkr_note_mod_0309010" n="0309010"/><anchor xml:id="beg0309010" n="0309010"/>漫<anchor xml:id="end0309010"/>說。若我實無。造業何用。我
+<lb n="0309c07" ed="T"/>當受樂。我當受苦。為此故造業。我是何物。我
+<lb n="0309c08" ed="T"/>計執境界。我計執何法為境界。<anchor xml:id="nkr_note_orig_0309011" n="0309011"/><anchor xml:id="beg0309011" n="0309011"/>諸聚為境
+<lb n="0309c09" ed="T"/>界<anchor xml:id="end0309011"/>。汝云何知。由於彼生愛故。與白黑等智。
+<lb n="0309c10" ed="T"/>同依止故。如說我白我黑我肥我瘦我老我
+<lb n="0309c11" ed="T"/>少等。見此計執我與白黑等智悉同依止。汝
+<lb n="0309c12" ed="T"/>不<anchor xml:id="nkr_note_orig_0309012" n="0309012"/><anchor xml:id="nkr_note_mod_0309012" n="0309012"/><anchor xml:id="beg0309012" n="0309012"/>許<anchor xml:id="end0309012"/>於我有如此等差別。是故此我計執。但
+<lb n="0309c13" ed="T"/>約陰起於我有恩故。於身假名說我。譬如世
+<lb n="0309c14" ed="T"/>言。彼臣即是我。此於我有恩。假立我言。我計
+<lb n="0309c15" ed="T"/><anchor xml:id="nkr_note_orig_0309013" n="0309013"/><anchor xml:id="nkr_note_mod_0309013" n="0309013"/><anchor xml:id="beg0309013" n="0309013"/>執<anchor xml:id="end0309013"/>則不爾。若但緣身為境界。云何不緣他身
+<lb n="0309c16" ed="T"/>為境界。是義不然。不相應故。此我計執。隨所
+<lb n="0309c17" ed="T"/>有法共相應。或身或心。於中起我計執。非
+<lb n="0309c18" ed="T"/>於餘處。於無始生死所數習故。何者為相
+<lb n="0309c19" ed="T"/>應。謂因果道理。若無我此我計執。是誰計執。
+<lb n="0309c20" ed="T"/>又第六別言是何義。此問已去。今復更來。答
+<lb n="0309c21" ed="T"/>亦如此。乃至若法是此計執。<anchor xml:id="nkr_note_orig_0309014" n="0309014"/><anchor xml:id="beg0309014" n="0309014"/>因此計執<anchor xml:id="end0309014"/>屬此
+<lb n="0309c22" ed="T"/>法。若爾何法為計執。因昔我計執所熏習。緣
+<lb n="0309c23" ed="T"/>自相續為<anchor xml:id="nkr_note_orig_0309015" n="0309015"/><anchor xml:id="nkr_note_mod_0309015" n="0309015"/><anchor xml:id="beg0309015" n="0309015"/>境<anchor xml:id="end0309015"/>界。有垢穢心。若無我誰受苦誰
+<lb n="0309c24" ed="T"/>受樂。是依止中或苦生或樂生。譬如樹有花
+<lb n="0309c25" ed="T"/>林有菓。此苦樂以何法為依止。內六入隨一。
+<lb n="0309c26" ed="T"/>如前所說。應知如此。若執我無。誰造作業。誰
+<lb n="0309c27" ed="T"/>受用果。造作及受用。此言有何義。先未有能
+<lb n="0309c28" ed="T"/>令有名作。<anchor xml:id="nkr_note_orig_0309016" n="0309016"/><anchor xml:id="nkr_note_mod_0309016" n="0309016"/><anchor xml:id="beg0309016" n="0309016"/>正<anchor xml:id="end0309016"/>得先業果名受用。此言<anchor xml:id="nkr_note_orig_0309017" n="0309017"/><anchor xml:id="nkr_note_mod_0309017" n="0309017"/><anchor xml:id="beg0309017" n="0309017"/>說<anchor xml:id="end0309017"/>別
+<lb n="0309c29" ed="T"/>名。非顯別義。解判法相師說。於事有自在名
+<pb n="0310a" xml:id="T29.1559.0310a" ed="T"/>
+<lb n="0310a01" ed="T"/>作者。見世間有人。於餘事中有自在能。譬如
+<lb n="0310a02" ed="T"/>天與。於住食行等事中。汝今說何法為天與。
+<lb n="0310a03" ed="T"/>若汝說我為名天與。我前已破。此不成有。若
+<lb n="0310a04" ed="T"/>說五陰是作者。則無自在。業有三種。謂身口
+<lb n="0310a05" ed="T"/>意。此中於身業者。是身為作事。必繫屬心。是
+<lb n="0310a06" ed="T"/>心事於身亦繫屬。自因緣心於自事亦爾。是
+<lb n="0310a07" ed="T"/>故隨一無自在。一切有法。皆繫屬因緣故。生
+<lb n="0310a08" ed="T"/>起悉無自在。汝法中是所執我。若不觀餘因
+<lb n="0310a09" ed="T"/>緣。不許為作者故。是故此自在不成。由無此
+<lb n="0310a10" ed="T"/>相。是故隨立一為作者。皆不得成。於事中若
+<lb n="0310a11" ed="T"/>因由功能勝。假名說為作者。於餘事不見我
+<lb n="0310a12" ed="T"/>有一<anchor xml:id="nkr_note_orig_0310001" n="0310001"/><anchor xml:id="nkr_note_mod_0310001" n="0310001"/><anchor xml:id="beg0310001" n="0310001"/>功<anchor xml:id="end0310001"/>能故。不可立我為作者。何以故。意欲
+<lb n="0310a13" ed="T"/>從憶念。生覺觀從意欲生。功用從覺觀生。風
+<lb n="0310a14" ed="T"/>從功用生。從風起業。於中我作何功能。受用
+<lb n="0310a15" ed="T"/>果何相。若我正用此事。說我為受者。是受用
+<lb n="0310a16" ed="T"/>果相。此言何義。若汝說覺知為受。是義不然。
+<lb n="0310a17" ed="T"/>我於覺知無功能。由已破於識我功能故。若
+<lb n="0310a18" ed="T"/>我無。云何不以非眾生為依止所有善惡業
+<lb n="0310a19" ed="T"/>生長。非受等依止故。以何為依止。六入為依
+<lb n="0310a20" ed="T"/>止。非我此義前已說。我既無。從已謝滅業。於
+<lb n="0310a21" ed="T"/>未來果云何生。若我有。從已謝滅業。於未來
+<lb n="0310a22" ed="T"/>果云何生。從能依法非法生。如汝所言。有何
+<lb n="0310a23" ed="T"/>能依及所依。此語前已破。是故法非法。無所
+<lb n="0310a24" ed="T"/>依止。復次我等不說。從已謝滅業。於未來中
+<lb n="0310a25" ed="T"/>果報得生。若爾云何從業相續轉異。勝類果
+<lb n="0310a26" ed="T"/>生。譬如種子果。如世間說從種子果生。此果
+<lb n="0310a27" ed="T"/>不從已謝滅種子生。非無間生。云何生。從種
+<lb n="0310a28" ed="T"/>子相續轉異勝類生。謂<anchor xml:id="nkr_note_orig_0310002" n="0310002"/><anchor xml:id="beg0310002" n="0310002"/>芽<anchor xml:id="end0310002"/>節葉等次第所生
+<lb n="0310a29" ed="T"/><anchor xml:id="nkr_note_orig_0310003" n="0310003"/><anchor xml:id="nkr_note_mod_0310003" n="0310003"/><anchor xml:id="beg0310003" n="0310003"/>花<anchor xml:id="end0310003"/>。及花後此果既從花生。云何說為種子
+<pb n="0310b" xml:id="T29.1559.0310b" ed="T"/>
+<lb n="0310b01" ed="T"/>果。由轉轉於花中生果功<anchor xml:id="nkr_note_orig_0310004" n="0310004"/><anchor xml:id="beg0310004" n="0310004"/>能<anchor xml:id="end0310004"/>。是種子所作
+<lb n="0310b02" ed="T"/>故。是最後花功能。若不以種子功能為先。此
+<lb n="0310b03" ed="T"/>花無功能。得生如此等流果。如此從<anchor xml:id="nkr_note_orig_0310005" n="0310005"/><anchor xml:id="nkr_note_mod_0310005" n="0310005"/><anchor xml:id="beg0310005" n="0310005"/>此<anchor xml:id="end0310005"/>業說
+<lb n="0310b04" ed="T"/>果報生。不異<anchor xml:id="nkr_note_orig_0310006" n="0310006"/><anchor xml:id="nkr_note_mod_0310006" n="0310006"/><anchor xml:id="beg0310006" n="0310006"/>此義。果<anchor xml:id="end0310006"/>報不從已謝滅業生。
+<lb n="0310b05" ed="T"/>亦非無間生。若爾云何從業相續轉異。勝類
+<lb n="0310b06" ed="T"/>果生。此中相續是何法。轉異是何法。勝類是
+<lb n="0310b07" ed="T"/>何法。以業為先後後心生。說名相續。此相續
+<lb n="0310b08" ed="T"/>後<anchor xml:id="nkr_note_orig_0310007" n="0310007"/><anchor xml:id="beg0310007" n="0310007"/>後<anchor xml:id="end0310007"/>異前。說名轉異。於此轉異中。若有轉
+<lb n="0310b09" ed="T"/>異無間最能生<anchor xml:id="nkr_note_orig_0310008" n="0310008"/><anchor xml:id="beg0310008" n="0310008"/>果<anchor xml:id="end0310008"/>。說名勝類。此於餘轉異最
+<lb n="0310b10" ed="T"/>勝故。譬如有取死心於後有生有功能。雖以
+<lb n="0310b11" ed="T"/>種種業為先。若業重最近數習。是三所生功
+<lb n="0310b12" ed="T"/>能。此中明了顯現非餘業。如偈言。</p>
+<lb n="0310b13" ed="T"/><lg xml:id="lgT29p0310b1301"><l>若重近數習</l><l>及昔作諸業</l>
+<lb n="0310b14" ed="T"/><l>先先先後熟</l><l>於輪轉有續</l></lg>
+<lb n="0310b15" ed="T"/><p xml:id="pT29p0310b1501">此中果報因所立。於果報果中功能。生果報
+<lb n="0310b16" ed="T"/>已。即便謝滅。同類因所立。於等流果中功能。
+<lb n="0310b17" ed="T"/>若有染污法。對治生時。即便謝滅若無染污
+<lb n="0310b18" ed="T"/>法。由心相續永謝滅故。此功能即滅。謂般涅
+<lb n="0310b19" ed="T"/>槃時。復次云何從果報。別果報不更生。譬如
+<lb n="0310b20" ed="T"/>從種子果更生。種子果。此中一切所立義。與
+<lb n="0310b21" ed="T"/>譬義不必悉同。此中不從果更生別果。若爾
+<lb n="0310b22" ed="T"/>云何生。從濕脹轉異勝類所生。此中四大種
+<lb n="0310b23" ed="T"/>類。能生<anchor xml:id="beg_b7" type="star"/>芽<anchor xml:id="end_b7"/>等。是果種子非餘。復次是前相
+<lb n="0310b24" ed="T"/>續。由當有名說為種子。以相似故。此中亦爾。
+<lb n="0310b25" ed="T"/>從此果報。聽聞正邪二法等。因緣<anchor xml:id="nkr_note_orig_0310009" n="0310009"/><anchor xml:id="beg0310009" n="0310009"/>差<anchor xml:id="end0310009"/>別所
+<lb n="0310b26" ed="T"/>生。或有流善。或不善心。轉異若生。從此更
+<lb n="0310b27" ed="T"/>生別果報。不由別理故。此譬與立義同。復次
+<lb n="0310b28" ed="T"/>由此譬。更應知此義。譬如從勒荷汁所點摩
+<lb n="0310b29" ed="T"/>東籠伽花。相續轉異所生。於果內赤色瓤得
+<pb n="0310c" xml:id="T29.1559.0310c" ed="T"/>
+<lb n="0310c01" ed="T"/>生。從餘不生如此從業所生果報。別果報不
+<lb n="0310c02" ed="T"/>得生。若由如前所說道理。此則得生。隨麁如
+<lb n="0310c03" ed="T"/>我智慧<anchor xml:id="nkr_note_orig_0310010" n="0310010"/><anchor xml:id="beg0310010" n="0310010"/>所知。<anchor xml:id="nkr_note_orig_0310011" n="0310011"/><anchor xml:id="beg0310011" n="0310011"/>此理已<anchor xml:id="end0310011"/><anchor xml:id="end0310010"/>顯。由種種勝能有差
+<lb n="0310c04" ed="T"/>別。諸業所熏習。相續至如此位。能生如此。如
+<lb n="0310c05" ed="T"/>此果報。此義唯諸佛世尊境界。此中說偈。</p>
+<lb n="0310c06" ed="T"/><lg xml:id="lgT29p0310c0601"><l>業熏習勝類</l><l>果報位及淨</l>
+<lb n="0310c07" ed="T"/><l>由一切種理</l><l>離佛餘不知</l>
+<lb n="0310c08" ed="T"/><l>佛經理互應</l><l>解真義勝量</l>
+<lb n="0310c09" ed="T"/><l><anchor xml:id="nkr_note_orig_0310012" n="0310012"/><anchor xml:id="nkr_note_mod_0310012" n="0310012"/><anchor xml:id="beg0310012" n="0310012"/>依<anchor xml:id="end0310012"/>二說無傷</l><l>何用難墮身</l></lg>
+<lb n="0310c10" ed="T"/><lg xml:id="lgT29p0310c1001"><l>如此善立理清淨</l><l>已見諸佛教法爾</l>
+<lb n="0310c11" ed="T"/><l>盲闇種種邪見行</l><l>願捨外執得明行</l>
+<lb n="0310c12" ed="T"/><l>此涅槃土一廣道</l><l>諸佛日言光所照</l>
+<lb n="0310c13" ed="T"/><l>眾聖行熟無我理</l><l>雖開<anchor xml:id="nkr_note_orig_0310013" n="0310013"/><anchor xml:id="beg0310013" n="0310013"/>昧<anchor xml:id="end0310013"/>眼人不見</l>
+<lb n="0310c14" ed="T"/><l>佛世尊告富<anchor xml:id="nkr_note_orig_0310014" n="0310014"/><anchor xml:id="nkr_note_mod_0310014" n="0310014"/><anchor xml:id="beg0310014" n="0310014"/>婁<anchor xml:id="end0310014"/>那</l><l>汝等正勤持此法</l>
+<lb n="0310c15" ed="T"/><l>若人依此修觀行</l><l>必定皆得五五德</l>
+<lb n="0310c16" ed="T"/><l>如此已顯正義方</l><l>為開智人智毒門</l>
+<lb n="0310c17" ed="T"/><l>願彼捨離外邪執</l><l>為自及他得實義</l></lg>
+<lb n="0310c18" ed="T"/><cb:juan n="022" fun="close"><cb:jhead><title>阿毘達磨俱舍<anchor xml:id="fxT29p0310c01"/>釋</title><anchor xml:id="nkr_note_orig_0310015" n="0310015"/><anchor xml:id="beg0310015" n="0310015"/>論<anchor xml:id="end0310015"/>卷第二十二</cb:jhead></cb:juan></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0304001" to="#end0304001"><lem wit="#wit1">三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3">三藏法師</rdg></app>
+<app from="#beg0304002" to="#end0304002"><lem wit="#wit1">破</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">中破</rdg><rdg resp="#resp1" wit="#wit4">釋破</rdg></app>
+<app from="#beg0304003" to="#end0304003"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit4">執</rdg></app>
+<app from="#beg0304004" to="#end0304004"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">生</rdg></app>
+<app from="#beg0304005" to="#end0304005"><lem wit="#wit1">惑</lem><rdg resp="#resp1" wit="#wit2 #wit3">感</rdg></app>
+<app from="#beg0304006" to="#end0304006"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
+<app from="#beg0304007" to="#end0304007"><lem wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0304008" to="#end0304008"><lem wit="#wit1">勝</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">精</rdg></app>
+<app from="#beg0304009" to="#end0304009"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">執</rdg></app>
+<app from="#beg_ae" to="#end_ae" corresp="#0304009"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">執</rdg></app>
+<app from="#beg_af" to="#end_af" corresp="#0304009"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">執</rdg></app>
+<app from="#beg0304010" to="#end0304010"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">火</rdg></app>
+<app from="#beg_b0" to="#end_b0" corresp="#0304009"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">執</rdg></app>
+<app from="#beg_b1" to="#end_b1" corresp="#0304009"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">執</rdg></app>
+<app from="#beg_b2" to="#end_b2" corresp="#0304009"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">執</rdg></app>
+<app from="#beg0304011" to="#end0304011"><lem wit="#wit1">與</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">興</rdg></app>
+<app from="#beg0305001" to="#end0305001"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">但</rdg></app>
+<app from="#beg0305002" to="#end0305002"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0305003" to="#end0305003"><lem wit="#wit1">覺</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">學</rdg></app>
+<app from="#beg0305004" to="#end0305004"><lem wit="#wit1">可</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0305005" to="#end0305005"><lem wit="#wit1">破</lem><rdg resp="#resp1" wit="#wit5">礙</rdg></app>
+<app from="#beg0305006" to="#end0305006"><lem wit="#wit1">違</lem><rdg resp="#resp1" wit="#wit4">為</rdg></app>
+<app from="#beg0305007" to="#end0305007"><lem wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit2 #wit3">學</rdg></app>
+<app from="#beg0305008" to="#end0305008"><lem wit="#wit1">識所</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_b3" cb:to="#end_b3"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
+<app from="#beg0305009" to="#end0305009"><lem wit="#wit1">斗</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">升</rdg></app>
+<app from="#beg0305010" to="#end0305010"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">入</rdg></app>
+<app from="#beg0305011" to="#end0305011"><lem wit="#wit1">入</lem><rdg resp="#resp1" wit="#wit4">人</rdg></app>
+<app from="#beg0306001" to="#end0306001"><lem wit="#wit1">頻</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">佛</rdg></app>
+<app from="#beg0306002" to="#end0306002"><lem wit="#wit1">娑</lem><rdg resp="#resp1" wit="#wit4 #wit5">婆</rdg></app>
+<app from="#beg0306003" to="#end0306003"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit4">須</rdg></app>
+<app from="#beg0306004" to="#end0306004"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">不</rdg></app>
+<app from="#beg0306005" to="#end0306005"><lem wit="#wit1">云何非佛言</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0306006" to="#end0306006"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">云</rdg></app>
+<app from="#beg0306007" to="#end0306007"><lem wit="#wit1">由</lem><rdg resp="#resp1" wit="#wit4">有</rdg></app>
+<app from="#beg0306008" to="#end0306008"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">言</rdg></app>
+<app from="#beg0306009" to="#end0306009"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">諸</rdg></app>
+<app from="#beg0306010" to="#end0306010"><lem wit="#wit1">負</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">負荷負</rdg></app>
+<app from="#beg0306011" to="#end0306011"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0306012" to="#end0306012"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0306013" to="#end0306013"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">無</rdg></app>
+<app from="#beg0306014" to="#end0306014"><lem wit="#wit1">如說一</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0306015" to="#end0306015"><lem wit="#wit1">位</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">住</rdg></app>
+<app from="#beg0306016" to="#end0306016"><lem wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">論</rdg></app>
+<app from="#beg0307001" to="#end0307001"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit2">法</rdg></app>
+<app from="#beg0307002" to="#end0307002"><lem wit="#wit1">四大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">大四</rdg></app>
+<app from="#beg0307003" to="#end0307003"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0307004" to="#end0307004"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">身</rdg></app>
+<app from="#beg0307005" to="#end0307005"><lem wit="#wit1">記</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">說</rdg></app>
+<app cb:word-count="13" from="#beg0307006" to="#end0307006"><lem wit="#wit1">我內中無菴羅樹。樹既無云何得</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">菴羅樹既無若樹無云何</rdg></app>
+<app from="#beg_b4" to="#end_b4" corresp="#0307005"><lem wit="#wit1">記</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">說</rdg></app>
+<app from="#beg0307007" to="#end0307007"><lem wit="#wit1">入</lem><rdg resp="#resp1" wit="#wit4">人</rdg></app>
+<app from="#beg_b5" to="#end_b5" corresp="#0307005"><lem wit="#wit1">記</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">說</rdg></app>
+<app from="#beg0307008" to="#end0307008"><lem wit="#wit1"><note place="inline">知履反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0307009" to="#end0307009"><lem wit="#wit1">藐</lem><rdg resp="#resp1" wit="#wit2 #wit3">若</rdg></app>
+<app from="#beg0308001" to="#end0308001"><lem wit="#wit1">婆</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">娑</rdg></app>
+<app from="#beg0308002" to="#end0308002"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">愛</rdg></app>
+<app from="#beg0308003" to="#end0308003"><lem wit="#wit1">目</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">自</rdg></app>
+<app from="#beg0308004" to="#end0308004"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit4">行</rdg></app>
+<app from="#beg0308005" to="#end0308005"><lem wit="#wit1">剎</lem><rdg resp="#resp1" wit="#wit5">利</rdg></app>
+<app from="#beg0308006" to="#end0308006"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2">德</rdg></app>
+<app from="#beg0308007" to="#end0308007"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit2">王</rdg></app>
+<app from="#beg0308008" to="#end0308008"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit2 #wit3">生此云何此可使為生</rdg></app>
+<app from="#beg0308009" to="#end0308009"><lem wit="#wit1">如<lb n="0308c20" ed="T"/>識</lem><rdg resp="#resp1" wit="#wit5">是說</rdg></app>
+<app from="#beg0308010" to="#end0308010"><lem wit="#wit1">果</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">異</rdg></app>
+<app from="#beg0309001" to="#end0309001"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0309002" to="#end0309002"><lem wit="#wit1">部</lem><rdg resp="#resp1" wit="#wit5">剖</rdg></app>
+<app from="#beg0309003" to="#end0309003"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0309004" to="#end0309004"><lem wit="#wit1">過</lem><rdg resp="#resp1" wit="#wit2">邊</rdg></app>
+<app from="#beg0309005" to="#end0309005"><lem wit="#wit1">地等</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0309006" to="#end0309006"><lem wit="#wit1">是彼道理</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<choice cb:from="#beg_b6" cb:to="#end_b6"><corr>反</corr><sic>文</sic></choice>
+<app from="#beg0309007" to="#end0309007"><lem wit="#wit1"><note place="inline">毘邪<choice><corr>反</corr><sic>文</sic></choice></note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0309008" to="#end0309008"><lem wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0309009" to="#end0309009"><lem wit="#wit1">是<lb n="0309c06" ed="T"/>故</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0309010" to="#end0309010"><lem wit="#wit1">漫</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">謾</rdg></app>
+<app from="#beg0309011" to="#end0309011"><lem wit="#wit1">諸聚為境<lb n="0309c09" ed="T"/>界</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0309012" to="#end0309012"><lem wit="#wit1">許</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">計</rdg></app>
+<app from="#beg0309013" to="#end0309013"><lem wit="#wit1">執</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0309014" to="#end0309014"><lem wit="#wit1">因此計執</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0309015" to="#end0309015"><lem wit="#wit1">境</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">地</rdg></app>
+<app from="#beg0309016" to="#end0309016"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">止</rdg></app>
+<app from="#beg0309017" to="#end0309017"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">記</rdg></app>
+<app from="#beg0310001" to="#end0310001"><lem wit="#wit1">功</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">切</rdg></app>
+<app from="#beg0310002" to="#end0310002"><lem wit="#wit1">芽</lem><rdg resp="#resp1" wit="#wit5">牙</rdg></app>
+<app from="#beg0310003" to="#end0310003"><lem wit="#wit1">花</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0310004" to="#end0310004"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2">德</rdg></app>
+<app from="#beg0310005" to="#end0310005"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0310006" to="#end0310006"><lem wit="#wit1">此義。果</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0310007" to="#end0310007"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0310008" to="#end0310008"><lem wit="#wit1">果</lem><rdg resp="#resp1" wit="#wit2">異</rdg></app>
+<app from="#beg_b7" to="#end_b7" corresp="#0310002"><lem wit="#wit1">芽</lem><rdg resp="#resp1" wit="#wit5">牙</rdg></app>
+<app from="#beg0310009" to="#end0310009"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2 #wit3">若</rdg></app>
+<app from="#beg0310011" to="#end0310011"><lem wit="#wit1">此理已</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0310010" to="#end0310010"><lem wit="#wit1">所知。<note n="0310011" resp="#resp1" place="foot text" type="orig">〔此理已〕－【元】</note><app n="0310011"><lem wit="#wit1">此理已</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0310012" to="#end0310012"><lem wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">從</rdg></app>
+<app from="#beg0310013" to="#end0310013"><lem wit="#wit1">昧</lem><rdg resp="#resp1" wit="#wit4">眛</rdg></app>
+<app from="#beg0310014" to="#end0310014"><lem wit="#wit1">婁</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">樓</rdg></app>
+<app from="#beg0310015" to="#end0310015"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit5">論中破說我品</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0304004" resp="#resp2" type="mod" target="#nkr_note_mod_0304004">主＝生【宋】【元】【明】</note>
+<note n="0304007" resp="#resp2" type="mod" target="#nkr_note_mod_0304007">〔別〕－【宋】【元】【明】</note>
+<note n="0304008" resp="#resp2" type="mod" target="#nkr_note_mod_0304008">勝＝精【宋】【元】【明】</note>
+<note n="0304009" resp="#resp2" type="mod" target="#nkr_note_mod_0304009">熱＝執【宋】＊【元】＊【明】＊</note>
+<note n="0304010" resp="#resp2" type="mod" target="#nkr_note_mod_0304010">大＝火【宋】【元】【明】【宮】</note>
+<note n="0304011" resp="#resp2" type="mod" target="#nkr_note_mod_0304011">與＝興【宋】【元】【明】【宮】</note>
+<note n="0305001" resp="#resp2" type="mod" target="#nkr_note_mod_0305001">若＝但【宋】【元】【明】【宮】</note>
+<note n="0305002" resp="#resp2" type="mod" target="#nkr_note_mod_0305002">〔亦〕－【宋】【元】【明】【宮】</note>
+<note n="0305003" resp="#resp2" type="mod" target="#nkr_note_mod_0305003">覺＝學【宋】【元】【明】</note>
+<note n="0305004" resp="#resp2" type="mod" target="#nkr_note_mod_0305004">〔可〕－【宋】【元】【明】【宮】</note>
+<note n="0305010" resp="#resp2" type="mod" target="#nkr_note_mod_0305010">人＝入【宋】【元】【明】【宮】</note>
+<note n="0306001" resp="#resp2" type="mod" target="#nkr_note_mod_0306001">頻＝佛【宋】【元】【明】</note>
+<note n="0306004" resp="#resp2" type="mod" target="#nkr_note_mod_0306004">所＝不【宋】【元】【明】</note>
+<note n="0306005" resp="#resp2" type="mod" target="#nkr_note_mod_0306005">〔云何非佛言〕－【宋】【元】【明】</note>
+<note n="0306006" resp="#resp2" type="mod" target="#nkr_note_mod_0306006">言＝云【宋】【元】【明】</note>
+<note n="0306008" resp="#resp2" type="mod" target="#nkr_note_mod_0306008">曰＝言【宋】【元】【明】【宮】</note>
+<note n="0306009" resp="#resp2" type="mod" target="#nkr_note_mod_0306009">世＝諸【宋】【元】【明】</note>
+<note n="0306010" resp="#resp2" type="mod" target="#nkr_note_mod_0306010">負＋（荷負）【宋】【元】【明】</note>
+<note n="0306011" resp="#resp2" type="mod" target="#nkr_note_mod_0306011">〔一〕－【宋】【元】【明】【宮】</note>
+<note n="0306013" resp="#resp2" type="mod" target="#nkr_note_mod_0306013">人＝無【宋】【元】【明】</note>
+<note n="0306015" resp="#resp2" type="mod" target="#nkr_note_mod_0306015">位＝住【宋】【元】【明】</note>
+<note n="0306016" resp="#resp2" type="mod" target="#nkr_note_mod_0306016">語＝論【宋】【元】【明】</note>
+<note n="0307002" resp="#resp2" type="mod" target="#nkr_note_mod_0307002">四大＝大四【宋】【元】【明】</note>
+<note n="0307003" resp="#resp2" type="mod" target="#nkr_note_mod_0307003">〔於〕－【宋】【元】【明】</note>
+<note n="0307004" resp="#resp2" type="mod" target="#nkr_note_mod_0307004">是＝身【宋】【元】【明】</note>
+<note n="0307005" resp="#resp2" type="mod" target="#nkr_note_mod_0307005">記＝說【宋】＊【元】＊【明】＊</note>
+<note n="0307006" resp="#resp2" type="mod" target="#nkr_note_mod_0307006">（我內…得）十三字＝（菴羅樹既無若樹無云何）十字【宋】【元】【明】</note>
+<note n="0308001" resp="#resp2" type="mod" target="#nkr_note_mod_0308001">婆＝娑【宋】【元】【明】【宮】</note>
+<note n="0308002" resp="#resp2" type="mod" target="#nkr_note_mod_0308002">受＝愛【宋】【元】【明】【宮】</note>
+<note n="0308003" resp="#resp2" type="mod" target="#nkr_note_mod_0308003">目＝自【宋】【元】【明】</note>
+<note n="0308010" resp="#resp2" type="mod" target="#nkr_note_mod_0308010">果＝異【宋】【元】【明】</note>
+<note n="0309001" resp="#resp2" type="mod" target="#nkr_note_mod_0309001">〔住〕－【宋】【元】【明】</note>
+<note n="0309003" resp="#resp2" type="mod" target="#nkr_note_mod_0309003">〔有〕－【宋】【元】【明】</note>
+<note n="0309005" resp="#resp2" type="mod" target="#nkr_note_mod_0309005">〔地等〕－【宋】【元】【明】</note>
+<note n="0309006" resp="#resp2" type="mod" target="#nkr_note_mod_0309006">〔是彼道理〕－【宋】【元】【明】</note>
+<note n="0309010" resp="#resp2" type="mod" target="#nkr_note_mod_0309010">漫＝謾【宋】【元】【明】</note>
+<note n="0309012" resp="#resp2" type="mod" target="#nkr_note_mod_0309012">許＝計【宋】【元】【明】【宮】</note>
+<note n="0309013" resp="#resp2" type="mod" target="#nkr_note_mod_0309013">〔執〕－【宋】【元】【明】【宮】</note>
+<note n="0309015" resp="#resp2" type="mod" target="#nkr_note_mod_0309015">境＝地【宋】【元】【明】</note>
+<note n="0309016" resp="#resp2" type="mod" target="#nkr_note_mod_0309016">正＝止【宋】【元】【明】</note>
+<note n="0309017" resp="#resp2" type="mod" target="#nkr_note_mod_0309017">說＝記【宋】【元】【明】</note>
+<note n="0310001" resp="#resp2" type="mod" target="#nkr_note_mod_0310001">功＝切【宋】【元】【明】</note>
+<note n="0310003" resp="#resp2" type="mod" target="#nkr_note_mod_0310003">〔花〕－【宋】【元】【明】【宮】</note>
+<note n="0310005" resp="#resp2" type="mod" target="#nkr_note_mod_0310005">〔此〕－【宋】【元】【明】</note>
+<note n="0310006" resp="#resp2" type="mod" target="#nkr_note_mod_0310006">〔此義果〕－【宋】【元】【明】</note>
+<note n="0310012" resp="#resp2" type="mod" target="#nkr_note_mod_0310012">依＝從【宋】【元】【明】</note>
+<note n="0310014" resp="#resp2" type="mod" target="#nkr_note_mod_0310014">婁＝樓【宋】【元】【明】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0304001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304001">三藏＋（法師）【宋】【元】</note>
+<note n="0304002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304002">（中）＋破【宋】【元】【宮】，（釋）＋破【明】</note>
+<note n="0304003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304003">說＝執【明】</note>
+<note n="0304004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304004">主＝生【三】</note>
+<note n="0304005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304005">惑＝感【宋】【元】</note>
+<note n="0304006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304006">若＝苦【宋】</note>
+<note n="0304007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304007">〔別〕－【三】</note>
+<note n="0304008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304008">勝＝精【三】</note>
+<note n="0304009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304009">熱＝執【三】＊</note>
+<note n="0304010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304010">大＝火【三】【宮】</note>
+<note n="0304011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304011">與＝興【三】【宮】</note>
+<note n="0305001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305001">若＝但【三】【宮】</note>
+<note n="0305002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305002">〔亦〕－【三】【宮】</note>
+<note n="0305003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305003">覺＝學【三】</note>
+<note n="0305004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305004">〔可〕－【三】【宮】</note>
+<note n="0305005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305005">破＝礙【宮】</note>
+<note n="0305006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305006">違＝為【明】</note>
+<note n="0305007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305007">常＝學【宋】【元】</note>
+<note n="0305008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305008">〔識所〕－【宋】</note>
+<note n="0305009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305009">斗＝升【元】【明】【宮】</note>
+<note n="0305010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305010">人＝入【三】【宮】</note>
+<note n="0305011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0305011">入＝人【明】</note>
+<note n="0306001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306001">頻＝佛【三】</note>
+<note n="0306002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306002">娑＝婆【明】【宮】</note>
+<note n="0306003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306003">復＝須【明】</note>
+<note n="0306004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306004">所＝不【三】</note>
+<note n="0306005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306005">〔云何非佛言〕－【三】</note>
+<note n="0306006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306006">言＝云【三】</note>
+<note n="0306007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306007">由＝有【明】</note>
+<note n="0306008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306008">曰＝言【三】【宮】</note>
+<note n="0306009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306009">世＝諸【三】</note>
+<note n="0306010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306010">負＋（荷負）【三】</note>
+<note n="0306011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306011">〔一〕－【三】【宮】</note>
+<note n="0306012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306012">〔此〕－【宋】【元】</note>
+<note n="0306013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306013">人＝無【三】</note>
+<note n="0306014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306014">〔如說一〕－【宋】</note>
+<note n="0306015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306015">位＝住【三】</note>
+<note n="0306016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0306016">語＝論【三】</note>
+<note n="0307001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307001">佉＝法【宋】</note>
+<note n="0307002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307002">四大＝大四【三】</note>
+<note n="0307003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307003">〔於〕－【三】</note>
+<note n="0307004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307004">是＝身【三】</note>
+<note n="0307005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307005">記＝說【三】＊</note>
+<note n="0307006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307006">（我內…得）十三字＝（菴羅樹既無若樹無云何）十字【三】</note>
+<note n="0307007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307007">入＝人【明】</note>
+<note n="0307008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307008">〔知履反〕－【明】</note>
+<note n="0307009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0307009">藐＝若【宋】【元】</note>
+<note n="0308001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308001">婆＝娑【三】【宮】</note>
+<note n="0308002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308002">受＝愛【三】【宮】</note>
+<note n="0308003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308003">目＝自【三】</note>
+<note n="0308004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308004">相＝行【明】</note>
+<note n="0308005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308005">剎＝利【宮】</note>
+<note n="0308006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308006">能＝德【宋】</note>
+<note n="0308007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308007">主＝王【宋】</note>
+<note n="0308008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308008">生＋（此云何此可使為生）【宋】【元】</note>
+<note n="0308009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308009">如識＝是說【宮】</note>
+<note n="0308010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0308010">果＝異【三】</note>
+<note n="0309001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309001">〔住〕－【三】</note>
+<note n="0309002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309002">部＝剖【宮】</note>
+<note n="0309003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309003">〔有〕－【三】</note>
+<note n="0309004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309004">過＝邊【宋】</note>
+<note n="0309005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309005">〔地等〕－【三】</note>
+<note n="0309006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309006">〔是彼道理〕－【三】</note>
+<note n="0309007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309007">〔毘邪反〕－【明】</note>
+<note n="0309008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309008">〔依〕－【宋】【元】</note>
+<note n="0309009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309009">〔是故〕－【宋】【元】</note>
+<note n="0309010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309010">漫＝謾【三】</note>
+<note n="0309011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309011">〔諸聚為境界〕－【宋】【元】</note>
+<note n="0309012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309012">許＝計【三】【宮】</note>
+<note n="0309013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309013">〔執〕－【三】【宮】</note>
+<note n="0309014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309014">〔因此計執〕－【宋】【元】</note>
+<note n="0309015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309015">境＝地【三】</note>
+<note n="0309016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309016">正＝止【三】</note>
+<note n="0309017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0309017">說＝記【三】</note>
+<note n="0310001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310001">功＝切【三】</note>
+<note n="0310002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310002">芽＝牙【宮】＊</note>
+<note n="0310003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310003">〔花〕－【三】【宮】</note>
+<note n="0310004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310004">能＝德【宋】</note>
+<note n="0310005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310005">〔此〕－【三】</note>
+<note n="0310006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310006">〔此義果〕－【三】</note>
+<note n="0310007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310007">〔後〕－【宮】</note>
+<note n="0310008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310008">果＝異【宋】</note>
+<note n="0310009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310009">差＝若【宋】【元】</note>
+<note n="0310010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310010">〔所知此理已〕－【宋】</note>
+<note n="0310011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310011">〔此理已〕－【元】</note>
+<note n="0310012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310012">依＝從【三】</note>
+<note n="0310013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310013">昧＝眛【明】</note>
+<note n="0310014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310014">婁＝樓【三】</note>
+<note n="0310015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0310015">論＋（中破說我品）【宮】</note>
+</p>
+</cb:div>
+</back></text></TEI>

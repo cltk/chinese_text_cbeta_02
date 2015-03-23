@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T52n2103">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 2103 廣弘明集</title>
+			<author>唐 道宣撰</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.65 $<date>$Date: 2012/08/03 05:40:28 $</date></edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+	</editionStmt>
+	<extent>30卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/08/03 05:40:28 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 52, No. 2103 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【宋】</witness>
+		<witness xml:id="wit4">【宮】</witness>
+		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【甲】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00403">
+	<charName>CBETA CHARACTER CB00403</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[泳-永+公]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>沿</value>
+	</charProp>
+	<mapping type="unicode">U+3CC2</mapping>
+	<mapping cb:dec="983443" type="PUA">U+F0193</mapping>
+</char>
+<char xml:id="CB00859">
+	<charName>CBETA CHARACTER CB00859</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[薛/女]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>孽</value>
+	</charProp>
+	<mapping type="unicode">U+3738</mapping>
+	<mapping cb:dec="983899" type="PUA">U+F035B</mapping>
+</char>
+<char xml:id="CB04727">
+	<charName>CBETA CHARACTER CB04727</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[保/言]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>愆</value>
+	</charProp>
+	<mapping cb:dec="987767" type="PUA">U+F1277</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="2000-12-14T11:45:39">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" type="其他">1 歸正篇</cb:mulu><cb:mulu level="2" type="其他">之一</cb:mulu><cb:mulu level="3" type="其他">7 元魏孝明召佛道門人論前後(一)</cb:mulu><cb:div type="other">
+<lb n="0101a06" ed="T"/>
+<milestone n="2" unit="juan"/>
+<lb n="0101a07" ed="T"/>
+<lb n="0101a08" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="2" type="卷"></cb:mulu><cb:jhead>廣弘明集卷第二</cb:jhead></cb:juan>
+<lb n="0101a09" ed="T"/>
+<lb n="0101a10" ed="T"/><byline cb:type="Author"><anchor xml:id="nkr_note_orig_0101002" n="0101002"/><anchor xml:id="beg0101002" n="0101002"/>大唐西明寺沙門釋道宣撰<anchor xml:id="end0101002"/></byline>
+<lb n="0101a11" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">之二</cb:mulu><head>歸正篇第一之二</head>
+<lb n="0101a12" ed="T"/><list><item xml:id="itemT52p0101a1201"><anchor xml:id="nkr_note_orig_0101003" n="0101003"/>元魏書釋老志<byline cb:type="Author">齊著作魏<anchor xml:id="nkr_note_orig_0101004" n="0101004"/><anchor xml:id="beg0101004" n="0101004"/>收<anchor xml:id="end0101004"/></byline></item>
+<lb n="0101a13" ed="T"/><item xml:id="itemT52p0101a1301">高齊書述佛志<byline cb:type="Author">隋著作王邵</byline></item></list>
+<lb n="0101a14" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">8 魏書釋老志(二)</cb:mulu><head><anchor xml:id="nkr_note_orig_0101005" n="0101005"/><anchor xml:id="beg0101005" n="0101005"/>魏書<anchor xml:id="end0101005"/>釋老<anchor xml:id="nkr_note_orig_0101006" n="0101006"/><anchor xml:id="beg0101006" n="0101006"/>志<anchor xml:id="end0101006"/></head><byline cb:type="Author">齊<anchor xml:id="nkr_note_orig_0101007" n="0101007"/><anchor xml:id="nkr_note_mod_0101007" n="0101007"/><anchor xml:id="beg0101007" n="0101007"/>著作<anchor xml:id="end0101007"/>魏<anchor xml:id="beg_b" type="star"/>收<anchor xml:id="end_b"/></byline>
+<lb n="0101a15" ed="T"/><p xml:id="pT52p0101a1501">大人有作司牧生民。結繩以往書契所<anchor xml:id="nkr_note_orig_0101008" n="0101008"/><anchor xml:id="nkr_note_mod_0101008" n="0101008"/><anchor xml:id="beg0101008" n="0101008"/>紀<anchor xml:id="end0101008"/>。羲
+<lb n="0101a16" ed="T"/>軒已還至於三代。墳典之迹為秦所焚。漢採
+<lb n="0101a17" ed="T"/>遺籍復若山丘。固使六家七略班馬區異。釋
+<lb n="0101a18" ed="T"/>氏之學聞於前漢武帝。元<anchor xml:id="nkr_note_orig_0101009" n="0101009"/><anchor xml:id="beg0101009" n="0101009"/>狩<anchor xml:id="end0101009"/>中霍去病獲
+<lb n="0101a19" ed="T"/><anchor xml:id="nkr_note_orig_0101010" n="0101010"/><anchor xml:id="nkr_note_mod_0101010" n="0101010"/><anchor xml:id="beg0101010" n="0101010"/>昆邪<anchor xml:id="end0101010"/><anchor xml:id="nkr_note_orig_0101011" n="0101011"/><anchor xml:id="beg0101011" n="0101011"/>王<anchor xml:id="end0101011"/>及金人率長丈餘。帝以為<anchor xml:id="nkr_note_orig_0101012" n="0101012"/><anchor xml:id="nkr_note_mod_0101012" n="0101012"/><anchor xml:id="beg0101012" n="0101012"/>大<anchor xml:id="end0101012"/>神。列
+<lb n="0101a20" ed="T"/>於甘泉宮。燒香禮拜。此則佛道流通之漸也。
+<lb n="0101a21" ed="T"/>及<anchor xml:id="nkr_note_orig_0101013" n="0101013"/><anchor xml:id="beg0101013" n="0101013"/>開<anchor xml:id="end0101013"/>西域。遣張騫使大夏。還云。身毒天竺
+<lb n="0101a22" ed="T"/>國有浮圖之教。哀帝元壽中景憲受大月氏
+<lb n="0101a23" ed="T"/>王口授浮圖經。</p>
+<lb n="0101a24" ed="T"/><p xml:id="pT52p0101a2401">後漢明帝夢金人。項有日光飛行殿庭。傅毅
+<lb n="0101a25" ed="T"/>始以佛對帝。遣郎中蔡愔博士秦景等。使於
+<lb n="0101a26" ed="T"/>天竺寫浮圖遺範。仍與沙門迦攝摩<anchor xml:id="nkr_note_orig_0101014" n="0101014"/><anchor xml:id="nkr_note_mod_0101014" n="0101014"/><anchor xml:id="beg0101014" n="0101014"/>滕<anchor xml:id="end0101014"/>竺法
+<lb n="0101a27" ed="T"/>蘭還雒陽。又得經四十二章及釋迦立像。帝
+<lb n="0101a28" ed="T"/>令畫工圖之。置清涼臺及顯節陵上。緘經於
+<lb n="0101a29" ed="T"/>蘭臺石室浮圖。或言佛陀。聲相轉也。譯云淨
+<pb n="0101b" xml:id="T52.2103.0101b" ed="T"/>
+<lb n="0101b01" ed="T"/>覺。言滅穢成明道為聖悟也。凡其經旨。大抵
+<lb n="0101b02" ed="T"/>言生生之類皆因行業而起。有過去當今未
+<lb n="0101b03" ed="T"/>來。歷三世識神常不滅也。凡為善惡必有報
+<lb n="0101b04" ed="T"/>應。漸積勝業陶冶麁鄙。經無數<anchor xml:id="nkr_note_orig_0101015" n="0101015"/><anchor xml:id="nkr_note_mod_0101015" n="0101015"/><anchor xml:id="beg0101015" n="0101015"/>劫藻<anchor xml:id="end0101015"/>練神明。
+<lb n="0101b05" ed="T"/>乃致無生而得佛道也。其間階次心行等級
+<lb n="0101b06" ed="T"/>非一。皆緣淺以至深。藉微而為著。率在於積
+<lb n="0101b07" ed="T"/>仁順蠲嗜<anchor xml:id="nkr_note_orig_0101016" n="0101016"/><anchor xml:id="beg0101016" n="0101016"/>慾<anchor xml:id="end0101016"/>。習虛靜而成通照也。故其始修
+<lb n="0101b08" ed="T"/>心則依佛法僧。謂之三歸。若君子之三<anchor xml:id="nkr_note_orig_0101017" n="0101017"/><anchor xml:id="beg0101017" n="0101017"/>異<anchor xml:id="end0101017"/>
+<lb n="0101b09" ed="T"/>也。又有五戒。去殺盜婬妄言飲酒。大意與仁
+<lb n="0101b10" ed="T"/>義禮信智同。云奉持之則生天<anchor xml:id="nkr_note_orig_0101018" n="0101018"/><anchor xml:id="nkr_note_mod_0101018" n="0101018"/><anchor xml:id="beg0101018" n="0101018"/>人<anchor xml:id="end0101018"/>勝處。虧犯
+<lb n="0101b11" ed="T"/>則墜鬼畜諸苦。又善惡生處凡有六道焉。</p>
+<lb n="0101b12" ed="T"/><p xml:id="pT52p0101b1201">諸服其道者。則剃落鬚<anchor xml:id="nkr_note_orig_0101019" n="0101019"/><anchor xml:id="beg0101019" n="0101019"/>髮<anchor xml:id="end0101019"/>釋累辭家。結師資
+<lb n="0101b13" ed="T"/>遵律度相與和居。治心修淨行乞以自給。謂
+<lb n="0101b14" ed="T"/>之沙門。或曰桑門。亦聲相近也。其根業各差。
+<lb n="0101b15" ed="T"/>謂之三乘。聲聞緣覺及以大乘。取其可乘運
+<lb n="0101b16" ed="T"/>以至道為名也。上根者修六度進萬行。<anchor xml:id="nkr_note_orig_0101020" n="0101020"/><anchor xml:id="beg0101020" n="0101020"/>拯<anchor xml:id="end0101020"/>
+<lb n="0101b17" ed="T"/>度億流彌歷長遠。登覺境而號為佛也。本<anchor xml:id="nkr_note_orig_0101021" n="0101021"/><anchor xml:id="nkr_note_mod_0101021" n="0101021"/><anchor xml:id="beg0101021" n="0101021"/>號<anchor xml:id="end0101021"/>
+<lb n="0101b18" ed="T"/>釋迦文。此譯能仁。謂德充道備戡濟萬物也。
+<lb n="0101b19" ed="T"/>降於天竺迦維羅衛國王之子。生於四月八
+<lb n="0101b20" ed="T"/>日夜。從母右脇而出。姿相超異者三十二種。
+<lb n="0101b21" ed="T"/>天降嘉瑞亦三十二而應之。以二月十五日
+<lb n="0101b22" ed="T"/>而入涅槃。此云滅度。或言常樂我淨。明無遷
+<lb n="0101b23" ed="T"/>謝及諸苦累也。又云。諸佛有二義。一者真實。
+<lb n="0101b24" ed="T"/>謂至極之體妙絕拘累。不得以方處期。不可
+<lb n="0101b25" ed="T"/>以形量限。有感斯應。體常湛然。二權應者。謂
+<lb n="0101b26" ed="T"/>和光六道同塵萬類。生滅隨時脩短應物。形
+<lb n="0101b27" ed="T"/>由感生體非實有。權形雖謝真體不遷。但時
+<lb n="0101b28" ed="T"/>無妙感。故莫得常見耳。斯則明佛生非實生
+<lb n="0101b29" ed="T"/>滅非實滅也。佛既謝往。香木焚屍靈骨分碎。
+<pb n="0101c" xml:id="T52.2103.0101c" ed="T"/>
+<lb n="0101c01" ed="T"/>大小如粒。擊之不壞。焚亦不燋。而有光明神
+<lb n="0101c02" ed="T"/>驗。謂之舍利。弟子收奉竭香花致敬慕建宮
+<lb n="0101c03" ed="T"/>宇。謂之為塔。猶宗廟也。故時稱為塔廟者是
+<lb n="0101c04" ed="T"/>矣。於後百年。有<anchor xml:id="nkr_note_orig_0101022" n="0101022"/><anchor xml:id="beg0101022" n="0101022"/>王<anchor xml:id="end0101022"/>阿育者。以神力分佛舍
+<lb n="0101c05" ed="T"/>利。役諸鬼神造八萬四千塔。布於世界。皆同
+<lb n="0101c06" ed="T"/>日而就。今雒陽彭城姑臧臨淄。皆有<anchor xml:id="nkr_note_orig_0101023" n="0101023"/><anchor xml:id="beg0101023" n="0101023"/>阿<anchor xml:id="end0101023"/>育王
+<lb n="0101c07" ed="T"/>寺。蓋承其遺迹焉。而影迹爪齒留於天竺。中
+<lb n="0101c08" ed="T"/>途來往者。咸言見之。初說教法後皆著錄。綜
+<lb n="0101c09" ed="T"/>覈深致無所漏失。故三藏十二部經。如九流
+<lb n="0101c10" ed="T"/>之異。統其大歸終以三乘為本。後有羅漢菩
+<lb n="0101c11" ed="T"/>薩。相繼著論贊明經義。以破外道。皆傍諸藏
+<lb n="0101c12" ed="T"/>部大義。假立外問而以內法釋之。傳於中國
+<lb n="0101c13" ed="T"/>漸流廣矣。漢初沙門皆衣赤布。後乃易以雜
+<lb n="0101c14" ed="T"/>色。至於微言隱義。未之詳究。有沙門常山衛
+<lb n="0101c15" ed="T"/>道安。<anchor xml:id="nkr_note_orig_0101024" n="0101024"/><anchor xml:id="nkr_note_mod_0101024" n="0101024"/><anchor xml:id="beg0101024" n="0101024"/>性<anchor xml:id="end0101024"/>聰敏。日誦萬餘言研求幽旨。慨無
+<lb n="0101c16" ed="T"/>師匠。獨坐靜室十有二年。覃思搆精神悟妙
+<lb n="0101c17" ed="T"/>賾。以前出經多有舛駁。乃正其乖謬。爾後沙
+<lb n="0101c18" ed="T"/>門傳法大著中原。</p>
+<lb n="0101c19" ed="T"/><p xml:id="pT52p0101c1901">魏<anchor xml:id="nkr_note_orig_0101025" n="0101025"/><anchor xml:id="nkr_note_mod_0101025" n="0101025"/><anchor xml:id="beg0101025" n="0101025"/>先<anchor xml:id="end0101025"/>建國出於玄朔。風俗淳一與西域殊絕。
+<lb n="0101c20" ed="T"/>故浮圖聲教未之得聞。及神元與魏晉通聘。
+<lb n="0101c21" ed="T"/>文帝在洛陽。昭成在襄國。備究南夏佛法之
+<lb n="0101c22" ed="T"/>事。太祖平中山。經郡國見沙門皆致敬。禁軍
+<lb n="0101c23" ed="T"/>旅無有所犯。有沙門僧朗。與其徒隱于泰山。
+<lb n="0101c24" ed="T"/>帝致書以繒素<anchor xml:id="nkr_note_orig_0101026" n="0101026"/><anchor xml:id="beg0101026" n="0101026"/>氈<anchor xml:id="end0101026"/><anchor xml:id="nkr_note_orig_0101027" n="0101027"/><anchor xml:id="nkr_note_mod_0101027" n="0101027"/><anchor xml:id="beg0101027" n="0101027"/>罽<anchor xml:id="end0101027"/>鉢錫為禮。今猶號朗
+<lb n="0101c25" ed="T"/>公谷焉。天興元年下詔曰。夫佛法之興其來
+<lb n="0101c26" ed="T"/>遠矣。濟益之功冥及存沒。神蹤遺法信可依
+<lb n="0101c27" ed="T"/>憑。其勅有司。於京城建飾容範修整宮舍。令
+<lb n="0101c28" ed="T"/>信向之徒有所居止。是歲作五級佛圖耆闍
+<lb n="0101c29" ed="T"/>崛山及須彌山殿。加以繢飾別搆講堂禪房
+<pb n="0102a" xml:id="T52.2103.0102a" ed="T"/>
+<lb n="0102a01" ed="T"/>及沙門座。莫不嚴具焉。</p>
+<lb n="0102a02" ed="T"/><p xml:id="pT52p0102a0201">太宗踐位。亦遵先業。京邑四方建立圖像。仍
+<lb n="0102a03" ed="T"/>令沙門敷導民俗。皇始中趙郡沙門法果。戒
+<lb n="0102a04" ed="T"/>行精至開演法籍。太祖詔徵以為沙<anchor xml:id="nkr_note_orig_0102001" n="0102001"/><anchor xml:id="nkr_note_mod_0102001" n="0102001"/><anchor xml:id="beg0102001" n="0102001"/>門<anchor xml:id="end0102001"/>統綰
+<lb n="0102a05" ed="T"/>攝僧徒。言多允愜供施甚厚。太宗崇敬彌加
+<lb n="0102a06" ed="T"/>於前。永興中前後授以輔國宜城子忠信侯
+<lb n="0102a07" ed="T"/>安城公之號。皆固辭。帝常親幸其居。以門狹
+<lb n="0102a08" ed="T"/>小不容輿輦。更廣大之。年八十餘。<anchor xml:id="nkr_note_orig_0102002" n="0102002"/><anchor xml:id="beg0102002" n="0102002"/>太<anchor xml:id="end0102002"/>常中
+<lb n="0102a09" ed="T"/>卒。帝三臨其喪。追贈老壽將軍趙胡靈公。初
+<lb n="0102a10" ed="T"/>果年四十始為沙門。有子曰猛。詔令襲果所
+<lb n="0102a11" ed="T"/>加爵<note place="inline">云云所述沙門等文多不<anchor xml:id="nkr_note_orig_0102003" n="0102003"/><anchor xml:id="beg0102003" n="0102003"/>載<anchor xml:id="end0102003"/></note>。</p>
+<lb n="0102a12" ed="T"/><p xml:id="pT52p0102a1201">世祖燾即位。亦遵太祖太宗之業。每引高德
+<lb n="0102a13" ed="T"/>沙門與共談論。四月八日輿諸佛像行於廣
+<lb n="0102a14" ed="T"/>衢。帝親御門樓臨觀散花以致禮敬。世祖平
+<lb n="0102a15" ed="T"/>赫連昌。得沙門惠始。本張氏。清河人。聞羅什
+<lb n="0102a16" ed="T"/>出經。詣長安見之觀習禪定。於白渠北。晝則
+<lb n="0102a17" ed="T"/>入城聽講。夕還處靜三輔。有識者多宗之。劉
+<lb n="0102a18" ed="T"/>裕滅姚泓。留子義真鎮長安。真及僚佐皆敬
+<lb n="0102a19" ed="T"/>重焉。後義真之去長安也。赫連屈<anchor xml:id="nkr_note_orig_0102004" n="0102004"/><anchor xml:id="nkr_note_mod_0102004" n="0102004"/><anchor xml:id="beg0102004" n="0102004"/>局<anchor xml:id="end0102004"/>追敗
+<lb n="0102a20" ed="T"/>之。道俗少長咸見坑戮。惠始身被白刃而體
+<lb n="0102a21" ed="T"/>不傷。屈<anchor xml:id="beg_c" type="star"/>局<anchor xml:id="end_c"/>大怒召始於前。以所佩寶劍自擊
+<lb n="0102a22" ed="T"/>之。又不能害。乃懼而謝罪。後至京都多所訓
+<lb n="0102a23" ed="T"/>導。人莫測其迹。世祖重之。每加禮敬。自初習
+<lb n="0102a24" ed="T"/>禪至於沒世。五十餘年。未嘗寢臥。跣行泥塵
+<lb n="0102a25" ed="T"/>初不污足。色<anchor xml:id="nkr_note_orig_0102005" n="0102005"/><anchor xml:id="nkr_note_mod_0102005" n="0102005"/><anchor xml:id="beg0102005" n="0102005"/>愈<anchor xml:id="end0102005"/>鮮白。世<anchor xml:id="nkr_note_orig_0102006" n="0102006"/><anchor xml:id="nkr_note_mod_0102006" n="0102006"/><anchor xml:id="beg0102006" n="0102006"/>號<anchor xml:id="end0102006"/>白脚阿練。自知
+<lb n="0102a26" ed="T"/>終期齋<anchor xml:id="nkr_note_orig_0102007" n="0102007"/><anchor xml:id="beg0102007" n="0102007"/>潔<anchor xml:id="end0102007"/>端坐。僧徒滿側。凝泊而絕。停屍
+<lb n="0102a27" ed="T"/>十日。容色如一。死十餘年開殯改葬。初不傾
+<lb n="0102a28" ed="T"/>壞。舉世異之。送葬者六千餘人。莫不感慟。中
+<lb n="0102a29" ed="T"/>書監高允為傳頌其德迹。冡上立石精舍。圖
+<pb n="0102b" xml:id="T52.2103.0102b" ed="T"/>
+<lb n="0102b01" ed="T"/>像焉存。</p>
+<lb n="0102b02" ed="T"/><p xml:id="pT52p0102b0201">世祖雅好莊老。諷味晨夕。而富於春秋。銳志
+<lb n="0102b03" ed="T"/>武功。雖歸宗佛法敬重沙門。而未覽經教深
+<lb n="0102b04" ed="T"/>求緣報之旨。及得寇謙之道以清<anchor xml:id="nkr_note_orig_0102008" n="0102008"/><anchor xml:id="nkr_note_mod_0102008" n="0102008"/><anchor xml:id="beg0102008" n="0102008"/>靜<anchor xml:id="end0102008"/>無為有
+<lb n="0102b05" ed="T"/>仙化之證。遂信行其術。司徒崔浩奉謙之道。
+<lb n="0102b06" ed="T"/>尤不信<anchor xml:id="nkr_note_orig_0102009" n="0102009"/><anchor xml:id="nkr_note_mod_0102009" n="0102009"/><anchor xml:id="beg0102009" n="0102009"/>佛<anchor xml:id="end0102009"/>。與帝言數加誹毀。謂虛誕為世
+<lb n="0102b07" ed="T"/>費。帝以其<anchor xml:id="nkr_note_orig_0102010" n="0102010"/><anchor xml:id="nkr_note_mod_0102010" n="0102010"/><anchor xml:id="beg0102010" n="0102010"/>辯<anchor xml:id="end0102010"/>博頗信之。會蓋吳反於<anchor xml:id="nkr_note_orig_0102011" n="0102011"/><anchor xml:id="beg0102011" n="0102011"/>杏<anchor xml:id="end0102011"/>城。
+<lb n="0102b08" ed="T"/>關中騷擾。帝西伐至長安入寺中觀<anchor xml:id="nkr_note_orig_0102012" n="0102012"/><anchor xml:id="nkr_note_mod_0102012" n="0102012"/><anchor xml:id="beg0102012" n="0102012"/>焉<anchor xml:id="end0102012"/>。沙門
+<lb n="0102b09" ed="T"/>飲從官酒。入其便室見有財產弓矢及牧守
+<lb n="0102b10" ed="T"/>富人所寄藏物。蓋以萬計。帝先忿沙門非法。
+<lb n="0102b11" ed="T"/>浩時從行。因進其說下詔誅長安沙門。焚破
+<lb n="0102b12" ed="T"/>佛像。勅留臺下。四方一依長安行事。又詔曰。
+<lb n="0102b13" ed="T"/>彼沙門者假西戎虛誕妄生妖<g ref="#CB00859">㜸</g>。非所以齊
+<lb n="0102b14" ed="T"/>一政化布淳德於天下也。自王公已下有私
+<lb n="0102b15" ed="T"/>養沙門者。皆送過期不出沙門。身死容者誅
+<lb n="0102b16" ed="T"/>一門。時恭宗為太子監國。素敬佛道。<anchor xml:id="nkr_note_orig_0102013" n="0102013"/><anchor xml:id="beg0102013" n="0102013"/>頻<anchor xml:id="end0102013"/><anchor xml:id="nkr_note_orig_0102014" n="0102014"/><anchor xml:id="beg0102014" n="0102014"/>表<anchor xml:id="end0102014"/>
+<lb n="0102b17" ed="T"/>陳<anchor xml:id="nkr_note_orig_0102015" n="0102015"/><anchor xml:id="beg0102015" n="0102015"/>刑<anchor xml:id="end0102015"/>殺之濫又非圖像之罪。再三帝不許。乃
+<lb n="0102b18" ed="T"/>下詔曰。昔後漢荒君。信惑邪偽妄假睡夢。信
+<lb n="0102b19" ed="T"/>胡妖鬼以亂天常。自古九州無此也。誇誕大
+<lb n="0102b20" ed="T"/>言不本人情。叔季之世。闇君亂主莫不眩焉。
+<lb n="0102b21" ed="T"/>由是政教不行。禮義大壞。鬼道熾盛。視王者
+<lb n="0102b22" ed="T"/>之法蔑如也。自此已來繼代禍亂天罰<anchor xml:id="nkr_note_orig_0102016" n="0102016"/><anchor xml:id="nkr_note_mod_0102016" n="0102016"/><anchor xml:id="beg0102016" n="0102016"/>極<anchor xml:id="end0102016"/>行
+<lb n="0102b23" ed="T"/>生民死盡。五服之內鞠為丘墟。千里蕭條不
+<lb n="0102b24" ed="T"/>見人跡。皆由於此。朕承天緒屬。當窮運之弊。
+<lb n="0102b25" ed="T"/>欲除偽定真。復<anchor xml:id="nkr_note_orig_0102017" n="0102017"/><anchor xml:id="nkr_note_mod_0102017" n="0102017"/><anchor xml:id="beg0102017" n="0102017"/>羲<anchor xml:id="end0102017"/>農之政其一切蕩除胡神
+<lb n="0102b26" ed="T"/>滅其蹤迹。庶無謝於風氏矣。自今已後敢有
+<lb n="0102b27" ed="T"/>事胡神。及造其形像泥人銅人者門誅。雖言
+<lb n="0102b28" ed="T"/>胡神問今胡人若有若無皆是前代漢人無賴
+<lb n="0102b29" ed="T"/>子弟劉元真呂伯強之徒接乞胡之誕言。用
+<pb n="0102c" xml:id="T52.2103.0102c" ed="T"/>
+<lb n="0102c01" ed="T"/>老莊之虛假。附而益之。皆非真實。至使王法
+<lb n="0102c02" ed="T"/>廢而不行。蓋大姦之魁也。世有非常之人。能
+<lb n="0102c03" ed="T"/>行非常之事。非朕孰能去此歷代之偽物。有
+<lb n="0102c04" ed="T"/>司宣告。在所諸有佛圖形像及胡經皆擊破
+<lb n="0102c05" ed="T"/>焚除。沙門<anchor xml:id="nkr_note_orig_0102018" n="0102018"/><anchor xml:id="nkr_note_mod_0102018" n="0102018"/><anchor xml:id="beg0102018" n="0102018"/>無<anchor xml:id="end0102018"/>少長悉坑之。是歲真君七年三
+<lb n="0102c06" ed="T"/>月也。恭宗言雖不用。然猶緩宣詔書。遠近豫
+<lb n="0102c07" ed="T"/>知各得為計。京邑四方沙門多<anchor xml:id="nkr_note_orig_0102019" n="0102019"/><anchor xml:id="beg0102019" n="0102019"/>亡<anchor xml:id="end0102019"/>匿而免者。
+<lb n="0102c08" ed="T"/>其金銀寶像經論。大得祕藏。至於土木寺塔
+<lb n="0102c09" ed="T"/>聲教所及。皆畢除毀。</p>
+<lb n="0102c10" ed="T"/><p xml:id="pT52p0102c1001">集論者曰。帝本戎馬之鄉。素絕文義之迹。既
+<lb n="0102c11" ed="T"/>參軍事所往誅殄。<anchor xml:id="nkr_note_orig_0102020" n="0102020"/><anchor xml:id="nkr_note_mod_0102020" n="0102020"/><anchor xml:id="beg0102020" n="0102020"/>惟<anchor xml:id="end0102020"/>斯為政餘無涉言。故殺
+<lb n="0102c12" ed="T"/>史官恥述過也。屬崔浩密構莫識佞辯。遂行
+<lb n="0102c13" ed="T"/>誅除。時以為一代之快意也。不久癘及。追
+<lb n="0102c14" ed="T"/><anchor xml:id="nkr_note_orig_0102021" n="0102021"/><anchor xml:id="nkr_note_mod_0102021" n="0102021"/><anchor xml:id="beg0102021" n="0102021"/>悔<anchor xml:id="end0102021"/>無由。視崔浩若仇讎。淫刑酷毒為天下同
+<lb n="0102c15" ed="T"/>笑也。</p>
+<lb n="0102c16" ed="T"/><p xml:id="pT52p0102c1601">初浩與寇<anchor xml:id="nkr_note_orig_0102022" n="0102022"/><anchor xml:id="beg0102022" n="0102022"/>謙<anchor xml:id="end0102022"/>同<anchor xml:id="nkr_note_orig_0102023" n="0102023"/><anchor xml:id="nkr_note_mod_0102023" n="0102023"/><anchor xml:id="beg0102023" n="0102023"/>從<anchor xml:id="end0102023"/>。苦與浩爭浩不從。<anchor xml:id="beg_d" type="star"/>謙<anchor xml:id="end_d"/>
+<lb n="0102c17" ed="T"/>曰。卿今促<anchor xml:id="nkr_note_orig_0102024" n="0102024"/><anchor xml:id="nkr_note_mod_0102024" n="0102024"/><anchor xml:id="beg0102024" n="0102024"/>年壽<anchor xml:id="end0102024"/>滅門戶矣。至真君十一年。
+<lb n="0102c18" ed="T"/>浩誅備五刑。時年七十。帝頗悔之。然<anchor xml:id="nkr_note_orig_0102025" n="0102025"/><anchor xml:id="nkr_note_mod_0102025" n="0102025"/><anchor xml:id="beg0102025" n="0102025"/>業<anchor xml:id="end0102025"/>已
+<lb n="0102c19" ed="T"/>行難中修復。恭宗潛欲興之。未敢言也。時法
+<lb n="0102c20" ed="T"/>令寬<anchor xml:id="nkr_note_orig_0102026" n="0102026"/><anchor xml:id="nkr_note_mod_0102026" n="0102026"/><anchor xml:id="beg0102026" n="0102026"/>弛<anchor xml:id="end0102026"/>。存信之家奉事沙門。竊法服講誦者
+<lb n="0102c21" ed="T"/>殷矣。至十三年二月因癘而崩。子晃讒死。而
+<lb n="0102c22" ed="T"/>孫立焉。</p>
+<lb n="0102c23" ed="T"/><p xml:id="pT52p0102c2301">檢別傳。浩非毀佛法。宗尚天師寇謙之。學仙
+<lb n="0102c24" ed="T"/>道也。妻郭氏敬<anchor xml:id="nkr_note_orig_0102027" n="0102027"/><anchor xml:id="beg0102027" n="0102027"/>信<anchor xml:id="end0102027"/>釋典。誦金剛<anchor xml:id="nkr_note_orig_0102028" n="0102028"/><anchor xml:id="beg0102028" n="0102028"/>般<anchor xml:id="end0102028"/><anchor xml:id="nkr_note_orig_0102029" n="0102029"/><anchor xml:id="nkr_note_mod_0102029" n="0102029"/><anchor xml:id="beg0102029" n="0102029"/>若<anchor xml:id="end0102029"/>。浩
+<lb n="0102c25" ed="T"/>取焚之。捐灰於廁。及幽執檻車送于城南。使
+<lb n="0102c26" ed="T"/>衛士十人行溲其上。呼聲嗷嗷聞于行路。浩
+<lb n="0102c27" ed="T"/>曰。斯吾投經之現報也。初浩得肆其佞。誅
+<lb n="0102c28" ed="T"/>夷釋門。深文加謗昌言下詔。以為妖鬼之大
+<lb n="0102c29" ed="T"/>魁也。帝未委之。可謂非常之人。能行非常之
+<pb n="0103a" xml:id="T52.2103.0103a" ed="T"/>
+<lb n="0103a01" ed="T"/>事。信矣。浩門既誅。清河崔氏無遠近。及范陽
+<lb n="0103a02" ed="T"/>盧氏。太原郭氏河東柳氏。皆浩之親姻也。盡
+<lb n="0103a03" ed="T"/>夷其族。詩云。讒人罔極。交亂四國。驗矣。集
+<lb n="0103a04" ed="T"/>論者曰。自古三公之加刑者。斯最酷也。豈非
+<lb n="0103a05" ed="T"/>恨其飾詐邪佞濫毒仁祠致癘及躬無由自免
+<lb n="0103a06" ed="T"/>顯戮讒構密悔前<anchor xml:id="nkr_note_orig_0103001" n="0103001"/><anchor xml:id="nkr_note_mod_0103001" n="0103001"/><anchor xml:id="beg0103001" n="0103001"/><g ref="#CB04727">󱉷</g>。剋<anchor xml:id="end0103001"/>己復禮固難則矣。不
+<lb n="0103a07" ed="T"/>自責於闇惑。方乃作虐尤人。終非靜過。畢為
+<lb n="0103a08" ed="T"/>噬臍者所及。昔龍逢之遭夏桀。比<anchor xml:id="nkr_note_orig_0103002" n="0103002"/><anchor xml:id="nkr_note_mod_0103002" n="0103002"/><anchor xml:id="beg0103002" n="0103002"/>于<anchor xml:id="end0103002"/>之剖殷
+<lb n="0103a09" ed="T"/><anchor xml:id="nkr_note_orig_0103003" n="0103003"/><anchor xml:id="nkr_note_mod_0103003" n="0103003"/><anchor xml:id="beg0103003" n="0103003"/>辛<anchor xml:id="end0103003"/>。炮烙以樹嚴<anchor xml:id="nkr_note_orig_0103004" n="0103004"/><anchor xml:id="nkr_note_mod_0103004" n="0103004"/><anchor xml:id="beg0103004" n="0103004"/>刑<anchor xml:id="end0103004"/>。酒池以悅臣妾。時人豈
+<lb n="0103a10" ed="T"/>謂為正化也。縱而飾非褒而唱善。及後南巢
+<lb n="0103a11" ed="T"/>被放白旗懸首。無有代者身自當之。國除身
+<lb n="0103a12" ed="T"/>喪無所追收。禍不旋踵自貽伊戚。<anchor xml:id="nkr_note_orig_0103005" n="0103005"/><anchor xml:id="nkr_note_mod_0103005" n="0103005"/><anchor xml:id="beg0103005" n="0103005"/><g ref="#CB00403">㳂</g><anchor xml:id="end0103005"/>斯已
+<lb n="0103a13" ed="T"/>後。代代率然禪讓之道。魏文開其實錄。覈於
+<lb n="0103a14" ed="T"/>終古。堯舜其猶病諸。故佛經曰。二儀尚殞。國
+<lb n="0103a15" ed="T"/>有何常。斯至言也。世祖若能撫躬反問本隷
+<lb n="0103a16" ed="T"/>幽都禮義之所不行慈濟。由來莫識。不知昔
+<lb n="0103a17" ed="T"/>乘何業奄有中原。如何恣此昏凶。行茲傲虐。
+<lb n="0103a18" ed="T"/>事不可也。用此自勵追悔絕乎。</p>
+<lb n="0103a19" ed="T"/><p xml:id="pT52p0103a1901">時有沙門玄高者。空門之秀傑也。通靈感眾。
+<lb n="0103a20" ed="T"/>道王河西涼平。東歸太武信重。為太子晃之
+<lb n="0103a21" ed="T"/>師也。晃孝敬自天崇仰佛法。崔寇得倖於帝。
+<lb n="0103a22" ed="T"/>恐晃攝政或見危<anchor xml:id="nkr_note_orig_0103006" n="0103006"/><anchor xml:id="nkr_note_mod_0103006" n="0103006"/><anchor xml:id="beg0103006" n="0103006"/>逐<anchor xml:id="end0103006"/>。密讒於帝謂有異圖可
+<lb n="0103a23" ed="T"/>不先慮。帝乃信之。便幽太子於深宮。帝夢其
+<lb n="0103a24" ed="T"/>祖父執劍怒曰。太子仁孝忠誠允著。如何信
+<lb n="0103a25" ed="T"/>讒。帝寤集朝臣以述之。諸雄伯曰。太子無事。
+<lb n="0103a26" ed="T"/>枉見幽辱。<anchor xml:id="nkr_note_orig_0103007" n="0103007"/><anchor xml:id="nkr_note_mod_0103007" n="0103007"/><anchor xml:id="beg0103007" n="0103007"/>帝又<anchor xml:id="end0103007"/>信之。以真君五年正月。下
+<lb n="0103a27" ed="T"/>詔曰。朕承祖宗重光之緒。思闡鴻業恢隆萬
+<lb n="0103a28" ed="T"/>代。武功雖昭而文教未暢。非所以崇太平之
+<lb n="0103a29" ed="T"/>治也。今域內安逸百姓富昌。宜<anchor xml:id="nkr_note_orig_0103008" n="0103008"/><anchor xml:id="nkr_note_mod_0103008" n="0103008"/><anchor xml:id="beg0103008" n="0103008"/>定<anchor xml:id="end0103008"/>制度為萬
+<pb n="0103b" xml:id="T52.2103.0103b" ed="T"/>
+<lb n="0103b01" ed="T"/>世之法。夫陰陽有往復。四時有代序。授子任
+<lb n="0103b02" ed="T"/>賢安全相付。所以休息疲勞式固長久。古今
+<lb n="0103b03" ed="T"/>不易之令典也。可令皇太子<anchor xml:id="nkr_note_orig_0103009" n="0103009"/><anchor xml:id="nkr_note_mod_0103009" n="0103009"/><anchor xml:id="beg0103009" n="0103009"/>嗣<anchor xml:id="end0103009"/>理萬機總統
+<lb n="0103b04" ed="T"/>百揆。更舉賢良以備列職。擇人授任而黜陟
+<lb n="0103b05" ed="T"/>之。其朝士庶民。皆稱臣於太子。云云。崔浩又
+<lb n="0103b06" ed="T"/>譖云。太子前事實有謀心。但結高公道術。故
+<lb n="0103b07" ed="T"/>令先帝降夢。如此<anchor xml:id="nkr_note_orig_0103010" n="0103010"/><anchor xml:id="nkr_note_mod_0103010" n="0103010"/><anchor xml:id="beg0103010" n="0103010"/>物<anchor xml:id="end0103010"/>論事迹難明。若不早除
+<lb n="0103b08" ed="T"/>必為巨害。帝又納之。即幽太子死之。又收高
+<lb n="0103b09" ed="T"/>於平<anchor xml:id="nkr_note_orig_0103011" n="0103011"/><anchor xml:id="beg0103011" n="0103011"/>城<anchor xml:id="end0103011"/>南縊之。即宋元嘉二十一年也。爾夜
+<lb n="0103b10" ed="T"/>門人莫知其死。忽有光明繞塔入房。有聲曰。
+<lb n="0103b11" ed="T"/>吾已逝矣。弟子等<anchor xml:id="nkr_note_orig_0103012" n="0103012"/><anchor xml:id="beg0103012" n="0103012"/>奔<anchor xml:id="end0103012"/>赴屍所。請告遺訣。高
+<lb n="0103b12" ed="T"/>蹷然起坐曰。大法應化隨緣盛衰。盛衰在迹
+<lb n="0103b13" ed="T"/>理恒湛然。但念汝等不久復當如我耳。汝等
+<lb n="0103b14" ed="T"/>死後法當復興。善自修心無令後悔。言已便
+<lb n="0103b15" ed="T"/>臥而絕。崔浩讒辭既深。能令父猜其子。乃至
+<lb n="0103b16" ed="T"/>幽死。況沙門乎。</p>
+<lb n="0103b17" ed="T"/><p xml:id="pT52p0103b1701">太武以真君十三年二月五日崩。太子先已
+<lb n="0103b18" ed="T"/>幽死。吳王以九日即位。改元永平。十月一日
+<lb n="0103b19" ed="T"/>吳王又崩。帝孫諱濬即位。改元興安。是為文
+<lb n="0103b20" ed="T"/>成帝也。廟號高宗。然佛教遠大光明四海。此
+<lb n="0103b21" ed="T"/>洲萬國無王不奉。<anchor xml:id="nkr_note_orig_0103013" n="0103013"/><anchor xml:id="nkr_note_mod_0103013" n="0103013"/><anchor xml:id="beg0103013" n="0103013"/>魏北<anchor xml:id="end0103013"/>雖除南宋彌盛。稱
+<lb n="0103b22" ed="T"/>為真君明主。不亦惑乎。猜子而信賊臣。孰可
+<lb n="0103b23" ed="T"/>悼乎。感癘而自嬰禍。斯酷甚乎。民思<anchor xml:id="nkr_note_orig_0103014" n="0103014"/><anchor xml:id="nkr_note_mod_0103014" n="0103014"/><anchor xml:id="beg0103014" n="0103014"/>返政<anchor xml:id="end0103014"/>。
+<lb n="0103b24" ed="T"/>存立非一。</p>
+<lb n="0103b25" ed="T"/><p xml:id="pT52p0103b2501">興安元年高宗踐極。下詔曰。夫為帝王者。必
+<lb n="0103b26" ed="T"/>祇奉明靈顯彰仁道。其能惠著生民濟益群
+<lb n="0103b27" ed="T"/>品者。雖存往古猶序其風<anchor xml:id="nkr_note_orig_0103015" n="0103015"/><anchor xml:id="beg0103015" n="0103015"/>烈<anchor xml:id="end0103015"/>。是以春秋嘉崇
+<lb n="0103b28" ed="T"/>明之禮。祭典載功施之族。況釋教如來功濟
+<lb n="0103b29" ed="T"/>大千惠流塵境。尋生死者歎其達觀。覽文義
+<pb n="0103c" xml:id="T52.2103.0103c" ed="T"/>
+<lb n="0103c01" ed="T"/>者貴其妙門。助王政之禁律。益仁智之善性。
+<lb n="0103c02" ed="T"/>排撥群邪。開演正覺。故前代已來莫不崇尚。
+<lb n="0103c03" ed="T"/>亦我國家常所尊事也。世祖太武皇帝。開廣
+<lb n="0103c04" ed="T"/>邊荒德澤遐被。沙門道士善行純誠。如惠始
+<lb n="0103c05" ed="T"/>之倫無遠不至。風義相感往往如林。夫山海
+<lb n="0103c06" ed="T"/>之深怪物多有。姦婬之儔得容假託。諸寺之
+<lb n="0103c07" ed="T"/>中致有兇黨。是以先朝因其瑕釁戮其有罪。
+<lb n="0103c08" ed="T"/>有司失旨一切禁斷。景穆皇帝每為慨然。值
+<lb n="0103c09" ed="T"/>軍國多事。未遑修復。朕承鴻緒君臨萬邦。思
+<lb n="0103c10" ed="T"/>述先志以隆斯道。今制諸州城郡縣。於眾居
+<lb n="0103c11" ed="T"/>之所。各聽建佛圖一區。任其財用不制會限。
+<lb n="0103c12" ed="T"/>其有好樂道法欲為沙門。不問長幼。出於良
+<lb n="0103c13" ed="T"/>家性行素篤。鄉里所明者聽出家。率大州五
+<lb n="0103c14" ed="T"/><anchor xml:id="nkr_note_orig_0103016" n="0103016"/><anchor xml:id="nkr_note_mod_0103016" n="0103016"/><anchor xml:id="beg0103016" n="0103016"/>十<anchor xml:id="end0103016"/>。小州三十人。足以化惡就善播揚道教
+<lb n="0103c15" ed="T"/>也。於即天下承風朝不及夕往時所毀圖寺。
+<lb n="0103c16" ed="T"/>並還修復。佛像經論皆得顯出。于時罽賓王
+<lb n="0103c17" ed="T"/>種沙門師賢者。東遊涼城。又遊京下。值罷
+<lb n="0103c18" ed="T"/>佛法。權假醫術而守道不改。於修復日即為
+<lb n="0103c19" ed="T"/>沙門。同輩五人。帝親為下髮。賢為僧統。云
+<lb n="0103c20" ed="T"/>云。</p>
+<lb n="0103c21" ed="T"/><p xml:id="pT52p0103c2101">興光元年勅有司。於五級大寺。為太祖已下
+<lb n="0103c22" ed="T"/>五帝。鑄釋迦文像五<anchor xml:id="nkr_note_orig_0103017" n="0103017"/><anchor xml:id="beg0103017" n="0103017"/>軀<anchor xml:id="end0103017"/>。各長一丈六尺。用
+<lb n="0103c23" ed="T"/>赤金二十五萬斤。</p>
+<lb n="0103c24" ed="T"/><p xml:id="pT52p0103c2401">沙門曇曜帝禮為師。請帝於京西武州西山
+<lb n="0103c25" ed="T"/>石壁。開窟五所鐫佛像各一。高者七十尺。次
+<lb n="0103c26" ed="T"/>六十尺。彫飾奇偉冠於萬代。今時見者傳云。
+<lb n="0103c27" ed="T"/>谷深三十里。東為僧寺。名曰靈巖。西頭尼寺。
+<lb n="0103c28" ed="T"/>各鑿石為龕。容千人。已還者相次<anchor xml:id="nkr_note_orig_0103018" n="0103018"/><anchor xml:id="nkr_note_mod_0103018" n="0103018"/><anchor xml:id="beg0103018" n="0103018"/>櫛比<anchor xml:id="end0103018"/>。石
+<lb n="0103c29" ed="T"/>崖中七里極高峻。佛龕相連餘處。時有斷續。
+<pb n="0104a" xml:id="T52.2103.0104a" ed="T"/>
+<lb n="0104a01" ed="T"/>佛像數量孰測其計。有一道人。年八十。禮像
+<lb n="0104a02" ed="T"/>為業。一像一拜至于中龕而死。尸<anchor xml:id="nkr_note_orig_0104001" n="0104001"/><anchor xml:id="nkr_note_mod_0104001" n="0104001"/><anchor xml:id="beg0104001" n="0104001"/>殭<anchor xml:id="end0104001"/>伏地。
+<lb n="0104a03" ed="T"/>以石封之。今見存焉。莫測時代。在朔州東三
+<lb n="0104a04" ed="T"/>百里恒安鎮西二十餘里。往往來者述之。誠
+<lb n="0104a05" ed="T"/>不思議之福事也。</p>
+<lb n="0104a06" ed="T"/><p xml:id="pT52p0104a0601">皇興元年高祖孝<anchor xml:id="nkr_note_orig_0104002" n="0104002"/><anchor xml:id="nkr_note_mod_0104002" n="0104002"/><anchor xml:id="beg0104002" n="0104002"/>文<anchor xml:id="end0104002"/>誕載。於恒安北臺起永
+<lb n="0104a07" ed="T"/>寧寺七級佛圖。高三百餘尺。基架博敝。為天
+<lb n="0104a08" ed="T"/>下第一。又於天宮寺。造釋迦文像。高四十三
+<lb n="0104a09" ed="T"/>尺。用赤金十萬斤黃金六百斤。又搆三級石
+<lb n="0104a10" ed="T"/>佛圖高十丈。榱棟楣楹上下重結。大小皆石。
+<lb n="0104a11" ed="T"/>鎮固巧密為京華壯觀。</p>
+<lb n="0104a12" ed="T"/><p xml:id="pT52p0104a1201">延興元年顯祖獻文禪位於太子僧蓋一名
+<lb n="0104a13" ed="T"/>宏。即孝文也。年五歲聰聖玄覽。窮神知幾。
+<lb n="0104a14" ed="T"/>既初踐位。顯祖移御北苑崇光宮統習玄籍。
+<lb n="0104a15" ed="T"/>建鹿野佛圖於苑中之西山。去崇光右十里
+<lb n="0104a16" ed="T"/>巖房禪室。禪僧居之。</p>
+<lb n="0104a17" ed="T"/><p xml:id="pT52p0104a1701">承明元年顯祖<anchor xml:id="nkr_note_orig_0104003" n="0104003"/><anchor xml:id="nkr_note_mod_0104003" n="0104003"/><anchor xml:id="beg0104003" n="0104003"/>大<anchor xml:id="end0104003"/>上皇崩。造建明寺。爾後建
+<lb n="0104a18" ed="T"/>福度僧立寺非一。</p>
+<lb n="0104a19" ed="T"/><p xml:id="pT52p0104a1901">太和十六年下詔。每年四月八日七月十五
+<lb n="0104a20" ed="T"/>日。聽大州一百人為僧尼。中州五<anchor xml:id="beg_e" type="star"/>十<anchor xml:id="end_e"/>下州二
+<lb n="0104a21" ed="T"/>十人。著令以為常准。太和十九年常幸徐州
+<lb n="0104a22" ed="T"/>白塔寺。顧諸王侍臣曰。此寺近有名僧嵩法
+<lb n="0104a23" ed="T"/>師者。受成實論於羅什。後授淵法師。淵又授
+<lb n="0104a24" ed="T"/>登紀二法師。朕每翫成實。可以釋人深情。故
+<lb n="0104a25" ed="T"/>至此寺。道登雅有義業。高祖眷賞恒侍講論
+<lb n="0104a26" ed="T"/>於禁內。及卒帝悼惜。施帛千匹。說一切僧齋
+<lb n="0104a27" ed="T"/>京城七日行道。下詔曰。朕師登法師奄至
+<lb n="0104a28" ed="T"/><anchor xml:id="nkr_note_orig_0104004" n="0104004"/><anchor xml:id="nkr_note_mod_0104004" n="0104004"/><anchor xml:id="beg0104004" n="0104004"/>徂<anchor xml:id="end0104004"/>。背痛怛摧慟不能已。已比藥治。慎喪未
+<lb n="0104a29" ed="T"/>容即赴。便准師義哭諸門外。緇素榮之。西域
+<pb n="0104b" xml:id="T52.2103.0104b" ed="T"/>
+<lb n="0104b01" ed="T"/>沙門跋陀者。有深道業。帝所敬重。詔於少室
+<lb n="0104b02" ed="T"/>山陰立少林寺。以居之。公給衣供。</p>
+<lb n="0104b03" ed="T"/><p xml:id="pT52p0104b0301">二十一年五月詔曰。羅什法師可謂神出五
+<lb n="0104b04" ed="T"/>才志入四行者也。今常住寺<anchor xml:id="nkr_note_orig_0104005" n="0104005"/><anchor xml:id="nkr_note_mod_0104005" n="0104005"/><anchor xml:id="beg0104005" n="0104005"/>猶<anchor xml:id="end0104005"/>有遺蹤。欽悅
+<lb n="0104b05" ed="T"/><anchor xml:id="nkr_note_orig_0104006" n="0104006"/><anchor xml:id="nkr_note_mod_0104006" n="0104006"/><anchor xml:id="beg0104006" n="0104006"/>循<anchor xml:id="end0104006"/>跡情深遐邇。可於舊堂所為建三級佛圖。
+<lb n="0104b06" ed="T"/>又見逼昏虐為道<anchor xml:id="nkr_note_orig_0104007" n="0104007"/><anchor xml:id="beg0104007" n="0104007"/>珍<anchor xml:id="end0104007"/>軀。既暫同俗禮。應有子
+<lb n="0104b07" ed="T"/>胤。可推訪以聞當加敘接。先是立監福曹。又
+<lb n="0104b08" ed="T"/>改為昭玄。備有官屬以斷僧務。即如今同文
+<lb n="0104b09" ed="T"/>寺崇玄署是也。高祖時知名沙門有道順慧
+<lb n="0104b10" ed="T"/>覺僧意慧紀僧範道辯慧度智誕僧顯僧義僧
+<lb n="0104b11" ed="T"/>利。並以義行重焉。</p>
+<lb n="0104b12" ed="T"/><p xml:id="pT52p0104b1201">有魏孝文聖天子也。五歲受禪十歲服冕。太
+<lb n="0104b13" ed="T"/>和十八年遷都於洛。二十年改<anchor xml:id="nkr_note_orig_0104008" n="0104008"/><anchor xml:id="beg0104008" n="0104008"/>姓<anchor xml:id="end0104008"/>為元氏。文
+<lb n="0104b14" ed="T"/>章百篇冠絕終古。初登詔誥假手有司。太和
+<lb n="0104b15" ed="T"/>已後並自運筆。前後諸帝不能及之。如僧行
+<lb n="0104b16" ed="T"/>篇所下詔也。</p>
+<lb n="0104b17" ed="T"/><p xml:id="pT52p0104b1701">世宗即位。下詔曰。緇素既殊法律亦異。故道
+<lb n="0104b18" ed="T"/>教彰於互顯。禁勸各有所宜。其僧犯殺人已
+<lb n="0104b19" ed="T"/>上罪者。依俗格斷。餘犯悉付昭玄。以內律僧
+<lb n="0104b20" ed="T"/>制判之。</p>
+<lb n="0104b21" ed="T"/><p xml:id="pT52p0104b2101">熙平元年詔遣沙門慧生。使西域<anchor xml:id="nkr_note_orig_0104009" n="0104009"/><anchor xml:id="nkr_note_mod_0104009" n="0104009"/><anchor xml:id="beg0104009" n="0104009"/>採<anchor xml:id="end0104009"/>經律涉
+<lb n="0104b22" ed="T"/>七載。正光三年冬還。所獲經論一百七十部。
+<lb n="0104b23" ed="T"/>景明初世宗詔大長秋卿。准代京靈巖寺石
+<lb n="0104b24" ed="T"/>窟。於洛南伊闕山為高祖文昭皇太后營石
+<lb n="0104b25" ed="T"/>窟二所。去地三百一十尺。後以斬山太高費
+<lb n="0104b26" ed="T"/>功難就。奏移就下平。去地一百尺。南北一百
+<lb n="0104b27" ed="T"/>四十尺。永平中為世宗造石窟<anchor xml:id="nkr_note_orig_0104010" n="0104010"/><anchor xml:id="nkr_note_mod_0104010" n="0104010"/><anchor xml:id="beg0104010" n="0104010"/>一凡<anchor xml:id="end0104010"/>三所。從
+<lb n="0104b28" ed="T"/>景明元年至正光四年二十四載方成。用<anchor xml:id="nkr_note_orig_0104011" n="0104011"/><anchor xml:id="nkr_note_mod_0104011" n="0104011"/><anchor xml:id="beg0104011" n="0104011"/>功<anchor xml:id="end0104011"/>
+<lb n="0104b29" ed="T"/>八十萬二千三百六十六。</p>
+<pb n="0104c" xml:id="T52.2103.0104c" ed="T"/>
+<lb n="0104c01" ed="T"/><p xml:id="pT52p0104c0101">肅宗熙平中於城內起永寧寺。靈太后親率
+<lb n="0104c02" ed="T"/>百僚。表基立剎。塔有九層。高四十餘丈。費用
+<lb n="0104c03" ed="T"/>不可勝計。景明寺塔亦其亞也。爾後官私寺
+<lb n="0104c04" ed="T"/>塔其數甚眾。神龜元年司空尚書令任城王
+<lb n="0104c05" ed="T"/>澄。奏寺塔漸多<anchor xml:id="nkr_note_orig_0104012" n="0104012"/><anchor xml:id="nkr_note_mod_0104012" n="0104012"/><anchor xml:id="beg0104012" n="0104012"/>坊<anchor xml:id="end0104012"/>民居事。略云。如來闡教
+<lb n="0104c06" ed="T"/>多約山林。今此僧徒戀眷城市。豈湫隘是經
+<lb n="0104c07" ed="T"/>行所宜。浮諠是栖禪之地。當由利引其心莫
+<lb n="0104c08" ed="T"/>能自止。且住者既失其真。造者或損其福。乃
+<lb n="0104c09" ed="T"/>釋氏之糟糠。法門之社鼠。內戒所不容。王典
+<lb n="0104c10" ed="T"/>所宜棄矣。奏可。未幾天下喪亂。加以河陰之
+<lb n="0104c11" ed="T"/>禍。朝士死者復捨其家為寺。禁令不復行焉。
+<lb n="0104c12" ed="T"/>興和二年詔以鄴城舊宮為天平寺。世宗已
+<lb n="0104c13" ed="T"/>來至武定末。沙門知名者有慧猛慧辯慧深
+<lb n="0104c14" ed="T"/>僧暹道<anchor xml:id="nkr_note_orig_0104013" n="0104013"/><anchor xml:id="nkr_note_mod_0104013" n="0104013"/><anchor xml:id="beg0104013" n="0104013"/>銀<anchor xml:id="end0104013"/>僧獻道<anchor xml:id="nkr_note_orig_0104014" n="0104014"/><anchor xml:id="nkr_note_mod_0104014" n="0104014"/><anchor xml:id="beg0104014" n="0104014"/>睎<anchor xml:id="end0104014"/>僧深慧光慧顒法榮道
+<lb n="0104c15" ed="T"/>長。並見重道俗。自魏有天下至於禪讓。佛經
+<lb n="0104c16" ed="T"/>流通大<anchor xml:id="nkr_note_orig_0104015" n="0104015"/><anchor xml:id="beg0104015" n="0104015"/>集<anchor xml:id="end0104015"/>中國。凡四百一十五部。合一千九
+<lb n="0104c17" ed="T"/>百一十九卷。正光已後天下多虞。王役尤甚。
+<lb n="0104c18" ed="T"/>於是所在編戶相從入道。假慕沙門實避調
+<lb n="0104c19" ed="T"/>役。猥濫之極。自中國有佛法。未之有也。略計
+<lb n="0104c20" ed="T"/>僧尼。二百餘萬。其寺三萬有餘。流弊不歸一
+<lb n="0104c21" ed="T"/>至於此。識者所以太息矣。</p>
+<lb n="0104c22" ed="T"/><p xml:id="pT52p0104c2201">道家之<anchor xml:id="nkr_note_orig_0104016" n="0104016"/><anchor xml:id="nkr_note_mod_0104016" n="0104016"/><anchor xml:id="beg0104016" n="0104016"/>原<anchor xml:id="end0104016"/>出於老子。其自言也。先天地生以
+<lb n="0104c23" ed="T"/>資萬類。上處玉京為神<anchor xml:id="nkr_note_orig_0104017" n="0104017"/><anchor xml:id="beg0104017" n="0104017"/>王<anchor xml:id="end0104017"/>之宗。下在紫微為
+<lb n="0104c24" ed="T"/>飛仙之主。千變萬化有德不德。隨感應物厥
+<lb n="0104c25" ed="T"/>迹無常。授軒轅於峨<anchor xml:id="nkr_note_orig_0104018" n="0104018"/><anchor xml:id="nkr_note_mod_0104018" n="0104018"/><anchor xml:id="beg0104018" n="0104018"/>嵋<anchor xml:id="end0104018"/>。教帝嚳於牧德。大
+<lb n="0104c26" ed="T"/>禹聞長生之<anchor xml:id="nkr_note_orig_0104019" n="0104019"/><anchor xml:id="beg0104019" n="0104019"/>決<anchor xml:id="end0104019"/>。尹喜受道德之旨。至於丹書
+<lb n="0104c27" ed="T"/>紫字。昇玄飛步之經玉石金光。妙有靈洞之
+<lb n="0104c28" ed="T"/>說。不可勝紀。其為教也。咸蠲去邪累澡雪心
+<lb n="0104c29" ed="T"/>神。積行樹功累德增善。乃至白日昇天長生
+<pb n="0105a" xml:id="T52.2103.0105a" ed="T"/>
+<lb n="0105a01" ed="T"/>世上。是以秦皇漢武甘心不息。勞心竭事所
+<lb n="0105a02" ed="T"/>在追求。終莫之致。退恨於後。故有欒大徐氏
+<lb n="0105a03" ed="T"/>之誅。然其道惑<anchor xml:id="nkr_note_orig_0105001" n="0105001"/><anchor xml:id="nkr_note_mod_0105001" n="0105001"/><anchor xml:id="beg0105001" n="0105001"/>人<anchor xml:id="end0105001"/>効學非一。靈帝置華蓋於
+<lb n="0105a04" ed="T"/>濯龍。設壇場而為禮。及張陵受道於鵠鳴。因
+<lb n="0105a05" ed="T"/>傳天宮章本千有二百。弟子相授其事大行。
+<lb n="0105a06" ed="T"/>齋<anchor xml:id="nkr_note_orig_0105002" n="0105002"/><anchor xml:id="nkr_note_mod_0105002" n="0105002"/><anchor xml:id="beg0105002" n="0105002"/>祠<anchor xml:id="end0105002"/>跪拜各有成法。於是三元九府百二十
+<lb n="0105a07" ed="T"/>官。一切諸神咸所統攝。又稱劫數頗竊佛經。
+<lb n="0105a08" ed="T"/>及其劫終。稱天地俱壞。其書多有禁祕。非其
+<lb n="0105a09" ed="T"/>徒不得輒觀。至於化金銷玉行符勅水奇方
+<lb n="0105a10" ed="T"/>妙術萬等千條。上云羽化飛天。次稱消災滅
+<lb n="0105a11" ed="T"/>禍。故好異者往往而尊事之。初文帝入賓於
+<lb n="0105a12" ed="T"/>晉。從者云。登仙伊闕。太祖好老子之言。誦詠
+<lb n="0105a13" ed="T"/>不倦。天興中儀曹郎董謐。上服食仙經數十
+<lb n="0105a14" ed="T"/>篇。乃置仙人博士。立仙坊煮<anchor xml:id="nkr_note_orig_0105003" n="0105003"/><anchor xml:id="beg0105003" n="0105003"/>練<anchor xml:id="end0105003"/>百藥。封西
+<lb n="0105a15" ed="T"/>山以供其薪蒸。令死罪者服之。多死無驗。太
+<lb n="0105a16" ed="T"/>祖猶特修焉。太醫周澹苦其煎採之役。欲廢
+<lb n="0105a17" ed="T"/>其事。陰令妻貨仙人博士張曜妾得曜隱罪。
+<lb n="0105a18" ed="T"/>曜懼死。因請自辟穀。太祖許之。給曜資用。為
+<lb n="0105a19" ed="T"/>造靜堂於苑中。給洒掃民二家。而<anchor xml:id="beg_f" type="star"/>練<anchor xml:id="end_f"/>藥之
+<lb n="0105a20" ed="T"/>官<anchor xml:id="nkr_note_orig_0105004" n="0105004"/><anchor xml:id="nkr_note_mod_0105004" n="0105004"/><anchor xml:id="beg0105004" n="0105004"/>仍<anchor xml:id="end0105004"/>為不息。久之<anchor xml:id="nkr_note_orig_0105005" n="0105005"/><anchor xml:id="beg0105005" n="0105005"/>太<anchor xml:id="end0105005"/>祖意少懈乃止。</p>
+<lb n="0105a21" ed="T"/><p xml:id="pT52p0105a2101">世祖時道士寇謙之字輔真。南雍州<anchor xml:id="nkr_note_orig_0105006" n="0105006"/><anchor xml:id="beg0105006" n="0105006"/>刺<anchor xml:id="end0105006"/>史讚
+<lb n="0105a22" ed="T"/>之弟<anchor xml:id="nkr_note_orig_0105007" n="0105007"/><anchor xml:id="nkr_note_mod_0105007" n="0105007"/><anchor xml:id="beg0105007" n="0105007"/>也<anchor xml:id="end0105007"/>。早好仙道修張<anchor xml:id="nkr_note_orig_0105008" n="0105008"/><anchor xml:id="beg0105008" n="0105008"/>魯<anchor xml:id="end0105008"/>之術。服食餌藥
+<lb n="0105a23" ed="T"/>歷年無効。有仙人成公興。備作謙家。後謙之
+<lb n="0105a24" ed="T"/>算七曜。惘然不了。興曰。何為不釋。謙之曰。
+<lb n="0105a25" ed="T"/>我學算累年。<anchor xml:id="nkr_note_orig_0105009" n="0105009"/><anchor xml:id="nkr_note_mod_0105009" n="0105009"/><anchor xml:id="beg0105009" n="0105009"/>延<anchor xml:id="end0105009"/>算周<anchor xml:id="nkr_note_orig_0105010" n="0105010"/><anchor xml:id="nkr_note_mod_0105010" n="0105010"/><anchor xml:id="beg0105010" n="0105010"/>體<anchor xml:id="end0105010"/>不合。興令依言布
+<lb n="0105a26" ed="T"/>之。俄爾便決。謙歎<anchor xml:id="nkr_note_orig_0105011" n="0105011"/><anchor xml:id="nkr_note_mod_0105011" n="0105011"/><anchor xml:id="beg0105011" n="0105011"/>伏<anchor xml:id="end0105011"/>欲師事。興固辭求為
+<lb n="0105a27" ed="T"/>謙之弟子。未幾<anchor xml:id="nkr_note_orig_0105012" n="0105012"/><anchor xml:id="nkr_note_mod_0105012" n="0105012"/><anchor xml:id="beg0105012" n="0105012"/>興<anchor xml:id="end0105012"/>入華山居石室。興採藥與
+<lb n="0105a28" ed="T"/>謙服。不復飢。又共入嵩高山石室曰當有人
+<lb n="0105a29" ed="T"/>將藥來。得但食莫疑。尋有人將藥至。皆是毒
+<pb n="0105b" xml:id="T52.2103.0105b" ed="T"/>
+<lb n="0105b01" ed="T"/>蠱臭物。謙之懼走。興還具問。便歎息曰。先生
+<lb n="0105b02" ed="T"/>未仙。<anchor xml:id="nkr_note_orig_0105013" n="0105013"/><anchor xml:id="nkr_note_mod_0105013" n="0105013"/><anchor xml:id="beg0105013" n="0105013"/>止<anchor xml:id="end0105013"/>可為帝王師耳。興事謙七年。便曰。
+<lb n="0105b03" ed="T"/>不得久留。明中應去。至期果卒。見兩童子一
+<lb n="0105b04" ed="T"/>持法服一持錫杖及鉢至興屍所。興欻然而
+<lb n="0105b05" ed="T"/>起。著衣持鉢執杖而去。</p>
+<lb n="0105b06" ed="T"/><p xml:id="pT52p0105b0601">謙之守志嵩岳。以神瑞二年十月。遇大神乘
+<lb n="0105b07" ed="T"/>雲駕龍導從百靈集於山頂。稱太上老君。謂
+<lb n="0105b08" ed="T"/>謙之曰。自天師張陵去世已來。地上曠職。上
+<lb n="0105b09" ed="T"/>谷寇謙之文身直理。吾<anchor xml:id="nkr_note_orig_0105014" n="0105014"/><anchor xml:id="beg0105014" n="0105014"/>故<anchor xml:id="end0105014"/>授汝天師之位。賜
+<lb n="0105b10" ed="T"/>汝雲中新科二十卷。自開闢已來不傳於世
+<lb n="0105b11" ed="T"/>汝宣吾新科清整道教除去三張偽法租米錢
+<lb n="0105b12" ed="T"/>稅及男女合氣之術。大道清虛寧有斯事。專
+<lb n="0105b13" ed="T"/>以禮度為首。加之以服食閉練。使玉女九
+<lb n="0105b14" ed="T"/>疑十二人授謙導引口訣。遂得辟穀氣盛。顏
+<lb n="0105b15" ed="T"/>色鮮麗。弟子十餘人。皆得其術。</p>
+<lb n="0105b16" ed="T"/><p xml:id="pT52p0105b1601"><anchor xml:id="nkr_note_orig_0105015" n="0105015"/><anchor xml:id="nkr_note_mod_0105015" n="0105015"/><anchor xml:id="beg0105015" n="0105015"/>太<anchor xml:id="end0105015"/>常八年十月有牧土上師李普文。來嵩岳
+<lb n="0105b17" ed="T"/>云。老君之玄孫也。昔居代郡桑乾。漢<anchor xml:id="nkr_note_orig_0105016" n="0105016"/><anchor xml:id="nkr_note_mod_0105016" n="0105016"/><anchor xml:id="beg0105016" n="0105016"/>武<anchor xml:id="end0105016"/>時
+<lb n="0105b18" ed="T"/>得道為牧土宮主。領治三十六土人鬼之政。
+<lb n="0105b19" ed="T"/>地方十八萬里。其中為方萬里者。有三百六
+<lb n="0105b20" ed="T"/>十方。遣弟子云。嵩岳所統廣漢方萬里以授
+<lb n="0105b21" ed="T"/>謙<anchor xml:id="nkr_note_orig_0105017" n="0105017"/><anchor xml:id="beg0105017" n="0105017"/>之<anchor xml:id="end0105017"/>。作誥云云。</p>
+<lb n="0105b22" ed="T"/><p xml:id="pT52p0105b2201">錄圖六十卷。真經付汝。輔佐北方泰平真君
+<lb n="0105b23" ed="T"/>出天宮靜輪之法。能興造克就則超登真仙
+<lb n="0105b24" ed="T"/>矣。</p>
+<lb n="0105b25" ed="T"/><p xml:id="pT52p0105b2501">又云。地上生民末劫垂及。行教甚難。男女立
+<lb n="0105b26" ed="T"/>壇宇朝夕禮拜云云。</p>
+<lb n="0105b27" ed="T"/><p xml:id="pT52p0105b2701">又云。二儀之間有三十六天。天別三十六宮。
+<lb n="0105b28" ed="T"/>宮有一主。其赤松王喬韓終張安世劉根張
+<lb n="0105b29" ed="T"/>陵。近世仙者。並為翼從。命謙之與群仙為
+<pb n="0105c" xml:id="T52.2103.0105c" ed="T"/>
+<lb n="0105c01" ed="T"/>友。</p>
+<lb n="0105c02" ed="T"/><p xml:id="pT52p0105c0201">又云。佛者昔於西胡得道。在三十二天為延
+<lb n="0105c03" ed="T"/>真<anchor xml:id="nkr_note_orig_0105018" n="0105018"/><anchor xml:id="beg0105018" n="0105018"/>宮<anchor xml:id="end0105018"/>主。勇猛苦教。故其弟子皆髠形染衣。
+<lb n="0105c04" ed="T"/>斷絕人道。天上衣服悉然。始光年中初奉其
+<lb n="0105c05" ed="T"/>書。獻之世祖。乃令謙之止於張曜辟穀之所
+<lb n="0105c06" ed="T"/>供其食物。朝野聞之若存若亡。未全信也。崔
+<lb n="0105c07" ed="T"/>浩獨異其言。因師事之。受其法術。上疏贊明
+<lb n="0105c08" ed="T"/>其事曰。臣聞聖王受命則有天應。而河洛圖
+<lb n="0105c09" ed="T"/>書。寄言於<anchor xml:id="nkr_note_orig_0105019" n="0105019"/><anchor xml:id="beg0105019" n="0105019"/>蟲<anchor xml:id="end0105019"/>獸之文。未若今日人神接對手
+<lb n="0105c10" ed="T"/>筆。粲然辭旨深妙。自古無此。昔漢高英聖。四
+<lb n="0105c11" ed="T"/>皓猶或恥之。不為屈節。今清德隱仙。不召自
+<lb n="0105c12" ed="T"/>至。斯誠陛下侔蹤軒黃應天之符也。豈可以
+<lb n="0105c13" ed="T"/>世俗常談而忽上靈之命。臣竊懼之。世祖欣
+<lb n="0105c14" ed="T"/>然<note place="inline">時年九歲</note>乃使謁者奉玉帛牲牢祭嵩岳。迎致
+<lb n="0105c15" ed="T"/>其餘弟子在山中者。於是崇奉天師。立道壇
+<lb n="0105c16" ed="T"/>顯揚新法。布告天下道業大行。浩事天師甚
+<lb n="0105c17" ed="T"/>謹拜禮。人或譏之。</p>
+<lb n="0105c18" ed="T"/><p xml:id="pT52p0105c1801">于時中岳道士三十餘人。至起天師道場京
+<lb n="0105c19" ed="T"/>之東南。重壇五層。依新經制度。給道士百二
+<lb n="0105c20" ed="T"/>十人衣食。齋肅祈請六時。月設厨會數千
+<lb n="0105c21" ed="T"/>人。</p>
+<lb n="0105c22" ed="T"/><p xml:id="pT52p0105c2201">謙之奏曰。陛下以真君御世。建靜輪天宮。開
+<lb n="0105c23" ed="T"/>古未有。應登受符書以彰聖德。世祖從之。至
+<lb n="0105c24" ed="T"/>道壇受符<anchor xml:id="nkr_note_orig_0105020" n="0105020"/><anchor xml:id="nkr_note_mod_0105020" n="0105020"/><anchor xml:id="beg0105020" n="0105020"/>錄<anchor xml:id="end0105020"/>。備法駕旗幟盡青。以從道家之
+<lb n="0105c25" ed="T"/>色也。自後諸帝即位皆如<anchor xml:id="nkr_note_orig_0105021" n="0105021"/><anchor xml:id="beg0105021" n="0105021"/>之<anchor xml:id="end0105021"/>。恭宗見謙之奏
+<lb n="0105c26" ed="T"/>造靜輪天宮必令高不聞雞犬聲與上天神交
+<lb n="0105c27" ed="T"/>接。功役萬計經年不成。乃言於世祖曰。人天
+<lb n="0105c28" ed="T"/>道殊卑高定分。今謙之欲要以無成之期說
+<lb n="0105c29" ed="T"/>不然之事。財力費損百姓疲勞。無乃不可乎。
+<pb n="0106a" xml:id="T52.2103.0106a" ed="T"/>
+<lb n="0106a01" ed="T"/>必如其言。未若因東山萬仞之崖為功差易。
+<lb n="0106a02" ed="T"/>帝深然之。但為崔浩贊成難違其意。沈吟
+<lb n="0106a03" ed="T"/>久之曰。吾亦知其無成事。既爾何惜五三百
+<lb n="0106a04" ed="T"/><anchor xml:id="nkr_note_orig_0106001" n="0106001"/><anchor xml:id="nkr_note_mod_0106001" n="0106001"/><anchor xml:id="beg0106001" n="0106001"/>功<anchor xml:id="end0106001"/>。真<anchor xml:id="nkr_note_orig_0106002" n="0106002"/><anchor xml:id="beg0106002" n="0106002"/>君<anchor xml:id="end0106002"/>九年謙之卒。葬以道士之禮。諸弟
+<lb n="0106a05" ed="T"/>子以為屍解變化而去。靜輪天宮竟不成便
+<lb n="0106a06" ed="T"/>止。</p>
+<lb n="0106a07" ed="T"/><p xml:id="pT52p0106a0701">時京兆韋文秀隱中岳。世祖徵問方士金丹
+<lb n="0106a08" ed="T"/>事。對曰。神通幽昧變化難測。可以闇遇。難以
+<lb n="0106a09" ed="T"/>預期。臣昔受於先師。未之為也。世祖重其豪
+<lb n="0106a10" ed="T"/>族溫雅。遣與尚書崔賾詣王屋山。合丹竟
+<lb n="0106a11" ed="T"/>不成。</p>
+<lb n="0106a12" ed="T"/><p xml:id="pT52p0106a1201">時方士至者。前後數十人。<anchor xml:id="nkr_note_orig_0106003" n="0106003"/><anchor xml:id="nkr_note_mod_0106003" n="0106003"/><anchor xml:id="beg0106003" n="0106003"/>歷<anchor xml:id="end0106003"/>出名行。河東
+<lb n="0106a13" ed="T"/>祁纖好相人。世祖賢之。拜纖上大夫。</p>
+<lb n="0106a14" ed="T"/><p xml:id="pT52p0106a1401"><anchor xml:id="nkr_note_orig_0106004" n="0106004"/><anchor xml:id="nkr_note_mod_0106004" n="0106004"/><anchor xml:id="beg0106004" n="0106004"/>頴<anchor xml:id="end0106004"/>陽絳略聞喜吳劭導引養精。年百餘歲神
+<lb n="0106a15" ed="T"/>氣不衰。恒農閻平仙博覽百家不能達意。然
+<lb n="0106a16" ed="T"/>辭對可錄。帝授宮固辭。扶風魯祈遭赫連虐。
+<lb n="0106a17" ed="T"/>避地寒山教授數百人。好方術少嗜<anchor xml:id="nkr_note_orig_0106005" n="0106005"/><anchor xml:id="beg0106005" n="0106005"/>慾<anchor xml:id="end0106005"/>。</p>
+<lb n="0106a18" ed="T"/><p xml:id="pT52p0106a1801">河東羅崇之餌松脂不食五穀。云受道中<anchor xml:id="nkr_note_orig_0106006" n="0106006"/><anchor xml:id="beg0106006" n="0106006"/>條<anchor xml:id="end0106006"/>
+<lb n="0106a19" ed="T"/>山。有穴<anchor xml:id="nkr_note_orig_0106007" n="0106007"/><anchor xml:id="nkr_note_mod_0106007" n="0106007"/><anchor xml:id="beg0106007" n="0106007"/>通<anchor xml:id="end0106007"/>崑崙蓬萊。得見仙人往來。帝令
+<lb n="0106a20" ed="T"/>還鄉立壇祈請。詔河東給所須。崇入穴百步。
+<lb n="0106a21" ed="T"/>遂窮召還。有司以誣罔不道。奏罪之。世祖赦
+<lb n="0106a22" ed="T"/>之。以開待賢之意。</p>
+<lb n="0106a23" ed="T"/><p xml:id="pT52p0106a2301">東萊王道翼隱韓信山四十餘年。斷粟食麥
+<lb n="0106a24" ed="T"/>通經章符錄不交時俗。顯祖令青州<anchor xml:id="nkr_note_orig_0106008" n="0106008"/><anchor xml:id="nkr_note_mod_0106008" n="0106008"/><anchor xml:id="beg0106008" n="0106008"/>刺<anchor xml:id="end0106008"/>史召
+<lb n="0106a25" ed="T"/>赴都。仍守本操。遂令僧曹給衣食終身。太和
+<lb n="0106a26" ed="T"/>十五年。詔曰。夫至道無形虛寂為主。自有漢
+<lb n="0106a27" ed="T"/>已後置立壇祠。先朝以其至順可歸。為立寺
+<lb n="0106a28" ed="T"/>宇。昔京城之內居舍尚希。今者里宅櫛比
+<lb n="0106a29" ed="T"/>人神猥湊。非所以祇崇至法清敬神道。可移
+<pb n="0106b" xml:id="T52.2103.0106b" ed="T"/>
+<lb n="0106b01" ed="T"/>於都南桑乾之陰岳山之陽。永置其所給戶
+<lb n="0106b02" ed="T"/>五十。以供齋祀之用。仍名為崇虛寺。可召
+<lb n="0106b03" ed="T"/>諸州隱士。<anchor xml:id="nkr_note_orig_0106009" n="0106009"/><anchor xml:id="nkr_note_mod_0106009" n="0106009"/><anchor xml:id="beg0106009" n="0106009"/>員<anchor xml:id="end0106009"/>滿九十人。遷洛移鄴。踵如故
+<lb n="0106b04" ed="T"/>事。其道壇在南郊。方二百步。以正月七日九
+<lb n="0106b05" ed="T"/>月七日十月五日。壇主道士<anchor xml:id="nkr_note_orig_0106010" n="0106010"/><anchor xml:id="nkr_note_mod_0106010" n="0106010"/><anchor xml:id="beg0106010" n="0106010"/>歌<anchor xml:id="end0106010"/>人一百六十
+<lb n="0106b06" ed="T"/>人以行拜祠之禮。諸道士罕能精至。又無
+<lb n="0106b07" ed="T"/>才術可高。武定六年有司<anchor xml:id="nkr_note_orig_0106011" n="0106011"/><anchor xml:id="nkr_note_mod_0106011" n="0106011"/><anchor xml:id="beg0106011" n="0106011"/>執<anchor xml:id="end0106011"/>罷之。河東張遠
+<lb n="0106b08" ed="T"/>遊河間趙靜通等齊文襄王。別置館京師。重
+<lb n="0106b09" ed="T"/>其道術而禮接焉。</p>
+<lb n="0106b10" ed="T"/><p xml:id="pT52p0106b1001">余檢天師寇謙之敘陳太上老君所言。同夫
+<lb n="0106b11" ed="T"/>蓬萊之居海下。崑崙之飛浮天上也。</p>
+<lb n="0106b12" ed="T"/><p xml:id="pT52p0106b1201">又云。三十六土萬里。為方三百六十等。何異
+<lb n="0106b13" ed="T"/>張角之三十六方乎。案後漢皇甫嵩傳云。鉅
+<lb n="0106b14" ed="T"/>鹿<anchor xml:id="nkr_note_orig_0106012" n="0106012"/><anchor xml:id="beg0106012" n="0106012"/>張<anchor xml:id="end0106012"/>角自稱大賢郎。師奉事黃老。行張陵之
+<lb n="0106b15" ed="T"/>術。用符水呪法。以治百病。遣弟子八人使於
+<lb n="0106b16" ed="T"/>四方行化道法。轉相誑惑。十餘年間眾數十
+<lb n="0106b17" ed="T"/>萬。自青徐幽冀荊楊兗豫八州之民莫不必
+<lb n="0106b18" ed="T"/>應。遂置三十六方。方猶將軍之號也。大方萬
+<lb n="0106b19" ed="T"/>餘人。小方六千人。訛言蒼天死黃天當立。歲
+<lb n="0106b20" ed="T"/>在甲子。天下大吉。以白土書京邑寺門。作甲
+<lb n="0106b21" ed="T"/>子字。中平元年三月五日內外俱起。皆著道
+<lb n="0106b22" ed="T"/>士黃服戴黃巾。或殺人祠天。于時賊徒數十
+<lb n="0106b23" ed="T"/>萬眾。初起穎川作亂天下。並為皇甫嵩討滅。
+<lb n="0106b24" ed="T"/>餘<anchor xml:id="nkr_note_orig_0106013" n="0106013"/><anchor xml:id="nkr_note_mod_0106013" n="0106013"/><anchor xml:id="beg0106013" n="0106013"/>熸<anchor xml:id="end0106013"/>不滅。今猶服之。</p></cb:div>
+<lb n="0106b25" ed="T"/><cb:div type="other"><cb:mulu level="3" type="其他">9 齊書述佛志(二)</cb:mulu><head><anchor xml:id="nkr_note_orig_0106014" n="0106014"/><anchor xml:id="beg0106014" n="0106014"/>齊書<anchor xml:id="end0106014"/>述佛<anchor xml:id="nkr_note_orig_0106015" n="0106015"/><anchor xml:id="beg0106015" n="0106015"/>志<anchor xml:id="end0106015"/></head><byline cb:type="Author"><anchor xml:id="nkr_note_orig_0106016" n="0106016"/><anchor xml:id="nkr_note_mod_0106016" n="0106016"/><anchor xml:id="beg0106016" n="0106016"/>著作<anchor xml:id="end0106016"/>王劭</byline>
+<lb n="0106b26" ed="T"/><p xml:id="pT52p0106b2601">劭曰。釋氏非管窺所及。率爾妄言之。又引列
+<lb n="0106b27" ed="T"/><anchor xml:id="nkr_note_orig_0106017" n="0106017"/><anchor xml:id="nkr_note_mod_0106017" n="0106017"/><anchor xml:id="beg0106017" n="0106017"/>御<anchor xml:id="end0106017"/>寇書。述商太宰問孔子聖人事。又黃帝夢
+<lb n="0106b28" ed="T"/>遊華胥氏之國。華胥氏之國。在佛神遊而已。
+<lb n="0106b29" ed="T"/>此之所言髣髴於佛。石符姚世經譯遂廣。蓋
+<pb n="0106c" xml:id="T52.2103.0106c" ed="T"/>
+<lb n="0106c01" ed="T"/>欲柔伏人心。故多寓言以方便。不知是何神
+<lb n="0106c02" ed="T"/>怪浩蕩之甚乎。其說人<anchor xml:id="nkr_note_orig_0106018" n="0106018"/><anchor xml:id="nkr_note_mod_0106018" n="0106018"/><anchor xml:id="beg0106018" n="0106018"/>身<anchor xml:id="end0106018"/>善惡世事因緣。以
+<lb n="0106c03" ed="T"/>慈悲喜捨常樂我淨。書辯至精明如日月。非
+<lb n="0106c04" ed="T"/>正覺孰能證之。凡在<anchor xml:id="nkr_note_orig_0106019" n="0106019"/><anchor xml:id="nkr_note_mod_0106019" n="0106019"/><anchor xml:id="beg0106019" n="0106019"/>順<anchor xml:id="end0106019"/>首莫不歸命。達人則
+<lb n="0106c05" ed="T"/>慎其身口修其慧定。平等解脫究竟菩提。及
+<lb n="0106c06" ed="T"/>僻者為之不能通理。徒務費竭財力功利煩
+<lb n="0106c07" ed="T"/>濁。猶六經皆有所失。未之深也已矣。</p></cb:div></cb:div>
+<lb n="0106c08" ed="T"/><cb:juan n="002" fun="close"><cb:jhead>廣弘明集卷第二</cb:jhead></cb:juan>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app cb:word-count="11" from="#beg0101002" to="#end0101002"><lem wit="#wit1">大唐西明寺沙門釋道宣撰</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">唐終南山釋氏</rdg><rdg resp="#resp1" wit="#wit2">唐終南山釋道宣集</rdg></app>
+<app from="#beg0101004" to="#end0101004"><lem wit="#wit1">收</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">牧</rdg></app>
+<app from="#beg0101005" to="#end0101005"><lem wit="#wit1">魏書</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0101006" to="#end0101006"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit3 #wit5">志八</rdg><rdg resp="#resp1" wit="#wit2">志<note place="inline">出魏書</note></rdg></app>
+<app from="#beg0101007" to="#end0101007"><lem wit="#wit1">著作</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0101004"><lem wit="#wit1">收</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">牧</rdg></app>
+<app from="#beg0101008" to="#end0101008"><lem wit="#wit1">紀</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">絕</rdg></app>
+<app from="#beg0101009" to="#end0101009"><lem wit="#wit1">狩</lem><rdg resp="#resp1" wit="#wit4">獸</rdg></app>
+<app from="#beg0101010" to="#end0101010"><lem wit="#wit1">昆邪</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">琨瑘</rdg><rdg resp="#resp1" wit="#wit2">昆耶</rdg></app>
+<app from="#beg0101011" to="#end0101011"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit3">玉</rdg></app>
+<app from="#beg0101012" to="#end0101012"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">天</rdg></app>
+<app from="#beg0101013" to="#end0101013"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit3 #wit5">關</rdg></app>
+<app from="#beg0101014" to="#end0101014"><lem wit="#wit1">滕</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">騰</rdg></app>
+<app from="#beg0101015" to="#end0101015"><lem wit="#wit1">劫藻</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">形澡</rdg></app>
+<app from="#beg0101016" to="#end0101016"><lem wit="#wit1">慾</lem><rdg resp="#resp1" wit="#wit2">欲</rdg></app>
+<app from="#beg0101017" to="#end0101017"><lem wit="#wit1">異</lem><rdg resp="#resp1" wit="#wit4">畏</rdg></app>
+<app from="#beg0101018" to="#end0101018"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0101019" to="#end0101019"><lem wit="#wit1">髮</lem><rdg resp="#resp1" wit="#wit4">鬢</rdg></app>
+<app from="#beg0101020" to="#end0101020"><lem wit="#wit1">拯</lem><rdg resp="#resp1" wit="#wit4">極</rdg></app>
+<app from="#beg0101021" to="#end0101021"><lem wit="#wit1">號</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">師</rdg></app>
+<app from="#beg0101022" to="#end0101022"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit4">五</rdg></app>
+<app from="#beg0101023" to="#end0101023"><lem wit="#wit1">阿</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0101024" to="#end0101024"><lem wit="#wit1">性</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">性識</rdg></app>
+<app from="#beg0101025" to="#end0101025"><lem wit="#wit1">先</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">先王</rdg></app>
+<app from="#beg0101026" to="#end0101026"><lem wit="#wit1">氈</lem><rdg resp="#resp1" wit="#wit4">栴</rdg></app>
+<app from="#beg0101027" to="#end0101027"><lem wit="#wit1">罽</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">毯</rdg></app>
+<app from="#beg0102001" to="#end0102001"><lem wit="#wit1">門</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">門為</rdg></app>
+<app from="#beg0102002" to="#end0102002"><lem wit="#wit1">太</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">大</rdg></app>
+<app from="#beg0102003" to="#end0102003"><lem wit="#wit1">載</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">載也</rdg></app>
+<app from="#beg0102004" to="#end0102004"><lem wit="#wit1">局</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">弖</rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0102004"><lem wit="#wit1">局</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">弖</rdg></app>
+<app from="#beg0102005" to="#end0102005"><lem wit="#wit1">愈</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">踰</rdg></app>
+<app from="#beg0102006" to="#end0102006"><lem wit="#wit1">號</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">號曰</rdg></app>
+<app from="#beg0102007" to="#end0102007"><lem wit="#wit1">潔</lem><rdg resp="#resp1" wit="#wit4">絜</rdg></app>
+<app from="#beg0102008" to="#end0102008"><lem wit="#wit1">靜</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">淨</rdg></app>
+<app from="#beg0102009" to="#end0102009"><lem wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">佛每</rdg></app>
+<app from="#beg0102010" to="#end0102010"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">辨</rdg></app>
+<app from="#beg0102011" to="#end0102011"><lem wit="#wit1">杏</lem><rdg resp="#resp1" wit="#wit5 #wit2 #wit4">杳</rdg></app>
+<app from="#beg0102012" to="#end0102012"><lem wit="#wit1">焉</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">馬</rdg></app>
+<app from="#beg0102013" to="#end0102013"><lem wit="#wit1">頻</lem><rdg resp="#resp1" wit="#wit3 #wit5">頴</rdg></app>
+<app from="#beg0102014" to="#end0102014"><lem wit="#wit1">表</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0102015" to="#end0102015"><lem wit="#wit1">刑</lem><rdg resp="#resp1" wit="#wit4">形</rdg></app>
+<app from="#beg0102016" to="#end0102016"><lem wit="#wit1">極</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">亟</rdg></app>
+<app from="#beg0102017" to="#end0102017"><lem wit="#wit1">羲</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">犧</rdg></app>
+<app from="#beg0102018" to="#end0102018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">無論</rdg></app>
+<app from="#beg0102019" to="#end0102019"><lem wit="#wit1">亡</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">士</rdg></app>
+<app from="#beg0102020" to="#end0102020"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">唯</rdg></app>
+<app from="#beg0102021" to="#end0102021"><lem wit="#wit1">悔</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">悔者</rdg></app>
+<app from="#beg0102022" to="#end0102022"><lem wit="#wit1">謙</lem><rdg resp="#resp1" wit="#wit2">謙之</rdg></app>
+<app from="#beg0102023" to="#end0102023"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">徒</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0102022"><lem wit="#wit1">謙</lem><rdg resp="#resp1" wit="#wit2">謙之</rdg></app>
+<app from="#beg0102024" to="#end0102024"><lem wit="#wit1">年壽</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">年受戮</rdg><rdg resp="#resp1" wit="#wit4">年受</rdg></app>
+<app from="#beg0102025" to="#end0102025"><lem wit="#wit1">業</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">事</rdg></app>
+<app from="#beg0102026" to="#end0102026"><lem wit="#wit1">弛</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">施</rdg></app>
+<app from="#beg0102027" to="#end0102027"><lem wit="#wit1">信</lem><rdg resp="#resp1" wit="#wit4">言</rdg></app>
+<app from="#beg0102028" to="#end0102028"><lem wit="#wit1">般</lem><rdg resp="#resp1" wit="#wit4">波</rdg></app>
+<app from="#beg0102029" to="#end0102029"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">若經</rdg></app>
+<app from="#beg0103001" to="#end0103001"><lem wit="#wit1"><g ref="#CB04727">󱉷</g>。剋</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">愆克</rdg></app>
+<app from="#beg0103002" to="#end0103002"><lem wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">千</rdg></app>
+<app from="#beg0103003" to="#end0103003"><lem wit="#wit1">辛</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">辛立</rdg></app>
+<app from="#beg0103004" to="#end0103004"><lem wit="#wit1">刑</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">刑設</rdg></app>
+<app from="#beg0103005" to="#end0103005"><lem wit="#wit1"><g ref="#CB00403">㳂</g></lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">降</rdg></app>
+<app from="#beg0103006" to="#end0103006"><lem wit="#wit1">逐</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">逐遂</rdg></app>
+<app from="#beg0103007" to="#end0103007"><lem wit="#wit1">帝又</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">又帝</rdg></app>
+<app from="#beg0103008" to="#end0103008"><lem wit="#wit1">定</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">從</rdg></app>
+<app from="#beg0103009" to="#end0103009"><lem wit="#wit1">嗣</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">副</rdg></app>
+<app from="#beg0103010" to="#end0103010"><lem wit="#wit1">物</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">勿</rdg></app>
+<app from="#beg0103011" to="#end0103011"><lem wit="#wit1">城</lem><rdg resp="#resp1" wit="#wit2">域</rdg></app>
+<app from="#beg0103012" to="#end0103012"><lem wit="#wit1">奔</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">崩</rdg></app>
+<app from="#beg0103013" to="#end0103013"><lem wit="#wit1">魏北</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">北魏</rdg></app>
+<app from="#beg0103014" to="#end0103014"><lem wit="#wit1">返政</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">反正</rdg></app>
+<app from="#beg0103015" to="#end0103015"><lem wit="#wit1">烈</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">列</rdg></app>
+<app from="#beg0103016" to="#end0103016"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">十人</rdg></app>
+<app from="#beg0103017" to="#end0103017"><lem wit="#wit1">軀</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0103018" to="#end0103018"><lem wit="#wit1">櫛比</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">於北</rdg></app>
+<app from="#beg0104001" to="#end0104001"><lem wit="#wit1">殭</lem><rdg resp="#resp1" wit="#wit3 #wit4">疆</rdg><rdg resp="#resp1" wit="#wit5 #wit2">僵</rdg></app>
+<app from="#beg0104002" to="#end0104002"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit3 #wit5">孝</rdg><rdg resp="#resp1" wit="#wit2">武</rdg><rdg resp="#resp1" wit="#wit4">父</rdg></app>
+<app from="#beg0104003" to="#end0104003"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">太</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0103016"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">十人</rdg></app>
+<app from="#beg0104004" to="#end0104004"><lem wit="#wit1">徂</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">殂</rdg></app>
+<app from="#beg0104005" to="#end0104005"><lem wit="#wit1">猶</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">獨</rdg></app>
+<app from="#beg0104006" to="#end0104006"><lem wit="#wit1">循</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">修</rdg></app>
+<app from="#beg0104007" to="#end0104007"><lem wit="#wit1">珍</lem><rdg resp="#resp1" wit="#wit5 #wit2">殄</rdg></app>
+<app from="#beg0104008" to="#end0104008"><lem wit="#wit1">姓</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0104009" to="#end0104009"><lem wit="#wit1">採</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">采</rdg></app>
+<app from="#beg0104010" to="#end0104010"><lem wit="#wit1">一凡</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit4">一所</rdg></app>
+<app from="#beg0104011" to="#end0104011"><lem wit="#wit1">功</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">工</rdg></app>
+<app from="#beg0104012" to="#end0104012"><lem wit="#wit1">坊</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">妨</rdg></app>
+<app from="#beg0104013" to="#end0104013"><lem wit="#wit1">銀</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">欽</rdg></app>
+<app from="#beg0104014" to="#end0104014"><lem wit="#wit1">睎</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">晞</rdg></app>
+<app from="#beg0104015" to="#end0104015"><lem wit="#wit1">集</lem><rdg resp="#resp1" wit="#wit4">進</rdg></app>
+<app from="#beg0104016" to="#end0104016"><lem wit="#wit1">原</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">源</rdg></app>
+<app from="#beg0104017" to="#end0104017"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit4">玉</rdg></app>
+<app from="#beg0104018" to="#end0104018"><lem wit="#wit1">嵋</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">眉</rdg></app>
+<app from="#beg0104019" to="#end0104019"><lem wit="#wit1">決</lem><rdg resp="#resp1" wit="#wit2">訣</rdg></app>
+<app from="#beg0105001" to="#end0105001"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">於人</rdg></app>
+<app from="#beg0105002" to="#end0105002"><lem wit="#wit1">祠</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">祀</rdg></app>
+<app from="#beg0105003" to="#end0105003"><lem wit="#wit1">練</lem><rdg resp="#resp1" wit="#wit2">鍊</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0105003"><lem wit="#wit1">練</lem><rdg resp="#resp1" wit="#wit2">鍊</rdg></app>
+<app from="#beg0105004" to="#end0105004"><lem wit="#wit1">仍</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">乃</rdg></app>
+<app from="#beg0105005" to="#end0105005"><lem wit="#wit1">太</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">木</rdg></app>
+<app from="#beg0105006" to="#end0105006"><lem wit="#wit1">刺</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0105007" to="#end0105007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0105008" to="#end0105008"><lem wit="#wit1">魯</lem><rdg resp="#resp1" wit="#wit4">曾</rdg></app>
+<app from="#beg0105009" to="#end0105009"><lem wit="#wit1">延</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">近</rdg></app>
+<app from="#beg0105010" to="#end0105010"><lem wit="#wit1">體</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">髀</rdg></app>
+<app from="#beg0105011" to="#end0105011"><lem wit="#wit1">伏</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">服</rdg></app>
+<app from="#beg0105012" to="#end0105012"><lem wit="#wit1">興</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">與</rdg></app>
+<app from="#beg0105013" to="#end0105013"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">正</rdg></app>
+<app from="#beg0105014" to="#end0105014"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">故教</rdg></app>
+<app from="#beg0105015" to="#end0105015"><lem wit="#wit1">太</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">泰</rdg></app>
+<app from="#beg0105016" to="#end0105016"><lem wit="#wit1">武</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">武帝</rdg></app>
+<app from="#beg0105017" to="#end0105017"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0105018" to="#end0105018"><lem wit="#wit1">宮</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0105019" to="#end0105019"><lem wit="#wit1">蟲</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">虫</rdg></app>
+<app from="#beg0105020" to="#end0105020"><lem wit="#wit1">錄</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">籙</rdg></app>
+<app from="#beg0105021" to="#end0105021"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0106001" to="#end0106001"><lem wit="#wit1">功</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">工</rdg></app>
+<app from="#beg0106002" to="#end0106002"><lem wit="#wit1">君</lem><rdg resp="#resp1" wit="#wit2">元</rdg></app>
+<app from="#beg0106003" to="#end0106003"><lem wit="#wit1">歷</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">曆</rdg></app>
+<app from="#beg0106004" to="#end0106004"><lem wit="#wit1">頴</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">頻</rdg></app>
+<app from="#beg0106005" to="#end0106005"><lem wit="#wit1">慾</lem><rdg resp="#resp1" wit="#wit2">欲</rdg></app>
+<app from="#beg0106006" to="#end0106006"><lem wit="#wit1">條</lem><rdg resp="#resp1" wit="#wit3 #wit5">修</rdg></app>
+<app from="#beg0106007" to="#end0106007"><lem wit="#wit1">通</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">道</rdg></app>
+<app from="#beg0106008" to="#end0106008"><lem wit="#wit1">刺</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">剌</rdg></app>
+<app from="#beg0106009" to="#end0106009"><lem wit="#wit1">員</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">圓</rdg></app>
+<app from="#beg0106010" to="#end0106010"><lem wit="#wit1">歌</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">高</rdg></app>
+<app from="#beg0106011" to="#end0106011"><lem wit="#wit1">執</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2">報</rdg></app>
+<app from="#beg0106012" to="#end0106012"><lem wit="#wit1">張</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0106013" to="#end0106013"><lem wit="#wit1">熸</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">潛</rdg></app>
+<app from="#beg0106014" to="#end0106014"><lem wit="#wit1">齊書</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0106015" to="#end0106015"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit3 #wit5">志第九</rdg><rdg resp="#resp1" wit="#wit2">志<note place="inline">出齊書</note></rdg></app>
+<app from="#beg0106016" to="#end0106016"><lem wit="#wit1">著作</lem><rdg resp="#resp1" wit="#wit2">隋</rdg><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">隋著作</rdg></app>
+<app from="#beg0106017" to="#end0106017"><lem wit="#wit1">御</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">禦</rdg></app>
+<app from="#beg0106018" to="#end0106018"><lem wit="#wit1">身</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">身心</rdg></app>
+<app from="#beg0106019" to="#end0106019"><lem wit="#wit1">順</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">黔</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0101007" resp="#resp2" type="mod" target="#nkr_note_mod_0101007">〔著作〕－【宋】【元】【明】</note>
+<note n="0101008" resp="#resp2" type="mod" target="#nkr_note_mod_0101008">紀＝絕【宋】【元】【明】【宮】</note>
+<note n="0101010" resp="#resp2" type="mod" target="#nkr_note_mod_0101010">昆邪＝琨瑘【宋】【元】【宮】，＝昆耶【明】</note>
+<note n="0101012" resp="#resp2" type="mod" target="#nkr_note_mod_0101012">大＝天【宋】【元】【明】【宮】</note>
+<note n="0101014" resp="#resp2" type="mod" target="#nkr_note_mod_0101014"><!--CBETA todo type: ＊-->滕＝騰【宋】【元】【明】【宮】＊</note>
+<note n="0101015" resp="#resp2" type="mod" target="#nkr_note_mod_0101015">劫藻＝形澡【宋】【元】【明】【宮】</note>
+<note n="0101018" resp="#resp2" type="mod" target="#nkr_note_mod_0101018">〔人〕－【宋】【元】【明】【宮】</note>
+<note n="0101021" resp="#resp2" type="mod" target="#nkr_note_mod_0101021">號＝師【宋】【元】【明】【宮】</note>
+<note n="0101024" resp="#resp2" type="mod" target="#nkr_note_mod_0101024">性＋（識）【宋】【元】【明】【宮】</note>
+<note n="0101025" resp="#resp2" type="mod" target="#nkr_note_mod_0101025">先＋（王）【宋】【元】【明】</note>
+<note n="0101027" resp="#resp2" type="mod" target="#nkr_note_mod_0101027">罽＝毯【宋】【元】【明】</note>
+<note n="0102001" resp="#resp2" type="mod" target="#nkr_note_mod_0102001">門＋（為）【宋】【元】【明】【宮】</note>
+<note n="0102004" resp="#resp2" type="mod" target="#nkr_note_mod_0102004">局＝弖【宋】＊【元】＊【明】＊</note>
+<note n="0102005" resp="#resp2" type="mod" target="#nkr_note_mod_0102005">愈＝踰【宋】【元】【明】【宮】</note>
+<note n="0102006" resp="#resp2" type="mod" target="#nkr_note_mod_0102006">號＋（曰）【宋】【元】【明】【宮】</note>
+<note n="0102008" resp="#resp2" type="mod" target="#nkr_note_mod_0102008">靜＝淨【宋】【元】【明】【宮】</note>
+<note n="0102009" resp="#resp2" type="mod" target="#nkr_note_mod_0102009">佛＋（每）【宋】【元】【明】【宮】</note>
+<note n="0102010" resp="#resp2" type="mod" target="#nkr_note_mod_0102010">辯＝辨【宋】【元】【明】【宮】</note>
+<note n="0102012" resp="#resp2" type="mod" target="#nkr_note_mod_0102012">焉＝馬【宋】【元】【明】【宮】</note>
+<note n="0102016" resp="#resp2" type="mod" target="#nkr_note_mod_0102016">極＝亟【宋】【元】【明】</note>
+<note n="0102017" resp="#resp2" type="mod" target="#nkr_note_mod_0102017">羲＝犧【宋】【元】【明】【宮】</note>
+<note n="0102018" resp="#resp2" type="mod" target="#nkr_note_mod_0102018">無＋（論）【宋】【元】【明】</note>
+<note n="0102020" resp="#resp2" type="mod" target="#nkr_note_mod_0102020">惟＝唯【宋】【元】【明】【宮】</note>
+<note n="0102021" resp="#resp2" type="mod" target="#nkr_note_mod_0102021">悔＋（者）【宋】【元】【明】【宮】</note>
+<note n="0102023" resp="#resp2" type="mod" target="#nkr_note_mod_0102023">從＝徒【宋】【元】【明】</note>
+<note n="0102024" resp="#resp2" type="mod" target="#nkr_note_mod_0102024">年壽＝年受戮【宋】【元】【明】，＝年受【宮】</note>
+<note n="0102025" resp="#resp2" type="mod" target="#nkr_note_mod_0102025">業＝事【宋】【元】【明】【宮】</note>
+<note n="0102026" resp="#resp2" type="mod" target="#nkr_note_mod_0102026">弛＝施【宋】【元】【明】【宮】</note>
+<note n="0102029" resp="#resp2" type="mod" target="#nkr_note_mod_0102029">若＋（經）【宋】【元】【明】【宮】</note>
+<note n="0103001" resp="#resp2" type="mod" target="#nkr_note_mod_0103001"><g ref="#CB04727">󱉷</g>剋＝愆克【宋】【元】【明】【宮】</note>
+<note n="0103002" resp="#resp2" type="mod" target="#nkr_note_mod_0103002">于＝千【宋】【元】【明】【宮】</note>
+<note n="0103003" resp="#resp2" type="mod" target="#nkr_note_mod_0103003">辛＋（立）【宋】【元】【明】【宮】</note>
+<note n="0103004" resp="#resp2" type="mod" target="#nkr_note_mod_0103004">刑＋（設）【宋】【元】【明】</note>
+<note n="0103005" resp="#resp2" type="mod" target="#nkr_note_mod_0103005"><g ref="#CB00403">㳂</g>＝降【宋】【元】【明】【宮】</note>
+<note n="0103006" resp="#resp2" type="mod" target="#nkr_note_mod_0103006">逐＋（遂）【宋】【元】【明】</note>
+<note n="0103007" resp="#resp2" type="mod" target="#nkr_note_mod_0103007">帝又＝又帝【宋】【元】【明】【宮】</note>
+<note n="0103008" resp="#resp2" type="mod" target="#nkr_note_mod_0103008">定＝從【宋】【元】【明】【宮】</note>
+<note n="0103009" resp="#resp2" type="mod" target="#nkr_note_mod_0103009">嗣＝副【宋】【元】【明】【宮】</note>
+<note n="0103010" resp="#resp2" type="mod" target="#nkr_note_mod_0103010">物＝勿【宋】【元】【明】</note>
+<note n="0103013" resp="#resp2" type="mod" target="#nkr_note_mod_0103013">魏北＝北魏【宋】【元】【明】【宮】</note>
+<note n="0103014" resp="#resp2" type="mod" target="#nkr_note_mod_0103014">返政＝反正【宋】【元】【明】【宮】</note>
+<note n="0103016" resp="#resp2" type="mod" target="#nkr_note_mod_0103016">十＋（人）【宋】【元】【明】【宮】＊</note>
+<note n="0103018" resp="#resp2" type="mod" target="#nkr_note_mod_0103018">櫛比＝於北【宋】【元】【明】【宮】</note>
+<note n="0104001" resp="#resp2" type="mod" target="#nkr_note_mod_0104001">殭＝疆【宋】【宮】，＝僵【元】【明】</note>
+<note n="0104002" resp="#resp2" type="mod" target="#nkr_note_mod_0104002">文＝孝【宋】【元】，＝武【明】，＝父【宮】</note>
+<note n="0104003" resp="#resp2" type="mod" target="#nkr_note_mod_0104003">大＝太【宋】【元】【明】【宮】</note>
+<note n="0104004" resp="#resp2" type="mod" target="#nkr_note_mod_0104004">徂＝殂【宋】【元】【明】【宮】</note>
+<note n="0104005" resp="#resp2" type="mod" target="#nkr_note_mod_0104005">猶＝獨【宋】【元】【明】【宮】</note>
+<note n="0104006" resp="#resp2" type="mod" target="#nkr_note_mod_0104006">循＝修【宋】【元】【明】【宮】</note>
+<note n="0104009" resp="#resp2" type="mod" target="#nkr_note_mod_0104009">採＝采【宋】【元】【明】【宮】</note>
+<note n="0104010" resp="#resp2" type="mod" target="#nkr_note_mod_0104010">〔一凡〕－【宋】【元】【明】，一凡＝一所【宮】</note>
+<note n="0104011" resp="#resp2" type="mod" target="#nkr_note_mod_0104011">功＝工【宋】【元】【明】【宮】</note>
+<note n="0104012" resp="#resp2" type="mod" target="#nkr_note_mod_0104012">坊＝妨【宋】【元】【明】【宮】</note>
+<note n="0104013" resp="#resp2" type="mod" target="#nkr_note_mod_0104013">銀＝欽【宋】【元】【明】</note>
+<note n="0104014" resp="#resp2" type="mod" target="#nkr_note_mod_0104014">睎＝晞【宋】【元】【明】【宮】</note>
+<note n="0104016" resp="#resp2" type="mod" target="#nkr_note_mod_0104016">原＝源【宋】【元】【明】【宮】</note>
+<note n="0104018" resp="#resp2" type="mod" target="#nkr_note_mod_0104018">嵋＝眉【宋】【元】【明】【宮】</note>
+<note n="0105001" resp="#resp2" type="mod" target="#nkr_note_mod_0105001">（於）＋人【宋】【元】【明】</note>
+<note n="0105002" resp="#resp2" type="mod" target="#nkr_note_mod_0105002">祠＝祀【宋】【元】【明】【宮】</note>
+<note n="0105004" resp="#resp2" type="mod" target="#nkr_note_mod_0105004">仍＝乃【宋】【元】【明】【宮】</note>
+<note n="0105007" resp="#resp2" type="mod" target="#nkr_note_mod_0105007">〔也〕－【宋】【元】【明】【宮】</note>
+<note n="0105009" resp="#resp2" type="mod" target="#nkr_note_mod_0105009">延＝近【宋】【元】【明】</note>
+<note n="0105010" resp="#resp2" type="mod" target="#nkr_note_mod_0105010">體＝髀【宋】【元】【明】【宮】</note>
+<note n="0105011" resp="#resp2" type="mod" target="#nkr_note_mod_0105011">伏＝服【宋】【元】【明】【宮】</note>
+<note n="0105012" resp="#resp2" type="mod" target="#nkr_note_mod_0105012">興＝與【宋】【元】【明】【宮】</note>
+<note n="0105013" resp="#resp2" type="mod" target="#nkr_note_mod_0105013">止＝正【宋】【元】【明】【宮】</note>
+<note n="0105015" resp="#resp2" type="mod" target="#nkr_note_mod_0105015">太＝泰【宋】【元】【明】【宮】</note>
+<note n="0105016" resp="#resp2" type="mod" target="#nkr_note_mod_0105016">武＋（帝）【宋】【元】【明】【宮】</note>
+<note n="0105020" resp="#resp2" type="mod" target="#nkr_note_mod_0105020">錄＝籙【宋】【元】【明】【宮】</note>
+<note n="0106001" resp="#resp2" type="mod" target="#nkr_note_mod_0106001">功＝工【宋】【元】【明】</note>
+<note n="0106003" resp="#resp2" type="mod" target="#nkr_note_mod_0106003">歷＝曆【宋】【元】【明】【宮】</note>
+<note n="0106004" resp="#resp2" type="mod" target="#nkr_note_mod_0106004">頴＝頻【宋】【元】【明】【宮】</note>
+<note n="0106007" resp="#resp2" type="mod" target="#nkr_note_mod_0106007">通＝道【宋】【元】【明】【宮】</note>
+<note n="0106008" resp="#resp2" type="mod" target="#nkr_note_mod_0106008">刺＝剌【宋】【元】【明】【宮】</note>
+<note n="0106009" resp="#resp2" type="mod" target="#nkr_note_mod_0106009">員＝圓【宋】【元】【明】【宮】</note>
+<note n="0106010" resp="#resp2" type="mod" target="#nkr_note_mod_0106010">歌＝高【宋】【元】【明】【宮】</note>
+<note n="0106011" resp="#resp2" type="mod" target="#nkr_note_mod_0106011">執＝報【宋】【元】【明】</note>
+<note n="0106013" resp="#resp2" type="mod" target="#nkr_note_mod_0106013">熸＝潛【宋】【元】【明】【宮】</note>
+<note n="0106016" resp="#resp2" type="mod" target="#nkr_note_mod_0106016">〔著作〕－【明】，（隋）＋著【宋】【元】【明】【宮】</note>
+<note n="0106017" resp="#resp2" type="mod" target="#nkr_note_mod_0106017">御＝禦【宋】【元】【明】【宮】</note>
+<note n="0106018" resp="#resp2" type="mod" target="#nkr_note_mod_0106018">身＋（心）【宋】【元】【明】【宮】</note>
+<note n="0106019" resp="#resp2" type="mod" target="#nkr_note_mod_0106019">順＝黔【宋】【元】【明】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0101002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101002">（（大唐…撰））十一字＝（（唐終南山釋氏））六字【宋】【元】【宮】＊，（（唐終南山釋道宣集））八字【明】＊</note>
+<note n="0101003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101003">明本無此目錄</note>
+<note n="0101004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101004">收＝牧【宋】【元】【宮】＊</note>
+<note n="0101005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101005">〔魏書〕－【明】</note>
+<note n="0101006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101006">志＋（八）【宋】【元】，（出魏書）細註【明】</note>
+<note n="0101007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101007">〔著作〕－【三】</note>
+<note n="0101008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101008">紀＝絕【三】【宮】</note>
+<note n="0101009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101009">狩＝獸【宮】</note>
+<note n="0101010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101010">昆邪＝琨瑘【宋】【元】【宮】，昆耶【明】</note>
+<note n="0101011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101011">王＝玉【宋】</note>
+<note n="0101012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101012">大＝天【三】【宮】</note>
+<note n="0101013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101013">開＝關【宋】【元】</note>
+<note n="0101014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101014">滕＝騰【三】【宮】＊</note>
+<note n="0101015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101015">劫藻＝形澡【三】【宮】</note>
+<note n="0101016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101016">慾＝欲【明】</note>
+<note n="0101017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101017">異＝畏【宮】</note>
+<note n="0101018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101018">〔人〕－【三】【宮】</note>
+<note n="0101019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101019">髮＝鬢【宮】</note>
+<note n="0101020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101020">拯＝極【宮】</note>
+<note n="0101021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101021">號＝師【三】【宮】</note>
+<note n="0101022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101022">王＝五【宮】</note>
+<note n="0101023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101023">〔阿〕－【宮】</note>
+<note n="0101024" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101024">性＋（識）【三】【宮】</note>
+<note n="0101025" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101025">先＋（王）【三】</note>
+<note n="0101026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101026">氈＝栴【宮】</note>
+<note n="0101027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101027">罽＝毯【三】</note>
+<note n="0102001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102001">門＋（為）【三】【宮】</note>
+<note n="0102002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102002">太＝大【宋】【元】【宮】</note>
+<note n="0102003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102003">載＋（也）【宋】【元】【宮】</note>
+<note n="0102004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102004">局＝弖【三】＊</note>
+<note n="0102005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102005">愈＝踰【三】【宮】</note>
+<note n="0102006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102006">號＋（曰）【三】【宮】</note>
+<note n="0102007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102007">潔＝絜【宮】</note>
+<note n="0102008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102008">靜＝淨【三】【宮】</note>
+<note n="0102009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102009">佛＋（每）【三】【宮】</note>
+<note n="0102010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102010">辯＝辨【三】【宮】</note>
+<note n="0102011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102011">杏＝杳【元】【明】【宮】</note>
+<note n="0102012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102012">焉＝馬【三】【宮】</note>
+<note n="0102013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102013">頻＝頴【宋】【元】</note>
+<note n="0102014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102014">〔表〕－【宮】</note>
+<note n="0102015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102015">刑＝形【宮】</note>
+<note n="0102016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102016">極＝亟【三】</note>
+<note n="0102017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102017">羲＝犧【三】【宮】</note>
+<note n="0102018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102018">無＋（論）【三】</note>
+<note n="0102019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102019">亡＝士【宋】【元】【宮】</note>
+<note n="0102020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102020">惟＝唯【三】【宮】</note>
+<note n="0102021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102021">悔＋（者）【三】【宮】</note>
+<note n="0102022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102022">謙＋（之）【明】＊</note>
+<note n="0102023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102023">從＝徒【三】</note>
+<note n="0102024" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102024">年壽＝年受戮【三】，年受【宮】</note>
+<note n="0102025" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102025">業＝事【三】【宮】</note>
+<note n="0102026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102026">弛＝施【三】【宮】</note>
+<note n="0102027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102027">信＝言【宮】</note>
+<note n="0102028" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102028">般＝波【宮】</note>
+<note n="0102029" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102029">若＋（經）【三】【宮】</note>
+<note n="0103001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103001"><g ref="#CB04727">󱉷</g>剋＝愆克【三】【宮】</note>
+<note n="0103002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103002">于＝千【三】【宮】</note>
+<note n="0103003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103003">辛＋（立）【三】【宮】</note>
+<note n="0103004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103004">刑＋（設）【三】</note>
+<note n="0103005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103005"><g ref="#CB00403">㳂</g>＝降【三】【宮】</note>
+<note n="0103006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103006">逐＋（遂）【三】</note>
+<note n="0103007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103007">帝又＝又帝【三】【宮】</note>
+<note n="0103008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103008">定＝從【三】【宮】</note>
+<note n="0103009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103009">嗣＝副【三】【宮】</note>
+<note n="0103010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103010">物＝勿【三】</note>
+<note n="0103011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103011">城＝域【明】</note>
+<note n="0103012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103012">奔＝崩【宋】【元】【宮】</note>
+<note n="0103013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103013">魏北＝北魏【三】【宮】</note>
+<note n="0103014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103014">返政＝反正【三】【宮】</note>
+<note n="0103015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103015">烈＝列【宋】【元】【宮】</note>
+<note n="0103016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103016">十＋（人）【三】【宮】＊</note>
+<note n="0103017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103017">〔軀〕－【宮】</note>
+<note n="0103018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103018">櫛比＝於北【三】【宮】</note>
+<note n="0104001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104001">殭＝疆【宋】【宮】，僵【元】【明】</note>
+<note n="0104002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104002">文＝孝【宋】【元】，武【明】，父【宮】</note>
+<note n="0104003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104003">大＝太【三】【宮】</note>
+<note n="0104004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104004">徂＝殂【三】【宮】</note>
+<note n="0104005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104005">猶＝獨【三】【宮】</note>
+<note n="0104006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104006">循＝修【三】【宮】</note>
+<note n="0104007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104007">珍＝殄【元】【明】</note>
+<note n="0104008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104008">〔姓〕－【宮】</note>
+<note n="0104009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104009">採＝采【三】【宮】</note>
+<note n="0104010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104010">〔一凡〕－【三】，一凡＝一所【宮】</note>
+<note n="0104011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104011">功＝工【三】【宮】</note>
+<note n="0104012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104012">坊＝妨【三】【宮】</note>
+<note n="0104013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104013">銀＝欽【三】</note>
+<note n="0104014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104014">睎＝晞【三】【宮】</note>
+<note n="0104015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104015">集＝進【宮】</note>
+<note n="0104016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104016">原＝源【三】【宮】</note>
+<note n="0104017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104017">王＝玉【宮】</note>
+<note n="0104018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104018">嵋＝眉【三】【宮】</note>
+<note n="0104019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0104019">決＝訣【明】</note>
+<note n="0105001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105001">（於）＋人【三】</note>
+<note n="0105002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105002">祠＝祀【三】【宮】</note>
+<note n="0105003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105003">練＝鍊【明】＊</note>
+<note n="0105004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105004">仍＝乃【三】【宮】</note>
+<note n="0105005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105005">太＝木【宋】【元】【宮】</note>
+<note n="0105006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105006">〔刺〕－【宮】</note>
+<note n="0105007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105007">〔也〕－【三】【宮】</note>
+<note n="0105008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105008">魯＝曾【宮】</note>
+<note n="0105009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105009">延＝近【三】</note>
+<note n="0105010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105010">體＝髀【三】【宮】</note>
+<note n="0105011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105011">伏＝服【三】【宮】</note>
+<note n="0105012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105012">興＝與【三】【宮】</note>
+<note n="0105013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105013">止＝正【三】【宮】</note>
+<note n="0105014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105014">故＋（教）【宋】【元】【宮】</note>
+<note n="0105015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105015">太＝泰【三】【宮】</note>
+<note n="0105016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105016">武＋（帝）【三】【宮】</note>
+<note n="0105017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105017">〔之〕－【宮】</note>
+<note n="0105018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105018">〔宮〕－【宮】</note>
+<note n="0105019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105019">蟲＝虫【宋】【元】【宮】</note>
+<note n="0105020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105020">錄＝籙【三】【宮】</note>
+<note n="0105021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0105021">〔之〕－【宮】</note>
+<note n="0106001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106001">功＝工【三】</note>
+<note n="0106002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106002">君＝元【明】</note>
+<note n="0106003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106003">歷＝曆【三】【宮】</note>
+<note n="0106004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106004">頴＝頻【三】【宮】</note>
+<note n="0106005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106005">慾＝欲【明】</note>
+<note n="0106006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106006">條＝修【宋】【元】</note>
+<note n="0106007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106007">通＝道【三】【宮】</note>
+<note n="0106008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106008">刺＝剌【三】【宮】</note>
+<note n="0106009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106009">員＝圓【三】【宮】</note>
+<note n="0106010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106010">歌＝高【三】【宮】</note>
+<note n="0106011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106011">執＝報【三】</note>
+<note n="0106012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106012">〔張〕－【宮】</note>
+<note n="0106013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106013">熸＝潛【三】【宮】</note>
+<note n="0106014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106014">〔齊書〕－【明】</note>
+<note n="0106015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106015">志＋（第九）【宋】【元】，（出齊書）細註【明】</note>
+<note n="0106016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106016">（隋）＋著【三】【宮】，〔著作〕－【明】</note>
+<note n="0106017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106017">御＝禦【三】【宮】</note>
+<note n="0106018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106018">身＋（心）【三】【宮】</note>
+<note n="0106019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0106019">順＝黔【三】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="rest-notes">
+<head>其他註解</head>
+<p>
+</p>
+</cb:div>
+</back></text></TEI>

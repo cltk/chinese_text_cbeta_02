@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T15n0653">
+<teiHeader>
+        <fileDesc>
+                <titleStmt>
+                        <title>Taisho Tripitaka, Electronic version, No. 0653 佛藏經</title>
+                        <author>姚秦 鳩摩羅什譯</author>
+                        <respStmt>
+                                <resp>Electronic Version by</resp>
+                                <name>CBETA</name>
+                        </respStmt>
+                </titleStmt>
+        <editionStmt>
+                <edition>$Revision: 1.18 $<date>$Date: 2012/09/10 03:11:06 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+        </editionStmt>
+        <extent>3卷</extent>
+        <publicationStmt>
+                <distributor>
+                        <name>中華電子佛典協會 (CBETA)</name>
+                        <address>
+                                <addrLine>service@cbeta.org</addrLine>
+                        </address>
+                </distributor>
+                <availability>
+                        <p>Available for non-commercial use when distributed with this header intact.</p>
+                </availability>
+                <date>$Date: 2012/09/10 03:11:06 $</date>
+        </publicationStmt>
+        <sourceDesc>
+                <bibl>Taisho Tripitaka Vol. 15, No. 653 </bibl>
+        <listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宋】</witness>
+		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+        <projectDesc>
+                <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Ms. Huang Jin-Ai</p>
+                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，黃金愛大德提供新式標點</p>
+        </projectDesc>
+<charDecl>
+<char xml:id="CB00006">
+	<charName>CBETA CHARACTER CB00006</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[(王*巨)/木]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>璩</value>
+	</charProp>
+	<mapping type="unicode">U+249B2</mapping>
+	<mapping cb:dec="983046" type="PUA">U+F0006</mapping>
+</char>
+<char xml:id="CB00626">
+	<charName>CBETA CHARACTER CB00626</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[疊*毛]</value>
+	</charProp>
+	<mapping type="unicode">U+3CB2</mapping>
+	<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
+</char>
+<char xml:id="CB01116">
+	<charName>CBETA CHARACTER CB01116</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[韅-革+虫]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>蜆</value>
+	</charProp>
+	<mapping type="unicode">U+45FE</mapping>
+	<mapping cb:dec="984156" type="PUA">U+F045C</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+                <langUsage>
+                        <language ident="en">English</language>
+                        <language ident="zh">Chinese</language>
+                </langUsage>
+        </profileDesc>
+        <revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+        <change when="1999-10-11T23:56:41">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="7" type="品">7 往古品(中)</cb:mulu>
+<lb n="0797a10" ed="T"/>
+<milestone n="3" unit="juan"/><cb:div type="pin">
+<lb n="0797a11" ed="T"/>
+<lb n="0797a12" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷">下</cb:mulu><cb:jhead><title>佛藏經</title>卷下</cb:jhead></cb:juan>
+<lb n="0797a13" ed="T"/>
+<lb n="0797a14" ed="T"/><byline cb:type="Translator">姚秦龜茲三藏鳩摩羅什譯</byline>
+<lb n="0797a15" ed="T"/><cb:mulu level="1" n="8" type="品">8 淨見品(下)</cb:mulu><head><anchor type="circle"/><anchor xml:id="nkr_note_orig_0797003" n="0797003"/><anchor xml:id="nkr_note_mod_0797003" n="0797003"/>淨見品第八</head>
+<lb n="0797a16" ed="T"/><p xml:id="pT15p0797a1601">佛告舍利弗：「我念過世求阿耨多羅三藐三
+<lb n="0797a17" ed="T"/>菩提，值三十億佛，皆號釋迦牟尼。我時皆作
+<lb n="0797a18" ed="T"/>轉輪聖王，盡形供養，及諸弟子衣服飲食、臥
+<lb n="0797a19" ed="T"/>具醫藥，為求阿耨多羅三藐三菩提。而是諸
+<lb n="0797a20" ed="T"/>佛不記我言：『汝於來世當得作佛。』何以故？以
+<lb n="0797a21" ed="T"/>我有所得故。</p><p xml:id="pT15p0797a2106" rend="inline">「舍利弗！我念過世得值八千佛，
+<lb n="0797a22" ed="T"/>皆號定光。我時皆作轉輪聖王，盡形供養，及
+<lb n="0797a23" ed="T"/>諸弟子衣服飲食、臥具醫藥，為求阿耨多羅
+<lb n="0797a24" ed="T"/>三藐三菩提。而是諸佛皆不記我：『汝於來世
+<lb n="0797a25" ed="T"/>當得作佛。』何以故？以我有所得故。</p><p xml:id="pT15p0797a2514" rend="inline">「舍利弗！我
+<lb n="0797a26" ed="T"/>念過世值六萬佛，皆號光明。我時皆作轉輪
+<lb n="0797a27" ed="T"/>聖王，盡形供養，及諸弟子衣服飲食、臥具醫
+<lb n="0797a28" ed="T"/>藥，為求阿耨多羅三藐三菩提。而是諸佛亦
+<lb n="0797a29" ed="T"/>不記我：『汝於來世當得作佛。』何以故？以我
+<pb n="0797b" ed="T" xml:id="T15.0653.0797b"/>
+<lb n="0797b01" ed="T"/>有所得故。</p><p xml:id="pT15p0797b0105" rend="inline">「舍利弗！我念過世值三億佛，皆號
+<lb n="0797b02" ed="T"/>弗沙。我時皆作轉輪聖王，四事供養；皆不記
+<lb n="0797b03" ed="T"/>我，<anchor xml:id="nkr_note_orig_0797004" n="0797004"/><anchor xml:id="nkr_note_mod_0797004" n="0797004"/><anchor xml:id="beg0797004" n="0797004"/>以<anchor xml:id="end0797004"/>有所得故。</p><p xml:id="pT15p0797b0307" rend="inline">「舍利弗！我念過世得值萬
+<lb n="0797b04" ed="T"/>八千佛，皆號山王，劫名上八。我皆於此萬八
+<lb n="0797b05" ed="T"/>千佛所，剃髮<anchor xml:id="nkr_note_orig_0797005" n="0797005"/><anchor xml:id="nkr_note_mod_0797005" n="0797005"/><anchor xml:id="beg0797005" n="0797005"/>著<anchor xml:id="end0797005"/>法衣，修習阿耨多羅三藐三
+<lb n="0797b06" ed="T"/>菩提；皆不記我，以有所得故。</p><p xml:id="pT15p0797b0612" rend="inline">「舍利弗！我念
+<lb n="0797b07" ed="T"/>過世得值五百佛，皆號華上。我時皆作轉輪
+<lb n="0797b08" ed="T"/>聖王，悉以一切供養諸佛及諸弟子；皆不記
+<lb n="0797b09" ed="T"/>我，以有所得故。</p><p xml:id="pT15p0797b0907" rend="inline">「舍利弗！我念過世得值五百
+<lb n="0797b10" ed="T"/>佛，皆號威德，我悉供養；皆不記我，以有所得
+<lb n="0797b11" ed="T"/>故。</p><p xml:id="pT15p0797b1102" rend="inline">「舍利弗！我念過世得值<anchor xml:id="nkr_note_orig_0797006" n="0797006"/><anchor xml:id="nkr_note_mod_0797006" n="0797006"/><anchor xml:id="beg0797006" n="0797006"/>二<anchor xml:id="end0797006"/>千佛，皆號憍
+<lb n="0797b12" ed="T"/>陳如。我時皆作轉輪聖王，悉以一切供具供
+<lb n="0797b13" ed="T"/>養諸佛；皆不記我，以有所得故。</p><p xml:id="pT15p0797b1313" rend="inline">「舍利弗！我
+<lb n="0797b14" ed="T"/>念過世值九千佛，皆號迦葉。我以四事供養
+<lb n="0797b15" ed="T"/>諸佛及弟子眾；皆不記我，以有所得故。</p><p xml:id="pT15p0797b1516" rend="inline">「舍利
+<lb n="0797b16" ed="T"/>弗！我念過去於萬劫中無有佛出，爾時初五
+<lb n="0797b17" ed="T"/>百劫，有九萬辟支佛，我盡形壽，悉皆供養衣
+<lb n="0797b18" ed="T"/>服飲食、臥具醫藥，尊重讚歎。次五百劫，復以
+<lb n="0797b19" ed="T"/>四事供養八萬四千億諸辟支佛，尊重讚歎。
+<lb n="0797b20" ed="T"/>舍利弗！過是千劫已無復辟支佛！我時閻浮
+<lb n="0797b21" ed="T"/>提死，生梵世中作大梵王，如是展轉五百劫
+<lb n="0797b22" ed="T"/>中，常生梵世作大梵王，不生閻浮提。過是五
+<lb n="0797b23" ed="T"/>百劫已，下生閻浮提，治化閻浮提，命終生
+<lb n="0797b24" ed="T"/>四天王天，於中命終生忉利天，作釋提桓因。
+<lb n="0797b25" ed="T"/>如是展轉滿五百劫，生閻浮提滿五百劫，生
+<lb n="0797b26" ed="T"/>於梵世作大梵王。</p><p xml:id="pT15p0797b2608" rend="inline">「舍利弗！我於九千劫中，但
+<lb n="0797b27" ed="T"/><anchor xml:id="nkr_note_orig_0797007" n="0797007"/><anchor xml:id="nkr_note_mod_0797007" n="0797007"/><anchor xml:id="beg0797007" n="0797007"/>一<anchor xml:id="end0797007"/>生閻浮提，九千劫中但生天上，劫盡燒時
+<lb n="0797b28" ed="T"/>生光音天，世界成已還生梵世，九千劫中都
+<lb n="0797b29" ed="T"/>不生人中。舍利弗！是九千劫無有諸佛辟支
+<pb n="0797c" ed="T" xml:id="T15.0653.0797c"/>
+<lb n="0797c01" ed="T"/>佛，多諸眾生墮在惡道。</p><p xml:id="pT15p0797c0110" rend="inline">「舍利弗！是萬劫過已，
+<lb n="0797c02" ed="T"/>有佛出世，號<anchor xml:id="nkr_note_orig_0797008" n="0797008"/><anchor xml:id="nkr_note_mod_0797008" n="0797008"/><anchor xml:id="beg0797008" n="0797008"/>曰<anchor xml:id="end0797008"/>普守如來、應供、正遍知、明行
+<lb n="0797c03" ed="T"/>足、善逝、世間解、無上士、調御丈夫、天人師、佛、世
+<lb n="0797c04" ed="T"/>尊。我於爾時梵世命終，生閻浮提作轉輪聖
+<lb n="0797c05" ed="T"/>王，號曰共天。人壽九萬歲。我盡形壽以一切
+<lb n="0797c06" ed="T"/>樂具，供養彼佛及九十億比丘，於九萬歲為
+<lb n="0797c07" ed="T"/>求阿耨多羅三藐三菩提，是普守佛亦不<anchor xml:id="nkr_note_orig_0797009" n="0797009"/><anchor xml:id="nkr_note_mod_0797009" n="0797009"/><anchor xml:id="beg0797009" n="0797009"/>說<anchor xml:id="end0797009"/>
+<lb n="0797c08" ed="T"/>我：『汝於來世當得作佛。』何以故？我於爾時不
+<lb n="0797c09" ed="T"/>能通達諸法實相，貪著計我有所得見。</p><p xml:id="pT15p0797c0916" rend="inline">「舍利
+<lb n="0797c10" ed="T"/>弗！於是劫中有百佛出，名號各異。我時皆作
+<lb n="0797c11" ed="T"/>轉輪聖王，盡形供養及諸弟子，為求阿耨
+<lb n="0797c12" ed="T"/>多羅三藐三菩提，而是諸佛亦不記我：『汝於
+<lb n="0797c13" ed="T"/>來世當得作佛。』以有所得故。</p><p xml:id="pT15p0797c1312" rend="inline">「舍利弗！我念
+<lb n="0797c14" ed="T"/>過世第七百阿僧祇劫中，得值千佛，皆號閻
+<lb n="0797c15" ed="T"/>浮檀。我盡形壽四事供養，亦<anchor xml:id="nkr_note_orig_0797010" n="0797010"/><anchor xml:id="nkr_note_mod_0797010" n="0797010"/><anchor xml:id="beg0797010" n="0797010"/>無<anchor xml:id="end0797010"/>記我，以有
+<lb n="0797c16" ed="T"/>所得故。</p><p xml:id="pT15p0797c1604" rend="inline">「舍利弗！我念過世，亦於第七百阿僧
+<lb n="0797c17" ed="T"/>祇劫中，得值六百二十萬諸佛，皆號見一切
+<lb n="0797c18" ed="T"/>義。我時皆作轉輪聖王，以一切樂具盡形供
+<lb n="0797c19" ed="T"/>養及諸弟子；亦不記我，以有所得故。</p><p xml:id="pT15p0797c1915" rend="inline">「舍利
+<lb n="0797c20" ed="T"/>弗！我念過世亦於第七百阿僧祇劫中，得值
+<lb n="0797c21" ed="T"/>八十四佛，皆號帝相。我時皆作轉輪聖王，以
+<lb n="0797c22" ed="T"/>一切樂具盡形供養及諸弟子；亦不記我，以
+<lb n="0797c23" ed="T"/>有所得故。</p><p xml:id="pT15p0797c2305" rend="inline">「舍利弗！我念過世亦於第七百阿
+<lb n="0797c24" ed="T"/>僧祇劫中，得值<anchor xml:id="nkr_note_orig_0797011" n="0797011"/><anchor xml:id="nkr_note_mod_0797011" n="0797011"/><anchor xml:id="beg0797011" n="0797011"/>六十五<anchor xml:id="end0797011"/>佛，皆號日明。我時
+<lb n="0797c25" ed="T"/>皆作轉輪聖王，以一切樂具盡形供養及諸
+<lb n="0797c26" ed="T"/>弟子；亦不記我，以有所得故。</p><p xml:id="pT15p0797c2612" rend="inline">「舍利弗！我念過
+<lb n="0797c27" ed="T"/>世亦於第七百阿僧祇劫中，得值六十二佛，
+<lb n="0797c28" ed="T"/>皆號善寂。我時皆作轉輪聖王，以一切樂具
+<lb n="0797c29" ed="T"/>盡形供養；亦不記我，以有所得故。如是展
+<pb n="0798a" ed="T" xml:id="T15.0653.0798a"/>
+<lb n="0798a01" ed="T"/>轉乃至見<anchor xml:id="nkr_note_orig_0798001" n="0798001"/><anchor xml:id="nkr_note_mod_0798001" n="0798001"/><anchor xml:id="beg0798001" n="0798001"/>定光佛<anchor xml:id="end0798001"/>，乃得無生忍，即記我言：『汝
+<lb n="0798a02" ed="T"/>於來世過阿僧祇劫，當得作佛，號釋迦牟尼
+<lb n="0798a03" ed="T"/>如來、應供、正遍知、明行足、善逝、世間解、無上士、
+<lb n="0798a04" ed="T"/>調御丈夫、天人師、佛、世尊。』</p><p xml:id="pT15p0798a0411" rend="inline">「舍利弗！我念過世
+<lb n="0798a05" ed="T"/>有十二億轉輪聖王，皆字頂生。又舍利弗！
+<lb n="0798a06" ed="T"/><anchor xml:id="nkr_note_orig_0798002" n="0798002"/><anchor xml:id="nkr_note_mod_0798002" n="0798002"/><anchor xml:id="beg0798002" n="0798002"/>過世<anchor xml:id="end0798002"/>有三十億轉輪聖王，皆<anchor xml:id="nkr_note_orig_0798003" n="0798003"/><anchor xml:id="beg0798003" n="0798003"/>名<anchor xml:id="end0798003"/>摩訶<anchor xml:id="nkr_note_orig_0798004" n="0798004"/><anchor xml:id="nkr_note_mod_0798004" n="0798004"/><anchor xml:id="beg0798004" n="0798004"/>那<anchor xml:id="end0798004"/>摩
+<lb n="0798a07" ed="T"/>陀<anchor xml:id="nkr_note_orig_0798005" n="0798005"/><anchor xml:id="beg0798005" n="0798005"/>那<anchor xml:id="end0798005"/>。舍利弗！我念過<anchor xml:id="nkr_note_orig_0798006" n="0798006"/><anchor xml:id="nkr_note_mod_0798006" n="0798006"/><anchor xml:id="beg0798006" n="0798006"/>世<anchor xml:id="end0798006"/>四十億轉輪聖王，
+<lb n="0798a08" ed="T"/>皆字摩訶提婆。舍利弗！我念過世有一億轉
+<lb n="0798a09" ed="T"/>輪聖王，皆字億<anchor xml:id="nkr_note_orig_0798007" n="0798007"/><anchor xml:id="nkr_note_mod_0798007" n="0798007"/><anchor xml:id="beg0798007" n="0798007"/>螺<anchor xml:id="end0798007"/><anchor xml:id="nkr_note_orig_0798008" n="0798008"/><anchor xml:id="nkr_note_mod_0798008" n="0798008"/><anchor xml:id="beg0798008" n="0798008"/><note place="inline">律媯反</note><anchor xml:id="end0798008"/>。舍利弗！我念過世
+<lb n="0798a10" ed="T"/>有一<anchor xml:id="nkr_note_orig_0798009" n="0798009"/><anchor xml:id="nkr_note_mod_0798009" n="0798009"/><anchor xml:id="beg0798009" n="0798009"/>億<anchor xml:id="end0798009"/>轉輪聖王，皆字稱尾<anchor xml:id="nkr_note_orig_0798010" n="0798010"/><anchor xml:id="beg0798010" n="0798010"/><note place="inline">覓視反</note><anchor xml:id="end0798010"/>。舍利弗！我
+<lb n="0798a11" ed="T"/>念過世有一萬轉輪聖王，皆字照明。舍利弗！
+<lb n="0798a12" ed="T"/>我念過世有二萬轉輪聖王，名字各異。舍利
+<lb n="0798a13" ed="T"/>弗！我念過世有十六億轉輪聖王，名字各異，
+<lb n="0798a14" ed="T"/>是諸王等，我於餘處為阿難說。舍利弗！於意
+<lb n="0798a15" ed="T"/>云何？汝謂是諸王者，豈異人乎？即我身是。</p><p xml:id="pT15p0798a1517" rend="inline">「舍
+<lb n="0798a16" ed="T"/>利弗！我念過去時世有佛，號曰善明。彌勒菩
+<lb n="0798a17" ed="T"/>薩時作轉輪聖王，字曰照明，初發阿耨多羅
+<lb n="0798a18" ed="T"/>三藐三菩提心。於時眾生壽八萬四千歲。其
+<lb n="0798a19" ed="T"/>善明佛三會說法，初會九十六億人一時得
+<lb n="0798a20" ed="T"/>道；第二大會九十四億人一時得道；第三大
+<lb n="0798a21" ed="T"/>會九十二億人一時得道。時王見佛三會說
+<lb n="0798a22" ed="T"/>法度人無量，心大歡喜，即於萬歲一切供養
+<lb n="0798a23" ed="T"/>佛及弟子，發心求阿耨多羅三藐三菩提：『於
+<lb n="0798a24" ed="T"/>未來世眾生易度，我當成佛，壽命限量、比丘
+<lb n="0798a25" ed="T"/>僧數圍繞如是。』舍利弗！我知是事過此無量。</p>
+<lb n="0798a26" ed="T"/><p xml:id="pT15p0798a2601">「舍利弗！彌勒發心四十劫已，我乃發心。無勝
+<lb n="0798a27" ed="T"/>佛所初種善根，我於千歲一切樂具供養是
+<lb n="0798a28" ed="T"/>佛，五百張<anchor xml:id="nkr_note_orig_0798011" n="0798011"/><anchor xml:id="beg0798011" n="0798011"/>疊<anchor xml:id="end0798011"/>而以奉上。是佛滅後起七寶
+<lb n="0798a29" ed="T"/>塔，高一由旬、縱廣半由旬，皆以金銀、琉璃、頗
+<pb n="0798b" ed="T" xml:id="T15.0653.0798b"/>
+<lb n="0798b01" ed="T"/>梨、車<g ref="#CB00006">𤦲</g>、馬瑙、赤真珠所成。心常發願：『眾生苦
+<lb n="0798b02" ed="T"/>惱無救度者，遭值惡法多墮惡趣，我於爾時
+<lb n="0798b03" ed="T"/>當成佛道。』</p><p xml:id="pT15p0798b0305" rend="inline">「舍利弗！汝且觀之，阿耨多羅三藐
+<lb n="0798b04" ed="T"/>三菩提甚難修習。舍利弗！我修習阿耨多羅
+<lb n="0798b05" ed="T"/>三藐三菩提，無央數世受諸苦惱，我若說者
+<lb n="0798b06" ed="T"/>汝聞愁悶，我諸所受勤苦憂惱，皆為求<anchor xml:id="nkr_note_orig_0798012" n="0798012"/><anchor xml:id="nkr_note_mod_0798012" n="0798012"/><anchor xml:id="beg0798012" n="0798012"/>得<anchor xml:id="end0798012"/>阿
+<lb n="0798b07" ed="T"/>耨多羅三藐三菩提。舍利弗！汝觀薩和檀菩
+<lb n="0798b08" ed="T"/>薩、求善法菩薩、常悲菩薩、不放逸菩薩、常精
+<lb n="0798b09" ed="T"/>進菩薩，供養若干諸佛受諸苦惱，猶尚難得
+<lb n="0798b10" ed="T"/>阿耨多羅三藐三菩提，何況是諸癡人，乃無
+<lb n="0798b11" ed="T"/>一念為求涅槃？舍利弗！如是行者猶尚甚難，
+<lb n="0798b12" ed="T"/>況不行者？</p><p xml:id="pT15p0798b1205" rend="inline">「是故舍利弗！我今明了告汝，以
+<lb n="0798b13" ed="T"/>下法者不得上法，用上法者乃得上法。何等
+<lb n="0798b14" ed="T"/>下法？謂身惡業、口惡業、意惡業。下法名為不
+<lb n="0798b15" ed="T"/>能勤心修習善法；下法名為懈怠嬾墮破所
+<lb n="0798b16" ed="T"/>受戒。舍利弗！是名下中下者。又下中下者，於
+<lb n="0798b17" ed="T"/>我法中出家，生有所得見、我見、人見、眾生見。
+<lb n="0798b18" ed="T"/>何以故？舍利弗！如來於此了了<anchor xml:id="nkr_note_orig_0798013" n="0798013"/><anchor xml:id="nkr_note_mod_0798013" n="0798013"/><anchor xml:id="beg0798013" n="0798013"/>現<anchor xml:id="end0798013"/>知，有所
+<lb n="0798b19" ed="T"/>得者乃無順忍，況得道果。舍利弗！若有所得
+<lb n="0798b20" ed="T"/>者，百千萬億諸佛，以三輪示現是人，若當不
+<lb n="0798b21" ed="T"/>捨是見，尚不消人一口飲食，況得道果？</p><p xml:id="pT15p0798b2116" rend="inline">「舍利
+<lb n="0798b22" ed="T"/>弗！我見、人見得涅槃者，一切凡夫皆應滅度。
+<lb n="0798b23" ed="T"/>何以故？我見、人見皆是邪見。諸凡夫人，多貪
+<lb n="0798b24" ed="T"/>著我我所見、人見、眾生見。是故一切凡夫應
+<lb n="0798b25" ed="T"/>得涅槃。</p><p xml:id="pT15p0798b2504" rend="inline">「舍利弗！若人作念有我、有人，是人若
+<lb n="0798b26" ed="T"/>當不捨是見得入涅槃，一切凡夫應得聖道。
+<lb n="0798b27" ed="T"/>何以故？一切凡夫皆是我見、人見。是故我見、
+<lb n="0798b28" ed="T"/>人見入涅槃者，一切凡夫皆入聖道，於聖道
+<lb n="0798b29" ed="T"/>中則無所少。</p><p xml:id="pT15p0798b2906" rend="inline">「舍利弗！若人作念有我見者則
+<pb n="0798c" ed="T" xml:id="T15.0653.0798c"/>
+<lb n="0798c01" ed="T"/>有涅槃，是人<anchor xml:id="nkr_note_orig_0798014" n="0798014"/><anchor xml:id="nkr_note_mod_0798014" n="0798014"/><anchor xml:id="beg0798014" n="0798014"/>得<anchor xml:id="end0798014"/>是聖道不須餘念。何以故？
+<lb n="0798c02" ed="T"/>一切凡夫我見、人見無所少故。如是癡人有
+<lb n="0798c03" ed="T"/>是過失，謂諸凡夫皆入聖道，聖道無繫。是
+<lb n="0798c04" ed="T"/>人修時應當殺生，受諸五欲起五逆罪。是故
+<lb n="0798c05" ed="T"/>癡人於聖道中有五逆罪。何以故？一切凡夫
+<lb n="0798c06" ed="T"/>皆說有我、有眾生故。若人作如是言：『成就五
+<lb n="0798c07" ed="T"/>逆罪者不入涅槃，說我、人者得入涅槃。』即是
+<lb n="0798c08" ed="T"/>妄語亦是謗佛，於我法中又不能得清淨出
+<lb n="0798c09" ed="T"/>家。</p><p xml:id="pT15p0798c0902" rend="inline">「舍利弗！我今明了告汝，有所得者無有涅
+<lb n="0798c10" ed="T"/>槃。有所得者若有涅槃，是則諸佛不出於世，
+<lb n="0798c11" ed="T"/>一切凡夫皆入涅槃。何以故？一切凡夫皆有
+<lb n="0798c12" ed="T"/>我見、人見，皆有所得皆是邪見。</p><p xml:id="pT15p0798c1213" rend="inline">「舍利弗！汝且
+<lb n="0798c13" ed="T"/>觀我，幾時成就有所得見、非賢聖行，諸佛不
+<lb n="0798c14" ed="T"/>與我授記言：『汝於來世當得作佛。』舍利弗！我
+<lb n="0798c15" ed="T"/>如是行，猶不得記；況是癡人但以持戒、多聞、
+<lb n="0798c16" ed="T"/>禪定等，生我見、人見、眾生見？舍利弗！我說此
+<lb n="0798c17" ed="T"/>人不名行者、不名得者。何以故？舍利弗！長夜
+<lb n="0798c18" ed="T"/>貪著如是邪見，不得滅度故。如是癡人不作
+<lb n="0798c19" ed="T"/>是念：『我等何不試行修習無我、人法？我等或
+<lb n="0798c20" ed="T"/>得斷眾苦聚。』舍利弗！譬如從生盲人，走避惡
+<lb n="0798c21" ed="T"/>狗墮深<anchor xml:id="nkr_note_orig_0798015" n="0798015"/><anchor xml:id="nkr_note_mod_0798015" n="0798015"/><anchor xml:id="beg0798015" n="0798015"/>火坑<anchor xml:id="end0798015"/>。舍利弗！我謂癡人如是修習
+<lb n="0798c22" ed="T"/>我見、人見、有所得見，以是諸見欲望清淨，是
+<lb n="0798c23" ed="T"/>人隨所貪著，即以是事欲得涅槃；我說是人
+<lb n="0798c24" ed="T"/>當墮惡道。</p><p xml:id="pT15p0798c2405" rend="inline">「舍利弗！譬如盲人於深<anchor xml:id="beg_f" type="star"/>火坑<anchor xml:id="end_f"/>生安
+<lb n="0798c25" ed="T"/>隱心，如是癡人於我、人見、有所得見生安隱
+<lb n="0798c26" ed="T"/>心，是人長夜隨所著者，為之欺誑還著是事，
+<lb n="0798c27" ed="T"/>於我法中而受供養，如是癡人長夜衰惱墮
+<lb n="0798c28" ed="T"/>惡道中。</p><p xml:id="pT15p0798c2804" rend="inline">「舍利弗！譬如大灌頂王，自於所治國
+<lb n="0798c29" ed="T"/>中威勢自在，是人應奪、是人應驅。若諸民眾
+<pb n="0799a" ed="T" xml:id="T15.0653.0799a"/>
+<lb n="0799a01" ed="T"/>不順王意，說王過惡沮壞人心，不能護城謀
+<lb n="0799a02" ed="T"/>欲反叛。王知是人為是大賊，於大眾中打惡
+<lb n="0799a03" ed="T"/>聲鼓，苦治其罪驅擯令出，以其不能盡忠護
+<lb n="0799a04" ed="T"/>城，得是苦惱。舍利弗！佛亦如是，於無量劫修
+<lb n="0799a05" ed="T"/><anchor xml:id="nkr_note_orig_0799001" n="0799001"/><anchor xml:id="beg0799001" n="0799001"/>習<anchor xml:id="end0799001"/>阿耨多羅三藐三菩提為大法王，於法國
+<lb n="0799a06" ed="T"/>土有大威力。諸弟子中有知法味，乃至失命
+<lb n="0799a07" ed="T"/>不毀我教，諸<anchor xml:id="nkr_note_orig_0799002" n="0799002"/><anchor xml:id="beg0799002" n="0799002"/>天<anchor xml:id="end0799002"/>世人無能壞者，所受教中
+<lb n="0799a08" ed="T"/>自不惡逆亦不教他。我於眾中有大威力，自
+<lb n="0799a09" ed="T"/>在立教為護法城，不使惡賊毀壞得入，竊受
+<lb n="0799a10" ed="T"/>如來所說密法，向諸怨賊邪見者說。</p>
+<lb n="0799a11" ed="T"/><p xml:id="pT15p0799a1101">「舍利弗！如來現在善護法城，四大弟子智慧
+<lb n="0799a12" ed="T"/>深遠，<anchor xml:id="nkr_note_orig_0799003" n="0799003"/><anchor xml:id="nkr_note_mod_0799003" n="0799003"/><anchor xml:id="beg0799003" n="0799003"/>今<anchor xml:id="end0799003"/>我法城不懼破壞。若與法城作障
+<lb n="0799a13" ed="T"/>礙者，為是大賊毀壞法城，盜我密法向外道
+<lb n="0799a14" ed="T"/>說。是人常來至於我所，我與共語示其教法
+<lb n="0799a15" ed="T"/>不說密要。是人為求所示教法出家受戒，我
+<lb n="0799a16" ed="T"/>知此人後應得道，聽使出家，四月中試。何以
+<lb n="0799a17" ed="T"/>故？為護法城故，又使未來世賊不更起故。
+<lb n="0799a18" ed="T"/>如是如來善護法城使不得便，所謂令受佛
+<lb n="0799a19" ed="T"/>教捨本惡<anchor xml:id="nkr_note_orig_0799004" n="0799004"/><anchor xml:id="beg0799004" n="0799004"/>邪<anchor xml:id="end0799004"/>，諸比丘眾皆應歡喜，聽使出家
+<lb n="0799a20" ed="T"/>得受戒已，天人世間不能<anchor xml:id="nkr_note_orig_0799005" n="0799005"/><anchor xml:id="nkr_note_mod_0799005" n="0799005"/><anchor xml:id="beg0799005" n="0799005"/>動轉<anchor xml:id="end0799005"/>。</p><p xml:id="pT15p0799a2013" rend="inline">「舍利弗！何
+<lb n="0799a21" ed="T"/>等是可試者？謂外道人及樂外道法者。舍利
+<lb n="0799a22" ed="T"/>弗！何等是樂外道法？所謂有所得者、我見
+<lb n="0799a23" ed="T"/><anchor xml:id="nkr_note_orig_0799006" n="0799006"/><anchor xml:id="nkr_note_mod_0799006" n="0799006"/><anchor xml:id="beg0799006" n="0799006"/>者<anchor xml:id="end0799006"/>、人見者、眾生見者、貪<anchor xml:id="nkr_note_orig_0799007" n="0799007"/><anchor xml:id="nkr_note_mod_0799007" n="0799007"/><anchor xml:id="beg0799007" n="0799007"/>者<anchor xml:id="end0799007"/>、邪者、於自相空
+<lb n="0799a24" ed="T"/><anchor xml:id="nkr_note_orig_0799008" n="0799008"/><anchor xml:id="nkr_note_mod_0799008" n="0799008"/><anchor xml:id="beg0799008" n="0799008"/>法<anchor xml:id="end0799008"/>心生疑者，受行種種邪虛妄法，不能入於
+<lb n="0799a25" ed="T"/>第一義空，行諸邪道，<anchor xml:id="nkr_note_orig_0799009" n="0799009"/><anchor xml:id="nkr_note_mod_0799009" n="0799009"/><anchor xml:id="beg0799009" n="0799009"/>是<anchor xml:id="end0799009"/>人名為樂外道法。</p>
+<lb n="0799a26" ed="T"/><p xml:id="pT15p0799a2601">「舍利弗！不可試以種種色衣。若白衣人若著
+<lb n="0799a27" ed="T"/>袈裟，有如是不善有所得見，皆名外道。於我
+<lb n="0799a28" ed="T"/>法中出家受戒，是人應試。何以故？有所得者，
+<lb n="0799a29" ed="T"/>於我法中即是邪見，是名大賊。一切世間天
+<pb n="0799b" ed="T" xml:id="T15.0653.0799b"/>
+<lb n="0799b01" ed="T"/>人中賊，是名一切世間怨家、諸佛大賊。舍利
+<lb n="0799b02" ed="T"/>弗！是邪見人，我則不聽出家受戒。</p><p xml:id="pT15p0799b0214" rend="inline">「舍利弗！一
+<lb n="0799b03" ed="T"/>切法無我，若人於中不能生忍，一切法空、無
+<lb n="0799b04" ed="T"/>我、無人、無眾生、無壽命不能信解，於我法中
+<lb n="0799b05" ed="T"/>所受供養，名為不淨。是人則是不供養佛、不
+<lb n="0799b06" ed="T"/>供養法、不供養僧。強入我法，形是沙門，心
+<lb n="0799b07" ed="T"/>是外道，為盜法人。</p><p xml:id="pT15p0799b0708" rend="inline">「舍利弗！於未來世當有比
+<lb n="0799b08" ed="T"/>丘，不修身、不修戒、不修心、不修慧。是人輕笑
+<lb n="0799b09" ed="T"/>如來所說、如來所行。如來常於第一義空，恭
+<lb n="0799b10" ed="T"/>敬供養常樂是行。是諸比丘輕笑如來所行
+<lb n="0799b11" ed="T"/>真際畢竟空法。舍利弗！爾時若有苦行比丘，
+<lb n="0799b12" ed="T"/>亦共輕笑（<anchor xml:id="beg_10" type="star"/>今<anchor xml:id="end_10"/>我弟子有行空者，我讚其善安
+<lb n="0799b13" ed="T"/>慰其心）。爾時是人<anchor xml:id="nkr_note_orig_0799010" n="0799010"/><anchor xml:id="nkr_note_mod_0799010" n="0799010"/><anchor xml:id="beg0799010" n="0799010"/>輕蔑空行<anchor xml:id="end0799010"/>，但求不<anchor xml:id="nkr_note_orig_0799011" n="0799011"/><anchor xml:id="nkr_note_mod_0799011" n="0799011"/><anchor xml:id="beg0799011" n="0799011"/>堅牢<anchor xml:id="end0799011"/>
+<lb n="0799b14" ed="T"/>事，以有我及有諸法如是等事，令眾心憙。若
+<lb n="0799b15" ed="T"/>說一切諸法空者亦輕是人。何以故？舍利弗！
+<lb n="0799b16" ed="T"/>法應爾也。眾生善根欲斷，本相則現，真實妙
+<lb n="0799b17" ed="T"/>法在於世間無有受者。譬如癡人，以栴檀香
+<lb n="0799b18" ed="T"/>同於猥木。</p><p xml:id="pT15p0799b1805" rend="inline">「舍利弗！迦葉佛說：『未來世中釋迦
+<lb n="0799b19" ed="T"/>牟尼佛諸弟子眾，以利養故，為諸白衣說第
+<lb n="0799b20" ed="T"/>一義空。爾時多有在家出家，愚癡不受違逆
+<lb n="0799b21" ed="T"/>不信，而反誹謗失於大利。以是因緣當墮惡
+<lb n="0799b22" ed="T"/>道』。</p><p xml:id="pT15p0799b2202" rend="inline">「舍利弗！爾時多有相違諍論，我論、人論、眾
+<lb n="0799b23" ed="T"/>生論、壽者論、命者論，善法欲少但樂利養，實
+<lb n="0799b24" ed="T"/>是愚癡自謂有智，互相違逆常共諍<anchor xml:id="nkr_note_orig_0799012" n="0799012"/><anchor xml:id="beg0799012" n="0799012"/>訟<anchor xml:id="end0799012"/>，樂有
+<lb n="0799b25" ed="T"/>斷事生怨嫉心。是人捨沙門法但求利養，多
+<lb n="0799b26" ed="T"/>樂事務所營非一，常樂伺求他人長短，自隱
+<lb n="0799b27" ed="T"/>其過稱說功德（如今比丘覆藏功德，自出過
+<lb n="0799b28" ed="T"/>惡）。當爾之時，咸共不能護持重戒，無所曉故
+<lb n="0799b29" ed="T"/>破於<anchor xml:id="nkr_note_orig_0799013" n="0799013"/><anchor xml:id="nkr_note_mod_0799013" n="0799013"/><anchor xml:id="beg0799013" n="0799013"/>儀則<anchor xml:id="end0799013"/>，而言：『諸法空、自相空，何所能作？』
+<pb n="0799c" ed="T" xml:id="T15.0653.0799c"/>
+<lb n="0799c01" ed="T"/>如那羅戲人種種變現，無所知者見之大笑。
+<lb n="0799c02" ed="T"/>何以故？<anchor xml:id="nkr_note_orig_0799014" n="0799014"/><anchor xml:id="nkr_note_mod_0799014" n="0799014"/><anchor xml:id="beg0799014" n="0799014"/>不知<anchor xml:id="end0799014"/>戲法其術隱故，生希有心驚怪
+<lb n="0799c03" ed="T"/>大笑。如是舍利弗！爾時真實比丘說空寂法，
+<lb n="0799c04" ed="T"/>求活命者咸共嗤笑。何以故？是人不知佛法
+<lb n="0799c05" ed="T"/>義故，聞說空法驚疑怖畏。舍利弗！汝觀此人，
+<lb n="0799c06" ed="T"/>於安隱處生衰惱心，於衰惱處生安隱心，是
+<lb n="0799c07" ed="T"/>人顛倒逆行善法，順行惡法。舍利弗！如是癡
+<lb n="0799c08" ed="T"/>人，多懷慳貪、瞋恚、愚癡，具行三不善根。</p><p xml:id="pT15p0799c0816" rend="inline">「舍利
+<lb n="0799c09" ed="T"/>弗！我為利益持戒比丘故，說二百五十戒經。
+<lb n="0799c10" ed="T"/>如是癡人，乃以世間小因緣故，向在家者說，
+<lb n="0799c11" ed="T"/>乃至書寫以示白衣。舍利弗！如是癡人說言：
+<lb n="0799c12" ed="T"/>『諸法空、自相空，何所能作？』何以故？如是癡
+<lb n="0799c13" ed="T"/>人，尚不能除慳貪煩惱，何況能斷無明？</p><p xml:id="pT15p0799c1316" rend="inline">「舍利
+<lb n="0799c14" ed="T"/>弗！爾時持律比丘不能善學，諸說法者亦不
+<lb n="0799c15" ed="T"/>善學，<anchor xml:id="nkr_note_orig_0799015" n="0799015"/><anchor xml:id="nkr_note_mod_0799015" n="0799015"/><anchor xml:id="beg0799015" n="0799015"/>讀誦修妬路<anchor xml:id="end0799015"/>者亦不善學。舍利弗！云
+<lb n="0799c16" ed="T"/>何名為持律比丘不能善學？如來經中說有
+<lb n="0799c17" ed="T"/>三學：善戒學、善心學、善慧學。是人於三學中
+<lb n="0799c18" ed="T"/>不能善學，但以多聞因緣輕慢他人，是人則
+<lb n="0799c19" ed="T"/>為障礙善法。如是癡人，猶尚不能如法答問，
+<lb n="0799c20" ed="T"/>況於畢竟空無所有中能發精進？</p><p xml:id="pT15p0799c2014" rend="inline">「舍利弗！爾
+<lb n="0799c21" ed="T"/>時破戒比丘，樂為白衣執事，宣通使命，療治
+<lb n="0799c22" ed="T"/>病法，以自生活。舍利弗！汝今觀此惡人，於我
+<lb n="0799c23" ed="T"/>法中出家受戒得受供養，而反以我為怨。舍
+<lb n="0799c24" ed="T"/>利弗！爾時四天王、釋提桓因、大梵天王，乃至
+<lb n="0799c25" ed="T"/>百千萬億諸天，見我法中如是毀壞，皆大憂
+<lb n="0799c26" ed="T"/>愁啼泣涕零。舍利弗！是實不應依止於我，而
+<lb n="0799c27" ed="T"/>為白衣營執事務。何以故？釋迦牟尼佛弟子，
+<lb n="0799c28" ed="T"/>乃至諸天龍神猶尚不應為作給使，諸天龍
+<lb n="0799c29" ed="T"/>神於我弟子與作給使。如是癡人所親近白
+<pb n="0800a" ed="T" xml:id="T15.0653.0800a"/>
+<lb n="0800a01" ed="T"/>衣，若能修習通達諸法第一義空，無有是處。</p>
+<lb n="0800a02" ed="T"/><p xml:id="pT15p0800a0201">「舍利弗！爾時破戒比丘，乃至為得<anchor xml:id="nkr_note_orig_0800001" n="0800001"/><anchor xml:id="nkr_note_mod_0800001" n="0800001"/><anchor xml:id="beg0800001" n="0800001"/>一杯<anchor xml:id="end0800001"/>酒
+<lb n="0800a03" ed="T"/>故，與諸白衣演說佛法。於意云何？多貪恚癡
+<lb n="0800a04" ed="T"/>多樂讀經，貪外經利行不清淨，是人能得信
+<lb n="0800a05" ed="T"/>解無所有畢竟空法，能得具足沙門果不？」</p><p xml:id="pT15p0800a0517" rend="inline">「不
+<lb n="0800a06" ed="T"/>也。世尊！」</p><p xml:id="pT15p0800a0604" rend="inline">「舍利弗！若有比丘趣得衣服飲食、臥
+<lb n="0800a07" ed="T"/>具醫藥，持戒清淨，不樂<anchor xml:id="nkr_note_orig_0800002" n="0800002"/><anchor xml:id="nkr_note_mod_0800002" n="0800002"/><anchor xml:id="beg0800002" n="0800002"/>眾<anchor xml:id="end0800002"/>閙散亂<anchor xml:id="nkr_note_orig_0800003" n="0800003"/><anchor xml:id="nkr_note_mod_0800003" n="0800003"/><anchor xml:id="beg0800003" n="0800003"/>言語<anchor xml:id="end0800003"/>，不
+<lb n="0800a08" ed="T"/>貪外義晝夜精勤如救頭然，一心勤行八直聖
+<lb n="0800a09" ed="T"/>道。是人於空無所得法尚難通達，況是癡
+<lb n="0800a10" ed="T"/>人，無有深欲無有信解？舍利弗！汝觀是人，
+<lb n="0800a11" ed="T"/>不知如來無上義故破我正法，自為己身及
+<lb n="0800a12" ed="T"/>為他人作大衰惱，如是大賊世間怨家，此經
+<lb n="0800a13" ed="T"/>中說應當遠離。是人於佛尚不知恩自念：『我
+<lb n="0800a14" ed="T"/>等所為出家？於此法中不應行處則不應行。』
+<lb n="0800a15" ed="T"/>是故舍利弗！如來欲使未來世中止此惡故，
+<lb n="0800a16" ed="T"/>說如是經。若有比丘破所受戒，毀破威儀及
+<lb n="0800a17" ed="T"/>破正見，得聞是經怖畏反戒。何以故？破戒
+<lb n="0800a18" ed="T"/>之人，不應於彈指頃住聖人相在袈裟中。若
+<lb n="0800a19" ed="T"/>聞是經心歡喜者，是人名為供養諸佛守護
+<lb n="0800a20" ed="T"/>佛道。何以故？舍利弗！是名佛道真際。<anchor xml:id="nkr_note_orig_0800004" n="0800004"/><anchor xml:id="nkr_note_mod_0800004" n="0800004"/><anchor xml:id="beg0800004" n="0800004"/>若<anchor xml:id="end0800004"/>善
+<lb n="0800a21" ed="T"/>男子、善女人欲得沙門法者，為聽是經，應過
+<lb n="0800a22" ed="T"/>百千萬億由旬。何以故？諸佛如來久乃出世，
+<lb n="0800a23" ed="T"/>雖出於世時乃說之。」</p><anchor xml:id="nkr_note_orig_0800005" n="0800005"/><anchor xml:id="nkr_note_mod_0800005" n="0800005"/><anchor type="circle"/></cb:div>
+<lb n="0800a24" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="9" type="品">9 了戒品(下)</cb:mulu><head><anchor type="circle"/><anchor xml:id="nkr_note_orig_0800006" n="0800006"/><anchor xml:id="nkr_note_mod_0800006" n="0800006"/><anchor xml:id="beg0800006" n="0800006"/><title>佛藏經</title><anchor xml:id="end0800006"/>了戒品第九</head>
+<lb n="0800a25" ed="T"/><p xml:id="pT15p0800a2501">佛告舍利弗：「有三種人，聞說是經心不喜樂。
+<lb n="0800a26" ed="T"/>何等<anchor xml:id="nkr_note_orig_0800007" n="0800007"/><anchor xml:id="beg0800007" n="0800007"/>三<anchor xml:id="end0800007"/>？一者、破戒比丘；二者、增上慢人；三
+<lb n="0800a27" ed="T"/>者、不淨說法及貪著我者。是人遠離於此隨
+<lb n="0800a28" ed="T"/>順實相深經，具足充滿生盲部黨。是故舍利
+<lb n="0800a29" ed="T"/>弗！我以是經重囑累汝。所以者何？是經於如
+<pb n="0800b" ed="T" xml:id="T15.0653.0800b"/>
+<lb n="0800b01" ed="T"/>來滅後，能令清淨持戒比丘心生喜樂。如是
+<lb n="0800b02" ed="T"/>深經，清淨戒者常所攝持，毀破戒者常所遠
+<lb n="0800b03" ed="T"/>離。所以者何？癡人聞說真實正語，則以為
+<lb n="0800b04" ed="T"/>苦。</p><p xml:id="pT15p0800b0402" rend="inline">「舍利弗！破戒比丘所成相貌，如來於此已
+<lb n="0800b05" ed="T"/>具廣說。舍利弗！破戒比丘法應不樂持戒
+<lb n="0800b06" ed="T"/>律儀，愚癡之人不喜智慧；慳人不欲聞說布
+<lb n="0800b07" ed="T"/>施；增上慢<anchor xml:id="nkr_note_orig_0800008" n="0800008"/><anchor xml:id="nkr_note_mod_0800008" n="0800008"/><anchor xml:id="beg0800008" n="0800008"/>者<anchor xml:id="end0800008"/>不欲聞此無憍慢法，若聞驚
+<lb n="0800b08" ed="T"/>畏如墮深坑；好世利者貪著美味，聞訶<anchor xml:id="nkr_note_orig_0800009" n="0800009"/><anchor xml:id="nkr_note_mod_0800009" n="0800009"/><anchor xml:id="beg0800009" n="0800009"/>訾<anchor xml:id="end0800009"/>食
+<lb n="0800b09" ed="T"/>心則憂惱；若人好讀<anchor xml:id="nkr_note_orig_0800010" n="0800010"/><anchor xml:id="nkr_note_mod_0800010" n="0800010"/><anchor xml:id="beg0800010" n="0800010"/>外<anchor xml:id="end0800010"/>經書者，則於其中
+<lb n="0800b10" ed="T"/>生堅實想；貪著語者樂說散亂，<anchor xml:id="nkr_note_orig_0800011" n="0800011"/><anchor xml:id="nkr_note_mod_0800011" n="0800011"/><anchor xml:id="beg0800011" n="0800011"/>樂<anchor xml:id="end0800011"/>嚴飾辭；
+<lb n="0800b11" ed="T"/>巧美說者，於佛第一義則無淨心，又於此法
+<lb n="0800b12" ed="T"/>不敬不信。舍利弗！譬如不男之人無男子用，
+<lb n="0800b13" ed="T"/>至男子中生不男想，而作是念：『是諸人等如
+<lb n="0800b14" ed="T"/>我無異。』如是好<anchor xml:id="nkr_note_orig_0800012" n="0800012"/><anchor xml:id="nkr_note_mod_0800012" n="0800012"/><anchor xml:id="beg0800012" n="0800012"/>著外經<anchor xml:id="end0800012"/>書者，常樂嚴飾巧
+<lb n="0800b15" ed="T"/>美文辭，於佛第一義心不恭敬。舍利弗！其
+<lb n="0800b16" ed="T"/>中有人說清淨經，於此人所亦不恭敬，輕慢
+<lb n="0800b17" ed="T"/>清淨持戒比丘。何以故？舍利弗！外道經書
+<lb n="0800b18" ed="T"/>無真實語，法應憍慢貢高自大。何以故？是事
+<lb n="0800b19" ed="T"/>不為厭離、不為寂滅、不為得道、不為涅槃，
+<lb n="0800b20" ed="T"/>是人毀壞信等<anchor xml:id="nkr_note_orig_0800013" n="0800013"/><anchor xml:id="nkr_note_mod_0800013" n="0800013"/><anchor xml:id="beg0800013" n="0800013"/>善<anchor xml:id="end0800013"/>根故，於一切處不信有功
+<lb n="0800b21" ed="T"/>德，如不男人於諸人中皆謂如己。</p><p xml:id="pT15p0800b2114" rend="inline">「舍利弗！如
+<lb n="0800b22" ed="T"/>生盲人不見諸色，所謂黑色白色，不見黑白
+<lb n="0800b23" ed="T"/>色者；不見好色不見醜色、不見青黃赤白紅
+<lb n="0800b24" ed="T"/>紫縹色，不見長短麁細深淺等色、不見日月
+<lb n="0800b25" ed="T"/>星宿，不見日月星宿者。如是盲人便作是念：
+<lb n="0800b26" ed="T"/>『無黑白色、無見黑白色者，無好<anchor xml:id="nkr_note_orig_0800014" n="0800014"/><anchor xml:id="nkr_note_mod_0800014" n="0800014"/><anchor xml:id="beg0800014" n="0800014"/>醜<anchor xml:id="end0800014"/>色、無青
+<lb n="0800b27" ed="T"/>黃紫縹、長短麁細深淺、日月星宿色，無見
+<lb n="0800b28" ed="T"/>日月星宿者，餘人皆亦<anchor xml:id="nkr_note_orig_0800015" n="0800015"/><anchor xml:id="nkr_note_mod_0800015" n="0800015"/><anchor xml:id="beg0800015" n="0800015"/>如是<anchor xml:id="end0800015"/>！』盲人心倒，於
+<lb n="0800b29" ed="T"/>一切處皆<anchor xml:id="nkr_note_orig_0800016" n="0800016"/><anchor xml:id="beg0800016" n="0800016"/>謂<anchor xml:id="end0800016"/>黑闇。舍利弗！破戒比丘、增上
+<pb n="0800c" ed="T" xml:id="T15.0653.0800c"/>
+<lb n="0800c01" ed="T"/>慢人、<anchor xml:id="nkr_note_orig_0800017" n="0800017"/><anchor xml:id="nkr_note_mod_0800017" n="0800017"/><anchor xml:id="beg0800017" n="0800017"/>墮<anchor xml:id="end0800017"/>外道論比丘亦復如是，於深佛法
+<lb n="0800c02" ed="T"/>心不信樂不能通達，聞諸法空無所有，不信
+<lb n="0800c03" ed="T"/>不樂不能通達。舍利弗！如是諸人畏於汝等，
+<lb n="0800c04" ed="T"/>入邪際中不得正法，以是正法名為真實沙
+<lb n="0800c05" ed="T"/>門。汝所得法是人不信，猶如盲人謂無<anchor xml:id="nkr_note_orig_0800018" n="0800018"/><anchor xml:id="nkr_note_mod_0800018" n="0800018"/><anchor xml:id="beg0800018" n="0800018"/>白黑<anchor xml:id="end0800018"/>
+<lb n="0800c06" ed="T"/>等色。</p><p xml:id="pT15p0800c0603" rend="inline">「舍利弗！是人如是入於邪際，求外道論
+<lb n="0800c07" ed="T"/>樂眾閙<anchor xml:id="nkr_note_orig_0800019" n="0800019"/><anchor xml:id="beg0800019" n="0800019"/>語<anchor xml:id="end0800019"/>，增長煩惱惡性惡法，是人不能
+<lb n="0800c08" ed="T"/>信諸法空，何況通達？舍利弗！於意云何？野
+<lb n="0800c09" ed="T"/>干作師子，為能已吼、今吼、當吼，作師子行，今
+<lb n="0800c10" ed="T"/>行、當行、已行不？」</p><p xml:id="pT15p0800c1007" rend="inline">「不也。世尊！何以故？野干色力
+<lb n="0800c11" ed="T"/>音聲不及師子，野干但能作野干聲。若欲作
+<lb n="0800c12" ed="T"/>聲，但有野干聲出，非師子聲。」</p><p xml:id="pT15p0800c1212" rend="inline">「如是舍利弗！
+<lb n="0800c13" ed="T"/>破戒比丘、增上慢比丘自以此事為上，不淨
+<lb n="0800c14" ed="T"/>說法者受尼犍子論，若執一事堅持不捨，貪
+<lb n="0800c15" ed="T"/>貴世利樂讀經書，不能<anchor xml:id="nkr_note_orig_0800020" n="0800020"/><anchor xml:id="beg0800020" n="0800020"/>通達<anchor xml:id="end0800020"/>諸法實相。若
+<lb n="0800c16" ed="T"/>能信受無相法者，無有是處。</p><p xml:id="pT15p0800c1612" rend="inline">「舍利弗！若有比
+<lb n="0800c17" ed="T"/>丘耆年有德，比丘中龍有深智慧，是人能信
+<lb n="0800c18" ed="T"/>無所有、自相空法、無我、無人法。何以故？是人
+<lb n="0800c19" ed="T"/>不樂眾閙雜語；不樂讀經睡眠多事；不為白
+<lb n="0800c20" ed="T"/>衣營執事務；不為使命持送文書；不行醫術、
+<lb n="0800c21" ed="T"/>不讀醫方、不為販賣、不樂論說世間語言，但
+<lb n="0800c22" ed="T"/>樂欲說出世間語。是人能信一切法空，於一
+<lb n="0800c23" ed="T"/>切法不起不壞。是人則能證真實際，則能如
+<lb n="0800c24" ed="T"/>實正師子吼，非野干吼。</p><p xml:id="pT15p0800c2410" rend="inline">「舍利弗！若有比丘著
+<lb n="0800c25" ed="T"/>外經義，是人為捨微妙佛法，<anchor xml:id="nkr_note_orig_0800021" n="0800021"/><anchor xml:id="beg0800021" n="0800021"/>誦持<anchor xml:id="end0800021"/>外道語
+<lb n="0800c26" ed="T"/>言為大眾說，但作野干吼。舍利弗！如是惡
+<lb n="0800c27" ed="T"/>人名為朽壞沙門。何以故？是外道義，非佛法
+<lb n="0800c28" ed="T"/>故。</p><p xml:id="pT15p0800c2802" rend="inline">「舍利弗！著外道法比丘，不應自稱是佛弟
+<lb n="0800c29" ed="T"/>子。何以故？沙門釋子不說尼犍子語，於大眾
+<pb n="0801a" ed="T" xml:id="T15.0653.0801a"/>
+<lb n="0801a01" ed="T"/>中但說佛語。舍利弗！若人著不淨語，欲作
+<lb n="0801a02" ed="T"/>師子吼，但作野干鳴，是人不能解佛法第一
+<lb n="0801a03" ed="T"/>義。</p><p xml:id="pT15p0801a0302" rend="inline">「舍利弗！我今明了告汝，若人具足持戒、禪
+<lb n="0801a04" ed="T"/>定、智慧，不慳不貪、不染恚癡，不懷諂曲有厭
+<lb n="0801a05" ed="T"/>惡心，言必真實，常樂獨處不樂睡眠，樂空無
+<lb n="0801a06" ed="T"/>相無願、無生無滅行，生<anchor xml:id="nkr_note_orig_0801001" n="0801001"/><anchor xml:id="beg0801001" n="0801001"/>離欲<anchor xml:id="end0801001"/>心求解佛法第
+<lb n="0801a07" ed="T"/>一義，不好世語樂出世語盡持諸戒，一切惡
+<lb n="0801a08" ed="T"/>事及惡知識悉皆遠離，住如是法則能解空
+<lb n="0801a09" ed="T"/>無所有法。何以故？舍利弗！是行名為大人所
+<lb n="0801a10" ed="T"/>行；非是貪樂利養所行，非是愚癡常人所行，
+<lb n="0801a11" ed="T"/>非是敗壞沙門所行，非是<anchor xml:id="nkr_note_orig_0801002" n="0801002"/><anchor xml:id="nkr_note_mod_0801002" n="0801002"/><anchor xml:id="beg0801002" n="0801002"/>糟糠<anchor xml:id="end0801002"/>沙門所行，
+<lb n="0801a12" ed="T"/>非是假名沙門所行。</p><p xml:id="pT15p0801a1209" rend="inline">「舍利弗！諸法實相畢竟
+<lb n="0801a13" ed="T"/>空寂，即是佛道，好世財利貪說不淨法者，所
+<lb n="0801a14" ed="T"/>不能及。舍利弗！是地名為大智者地；非是貪
+<lb n="0801a15" ed="T"/>樂外道者地，<anchor xml:id="nkr_note_orig_0801003" n="0801003"/><anchor xml:id="nkr_note_mod_0801003" n="0801003"/><anchor xml:id="beg0801003" n="0801003"/>非<anchor xml:id="end0801003"/>說我見人見者地。</p><p xml:id="pT15p0801a1514" rend="inline">「舍利弗！
+<lb n="0801a16" ed="T"/>若實有我、有人者，說我人者，應有實相。如實
+<lb n="0801a17" ed="T"/>應問：『若有我者，為是何色？青黃赤白？為在
+<lb n="0801a18" ed="T"/>身中？為在身外？為遍在身如油在麻？』舍利弗！
+<lb n="0801a19" ed="T"/>麻中有油，可出可示。若我在內說有我者，應
+<lb n="0801a20" ed="T"/>說應示，如從麻中出油示油。第一義中求我
+<lb n="0801a21" ed="T"/>不可得，是故當知，若說有我人者，是人猶尚
+<lb n="0801a22" ed="T"/>無沙門戒，況沙門地？</p><p xml:id="pT15p0801a2209" rend="inline">「舍利弗！當知如是邪貪
+<lb n="0801a23" ed="T"/>著者，所謂著我、著眾生、著壽命者，則為墮頂。
+<lb n="0801a24" ed="T"/>是人如是邪貪著故，尚不能除貪利養心，況
+<lb n="0801a25" ed="T"/>細煩惱？舍利弗！通達空者，若為貪欲、瞋恚、愚
+<lb n="0801a26" ed="T"/>癡利養所覆，無有是處，亦不墮頂。</p><p xml:id="pT15p0801a2614" rend="inline">「舍利弗！
+<lb n="0801a27" ed="T"/>計我心者謂有壽命，壽命因緣故，則為利養
+<lb n="0801a28" ed="T"/>所牽障礙於道。舍利弗！我見者、人見者，雖於
+<lb n="0801a29" ed="T"/>我法出家為道，如是癡人於<anchor xml:id="nkr_note_orig_0801004" n="0801004"/><anchor xml:id="nkr_note_mod_0801004" n="0801004"/><anchor xml:id="beg0801004" n="0801004"/>清淨<anchor xml:id="end0801004"/>中則非出
+<pb n="0801b" ed="T" xml:id="T15.0653.0801b"/>
+<lb n="0801b01" ed="T"/>家。何以故？尼犍子出家，皆計我心有所得
+<lb n="0801b02" ed="T"/>故。舍利弗！有所得者，從無始世常有此見，若
+<lb n="0801b03" ed="T"/>得出家猶有不絕，是名因外道出家，不名因
+<lb n="0801b04" ed="T"/>聖法出家。何以故？弊人不能信樂大法，於清
+<lb n="0801b05" ed="T"/>淨大法<anchor xml:id="nkr_note_orig_0801005" n="0801005"/><anchor xml:id="nkr_note_mod_0801005" n="0801005"/><anchor xml:id="beg0801005" n="0801005"/>無<anchor xml:id="end0801005"/>真實<anchor xml:id="nkr_note_orig_0801006" n="0801006"/><anchor xml:id="nkr_note_mod_0801006" n="0801006"/><anchor xml:id="beg0801006" n="0801006"/>想<anchor xml:id="end0801006"/>。</p><p xml:id="pT15p0801b0508" rend="inline">「舍利弗！如是破法重罪
+<lb n="0801b06" ed="T"/>因緣餘殃未盡，不能信解諸法實相，起<anchor xml:id="nkr_note_orig_0801007" n="0801007"/><anchor xml:id="nkr_note_mod_0801007" n="0801007"/><anchor xml:id="beg0801007" n="0801007"/>不善<anchor xml:id="end0801007"/>
+<lb n="0801b07" ed="T"/>業，或謗八直聖道；或於淨戒比丘而生惡心，
+<lb n="0801b08" ed="T"/>妄出其過；或言破戒、破見、破命、破威儀；或不
+<lb n="0801b09" ed="T"/>見他過妄生是非；或以濁恚嫉心說他惡名；
+<lb n="0801b10" ed="T"/>或不能知佛經義理，謂非佛法。如是惡人成
+<lb n="0801b11" ed="T"/>就破法惡業，於佛第一義中，心不通達不入
+<lb n="0801b12" ed="T"/><anchor xml:id="nkr_note_orig_0801008" n="0801008"/><anchor xml:id="nkr_note_mod_0801008" n="0801008"/><anchor xml:id="beg0801008" n="0801008"/>不喜<anchor xml:id="end0801008"/>。如是重罪餘報因緣，雖勤精進，猶尚
+<lb n="0801b13" ed="T"/>不能取所緣相，何況繫心能得道果？又深依
+<lb n="0801b14" ed="T"/>止我見人見，如是見者，乃至諸佛猶亦不能
+<lb n="0801b15" ed="T"/>拔其根本，何況聲聞？</p><p xml:id="pT15p0801b1509" rend="inline">「舍利弗！若人有如是
+<lb n="0801b16" ed="T"/>貪著不善邪見，謂我見、人見、眾生見、壽者見、
+<lb n="0801b17" ed="T"/>命者見，又於第一義空驚疑畏者，當知是人
+<lb n="0801b18" ed="T"/>先世成就破法罪緣。舍利弗！若人如是貪著
+<lb n="0801b19" ed="T"/>惡邪不善，謂貪我、貪人、貪壽命者，<anchor xml:id="nkr_note_orig_0801009" n="0801009"/><anchor xml:id="nkr_note_mod_0801009" n="0801009"/><anchor xml:id="beg0801009" n="0801009"/>是人<anchor xml:id="end0801009"/><anchor xml:id="nkr_note_orig_0801010" n="0801010"/><anchor xml:id="beg0801010" n="0801010"/>百<anchor xml:id="end0801010"/>
+<lb n="0801b20" ed="T"/>千億諸佛以三輪示現，不能令悟使得道果。
+<lb n="0801b21" ed="T"/>舍利弗！寧以利刀割舌，不應不見他事妄說
+<lb n="0801b22" ed="T"/>其過，破戒、破見、破命、破威儀。</p><p xml:id="pT15p0801b2212" rend="inline">「舍利弗！於未來
+<lb n="0801b23" ed="T"/>世，當有比丘善護二百五十戒，是人<anchor xml:id="nkr_note_orig_0801011" n="0801011"/><anchor xml:id="nkr_note_mod_0801011" n="0801011"/><anchor xml:id="beg0801011" n="0801011"/>我慢
+<lb n="0801b24" ed="T"/>心<anchor xml:id="end0801011"/>生而作是念：『我是持戒，餘人不爾！』輕於他
+<lb n="0801b25" ed="T"/>人心無恭敬：『我是多聞，彼非多聞。』舍利弗！爾
+<lb n="0801b26" ed="T"/>時多有比丘，但貴持戒多行阿蘭若行，<anchor xml:id="nkr_note_orig_0801012" n="0801012"/><anchor xml:id="nkr_note_mod_0801012" n="0801012"/><anchor xml:id="beg0801012" n="0801012"/>能<anchor xml:id="end0801012"/>
+<lb n="0801b27" ed="T"/>善護戒品<anchor xml:id="nkr_note_orig_0801013" n="0801013"/><anchor xml:id="nkr_note_mod_0801013" n="0801013"/><anchor xml:id="beg0801013" n="0801013"/>隨<anchor xml:id="end0801013"/>所說行，勤心讀經求通佛法。如
+<lb n="0801b28" ed="T"/>是人等，生多聞慢、阿練若慢，而好瞋恚心常
+<lb n="0801b29" ed="T"/>垢濁，深懷慳貪、瞋恚毒心頑鈍無知，以小因
+<pb n="0801c" ed="T" xml:id="T15.0653.0801c"/>
+<lb n="0801c01" ed="T"/>緣而起大事。是人瞋恚覆心互相出過，謂破
+<lb n="0801c02" ed="T"/>戒、破見、破命、破威儀。舍利弗！如是僧中有好
+<lb n="0801c03" ed="T"/>比丘，心無偏黨處在中間，而亦<anchor xml:id="nkr_note_orig_0801014" n="0801014"/><anchor xml:id="nkr_note_mod_0801014" n="0801014"/><anchor xml:id="beg0801014" n="0801014"/>同<anchor xml:id="end0801014"/>之在彼惡
+<lb n="0801c04" ed="T"/>中，互相譏論諍訟不息，不得安隱坐禪讀經，
+<lb n="0801c05" ed="T"/>在家出家皆亦<anchor xml:id="nkr_note_orig_0801015" n="0801015"/><anchor xml:id="nkr_note_mod_0801015" n="0801015"/><anchor xml:id="beg0801015" n="0801015"/>嬈動<anchor xml:id="end0801015"/>。</p><p xml:id="pT15p0801c0509" rend="inline">「如是舍利弗！爾時多
+<lb n="0801c06" ed="T"/>有比丘，一歲二歲三歲乃至九歲，輕慢上座
+<lb n="0801c07" ed="T"/>無有恭敬，是人出家受戒多不如法，習効<anchor xml:id="nkr_note_orig_0801016" n="0801016"/><anchor xml:id="beg0801016" n="0801016"/>和
+<lb n="0801c08" ed="T"/>上<anchor xml:id="end0801016"/>阿闍<anchor xml:id="nkr_note_orig_0801017" n="0801017"/><anchor xml:id="beg0801017" n="0801017"/>梨<anchor xml:id="end0801017"/>亦無恭敬。舍利弗！爾時年少比
+<lb n="0801c09" ed="T"/>丘及先出家無有依止，共相輕慢十歲比丘
+<lb n="0801c10" ed="T"/>所畜徒眾，其諸徒眾皆無恭敬威儀法則，亦
+<lb n="0801c11" ed="T"/>不如法。舍利弗！時諸惡人，具足貪欲、瞋恚、愚
+<lb n="0801c12" ed="T"/>癡，互相輕慢無有恭敬，相違逆故我法則滅。
+<lb n="0801c13" ed="T"/>舍利弗！時諸癡人多起破法罪業，起此罪已
+<lb n="0801c14" ed="T"/>當墮<anchor xml:id="nkr_note_orig_0801018" n="0801018"/><anchor xml:id="nkr_note_mod_0801018" n="0801018"/><anchor xml:id="beg0801018" n="0801018"/>惡道<anchor xml:id="end0801018"/>。</p><p xml:id="pT15p0801c1405" rend="inline">「舍利弗！我今明了告汝，求自利
+<lb n="0801c15" ed="T"/>己善比丘，當爾之時不應入眾，乃至一宿；
+<lb n="0801c16" ed="T"/><anchor xml:id="nkr_note_orig_0801019" n="0801019"/><anchor xml:id="beg0801019" n="0801019"/>唯<anchor xml:id="end0801019"/>除阿羅漢煩惱已斷，及病比丘於中有緣。
+<lb n="0801c17" ed="T"/>何以故？舍利弗！當爾時人貪欲、瞋恚、愚癡毒
+<lb n="0801c18" ed="T"/>盛，不活怖畏常所逼切。求利善人<anchor xml:id="nkr_note_orig_0801020" n="0801020"/><anchor xml:id="nkr_note_mod_0801020" n="0801020"/><anchor xml:id="beg0801020" n="0801020"/>常應<anchor xml:id="end0801020"/>自
+<lb n="0801c19" ed="T"/>處山林空靜，乃至畢命如野獸死。</p><p xml:id="pT15p0801c1914" rend="inline">「舍利弗！我
+<lb n="0801c20" ed="T"/>今明了告汝，我此真法不久住世。何以故？眾
+<lb n="0801c21" ed="T"/>生福德善根已盡，濁世在近，求自利<anchor xml:id="nkr_note_orig_0801021" n="0801021"/><anchor xml:id="nkr_note_mod_0801021" n="0801021"/><anchor xml:id="beg0801021" n="0801021"/>善<anchor xml:id="end0801021"/>比丘
+<lb n="0801c22" ed="T"/>應生如是厭心：我當云何？見法破亂、見此
+<lb n="0801c23" ed="T"/>沙門惡世難時，我當勤心精進早得道果。</p><p xml:id="pT15p0801c2317" rend="inline">「舍
+<lb n="0801c24" ed="T"/>利弗！我法無諸難事，不<anchor xml:id="nkr_note_orig_0801022" n="0801022"/><anchor xml:id="nkr_note_mod_0801022" n="0801022"/><anchor xml:id="beg0801022" n="0801022"/>念<anchor xml:id="end0801022"/>衣食臥具醫藥，
+<lb n="0801c25" ed="T"/>汝等但當勤行佛道，莫貴世間財利供養。舍
+<lb n="0801c26" ed="T"/>利弗！汝今善聽！我當語汝。若有一心行道比
+<lb n="0801c27" ed="T"/>丘，千億天神皆共同心，以諸樂具欲共供
+<lb n="0801c28" ed="T"/>養。舍利弗！諸人供養坐禪比丘不及天神。是
+<lb n="0801c29" ed="T"/>故舍利弗！汝勿憂念不得自<anchor xml:id="nkr_note_orig_0801023" n="0801023"/><anchor xml:id="nkr_note_mod_0801023" n="0801023"/><anchor xml:id="beg0801023" n="0801023"/>供<anchor xml:id="end0801023"/>。佛真教化
+<pb n="0802a" ed="T" xml:id="T15.0653.0802a"/>
+<lb n="0802a01" ed="T"/>當隨順行，莫以第一義空出<anchor xml:id="nkr_note_orig_0802001" n="0802001"/><anchor xml:id="nkr_note_mod_0802001" n="0802001"/><anchor xml:id="beg0802001" n="0802001"/>人<anchor xml:id="end0802001"/>過惡。何以
+<lb n="0802a02" ed="T"/>故？舍利弗！大嶮難者所謂得空。或有比丘因
+<lb n="0802a03" ed="T"/>以我法出家受戒，於此法中勤行精進。雖諸
+<lb n="0802a04" ed="T"/>天神、諸人不念，但能一心勤行道者，終亦不
+<lb n="0802a05" ed="T"/>念衣食所須、所以者何？如來福藏無量難盡。</p>
+<lb n="0802a06" ed="T"/><p xml:id="pT15p0802a0601">「舍利弗！如來滅後，白毫相中百千億分，其中
+<lb n="0802a07" ed="T"/>一分供養舍利及諸弟子。舍利弗！設使一切
+<lb n="0802a08" ed="T"/>世間人，皆共出家隨順法行，於白毫相百千
+<lb n="0802a09" ed="T"/>億分不盡其一。舍利弗！如來如是無量福德，
+<lb n="0802a10" ed="T"/>若諸比丘所得飲食，及所須物趣得皆足。舍
+<lb n="0802a11" ed="T"/>利弗！是諸比丘應如是念：『不應於所須物，行
+<lb n="0802a12" ed="T"/>諸邪命惡法。』</p><p xml:id="pT15p0802a1206" rend="inline">「舍利弗！若納衣比丘，於糞掃
+<lb n="0802a13" ed="T"/>中拾取弊故，應生是心：『以此障<anchor xml:id="nkr_note_orig_0802002" n="0802002"/><anchor xml:id="beg0802002" n="0802002"/>寒<anchor xml:id="end0802002"/>及修聖
+<lb n="0802a14" ed="T"/>道。我今以此弊故，縫作僧伽<anchor xml:id="beg_11" type="star"/>梨<anchor xml:id="end_11"/>，著勤行精
+<lb n="0802a15" ed="T"/>進；若以凡夫，乃至一夜不應著此。』是比丘
+<lb n="0802a16" ed="T"/>淨<anchor xml:id="nkr_note_orig_0802003" n="0802003"/><anchor xml:id="nkr_note_mod_0802003" n="0802003"/><anchor xml:id="beg0802003" n="0802003"/>浣<anchor xml:id="end0802003"/>縫著。若此比丘於此納衣生貪著<anchor xml:id="nkr_note_orig_0802004" n="0802004"/><anchor xml:id="nkr_note_mod_0802004" n="0802004"/><anchor xml:id="beg0802004" n="0802004"/>心<anchor xml:id="end0802004"/>，
+<lb n="0802a17" ed="T"/>即應捨之，我不聽著，何況餘衣？何以故？舍
+<lb n="0802a18" ed="T"/>利弗！是比丘於此衣中，生非比丘法，是比丘
+<lb n="0802a19" ed="T"/>不復應著，何況餘物？舍利弗！<anchor xml:id="nkr_note_orig_0802005" n="0802005"/><anchor xml:id="nkr_note_mod_0802005" n="0802005"/><anchor xml:id="beg0802005" n="0802005"/>是時<anchor xml:id="end0802005"/>比丘寧
+<lb n="0802a20" ed="T"/>以赤熱鐵鍱自纏其身，不應著此納衣。何以
+<lb n="0802a21" ed="T"/>故？於此衣中染愛心故。</p><p xml:id="pT15p0802a2110" rend="inline">「舍利弗！納衣比丘
+<lb n="0802a22" ed="T"/>應作是念：『著此納衣，以遮寒熱以助修道，我
+<lb n="0802a23" ed="T"/>今不復更著餘衣，當得須陀洹果、斯陀含果、
+<lb n="0802a24" ed="T"/>阿那含果、阿羅漢果。』舍利弗！如是納衣比丘
+<lb n="0802a25" ed="T"/>專求道者，我則聽著。</p><p xml:id="pT15p0802a2509" rend="inline">「舍利弗！乞食比丘，應
+<lb n="0802a26" ed="T"/>諸法中無所分別，常攝其心不令散亂而入
+<lb n="0802a27" ed="T"/>聚落，以諸禪定而自莊嚴，乞食得已心<anchor xml:id="nkr_note_orig_0802006" n="0802006"/><anchor xml:id="beg0802006" n="0802006"/>不<anchor xml:id="end0802006"/>
+<lb n="0802a28" ed="T"/>染污，持所得食從聚落出，在淨水邊可修道
+<lb n="0802a29" ed="T"/>處置食，一面洗脚而坐，以食著前，應生厭離
+<pb n="0802b" ed="T" xml:id="T15.0653.0802b"/>
+<lb n="0802b01" ed="T"/>想、不淨想、屎尿想、臭爛想、變吐想、塗瘡想、厭惡
+<lb n="0802b02" ed="T"/>想、子肉想、臭果想、沈重想。又於身中應生死
+<lb n="0802b03" ed="T"/>想、青想、<anchor xml:id="nkr_note_orig_0802007" n="0802007"/><anchor xml:id="nkr_note_mod_0802007" n="0802007"/><anchor xml:id="beg0802007" n="0802007"/>膿<anchor xml:id="end0802007"/>想、爛壞想。舍利弗！比丘應生如是
+<lb n="0802b04" ed="T"/>想，以無貪著心然後乃食，但以支身除飢渴
+<lb n="0802b05" ed="T"/>病，令得修道。應作是念：『我食此食，破先苦惱
+<lb n="0802b06" ed="T"/>不生後苦，心得快樂調適無患，身體輕便行
+<lb n="0802b07" ed="T"/>步安隱。』又念：『食此食已，我應當得須陀洹果、
+<lb n="0802b08" ed="T"/>斯陀含果、阿那含果、阿羅漢果、無生法忍。』舍
+<lb n="0802b09" ed="T"/>利弗！比丘如是食者，我聽乞食。</p><p xml:id="pT15p0802b0913" rend="inline">「舍利弗！若乞
+<lb n="0802b10" ed="T"/>食比丘，於所得食生貪味心，以為甘美而作
+<lb n="0802b11" ed="T"/>是念：『我食此食，當得好色氣力充盛。』不作是
+<lb n="0802b12" ed="T"/>念：『我食此食勤行聖道。』如是比丘我乃不聽
+<lb n="0802b13" ed="T"/>受一飲水，何況<anchor xml:id="nkr_note_orig_0802008" n="0802008"/><anchor xml:id="nkr_note_mod_0802008" n="0802008"/><anchor xml:id="beg0802008" n="0802008"/>飯食<anchor xml:id="end0802008"/>？</p><p xml:id="pT15p0802b1309" rend="inline">「舍利弗！若於食中不
+<lb n="0802b14" ed="T"/>見過惡，不見出道而便食者，寧自以手割<anchor xml:id="nkr_note_orig_0802009" n="0802009"/><anchor xml:id="nkr_note_mod_0802009" n="0802009"/><anchor xml:id="beg0802009" n="0802009"/>股<anchor xml:id="end0802009"/>
+<lb n="0802b15" ed="T"/>肉噉。何以故？我聽行者、得者受他供養，不聽
+<lb n="0802b16" ed="T"/>餘人。舍利弗！云何名為行者？若有比丘決
+<lb n="0802b17" ed="T"/>定發心：『我於今世斷諸結使，當入無餘涅槃。』
+<lb n="0802b18" ed="T"/>修習聖道如救頭然，又當除斷不善惡法，是
+<lb n="0802b19" ed="T"/>名行者；又能一心信解空、無相、無願，為得須
+<lb n="0802b20" ed="T"/>陀洹果、斯陀含果、阿那含果、阿羅漢果斷諸煩
+<lb n="0802b21" ed="T"/>惱，名為行者；求諸善法常行諮問，名為行者；
+<lb n="0802b22" ed="T"/>又能發心度脫一切，名為行者；勤心修習諸
+<lb n="0802b23" ed="T"/>助道法，於<anchor xml:id="nkr_note_orig_0802010" n="0802010"/><anchor xml:id="nkr_note_mod_0802010" n="0802010"/><anchor xml:id="beg0802010" n="0802010"/>諸經<anchor xml:id="end0802010"/>中如說而行，及有一心求
+<lb n="0802b24" ed="T"/>佛道者，舍利弗！於佛法中是名行者。</p><p xml:id="pT15p0802b2415" rend="inline">「何謂得
+<lb n="0802b25" ed="T"/>者？謂得須陀洹脫三惡道，名為得者。斯陀含、
+<lb n="0802b26" ed="T"/>阿那含、阿羅漢，斷諸煩惱求道已息，所作已
+<lb n="0802b27" ed="T"/>辦善學三學，是名得者。我聽是人得受供養，
+<lb n="0802b28" ed="T"/>是人若受供養，是名善受供養。</p><p xml:id="pT15p0802b2813" rend="inline">「舍利弗！清淨
+<lb n="0802b29" ed="T"/>持戒者、開化檀越者及修多聞讀誦經者，謂
+<pb n="0802c" ed="T" xml:id="T15.0653.0802c"/>
+<lb n="0802c01" ed="T"/><anchor xml:id="nkr_note_orig_0802011" n="0802011"/><anchor xml:id="nkr_note_mod_0802011" n="0802011"/><anchor xml:id="beg0802011" n="0802011"/>讀誦修妬路、岐夜<anchor xml:id="end0802011"/>、授記經、伽陀、<anchor xml:id="nkr_note_orig_0802012" n="0802012"/><anchor xml:id="nkr_note_mod_0802012" n="0802012"/><anchor xml:id="beg0802012" n="0802012"/>憂<anchor xml:id="end0802012"/>陀那、尼陀
+<lb n="0802c02" ed="T"/>那、如是諸經、本生經、方廣經、未曾有經、阿波
+<lb n="0802c03" ed="T"/>陀那、論議經，是人<anchor xml:id="nkr_note_orig_0802013" n="0802013"/><anchor xml:id="nkr_note_mod_0802013" n="0802013"/><anchor xml:id="beg0802013" n="0802013"/>又<anchor xml:id="end0802013"/>能清淨持戒無有瑕
+<lb n="0802c04" ed="T"/>疵，不垢不濁自在不著，智者所讚能自具足，
+<lb n="0802c05" ed="T"/>隨順禪定<anchor xml:id="nkr_note_orig_0802014" n="0802014"/><anchor xml:id="nkr_note_mod_0802014" n="0802014"/><anchor xml:id="beg0802014" n="0802014"/>時時<anchor xml:id="end0802014"/>樂坐禪，如是比丘我亦聽受
+<lb n="0802c06" ed="T"/>供養。</p><p xml:id="pT15p0802c0603" rend="inline">「舍利弗！身證法者無有疑悔，我聽是人
+<lb n="0802c07" ed="T"/>高座說法。雖是凡夫清淨持戒，心不貪著外
+<lb n="0802c08" ed="T"/>道經義，一心勤求沙門上果，不貪利養善巧
+<lb n="0802c09" ed="T"/>定說，多聞廣喻猶如大海，乃至失命猶不
+<lb n="0802c10" ed="T"/>妄語，不樂諍訟自利利他，<anchor xml:id="beg_12" type="star"/>唯<anchor xml:id="end_12"/>說清淨第一實
+<lb n="0802c11" ed="T"/>義，所說如是亦如是行。舍利弗！如是說者我
+<lb n="0802c12" ed="T"/>聽說法。</p><p xml:id="pT15p0802c1204" rend="inline">「如來所說能使諸法不相違逆，謂說
+<lb n="0802c13" ed="T"/>戒、定、慧、解脫、解脫知見。舍利弗！求利比丘！
+<lb n="0802c14" ed="T"/>為佛出家而破戒品，何用說法？何以故？舍利
+<lb n="0802c15" ed="T"/>弗！我經中說：『若人自不善寂自不能護，能令
+<lb n="0802c16" ed="T"/>他人善寂自護，無有是處。如人自沒污泥，欲
+<lb n="0802c17" ed="T"/>出他人，無有是處。若人能自善寂，<anchor xml:id="nkr_note_orig_0802015" n="0802015"/><anchor xml:id="nkr_note_mod_0802015" n="0802015"/><anchor xml:id="beg0802015" n="0802015"/>能<anchor xml:id="end0802015"/>出污
+<lb n="0802c18" ed="T"/>泥，欲出他人，則有是處。』是故舍利弗！我今明
+<lb n="0802c19" ed="T"/>了告汝，誹謗如來其罪不輕，實語比丘應聽
+<lb n="0802c20" ed="T"/>說法，非妄語者持戒比丘，則能法施。</p><p xml:id="pT15p0802c2015" rend="inline">「舍利
+<lb n="0802c21" ed="T"/>弗！高座說法決定斷疑，最是上事。若持戒不
+<lb n="0802c22" ed="T"/>淨著外道義，我則不聽。及妄語者、貴世樂
+<lb n="0802c23" ed="T"/>者、求利養者、樂諍訟者，我<anchor xml:id="nkr_note_orig_0802016" n="0802016"/><anchor xml:id="nkr_note_mod_0802016" n="0802016"/><anchor xml:id="beg0802016" n="0802016"/>亦<anchor xml:id="end0802016"/>不聽。我聽淨
+<lb n="0802c24" ed="T"/>持戒者、質直心者、通達諸法實相者，高座
+<lb n="0802c25" ed="T"/>說法。</p><p xml:id="pT15p0802c2503" rend="inline">「舍利弗！破戒比丘寧當捨戒，不著聖
+<lb n="0802c26" ed="T"/>人相袈裟覆藏罪垢，密作眾惡受人信施。舍
+<lb n="0802c27" ed="T"/>利弗！<anchor xml:id="nkr_note_orig_0802017" n="0802017"/><anchor xml:id="nkr_note_mod_0802017" n="0802017"/><anchor xml:id="beg0802017" n="0802017"/>以<anchor xml:id="end0802017"/>小因緣，而於久遠受地獄身。」</p></cb:div>
+<lb n="0802c28" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="10" type="品">10 囑累品(下)</cb:mulu><head><title>佛藏經</title>囑累品第十</head>
+<lb n="0802c29" ed="T"/><p xml:id="pT15p0802c2901">爾時阿難白佛言：「世尊！當爾世時諸比丘等，
+<pb n="0803a" ed="T" xml:id="T15.0653.0803a"/>
+<lb n="0803a01" ed="T"/>於善法中云何精進？」</p><p xml:id="pT15p0803a0109" rend="inline">佛告阿難：「且置莫問。所
+<lb n="0803a02" ed="T"/>以者何？佛無量智所說經典，爾時比丘尚不
+<lb n="0803a03" ed="T"/>能信，況能勤行？阿難！如來於有為法中所有
+<lb n="0803a04" ed="T"/>智慧，一切辟支佛、阿羅漢等不<anchor xml:id="nkr_note_orig_0803001" n="0803001"/><anchor xml:id="nkr_note_mod_0803001" n="0803001"/><anchor xml:id="beg0803001" n="0803001"/>能<anchor xml:id="end0803001"/>解知。阿難！
+<lb n="0803a05" ed="T"/>如來所知法，若為汝說，汝則迷悶，何況是人
+<lb n="0803a06" ed="T"/>當能信之？如來於今說如是經，爾時癡人猶
+<lb n="0803a07" ed="T"/>尚不信，何況能<anchor xml:id="nkr_note_orig_0803002" n="0803002"/><anchor xml:id="nkr_note_mod_0803002" n="0803002"/><anchor xml:id="beg0803002" n="0803002"/>信<anchor xml:id="end0803002"/>所說罪報？阿難！法應<anchor xml:id="nkr_note_orig_0803003" n="0803003"/><anchor xml:id="nkr_note_mod_0803003" n="0803003"/><anchor xml:id="beg0803003" n="0803003"/>當<anchor xml:id="end0803003"/>
+<lb n="0803a08" ed="T"/>爾！自身是惡謂餘亦惡，如今第一懈怠比丘，
+<lb n="0803a09" ed="T"/>爾時第一精進比丘所不能及，若所持戒威
+<lb n="0803a10" ed="T"/>儀智慧，不得相比。如來若說此人所行一
+<lb n="0803a11" ed="T"/>切過惡，轉身所受，是人不信，更起重罪。汝等
+<lb n="0803a12" ed="T"/>若聞亦得憂怖，不能量其所受罪惡。阿難！如
+<lb n="0803a13" ed="T"/>來深法受者難有。於意云何？好床茵褥，豚子
+<lb n="0803a14" ed="T"/>樂不？」</p><p xml:id="pT15p0803a1403" rend="inline">「不也。世尊！」</p><p xml:id="pT15p0803a1407" rend="inline">「阿難！我阿耨多羅三藐三
+<lb n="0803a15" ed="T"/>菩提，此法深妙智者所樂，是人不能信解通
+<lb n="0803a16" ed="T"/>達。得出家已自稱沙門，不能堪受如實教化，
+<lb n="0803a17" ed="T"/>於此法中不能修心、不得滋味，振手而去墮
+<lb n="0803a18" ed="T"/>在惡道，猶如豚子捨好床褥。何以故？阿難！
+<lb n="0803a19" ed="T"/>是我阿耨多羅三藐三菩提甚深清淨，非難
+<lb n="0803a20" ed="T"/>化者所能信解，難降伏者、無智慧者、難滿
+<lb n="0803a21" ed="T"/>者、難養者、破戒者、難與語者、住邪法者、行
+<lb n="0803a22" ed="T"/>邪行者、貴財利者、以衣食為上者、破威儀
+<lb n="0803a23" ed="T"/>者、破<anchor xml:id="nkr_note_orig_0803004" n="0803004"/><anchor xml:id="beg0803004" n="0803004"/>戒<anchor xml:id="end0803004"/>德者、墮頂者、弊惡者、懈怠者、小
+<lb n="0803a24" ed="T"/>欲者、小精進者、無羞者、耐羞者、怱怱營事業
+<lb n="0803a25" ed="T"/>者，沙門中<anchor xml:id="nkr_note_orig_0803005" n="0803005"/><anchor xml:id="beg0803005" n="0803005"/>旃陀羅<anchor xml:id="end0803005"/>、沙門中白衣、沙門中敗
+<lb n="0803a26" ed="T"/>壞、沙門中行邪道者、非沙門自言是沙門者、
+<lb n="0803a27" ed="T"/>魔所吞者、與外道義合者、不如說行者、樂眾
+<lb n="0803a28" ed="T"/>閙者、樂散亂語者、具有魔事者、魔<anchor xml:id="nkr_note_orig_0803006" n="0803006"/><anchor xml:id="nkr_note_mod_0803006" n="0803006"/><anchor xml:id="beg0803006" n="0803006"/>所<anchor xml:id="end0803006"/>衰惱
+<lb n="0803a29" ed="T"/>者、煩惱熾盛者，我見者、人見者、眾生見者、顛
+<pb n="0803b" ed="T" xml:id="T15.0653.0803b"/>
+<lb n="0803b01" ed="T"/>倒者，於我此法若能信解通達，無有是處。何
+<lb n="0803b02" ed="T"/>以故？阿難！我阿耨多羅三藐三菩提清淨<anchor xml:id="nkr_note_orig_0803007" n="0803007"/><anchor xml:id="nkr_note_mod_0803007" n="0803007"/><anchor xml:id="beg0803007" n="0803007"/>快
+<lb n="0803b03" ed="T"/>大<anchor xml:id="end0803007"/>，與此惡人不相稱可。<anchor xml:id="nkr_note_orig_0803008" n="0803008"/><anchor xml:id="beg0803008" n="0803008"/>阿難！譬如<anchor xml:id="end0803008"/>百千億
+<lb n="0803b04" ed="T"/>三千大千世界中間曠遠，此弊惡人遠沙門
+<lb n="0803b05" ed="T"/>法，猶尚如是，況<anchor xml:id="nkr_note_orig_0803009" n="0803009"/><anchor xml:id="nkr_note_mod_0803009" n="0803009"/><anchor xml:id="beg0803009" n="0803009"/>得順忍？況<anchor xml:id="end0803009"/>得涅槃？</p><p xml:id="pT15p0803b0514" rend="inline">「阿難！如
+<lb n="0803b06" ed="T"/>此事者說不可盡，當來沙門弊惡鄙賤，深懷
+<lb n="0803b07" ed="T"/>慳貪、深懷瞋恚、深懷不信。三毒熾盛心行麁
+<lb n="0803b08" ed="T"/>獷，難可制御。<anchor xml:id="beg_13" type="star"/>阿難！譬如<anchor xml:id="end_13"/>良田善熟以火自
+<lb n="0803b09" ed="T"/>燒，甘<anchor xml:id="nkr_note_orig_0803010" n="0803010"/><anchor xml:id="nkr_note_mod_0803010" n="0803010"/><anchor xml:id="beg0803010" n="0803010"/>饍<anchor xml:id="end0803010"/>美食而自著毒，舍宅所有以火自
+<lb n="0803b10" ed="T"/><anchor xml:id="beg_14" type="cb-app"/>焚<anchor xml:id="end_14"/>，為應爾不？」</p><p xml:id="pT15p0803b1006" rend="inline">「不也。世尊！」</p><p xml:id="pT15p0803b1010" rend="inline">「阿難！如是未來世癡
+<lb n="0803b11" ed="T"/>人，因以我法得受供養，而不信解如來功德，
+<lb n="0803b12" ed="T"/>又不能信如是等經，不能堪忍如實說過，自
+<lb n="0803b13" ed="T"/>知瘡疣而逆我語。如是癡人依佛自活，而逆
+<lb n="0803b14" ed="T"/>是法。阿難！爾時閻浮提內，如是癡人充滿其
+<lb n="0803b15" ed="T"/>中。阿難！且置。何用求此愚癡惡人，徒生徒老
+<lb n="0803b16" ed="T"/>所行惡事？」</p><p xml:id="pT15p0803b1605" rend="inline">爾時阿難白佛言：「世尊！當何名此
+<lb n="0803b17" ed="T"/>經？云何奉持？」</p><p xml:id="pT15p0803b1706" rend="inline">佛告阿難：「此經名為『佛藏』，亦名
+<lb n="0803b18" ed="T"/>『發起精進』，亦名『降伏破戒』，亦名『選擇諸法』。當
+<lb n="0803b19" ed="T"/>奉持之。</p><p xml:id="pT15p0803b1904" rend="inline">「阿難！若人誦持是經，所得功德無量
+<lb n="0803b20" ed="T"/>無邊。所以者何？破戒比丘尚不能信讀誦教
+<lb n="0803b21" ed="T"/>人，況於是中得歡喜心？何以故？阿難！譬如惡
+<lb n="0803b22" ed="T"/>賊於王大臣，不敢自現盜他物者，不自言賊。
+<lb n="0803b23" ed="T"/>如是阿難！破戒比丘成就非沙門法，尚不自
+<lb n="0803b24" ed="T"/>言是惡，況能向餘人說，自言罪人？阿難！如是
+<lb n="0803b25" ed="T"/>經者，破戒比丘隨得聞時，能自降伏則有慚
+<lb n="0803b26" ed="T"/>愧，持戒比丘得自增長。」</p><p xml:id="pT15p0803b2610" rend="inline">說是經時，<anchor xml:id="nkr_note_orig_0803011" n="0803011"/><anchor xml:id="beg0803011" n="0803011"/>無數<anchor xml:id="end0803011"/>諸
+<lb n="0803b27" ed="T"/>天於諸法中得法眼淨，惡魔及諸眷屬皆大
+<lb n="0803b28" ed="T"/>憂惱，如墮十六種<anchor xml:id="nkr_note_orig_0803012" n="0803012"/><anchor xml:id="nkr_note_mod_0803012" n="0803012"/><anchor xml:id="beg0803012" n="0803012"/>大坑<anchor xml:id="end0803012"/>，大啼哭言：「瞿曇沙
+<lb n="0803b29" ed="T"/>門知我覺我，我常長夜願佛滅後，破持戒者、
+<pb n="0803c" ed="T" xml:id="T15.0653.0803c"/>
+<lb n="0803c01" ed="T"/>助破戒者，欲令諸惡比丘不知佛法，但知讀
+<lb n="0803c02" ed="T"/>誦。我欲於佛法中破安隱心，語言此非佛法
+<lb n="0803c03" ed="T"/>無有義趣。瞿曇於今在諸天人大眾之中，守
+<lb n="0803c04" ed="T"/>護是法遮我所願。」魔說此已，<anchor xml:id="nkr_note_orig_0803013" n="0803013"/><anchor xml:id="nkr_note_mod_0803013" n="0803013"/><anchor xml:id="beg0803013" n="0803013"/>懷憂愁<anchor xml:id="end0803013"/>惱忽
+<lb n="0803c05" ed="T"/>然不現。</p><p xml:id="pT15p0803c0504" rend="inline">爾時世尊欲明了此事，而說偈言：</p>
+<lb n="0803c06" ed="T"/><lg xml:id="lgT15p0803c0601" rend="margin-left:0em;text-indent:0em"><l>「我所說諸法，</l><l>隨順第一義；</l>
+<lb n="0803c07" ed="T"/><l rend="text-indent:1em">有為不堅牢，</l><l>如夢之所見。</l>
+<lb n="0803c08" ed="T"/><l rend="text-indent:1em">我今說此法，</l><l>呵責未來事；</l>
+<lb n="0803c09" ed="T"/><l rend="text-indent:1em">隨順第一義，</l><l>防制諸惡人。</l>
+<lb n="0803c10" ed="T"/><l rend="text-indent:1em">爾時惡世中，</l><l>比丘心<anchor xml:id="beg_15" type="star"/>嬈動<anchor xml:id="end_15"/>；</l>
+<lb n="0803c11" ed="T"/><l rend="text-indent:1em">諍訟生是非，</l><l>不能得涅槃。</l>
+<lb n="0803c12" ed="T"/><l rend="text-indent:1em">沙門及白衣，</l><l>所說無有異；</l>
+<lb n="0803c13" ed="T"/><l rend="text-indent:1em">爾<anchor xml:id="nkr_note_orig_0803014" n="0803014"/><anchor xml:id="beg0803014" n="0803014"/>時<anchor xml:id="end0803014"/>我此法，</l><l>與俗法無別。</l>
+<lb n="0803c14" ed="T"/><l rend="text-indent:1em">為諸在家說：</l><l>『汝知我希有；</l>
+<lb n="0803c15" ed="T"/><l rend="text-indent:1em">我得於佛法，</l><l>初道第一果。』</l>
+<lb n="0803c16" ed="T"/><l rend="text-indent:1em">更有比丘言：</l><l>『我說不異是；</l>
+<lb n="0803c17" ed="T"/><l rend="text-indent:1em">此人與我同，</l><l>我真見法者。』</l>
+<lb n="0803c18" ed="T"/><l rend="text-indent:1em">見法不見者，</l><l>為致白衣故；</l>
+<lb n="0803c19" ed="T"/><l rend="text-indent:1em">各於自法中，</l><l>而生其議論。</l>
+<lb n="0803c20" ed="T"/><l rend="text-indent:1em">有言一切有，</l><l>有言一切空；</l>
+<lb n="0803c21" ed="T"/><l rend="text-indent:1em">不住於正道，</l><l>性惡毀我法。</l>
+<lb n="0803c22" ed="T"/><l rend="text-indent:0em">『汝勿近是人，</l><l>可來親附我；</l>
+<lb n="0803c23" ed="T"/><l rend="text-indent:1em">為汝說真法，</l><l>如我疾得道。』</l>
+<lb n="0803c24" ed="T"/><l rend="text-indent:1em">如是諸音聲，</l><l>流布於遠近；</l>
+<lb n="0803c25" ed="T"/><l rend="text-indent:1em">同心相黨助，</l><l>破我所教法。</l>
+<lb n="0803c26" ed="T"/><l rend="text-indent:1em">譬如諸惡賊，</l><l>同惡共為侶；</l>
+<lb n="0803c27" ed="T"/><l rend="text-indent:1em"><anchor xml:id="nkr_note_orig_0803015" n="0803015"/><anchor xml:id="nkr_note_mod_0803015" n="0803015"/><anchor xml:id="beg0803015" n="0803015"/>反<anchor xml:id="end0803015"/>逆破國土，</l><l>城邑及聚落。</l>
+<lb n="0803c28" ed="T"/><l rend="text-indent:1em">爾時諸比丘，</l><l>難可得開化；</l>
+<lb n="0803c29" ed="T"/><l rend="text-indent:1em">鈍根深貪著，</l><l><anchor xml:id="nkr_note_orig_0803016" n="0803016"/><anchor xml:id="nkr_note_mod_0803016" n="0803016"/><anchor xml:id="beg0803016" n="0803016"/>少<anchor xml:id="end0803016"/>智依我、人。</l>
+<pb n="0804a" ed="T" xml:id="T15.0653.0804a"/>
+<lb n="0804a01" ed="T"/><l rend="text-indent:1em">不解於如來，</l><l>隨宜所說法；</l>
+<lb n="0804a02" ed="T"/><l rend="text-indent:1em">說有漏增上，</l><l>自言是得道。</l>
+<lb n="0804a03" ed="T"/><l rend="text-indent:1em">在於大會中，</l><l>多有諸比丘；</l>
+<lb n="0804a04" ed="T"/><l rend="text-indent:1em">皆言有智慧，</l><l>求智無一人。</l>
+<lb n="0804a05" ed="T"/><l rend="text-indent:1em">若是大會中，</l><l>或有一比丘；</l>
+<lb n="0804a06" ed="T"/><l rend="text-indent:1em">如實有智慧，</l><l>皆呵言無智。</l>
+<lb n="0804a07" ed="T"/><l rend="text-indent:1em">諸天神等見，</l><l>法王道散壞；</l>
+<lb n="0804a08" ed="T"/><l rend="text-indent:1em">咸皆懷憂惱，</l><l>相對而啼<anchor xml:id="nkr_note_orig_0804001" n="0804001"/><anchor xml:id="beg0804001" n="0804001"/>泣<anchor xml:id="end0804001"/>。</l>
+<lb n="0804a09" ed="T"/><l rend="text-indent:1em">中有諸樹神，</l><l>從樹而墮地；</l>
+<lb n="0804a10" ed="T"/><l rend="text-indent:1em">咸言：『釋師子</l><l>妙法今悉壞。</l>
+<lb n="0804a11" ed="T"/><l rend="text-indent:1em">佛寶法僧寶，</l><l>在世猶未久；</l>
+<lb n="0804a12" ed="T"/><l rend="text-indent:1em">如何<anchor xml:id="nkr_note_orig_0804002" n="0804002"/><anchor xml:id="beg0804002" n="0804002"/>於<anchor xml:id="end0804002"/>今日，</l><l>悉皆當散壞？</l>
+<lb n="0804a13" ed="T"/><l rend="text-indent:1em">我等不復聞，</l><l>如來所說法；</l>
+<lb n="0804a14" ed="T"/><l rend="text-indent:1em"><anchor xml:id="nkr_note_orig_0804003" n="0804003"/><anchor xml:id="nkr_note_mod_0804003" n="0804003"/><anchor xml:id="beg0804003" n="0804003"/>癡冥<anchor xml:id="end0804003"/>無所知，</l><l>上道今將滅。』</l>
+<lb n="0804a15" ed="T"/><l rend="text-indent:1em">爾時諸地神，</l><l>皆出大音聲：</l>
+<lb n="0804a16" ed="T"/><l rend="text-indent:0em">『如來大法炬，</l><l>於今當滅盡。</l>
+<lb n="0804a17" ed="T"/><l rend="text-indent:1em">諸天諸神等，</l><l>後莫有所悔，</l>
+<lb n="0804a18" ed="T"/><l rend="text-indent:1em">而言不見聞，</l><l>佛道今已滅。』</l>
+<lb n="0804a19" ed="T"/><l rend="text-indent:1em">如來無量劫，</l><l>自利亦利人；</l>
+<lb n="0804a20" ed="T"/><l rend="text-indent:1em">忍受諸苦惱，</l><l>發願得成佛。</l>
+<lb n="0804a21" ed="T"/><l rend="text-indent:1em">釋師子大聖，</l><l><anchor xml:id="nkr_note_orig_0804004" n="0804004"/><anchor xml:id="beg0804004" n="0804004"/>度<anchor xml:id="end0804004"/>諸眾生者；</l>
+<lb n="0804a22" ed="T"/><l rend="text-indent:1em">清淨微妙法，</l><l>今將欲滅盡。</l>
+<lb n="0804a23" ed="T"/><l rend="text-indent:1em">癡惡諸賊等，</l><l>於今當得力；</l>
+<lb n="0804a24" ed="T"/><l rend="text-indent:1em">無有慈愍心，</l><l>互相謗毀惱。</l>
+<lb n="0804a25" ed="T"/><l rend="text-indent:1em">魔使及魔民，</l><l>鈍根難開化；</l>
+<lb n="0804a26" ed="T"/><l rend="text-indent:1em">諂曲懈怠心，</l><l>瞋恚壞佛法。</l>
+<lb n="0804a27" ed="T"/><l rend="text-indent:1em">但<anchor xml:id="beg_16" type="star"/>於<anchor xml:id="end_16"/>空林中，</l><l>坐禪滿三月；</l>
+<lb n="0804a28" ed="T"/><l rend="text-indent:1em">自言是羅漢，</l><l>無禪況得道？</l>
+<lb n="0804a29" ed="T"/><l rend="text-indent:1em">不得言得道，</l><l>死言入涅槃；</l>
+<pb n="0804b" ed="T" xml:id="T15.0653.0804b"/>
+<lb n="0804b01" ed="T"/><l rend="text-indent:1em">眾人信起塔，</l><l>而自入地獄。</l>
+<lb n="0804b02" ed="T"/><l rend="text-indent:1em">如是癡空者，</l><l>互共相輕恚；</l>
+<lb n="0804b03" ed="T"/><l rend="text-indent:1em">我於無量劫，</l><l>所得今盡壞。</l>
+<lb n="0804b04" ed="T"/><l rend="text-indent:1em">爾時虛空神，</l><l>共見釋師子；</l>
+<lb n="0804b05" ed="T"/><l rend="text-indent:1em"><anchor xml:id="nkr_note_orig_0804005" n="0804005"/><anchor xml:id="beg0804005" n="0804005"/>妙<anchor xml:id="end0804005"/>法毀壞<anchor xml:id="nkr_note_orig_0804006" n="0804006"/><anchor xml:id="nkr_note_mod_0804006" n="0804006"/><anchor xml:id="beg0804006" n="0804006"/>敗<anchor xml:id="end0804006"/>，</l><l>發聲皆啼泣。</l>
+<lb n="0804b06" ed="T"/><l rend="text-indent:1em">四天王聞此，</l><l>皆共懷憂惱；</l>
+<lb n="0804b07" ed="T"/><l rend="text-indent:1em">時與諸天神，</l><l>僉皆共來下。</l>
+<lb n="0804b08" ed="T"/><l rend="text-indent:1em">阿羅迦槃城，</l><l>夜叉神眾來；</l>
+<lb n="0804b09" ed="T"/><l rend="text-indent:1em">僉皆大啼哭，</l><l>出可畏音聲。</l>
+<lb n="0804b10" ed="T"/><l rend="text-indent:1em">有諸七寶城，</l><l>嚴飾極微妙；</l>
+<lb n="0804b11" ed="T"/><l rend="text-indent:1em">失色皆如土，</l><l>諸天不樂住。</l>
+<lb n="0804b12" ed="T"/><l rend="text-indent:1em">悲號大啼哭，</l><l>處處皆來集；</l>
+<lb n="0804b13" ed="T"/><l rend="text-indent:1em">各共懷憂惱，</l><l>相見不能言。</l>
+<lb n="0804b14" ed="T"/><l rend="text-indent:1em">宛轉臥在地，</l><l>發如是音聲；</l>
+<lb n="0804b15" ed="T"/><l rend="text-indent:1em">共行閻浮提，</l><l>見是大怖畏。</l>
+<lb n="0804b16" ed="T"/><l rend="text-indent:1em">佛子<anchor xml:id="nkr_note_orig_0804007" n="0804007"/><anchor xml:id="nkr_note_mod_0804007" n="0804007"/><anchor xml:id="beg0804007" n="0804007"/>共<anchor xml:id="end0804007"/>鬪諍，</l><l><anchor xml:id="nkr_note_orig_0804008" n="0804008"/><anchor xml:id="nkr_note_mod_0804008" n="0804008"/><anchor xml:id="beg0804008" n="0804008"/>破法<anchor xml:id="end0804008"/>而分散；</l>
+<lb n="0804b17" ed="T"/><l rend="text-indent:1em">皆從天上來，</l><l>共詣我生處。</l>
+<lb n="0804b18" ed="T"/><l rend="text-indent:1em">天神諸寶城，</l><l>七日無光色；</l>
+<lb n="0804b19" ed="T"/><l rend="text-indent:1em">各共坐<anchor xml:id="nkr_note_orig_0804009" n="0804009"/><anchor xml:id="nkr_note_mod_0804009" n="0804009"/><anchor xml:id="beg0804009" n="0804009"/>啼泣<anchor xml:id="end0804009"/>，</l><l>滿七日不起。</l>
+<lb n="0804b20" ed="T"/><l rend="text-indent:0m">『如何大精進，</l><l>勇猛世間尊！</l>
+<lb n="0804b21" ed="T"/><l rend="text-indent:1em">我等見住此，</l><l>今當不復見。』</l>
+<lb n="0804b22" ed="T"/><l rend="text-indent:1em">咸共詣祇洹，</l><l>相對而<anchor xml:id="beg_17" type="star"/>啼泣<anchor xml:id="end_17"/>：</l>
+<lb n="0804b23" ed="T"/><l rend="text-indent:0em">『佛此說四諦，</l><l>我等此中聞。</l>
+<lb n="0804b24" ed="T"/><l rend="text-indent:1em">世間將盲冥，</l><l>互相輕恚慢；</l>
+<lb n="0804b25" ed="T"/><l rend="text-indent:1em">但起諸惡業，</l><l>還墮於惡道。</l>
+<lb n="0804b26" ed="T"/><l rend="text-indent:1em">諸天妙宮殿，</l><l>可惜<anchor xml:id="nkr_note_orig_0804010" n="0804010"/><anchor xml:id="beg0804010" n="0804010"/>今<anchor xml:id="end0804010"/>將空；</l>
+<lb n="0804b27" ed="T"/><l rend="text-indent:1em">我等諸天神，</l><l>無復救度者。』</l>
+<lb n="0804b28" ed="T"/><l rend="text-indent:1em">爾時閻浮提，</l><l>毀壞無威色；</l>
+<lb n="0804b29" ed="T"/><l rend="text-indent:1em">經行處樹下，</l><l>山窟無善人。</l>
+<pb n="0804c" ed="T" xml:id="T15.0653.0804c"/>
+<lb n="0804c01" ed="T"/><l rend="text-indent:1em">一切諸世間，</l><l>悉皆大<anchor xml:id="beg_18" type="star"/>嬈動<anchor xml:id="end_18"/>；</l>
+<lb n="0804c02" ed="T"/><l rend="text-indent:1em">諸天<anchor xml:id="nkr_note_orig_0804011" n="0804011"/><anchor xml:id="beg0804011" n="0804011"/>及<anchor xml:id="end0804011"/>大神，</l><l>音聲可怖畏。</l>
+<lb n="0804c03" ed="T"/><l rend="text-indent:1em">爾時忉利天，</l><l>舉手大悲哭；</l>
+<lb n="0804c04" ed="T"/><l rend="text-indent:1em">各於宮殿中，</l><l>發聲而<anchor xml:id="nkr_note_orig_0804012" n="0804012"/><anchor xml:id="nkr_note_mod_0804012" n="0804012"/><anchor xml:id="beg0804012" n="0804012"/>號哭<anchor xml:id="end0804012"/>。</l>
+<lb n="0804c05" ed="T"/><l rend="text-indent:1em">諸天宮殿中，</l><l>皆稱說我言；</l>
+<lb n="0804c06" ed="T"/><l rend="text-indent:1em">永離大聖王，</l><l>為我說法者。</l>
+<lb n="0804c07" ed="T"/><l rend="text-indent:1em">忉利天六月，</l><l>不食修陀食；</l>
+<lb n="0804c08" ed="T"/><l rend="text-indent:1em">不聽伎樂音，</l><l>憂愁如喪子。</l>
+<lb n="0804c09" ed="T"/><l rend="text-indent:1em">諸阿修羅眾，</l><l>聞有如此事；</l>
+<lb n="0804c10" ed="T"/><l rend="text-indent:1em">皆共相命集，</l><l>欲攻忉利天。</l>
+<lb n="0804c11" ed="T"/><l rend="text-indent:1em">時諸閻浮王，</l><l>皆共相征罰；</l>
+<lb n="0804c12" ed="T"/><l rend="text-indent:1em">諸天阿修羅，</l><l>亦皆共戰鬪。</l>
+<lb n="0804c13" ed="T"/><l rend="text-indent:1em">爾時諸比丘，</l><l>及諸比丘尼；</l>
+<lb n="0804c14" ed="T"/><l rend="text-indent:1em">多墮惡道中，</l><l>少有得<anchor xml:id="nkr_note_orig_0804013" n="0804013"/><anchor xml:id="beg0804013" n="0804013"/>免<anchor xml:id="end0804013"/>者。</l>
+<lb n="0804c15" ed="T"/><l rend="text-indent:1em">破戒諸白衣，</l><l>隨順<anchor xml:id="nkr_note_orig_0804014" n="0804014"/><anchor xml:id="beg0804014" n="0804014"/>惡比丘<anchor xml:id="end0804014"/>；</l>
+<lb n="0804c16" ed="T"/><l rend="text-indent:1em">以是因緣故，</l><l>皆趣於惡道。</l>
+<lb n="0804c17" ed="T"/><l rend="text-indent:1em">諸惡優婆夷，</l><l>隨順惡師故；</l>
+<lb n="0804c18" ed="T"/><l rend="text-indent:1em">亦復入惡道，</l><l>世間皆<anchor xml:id="beg_19" type="star"/>嬈動<anchor xml:id="end_19"/>。</l>
+<lb n="0804c19" ed="T"/><l rend="text-indent:1em">有入城聚落，</l><l>有至山林中；</l>
+<lb n="0804c20" ed="T"/><l rend="text-indent:1em">東西懷憂惱，</l><l>以損其壽命。</l>
+<lb n="0804c21" ed="T"/><l rend="text-indent:1em">爾時多惡賊，</l><l>多有諸嶮道；</l>
+<lb n="0804c22" ed="T"/><l rend="text-indent:1em">種五穀不生，</l><l>若生蟲所食。</l>
+<lb n="0804c23" ed="T"/><l rend="text-indent:1em">爾時世人民，</l><l>飢饉多餓死；</l>
+<lb n="0804c24" ed="T"/><l rend="text-indent:1em">死墮餓鬼中，</l><l>久受諸苦惱。</l>
+<lb n="0804c25" ed="T"/><l rend="text-indent:1em">時人施佛物、</l><l>塔及四方僧；</l>
+<lb n="0804c26" ed="T"/><l rend="text-indent:1em">輒皆共分食，</l><l>我後僧如是。</l>
+<lb n="0804c27" ed="T"/><l rend="text-indent:1em">阿難汝等當，</l><l>勉力勤精進；</l>
+<lb n="0804c28" ed="T"/><l rend="text-indent:1em">莫見後末世，</l><l>如是眾惡事。</l>
+<lb n="0804c29" ed="T"/><l rend="text-indent:1em">一切諸凡夫，</l><l>愚癡無有智；</l>
+<pb n="0805a" ed="T" xml:id="T15.0653.0805a"/>
+<lb n="0805a01" ed="T"/><l rend="text-indent:1em">起諸凡夫業，</l><l>疾墮惡道中。</l>
+<lb n="0805a02" ed="T"/><l rend="text-indent:1em">汝等勤讀誦，</l><l>是名智慧因；</l>
+<lb n="0805a03" ed="T"/><l rend="text-indent:1em">若為智慧<anchor xml:id="nkr_note_orig_0805001" n="0805001"/><anchor xml:id="nkr_note_mod_0805001" n="0805001"/><anchor xml:id="beg0805001" n="0805001"/>故<anchor xml:id="end0805001"/>，</l><l>疾得至勝處。</l>
+<lb n="0805a04" ed="T"/><l rend="text-indent:1em">我學世正見，</l><l>汝亦如我學；</l>
+<lb n="0805a05" ed="T"/><l rend="text-indent:1em">斷世障礙事，</l><l>疾得至勝處。</l>
+<lb n="0805a06" ed="T"/><l rend="text-indent:1em">勤行八聖道，</l><l>當疾得涅槃；</l>
+<lb n="0805a07" ed="T"/><l rend="text-indent:1em">思量求自利，</l><l>我所說如是。</l>
+<lb n="0805a08" ed="T"/><l rend="text-indent:1em">是劫過去後，</l><l>六十劫無佛；</l>
+<lb n="0805a09" ed="T"/><l rend="text-indent:1em">尚無佛音聲，</l><l>況有得道者？</l>
+<lb n="0805a10" ed="T"/><l rend="text-indent:1em">時世諸人民，</l><l>飢餓所逼切；</l>
+<lb n="0805a11" ed="T"/><l rend="text-indent:1em">無有孝慈心，</l><l>食母食兒肉。</l>
+<lb n="0805a12" ed="T"/><l rend="text-indent:1em">時諸家生子，</l><l>常護恐他食；</l>
+<lb n="0805a13" ed="T"/><l rend="text-indent:1em">誰聞是惡事，</l><l>復起生死業。</l>
+<lb n="0805a14" ed="T"/><l rend="text-indent:1em">諸苦癡為本，</l><l><anchor xml:id="nkr_note_orig_0805002" n="0805002"/><anchor xml:id="nkr_note_mod_0805002" n="0805002"/><anchor xml:id="beg0805002" n="0805002"/>五陰<anchor xml:id="end0805002"/>貪為本；</l>
+<lb n="0805a15" ed="T"/><l rend="text-indent:1em">若不樂五欲，</l><l>當斷諸貪著。</l>
+<lb n="0805a16" ed="T"/><l rend="text-indent:1em">受福果報時，</l><l>深生貪著心；</l>
+<lb n="0805a17" ed="T"/><l rend="text-indent:1em">貪著因緣故，</l><l>起惡墮惡道。</l>
+<lb n="0805a18" ed="T"/><l rend="text-indent:1em">無漏法空寂，</l><l>世間無<anchor xml:id="nkr_note_orig_0805003" n="0805003"/><anchor xml:id="nkr_note_mod_0805003" n="0805003"/><anchor xml:id="beg0805003" n="0805003"/>牢堅<anchor xml:id="end0805003"/>；</l>
+<lb n="0805a19" ed="T"/><l rend="text-indent:1em">若知如是<anchor xml:id="nkr_note_orig_0805004" n="0805004"/><anchor xml:id="beg0805004" n="0805004"/>者<anchor xml:id="end0805004"/>，</l><l>汝等應疾行。</l>
+<lb n="0805a20" ed="T"/><l rend="text-indent:1em">無心生心想，</l><l>而自大驚畏：</l>
+<lb n="0805a21" ed="T"/><l rend="text-indent:0em">『我為作不作？</l><l>是事為云何？』</l>
+<lb n="0805a22" ed="T"/><l rend="text-indent:1em">如是諸凡夫，</l><l>思惟而籌量：</l>
+<lb n="0805a23" ed="T"/><l rend="text-indent:0em">『我當云何作？』</l><l>如是常<anchor xml:id="beg_1a" type="star"/>啼泣<anchor xml:id="end_1a"/>。</l>
+<lb n="0805a24" ed="T"/><l rend="text-indent:1em">無陰生陰想，</l><l>無我生我想；</l>
+<lb n="0805a25" ed="T"/><l rend="text-indent:1em">聞自相空法，</l><l>如是亦迷悶。</l>
+<lb n="0805a26" ed="T"/><l rend="text-indent:1em">不知佛如實，</l><l>所說諸陰義；</l>
+<lb n="0805a27" ed="T"/><l rend="text-indent:1em">聞則以為定，</l><l>畏處無畏想。</l>
+<lb n="0805a28" ed="T"/><l rend="text-indent:1em">我說去來今，</l><l>諸陰皆空寂；</l>
+<lb n="0805a29" ed="T"/><l rend="text-indent:1em">三世悉平等，</l><l>猶若如虛空。</l>
+<pb n="0805b" ed="T" xml:id="T15.0653.0805b"/>
+<lb n="0805b01" ed="T"/><l rend="text-indent:1em">所有過去佛，</l><l>亦說自相空；</l>
+<lb n="0805b02" ed="T"/><l rend="text-indent:1em">未來世諸佛，</l><l>亦說自相空。</l>
+<lb n="0805b03" ed="T"/><l rend="text-indent:1em">我今出於世，</l><l>亦說一切法；</l>
+<lb n="0805b04" ed="T"/><l rend="text-indent:1em">自性自相空，</l><l>三世無有異。</l>
+<lb n="0805b05" ed="T"/><l rend="text-indent:1em">當來人不知，</l><l>佛所說實義；</l>
+<lb n="0805b06" ed="T"/><l rend="text-indent:1em">貪著我眾生，</l><l><anchor xml:id="nkr_note_orig_0805005" n="0805005"/><anchor xml:id="nkr_note_mod_0805005" n="0805005"/><anchor xml:id="beg0805005" n="0805005"/>常墮於惡道<anchor xml:id="end0805005"/>。</l>
+<lb n="0805b07" ed="T"/><l rend="text-indent:1em">當來世如是，</l><l>大惡甚可畏；</l>
+<lb n="0805b08" ed="T"/><l rend="text-indent:1em">汝等勤精進，</l><l>莫見是惡世。」</l></lg>
+<lb n="0805b09" ed="T"/><p xml:id="pT15p0805b0901">佛說此經已，長老舍利弗及諸<anchor xml:id="nkr_note_orig_0805006" n="0805006"/><anchor xml:id="nkr_note_mod_0805006" n="0805006"/><anchor xml:id="beg0805006" n="0805006"/>比丘<anchor xml:id="end0805006"/>，一切世
+<lb n="0805b10" ed="T"/>間天人大眾，聞佛所說，皆大歡喜，信受佛語。</p>
+<lb n="0805b11" ed="T"/><cb:juan n="003" fun="close"><cb:jhead><title>佛藏經</title>卷<anchor xml:id="nkr_note_orig_0805007" n="0805007"/><anchor xml:id="nkr_note_mod_0805007" n="0805007"/><anchor xml:id="beg0805007" n="0805007"/>下<anchor xml:id="end0805007"/></cb:jhead></cb:juan></cb:div>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0797004" to="#end0797004"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0797005" to="#end0797005"><lem wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0797006" to="#end0797006"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">三</rdg></app>
+<app from="#beg0797007" to="#end0797007"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0797008" to="#end0797008"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0797009" to="#end0797009"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">記</rdg></app>
+<app from="#beg0797010" to="#end0797010"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">不</rdg></app>
+<app from="#beg0797011" to="#end0797011"><lem wit="#wit1">六十五</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">十五</rdg></app>
+<app from="#beg0798001" to="#end0798001"><lem wit="#wit1">定光佛</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">錠光佛</rdg></app>
+<app from="#beg0798002" to="#end0798002"><lem wit="#wit1">過世</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">我念過世</rdg></app>
+<app from="#beg0798003" to="#end0798003"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit3">各</rdg></app>
+<app from="#beg0798004" to="#end0798004"><lem wit="#wit1">那</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">刪</rdg></app>
+<app from="#beg0798005" to="#end0798005"><lem wit="#wit1">那</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0798006" to="#end0798006"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">世曾見</rdg></app>
+<app from="#beg0798007" to="#end0798007"><lem wit="#wit1">螺</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><g ref="#CB01116">䗾</g></rdg></app>
+<app from="#beg0798008" to="#end0798008"><lem wit="#wit1"><note place="inline">律媯反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit5"><note place="inline">諍媯反</note></rdg></app>
+<app from="#beg0798009" to="#end0798009"><lem wit="#wit1">億</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">萬</rdg></app>
+<app from="#beg0798010" to="#end0798010"><lem wit="#wit1"><note place="inline">覓視反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0798011" to="#end0798011"><lem wit="#wit1">疊</lem><rdg resp="#resp1" wit="#wit3 #wit4"><g ref="#CB00626">㲲</g></rdg></app>
+<app from="#beg0798012" to="#end0798012"><lem wit="#wit1">得</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0798013" to="#end0798013"><lem wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">見</rdg></app>
+<app from="#beg0798014" to="#end0798014"><lem wit="#wit1">得</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">即</rdg></app>
+<app from="#beg0798015" to="#end0798015"><lem wit="#wit1">火坑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">大坑</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0798015"><lem wit="#wit1">火坑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">大坑</rdg></app>
+<app from="#beg0799001" to="#end0799001"><lem wit="#wit1">習</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">集</rdg></app>
+<app from="#beg0799002" to="#end0799002"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit3">大</rdg></app>
+<app from="#beg0799003" to="#end0799003"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">令</rdg></app>
+<app from="#beg0799004" to="#end0799004"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5">耶</rdg></app>
+<app from="#beg0799005" to="#end0799005"><lem wit="#wit1">動轉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">轉動</rdg></app>
+<app from="#beg0799006" to="#end0799006"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0799007" to="#end0799007"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">著</rdg></app>
+<app from="#beg0799008" to="#end0799008"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">法中</rdg></app>
+<app from="#beg0799009" to="#end0799009"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">其</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0799003"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">令</rdg></app>
+<app from="#beg0799010" to="#end0799010"><lem wit="#wit1">輕蔑空行</lem><rdg resp="#resp1" wit="#wit2 #wit3">輕蔑行空</rdg><rdg resp="#resp1" wit="#wit4 #wit5">輕笑行空</rdg></app>
+<app from="#beg0799011" to="#end0799011"><lem wit="#wit1">堅牢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">牢堅</rdg></app>
+<app from="#beg0799012" to="#end0799012"><lem wit="#wit1">訟</lem><rdg resp="#resp1" wit="#wit3 #wit4">說</rdg></app>
+<app from="#beg0799013" to="#end0799013"><lem wit="#wit1">儀則</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">義利</rdg></app>
+<app from="#beg0799014" to="#end0799014"><lem wit="#wit1">不知</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">不解</rdg></app>
+<app from="#beg0799015" to="#end0799015"><lem wit="#wit1">讀誦修妬路</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">讚修多羅</rdg></app>
+<app from="#beg0800001" to="#end0800001"><lem wit="#wit1">一杯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">大杯</rdg></app>
+<app from="#beg0800002" to="#end0800002"><lem wit="#wit1">眾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">憒</rdg></app>
+<app from="#beg0800003" to="#end0800003"><lem wit="#wit1">言語</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">語言</rdg></app>
+<app from="#beg0800004" to="#end0800004"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0800006" to="#end0800006"><lem wit="#wit1"><title>佛藏經</title></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0800007" to="#end0800007"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3 #wit4">為三</rdg></app>
+<app from="#beg0800008" to="#end0800008"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">人者</rdg></app>
+<app from="#beg0800009" to="#end0800009"><lem wit="#wit1">訾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">呰</rdg></app>
+<app from="#beg0800010" to="#end0800010"><lem wit="#wit1">外</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">外道</rdg></app>
+<app from="#beg0800011" to="#end0800011"><lem wit="#wit1">樂</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">樂說</rdg></app>
+<app from="#beg0800012" to="#end0800012"><lem wit="#wit1">著外經</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">看外道</rdg></app>
+<app from="#beg0800013" to="#end0800013"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0800014" to="#end0800014"><lem wit="#wit1">醜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">無醜</rdg></app>
+<app from="#beg0800015" to="#end0800015"><lem wit="#wit1">如是</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">如我</rdg></app>
+<app from="#beg0800016" to="#end0800016"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit4">為</rdg></app>
+<app from="#beg0800017" to="#end0800017"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">隨</rdg></app>
+<app from="#beg0800018" to="#end0800018"><lem wit="#wit1">白黑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">黑白</rdg></app>
+<app from="#beg0800019" to="#end0800019"><lem wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit5">諸語</rdg></app>
+<app from="#beg0800020" to="#end0800020"><lem wit="#wit1">通達</lem><rdg resp="#resp1" wit="#wit4">通曉</rdg></app>
+<app from="#beg0800021" to="#end0800021"><lem wit="#wit1">誦持</lem><rdg resp="#resp1" wit="#wit5">誦於</rdg></app>
+<app from="#beg0801001" to="#end0801001"><lem wit="#wit1">離欲</lem><rdg resp="#resp1" wit="#wit5">深欲</rdg></app>
+<app from="#beg0801002" to="#end0801002"><lem wit="#wit1">糟糠</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">糠糟</rdg></app>
+<app from="#beg0801003" to="#end0801003"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">非是</rdg></app>
+<app from="#beg0801004" to="#end0801004"><lem wit="#wit1">清淨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">清淨法</rdg></app>
+<app from="#beg0801005" to="#end0801005"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">無有</rdg></app>
+<app from="#beg0801006" to="#end0801006"><lem wit="#wit1">想</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">相</rdg></app>
+<app from="#beg0801007" to="#end0801007"><lem wit="#wit1">不善</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">大苦</rdg></app>
+<app from="#beg0801008" to="#end0801008"><lem wit="#wit1">不喜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">不善</rdg></app>
+<app from="#beg0801009" to="#end0801009"><lem wit="#wit1">是人</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">是人雖</rdg><rdg resp="#resp1" wit="#wit5">是人雖為</rdg></app>
+<app from="#beg0801010" to="#end0801010"><lem wit="#wit1">百</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0801011" to="#end0801011"><lem wit="#wit1">我慢<lb n="0801b24" ed="T"/>心</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">懈慢心</rdg></app>
+<app from="#beg0801012" to="#end0801012"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0801013" to="#end0801013"><lem wit="#wit1">隨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">亦隨</rdg></app>
+<app from="#beg0801014" to="#end0801014"><lem wit="#wit1">同</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">謂</rdg></app>
+<app from="#beg0801015" to="#end0801015"><lem wit="#wit1">嬈動</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">擾動</rdg></app>
+<app from="#beg0801016" to="#end0801016"><lem wit="#wit1">和<lb n="0801c08" ed="T"/>上</lem><rdg resp="#resp1" wit="#wit3 #wit4">和尚</rdg></app>
+<app from="#beg0801017" to="#end0801017"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit4">黎</rdg></app>
+<app from="#beg0801018" to="#end0801018"><lem wit="#wit1">惡道</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">地獄</rdg></app>
+<app from="#beg0801019" to="#end0801019"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit5">惟</rdg></app>
+<app from="#beg0801020" to="#end0801020"><lem wit="#wit1">常應</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">當應</rdg></app>
+<app from="#beg0801021" to="#end0801021"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">己善</rdg></app>
+<app from="#beg0801022" to="#end0801022"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">乏</rdg></app>
+<app from="#beg0801023" to="#end0801023"><lem wit="#wit1">供</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">供養</rdg></app>
+<app from="#beg0802001" to="#end0802001"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">入</rdg></app>
+<app from="#beg0802002" to="#end0802002"><lem wit="#wit1">寒</lem><rdg resp="#resp1" wit="#wit5">塞</rdg></app>
+<app from="#beg_11" to="#end_11" corresp="#0801017"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit4">黎</rdg></app>
+<app from="#beg0802003" to="#end0802003"><lem wit="#wit1">浣</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">洗</rdg></app>
+<app from="#beg0802004" to="#end0802004"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">意</rdg></app>
+<app from="#beg0802005" to="#end0802005"><lem wit="#wit1">是時</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">時是</rdg></app>
+<app from="#beg0802006" to="#end0802006"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit3 #wit4">無</rdg></app>
+<app from="#beg0802007" to="#end0802007"><lem wit="#wit1">膿</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">脹</rdg></app>
+<app from="#beg0802008" to="#end0802008"><lem wit="#wit1">飯食</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">飲食</rdg></app>
+<app from="#beg0802009" to="#end0802009"><lem wit="#wit1">股</lem><rdg resp="#resp1" wit="#wit2">服</rdg><rdg resp="#resp1" wit="#wit5">脚</rdg></app>
+<app from="#beg0802010" to="#end0802010"><lem wit="#wit1">諸經</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">諸法</rdg></app>
+<app from="#beg0802011" to="#end0802011"><lem wit="#wit1">讀誦修妬路、岐夜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">讀修多羅岐夜</rdg><rdg resp="#resp1" wit="#wit4">讀修多羅祇夜</rdg></app>
+<app from="#beg0802012" to="#end0802012"><lem wit="#wit1">憂</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">優</rdg></app>
+<app from="#beg0802013" to="#end0802013"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">久</rdg></app>
+<app from="#beg0802014" to="#end0802014"><lem wit="#wit1">時時</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">常</rdg></app>
+<app from="#beg_12" to="#end_12" corresp="#0801019"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit5">惟</rdg></app>
+<app from="#beg0802015" to="#end0802015"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">能自護能</rdg></app>
+<app from="#beg0802016" to="#end0802016"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">則</rdg></app>
+<app from="#beg0802017" to="#end0802017"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">云何以</rdg></app>
+<app from="#beg0803001" to="#end0803001"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">能得</rdg></app>
+<app from="#beg0803002" to="#end0803002"><lem wit="#wit1">信</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">行</rdg></app>
+<app from="#beg0803003" to="#end0803003"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0803004" to="#end0803004"><lem wit="#wit1">戒</lem><rdg resp="#resp1" wit="#wit2 #wit3">威</rdg></app>
+<app from="#beg0803005" to="#end0803005"><lem wit="#wit1">旃陀羅</lem><rdg resp="#resp1" wit="#wit2 #wit3">栴陀羅</rdg></app>
+<app from="#beg0803006" to="#end0803006"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0803007" to="#end0803007"><lem wit="#wit1">快<lb n="0803b03" ed="T"/>大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">快樂</rdg></app>
+<app from="#beg0803008" to="#end0803008"><lem wit="#wit1">阿難！譬如</lem><rdg resp="#resp1" wit="#wit5">譬如阿難</rdg></app>
+<app from="#beg0803009" to="#end0803009"><lem wit="#wit1">得順忍？況</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">除煩惱</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0803008"><lem wit="#wit1">阿難！譬如</lem><rdg resp="#resp1" wit="#wit5">譬如阿難</rdg></app>
+<app from="#beg0803010" to="#end0803010"><lem wit="#wit1">饍</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">膳</rdg></app>
+<app from="#beg_14" to="#end_14"><lem resp="#resp3" wit="#wit6 #wit7">焚<note type="cf1">KI14n0529_p0371b14</note></lem><rdg wit="#wit1">梵</rdg></app>
+<app from="#beg0803011" to="#end0803011"><lem wit="#wit1">無數</lem><rdg resp="#resp1" wit="#wit5">九萬</rdg></app>
+<app from="#beg0803012" to="#end0803012"><lem wit="#wit1">大坑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">火坑</rdg></app>
+<app from="#beg0803013" to="#end0803013"><lem wit="#wit1">懷憂愁</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">心懷憂</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0801015"><lem wit="#wit1">嬈動</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">擾動</rdg></app>
+<app from="#beg0803014" to="#end0803014"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit4">說</rdg></app>
+<app from="#beg0803015" to="#end0803015"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">返</rdg></app>
+<app from="#beg0803016" to="#end0803016"><lem wit="#wit1">少</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">小</rdg></app>
+<app from="#beg0804001" to="#end0804001"><lem wit="#wit1">泣</lem><rdg resp="#resp1" wit="#wit5">哭</rdg></app>
+<app from="#beg0804002" to="#end0804002"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit4">以</rdg></app>
+<app from="#beg0804003" to="#end0804003"><lem wit="#wit1">癡冥</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">癡愚</rdg></app>
+<app from="#beg0804004" to="#end0804004"><lem wit="#wit1">度</lem><rdg resp="#resp1" wit="#wit5">教</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0804002"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit4">以</rdg></app>
+<app from="#beg0804005" to="#end0804005"><lem wit="#wit1">妙</lem><rdg resp="#resp1" wit="#wit4">沙</rdg></app>
+<app from="#beg0804006" to="#end0804006"><lem wit="#wit1">敗</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">信</rdg><rdg resp="#resp1" wit="#wit5">散</rdg></app>
+<app from="#beg0804007" to="#end0804007"><lem wit="#wit1">共</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">自</rdg></app>
+<app from="#beg0804008" to="#end0804008"><lem wit="#wit1">破法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">破壞</rdg></app>
+<app from="#beg0804009" to="#end0804009"><lem wit="#wit1">啼泣</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">啼哭</rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0804009"><lem wit="#wit1">啼泣</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">啼哭</rdg></app>
+<app from="#beg0804010" to="#end0804010"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit4">令</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0801015"><lem wit="#wit1">嬈動</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">擾動</rdg></app>
+<app from="#beg0804011" to="#end0804011"><lem wit="#wit1">及</lem><rdg resp="#resp1" wit="#wit2">反</rdg></app>
+<app from="#beg0804012" to="#end0804012"><lem wit="#wit1">號哭</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">呼喚</rdg></app>
+<app from="#beg0804013" to="#end0804013"><lem wit="#wit1">免</lem><rdg resp="#resp1" wit="#wit2 #wit5">勉</rdg></app>
+<app from="#beg0804014" to="#end0804014"><lem wit="#wit1">惡比丘</lem><rdg resp="#resp1" wit="#wit4">諸比丘</rdg></app>
+<app from="#beg_19" to="#end_19" corresp="#0801015"><lem wit="#wit1">嬈動</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">擾動</rdg></app>
+<app from="#beg0805001" to="#end0805001"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">護</rdg></app>
+<app from="#beg0805002" to="#end0805002"><lem wit="#wit1">五陰</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">五欲</rdg></app>
+<app from="#beg0805003" to="#end0805003"><lem wit="#wit1">牢堅</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">牢固</rdg></app>
+<app from="#beg0805004" to="#end0805004"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit5">故</rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0804009"><lem wit="#wit1">啼泣</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">啼哭</rdg></app>
+<app from="#beg0805005" to="#end0805005"><lem wit="#wit1">常墮於惡道</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">當墮三惡道</rdg></app>
+<app from="#beg0805006" to="#end0805006"><lem wit="#wit1">比丘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">比丘眾</rdg></app>
+<app from="#beg0805007" to="#end0805007"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">第四</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0797003" resp="#resp2" type="mod" target="#nkr_note_mod_0797003"><!--CBETA todo type: a-->不分卷【宋】【元】【明】【宮】</note>
+<note n="0797004" resp="#resp2" type="mod" target="#nkr_note_mod_0797004">〔以〕－【宋】【元】【明】【宮】</note>
+<note n="0797005" resp="#resp2" type="mod" target="#nkr_note_mod_0797005">〔著〕－【宋】【元】【明】【宮】</note>
+<note n="0797006" resp="#resp2" type="mod" target="#nkr_note_mod_0797006">二＝三【宋】【元】【明】【宮】</note>
+<note n="0797007" resp="#resp2" type="mod" target="#nkr_note_mod_0797007">〔一〕－【宋】【元】【明】【宮】</note>
+<note n="0797008" resp="#resp2" type="mod" target="#nkr_note_mod_0797008">〔曰〕－【宋】【元】【明】【宮】</note>
+<note n="0797009" resp="#resp2" type="mod" target="#nkr_note_mod_0797009">說＝記【宋】【元】【明】【宮】</note>
+<note n="0797010" resp="#resp2" type="mod" target="#nkr_note_mod_0797010">無＝不【宋】【元】【明】【宮】</note>
+<note n="0797011" resp="#resp2" type="mod" target="#nkr_note_mod_0797011">六十五＝十五【宋】【元】【明】【宮】</note>
+<note n="0798001" resp="#resp2" type="mod" target="#nkr_note_mod_0798001">定光佛＝錠光佛【宋】【元】【明】【宮】</note>
+<note n="0798002" resp="#resp2" type="mod" target="#nkr_note_mod_0798002">（我念）＋過世【宋】【元】【明】【宮】</note>
+<note n="0798004" resp="#resp2" type="mod" target="#nkr_note_mod_0798004">那＝刪【宋】【元】【明】【宮】</note>
+<note n="0798006" resp="#resp2" type="mod" target="#nkr_note_mod_0798006">世＋（曾見）【宋】【元】【明】【宮】</note>
+<note n="0798007" resp="#resp2" type="mod" target="#nkr_note_mod_0798007">螺＝<g ref="#CB01116">䗾</g>【宋】【元】【明】【宮】</note>
+<note n="0798008" resp="#resp2" type="mod" target="#nkr_note_mod_0798008">〔律媯反〕－【明】，律＝諍【宋】【元】【宮】</note>
+<note n="0798009" resp="#resp2" type="mod" target="#nkr_note_mod_0798009">億＝萬【宋】【元】【明】【宮】</note>
+<note n="0798012" resp="#resp2" type="mod" target="#nkr_note_mod_0798012">〔得〕－【宋】【元】【明】【宮】</note>
+<note n="0798013" resp="#resp2" type="mod" target="#nkr_note_mod_0798013">現＝見【宋】【元】【明】【宮】</note>
+<note n="0798014" resp="#resp2" type="mod" target="#nkr_note_mod_0798014">得＝即【宋】【元】【明】【宮】</note>
+<note n="0798015" resp="#resp2" type="mod" target="#nkr_note_mod_0798015">火坑＝大坑【宋】【元】【明】【宮】＊</note>
+<note n="0799003" resp="#resp2" type="mod" target="#nkr_note_mod_0799003">今＝令【宋】【元】【明】【宮】＊</note>
+<note n="0799005" resp="#resp2" type="mod" target="#nkr_note_mod_0799005">動轉＝轉動【宋】【元】【明】【宮】</note>
+<note n="0799006" resp="#resp2" type="mod" target="#nkr_note_mod_0799006">〔者〕－【宋】【元】【明】【宮】</note>
+<note n="0799007" resp="#resp2" type="mod" target="#nkr_note_mod_0799007">者＝著【宋】【元】【明】【宮】</note>
+<note n="0799008" resp="#resp2" type="mod" target="#nkr_note_mod_0799008">法＋（中）【宋】【元】【明】【宮】</note>
+<note n="0799009" resp="#resp2" type="mod" target="#nkr_note_mod_0799009">是＝其【宋】【元】【明】【宮】</note>
+<note n="0799010" resp="#resp2" type="mod" target="#nkr_note_mod_0799010">輕蔑空行＝輕蔑行空【宋】【元】，＝輕笑行空【明】【宮】</note>
+<note n="0799011" resp="#resp2" type="mod" target="#nkr_note_mod_0799011">堅牢＝牢堅【宋】【元】【明】【宮】</note>
+<note n="0799013" resp="#resp2" type="mod" target="#nkr_note_mod_0799013">儀則＝義利【宋】【元】【明】</note>
+<note n="0799014" resp="#resp2" type="mod" target="#nkr_note_mod_0799014">不知＝不解【宋】【元】【明】【宮】</note>
+<note n="0799015" resp="#resp2" type="mod" target="#nkr_note_mod_0799015">讀誦修妬路＝讚修多羅【宋】【元】【明】【宮】</note>
+<note n="0800001" resp="#resp2" type="mod" target="#nkr_note_mod_0800001">一杯＝大杯【宋】【元】【明】【宮】</note>
+<note n="0800002" resp="#resp2" type="mod" target="#nkr_note_mod_0800002">眾＝憒【宋】【元】【明】【宮】</note>
+<note n="0800003" resp="#resp2" type="mod" target="#nkr_note_mod_0800003">言語＝語言【宋】【元】【明】【宮】</note>
+<note n="0800004" resp="#resp2" type="mod" target="#nkr_note_mod_0800004">〔若〕－【宋】【元】【明】【宮】</note>
+<note n="0800005" resp="#resp2" type="mod" target="#nkr_note_mod_0800005"><!--CBETA todo type: a-->卷第三終【宋】【元】【明】【宮】</note>
+<note n="0800006" resp="#resp2" type="mod" target="#nkr_note_mod_0800006"><!--CBETA todo type: ＊-->〔佛藏經〕－【宋】【元】【明】【宮】＊，<!--CBETA todo type: i-->了戒＝了惑【宮】，卷第四首【宋】【元】【明】【宮】</note>
+<note n="0800008" resp="#resp2" type="mod" target="#nkr_note_mod_0800008">（人）＋者【宋】【元】【明】【宮】</note>
+<note n="0800009" resp="#resp2" type="mod" target="#nkr_note_mod_0800009">訾＝呰【宋】【元】【明】【宮】</note>
+<note n="0800010" resp="#resp2" type="mod" target="#nkr_note_mod_0800010">外＋（道）【宋】【元】【明】【宮】</note>
+<note n="0800011" resp="#resp2" type="mod" target="#nkr_note_mod_0800011">樂＋（說）【宋】【元】【明】【宮】</note>
+<note n="0800012" resp="#resp2" type="mod" target="#nkr_note_mod_0800012">著外經＝看外道【宋】【元】【明】【宮】</note>
+<note n="0800013" resp="#resp2" type="mod" target="#nkr_note_mod_0800013">〔善〕－【宋】【元】【明】【宮】</note>
+<note n="0800014" resp="#resp2" type="mod" target="#nkr_note_mod_0800014">（無）＋醜【宋】【元】【明】【宮】</note>
+<note n="0800015" resp="#resp2" type="mod" target="#nkr_note_mod_0800015">如是＝如我【宋】【元】【明】【宮】</note>
+<note n="0800017" resp="#resp2" type="mod" target="#nkr_note_mod_0800017">墮＝隨【宋】【元】【明】【宮】</note>
+<note n="0800018" resp="#resp2" type="mod" target="#nkr_note_mod_0800018">白黑＝黑白【宋】【元】【明】【宮】</note>
+<note n="0801002" resp="#resp2" type="mod" target="#nkr_note_mod_0801002">糟糠＝糠糟【宋】【元】【明】【宮】</note>
+<note n="0801003" resp="#resp2" type="mod" target="#nkr_note_mod_0801003">非＋（是）【宋】【元】【明】【宮】</note>
+<note n="0801004" resp="#resp2" type="mod" target="#nkr_note_mod_0801004">清淨＋（法）【宋】【元】【明】【宮】</note>
+<note n="0801005" resp="#resp2" type="mod" target="#nkr_note_mod_0801005">無＋（有）【宋】【元】【明】【宮】</note>
+<note n="0801006" resp="#resp2" type="mod" target="#nkr_note_mod_0801006">想＝相【宋】【元】【明】【宮】</note>
+<note n="0801007" resp="#resp2" type="mod" target="#nkr_note_mod_0801007">不善＝大苦【宋】【元】【明】【宮】</note>
+<note n="0801008" resp="#resp2" type="mod" target="#nkr_note_mod_0801008">不喜＝不善【宋】【元】【明】</note>
+<note n="0801009" resp="#resp2" type="mod" target="#nkr_note_mod_0801009">是人＋（雖）【宋】【元】【明】，＋（雖為）【宮】</note>
+<note n="0801011" resp="#resp2" type="mod" target="#nkr_note_mod_0801011">我慢心＝懈慢心【宋】【元】【明】【宮】</note>
+<note n="0801012" resp="#resp2" type="mod" target="#nkr_note_mod_0801012">〔能〕－【宋】【元】【明】【宮】</note>
+<note n="0801013" resp="#resp2" type="mod" target="#nkr_note_mod_0801013">（亦）＋隨【宋】【元】【明】【宮】</note>
+<note n="0801014" resp="#resp2" type="mod" target="#nkr_note_mod_0801014">同＝謂【宋】【元】【明】</note>
+<note n="0801015" resp="#resp2" type="mod" target="#nkr_note_mod_0801015">嬈動＝擾動【宋】【元】【明】【宮】＊</note>
+<note n="0801018" resp="#resp2" type="mod" target="#nkr_note_mod_0801018">惡道＝地獄【宋】【元】【明】【宮】</note>
+<note n="0801020" resp="#resp2" type="mod" target="#nkr_note_mod_0801020">常應＝當應【宋】【元】【明】【宮】</note>
+<note n="0801021" resp="#resp2" type="mod" target="#nkr_note_mod_0801021">（己）＋善【宋】【元】【明】【宮】</note>
+<note n="0801022" resp="#resp2" type="mod" target="#nkr_note_mod_0801022">念＝乏【宋】【元】【明】【宮】</note>
+<note n="0801023" resp="#resp2" type="mod" target="#nkr_note_mod_0801023">供＋（養）【宋】【元】【明】</note>
+<note n="0802001" resp="#resp2" type="mod" target="#nkr_note_mod_0802001">人＝入【宋】【元】【明】【宮】</note>
+<note n="0802003" resp="#resp2" type="mod" target="#nkr_note_mod_0802003">浣＝洗【宋】【元】【明】【宮】</note>
+<note n="0802004" resp="#resp2" type="mod" target="#nkr_note_mod_0802004">心＝意【宋】【元】【明】【宮】</note>
+<note n="0802005" resp="#resp2" type="mod" target="#nkr_note_mod_0802005">是時＝時是【宋】【元】【明】【宮】</note>
+<note n="0802007" resp="#resp2" type="mod" target="#nkr_note_mod_0802007">膿＝脹【宋】【元】【明】【宮】</note>
+<note n="0802008" resp="#resp2" type="mod" target="#nkr_note_mod_0802008">飯食＝飲食【宋】【元】【明】【宮】</note>
+<note n="0802009" resp="#resp2" type="mod" target="#nkr_note_mod_0802009">股＝服【宋】，＝脚【宮】</note>
+<note n="0802010" resp="#resp2" type="mod" target="#nkr_note_mod_0802010">諸經＝諸法【宋】【元】【明】【宮】</note>
+<note n="0802011" resp="#resp2" type="mod" target="#nkr_note_mod_0802011">讀誦修妬路岐夜＝讀修多羅岐夜【宋】【元】【宮】，＝讀修多羅祇夜【明】</note>
+<note n="0802012" resp="#resp2" type="mod" target="#nkr_note_mod_0802012">憂＝優【宋】【元】【明】【宮】</note>
+<note n="0802013" resp="#resp2" type="mod" target="#nkr_note_mod_0802013">又＝久【宋】【元】【明】【宮】</note>
+<note n="0802014" resp="#resp2" type="mod" target="#nkr_note_mod_0802014">時時＝常【宋】【元】【明】【宮】</note>
+<note n="0802015" resp="#resp2" type="mod" target="#nkr_note_mod_0802015">能＋（自護能）【宋】【元】【明】【宮】</note>
+<note n="0802016" resp="#resp2" type="mod" target="#nkr_note_mod_0802016">亦＝則【宋】【元】【明】【宮】</note>
+<note n="0802017" resp="#resp2" type="mod" target="#nkr_note_mod_0802017">（云何）＋以【宋】【元】【明】【宮】</note>
+<note n="0803001" resp="#resp2" type="mod" target="#nkr_note_mod_0803001">能＋（得）【宋】【元】【明】【宮】</note>
+<note n="0803002" resp="#resp2" type="mod" target="#nkr_note_mod_0803002">信＝行【宋】【元】【明】【宮】</note>
+<note n="0803003" resp="#resp2" type="mod" target="#nkr_note_mod_0803003">〔當〕－【宋】【元】【明】【宮】</note>
+<note n="0803006" resp="#resp2" type="mod" target="#nkr_note_mod_0803006">〔所〕－【宋】【元】【明】【宮】</note>
+<note n="0803007" resp="#resp2" type="mod" target="#nkr_note_mod_0803007">快大＝快樂【宋】【元】【明】【宮】</note>
+<note n="0803009" resp="#resp2" type="mod" target="#nkr_note_mod_0803009">得順忍況＝除煩惱【宋】【元】【明】【宮】</note>
+<note n="0803010" resp="#resp2" type="mod" target="#nkr_note_mod_0803010">饍＝膳【宋】【元】【明】【宮】</note>
+<note n="0803012" resp="#resp2" type="mod" target="#nkr_note_mod_0803012">大坑＝火坑【宋】【元】【明】【宮】</note>
+<note n="0803013" resp="#resp2" type="mod" target="#nkr_note_mod_0803013">懷憂愁＝心懷憂【宋】【元】【明】【宮】</note>
+<note n="0803015" resp="#resp2" type="mod" target="#nkr_note_mod_0803015">反＝返【宋】【元】【明】【宮】</note>
+<note n="0803016" resp="#resp2" type="mod" target="#nkr_note_mod_0803016">少＝小【宋】【元】【明】【宮】</note>
+<note n="0804003" resp="#resp2" type="mod" target="#nkr_note_mod_0804003">癡冥＝癡愚【宋】【元】【明】【宮】</note>
+<note n="0804006" resp="#resp2" type="mod" target="#nkr_note_mod_0804006">敗＝信【宋】【元】【明】，＝散【宮】</note>
+<note n="0804007" resp="#resp2" type="mod" target="#nkr_note_mod_0804007">共＝自【宋】【元】【明】【宮】</note>
+<note n="0804008" resp="#resp2" type="mod" target="#nkr_note_mod_0804008">破法＝破壞【宋】【元】【明】【宮】</note>
+<note n="0804009" resp="#resp2" type="mod" target="#nkr_note_mod_0804009">啼泣＝啼哭【宋】【元】【明】【宮】＊</note>
+<note n="0804012" resp="#resp2" type="mod" target="#nkr_note_mod_0804012">號哭＝呼喚【宋】【元】【明】【宮】</note>
+<note n="0805001" resp="#resp2" type="mod" target="#nkr_note_mod_0805001">故＝護【宋】【元】【明】【宮】</note>
+<note n="0805002" resp="#resp2" type="mod" target="#nkr_note_mod_0805002">五陰＝五欲【宋】【元】【明】【宮】</note>
+<note n="0805003" resp="#resp2" type="mod" target="#nkr_note_mod_0805003">牢堅＝牢固【宋】【元】【明】【宮】</note>
+<note n="0805005" resp="#resp2" type="mod" target="#nkr_note_mod_0805005">常墮於惡道＝當墮三惡道【宋】【元】【明】【宮】</note>
+<note n="0805006" resp="#resp2" type="mod" target="#nkr_note_mod_0805006">比丘＋（眾）【宋】【元】【明】【宮】</note>
+<note n="0805007" resp="#resp2" type="mod" target="#nkr_note_mod_0805007">下＝第四【宋】【元】【明】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0797003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797003">不分卷【三】【宮】</note>
+<note n="0797004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797004">〔以〕－【三】【宮】</note>
+<note n="0797005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797005">〔著〕－【三】【宮】</note>
+<note n="0797006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797006">二＝三【三】【宮】</note>
+<note n="0797007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797007">〔一〕－【三】【宮】</note>
+<note n="0797008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797008">〔曰〕－【三】【宮】</note>
+<note n="0797009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797009">說＝記【三】【宮】</note>
+<note n="0797010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797010">無＝不【三】【宮】</note>
+<note n="0797011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0797011">六十五＝十五【三】【宮】</note>
+<note n="0798001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798001">定光佛＝錠光佛【三】【宮】</note>
+<note n="0798002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798002">（我念）＋過世【三】【宮】</note>
+<note n="0798003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798003">名＝各【元】</note>
+<note n="0798004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798004">那＝刪【三】【宮】</note>
+<note n="0798005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798005">〔那〕－【宮】</note>
+<note n="0798006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798006">世＋（曾見）【三】【宮】</note>
+<note n="0798007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798007">螺＝<g ref="#CB01116">䗾</g>【三】【宮】</note>
+<note n="0798008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798008">律＝諍【宋】【元】【宮】，〔律媯反〕－【明】</note>
+<note n="0798009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798009">億＝萬【三】【宮】</note>
+<note n="0798010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798010">〔覓視反〕－【明】</note>
+<note n="0798011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798011">疊＝<g ref="#CB00626">㲲</g>【元】【明】</note>
+<note n="0798012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798012">〔得〕－【三】【宮】</note>
+<note n="0798013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798013">現＝見【三】【宮】</note>
+<note n="0798014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798014">得＝即【三】【宮】</note>
+<note n="0798015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0798015">火坑＝大坑【三】【宮】＊</note>
+<note n="0799001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799001">習＝集【宋】【元】【宮】</note>
+<note n="0799002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799002">天＝大【元】</note>
+<note n="0799003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799003">今＝令【三】【宮】＊</note>
+<note n="0799004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799004">邪＝耶【宮】</note>
+<note n="0799005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799005">動轉＝轉動【三】【宮】</note>
+<note n="0799006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799006">〔者〕－【三】【宮】</note>
+<note n="0799007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799007">者＝著【三】【宮】</note>
+<note n="0799008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799008">法＋（中）【三】【宮】</note>
+<note n="0799009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799009">是＝其【三】【宮】</note>
+<note n="0799010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799010">輕蔑空行＝輕蔑行空【宋】【元】，輕笑行空【明】【宮】</note>
+<note n="0799011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799011">堅牢＝牢堅【三】【宮】</note>
+<note n="0799012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799012">訟＝說【元】【明】</note>
+<note n="0799013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799013">儀則＝義利【三】</note>
+<note n="0799014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799014">不知＝不解【三】【宮】</note>
+<note n="0799015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0799015">讀誦修妬路＝讚修多羅【三】【宮】</note>
+<note n="0800001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800001">一杯＝大杯【三】【宮】</note>
+<note n="0800002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800002">眾＝憒【三】【宮】</note>
+<note n="0800003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800003">言語＝語言【三】【宮】</note>
+<note n="0800004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800004">〔若〕－【三】【宮】</note>
+<note n="0800005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800005">卷第三終【三】【宮】</note>
+<note n="0800006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800006">卷第四首【三】【宮】，〔佛藏經〕－【三】【宮】＊，了戒＝了惑【宮】</note>
+<note n="0800007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800007">（為）＋三【元】【明】</note>
+<note n="0800008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800008">（人）＋者【三】【宮】</note>
+<note n="0800009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800009">訾＝呰【三】【宮】</note>
+<note n="0800010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800010">外＋（道）【三】【宮】</note>
+<note n="0800011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800011">樂＋（說）【三】【宮】</note>
+<note n="0800012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800012">著外經＝看外道【三】【宮】</note>
+<note n="0800013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800013">〔善〕－【三】【宮】</note>
+<note n="0800014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800014">（無）＋醜【三】【宮】</note>
+<note n="0800015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800015">如是＝如我【三】【宮】</note>
+<note n="0800016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800016">謂＝為【明】</note>
+<note n="0800017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800017">墮＝隨【三】【宮】</note>
+<note n="0800018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800018">白黑＝黑白【三】【宮】</note>
+<note n="0800019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800019">（諸）＋語【宮】</note>
+<note n="0800020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800020">通達＝通曉【明】</note>
+<note n="0800021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0800021">誦持＝誦於【宮】</note>
+<note n="0801001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801001">離欲＝深欲【宮】</note>
+<note n="0801002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801002">糟糠＝糠糟【三】【宮】</note>
+<note n="0801003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801003">非＋（是）【三】【宮】</note>
+<note n="0801004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801004">清淨＋（法）【三】【宮】</note>
+<note n="0801005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801005">無＋（有）【三】【宮】</note>
+<note n="0801006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801006">想＝相【三】【宮】</note>
+<note n="0801007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801007">不善＝大苦【三】【宮】</note>
+<note n="0801008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801008">不喜＝不善【三】</note>
+<note n="0801009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801009">是人＋（雖）【三】，＋（雖為）【宮】</note>
+<note n="0801010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801010">〔百〕－【宮】</note>
+<note n="0801011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801011">我慢心＝懈慢心【三】【宮】</note>
+<note n="0801012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801012">〔能〕－【三】【宮】</note>
+<note n="0801013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801013">（亦）＋隨【三】【宮】</note>
+<note n="0801014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801014">同＝謂【三】</note>
+<note n="0801015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801015">嬈動＝擾動【三】【宮】＊</note>
+<note n="0801016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801016">和上＝和尚【元】【明】</note>
+<note n="0801017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801017">梨＝黎【明】＊</note>
+<note n="0801018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801018">惡道＝地獄【三】【宮】</note>
+<note n="0801019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801019">唯＝惟【宋】【宮】＊</note>
+<note n="0801020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801020">常應＝當應【三】【宮】</note>
+<note n="0801021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801021">（己）＋善【三】【宮】</note>
+<note n="0801022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801022">念＝乏【三】【宮】</note>
+<note n="0801023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0801023">供＋（養）【三】</note>
+<note n="0802001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802001">人＝入【三】【宮】</note>
+<note n="0802002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802002">寒＝塞【宮】</note>
+<note n="0802003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802003">浣＝洗【三】【宮】</note>
+<note n="0802004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802004">心＝意【三】【宮】</note>
+<note n="0802005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802005">是時＝時是【三】【宮】</note>
+<note n="0802006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802006">不＝無【元】【明】</note>
+<note n="0802007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802007">膿＝脹【三】【宮】</note>
+<note n="0802008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802008">飯食＝飲食【三】【宮】</note>
+<note n="0802009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802009">股＝服【宋】，脚【宮】</note>
+<note n="0802010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802010">諸經＝諸法【三】【宮】</note>
+<note n="0802011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802011">讀誦修妬路岐夜＝讀修多羅岐夜【宋】【元】【宮】，讀修多羅祇夜【明】</note>
+<note n="0802012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802012">憂＝優【三】【宮】</note>
+<note n="0802013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802013">又＝久【三】【宮】</note>
+<note n="0802014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802014">時時＝常【三】【宮】</note>
+<note n="0802015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802015">能＋（自護能）【三】【宮】</note>
+<note n="0802016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802016">亦＝則【三】【宮】</note>
+<note n="0802017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0802017">（云何）＋以【三】【宮】</note>
+<note n="0803001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803001">能＋（得）【三】【宮】</note>
+<note n="0803002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803002">信＝行【三】【宮】</note>
+<note n="0803003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803003">〔當〕－【三】【宮】</note>
+<note n="0803004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803004">戒＝威【宋】【元】</note>
+<note n="0803005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803005">旃陀羅＝栴陀羅【宋】【元】</note>
+<note n="0803006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803006">〔所〕－【三】【宮】</note>
+<note n="0803007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803007">快大＝快樂【三】【宮】</note>
+<note n="0803008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803008">阿難譬如＝譬如阿難【宮】＊</note>
+<note n="0803009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803009">得順忍況＝除煩惱【三】【宮】</note>
+<note n="0803010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803010">饍＝膳【三】【宮】</note>
+<note n="0803011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803011">無數＝九萬【宮】</note>
+<note n="0803012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803012">大坑＝火坑【三】【宮】</note>
+<note n="0803013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803013">懷憂愁＝心懷憂【三】【宮】</note>
+<note n="0803014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803014">時＝說【明】</note>
+<note n="0803015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803015">反＝返【三】【宮】</note>
+<note n="0803016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0803016">少＝小【三】【宮】</note>
+<note n="0804001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804001">泣＝哭【宮】</note>
+<note n="0804002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804002">於＝以【明】＊</note>
+<note n="0804003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804003">癡冥＝癡愚【三】【宮】</note>
+<note n="0804004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804004">度＝教【宮】</note>
+<note n="0804005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804005">妙＝沙【明】</note>
+<note n="0804006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804006">敗＝信【三】，散【宮】</note>
+<note n="0804007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804007">共＝自【三】【宮】</note>
+<note n="0804008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804008">破法＝破壞【三】【宮】</note>
+<note n="0804009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804009">啼泣＝啼哭【三】【宮】＊</note>
+<note n="0804010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804010">今＝令【明】</note>
+<note n="0804011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804011">及＝反【宋】</note>
+<note n="0804012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804012">號哭＝呼喚【三】【宮】</note>
+<note n="0804013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804013">免＝勉【宋】【宮】</note>
+<note n="0804014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0804014">惡比丘＝諸比丘【明】</note>
+<note n="0805001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805001">故＝護【三】【宮】</note>
+<note n="0805002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805002">五陰＝五欲【三】【宮】</note>
+<note n="0805003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805003">牢堅＝牢固【三】【宮】</note>
+<note n="0805004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805004">者＝故【宮】</note>
+<note n="0805005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805005">常墮於惡道＝當墮三惡道【三】【宮】</note>
+<note n="0805006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805006">比丘＋（眾）【三】【宮】</note>
+<note n="0805007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805007">下＝第四【三】【宮】</note>
+</p>
+</cb:div>
+</back></text></TEI>

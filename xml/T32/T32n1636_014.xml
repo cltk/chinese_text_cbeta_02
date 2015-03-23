@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T32n1636">
+<teiHeader>
+        <fileDesc>
+                <titleStmt>
+                        <title>Taisho Tripitaka, Electronic version, No. 1636 大乘集菩薩學論</title>
+                        <author>法稱菩薩造  宋 法護等譯</author>
+                        <respStmt>
+                                <resp>Electronic Version by</resp>
+                                <name>CBETA</name>
+                        </respStmt>
+                </titleStmt>
+        <editionStmt>
+                <edition>$Revision: 1.20 $<date>$Date: 2012/05/25 06:46:27 $</date></edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+        </editionStmt>
+        <extent>25卷</extent>
+        <publicationStmt>
+                <distributor>
+                        <name>中華電子佛典協會 (CBETA)</name>
+                        <address>
+                                <addrLine>service@cbeta.org</addrLine>
+                        </address>
+                </distributor>
+                <availability>
+                        <p>Available for non-commercial use when distributed with this header intact.</p>
+                </availability>
+                <date>$Date: 2012/05/25 06:46:27 $</date>
+        </publicationStmt>
+        <sourceDesc>
+                <bibl>Taisho Tripitaka Vol. 32, No. 1636 </bibl>
+        <listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+        <projectDesc>
+                <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by SAT, Japan, Text as provided by Anonymous from USA</p>
+                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，日本 SAT 組織提供，北美某大德提供</p>
+        </projectDesc>
+<charDecl>
+<char xml:id="CB00626">
+	<charName>CBETA CHARACTER CB00626</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[疊*毛]</value>
+	</charProp>
+	<mapping type="unicode">U+3CB2</mapping>
+	<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
+</char>
+<char xml:id="CB02720">
+	<charName>CBETA CHARACTER CB02720</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[暻-京+恭]</value>
+	</charProp>
+	<mapping cb:dec="985760" type="PUA">U+F0AA0</mapping>
+</char>
+<char xml:id="CB03188">
+	<charName>CBETA CHARACTER CB03188</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[應-倠+秝]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>歷</value>
+	</charProp>
+	<mapping cb:dec="986228" type="PUA">U+F0C74</mapping>
+</char>
+<char xml:id="CB03196">
+	<charName>CBETA CHARACTER CB03196</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[瘞-(人*人)+(乂*乂)]</value>
+	</charProp>
+	<mapping cb:dec="986236" type="PUA">U+F0C7C</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="sa">Sanskrit</language>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+        <change when="1999-10-12T10:24:53">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/10/12)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<cb:mulu level="1" n="11" type="品">11 說阿蘭若品</cb:mulu><cb:div type="pin">
+<pb n="0115b" xml:id="T32.1636.0115b" ed="T"/>
+<lb n="0115b01" ed="T"/>
+<milestone n="14" unit="juan"/>
+<lb n="0115b02" ed="T"/><cb:juan n="014" fun="open"><cb:mulu n="014" type="卷"></cb:mulu><cb:jhead>大乘集菩薩學論卷第十四</cb:jhead>
+<lb n="0115b03" ed="T"/>
+<lb n="0115b04" ed="T"/><byline cb:type="Translator"><anchor xml:id="fxT32p0115b01"/>西天譯經三藏朝散大夫
+<lb n="0115b05" ed="T"/>試鴻臚少卿宣梵大師賜紫
+<lb n="0115b06" ed="T"/>沙門臣日稱等奉　詔譯</byline>
+<lb n="0115b07" ed="T"/><cb:jhead type="pin">說阿蘭若品第十一之<anchor xml:id="nkr_note_orig_0115003" n="0115003"/><anchor xml:id="beg0115003" n="0115003"/>餘<anchor xml:id="end0115003"/></cb:jhead></cb:juan>
+<lb n="0115b08" ed="T"/><p xml:id="pT32p0115b0801">寶積經云。復次阿蘭若行若諸異生未得果
+<lb n="0115b09" ed="T"/>者。見虎狼至勿生驚怖。當發是心。我本詣此
+<lb n="0115b10" ed="T"/>阿蘭若處。已捨身命不應驚畏。為起慈心遠
+<lb n="0115b11" ed="T"/>離過失使無怖懼。又若虎狼斷我命根噉我
+<lb n="0115b12" ed="T"/>身肉應起是心。我得善利以不堅身而當獲
+<lb n="0115b13" ed="T"/>堅固。若復不能令噉我肉。豈彼虎狼得樂觸
+<lb n="0115b14" ed="T"/>耶。以要言之。復次阿蘭若行。有非人來。若美
+<lb n="0115b15" ed="T"/>若醜。不應愛樂。亦勿損害。若有往昔見佛諸
+<lb n="0115b16" ed="T"/>天來此阿蘭若比丘所起諸問難時。彼比丘
+<lb n="0115b17" ed="T"/>如力所能。隨所學法為諸天說。又若有深問
+<lb n="0115b18" ed="T"/>難時。阿蘭若比丘。或未能答而不生恭敬者。
+<lb n="0115b19" ed="T"/>應語彼言。我今未得無學。若我當勤佛教。時
+<lb n="0115b20" ed="T"/>聞法已盡能通解答一切問。我今唯能得聞
+<lb n="0115b21" ed="T"/>是法。乃至總略。若住阿蘭若處藥草樹林。尚
+<lb n="0115b22" ed="T"/>不取著。云何為生何等為滅。如是觀察。是身
+<lb n="0115b23" ed="T"/>無我無主宰無作者無受者。誰生誰滅。畢竟
+<lb n="0115b24" ed="T"/>無有生滅之者。是身亦復如是。譬若草木牆
+<lb n="0115b25" ed="T"/>壁瓦礫無我無主宰無作者無受者因緣和合
+<lb n="0115b26" ed="T"/>故即生。因緣離散故即滅。復次於勝義中無
+<lb n="0115b27" ed="T"/>有一法是生是滅彼經又說。復次阿蘭若行。
+<lb n="0115b28" ed="T"/>應發是心。然我至此阿蘭若處獨無伴侶。若
+<lb n="0115b29" ed="T"/>我所起善作惡作。爾時此有天龍藥<anchor xml:id="nkr_note_orig_0115004" n="0115004"/><anchor xml:id="beg0115004" n="0115004"/>叉<anchor xml:id="end0115004"/>佛世
+<pb n="0115c" xml:id="T32.1636.0115c" ed="T"/>
+<lb n="0115c01" ed="T"/>尊等。知我深心俱為我證。又若住此阿蘭若
+<lb n="0115c02" ed="T"/>中以心不善自在<anchor xml:id="nkr_note_orig_0115005" n="0115005"/><anchor xml:id="beg0115005" n="0115005"/>游<anchor xml:id="end0115005"/>逸。又若至此極遠之處。
+<lb n="0115c03" ed="T"/>獨無伴侶無親近者。無我無取。應如實覺。欲
+<lb n="0115c04" ed="T"/>尋恚尋害尋及餘不善法尋。悉如實覺。若我
+<lb n="0115c05" ed="T"/>於此不異其眾樂處有情憒閙中者即為欺誑
+<lb n="0115c06" ed="T"/>天龍藥<anchor xml:id="beg_1a" type="star"/>叉<anchor xml:id="end_1a"/>諸佛世尊。若如所作天龍藥<anchor xml:id="beg_1b" type="star"/>叉<anchor xml:id="end_1b"/>
+<lb n="0115c07" ed="T"/>不為呵厭。諸佛世尊悉皆歡喜。</p></cb:div>
+<lb n="0115c08" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="12" type="品">12 治心品</cb:mulu><head><anchor xml:id="nkr_note_orig_0115006" n="0115006"/><anchor xml:id="nkr_note_foreign_0115006" n="0115006"/>治心品第十<anchor xml:id="nkr_note_orig_0115007" n="0115007"/><anchor xml:id="beg0115007" n="0115007"/>二<anchor xml:id="end0115007"/><note place="inline">禪定波羅蜜多附</note></head>
+<lb n="0115c09" ed="T"/><p xml:id="pT32p0115c0901">論曰。於此阿蘭若修是禪定。如<anchor xml:id="nkr_note_orig_0115008" n="0115008"/>般若經云
+<lb n="0115c10" ed="T"/>修此禪定波羅蜜多者。得心不散亂利諸眾
+<lb n="0115c11" ed="T"/>生。所以者何。起世間定彼尚亦然。乃至心散
+<lb n="0115c12" ed="T"/>亂者皆不可得。況復阿耨多羅三藐三菩提。
+<lb n="0115c13" ed="T"/>是故得心不散亂。乃至成證阿耨多羅三藐
+<lb n="0115c14" ed="T"/>三菩提果。彼經又說。復次須菩提。初發心菩
+<lb n="0115c15" ed="T"/>薩摩訶薩修禪定波羅蜜多行時。於一切相
+<lb n="0115c16" ed="T"/>智相應作意則善入禪定。若眼見色不取其
+<lb n="0115c17" ed="T"/>相。亦不執取隨形妙好。若於眼根不修制止。
+<lb n="0115c18" ed="T"/>則依邪妄損惱於餘惡不善心隨其流轉。護
+<lb n="0115c19" ed="T"/>眼根者。制此令盡。如是耳所聞聲鼻所嗅香
+<lb n="0115c20" ed="T"/>舌所了味身所著觸意所知法。皆不取相亦
+<lb n="0115c21" ed="T"/>不執取隨形妙好。若於意根不修制止。則於
+<lb n="0115c22" ed="T"/>餘惡不善非法之心隨其流轉。護意根者。制
+<lb n="0115c23" ed="T"/>此令盡則行住坐臥語默時處。悉不捨離三
+<lb n="0115c24" ed="T"/>摩呬多。得彼手足不生動搖口無雜言亦無
+<lb n="0115c25" ed="T"/>戲笑諸根不亂。若身若心俱無妄失三業寂
+<lb n="0115c26" ed="T"/>靜。於顯密中如律儀道。乃至喜足易養易滿。
+<lb n="0115c27" ed="T"/>善入行處遠離憒閙。於得不得無有高下等
+<lb n="0115c28" ed="T"/>無差別。如是苦樂毀譽若讚不讚若夭若壽
+<lb n="0115c29" ed="T"/>亦無高下等無差別。若冤若親心常湛然。是
+<pb n="0116a" xml:id="T32.1636.0116a" ed="T"/>
+<lb n="0116a01" ed="T"/>聖非聖其聲無雜。於樂不樂猶如一相無高
+<lb n="0116a02" ed="T"/>無下。等無差別超諸違順。所以者何。於自相
+<lb n="0116a03" ed="T"/>空如不真實。則見諸法無生無滅。乃至廣說。</p>
+<lb n="0116a04" ed="T"/><p xml:id="pT32p0116a0401">論曰。喜樂修習者遠諸懈退。而常作意者息
+<lb n="0116a05" ed="T"/>除高舉。於此二種是所對治。護國經偈云。</p>
+<lb n="0116a06" ed="T"/><lg xml:id="lgT32p0116a0601"><l>無量俱胝劫</l><l>所有佛出世</l>
+<lb n="0116a07" ed="T"/><l>由是大<anchor xml:id="nkr_note_orig_0116001" n="0116001"/><anchor xml:id="beg0116001" n="0116001"/>仙<anchor xml:id="end0116001"/>尊</l><l>剎那獲勝益</l>
+<lb n="0116a08" ed="T"/><l>遠離於放逸</l><l>解脫諸染欲</l>
+<lb n="0116a09" ed="T"/><l>此有為虛妄</l><l>如幻夢所見</l>
+<lb n="0116a10" ed="T"/><l>乖離非久住</l><l>諸愛亦不常</l>
+<lb n="0116a11" ed="T"/><l>如奮力營求</l><l>諸波羅蜜地</l>
+<lb n="0116a12" ed="T"/><l>乃至悟菩提</l><l>精進無疑惑</l></lg>
+<lb n="0116a13" ed="T"/><p xml:id="pT32p0116a1301"><anchor xml:id="nkr_note_orig_0116002" n="0116002"/><anchor xml:id="nkr_note_foreign_0116002" n="0116002"/>大戲樂經廣說偈云。</p>
+<lb n="0116a14" ed="T"/><lg xml:id="lgT32p0116a1401"><l>老病死苦</l><l>如火焰然</l><l>三有熾盛</l>
+<lb n="0116a15" ed="T"/><l>無適無莫</l><l>未離輪轉</l><l>常處愚瞑</l>
+<lb n="0116a16" ed="T"/><l>譬若狂蜂</l><l>處罃器內</l><l>三界無常</l>
+<lb n="0116a17" ed="T"/><l>如戲劇者</l><l>及秋空雲</l><l>旋生旋滅</l>
+<lb n="0116a18" ed="T"/><l>人命遷壞</l><l>過於山水</l><l>輕捷迅速</l>
+<lb n="0116a19" ed="T"/><l>如<anchor xml:id="nkr_note_orig_0116003" n="0116003"/><anchor xml:id="beg0116003" n="0116003"/>電<anchor xml:id="end0116003"/>飛空</l><l>虛天界城</l><l>遍三惡道</l>
+<lb n="0116a20" ed="T"/><l>無明橫起</l><l>愛有所生</l><l>被轉五趣</l>
+<lb n="0116a21" ed="T"/><l>如陶家輪</l><l>常樂美色</l><l>及妙音響</l>
+<lb n="0116a22" ed="T"/><l>清淨香味</l><l>細滑觸樂</l><l>貪著此者</l>
+<lb n="0116a23" ed="T"/><l>如被囚縶</l><l>如鹿寄網</l><l>如猴被縛</l>
+<lb n="0116a24" ed="T"/><l>常懷怖懼</l><l>作冤家想</l><l>此欲樂者</l>
+<lb n="0116a25" ed="T"/><l>極多憂惱</l><l>如鋒銳刀</l><l>亦如毒藥</l>
+<lb n="0116a26" ed="T"/><l>智者遠離</l><l>如棄糞瓶</l><l>愚懵念著</l>
+<lb n="0116a27" ed="T"/><l>為怖畏因</l><l>及為苦本</l><l>愛有所纏</l>
+<lb n="0116a28" ed="T"/><l>疾<anchor xml:id="nkr_note_orig_0116004" n="0116004"/><anchor xml:id="beg0116004" n="0116004"/>趣<anchor xml:id="end0116004"/>衰老</l><l>常樂欲者</l><l>怖無歸捄</l>
+<lb n="0116a29" ed="T"/><l>昔有聖人</l><l>了知此欲</l><l>怖如猛火</l>
+<pb n="0116b" xml:id="T32.1636.0116b" ed="T"/>
+<lb n="0116b01" ed="T"/><l>如大淤泥</l><l>如持蜜刀</l><l>如避空劍</l>
+<lb n="0116b02" ed="T"/><l>又諸智者</l><l>了知此欲</l><l>如糞穢瓶</l>
+<lb n="0116b03" ed="T"/><l>如毒蛇首</l><l>如木耦驢</l><l>如塗人血</l>
+<lb n="0116b04" ed="T"/><l>如死狗頭</l><l>如惡冤家</l><l>又諸聖智</l>
+<lb n="0116b05" ed="T"/><l>了知此欲</l><l>譬水中月</l><l>如山谷響</l>
+<lb n="0116b06" ed="T"/><l>如鏡中像</l><l>如戲劇人</l><l>如夢所見</l>
+<lb n="0116b07" ed="T"/><l>又此欲樂</l><l>智者了悟</l><l>如幻如焰</l>
+<lb n="0116b08" ed="T"/><l>如水泡沫</l><l>剎那而住</l><l>遍計所起</l>
+<lb n="0116b09" ed="T"/><l>虛妄不實</l><l>但謂盛年</l><l><anchor xml:id="nkr_note_orig_0116005" n="0116005"/><anchor xml:id="beg0116005" n="0116005"/>任<anchor xml:id="end0116005"/>持色相</l>
+<lb n="0116b10" ed="T"/><l>意樂此者</l><l>實愚夫行</l><l>及老病至</l>
+<lb n="0116b11" ed="T"/><l>壞苦所吞</l><l>退失光澤</l><l>如竭河流</l>
+<lb n="0116b12" ed="T"/><l>財力豐饒</l><l>庫藏盈積</l><l>愛樂此者</l>
+<lb n="0116b13" ed="T"/><l>實愚夫行</l><l>或至匱財</l><l>後疾耗滅</l>
+<lb n="0116b14" ed="T"/><l>遠離於人</l><l>如空園林</l>
+<lb n="0116b15" ed="T"/><l>譬如花果樹</l><l>愛樂人悕取</l>
+<lb n="0116b16" ed="T"/><l>貧窶衰老時</l><l>厭棄如鴝鵅</l>
+<lb n="0116b17" ed="T"/><l>豐財壯色者</l><l>樂生<anchor xml:id="nkr_note_orig_0116006" n="0116006"/><anchor xml:id="beg0116006" n="0116006"/>和悅意<anchor xml:id="end0116006"/></l>
+<lb n="0116b18" ed="T"/><l>貧窶衰老時</l><l>厭棄如死屍</l>
+<lb n="0116b19" ed="T"/><l>又此衰老相</l><l>年邁極過朽</l>
+<lb n="0116b20" ed="T"/><l>譬如雷電火</l><l>焚餘枯槁樹</l>
+<lb n="0116b21" ed="T"/><l>此衰老可畏</l><l>亦猶朽故宅</l>
+<lb n="0116b22" ed="T"/><l>是故牟尼尊</l><l>說速求出離</l>
+<lb n="0116b23" ed="T"/><l>又若<anchor xml:id="nkr_note_orig_0116007" n="0116007"/><anchor xml:id="beg0116007" n="0116007"/>娑<anchor xml:id="end0116007"/>羅林</l><l>為藤蔓所縛</l>
+<lb n="0116b24" ed="T"/><l>如男女眷屬</l><l>枯乾速衰朽</l>
+<lb n="0116b25" ed="T"/><l>又若溺泥夫</l><l>頓乏於勇健</l>
+<lb n="0116b26" ed="T"/><l>此老相亦然</l><l>趨捷無快利</l>
+<lb n="0116b27" ed="T"/><l>老變形容醜</l><l>威雄勢力衰</l>
+<lb n="0116b28" ed="T"/><l>長別妙樂尋</l><l>趣死無光澤</l>
+<lb n="0116b29" ed="T"/><l>此百種病惱</l><l>固非安隱樂</l>
+<pb n="0116c" xml:id="T32.1636.0116c" ed="T"/>
+<lb n="0116c01" ed="T"/><l>是相於世間</l><l>熾然如猛獸</l>
+<lb n="0116c02" ed="T"/><l>觀若老苦病</l><l>是世間苦惱</l>
+<lb n="0116c03" ed="T"/><l>俱捨妙樂尋</l><l>說速求出要</l>
+<lb n="0116c04" ed="T"/><l>又如霜與雪</l><l>奪草木滋茂</l>
+<lb n="0116c05" ed="T"/><l>病苦於世間</l><l>壞命根色力</l>
+<lb n="0116c06" ed="T"/><l>倉庫多崇積</l><l>追求極邊際</l>
+<lb n="0116c07" ed="T"/><l>常如疾病人</l><l>好起瞋恚事</l>
+<lb n="0116c08" ed="T"/><l>及冤害讎對</l><l>炎熱如空日</l>
+<lb n="0116c09" ed="T"/><l>及至死滅時</l><l>財命俱散壞</l>
+<lb n="0116c10" ed="T"/><l>譬川流不返</l><l>如菓葉墮樹</l>
+<lb n="0116c11" ed="T"/><l>亦如河中梗</l><l>漂沈不自在</l>
+<lb n="0116c12" ed="T"/><l>隨業果難停</l><l>獨去無伴侶</l>
+<lb n="0116c13" ed="T"/><l>此死滅之法</l><l>又若磨竭魚</l>
+<lb n="0116c14" ed="T"/><l>吞噉無量眾</l><l>如金翅食龍</l>
+<lb n="0116c15" ed="T"/><l>及獸王搏象</l><l>若猛火焰然</l>
+<lb n="0116c16" ed="T"/><l>焚燒諸草木</l></lg>
+<lb n="0116c17" ed="T"/><p xml:id="pT32p0116c1701">又<anchor xml:id="nkr_note_orig_0116008" n="0116008"/><anchor xml:id="nkr_note_foreign_0116008" n="0116008"/>教示勝軍大王經說。佛言。大王。譬若四
+<lb n="0116c18" ed="T"/>方有四山來。堅固精實周普連匝。狀一合成
+<lb n="0116c19" ed="T"/>無有缺漏。亦無間隙。是中空界地際一切動
+<lb n="0116c20" ed="T"/>植悉歸磨滅。誰有踊躑而可逃避。及以勢力
+<lb n="0116c21" ed="T"/>呪禁藥術財物等事而令退轉。佛言。大王。世
+<lb n="0116c22" ed="T"/>有四種大怖畏事亦復如是。誰有踊躑而可
+<lb n="0116c23" ed="T"/>逃避。及以勢力呪禁藥術財物等事而能退
+<lb n="0116c24" ed="T"/>轉。何等為四。謂衰老病死。佛言。大王。一者
+<lb n="0116c25" ed="T"/>衰勢來時摧逼興盛。二者老相現時摧逼少
+<lb n="0116c26" ed="T"/>壯。三者病苦集時摧逼調適。四者死滅侵時
+<lb n="0116c27" ed="T"/>摧逼壽命。此復云何。佛言。大王。亦如師子為
+<lb n="0116c28" ed="T"/>眾獸王。色相勇健皆悉具足。爪牙剛利入鹿
+<lb n="0116c29" ed="T"/>群中。搏取其鹿隨應所欲。然鹿踊躑入猛獸
+<pb n="0117a" xml:id="T32.1636.0117a" ed="T"/>
+<lb n="0117a01" ed="T"/>口無能為也。佛言。大王。死箭射人亦復如是。
+<lb n="0117a02" ed="T"/>縱使剛強無能逃越。無歸無救亦無投寄。節
+<lb n="0117a03" ed="T"/>節支解血肉枯竭。飢渴熱惱。張口大息手足
+<lb n="0117a04" ed="T"/>紛亂。於追求事悉無堪能。涎涕流溢便利不
+<lb n="0117a05" ed="T"/>淨。塗污支體餘命漸滅。中有現前隨業緣起。
+<lb n="0117a06" ed="T"/>焰魔使者甚可怖畏。趣黑夜分於出入息最
+<lb n="0117a07" ed="T"/>後而盡。唯己獨行更無伴侶。奄背此生倏往
+<lb n="0117a08" ed="T"/>佗世。奔大險道入大黑暗。涉大曠野趣大稠
+<lb n="0117a09" ed="T"/>林。泛大溟海業風飄墮。所向冥寞曾無標記。
+<lb n="0117a10" ed="T"/>餘無歸捄餘無投寄。佛言。大王。唯法與法是
+<lb n="0117a11" ed="T"/>歸是捄。是所投寄。佛言。大王。此善法者。如
+<lb n="0117a12" ed="T"/>寒者得火。如熱者遇涼。渴者飲清冷水。飢者
+<lb n="0117a13" ed="T"/>食珍美饌。疾病者遇良醫藥。怖畏者得強力
+<lb n="0117a14" ed="T"/>伴。是為歸捄。佛言。大王。此諸善法。有大勢
+<lb n="0117a15" ed="T"/>力亦復如是。無歸捄者為作歸捄。無投竄者
+<lb n="0117a16" ed="T"/>為作投竄。大王。是故應知。有現無常者現滅
+<lb n="0117a17" ed="T"/>盡者。法爾如是。唯死怖畏。佛言。大王。王恃
+<lb n="0117a18" ed="T"/>所為悉非善法。所以者何。大王。然此身者從
+<lb n="0117a19" ed="T"/>昔已來縱加守護及加瑩飾上妙飲膳恣情飽
+<lb n="0117a20" ed="T"/>滿。及命終時未免飢渴逼惱而死。如是身者
+<lb n="0117a21" ed="T"/>雖以種種可愛奇文侈服上妙細<g ref="#CB00626">㲲</g>。行住坐
+<lb n="0117a22" ed="T"/>臥隨意嚴飾。及命終時穢惡不淨要當流出。
+<lb n="0117a23" ed="T"/>大王。又此身者雖以澡沐塗香粖香熏香妙
+<lb n="0117a24" ed="T"/>花無量嚴飾。及命終時不久臭穢。又此身者
+<lb n="0117a25" ed="T"/>后妃婇女眷屬圍繞。種種妓樂歌舞嬉戲。及
+<lb n="0117a26" ed="T"/>諸僮僕悅意快然。及命終時未免怖畏及諸
+<lb n="0117a27" ed="T"/>苦惱。佛言。大王。至若此身雖處宮殿臺榭樓
+<lb n="0117a28" ed="T"/>閣戶牖軒檻。彩繪嚴飾。種種花香及與燈明。
+<lb n="0117a29" ed="T"/>屏幛幃幔床座茵褥。燒眾名香散諸妙花。寶
+<pb n="0117b" xml:id="T32.1636.0117b" ed="T"/>
+<lb n="0117b01" ed="T"/>瓶香鑪處處行列。及妙珠寶錦綺雜飾玩好
+<lb n="0117b02" ed="T"/>之具。及命終時至塚墓間。骨肉毛髮膿血臭
+<lb n="0117b03" ed="T"/>穢。屍臥地上都不覺知。佛言。大王。又此身
+<lb n="0117b04" ed="T"/>者而常乘御象馬車乘。擊鼓吹貝作大音樂。
+<lb n="0117b05" ed="T"/>張妙幰蓋執持扇拂。無量勇健象兵馬兵車
+<lb n="0117b06" ed="T"/>兵步兵導從前後。百千官屬城邑人<anchor xml:id="fxT32p0117b01"/>民叉手
+<lb n="0117b07" ed="T"/>恭敬。不久要當屍臥車上。眾人荷挽出大城
+<lb n="0117b08" ed="T"/>門。父母妻妾兄弟姊妹奴婢僕從作業使人
+<lb n="0117b09" ed="T"/>心纏憂惱。頭髮被亂舉手拍頭悲咽哀慟咸
+<lb n="0117b10" ed="T"/>歎苦哉。於我無捄無親無主。城邑人民銜悲
+<lb n="0117b11" ed="T"/>瞻戀。至塚壙間。或復為諸烏鳶鵰鷲狐狼野
+<lb n="0117b12" ed="T"/>干之所食噉。乃至餘骨積薪所焚。或<g ref="#CB03196">󰱼</g>於地。
+<lb n="0117b13" ed="T"/>風雨<anchor xml:id="beg_1c" type="cb-app"/>曝<anchor xml:id="end_1c"/>露末為微塵散擲餘方。佛言。大王。此
+<lb n="0117b14" ed="T"/>身幻化終歸壞滅。一切諸行悉是無常。乃至
+<lb n="0117b15" ed="T"/>廣說。</p>
+<lb n="0117b16" ed="T"/><p xml:id="pT32p0117b1601">論曰。此貪瞋癡等一聚煩惱。至若對治脩習。
+<lb n="0117b17" ed="T"/>因是遠離。故寶雲經說。對治貪者。於起貪緣
+<lb n="0117b18" ed="T"/>悉能遠離。云何名對治貪及起貪緣對治。貪
+<lb n="0117b19" ed="T"/>者若善了知。於起貪緣修不淨觀。云何名不
+<lb n="0117b20" ed="T"/>淨觀。謂若於身髮毛爪齒皮膚血肉筋脈骨
+<lb n="0117b21" ed="T"/>髓肪膏腦膜汗淚涕唾咽喉心肺肝膽脾腎生
+<lb n="0117b22" ed="T"/>臟熟臟屎尿濃汁。菩薩於如是物而起觀察。
+<lb n="0117b23" ed="T"/>則愚癡小兒顛狂不善。知是物已猶尚不起貪
+<lb n="0117b24" ed="T"/>愛之心。況諸智者。是為菩薩修不淨觀。又如
+<lb n="0117b25" ed="T"/><anchor xml:id="nkr_note_orig_0117001" n="0117001"/>般若經<anchor xml:id="nkr_note_orig_0117002" n="0117002"/><anchor xml:id="beg0117002" n="0117002"/>云。復<anchor xml:id="end0117002"/>次善現。菩薩摩訶薩修般若
+<lb n="0117b26" ed="T"/>波羅蜜多行時。然於此身如實了知。善現。譬
+<lb n="0117b27" ed="T"/>若解牛之師及師弟子斷牛命已復用利刀析
+<lb n="0117b28" ed="T"/>為四分。若坐若立如實觀察。善現。菩薩摩訶
+<lb n="0117b29" ed="T"/>薩修般若波羅蜜多行時。亦復如是。然於此
+<pb n="0117c" xml:id="T32.1636.0117c" ed="T"/>
+<lb n="0117c01" ed="T"/>身地界水界火界風界如實觀察。乃至善現。
+<lb n="0117c02" ed="T"/>又若耕夫或諸長者。滿治場中有種種穀。所
+<lb n="0117c03" ed="T"/>謂菽麥稻梁脂麻芥子等。有明目人分別視
+<lb n="0117c04" ed="T"/>之。如實了知彼種種穀。此是菽麥。此是稻梁。
+<lb n="0117c05" ed="T"/>此是脂麻芥子等。善現。菩薩摩訶薩修般若
+<lb n="0117c06" ed="T"/>波羅蜜多行時。亦復如是。然於此身從頂至
+<lb n="0117c07" ed="T"/>足髮毛爪齒種種不淨之所充滿。而菩薩如
+<lb n="0117c08" ed="T"/>實觀察是身。唯有髮毛爪齒頭目脂髓肝膽
+<lb n="0117c09" ed="T"/>脾腎生臟熟臟眵矃不淨等。乃至若詣塚間
+<lb n="0117c10" ed="T"/>觀種種相。謂所棄屍於塚壙間或經一日二
+<lb n="0117c11" ed="T"/>日乃至五日。身體膖脹青瘀臭惡皮穿肉潰
+<lb n="0117c12" ed="T"/>膿血交流。見是事已。我與此身亦復如是。
+<lb n="0117c13" ed="T"/>然此身者法爾如是。本性如是。如是法性曾
+<lb n="0117c14" ed="T"/>未解脫。復次善現。菩薩摩訶薩修般若波羅
+<lb n="0117c15" ed="T"/>蜜多行時。而於外身修隨所觀。乃至觀所棄
+<lb n="0117c16" ed="T"/>屍。於塚壙間或經一日二日乃至七日。為諸
+<lb n="0117c17" ed="T"/>鳥獸烏鳶鵰鷲狐狼野干之所食噉。及餘種種
+<lb n="0117c18" ed="T"/>螻蟻咂食。見是事已。我與此身亦復如是。然
+<lb n="0117c19" ed="T"/>此身者法爾如是。本性如是。如是法性曾未
+<lb n="0117c20" ed="T"/>解脫。以要言之。又若觀所棄屍。於塚壙間蛆
+<lb n="0117c21" ed="T"/>蟲咂食。不淨臭穢。我與此身亦復如是。餘如
+<lb n="0117c22" ed="T"/>上說。乃至復次向悽慘道。觀所棄屍。肉銷骨
+<lb n="0117c23" ed="T"/>現筋纏血污。我與此身亦復如是。餘如上說。
+<lb n="0117c24" ed="T"/>復次向悽慘道。觀所棄屍。血肉都盡身骨相
+<lb n="0117c25" ed="T"/>現。餘筋尚纏。我與此身亦復如是。餘如前說。
+<lb n="0117c26" ed="T"/>復次向悽慘道。觀所棄屍。唯有眾骨散擲
+<lb n="0117c27" ed="T"/>異方。所謂頭骨足骨腰骨背骨頸骨臂骨等。
+<lb n="0117c28" ed="T"/>我與此身亦復如是。餘如前說。乃至復次善
+<lb n="0117c29" ed="T"/>現。菩薩摩訶薩修般若波羅蜜多行時。向悽
+<pb n="0118a" xml:id="T32.1636.0118a" ed="T"/>
+<lb n="0118a01" ed="T"/>慘道觀所棄屍。唯有骨在風飄雨漬白若珂
+<lb n="0118a02" ed="T"/>貝。我與此身亦復如是。餘如上說。復次善現。
+<lb n="0118a03" ed="T"/>菩薩摩訶薩修般若波羅蜜多行時。向悽慘
+<lb n="0118a04" ed="T"/>道。觀所棄屍。唯有骨在。經<anchor xml:id="nkr_note_orig_0118001" n="0118001"/><anchor xml:id="beg0118001" n="0118001"/><g ref="#CB03188">󰱴</g><anchor xml:id="end0118001"/>多年變異青
+<lb n="0118a05" ed="T"/>色。如泥處地碎末為塵。我與此身亦復如是。
+<lb n="0118a06" ed="T"/>然此身者法爾如是。本性如是。如是法性曾
+<lb n="0118a07" ed="T"/>無解脫。</p>
+<lb n="0118a08" ed="T"/><p xml:id="pT32p0118a0801">論曰。以不淨觀對治貪者。則修慈觀對治瞋
+<lb n="0118a09" ed="T"/>恚。此乃平等。若不樂觀眾生者。此或於一飲
+<lb n="0118a10" ed="T"/>食發生愛樂則於他妙樂悕求稱讚。無不愛
+<lb n="0118a11" ed="T"/>樂。慈者度貪欲因緣不著染愛。是義有三種。
+<lb n="0118a12" ed="T"/>無盡意經云。謂初發心菩薩修眾生緣慈。已
+<lb n="0118a13" ed="T"/>習行菩薩修法緣慈。得無生法忍菩薩修無
+<lb n="0118a14" ed="T"/>緣慈。</p>
+<lb n="0118a15" ed="T"/><cb:juan n="014" fun="close"><cb:jhead>大乘集菩薩學論卷第十四</cb:jhead></cb:juan>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0115003" to="#end0115003"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit2">二</rdg></app>
+<app from="#beg0115004" to="#end0115004"><lem wit="#wit1">叉</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
+<app from="#beg0115005" to="#end0115005"><lem wit="#wit1">游</lem><rdg resp="#resp1" wit="#wit2">遊</rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0115004"><lem wit="#wit1">叉</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
+<app from="#beg_1b" to="#end_1b" corresp="#0115004"><lem wit="#wit1">叉</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
+<app from="#beg0115007" to="#end0115007"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2">二之一</rdg></app>
+<app from="#beg0116001" to="#end0116001"><lem wit="#wit1">仙</lem><rdg resp="#resp1" wit="#wit2">僊</rdg></app>
+<app from="#beg0116003" to="#end0116003"><lem wit="#wit1">電</lem><rdg resp="#resp1" wit="#wit2">雷</rdg></app>
+<app from="#beg0116004" to="#end0116004"><lem wit="#wit1">趣</lem><rdg resp="#resp1" wit="#wit2">起</rdg></app>
+<app from="#beg0116005" to="#end0116005"><lem wit="#wit1">任</lem><rdg resp="#resp1" wit="#wit2">住</rdg></app>
+<app from="#beg0116006" to="#end0116006"><lem wit="#wit1">和悅意</lem><rdg resp="#resp1" wit="#wit2">利悅心</rdg></app>
+<app from="#beg0116007" to="#end0116007"><lem wit="#wit1">娑</lem><rdg resp="#resp1" wit="#wit2">婆</rdg></app>
+<choice cb:from="#beg_1c" cb:to="#end_1c"><corr>曝</corr><sic><g ref="#CB02720">󰪠</g></sic></choice>
+<app from="#beg0117002" to="#end0117002"><lem wit="#wit1">云。復</lem><rdg resp="#resp1" wit="#wit2">法後</rdg></app>
+<app from="#beg0118001" to="#end0118001"><lem wit="#wit1"><g ref="#CB03188">󰱴</g></lem><rdg resp="#resp1" wit="#wit2">歷</rdg></app>
+</p>
+</cb:div>
+<cb:div type="tt">
+<head>多語詞條對照</head>
+<p>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0115003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0115003">餘＝二【明】</note>
+<note n="0115004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0115004">叉＝又【明】＊</note>
+<note n="0115005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0115005">游＝遊【明】</note>
+<note n="0115006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0115006">Cittaparikarma dvādaśaḥ paricchedaḥ.</note>
+<note n="0115007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0115007">二＋（之一）【明】</note>
+<note n="0115008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0115008">梵. Bhagavatī.</note>
+<note n="0116001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116001">仙＝僊【明】</note>
+<note n="0116002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116002">Lalita-vistara.</note>
+<note n="0116003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116003">電＝雷【明】</note>
+<note n="0116004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116004">趣＝起【明】</note>
+<note n="0116005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116005">任＝住【明】</note>
+<note n="0116006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116006">和悅意＝利悅心【明】</note>
+<note n="0116007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116007">娑＝婆【明】</note>
+<note n="0116008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0116008">Rājāvavādaka-sūtra.</note>
+<note n="0117001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0117001">梵. Bhagavatī.</note>
+<note n="0117002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0117002">云復＝法後【明】</note>
+<note n="0118001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0118001"><g ref="#CB03188">󰱴</g>＝歷【明】</note>
+</p>
+</cb:div>
+<cb:div type="rest-notes">
+<head>其他註解</head>
+<p>
+<note target="#nkr_note_foreign_0115006"><foreign n="0115006" cb:resp="#resp1" xml:lang="sa" cb:place="foot">Cittaparikarma dvādaśaḥ paricchedaḥ.</foreign></note>
+<note target="#nkr_note_foreign_0116002"><foreign n="0116002" cb:resp="#resp1" xml:lang="sa" cb:place="foot">Lalita-vistara.</foreign></note>
+<note target="#nkr_note_foreign_0116008"><foreign n="0116008" cb:resp="#resp1" xml:lang="sa" cb:place="foot">Rājāvavādaka-sūtra.</foreign></note>
+</p>
+</cb:div>
+</back></text></TEI>

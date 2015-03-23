@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T40n1809">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 1809 僧羯磨</title>
+			<author>唐 懷素集</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.19 $<date>$Date: 2009/04/23 08:10:56 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+	</editionStmt>
+	<extent>3卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2009/04/23 08:10:56 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 40, No. 1809 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【宋】</witness>
+		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Nanlin Monastery</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，南林尼僧苑提供新式標點</p>
+	</projectDesc>
+<charDecl>
+<char xml:id="CB00626">
+	<charName>CBETA CHARACTER CB00626</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[疊*毛]</value>
+	</charProp>
+	<mapping type="unicode">U+3CB2</mapping>
+	<mapping cb:dec="983666" type="PUA">U+F0272</mapping>
+</char>
+<char xml:id="CB01679">
+	<charName>CBETA CHARACTER CB01679</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[示*厭]</value>
+	</charProp>
+	<mapping type="normal_unicode">U+25712</mapping>
+	<mapping cb:dec="984719" type="PUA">U+F068F</mapping>
+</char>
+<char xml:id="CB13690">
+	<charName>CBETA CHARACTER CB13690</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[打-丁+(兀@(冰-水))]</value>
+	</charProp>
+	<mapping cb:dec="996730" type="PUA">U+F357A</mapping>
+</char>
+</charDecl>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="2000-06-01T09:45:09">CW (ed.) Created initial TEI XML version with BASICX.BAT (00/01/24)</change>
+
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0511b02" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0511b03" ed="T"/>
+<lb n="0511b04" ed="T"/><cb:docNumber>No. 1809 [cf. Nos. 1432, 1433, 1808]</cb:docNumber>
+<lb n="0511b05" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead type="X"><anchor xml:id="nkr_note_orig_0511004" n="0511004"/><anchor xml:id="nkr_note_mod_0511004" n="0511004"/><anchor xml:id="beg0511004" n="0511004"/>僧<anchor xml:id="end0511004"/><anchor xml:id="nkr_note_rest_0511004" n="0511004"/>羯磨卷<anchor xml:id="nkr_note_orig_0511005" n="0511005"/><anchor xml:id="beg0511005" n="0511005"/>上<anchor xml:id="end0511005"/>并序<anchor xml:id="nkr_note_orig_0511006" n="0511006"/><anchor xml:id="beg0511006" n="0511006"/><note place="inline">出《四分律》</note><anchor xml:id="end0511006"/></cb:jhead></cb:juan>
+<lb n="0511b06" ed="T"/>
+<lb n="0511b07" ed="T"/><byline cb:type="Collector"><anchor xml:id="nkr_note_orig_0511007" n="0511007"/><anchor xml:id="beg0511007" n="0511007"/>西<anchor xml:id="end0511007"/>太原寺沙門懷素集</byline>
+<lb n="0511b08" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">序</cb:mulu><p xml:id="pT40p0511b0801">原夫鹿苑龍城，啟尸羅之妙躅；象巖鷲嶺，開
+<lb n="0511b09" ed="T"/>解脫之玄宗。於是三千大千，受清涼而出火
+<lb n="0511b10" ed="T"/>宅；天上天下，乘戒筏而越迷津。內眾於是敷
+<lb n="0511b11" ed="T"/>榮，外徒由斯安樂。其後韜真細<g ref="#CB00626">㲲</g>，多聞折軸
+<lb n="0511b12" ed="T"/>之憂；揜正微言，罕見浮囊之固。即有飲光秀
+<lb n="0511b13" ed="T"/>出，維絕紐而虛求；波離聿興，振隤綱而幽贊。
+<lb n="0511b14" ed="T"/>慧炬於焉重朗，戒海由是再清。其律教也弘
+<lb n="0511b15" ed="T"/>深，固難得而遍舉。此羯磨者，則紹隆之正術，
+<lb n="0511b16" ed="T"/>匡護之宏規，宗緒歸於五篇，濫觴起於《四分》，
+<lb n="0511b17" ed="T"/><anchor xml:id="nkr_note_orig_0511008" n="0511008"/><anchor xml:id="beg0511008" n="0511008"/>寔<anchor xml:id="end0511008"/>菩提之機要，誠涅槃之津涉者也。</p><p xml:id="pT40p0511b1715" rend="inline">素以銳
+<lb n="0511b18" ed="T"/>思弱齡，留情斯旨，眇觀至教，式考義途，<anchor xml:id="nkr_note_orig_0511009" n="0511009"/><anchor xml:id="beg0511009" n="0511009"/>丞
+<lb n="0511b19" ed="T"/>歷<anchor xml:id="end0511009"/>炎涼，庶無大過誤耳。然自古諸德取解不
+<lb n="0511b20" ed="T"/>同，各述異端，總有五本：一本一卷，曹魏鎧律
+<lb n="0511b21" ed="T"/>師於許都集<note place="inline">題云「曇無德雜羯磨」。以結戒場為首，受日加乞不入羯磨，屢有增減，乖於律文</note>；
+<lb n="0511b22" ed="T"/>一本一卷，曹魏曇諦於雒陽集<note place="inline">題云「羯磨一卷」，出《曇無德律》。以結
+<lb n="0511b23" ed="T"/><anchor xml:id="nkr_note_orig_0511010" n="0511010"/><anchor xml:id="beg0511010" n="0511010"/>大<anchor xml:id="end0511010"/>界為首，受日增乞牒入羯磨。魏郡礪律師受持此本。銳想箴規，雖去尤非，未祛謏過。分為兩卷，并造義釋</note>；一
+<lb n="0511b24" ed="T"/>本一卷，元魏光律師於鄴下集<note place="inline">此同曇諦集本，述錄不順正文</note>；
+<lb n="0511b25" ed="T"/>一本兩卷，隋願律師於并州撰<note place="inline">題云「羯磨卷上」，出《曇無德律》。願雖自
+<lb n="0511b26" ed="T"/><anchor xml:id="nkr_note_orig_0511011" n="0511011"/><anchor xml:id="beg0511011" n="0511011"/>曰<anchor xml:id="end0511011"/>依文，無片言增減。然詳律本，非無損益。兼造章疏，并汾盛行</note>；一本一卷，<anchor xml:id="nkr_note_orig_0511012" n="0511012"/><anchor xml:id="beg0511012" n="0511012"/>皇朝<anchor xml:id="end0511012"/>宣
+<lb n="0511b27" ed="T"/>律師於京兆撰<note place="inline">題云「刪補隨機羯磨」。斯有近棄自部之正文，遠取他宗之傍義；教門既其雜
+<lb n="0511b28" ed="T"/>亂，指事屢有乖違。并造義疏，頗行於代</note>。素於諸家撰集，莫不研尋，校
+<lb n="0511b29" ed="T"/>理求文，抑多乖舛。遂以不敏，輒述幽深，分為
+<pb n="0511c" ed="T" xml:id="T40.1809.0511c"/>
+<lb n="0511c01" ed="T"/>三卷，勒成一部，庶無增減，以適時機，祇取成
+<lb n="0511c02" ed="T"/>文，非敢穿鑿。<anchor xml:id="nkr_note_orig_0511013" n="0511013"/><anchor xml:id="nkr_note_mod_0511013" n="0511013"/><anchor xml:id="beg0511013" n="0511013"/>惟<anchor xml:id="end0511013"/>願戒珠增照，叶日月而齊
+<lb n="0511c03" ed="T"/>明；繫草傳芳，與天地而同朽。後之覽者，知斯
+<lb n="0511c04" ed="T"/>志焉。</p></cb:div>
+<lb n="0511c05" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">1 方便篇(上)</cb:mulu><head>方便篇第一</head>
+<lb n="0511c06" ed="T"/><p xml:id="pT40p0511c0601">僧集？<note place="inline">律言：應來者來。又言：僧有四種，四人、五人、十人、二十<anchor xml:id="nkr_note_orig_0511014" n="0511014"/><anchor xml:id="nkr_note_mod_0511014" n="0511014"/><anchor xml:id="beg0511014" n="0511014"/>人<anchor xml:id="end0511014"/>。四人僧者，除受大戒、自恣、出罪，餘一切羯磨
+<lb n="0511c07" ed="T"/>應作。五人僧者，除中國受大戒、出罪，<anchor xml:id="nkr_note_orig_0511015" n="0511015"/><anchor xml:id="nkr_note_mod_0511015" n="0511015"/><anchor xml:id="beg0511015" n="0511015"/>餘<anchor xml:id="end0511015"/>一切羯磨應作。十人僧者，<anchor xml:id="beg_1" type="cb-app"/>除<anchor xml:id="end_1"/>出罪，<anchor xml:id="beg_2" type="cb-app"/>餘<anchor xml:id="end_2"/>一切羯磨應作。二十人僧者，一切
+<lb n="0511c08" ed="T"/>羯磨應作；況復過二十。若隨四位僧中，有少一人者，作法不成，非法、非毘尼。</note>和合？<note place="inline">律言：同一羯磨和合
+<lb n="0511c09" ed="T"/>集<anchor xml:id="nkr_note_orig_0511016" n="0511016"/><anchor xml:id="nkr_note_mod_0511016" n="0511016"/><anchor xml:id="beg0511016" n="0511016"/>一<anchor xml:id="end0511016"/>處，不來者<anchor xml:id="nkr_note_orig_0511017" n="0511017"/><anchor xml:id="beg0511017" n="0511017"/>囑<anchor xml:id="end0511017"/>授，在現前應呵者不呵。又言：五法應和合：若如法應和合、若默然<anchor xml:id="nkr_note_orig_0511018" n="0511018"/><anchor xml:id="nkr_note_mod_0511018" n="0511018"/><anchor xml:id="beg0511018" n="0511018"/>任<anchor xml:id="end0511018"/>之、若與欲、若從可信
+<lb n="0511c10" ed="T"/>人聞、若先在中默然<anchor xml:id="nkr_note_orig_0511019" n="0511019"/><anchor xml:id="beg0511019" n="0511019"/>而<anchor xml:id="end0511019"/>坐，如是五事應和合。</note>未受大戒者出？<note place="inline">律言：不應在未受大戒人
+<lb n="0511c11" ed="T"/>前作羯磨說戒。又言：聽除人未受大戒，餘者在前作羯磨說戒。又言：有四滿數：有人得滿數不應呵、有人不得滿
+<lb n="0511c12" ed="T"/>數應呵、有人不得滿數亦不應呵、有人得滿數亦應呵。何等人得滿數不應呵？若<anchor xml:id="nkr_note_orig_0511020" n="0511020"/><anchor xml:id="nkr_note_mod_0511020" n="0511020"/><anchor xml:id="beg0511020" n="0511020"/>為<anchor xml:id="end0511020"/>作呵責羯磨、擯羯磨、依<anchor xml:id="nkr_note_orig_0511021" n="0511021"/><anchor xml:id="beg0511021" n="0511021"/>止<anchor xml:id="end0511021"/>羯
+<lb n="0511c13" ed="T"/>磨、遮不至白衣家羯磨。何等人不得滿數應呵？若欲受大戒人。何等人不得滿數亦不得呵？若為比丘作羯磨，比丘
+<lb n="0511c14" ed="T"/>尼不得滿數亦不得呵、式叉摩那、沙彌、沙彌尼、若言犯邊<anchor xml:id="nkr_note_orig_0511022" n="0511022"/><anchor xml:id="nkr_note_mod_0511022" n="0511022"/><anchor xml:id="beg0511022" n="0511022"/>罪<anchor xml:id="end0511022"/>等十三人、若被舉、若滅擯、若應滅擯、若別住、若在
+<lb n="0511c15" ed="T"/>戒場上、若神足在空、若隱沒、若離見聞處、若所為作羯磨人。何等人得滿數亦得呵？若善比丘同一界住，不以神
+<lb n="0511c16" ed="T"/>足在空、不隱沒、不離見聞處、乃至語傍人。</note></p>
+<lb n="0511c17" ed="T"/><p xml:id="pT40p0511c1701">不來諸比丘說欲及清淨？<note place="inline">唯除結界不得說欲。其欲須與清淨合說。若自
+<lb n="0511c18" ed="T"/>恣時，應言「與欲自恣」。若有佛法僧事、病患事、<anchor xml:id="nkr_note_orig_0511023" n="0511023"/><anchor xml:id="nkr_note_mod_0511023" n="0511023"/><anchor xml:id="beg0511023" n="0511023"/>看<anchor xml:id="end0511023"/>病緣，聽與欲。律言：與欲有五種：若言與汝欲、若言我說欲、若言
+<lb n="0511c19" ed="T"/>為我說欲、若現身相與欲、若廣說與欲。若不現身相、不口說欲者，不成與欲，<anchor xml:id="nkr_note_orig_0511024" n="0511024"/><anchor xml:id="nkr_note_mod_0511024" n="0511024"/><anchor xml:id="beg0511024" n="0511024"/>應<anchor xml:id="end0511024"/>更與餘者欲。其持欲人受欲已便
+<lb n="0511c20" ed="T"/>命過、若餘處行、若罷道、若入外道眾、若入別部眾、若至戒場上、若明相出、若自言犯邊罪等十三人、若被舉、若
+<lb n="0511c21" ed="T"/>滅擯、若應滅擯、<anchor xml:id="nkr_note_orig_0511025" n="0511025"/><anchor xml:id="nkr_note_mod_0511025" n="0511025"/><anchor xml:id="beg0511025" n="0511025"/>若<anchor xml:id="end0511025"/>神足在空、若離見聞處，不成與欲，應更與餘者欲。若至中道、若至僧中亦如是。若廣說
+<lb n="0511c22" ed="T"/>欲者，應<anchor xml:id="nkr_note_orig_0511026" n="0511026"/><anchor xml:id="nkr_note_mod_0511026" n="0511026"/><anchor xml:id="beg0511026" n="0511026"/>往<anchor xml:id="end0511026"/>傳欲人所，具儀作如是言：</note></p><p xml:id="pT40p0511c2215" rend="inline">大德一心念！我某甲比丘，
+<lb n="0511c23" ed="T"/>如法僧事，與欲清淨。<note place="inline">時持欲比丘自有事起，不及詣僧者，聽轉欲與<anchor xml:id="nkr_note_orig_0511027" n="0511027"/><anchor xml:id="nkr_note_mod_0511027" n="0511027"/><anchor xml:id="beg0511027" n="0511027"/>餘<anchor xml:id="end0511027"/>人。轉時應
+<lb n="0511c24" ed="T"/>云：</note></p><p xml:id="pT40p0511c2402" rend="inline">大德一心念！我某甲比丘與某甲比丘，受欲
+<lb n="0511c25" ed="T"/>清淨。彼及我身，如法僧事，與欲清淨。<note place="inline">持欲比丘至僧說時，
+<lb n="0511c26" ed="T"/>若能記識姓名者，對僧一一稱說云：</note></p><p xml:id="pT40p0511c2615" rend="inline">大德僧聽！某甲比丘、某甲比
+<pb n="0512a" ed="T" xml:id="T40.1809.0512a"/>
+<lb n="0512a01" ed="T"/>丘，如法僧事，與欲清淨。<note place="inline">若不能記姓名，但云「眾多」。若受欲人若睡、若入定、或忘、
+<lb n="0512a02" ed="T"/>若不故作如是，名為成與欲；若故不說者，突吉羅。</note>僧今何所作為？<note place="inline">然所為事<anchor xml:id="nkr_note_orig_0512001" n="0512001"/><anchor xml:id="nkr_note_mod_0512001" n="0512001"/><anchor xml:id="beg0512001" n="0512001"/>有其<anchor xml:id="end0512001"/>三種：
+<lb n="0512a03" ed="T"/>一為情事，如受懺等；二為非情事，如結諸界；三情非情事，如處分、離衣等。此所為事委僧量宜，故須對眾問其
+<lb n="0512a04" ed="T"/>所作。</note>某羯磨。<note place="inline">羯磨約體但三，謂：單白、白二、白四。律言：有七種羯磨不應作：非法非毘尼羯磨、非法
+<lb n="0512a05" ed="T"/>別眾羯磨、非法和合羯磨、法別眾羯磨、法相似別眾羯磨、法相似和合羯磨、呵<anchor xml:id="nkr_note_orig_0512002" n="0512002"/><anchor xml:id="nkr_note_mod_0512002" n="0512002"/><anchor xml:id="beg0512002" n="0512002"/>不<anchor xml:id="end0512002"/>止羯磨。應作如法、如毘尼羯
+<lb n="0512a06" ed="T"/>磨。<anchor xml:id="beg_3" type="star"/>應<anchor xml:id="end_3"/>白二羯磨，如<anchor xml:id="nkr_note_orig_0512003" n="0512003"/><anchor xml:id="nkr_note_mod_0512003" n="0512003"/><anchor xml:id="beg0512003" n="0512003"/>白<anchor xml:id="end0512003"/>法作白，如羯磨法作羯磨；白四羯磨亦爾；是為如法、如毘尼羯磨。此方便六，遍餘諸法，
+<lb n="0512a07" ed="T"/>唯除結界，闕者不成。</note></p></cb:div>
+<lb n="0512a08" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">2 結界篇(上)</cb:mulu><head>結界篇第二</head>
+<lb n="0512a09" ed="T"/><p xml:id="pT40p0512a0901">結大界法<note place="inline">律言：當敷座，當打<anchor xml:id="nkr_note_orig_0512004" n="0512004"/><anchor xml:id="beg0512004" n="0512004"/>揵<anchor xml:id="end0512004"/>椎，盡共集。共集一處，不聽受欲。是中舊住比丘應唱大界四方相，
+<lb n="0512a10" ed="T"/>若東方有山稱山，有塹稱塹，若村、若城、若疆畔、若園、若林、若池、若樹、若石、<anchor xml:id="beg_4" type="star"/>若<anchor xml:id="end_4"/>垣牆、若神祀舍；如東方相，餘方
+<lb n="0512a11" ed="T"/>亦爾。但結界處不得二界相接，應留中間，不得隔<anchor xml:id="nkr_note_orig_0512005" n="0512005"/><anchor xml:id="nkr_note_mod_0512005" n="0512005"/><anchor xml:id="beg0512005" n="0512005"/>駃<anchor xml:id="end0512005"/>流水結，<anchor xml:id="nkr_note_orig_0512006" n="0512006"/><anchor xml:id="nkr_note_mod_0512006" n="0512006"/><anchor xml:id="beg0512006" n="0512006"/>除<anchor xml:id="end0512006"/>常有橋船。唱相之法，應起禮僧，白言：</note></p>
+<lb n="0512a12" ed="T"/><p xml:id="pT40p0512a1201">大德僧聽！我舊住比丘某甲，<note place="inline">若非舊住，識界者唱，應除「舊住」二言。</note>為
+<lb n="0512a13" ed="T"/>僧唱大界四方相。<note place="inline">白已應唱，謂從東南角等次第而唱，乃至三說。眾中差堪能作羯磨者，
+<lb n="0512a14" ed="T"/>若上座、若次<anchor xml:id="nkr_note_orig_0512007" n="0512007"/><anchor xml:id="nkr_note_mod_0512007" n="0512007"/><anchor xml:id="beg0512007" n="0512007"/>座<anchor xml:id="end0512007"/>、若誦律、若不誦律，當如是作。</note></p><p xml:id="pT40p0512a1418" rend="inline">大德僧聽<anchor xml:id="nkr_note_orig_0512008" n="0512008"/><anchor xml:id="beg0512008" n="0512008"/><note place="inline">逖徑反</note><anchor xml:id="end0512008"/>！此住處比丘，
+<lb n="0512a15" ed="T"/>唱四方大界相。若僧時到，僧忍聽<anchor xml:id="beg_5" type="star"/><note place="inline">逖零反</note><anchor xml:id="end_5"/>，僧今於
+<lb n="0512a16" ed="T"/>此四方相內結大界，同一住處，同一說戒。白
+<lb n="0512a17" ed="T"/>如是。</p><p xml:id="pT40p0512a1703" rend="inline">大德僧聽！此住處比丘，唱四方大界相。
+<lb n="0512a18" ed="T"/>僧今於此四方相內結大界，同一住處，同一
+<lb n="0512a19" ed="T"/>說戒。誰諸長老忍僧於此四方相內結大界，
+<lb n="0512a20" ed="T"/>同一住處，同一說戒者默然，誰不忍者說。僧
+<lb n="0512a21" ed="T"/>已忍於此四方相內，同一住處，同一說戒，結大
+<lb n="0512a22" ed="T"/>界竟。僧忍，默然故，是事如是持。</p>
+<lb n="0512a23" ed="T"/><p xml:id="pT40p0512a2301">解大界法<note place="inline">時諸比丘有欲廣作界<anchor xml:id="nkr_note_orig_0512009" n="0512009"/><anchor xml:id="beg0512009" n="0512009"/>及<anchor xml:id="end0512009"/>狹作者。佛言：「欲改作者，先解前界，然後欲廣狹作從<anchor xml:id="nkr_note_orig_0512010" n="0512010"/><anchor xml:id="beg0512010" n="0512010"/>意<anchor xml:id="end0512010"/>。」當作
+<lb n="0512a24" ed="T"/>白二解，應如是作。</note></p><p xml:id="pT40p0512a2408" rend="inline">大德僧聽！今此住處比丘，同一住
+<lb n="0512a25" ed="T"/>處，同一說戒。若僧時到，僧忍聽，解界。白如是。</p>
+<lb n="0512a26" ed="T"/><p xml:id="pT40p0512a2601">大德僧聽！此住處比丘，同一住處，同一說戒，
+<lb n="0512a27" ed="T"/>今解界。誰諸長老忍僧同一住處，同一說戒，
+<pb n="0512b" ed="T" xml:id="T40.1809.0512b"/>
+<lb n="0512b01" ed="T"/>解界者默然，誰不忍者說。僧已忍<anchor xml:id="nkr_note_orig_0512011" n="0512011"/><anchor xml:id="nkr_note_mod_0512011" n="0512011"/><anchor xml:id="beg0512011" n="0512011"/>聽<anchor xml:id="end0512011"/>同一
+<lb n="0512b02" ed="T"/>住處，同一說戒，解界竟。僧忍，默然故，是事如
+<lb n="0512b03" ed="T"/>是持。</p>
+<lb n="0512b04" ed="T"/><p xml:id="pT40p0512b0401">結同一說戒同一利養界法<note place="inline">時有二處別利養別說戒，諸比丘欲結共一
+<lb n="0512b05" ed="T"/>說戒共一利養界。佛言：「自今已去，聽各自解界，然後白二結。」當敷座等，如前。應如是作。</note></p><p xml:id="pT40p0512b0534" rend="inline">大德僧聽！
+<lb n="0512b06" ed="T"/>如所說界相，若僧時到，僧忍聽，今僧於此處、
+<lb n="0512b07" ed="T"/>彼處，結同一說戒，同一利養界。白如是。</p><p xml:id="pT40p0512b0716" rend="inline">大德
+<lb n="0512b08" ed="T"/>僧聽！如所說界相，今僧於此處、彼處，結同一
+<lb n="0512b09" ed="T"/>說戒，同一利養界。誰諸長老忍僧於此處、彼
+<lb n="0512b10" ed="T"/>處，同一說戒，同一利養，結界者默然，誰不忍
+<lb n="0512b11" ed="T"/>者說。僧已忍於此處、彼處，同一說戒，同一利
+<lb n="0512b12" ed="T"/>養，結界竟。僧忍，默然故，是事如是持。</p>
+<lb n="0512b13" ed="T"/><p xml:id="pT40p0512b1301">結同一說戒別利養界法<note place="inline">有二住處別說戒別利養，比丘意欲同一說戒別利
+<lb n="0512b14" ed="T"/>養。佛言：「聽各自解界，<anchor xml:id="nkr_note_orig_0512012" n="0512012"/><anchor xml:id="beg0512012" n="0512012"/>然<anchor xml:id="end0512012"/>後結。」結法同前，唯改一句云：同一說戒別利養。白如是</note>。</p>
+<lb n="0512b15" ed="T"/><p xml:id="pT40p0512b1501">結別說戒同一利養界法<note place="inline">時二住處別說戒別利養，時諸比丘欲得別說戒
+<lb n="0512b16" ed="T"/>同一利養，欲守護<anchor xml:id="nkr_note_orig_0512013" n="0512013"/><anchor xml:id="nkr_note_mod_0512013" n="0512013"/><anchor xml:id="beg0512013" n="0512013"/>住處<anchor xml:id="end0512013"/>故。佛聽白二結，應如是作。</note></p><p xml:id="pT40p0512b1620" rend="inline">大德僧聽！若僧時到，僧
+<lb n="0512b17" ed="T"/>忍聽，今僧於此、彼住處，結別說戒，同一利養，
+<lb n="0512b18" ed="T"/>為欲守護住處故。白如是。</p><p xml:id="pT40p0512b1811" rend="inline">大德僧聽！今僧於
+<lb n="0512b19" ed="T"/>此、彼住處，結別說戒，同一利養，為守護住處
+<lb n="0512b20" ed="T"/>故。誰諸長老忍僧於此、彼住處，結別說戒，同
+<lb n="0512b21" ed="T"/>一利養，為守護住處故者默然，誰不忍者說。
+<lb n="0512b22" ed="T"/>僧已忍於此、彼住處，結別說戒，同一利養，為守
+<lb n="0512b23" ed="T"/>護住處故竟。僧忍，默然故，是事如是持。<note place="inline">此及前二，
+<lb n="0512b24" ed="T"/>律無解法，若欲解者，准結翻解，翻相應知。</note></p>
+<lb n="0512b25" ed="T"/><p xml:id="pT40p0512b2501">結戒場法<note place="inline">時諸比丘，有須四比丘眾、五比丘眾、十比丘眾、二十比丘眾羯磨事起，是中大眾集會疲
+<lb n="0512b26" ed="T"/>極。佛言：「聽結戒場。稱四方界相，若安杙、若石、若疆畔若齊限。」是中結者，安三重相：最內一重是戒場相；中間一
+<lb n="0512b27" ed="T"/>重是大界內相，此與戒場相不得相入及並，應留中間；最外一重是大界外相。先唱戒場相結，唱法如上。應如
+<lb n="0512b28" ed="T"/>是作。</note></p><p xml:id="pT40p0512b2803" rend="inline">大德僧聽！此住處比丘，稱四方小界相。若
+<pb n="0512c" ed="T" xml:id="T40.1809.0512c"/>
+<lb n="0512c01" ed="T"/>僧時到，僧忍聽，僧今於此四<anchor xml:id="nkr_note_orig_0512014" n="0512014"/><anchor xml:id="nkr_note_mod_0512014" n="0512014"/><anchor xml:id="beg0512014" n="0512014"/>方<anchor xml:id="end0512014"/>小界相內，結
+<lb n="0512c02" ed="T"/>作戒場。白如是。</p><p xml:id="pT40p0512c0207" rend="inline">大德僧聽！此住處比丘，稱四
+<lb n="0512c03" ed="T"/>方小界相。僧今於此四方小界相內結戒場。
+<lb n="0512c04" ed="T"/>誰諸長老忍僧於此四方相內結戒場者默
+<lb n="0512c05" ed="T"/>然，誰不忍者說。僧已忍於此四方相內結作
+<lb n="0512c06" ed="T"/>戒場竟。僧忍，默然故，是事如是持。<note place="inline">次唱大界內外相，唱及結如
+<lb n="0512c07" ed="T"/>上。</note></p>
+<lb n="0512c08" ed="T"/><p xml:id="pT40p0512c0801">解戒場法<note place="inline">文略無解，若欲解者，應翻結云：</note></p><p xml:id="pT40p0512c0817" rend="inline">大德僧聽！此住處比
+<lb n="0512c09" ed="T"/>丘戒場。若僧時到，僧忍聽，解戒場。白如是。</p><p xml:id="pT40p0512c0917" rend="inline">大
+<lb n="0512c10" ed="T"/>德僧聽！此住處比丘戒<anchor xml:id="nkr_note_orig_0512015" n="0512015"/><anchor xml:id="nkr_note_mod_0512015" n="0512015"/><anchor xml:id="beg0512015" n="0512015"/>場<anchor xml:id="end0512015"/>，僧今於此解戒
+<lb n="0512c11" ed="T"/>場。誰諸長老忍僧於此解戒場者默然，誰不
+<lb n="0512c12" ed="T"/>忍者說。僧已忍於此解戒場竟。僧忍，默然故，
+<lb n="0512c13" ed="T"/>是事如是持。</p>
+<lb n="0512c14" ed="T"/><p xml:id="pT40p0512c1401">難結小界授戒法<note place="inline">時有欲受戒者至界外，六群比丘往遮。佛言：「汝等善聽！自今已去，不同
+<lb n="0512c15" ed="T"/>意者未出界，聽在界外疾疾一處集結小界。」應如是<anchor xml:id="nkr_note_orig_0512016" n="0512016"/><anchor xml:id="beg0512016" n="0512016"/>作<anchor xml:id="end0512016"/>。</note></p><p xml:id="pT40p0512c1522" rend="inline">大德僧聽！僧集一處結
+<lb n="0512c16" ed="T"/>小界。若僧時到，僧忍聽，結小界。白如是。</p><p xml:id="pT40p0512c1616" rend="inline">大
+<lb n="0512c17" ed="T"/>德僧聽！今此僧一處集結小界。誰諸長老忍
+<lb n="0512c18" ed="T"/>僧一處集結小界者默然，誰不忍者說。僧已
+<lb n="0512c19" ed="T"/>忍結小界竟。僧忍，默然故，是事如是持。</p>
+<lb n="0512c20" ed="T"/><p xml:id="pT40p0512c2001">解難結小界授戒法<note place="inline">律言：自今已去，應解界已去，不應不解界而去。應如是解。</note></p>
+<lb n="0512c21" ed="T"/><p xml:id="pT40p0512c2101">大德僧聽！今眾僧集解界。若僧時到，僧忍聽，
+<lb n="0512c22" ed="T"/>解界。白如是。</p><p xml:id="pT40p0512c2206" rend="inline">大德僧聽！今眾僧集解界。誰諸
+<lb n="0512c23" ed="T"/>長老忍僧集解界者默然，誰不忍者說。僧已
+<lb n="0512c24" ed="T"/>忍解界竟。僧忍，默然故，是事如是持。</p>
+<lb n="0512c25" ed="T"/><p xml:id="pT40p0512c2501">難結小界說戒法<note place="inline">律言：若布薩日，於無村曠野中行，眾僧應和合集在一處共說戒。若
+<lb n="0512c26" ed="T"/>僧不得和合，隨同<anchor xml:id="nkr_note_orig_0512017" n="0512017"/><anchor xml:id="nkr_note_mod_0512017" n="0512017"/><anchor xml:id="beg0512017" n="0512017"/>和上<anchor xml:id="end0512017"/>等，當下道各集一處結小界說戒。當如是結。</note></p><p xml:id="pT40p0512c2627" rend="inline">大德僧聽！今有爾
+<lb n="0512c27" ed="T"/>許比丘集。若僧時到，僧忍聽，結小界。白如是。</p>
+<lb n="0512c28" ed="T"/><p xml:id="pT40p0512c2801">大德僧聽！今有爾許比丘集結小界。誰諸長
+<lb n="0512c29" ed="T"/>老忍爾許比丘集結小界者默然，誰不忍者
+<pb n="0513a" ed="T" xml:id="T40.1809.0513a"/>
+<lb n="0513a01" ed="T"/>說。僧已忍爾許比丘集結小界竟。僧忍，默然
+<lb n="0513a02" ed="T"/>故，是事如是持。</p>
+<lb n="0513a03" ed="T"/><p xml:id="pT40p0513a0301">解難結小界說戒法<note place="inline">不應不解界去。應如是解。</note></p><p xml:id="pT40p0513a0319" rend="inline">大德僧聽！今
+<lb n="0513a04" ed="T"/>有爾許比丘集。若僧時到，僧忍聽，解此處
+<lb n="0513a05" ed="T"/>小界。白如是。</p><p xml:id="pT40p0513a0506" rend="inline">大德僧聽！今有爾許比丘集，
+<lb n="0513a06" ed="T"/>解此處小界。誰諸長老忍僧解此處小界者
+<lb n="0513a07" ed="T"/>默然，誰不忍者說。僧已忍解此處小界竟。僧
+<lb n="0513a08" ed="T"/>忍，默然故，是事如是持。</p>
+<lb n="0513a09" ed="T"/><p xml:id="pT40p0513a0901">難結小界自恣法<note place="inline">律言：若眾多比丘，於自恣日，在非村、阿練若、未結界處道行。若和合得自
+<lb n="0513a10" ed="T"/>恣者善；若不得和合者，隨所同和上等，移異處結小界作自恣。應如是作。</note></p><p xml:id="pT40p0513a1029" rend="inline">大德僧聽！諸比
+<lb n="0513a11" ed="T"/>丘坐處已滿，齊如是比丘坐處。若僧時到，僧
+<lb n="0513a12" ed="T"/>忍聽，僧今於此處結小界。白如是。</p><p xml:id="pT40p0513a1214" rend="inline">大德僧聽！
+<lb n="0513a13" ed="T"/>齊如是比丘坐處，僧於此處結小界。誰諸長
+<lb n="0513a14" ed="T"/>老<anchor xml:id="nkr_note_orig_0513001" n="0513001"/><anchor xml:id="nkr_note_mod_0513001" n="0513001"/><anchor xml:id="beg0513001" n="0513001"/>忍<anchor xml:id="end0513001"/>齊如是比丘坐處，僧於此處結小界者
+<lb n="0513a15" ed="T"/>默然，誰不忍者說。僧已忍齊如是比丘坐處，
+<lb n="0513a16" ed="T"/>結小界竟。僧忍，默然故，是事如是持。</p>
+<lb n="0513a17" ed="T"/><p xml:id="pT40p0513a1701">解難結小界自恣法<note place="inline">不應不捨界去。應如是捨。</note></p><p xml:id="pT40p0513a1719" rend="inline">大德僧聽！齊
+<lb n="0513a18" ed="T"/>如是比丘坐處。若僧時到，僧忍聽，僧今解此
+<lb n="0513a19" ed="T"/>處小界。白如是。</p><p xml:id="pT40p0513a1907" rend="inline">大德僧聽！齊如是比丘坐處，
+<lb n="0513a20" ed="T"/>僧今解此處小界。誰諸長老忍僧齊如是比
+<lb n="0513a21" ed="T"/>丘坐處，解小界者默然，誰不忍者說。僧已忍
+<lb n="0513a22" ed="T"/>齊如是比丘坐處，解小界竟。僧忍，默然故，是
+<lb n="0513a23" ed="T"/>事如是持。</p>
+<lb n="0513a24" ed="T"/><p xml:id="pT40p0513a2401">結不失衣界法<note place="inline">時有厭離比丘見阿蘭若有一好窟，自念言：「我若得離衣宿者，可即於此
+<lb n="0513a25" ed="T"/>窟住。」佛言：「自今已去，當結不失衣界白二羯磨。」當如是作。</note></p><p xml:id="pT40p0513a2523" rend="inline">大德僧聽！此處同一
+<lb n="0513a26" ed="T"/>住處，同一說戒。若僧時到，僧忍聽，結不失衣
+<lb n="0513a27" ed="T"/>界。白如是。</p><p xml:id="pT40p0513a2705" rend="inline">大德僧聽！此處同一住處，同一說
+<lb n="0513a28" ed="T"/>戒，僧今結不失衣界。誰諸長老忍僧於此處
+<lb n="0513a29" ed="T"/>同一住處，同一說戒，結不失衣界者默然，誰
+<pb n="0513b" ed="T" xml:id="T40.1809.0513b"/>
+<lb n="0513b01" ed="T"/>不忍者說。僧已忍此處同一住處，同一說戒，
+<lb n="0513b02" ed="T"/>結不失衣界竟。僧忍，默然故，是事如是持。<note place="inline">時諸
+<lb n="0513b03" ed="T"/>比丘脫衣置白衣舍，當著脫時形露。佛言：「聽結不失衣界，除村、<anchor xml:id="nkr_note_orig_0513002" n="0513002"/><anchor xml:id="nkr_note_mod_0513002" n="0513002"/><anchor xml:id="beg0513002" n="0513002"/>村<anchor xml:id="end0513002"/>外界。」結法如上，唯加一句云：<anchor xml:id="nkr_note_orig_0513003" n="0513003"/><anchor xml:id="beg0513003" n="0513003"/>除<anchor xml:id="end0513003"/>村、村外界。白如
+<lb n="0513b04" ed="T"/>是。</note></p>
+<lb n="0513b05" ed="T"/><p xml:id="pT40p0513b0501">解不失衣界法<note place="inline">文略無解，應翻結云：</note></p><p xml:id="pT40p0513b0515" rend="inline">大德僧聽！此處同一
+<lb n="0513b06" ed="T"/>住處，同一說戒。若僧時到，僧忍聽，解<anchor xml:id="nkr_note_orig_0513004" n="0513004"/>不失衣
+<lb n="0513b07" ed="T"/>界。白如是。</p><p xml:id="pT40p0513b0705" rend="inline">大德僧聽！此處同一住處，同一說
+<lb n="0513b08" ed="T"/>戒，今解不失衣界。誰諸長老忍僧於此處同
+<lb n="0513b09" ed="T"/>一住處，同一說戒，解不失衣界者默然，誰不
+<lb n="0513b10" ed="T"/>忍者說。僧已忍此處同一住處，同一說戒，解
+<lb n="0513b11" ed="T"/>不失衣界竟。僧忍，默然故，是事如是持。<note place="inline">有村解法，
+<lb n="0513b12" ed="T"/>翻亦同此。</note></p>
+<lb n="0513b13" ed="T"/><p xml:id="pT40p0513b1301"><anchor xml:id="nkr_note_orig_0513005" n="0513005"/><anchor xml:id="beg0513005" n="0513005"/>結淨地<anchor xml:id="end0513005"/>法<note place="inline">時有吐下比丘，使舍衛城中人煮粥時，有因緣城門<anchor xml:id="nkr_note_orig_0513006" n="0513006"/><anchor xml:id="beg0513006" n="0513006"/>晚<anchor xml:id="end0513006"/>開，未及得粥便死。佛言：「聽
+<lb n="0513b14" ed="T"/>在僧伽藍內結淨地白二羯磨，<anchor xml:id="nkr_note_orig_0513007" n="0513007"/><anchor xml:id="nkr_note_mod_0513007" n="0513007"/><anchor xml:id="beg0513007" n="0513007"/>應<anchor xml:id="end0513007"/>唱房、若處、若溫室、若經行處。應一比丘起已，具儀於僧中唱某院及諸果菜等處
+<lb n="0513b15" ed="T"/>作淨地。」唱已，應如是作。</note></p>
+<lb n="0513b16" ed="T"/><p xml:id="pT40p0513b1601">大德僧聽！若僧時到，僧忍聽，僧今結某處作
+<lb n="0513b17" ed="T"/>淨地。白如是。</p><p xml:id="pT40p0513b1706" rend="inline">大德僧聽！僧今結某處作淨地。
+<lb n="0513b18" ed="T"/>誰諸長老忍僧結某處作淨地者默然，誰不
+<lb n="0513b19" ed="T"/>忍者說。僧已忍結某處作淨地竟。僧忍，默然
+<lb n="0513b20" ed="T"/>故，是事如是持。<note place="inline">律言：有四種淨地。一者，檀越、若經營人作僧伽藍時<anchor xml:id="nkr_note_orig_0513008" n="0513008"/><anchor xml:id="nkr_note_mod_0513008" n="0513008"/><anchor xml:id="beg0513008" n="0513008"/>處分<anchor xml:id="end0513008"/>，如是言：某處為
+<lb n="0513b21" ed="T"/>僧作淨地。二者，若為僧作僧伽藍未施僧。三者，若半有籬障、若多無籬障、若都無，若垣牆、若塹亦如是。四者，僧作
+<lb n="0513b22" ed="T"/>白二羯磨結。</note></p>
+<lb n="0513b23" ed="T"/><p xml:id="pT40p0513b2301">解淨地法<note place="inline">文略無解，應翻結云：</note></p><p xml:id="pT40p0513b2313" rend="inline">大德僧聽！若僧時到，僧忍
+<lb n="0513b24" ed="T"/>聽，僧今解某處淨地。白如是。</p><p xml:id="pT40p0513b2412" rend="inline">大德僧聽！僧今
+<lb n="0513b25" ed="T"/>解某處淨地。誰諸長老忍僧解某處淨地者
+<lb n="0513b26" ed="T"/>默然，誰不忍者說。僧已忍解某處淨地竟。僧
+<lb n="0513b27" ed="T"/>忍，默然故，是事如是持。</p></cb:div>
+<lb n="0513b28" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">3 授戒篇(上)</cb:mulu><head>授戒篇第三</head>
+<pb n="0513c" ed="T" xml:id="T40.1809.0513c"/>
+<lb n="0513c01" ed="T"/><p xml:id="pT40p0513c0101">善來授戒法<note place="inline">按律：時聞法者，即於座上諸塵垢盡，得法眼淨，見法得法，成辦諸法，已獲果實，前白佛
+<lb n="0513c02" ed="T"/>言：「我今欲於如來所出家修梵行。」</note></p><p xml:id="pT40p0513c0214" rend="inline"><anchor xml:id="nkr_note_orig_0513009" n="0513009"/><anchor xml:id="nkr_note_mod_0513009" n="0513009"/>佛言：「來，比丘！於我法中快自娛
+<lb n="0513c03" ed="T"/>樂，修梵行，盡苦源。」<note place="inline">唱此言已，鬚髮自落，袈裟著身，鉢盂在手，即名出家受具足戒。</note></p>
+<lb n="0513c04" ed="T"/><p xml:id="pT40p0513c0401">三歸授戒法<note place="inline">時有聞法得信，欲受<anchor xml:id="nkr_note_orig_0513010" n="0513010"/><anchor xml:id="nkr_note_mod_0513010" n="0513010"/><anchor xml:id="beg0513010" n="0513010"/>具<anchor xml:id="end0513010"/>戒時，諸比丘將詣佛所，中道失信，不得受具<anchor xml:id="nkr_note_orig_0513011" n="0513011"/><anchor xml:id="nkr_note_mod_0513011" n="0513011"/><anchor xml:id="beg0513011" n="0513011"/>戒<anchor xml:id="end0513011"/>。佛言：「自
+<lb n="0513c05" ed="T"/>今已去，聽汝等即與出家授具足<anchor xml:id="nkr_note_orig_0513012" n="0513012"/><anchor xml:id="nkr_note_mod_0513012" n="0513012"/><anchor xml:id="beg0513012" n="0513012"/>戒。」教<anchor xml:id="end0513012"/>令剃髮，著袈裟，脫革屣，右膝著地，合掌，作是語：</note></p><p xml:id="pT40p0513c0534" rend="inline">我某甲，歸
+<lb n="0513c06" ed="T"/>依佛，歸依法，歸依僧。今於如來所出家，如來、
+<lb n="0513c07" ed="T"/>至真、等正覺，是我世尊。<note place="inline">三說。</note></p><p xml:id="pT40p0513c0712" rend="inline">我某甲，已歸依佛，
+<lb n="0513c08" ed="T"/>歸依法，歸依僧。於如來所出家，如來、至真、等
+<lb n="0513c09" ed="T"/>正覺，是我世尊。<note place="inline">三說。</note></p>
+<lb n="0513c10" ed="T"/><p xml:id="pT40p0513c1001">羯磨授戒與度人法<note place="inline">若比丘愚癡輒便度人，而不知教授。以不教授故，不按威儀，乞食
+<lb n="0513c11" ed="T"/>不如法，處處受不淨食，或受不淨鉢食，<anchor xml:id="nkr_note_orig_0513013" n="0513013"/><anchor xml:id="beg0513013" n="0513013"/>在<anchor xml:id="end0513013"/>小食、大食上高聲<anchor xml:id="nkr_note_orig_0513014" n="0513014"/><anchor xml:id="nkr_note_mod_0513014" n="0513014"/><anchor xml:id="beg0513014" n="0513014"/>大<anchor xml:id="end0513014"/>喚，如婆羅門聚會法。佛言：「聽僧與授具足者白二
+<lb n="0513c12" ed="T"/>羯磨。」彼至僧中，具儀作如是求。</note></p><p xml:id="pT40p0513c1213" rend="inline">大德僧聽！我某甲比丘，求眾僧乞
+<lb n="0513c13" ed="T"/>度人授具足戒，願僧聽我某甲比丘度人授
+<lb n="0513c14" ed="T"/>具足戒。<note place="inline">三說。</note><note place="inline">僧當觀察此人，若不堪能教授及不能二法攝取者，當語言「止！勿度人」。若有智慧堪能
+<lb n="0513c15" ed="T"/>教<anchor xml:id="nkr_note_orig_0513015" n="0513015"/><anchor xml:id="nkr_note_mod_0513015" n="0513015"/><anchor xml:id="beg0513015" n="0513015"/>授<anchor xml:id="end0513015"/>及二法攝取者，應如是與法。</note></p><p xml:id="pT40p0513c1514" rend="inline">大德僧聽！此某甲比丘，今從眾
+<lb n="0513c16" ed="T"/>僧乞授人具足戒。若僧時到，僧忍聽，僧今與
+<lb n="0513c17" ed="T"/>某甲比丘授人具足戒。白如是。</p><p xml:id="pT40p0513c1713" rend="inline">大德僧聽！此
+<lb n="0513c18" ed="T"/>某甲比丘，今從眾僧乞授人具足戒；僧今與
+<lb n="0513c19" ed="T"/>某甲比丘授人具足戒。誰諸長老忍僧與某
+<lb n="0513c20" ed="T"/>甲比丘授人具足戒者默然，誰不忍者說。僧
+<lb n="0513c21" ed="T"/>已忍聽某甲比丘授人具足戒竟。僧忍，默然
+<lb n="0513c22" ed="T"/>故，是事如是持。<note place="inline">依止闍梨，法亦同此。</note></p>
+<lb n="0513c23" ed="T"/><p xml:id="pT40p0513c2301">度沙彌與形同法<note place="inline">時有巧師家兒來至僧伽藍中，求諸比丘出家為道，諸比丘輒與出家為
+<lb n="0513c24" ed="T"/>道。其父母啼泣來<anchor xml:id="nkr_note_orig_0513016" n="0513016"/><anchor xml:id="nkr_note_mod_0513016" n="0513016"/><anchor xml:id="beg0513016" n="0513016"/>至<anchor xml:id="end0513016"/>僧伽藍中，問諸比丘：「頗見如是如是小兒來不？」不見者報言：「不見。」即便於諸房中求覓得，諸
+<lb n="0513c25" ed="T"/>長者譏嫌。佛言：「自今已去，若欲在僧伽藍中剃髮，當<anchor xml:id="nkr_note_orig_0513017" n="0513017"/><anchor xml:id="beg0513017" n="0513017"/>白<anchor xml:id="end0513017"/>一切僧。若不得和合，房房語令知。」僧若和合，作如是白：</note></p>
+<lb n="0513c26" ed="T"/><p xml:id="pT40p0513c2601">大德僧聽！此某甲，欲求某甲剃髮。若僧時到，
+<lb n="0513c27" ed="T"/>僧忍聽，與某甲剃髮。白如是。<note place="inline">作此白已，然後剃髮。</note></p>
+<lb n="0513c28" ed="T"/><p xml:id="pT40p0513c2801">度沙彌與法同請和上法<note place="inline">若欲在僧伽藍中出家者，先請和上。具儀作如是
+<pb n="0514a" ed="T" xml:id="T40.1809.0514a"/>
+<lb n="0514a01" ed="T"/>請。</note></p><p xml:id="pT40p0514a0102" rend="inline">大德一心念！我某甲，今請大德為十戒和
+<lb n="0514a02" ed="T"/>上，願大德為我作十戒和上。我依大德故，得
+<lb n="0514a03" ed="T"/>受沙彌戒，慈愍故。<note place="inline">三說。應報：</note>可爾。</p>
+<lb n="0514a04" ed="T"/><p xml:id="pT40p0514a0401">請闍梨法<note place="inline">具儀作如是請</note></p><p xml:id="pT40p0514a0411" rend="inline">大德一心念！我某甲，今請大
+<lb n="0514a05" ed="T"/>德為十戒阿闍梨，願大德為我作十戒阿闍
+<lb n="0514a06" ed="T"/>梨。我依大德故，得受沙彌戒，慈愍故。<note place="inline">三說。應報：</note>可
+<lb n="0514a07" ed="T"/>爾。</p>
+<lb n="0514a08" ed="T"/><p xml:id="pT40p0514a0801">白僧法<note place="inline">若不得和合者，當語一切僧知；若得和合，作如是白：</note></p><p xml:id="pT40p0514a0824" rend="inline">大德僧聽！此某
+<lb n="0514a09" ed="T"/>甲，從某甲求出家。若僧時到，僧忍聽，與某甲
+<lb n="0514a10" ed="T"/>出家。白如是。</p>
+<lb n="0514a11" ed="T"/><p xml:id="pT40p0514a1101">授戒法<note place="inline">教著袈裟，具儀作如是言：</note></p><p xml:id="pT40p0514a1114" rend="inline">我某甲，<anchor xml:id="nkr_note_orig_0514001" n="0514001"/><anchor xml:id="nkr_note_mod_0514001" n="0514001"/><anchor xml:id="beg0514001" n="0514001"/>歸依佛，歸依法，歸
+<lb n="0514a12" ed="T"/>依僧<anchor xml:id="end0514001"/>。隨如來出家，某甲為和上，如來、至真、等
+<lb n="0514a13" ed="T"/>正覺，是我世尊。<note place="inline">三說。</note>我某甲，歸依佛，歸依法，歸依
+<lb n="0514a14" ed="T"/>僧。隨如來出家竟，某甲為和上，如來、至真、等
+<lb n="0514a15" ed="T"/>正覺，是我世尊。<note place="inline">三說。</note>授十戒相<note place="inline">語云：</note></p><p xml:id="pT40p0514a1515" rend="inline">盡形壽不殺生。
+<lb n="0514a16" ed="T"/>是沙彌戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a1611" rend="inline">盡形壽不盜。是沙彌
+<lb n="0514a17" ed="T"/>戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a1708" rend="inline">盡形壽不婬。是沙彌戒，能持
+<lb n="0514a18" ed="T"/>不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a1805" rend="inline">盡形壽不妄語。是沙彌戒，能持不？<note place="inline">答言：</note>能。</p>
+<lb n="0514a19" ed="T"/><p xml:id="pT40p0514a1901">盡形壽不飲酒。是沙彌戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a1917" rend="inline">盡形
+<lb n="0514a20" ed="T"/>壽不得著華鬘、香油塗身。是沙彌戒，能持不？
+<lb n="0514a21" ed="T"/><note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a2104" rend="inline">盡形壽不得歌舞<anchor xml:id="nkr_note_orig_0514002" n="0514002"/><anchor xml:id="nkr_note_mod_0514002" n="0514002"/><anchor xml:id="beg0514002" n="0514002"/>倡<anchor xml:id="end0514002"/>伎及往觀聽。是沙
+<lb n="0514a22" ed="T"/>彌戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a2209" rend="inline">盡形壽不得高廣大床上
+<lb n="0514a23" ed="T"/>坐。是沙彌戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a2312" rend="inline">盡形壽不得非時
+<lb n="0514a24" ed="T"/>食。是沙彌戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a2412" rend="inline">盡形壽不得執持
+<lb n="0514a25" ed="T"/>生像金銀寶物。是沙彌戒，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a2517" rend="inline">此是
+<lb n="0514a26" ed="T"/>沙彌十戒。盡形壽不得犯，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0514a2617" rend="inline">汝已
+<lb n="0514a27" ed="T"/>受戒竟，當供養三寶，勤修三業：坐禪、誦經、<anchor xml:id="nkr_note_orig_0514003" n="0514003"/><anchor xml:id="nkr_note_mod_0514003" n="0514003"/><anchor xml:id="beg0514003" n="0514003"/>勤<anchor xml:id="end0514003"/>
+<lb n="0514a28" ed="T"/>作眾事。<note place="inline">授已，教誦十數。其十者：一、一切眾生皆依飲食，二、名色，三、三受，四、四聖諦，五、五陰，六、六入，七、
+<lb n="0514a29" ed="T"/>七覺分，八、八聖道，九、九眾生居，十、十一切入。</note></p>
+<pb n="0514b" ed="T" xml:id="T40.1809.0514b"/>
+<lb n="0514b01" ed="T"/><p xml:id="pT40p0514b0101">度外道法<note place="inline">律言：自今已去，聽與外道眾僧中四月共住白二羯磨。當如是與：先剃髮已，著袈裟，乃至
+<lb n="0514b02" ed="T"/>合掌，教作是言：</note></p><p xml:id="pT40p0514b0207" rend="inline">大德僧聽！我某甲外道，歸依佛，歸依法，
+<lb n="0514b03" ed="T"/>歸依僧。我於世尊所求出家為道，世尊即是
+<lb n="0514b04" ed="T"/>我如來、至真、等正覺。<note place="inline">三說。</note>我某甲外道，<anchor xml:id="beg_6" type="star"/>歸依佛，
+<lb n="0514b05" ed="T"/>歸依法，歸依僧<anchor xml:id="end_6"/>已。從如來出家學道，如來是
+<lb n="0514b06" ed="T"/>我至真、等正覺。<note place="inline">三說。</note><note place="inline">次與戒相，<anchor xml:id="nkr_note_orig_0514004" n="0514004"/><anchor xml:id="beg0514004" n="0514004"/>與<anchor xml:id="end0514004"/>法同上。</note></p>
+<lb n="0514b07" ed="T"/><p xml:id="pT40p0514b0701">與四月共住法<note place="inline">次應教作是言：</note></p><p xml:id="pT40p0514b0713" rend="inline">大德僧聽！我某甲外道，
+<lb n="0514b08" ed="T"/>從僧乞四月共住。願僧慈愍故，與我四月共
+<lb n="0514b09" ed="T"/>住。<note place="inline">三說</note><note place="inline">安著眼見耳不聞處，僧應作如是法。</note></p><p xml:id="pT40p0514b0918" rend="inline">大德僧聽！彼某甲外道，
+<lb n="0514b10" ed="T"/>今從眾僧乞四月共住。若僧時到，僧忍聽，與
+<lb n="0514b11" ed="T"/>彼某甲外道四月共住。白如是。</p><p xml:id="pT40p0514b1113" rend="inline">大德僧聽！彼
+<lb n="0514b12" ed="T"/>某甲外道，今從眾僧乞四月共住；僧今與彼四
+<lb n="0514b13" ed="T"/>月共住。誰諸長老忍僧與彼四月共住者默然，
+<lb n="0514b14" ed="T"/>誰不忍者說。僧已忍與彼外道四月共住竟。
+<lb n="0514b15" ed="T"/>僧忍，默然故，是事如是持。<note place="inline">彼行共住竟，令諸比丘心喜悅，然後當於僧中
+<lb n="0514b16" ed="T"/>受具足戒。云何外道不能令諸比丘心喜悅？彼外道心故執持外道<anchor xml:id="nkr_note_orig_0514005" n="0514005"/><anchor xml:id="beg0514005" n="0514005"/>白<anchor xml:id="end0514005"/>衣法，不親比丘親外道，不隨順比丘，誦習
+<lb n="0514b17" ed="T"/>異論；若聞人說外道不好事，便起瞋恚，若聞人毀訾外道師教，亦起瞋恚；若有異外道來讚歎外道好事，歡喜踊
+<lb n="0514b18" ed="T"/>躍，若有外道師來聞讚歎外道事，亦歡喜踊躍；若聞說佛法僧非法事，亦歡喜踊躍；是謂外道不能令諸比丘喜
+<lb n="0514b19" ed="T"/>悅。云何外道能令比丘喜悅？即<anchor xml:id="nkr_note_orig_0514006" n="0514006"/><anchor xml:id="beg0514006" n="0514006"/>反<anchor xml:id="end0514006"/>上是。<anchor xml:id="nkr_note_orig_0514007" n="0514007"/><anchor xml:id="nkr_note_mod_0514007" n="0514007"/><anchor xml:id="beg0514007" n="0514007"/>是<anchor xml:id="end0514007"/>謂外道共住，和調心意，令諸比丘喜<anchor xml:id="nkr_note_orig_0514008" n="0514008"/><anchor xml:id="nkr_note_mod_0514008" n="0514008"/><anchor xml:id="beg0514008" n="0514008"/>悅<anchor xml:id="end0514008"/>也。</note></p>
+<lb n="0514b20" ed="T"/><p xml:id="pT40p0514b2001"><anchor xml:id="nkr_note_orig_0514009" n="0514009"/><anchor xml:id="nkr_note_mod_0514009" n="0514009"/><anchor xml:id="beg0514009" n="0514009"/>受<anchor xml:id="end0514009"/>具戒請和上法<note place="inline">應偏露等，作如是請：</note></p><p xml:id="pT40p0514b2016" rend="inline">大德一心念！我
+<lb n="0514b21" ed="T"/>某甲，今請大德為和上，願大德為我作和上。
+<lb n="0514b22" ed="T"/>我依大德故，得受具足戒，慈愍故。<note place="inline">三說。答<anchor xml:id="nkr_note_orig_0514010" n="0514010"/><anchor xml:id="nkr_note_mod_0514010" n="0514010"/><anchor xml:id="beg0514010" n="0514010"/>云<anchor xml:id="end0514010"/>：</note>可爾。
+<lb n="0514b23" ed="T"/><note place="inline">或云：</note>如是。<note place="inline">或云：</note>當教授汝。<note place="inline">或云：</note>清淨莫放逸。</p>
+<lb n="0514b24" ed="T"/><p xml:id="pT40p0514b2401">請戒師法<note place="inline">具儀作如是請：</note></p><p xml:id="pT40p0514b2411" rend="inline">大德一心念！我某甲，今請大
+<lb n="0514b25" ed="T"/>德為羯磨阿闍梨，願大德為我作羯磨阿闍
+<lb n="0514b26" ed="T"/>梨。我依大德故，得受具足戒，慈愍故。<note place="inline">三說。應報：</note>可
+<lb n="0514b27" ed="T"/>爾。</p>
+<lb n="0514b28" ed="T"/><p xml:id="pT40p0514b2801">請教授師法<note place="inline">具儀作如是請：</note></p><p xml:id="pT40p0514b2812" rend="inline">大德一心念！我某甲，今請
+<pb n="0514c" ed="T" xml:id="T40.1809.0514c"/>
+<lb n="0514c01" ed="T"/>大德為教授阿闍梨，願大德為我作教授阿
+<lb n="0514c02" ed="T"/>闍梨。我依大德故，得受具足戒，慈愍故。<note place="inline">三說。應報：</note>
+<lb n="0514c03" ed="T"/>可爾。</p>
+<lb n="0514c04" ed="T"/><p xml:id="pT40p0514c0401">安受戒人處所法<note place="inline">應安眼見耳不聞處。其受戒人若在空、若隱沒、若離見聞處、若界
+<lb n="0514c05" ed="T"/>外，不名受具。<anchor xml:id="nkr_note_orig_0514011" n="0514011"/><anchor xml:id="beg0514011" n="0514011"/>和上<anchor xml:id="end0514011"/>及足數比丘亦如是。</note></p>
+<lb n="0514c06" ed="T"/><p xml:id="pT40p0514c0601">差教授師法<note place="inline">按律有如是教：一切污辱眾僧者，不得受具足戒。時有欲受戒者，諸比丘將至界外
+<lb n="0514c07" ed="T"/>脫衣看時，受戒者慚恥，稽留受戒事。佛言：「不得如是露形看。自今已去，聽先問十三難事，然後授戒。」是中戒師問云：</note></p>
+<lb n="0514c08" ed="T"/><p xml:id="pT40p0514c0801">眾中誰能為某甲作教授師？<note place="inline">若作師者，即<anchor xml:id="nkr_note_orig_0514012" n="0514012"/><anchor xml:id="nkr_note_mod_0514012" n="0514012"/><anchor xml:id="beg0514012" n="0514012"/>應<anchor xml:id="end0514012"/>答云：</note>我某甲
+<lb n="0514c09" ed="T"/>能。<note place="inline">答已，戒師應作是白：</note></p><p xml:id="pT40p0514c0910" rend="inline">大德僧聽！彼某甲，從某甲求受具
+<lb n="0514c10" ed="T"/>足戒。若僧時到，僧忍聽，某甲為教授師。白如
+<lb n="0514c11" ed="T"/>是。</p>
+<lb n="0514c12" ed="T"/><p xml:id="pT40p0514c1201">往彼問遮難法<note place="inline">時教授師往彼，語言：</note></p><p xml:id="pT40p0514c1215" rend="inline">此安陀會、欝多羅僧、僧
+<lb n="0514c13" ed="T"/>伽梨<anchor xml:id="nkr_note_orig_0514013" n="0514013"/><anchor xml:id="nkr_note_mod_0514013" n="0514013"/><anchor xml:id="beg0514013" n="0514013"/>鉢<anchor xml:id="end0514013"/>。此衣鉢是汝有不？<note place="inline">彼答「是」已，復應語言：</note></p><p xml:id="pT40p0514c1319" rend="inline">善男子諦
+<lb n="0514c14" ed="T"/>聽！今是至誠時，實語時，我今問汝，隨我問答，
+<lb n="0514c15" ed="T"/>若不實者當言不實，若實言實。汝不犯邊罪
+<lb n="0514c16" ed="T"/>不？汝不犯比丘尼不？汝非賊心入道不？汝非
+<lb n="0514c17" ed="T"/>破內外道不？汝非黃門不？汝非殺父不？汝非
+<lb n="0514c18" ed="T"/>殺母不？汝非殺阿羅漢不？汝非破和合僧不？
+<lb n="0514c19" ed="T"/>汝非惡心出佛身血不？汝非是非人不？汝非
+<lb n="0514c20" ed="T"/>畜生不？汝非有二形不？汝字何等？和<anchor xml:id="nkr_note_orig_0514014" n="0514014"/><anchor xml:id="beg0514014" n="0514014"/>上<anchor xml:id="end0514014"/>字
+<lb n="0514c21" ed="T"/>誰？汝年滿二十不？衣鉢具不？父母聽汝不？汝
+<lb n="0514c22" ed="T"/>非負人債不？汝非奴不？汝非官人不？汝是丈
+<lb n="0514c23" ed="T"/>夫不？丈夫有如是病：癩、癰疽、白癩、乾痟、<anchor xml:id="nkr_note_orig_0514015" n="0514015"/><anchor xml:id="nkr_note_mod_0514015" n="0514015"/><anchor xml:id="beg0514015" n="0514015"/>癲<anchor xml:id="end0514015"/>狂
+<lb n="0514c24" ed="T"/>病。汝今有此諸病不？<note place="inline">若其一一隨事答「無」，復應語言：</note></p><p xml:id="pT40p0514c2421" rend="inline">如我今問
+<lb n="0514c25" ed="T"/>汝，僧中亦當如是問。如汝向者答我，僧中亦
+<lb n="0514c26" ed="T"/>當如是答。</p>
+<lb n="0514c27" ed="T"/><p xml:id="pT40p0514c2701">問已白僧法<note place="inline">彼教授師問已，還來僧中，如常威儀，相<anchor xml:id="nkr_note_orig_0514016" n="0514016"/><anchor xml:id="beg0514016" n="0514016"/>去<anchor xml:id="end0514016"/><anchor xml:id="nkr_note_orig_0514017" n="0514017"/><anchor xml:id="beg0514017" n="0514017"/>舒<anchor xml:id="end0514017"/>手相及處立，作如是白：</note></p><p xml:id="pT40p0514c2732" rend="inline">大
+<lb n="0514c28" ed="T"/>德僧聽！彼某甲，從某甲求受具足戒。若僧時
+<lb n="0514c29" ed="T"/>到，僧忍聽，我已問竟，聽將來。白如是。</p>
+<pb n="0515a" ed="T" xml:id="T40.1809.0515a"/>
+<lb n="0515a01" ed="T"/><p xml:id="pT40p0515a0101">從僧乞戒法<note place="inline"><anchor xml:id="nkr_note_orig_0515001" n="0515001"/><anchor xml:id="beg0515001" n="0515001"/>彼<anchor xml:id="end0515001"/>應喚言「汝來」。來已，當為捉衣鉢，教禮僧。<anchor xml:id="nkr_note_orig_0515002" n="0515002"/><anchor xml:id="nkr_note_mod_0515002" n="0515002"/><anchor xml:id="beg0515002" n="0515002"/>禮<anchor xml:id="end0515002"/>已，在戒師前具儀，教作是<anchor xml:id="nkr_note_orig_0515003" n="0515003"/><anchor xml:id="nkr_note_mod_0515003" n="0515003"/><anchor xml:id="beg0515003" n="0515003"/>言<anchor xml:id="end0515003"/>。</note></p><p xml:id="pT40p0515a0134" rend="inline">大
+<lb n="0515a02" ed="T"/>德僧聽！我某甲，從某甲求受具足戒。我某甲，
+<lb n="0515a03" ed="T"/>今從僧乞受具足戒，某甲為和上。願僧慈愍
+<lb n="0515a04" ed="T"/>故，拔濟我。<note place="inline">三說。</note><note place="inline">若教乞戒不乞戒、著俗服等、若眠、醉、狂、裸形、瞋恚、無心、身相不具、借他衣鉢、若
+<lb n="0515a05" ed="T"/>無和上、若多和上，皆不名受具足<anchor xml:id="nkr_note_orig_0515004" n="0515004"/><anchor xml:id="nkr_note_mod_0515004" n="0515004"/><anchor xml:id="beg0515004" n="0515004"/>戒<anchor xml:id="end0515004"/>。</note></p>
+<lb n="0515a06" ed="T"/><p xml:id="pT40p0515a0601">戒師白法<note place="inline">戒師欲問，先白。白云：</note></p><p xml:id="pT40p0515a0613" rend="inline">大德僧聽！此某甲，從某甲
+<lb n="0515a07" ed="T"/>求受具足戒。此某甲，今從僧乞受具足戒，某
+<lb n="0515a08" ed="T"/>甲為和上。若僧時到，僧忍聽，我問諸難事。白
+<lb n="0515a09" ed="T"/>如是。</p>
+<lb n="0515a10" ed="T"/><p xml:id="pT40p0515a1001">戒師問法<note place="inline">語言：</note></p><p xml:id="pT40p0515a1007" rend="inline">善男子聽！今是至誠時，實語時，
+<lb n="0515a11" ed="T"/>今隨所問汝，汝當隨實答。汝不犯邊罪不？汝
+<lb n="0515a12" ed="T"/>不犯比丘尼不？汝非賊心入道不？汝非壞二
+<lb n="0515a13" ed="T"/>道不？汝非黃門不？汝非殺父不？汝非殺母不？
+<lb n="0515a14" ed="T"/>汝非殺阿羅漢不？汝非破和合僧不？汝不惡
+<lb n="0515a15" ed="T"/>心出佛身血不？汝非是非人不？汝非畜生不？
+<lb n="0515a16" ed="T"/>汝非有二形不？汝字何等？和上字誰？汝年滿
+<lb n="0515a17" ed="T"/>二十不？衣鉢具不？父母聽汝不？汝非負人債
+<lb n="0515a18" ed="T"/>不？汝非奴不？汝非官人不？汝是丈夫不？丈夫
+<lb n="0515a19" ed="T"/>有如是病：癩、癰疽、白癩、乾痟、癲狂病。汝今有
+<lb n="0515a20" ed="T"/>此諸病不？<note place="inline">又須隨事，一一答「無」。</note></p>
+<lb n="0515a21" ed="T"/><p xml:id="pT40p0515a2101">正授戒法<note place="inline">戒法難生，眾緣須具，以法開導，令起上上品心，至誠諦受。當如是作。</note></p>
+<lb n="0515a22" ed="T"/><p xml:id="pT40p0515a2201">大德僧聽！此某甲，從某甲求受具足戒。此某
+<lb n="0515a23" ed="T"/>甲，今從僧乞受具足戒，某甲為和上。某甲自
+<lb n="0515a24" ed="T"/>說清淨，無諸難事，年滿二十，三衣鉢具。若僧
+<lb n="0515a25" ed="T"/>時到，僧忍聽，授某甲具足戒，某甲為和上。白
+<lb n="0515a26" ed="T"/>如是。</p><p xml:id="pT40p0515a2603" rend="inline">大德僧聽！此某甲，從某甲求受具足戒。
+<lb n="0515a27" ed="T"/>此某甲，今從僧乞受具足戒，某甲為和上。某
+<lb n="0515a28" ed="T"/>甲自說清淨，無諸難事，年滿二十，三衣鉢具。
+<lb n="0515a29" ed="T"/>僧今授某甲具足戒，某甲為和上。誰諸長老
+<pb n="0515b" ed="T" xml:id="T40.1809.0515b"/>
+<lb n="0515b01" ed="T"/>忍僧與某甲授具足戒，某甲為和<anchor xml:id="beg_7" type="star"/>上<anchor xml:id="end_7"/>者默
+<lb n="0515b02" ed="T"/>然，誰不忍者說。<note place="inline">三說。</note>僧已忍與某甲授具足戒，
+<lb n="0515b03" ed="T"/>某甲為和上竟。僧忍，默然故，是事如是持。<note place="inline">作此
+<lb n="0515b04" ed="T"/>法已，應為記時。邊受與此無異。</note></p>
+<lb n="0515b05" ed="T"/><p xml:id="pT40p0515b0501">授戒相法<note place="inline">時有比丘受具足已，僧盡捨去。所受戒人本二去彼不遠，時受戒者即共行不淨。佛言：「自今
+<lb n="0515b06" ed="T"/>已去，作羯<anchor xml:id="nkr_note_orig_0515005" n="0515005"/><anchor xml:id="beg0515005" n="0515005"/>磨<anchor xml:id="end0515005"/>已，當先說四波羅夷。」應作是說：</note></p><p xml:id="pT40p0515b0618" rend="inline">善男子聽！如來、至真、等正
+<lb n="0515b07" ed="T"/>覺說四波羅夷法，若比丘犯一一法，非沙門，
+<lb n="0515b08" ed="T"/>非釋種子。汝一切不得犯婬，作不淨行。若比
+<lb n="0515b09" ed="T"/>丘犯不淨行，受婬欲法，乃至共畜生；非沙門，
+<lb n="0515b10" ed="T"/>非釋種子。爾時世尊與說譬喻，猶如有人截
+<lb n="0515b11" ed="T"/>其頭，終不還活；比丘亦如是，犯波羅夷法已，
+<lb n="0515b12" ed="T"/>不能還成比丘行。汝是中盡形壽不得作，能
+<lb n="0515b13" ed="T"/>持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0515b1306" rend="inline">一切不得盜下至草葉。若比丘盜
+<lb n="0515b14" ed="T"/>人五錢、若過五錢，若自取、教人取，若自破、教
+<lb n="0515b15" ed="T"/>人破，若自斫、教人斫，若燒、若埋、若壞色；非沙
+<lb n="0515b16" ed="T"/>門，非釋種子。譬如斷多羅樹心，終不復更生
+<lb n="0515b17" ed="T"/>長；比丘亦如是，犯波羅夷法已，終不還成比
+<lb n="0515b18" ed="T"/>丘行。汝是中盡形壽不得作，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0515b1818" rend="inline">一
+<lb n="0515b19" ed="T"/>切不得故斷眾生命下至蟻子。若比丘故自
+<lb n="0515b20" ed="T"/>手斷人命，求刀授與人，教死、歎死、勸死，與人
+<lb n="0515b21" ed="T"/>非藥，若墮胎、若<anchor xml:id="nkr_note_orig_0515006" n="0515006"/><anchor xml:id="nkr_note_mod_0515006" n="0515006"/><anchor xml:id="beg0515006" n="0515006"/><g ref="#CB01679">󰚏</g><anchor xml:id="end0515006"/>禱殺，自作方便、若教人
+<lb n="0515b22" ed="T"/>作；非沙門，非釋種子。譬喻者說言：猶如針鼻
+<lb n="0515b23" ed="T"/>缺，不堪復用；比丘亦如是，犯波羅夷法已，終
+<lb n="0515b24" ed="T"/>不還成比丘行。汝是中盡形壽不得作，能持
+<lb n="0515b25" ed="T"/>不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0515b2505" rend="inline">一切不得妄語乃至戲笑。若比丘不
+<lb n="0515b26" ed="T"/>真實，非己有，自說言我得上人法、得禪、得解
+<lb n="0515b27" ed="T"/>脫、得定、得四空定，得須陀洹果、斯陀含果、阿
+<lb n="0515b28" ed="T"/>那含果、阿羅漢果，天來、龍來、鬼神來供養我；
+<lb n="0515b29" ed="T"/>非沙門，非釋種子。譬喻者說言：猶如大石破
+<pb n="0515c" ed="T" xml:id="T40.1809.0515c"/>
+<lb n="0515c01" ed="T"/>為二分，終不還合；比丘亦如是，犯波羅夷法
+<lb n="0515c02" ed="T"/>已，終不還成比丘行。汝是中盡形壽不得作，
+<lb n="0515c03" ed="T"/>能持不？<note place="inline">答言：</note>能。</p>
+<lb n="0515c04" ed="T"/><p xml:id="pT40p0515c0401">授四依法<note place="inline">有一年少外道來求出家，諸比丘即與出家，先與四依。彼外道報言：「大德！我堪受二依：乞食、樹
+<lb n="0515c05" ed="T"/>下坐。納衣、腐爛藥，我不堪此二事。何以故？誰能自觸己物。」即便休道，不出家。佛言：「此外道不出家，大有所失；若出家者，當
+<lb n="0515c06" ed="T"/>得道證。自今已去，先受戒已，後受四依。」應語云：</note></p><p xml:id="pT40p0515c0619" rend="inline">善男子聽！如來、至真、等正
+<lb n="0515c07" ed="T"/>覺說四依法，比丘依此得出家受具足，成比
+<lb n="0515c08" ed="T"/>丘法。依糞掃衣，比丘依此得出家受具足，<anchor xml:id="nkr_note_orig_0515007" n="0515007"/><anchor xml:id="nkr_note_mod_0515007" n="0515007"/><anchor xml:id="beg0515007" n="0515007"/>成<anchor xml:id="end0515007"/>
+<lb n="0515c09" ed="T"/>比丘法。汝是中盡形壽能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0515c0916" rend="inline">若得
+<lb n="0515c10" ed="T"/>長利：檀越施衣、割壞衣，得受。</p><p xml:id="pT40p0515c1012" rend="inline">依乞食，比丘依
+<lb n="0515c11" ed="T"/>此得出家受具足，<anchor xml:id="beg_8" type="star"/>成<anchor xml:id="end_8"/>比丘法。汝是中盡形壽
+<lb n="0515c12" ed="T"/>能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0515c1207" rend="inline">若得長利：若僧差食、檀越送食、
+<lb n="0515c13" ed="T"/>月八日食、十五日食、月初日食、若僧常食、
+<lb n="0515c14" ed="T"/>檀越請食，得受。</p><p xml:id="pT40p0515c1407" rend="inline">依樹下坐，比丘依此得出家
+<lb n="0515c15" ed="T"/>受具足，<anchor xml:id="beg_9" type="star"/>成<anchor xml:id="end_9"/>比丘法。汝是中盡形壽能持不？<note place="inline">答言：</note>
+<lb n="0515c16" ed="T"/>能。</p><p xml:id="pT40p0515c1602" rend="inline">若得長利：若別房、尖頭屋、小房、石室、兩房
+<lb n="0515c17" ed="T"/>一戶，得受。</p><p xml:id="pT40p0515c1705" rend="inline">依腐爛藥，比丘依此得出家受具
+<lb n="0515c18" ed="T"/>足戒，<anchor xml:id="nkr_note_orig_0515008" n="0515008"/><anchor xml:id="nkr_note_mod_0515008" n="0515008"/><anchor xml:id="beg0515008" n="0515008"/>成<anchor xml:id="end0515008"/>比丘法。汝是中盡形壽能持不？<note place="inline">答言：</note>能。</p>
+<lb n="0515c19" ed="T"/><p xml:id="pT40p0515c1901">若得長利：<anchor xml:id="nkr_note_orig_0515009" n="0515009"/><anchor xml:id="beg0515009" n="0515009"/>酥<anchor xml:id="end0515009"/>、油、生<anchor xml:id="beg_a" type="star"/>酥<anchor xml:id="end_a"/>、蜜、石蜜，得受。</p><p xml:id="pT40p0515c1914" rend="inline">汝受戒
+<lb n="0515c20" ed="T"/>已，白四羯磨如法成就，得處所，和上如法，阿
+<lb n="0515c21" ed="T"/>闍<anchor xml:id="nkr_note_orig_0515010" n="0515010"/><anchor xml:id="beg0515010" n="0515010"/>梨<anchor xml:id="end0515010"/>如法，眾僧具足滿。汝當善受教法，應當
+<lb n="0515c22" ed="T"/>勸化作福治塔，供養佛法眾僧。和上、阿闍梨
+<lb n="0515c23" ed="T"/>一切如法教，不得違逆。應學問誦經，勤求方
+<lb n="0515c24" ed="T"/>便，於佛法中得須陀洹果、斯陀含果、阿那含
+<lb n="0515c25" ed="T"/>果、阿羅漢果。汝始發心出家，功不唐捐，果報
+<lb n="0515c26" ed="T"/>不絕。餘所未知者，當問和上、阿闍梨。<note place="inline">自今已去，令受具者
+<lb n="0515c27" ed="T"/>在前而去。</note></p>
+<lb n="0515c28" ed="T"/><p xml:id="pT40p0515c2801">與本法尼授大戒請羯磨闍梨法<note place="inline">彼受戒者與比丘尼僧<anchor xml:id="nkr_note_orig_0515011" n="0515011"/><anchor xml:id="nkr_note_mod_0515011" n="0515011"/><anchor xml:id="beg0515011" n="0515011"/>俱至比
+<lb n="0515c29" ed="T"/>丘僧<anchor xml:id="end0515011"/>中，於阿闍梨前，具儀作如是請：</note></p><p xml:id="pT40p0515c2915" rend="inline">大德一心念！我某甲，今請大德
+<pb n="0516a" ed="T" xml:id="T40.1809.0516a"/>
+<lb n="0516a01" ed="T"/>為羯磨阿闍梨，願大德為我作羯磨阿闍梨。
+<lb n="0516a02" ed="T"/>我依大德故，得受大戒，慈愍故。<note place="inline">三說。彼應答言：</note>可爾。</p>
+<lb n="0516a03" ed="T"/><p xml:id="pT40p0516a0301">乞戒法<note place="inline">彼禮僧已，具儀作如是言：</note></p><p xml:id="pT40p0516a0314" rend="inline">大德僧聽！我某甲，從和上
+<lb n="0516a04" ed="T"/>尼某甲求受大戒。我某甲，今從僧乞受大戒，
+<lb n="0516a05" ed="T"/>和上尼某甲。願僧拔濟我，慈愍故。<note place="inline">三說。</note></p>
+<lb n="0516a06" ed="T"/><p xml:id="pT40p0516a0601">戒師白法<note place="inline">此中戒師先白後問。白云：</note></p><p xml:id="pT40p0516a0615" rend="inline">大德僧聽！此某甲，從和
+<lb n="0516a07" ed="T"/>上尼某甲求受大戒。此某甲，今從僧乞受大
+<lb n="0516a08" ed="T"/>戒，和上尼某甲。若僧時到，僧忍聽，我問諸難
+<lb n="0516a09" ed="T"/>事。白如是。</p>
+<lb n="0516a10" ed="T"/><p xml:id="pT40p0516a1001">戒師問法<note place="inline">語言：</note></p><p xml:id="pT40p0516a1007" rend="inline">汝諦聽！今是真誠時，實語時，我
+<lb n="0516a11" ed="T"/>今問汝，有當言有，無當言無。汝不犯邊罪不？
+<lb n="0516a12" ed="T"/>汝不犯比丘不？汝非賊心作道不？汝非破內
+<lb n="0516a13" ed="T"/>外道不？汝非黃門不？汝非殺父不？汝非殺母
+<lb n="0516a14" ed="T"/>不？汝非殺阿羅漢不？汝非破和合僧不？汝不
+<lb n="0516a15" ed="T"/>惡心出佛身血不？汝非是<anchor xml:id="nkr_note_orig_0516001" n="0516001"/><anchor xml:id="beg0516001" n="0516001"/>非<anchor xml:id="end0516001"/>人不？汝非畜生
+<lb n="0516a16" ed="T"/>不？汝非有二形不？汝字何等？和上尼字誰？汝
+<lb n="0516a17" ed="T"/>年歲滿不？衣鉢具不？父母、夫主聽汝不？汝非
+<lb n="0516a18" ed="T"/>負人債不？汝非婢不？汝是女人不？女人有如
+<lb n="0516a19" ed="T"/>是諸病：<anchor xml:id="nkr_note_orig_0516002" n="0516002"/><anchor xml:id="nkr_note_mod_0516002" n="0516002"/><anchor xml:id="beg0516002" n="0516002"/>癩<anchor xml:id="end0516002"/>、癰疽、乾痟、<anchor xml:id="beg_b" type="star"/>癲<anchor xml:id="end_b"/>狂、二道合、道小、大
+<lb n="0516a20" ed="T"/>小便常漏、洟唾常出。汝有如是諸病不？<note place="inline">隨事答「無」。復應
+<lb n="0516a21" ed="T"/>問云：</note>汝學戒未？<note place="inline">即應答言：</note>已學戒。<note place="inline">復應問云：</note>汝清淨不？<note place="inline">復應答云：</note>清
+<lb n="0516a22" ed="T"/>淨。<note place="inline">復應問餘尼云：</note>某甲已學戒未？<note place="inline">餘尼答云：</note>已學戒。<note place="inline">復更問云：</note>清淨
+<lb n="0516a23" ed="T"/>不？<note place="inline">復重答云：</note>清淨。</p>
+<lb n="0516a24" ed="T"/><p xml:id="pT40p0516a2401">正授戒法<note place="inline">既方便具已，如前開導，教至誠諦受。當如是作。</note></p><p xml:id="pT40p0516a2423" rend="inline">大德僧聽！此某
+<lb n="0516a25" ed="T"/>甲，從和上尼某甲求受大戒。此某甲，今從僧
+<lb n="0516a26" ed="T"/>乞受大戒，和上尼某甲。某甲所說清淨，無諸
+<lb n="0516a27" ed="T"/>難事，年歲已滿，衣鉢具足，已學戒清淨。若僧
+<lb n="0516a28" ed="T"/>時到，僧忍聽，僧今為某甲受大戒，和上尼某
+<lb n="0516a29" ed="T"/>甲。白如是。</p><p xml:id="pT40p0516a2905" rend="inline">大德僧聽！此某甲，從和上尼某甲
+<pb n="0516b" ed="T" xml:id="T40.1809.0516b"/>
+<lb n="0516b01" ed="T"/>求受大戒。此某甲，今從僧乞受大戒，和上尼
+<lb n="0516b02" ed="T"/>某甲。某甲所說清淨，無諸難事，年歲已滿，衣
+<lb n="0516b03" ed="T"/>鉢具足，已學戒清淨。僧今為某甲受大戒，和
+<lb n="0516b04" ed="T"/>上尼某甲。誰諸長老忍僧與某甲受大戒，和
+<lb n="0516b05" ed="T"/>上尼某甲者默然，誰不忍者說。<note place="inline">三說。</note>僧已忍為某
+<lb n="0516b06" ed="T"/>甲受大戒竟，和上尼某甲。僧忍，默然故，是事
+<lb n="0516b07" ed="T"/>如是持。<note place="inline">尼律中云：自說清淨，年滿二十，僧今授某甲具足戒。彼此俱文，隨誦無失。作此法已，應為記時。
+<lb n="0516b08" ed="T"/>邊受與此無異。</note></p>
+<lb n="0516b09" ed="T"/><p xml:id="pT40p0516b0901">授戒相法<note place="inline">應語彼云：</note></p><p xml:id="pT40p0516b0909" rend="inline">善女人諦聽！如來、無所著、等
+<lb n="0516b10" ed="T"/>正覺說八波羅夷法，若比丘尼犯者，非比丘
+<lb n="0516b11" ed="T"/>尼，非釋種女。不得作不淨行，行婬欲法。若比
+<lb n="0516b12" ed="T"/>丘尼作不淨行，行婬欲法，乃至共畜生；彼非
+<lb n="0516b13" ed="T"/>比丘尼，非釋種女。汝是中盡形壽不得犯，能
+<lb n="0516b14" ed="T"/>持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0516b1406" rend="inline">不得盜乃至草葉。若比丘尼取人
+<lb n="0516b15" ed="T"/>五錢、若過五錢，若自取、教人取，若自斫、教人
+<lb n="0516b16" ed="T"/>斫，若自破、教人破，若燒、若埋、若壞色；彼非比
+<lb n="0516b17" ed="T"/>丘尼，非釋種女。汝是中盡形壽不得犯，能持
+<lb n="0516b18" ed="T"/>不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0516b1805" rend="inline">不得斷眾生命乃至蟻子。若比丘尼
+<lb n="0516b19" ed="T"/>故自手斷人命，持刀授與人，教死、讚死、勸死，
+<lb n="0516b20" ed="T"/>與人非藥，若墮胎，<anchor xml:id="beg_c" type="star"/><g ref="#CB01679">󰚏</g><anchor xml:id="end_c"/>禱呪術，若自作方便、教
+<lb n="0516b21" ed="T"/>人作；彼非比丘尼，非釋種女。汝是中盡形壽
+<lb n="0516b22" ed="T"/>不得犯，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0516b2210" rend="inline">不得作妄語乃至戲笑。
+<lb n="0516b23" ed="T"/>若比丘尼不真實，非己有，自稱言得上人法，
+<lb n="0516b24" ed="T"/>得禪、得解脫、得三昧、正受，得須陀洹果乃至
+<lb n="0516b25" ed="T"/>阿羅漢果，天來、龍來、鬼神來供養我；彼非比
+<lb n="0516b26" ed="T"/>丘尼，非釋種女。汝是中壽形壽不得犯，能持
+<lb n="0516b27" ed="T"/>不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0516b2705" rend="inline">不得身相觸乃至共畜生。若比丘尼
+<lb n="0516b28" ed="T"/>染污心，與染污心男子身相觸，腋已下，膝已
+<lb n="0516b29" ed="T"/>上，若摩、若捺、逆摩、順摩、若牽、若推、若舉、若下、
+<pb n="0516c" ed="T" xml:id="T40.1809.0516c"/>
+<lb n="0516c01" ed="T"/>若捉、若急捺；彼非比丘尼，非釋種女。汝是中
+<lb n="0516c02" ed="T"/>盡形壽不得犯，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0516c0213" rend="inline">不得犯八事乃
+<lb n="0516c03" ed="T"/>至共畜生。若比丘尼有染污心，受染污心男
+<lb n="0516c04" ed="T"/>子捉手、捉衣、入屏處、屏處共立、共語、共行、身
+<lb n="0516c05" ed="T"/>相倚、共期，犯此八事；彼非比丘尼，非釋種女。
+<lb n="0516c06" ed="T"/>汝是中盡形壽不得犯，能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0516c0616" rend="inline">不得覆
+<lb n="0516c07" ed="T"/>藏他重罪乃至突吉羅惡說。若比丘尼知比
+<lb n="0516c08" ed="T"/>丘尼犯波羅夷，不自舉、不白僧、不語人令知。
+<lb n="0516c09" ed="T"/>後於異時，此比丘尼若休道、若滅擯、若遮不
+<lb n="0516c10" ed="T"/>共僧事、若入外道；彼作如是言：「我先知此人
+<lb n="0516c11" ed="T"/>犯如是如是罪。」彼非比丘尼，非釋種女，覆藏
+<lb n="0516c12" ed="T"/>他重罪故。汝是中盡形壽不得犯，能持不？<note place="inline">答言：</note>
+<lb n="0516c13" ed="T"/>能。</p><p xml:id="pT40p0516c1302" rend="inline">不得隨被舉比丘語乃至沙彌。若比丘尼
+<lb n="0516c14" ed="T"/>知比丘為僧所舉，如法、如毘尼、如佛所教，犯
+<lb n="0516c15" ed="T"/>威儀，未懺悔，不作共住；便隨順彼比丘語。諸
+<lb n="0516c16" ed="T"/>比丘尼諫此比丘尼言：「大姊！彼比丘為僧所
+<lb n="0516c17" ed="T"/>舉，如法、如毘尼、如佛所教，犯威儀，未懺悔，不
+<lb n="0516c18" ed="T"/>作共住；莫隨順彼比丘語。」諸比丘尼諫此比
+<lb n="0516c19" ed="T"/>丘尼時，堅持不捨。彼比丘尼應乃至三諫，捨
+<lb n="0516c20" ed="T"/>此事故。乃至三諫，捨者善；不捨者，彼非比丘
+<lb n="0516c21" ed="T"/>尼，非釋種女，犯隨舉故。汝是中盡形壽不得
+<lb n="0516c22" ed="T"/>犯，能持不？<note place="inline">答言：</note>能。</p>
+<lb n="0516c23" ed="T"/><p xml:id="pT40p0516c2301">善女人諦聽！如來、無所著、等正覺說四譬喻。
+<lb n="0516c24" ed="T"/>若犯八事，如斷人頭已不可復起，如截多羅
+<lb n="0516c25" ed="T"/>樹心不更生長，如針鼻<anchor xml:id="nkr_note_orig_0516003" n="0516003"/><anchor xml:id="nkr_note_mod_0516003" n="0516003"/><anchor xml:id="beg0516003" n="0516003"/>決<anchor xml:id="end0516003"/>不堪復用，如大石
+<lb n="0516c26" ed="T"/><anchor xml:id="nkr_note_orig_0516004" n="0516004"/><anchor xml:id="beg0516004" n="0516004"/>析<anchor xml:id="end0516004"/>為二分不可還合；若比丘尼犯八重已，不
+<lb n="0516c27" ed="T"/>可還成比丘尼行。汝是中盡形壽不得犯，<anchor xml:id="nkr_note_orig_0516005" n="0516005"/><anchor xml:id="beg0516005" n="0516005"/>能
+<lb n="0516c28" ed="T"/>持不？<note place="inline">答言：</note>能<anchor xml:id="end0516005"/>。</p>
+<lb n="0516c29" ed="T"/><p xml:id="pT40p0516c2901">授四依法<note place="inline">應語彼云：</note></p><p xml:id="pT40p0516c2909" rend="inline">善女人諦聽！如來、無所著、等
+<pb n="0517a" ed="T" xml:id="T40.1809.0517a"/>
+<lb n="0517a01" ed="T"/>正覺說四依法，比丘尼依此出家受大戒，成
+<lb n="0517a02" ed="T"/>比丘尼法。依糞掃衣出家受大戒，是比丘尼
+<lb n="0517a03" ed="T"/>法。是中盡形壽能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0517a0313" rend="inline">若得長利：檀越
+<lb n="0517a04" ed="T"/>施衣、割截衣，應受。</p><p xml:id="pT40p0517a0408" rend="inline">依乞食出家受大戒，是比
+<lb n="0517a05" ed="T"/>丘尼法。是中盡形壽能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0517a0515" rend="inline">若得長利：
+<lb n="0517a06" ed="T"/>僧差食、若<anchor xml:id="nkr_note_orig_0517001" n="0517001"/><anchor xml:id="beg0517001" n="0517001"/>檀<anchor xml:id="end0517001"/>越送食、月八日食、十五日食、
+<lb n="0517a07" ed="T"/>月初日食、若眾僧常食、檀越請食，應受。</p><p xml:id="pT40p0517a0716" rend="inline">依樹
+<lb n="0517a08" ed="T"/>下坐出家受大戒，是比丘尼法。是中盡形壽
+<lb n="0517a09" ed="T"/>能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0517a0907" rend="inline">若得長利：別房、尖頭屋、小房、石
+<lb n="0517a10" ed="T"/>室、兩房一戶，應受。</p><p xml:id="pT40p0517a1008" rend="inline">依腐爛藥出家受大戒，是
+<lb n="0517a11" ed="T"/>比丘尼法。是中盡形壽能持不？<note place="inline">答言：</note>能。</p><p xml:id="pT40p0517a1116" rend="inline">若得長
+<lb n="0517a12" ed="T"/>利：<anchor xml:id="beg_d" type="star"/>酥<anchor xml:id="end_d"/>、油、生<anchor xml:id="beg_e" type="star"/>酥<anchor xml:id="end_e"/>、蜜、石蜜，應受。</p><p xml:id="pT40p0517a1211" rend="inline">汝已受戒竟，白
+<lb n="0517a13" ed="T"/>四羯磨如法成就，得處所，和<anchor xml:id="beg_f" type="star"/>上<anchor xml:id="end_f"/>如法，阿闍梨
+<lb n="0517a14" ed="T"/>如法，二部僧具足滿。汝當善受教法，應勸化
+<lb n="0517a15" ed="T"/>作福治塔，供養佛法<anchor xml:id="nkr_note_orig_0517002" n="0517002"/><anchor xml:id="nkr_note_mod_0517002" n="0517002"/><anchor xml:id="beg0517002" n="0517002"/>眾<anchor xml:id="end0517002"/>僧。和上、阿闍梨一切
+<lb n="0517a16" ed="T"/>如法教勅，不得違逆。應學問誦經，勤求方便，
+<lb n="0517a17" ed="T"/>於佛法中得須陀洹果、斯陀含果、阿那含果、阿
+<lb n="0517a18" ed="T"/>羅漢果。汝始發心出家，功不唐捐，果報不絕。
+<lb n="0517a19" ed="T"/>餘所未知者，當問和上、阿闍梨。<note place="inline">令受戒者在前而去。</note></p></cb:div>
+<lb n="0517a20" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">4 師資篇(上)</cb:mulu><head>師資篇第四</head>
+<lb n="0517a21" ed="T"/><p xml:id="pT40p0517a2101">制和上行法<note place="inline">時諸比丘未被教授者，不按威儀，著衣不齊整，乃至如婆羅門聚會法。時有一病
+<lb n="0517a22" ed="T"/>比丘無弟子，無瞻視者，命終。佛言：「自今已<anchor xml:id="nkr_note_orig_0517003" n="0517003"/><anchor xml:id="nkr_note_mod_0517003" n="0517003"/><anchor xml:id="beg0517003" n="0517003"/>去<anchor xml:id="end0517003"/>，聽有和上。和上看弟子當如兒，弟子看和上當如父，展轉相敬重，
+<lb n="0517a23" ed="T"/>相瞻視。如是正法便得久住，增益廣大。」請法如上。又告諸比丘：「自今已去，聽十歲智慧比丘授人具足戒。」又制和
+<lb n="0517a24" ed="T"/>上於弟子所行和上法，應如是行。弟子，眾僧欲為作呵責等七羯磨者，和上當於中如法料理，令僧不與弟子作羯
+<lb n="0517a25" ed="T"/>磨；若作，令如法。復次，若僧與弟子作呵責等七羯磨，和上於中當如法料理，令弟子順從，於僧不違逆，求除罪，令
+<lb n="0517a26" ed="T"/>僧疾與解羯磨。復次，若弟子犯僧殘，和上當如法料理：若應與波利婆沙當與<anchor xml:id="nkr_note_orig_0517004" n="0517004"/><anchor xml:id="beg0517004" n="0517004"/>波<anchor xml:id="end0517004"/>利婆沙等，乃至當與出罪。復次，
+<lb n="0517a27" ed="T"/>弟子得病，和上當瞻視，若令餘人看，乃至<anchor xml:id="nkr_note_orig_0517005" n="0517005"/><anchor xml:id="nkr_note_mod_0517005" n="0517005"/><anchor xml:id="beg0517005" n="0517005"/>差<anchor xml:id="end0517005"/>、若命終。弟子若不樂住處，當自移、若教人移。弟子<anchor xml:id="nkr_note_orig_0517006" n="0517006"/><anchor xml:id="nkr_note_mod_0517006" n="0517006"/><anchor xml:id="beg0517006" n="0517006"/>若<anchor xml:id="end0517006"/>有疑事，當以
+<lb n="0517a28" ed="T"/>法、以律、如佛所教如法除之。若惡見生，教令捨惡見，住善見。當以<anchor xml:id="nkr_note_orig_0517007" n="0517007"/><anchor xml:id="beg0517007" n="0517007"/>二<anchor xml:id="end0517007"/>事將護：以法、以衣食將護。是中法將護者，應
+<pb n="0517b" ed="T" xml:id="T40.1809.0517b"/>
+<lb n="0517b01" ed="T"/>教增戒、增<anchor xml:id="nkr_note_orig_0517008" n="0517008"/><anchor xml:id="nkr_note_mod_0517008" n="0517008"/><anchor xml:id="beg0517008" n="0517008"/>心、增<anchor xml:id="end0517008"/><anchor xml:id="nkr_note_orig_0517009" n="0517009"/><anchor xml:id="beg0517009" n="0517009"/>慧<anchor xml:id="end0517009"/>，教學問、誦經。是中衣食將護者，當與衣食、床<anchor xml:id="nkr_note_orig_0517010" n="0517010"/><anchor xml:id="nkr_note_mod_0517010" n="0517010"/><anchor xml:id="beg0517010" n="0517010"/>坐<anchor xml:id="end0517010"/>、臥<anchor xml:id="nkr_note_orig_0517011" n="0517011"/><anchor xml:id="beg0517011" n="0517011"/>具<anchor xml:id="end0517011"/>、病瘦醫<anchor xml:id="nkr_note_orig_0517012" n="0517012"/><anchor xml:id="beg0517012" n="0517012"/>藥<anchor xml:id="end0517012"/>，隨力所堪為辦。<anchor xml:id="nkr_note_orig_0517013" n="0517013"/><anchor xml:id="beg0517013" n="0517013"/>自<anchor xml:id="end0517013"/>今
+<lb n="0517b02" ed="T"/><anchor xml:id="nkr_note_orig_0517014" n="0517014"/><anchor xml:id="nkr_note_mod_0517014" n="0517014"/><anchor xml:id="beg0517014" n="0517014"/>以<anchor xml:id="end0517014"/>去，制和上法如是。和上應行；若不行者，如法治。</note></p>
+<lb n="0517b03" ed="T"/><p xml:id="pT40p0517b0301">制依止阿闍梨行法<note place="inline">時諸新受戒比丘，和上命終，無人教授；以不被教授
+<lb n="0517b04" ed="T"/>故，乃至如婆羅門聚會<anchor xml:id="nkr_note_orig_0517015" n="0517015"/><anchor xml:id="nkr_note_mod_0517015" n="0517015"/><anchor xml:id="beg0517015" n="0517015"/>無異<anchor xml:id="end0517015"/>。佛言：「自今已去，聽有阿闍梨、聽有弟子。阿闍梨於弟子當如兒想，弟子於闍梨如
+<lb n="0517b05" ed="T"/>父想，展轉相<anchor xml:id="nkr_note_orig_0517016" n="0517016"/><anchor xml:id="nkr_note_mod_0517016" n="0517016"/><anchor xml:id="beg0517016" n="0517016"/>敬<anchor xml:id="end0517016"/>，展轉相奉事。如是於佛法中，倍增益廣流布。」當作是請，具儀言：</note></p><p xml:id="pT40p0517b0531" rend="inline">大德一心念！
+<lb n="0517b06" ed="T"/>我某甲，今求大德為依止，願大德與我依止，
+<lb n="0517b07" ed="T"/>我依止大德住。<note place="inline">三說。報言：</note>可爾。<note place="inline">或言：</note>與汝依止。<note place="inline">或言：</note>汝莫放
+<lb n="0517b08" ed="T"/>逸。<note place="inline">闍梨行法，並同和上。</note></p>
+<lb n="0517b09" ed="T"/><p xml:id="pT40p0517b0901">制弟子行法<note place="inline">時諸弟子不行弟子法，不白和上入村等。告諸比丘：「自今已去，當制弟子法，
+<lb n="0517b10" ed="T"/>使弟子於和上所行弟子法。」共行八法如前。又不白和上不得入村、不得至他家、不得從餘比丘或將餘比丘為
+<lb n="0517b11" ed="T"/>伴，不得與，不得受，不得佐助眾事，不得受他佐助眾事，不得為他剃髮，不得使他剃髮，不得入浴室，不得為人揩摩
+<lb n="0517b12" ed="T"/>身，不得受他揩摩身，不得至晝日住處房，不得至塚間，不得至界外，不得行他方。彼當清旦入和上房，受誦經法
+<lb n="0517b13" ed="T"/>問義，當除去小便器，應白時到乃至廣說。彼當日三問訊和上，朝、中、日暮。當為和上執二事，勞苦不得辭設，一修
+<lb n="0517b14" ed="T"/>理房舍，二為補浣衣服。和上如法所教，盡當奉行。若遣往方面周旋，不得辭設，假託因緣；若辭設者，當如法治。
+<lb n="0517b15" ed="T"/>自今已去，制弟子修行法；若不修者，當如法治。此行於阿闍梨所<anchor xml:id="nkr_note_orig_0517017" n="0517017"/><anchor xml:id="nkr_note_mod_0517017" n="0517017"/><anchor xml:id="beg0517017" n="0517017"/>修<anchor xml:id="end0517017"/>亦如是，文同故不出。</note></p><p xml:id="pT40p0517b1535" rend="inline">呵責弟
+<lb n="0517b16" ed="T"/>子法<note place="inline">時諸弟子不承事恭敬和上、阿闍梨，亦不順弟子法，無慚無愧，不受教，作非威儀，不恭敬，難與語，與惡人
+<lb n="0517b17" ed="T"/>為友，好往婬女家、婦女家、大童女家、黃門家、比丘尼精舍、式叉摩那精舍、沙彌尼精舍，好往看龜鼈。有此等過，
+<lb n="0517b18" ed="T"/>應作呵責。有三現前：一弟子，二出過，三呵詞。呵詞有五，應語言：</note></p><p xml:id="pT40p0517b1825" rend="inline">我今呵責汝！汝去、
+<lb n="0517b19" ed="T"/>汝莫入我房、汝莫為我作使、汝莫至我所、不
+<lb n="0517b20" ed="T"/>與汝語。<note place="inline">是<anchor xml:id="nkr_note_orig_0517018" n="0517018"/><anchor xml:id="beg0517018" n="0517018"/>謂<anchor xml:id="end0517018"/>和上呵責弟子法。阿闍梨呵責弟子亦五，詞<anchor xml:id="nkr_note_orig_0517019" n="0517019"/><anchor xml:id="nkr_note_mod_0517019" n="0517019"/><anchor xml:id="beg0517019" n="0517019"/>同<anchor xml:id="end0517019"/>，唯換第四句「莫至我所」云：</note>汝莫
+<lb n="0517b21" ed="T"/>依止我。<note place="inline">彼盡形壽呵責。佛言：「不應爾。竟安居呵責，亦不應爾。病者，<anchor xml:id="nkr_note_orig_0517020" n="0517020"/><anchor xml:id="beg0517020" n="0517020"/>不<anchor xml:id="end0517020"/>應呵。」</note></p>
+<lb n="0517b22" ed="T"/><p xml:id="pT40p0517b2201">弟子懺悔法<note place="inline">彼被呵已，不向和上、阿闍<anchor xml:id="beg_10" type="star"/>梨<anchor xml:id="end_10"/>懺悔。佛言：「被呵責<anchor xml:id="beg_11" type="cb-app"/>已<anchor xml:id="end_11"/>，應向和上、阿闍<anchor xml:id="beg_12" type="star"/>梨<anchor xml:id="end_12"/>懺悔。」當如是
+<lb n="0517b23" ed="T"/>懺，具儀作如是言：</note></p><p xml:id="pT40p0517b2308" rend="inline">大德！我今懺悔，更不復作。<note place="inline">若聽懺悔者善；若不聽者，當更
+<lb n="0517b24" ed="T"/>日三時懺悔，早起、日中、日暮。若聽悔者善；若不聽<anchor xml:id="nkr_note_orig_0517021" n="0517021"/><anchor xml:id="nkr_note_mod_0517021" n="0517021"/><anchor xml:id="beg0517021" n="0517021"/>者<anchor xml:id="end0517021"/>，當下意隨順，求方便解其所犯。若彼下意隨順，無有違逆，而和
+<lb n="0517b25" ed="T"/>上、闍梨不受者，當如法<anchor xml:id="nkr_note_orig_0517022" n="0517022"/><anchor xml:id="nkr_note_mod_0517022" n="0517022"/><anchor xml:id="beg0517022" n="0517022"/>治<anchor xml:id="end0517022"/>。</note>弟子離和上懺謝法<note place="inline">和上有五非<anchor xml:id="nkr_note_orig_0517023" n="0517023"/><anchor xml:id="nkr_note_mod_0517023" n="0517023"/><anchor xml:id="beg0517023" n="0517023"/>法<anchor xml:id="end0517023"/>，弟子應懺悔而
+<lb n="0517b26" ed="T"/>去。應語和上言：</note></p><p xml:id="pT40p0517b2607" rend="inline">我如法，和上不知。我不如法，亦不知。
+<pb n="0517c" ed="T" xml:id="T40.1809.0517c"/>
+<lb n="0517c01" ed="T"/>若我犯戒，捨不教呵。若犯亦不知。若犯而懺
+<lb n="0517c02" ed="T"/>悔，亦不知。<note place="inline">如此懺謝應當<anchor xml:id="nkr_note_orig_0517024" n="0517024"/><anchor xml:id="beg0517024" n="0517024"/>軟<anchor xml:id="end0517024"/>語。若不受者：和上應捨遠去；依止闍梨應持衣鉢出界，經宿已，明
+<lb n="0517c03" ed="T"/>日當還，更依止餘比丘住。</note></p><anchor xml:id="nkr_note_orig_0517025" n="0517025"/><anchor xml:id="nkr_note_mod_0517025" n="0517025"/><anchor type="circle"/></cb:div>
+<lb n="0517c04" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">5 說戒篇(上)</cb:mulu><anchor type="circle"/><head><anchor xml:id="nkr_note_orig_0517026" n="0517026"/><anchor xml:id="nkr_note_mod_0517026" n="0517026"/>說戒篇第五</head>
+<lb n="0517c05" ed="T"/><p xml:id="pT40p0517c0501">僧說戒法<note place="inline">諸比丘於十四、十五、十六日，不知為何日說戒？佛言：「聽上座。」布薩日唱言：</note></p><p xml:id="pT40p0517c0533" rend="inline">大德僧
+<lb n="0517c06" ed="T"/>聽！今僧某月某日某時，集某處說戒。<note place="inline">如是唱已，說
+<lb n="0517c07" ed="T"/>戒時至，年少比丘先往說戒堂<anchor xml:id="nkr_note_orig_0517027" n="0517027"/><anchor xml:id="nkr_note_mod_0517027" n="0517027"/><anchor xml:id="beg0517027" n="0517027"/>中掃灑<anchor xml:id="end0517027"/>，敷座具、淨水<anchor xml:id="nkr_note_orig_0517028" n="0517028"/><anchor xml:id="beg0517028" n="0517028"/>瓶<anchor xml:id="end0517028"/>、<anchor xml:id="nkr_note_orig_0517029" n="0517029"/><anchor xml:id="beg0517029" n="0517029"/>洗<anchor xml:id="end0517029"/>足<anchor xml:id="nkr_note_orig_0517030" n="0517030"/><anchor xml:id="beg0517030" n="0517030"/>瓶<anchor xml:id="end0517030"/>、然燈火、具舍羅。若年少比丘不知者，上座應
+<lb n="0517c08" ed="T"/>教；若上座不教者，突吉羅；若不隨上座教者，突吉羅。收亦如是。時諸白衣問比丘：「說戒時有幾人？」以不知故，比丘
+<lb n="0517c09" ed="T"/>慚愧。佛言：「聽數。」雖數猶忘。佛言：「當具舍羅。」舍羅當以銅、鐵、竹木等作，不應用寶作。<anchor xml:id="nkr_note_orig_0517031" n="0517031"/><anchor xml:id="beg0517031" n="0517031"/>若<anchor xml:id="end0517031"/>患零落，當作函筒盛，函筒
+<lb n="0517c10" ed="T"/>亦不應用寶作。僧集之時，比<anchor xml:id="nkr_note_orig_0517032" n="0517032"/><anchor xml:id="beg0517032" n="0517032"/>坐<anchor xml:id="end0517032"/>當相檢校，知有來<anchor xml:id="nkr_note_orig_0517033" n="0517033"/><anchor xml:id="beg0517033" n="0517033"/>不<anchor xml:id="end0517033"/>？應先白，然後說戒。白等儀軌，具如戒經。</note></p>
+<lb n="0517c11" ed="T"/><p xml:id="pT40p0517c1101">教誡比丘尼法<note place="inline">於說戒時，上座問言：</note></p><p xml:id="pT40p0517c1115" rend="inline">比丘尼眾遣何人來？<note place="inline">先受
+<lb n="0517c12" ed="T"/>囑者，應起禮僧，具儀白言：</note></p><p xml:id="pT40p0517c1211" rend="inline">大德僧聽！某處比丘尼僧和合，差
+<lb n="0517c13" ed="T"/>比丘尼某甲，禮比丘僧足，求索教誡。<note place="inline">三說。上座應更問云：</note>
+<lb n="0517c14" ed="T"/>誰為教誡比丘尼？<note place="inline">若有者，應差。教誡者多，應遣信語比丘尼僧「此多有教誡人，汝為請
+<lb n="0517c15" ed="T"/>誰？」若彼尼言「我請此人」。依彼請差。若復報言：「我隨僧處分」者，僧應隨常教誡比丘尼次第差。佛言：「若有比丘成
+<lb n="0517c16" ed="T"/>就十法者：一、戒律具足，二、多聞，三、誦二部戒利，四、決斷無疑，五、善能說法，六、族姓出家，七、顏貌端正，比丘尼眾見
+<lb n="0517c17" ed="T"/>便歡喜，八、堪任與比丘尼眾說法，勸令歡喜，九、不為佛出家而披法服犯重法，十、若滿二十歲，若過二十歲者；應差
+<lb n="0517c18" ed="T"/>教授比丘尼。」應如是差。</note></p><p xml:id="pT40p0517c1810" rend="inline">大德僧聽！若僧時到，僧忍聽，僧差
+<lb n="0517c19" ed="T"/>某甲比丘教誡比丘尼。白如是。</p><p xml:id="pT40p0517c1913" rend="inline">大德僧聽！僧
+<lb n="0517c20" ed="T"/>差某甲比丘教誡比丘尼。誰諸長老忍僧差
+<lb n="0517c21" ed="T"/>某甲比丘教誡比丘尼者默然，誰不忍者說。
+<lb n="0517c22" ed="T"/>僧已忍差某甲比丘教誡比丘尼竟。僧忍，默然
+<lb n="0517c23" ed="T"/>故，是事如是持。<note place="inline">彼被差者將一比丘為伴，往比丘尼住處。應剋時到，比丘尼亦剋時迎。若
+<lb n="0517c24" ed="T"/>比丘剋時不至，突吉羅；尼剋時不迎，亦<anchor xml:id="nkr_note_orig_0517034" n="0517034"/><anchor xml:id="nkr_note_mod_0517034" n="0517034"/><anchor xml:id="beg0517034" n="0517034"/>爾<anchor xml:id="end0517034"/>。時教誡師觀眾集已，為說八不可過法及說法。言八不可過者：</note>雖
+<lb n="0517c25" ed="T"/>百歲比丘尼，見新受戒比丘，應起迎逆、禮拜、
+<lb n="0517c26" ed="T"/>與敷淨座令坐；如此法應尊重恭敬讚歎，盡
+<lb n="0517c27" ed="T"/>形壽不得過。比丘尼不應罵詈比丘呵責，不
+<pb n="0518a" ed="T" xml:id="T40.1809.0518a"/>
+<lb n="0518a01" ed="T"/>應誹謗言：破戒、破見、破威儀；如此法應尊重
+<lb n="0518a02" ed="T"/>等<note place="inline">如上</note>。比丘尼不應為比丘作舉、作憶念、作自
+<lb n="0518a03" ed="T"/>言，不應遮他覓罪、遮說戒、遮自恣，比丘尼不
+<lb n="0518a04" ed="T"/>應呵比丘，比丘應呵比丘尼；如此法應尊重
+<lb n="0518a05" ed="T"/>等<note place="inline">如上</note>。式叉摩那學戒已，從比丘僧乞受大戒；
+<lb n="0518a06" ed="T"/>如此法應尊重等<note place="inline">如上</note>。比丘尼犯僧殘罪，應二部
+<lb n="0518a07" ed="T"/>僧中行摩那埵；如此法應尊重等<note place="inline">如上</note>。比丘尼半
+<lb n="0518a08" ed="T"/>月從僧乞教誡；如此法應尊重等<note place="inline">如上</note>。比丘尼不
+<lb n="0518a09" ed="T"/>應在無比丘處夏安居；如此法應尊重等<note place="inline">如上</note>。比
+<lb n="0518a10" ed="T"/>丘尼僧夏安居竟，應<anchor xml:id="nkr_note_orig_0518001" n="0518001"/><anchor xml:id="nkr_note_mod_0518001" n="0518001"/><anchor xml:id="beg0518001" n="0518001"/>往<anchor xml:id="end0518001"/>比丘僧中求三事自
+<lb n="0518a11" ed="T"/>恣：見、聞、疑；如此法應尊重等。<note place="inline">如上。次為說法，量機開導。</note></p>
+<lb n="0518a12" ed="T"/><p xml:id="pT40p0518a1201">略教誡法<note place="inline">若無教誡尼人，遍請不得，此受囑比丘還至上座前具白。上座應語彼云：</note></p><p xml:id="pT40p0518a1233" rend="inline">此無教
+<lb n="0518a13" ed="T"/><anchor xml:id="nkr_note_orig_0518002" n="0518002"/><anchor xml:id="beg0518002" n="0518002"/>誡<anchor xml:id="end0518002"/>比丘尼人，及無<anchor xml:id="nkr_note_orig_0518003" n="0518003"/><anchor xml:id="nkr_note_mod_0518003" n="0518003"/><anchor xml:id="beg0518003" n="0518003"/>能<anchor xml:id="end0518003"/>說法者。語比丘尼眾
+<lb n="0518a14" ed="T"/>「勤修，莫放逸！」<note place="inline"><anchor xml:id="nkr_note_orig_0518004" n="0518004"/><anchor xml:id="beg0518004" n="0518004"/>明<anchor xml:id="end0518004"/>日尼來，此比丘傳上座語<anchor xml:id="nkr_note_orig_0518005" n="0518005"/><anchor xml:id="nkr_note_mod_0518005" n="0518005"/><anchor xml:id="beg0518005" n="0518005"/>語<anchor xml:id="end0518005"/>。</note></p>
+<lb n="0518a15" ed="T"/><p xml:id="pT40p0518a1501">告清淨法<note place="inline">若十四、十五、十六日，舊比丘欲說戒，有客比丘來，已說戒竟，若少、若等，應從舊比丘重
+<lb n="0518a16" ed="T"/>說戒；不者，如法治。若客多者，舊比丘應求客和合；若不得者，應出界外說戒。若舊比丘已說戒竟，客比丘來欲說
+<lb n="0518a17" ed="T"/>戒，若少、若等，應求舊比丘和合；若不得者，應出界外說戒。若客比丘多，應從客比丘重說戒；不者，如法治。若日
+<lb n="0518a18" ed="T"/>同，時不同，舊比丘集已說序竟，客比丘來少，告清淨。作是告云：</note></p><p xml:id="pT40p0518a1825" rend="inline">大德僧聽！我某甲
+<lb n="0518a19" ed="T"/>比丘清淨。<note place="inline">作是告已，餘者當次第聽。若說戒竟，舉眾未起、若多未起、<anchor xml:id="nkr_note_orig_0518006" n="0518006"/><anchor xml:id="beg0518006" n="0518006"/>若<anchor xml:id="end0518006"/>都已起，亦告清淨；不者，
+<lb n="0518a20" ed="T"/>如法治。若說序竟，客來等、多，舊比丘更為重說戒；不者，如法治。若說戒竟，舉眾未起、若多未起、若都已起，亦為
+<lb n="0518a21" ed="T"/>重說。若客比丘集已說序等，舊比丘來，亦如是。</note></p>
+<lb n="0518a22" ed="T"/><p xml:id="pT40p0518a2201">略說戒法<note place="inline">律言：若有八難及餘緣，聽略說戒。言八難者：若王、若賊、若火、若水、若病、若人、若非人、
+<lb n="0518a23" ed="T"/><anchor xml:id="nkr_note_orig_0518007" n="0518007"/><anchor xml:id="nkr_note_mod_0518007" n="0518007"/><anchor xml:id="beg0518007" n="0518007"/>若<anchor xml:id="end0518007"/>惡<anchor xml:id="nkr_note_orig_0518008" n="0518008"/><anchor xml:id="beg0518008" n="0518008"/>蟲<anchor xml:id="end0518008"/>。餘緣者：若有大眾集床座少、若眾多病，聽略說戒。若大眾集，座上覆蓋不周、或天雨、若布薩多夜已
+<lb n="0518a24" ed="T"/>久、或鬪諍事、或論阿毘曇毘尼或說法夜已久，聽一切眾未起，明相未出，應作羯磨說戒，更無方便可得宿受
+<lb n="0518a25" ed="T"/>欲清淨。略前方便，一如廣法。量難遠近，若說戒序，問清淨已，難至，應言：</note></p><p xml:id="pT40p0518a2528" rend="inline">諸大德！是四
+<lb n="0518a26" ed="T"/>波羅夷法，僧常聞。<note place="inline">乃至眾學亦爾。七<anchor xml:id="nkr_note_orig_0518009" n="0518009"/><anchor xml:id="nkr_note_mod_0518009" n="0518009"/><anchor xml:id="beg0518009" n="0518009"/>滅<anchor xml:id="end0518009"/>已下，依文廣誦。若難緣逼近，不及說序者，即以
+<lb n="0518a27" ed="T"/>此緣應去。</note></p>
+<pb n="0518b" ed="T" xml:id="T40.1809.0518b"/>
+<lb n="0518b01" ed="T"/><p xml:id="pT40p0518b0101">對首說戒法<note place="inline">若有三人，各各相向，作如是言：</note></p><p xml:id="pT40p0518b0118" rend="inline">二長老憶念！今僧十
+<lb n="0518b02" ed="T"/>五日說戒，我某甲比丘清淨。<note place="inline">三說。二人亦爾。</note></p>
+<lb n="0518b03" ed="T"/><p xml:id="pT40p0518b0301">心念說戒法<note place="inline">若有一人，應心念言：</note></p><p xml:id="pT40p0518b0314" rend="inline">今日眾僧十五日說戒，
+<lb n="0518b04" ed="T"/>我某甲比丘清淨。<note place="inline">三說。</note></p>
+<lb n="0518b05" ed="T"/><p xml:id="pT40p0518b0501">增減說戒法<note place="inline">律言：若有比丘喜鬪罵詈，遞相誹謗，口出刀劍，欲來至此說戒者，應作二、三布薩。
+<lb n="0518b06" ed="T"/>若應十五日說，十四日作；若應十四日說，十三日作；<anchor xml:id="nkr_note_orig_0518010" n="0518010"/><anchor xml:id="beg0518010" n="0518010"/>若聞<anchor xml:id="end0518010"/>今日來，即應疾疾布薩；若聞已入界，應至界外說戒。若能
+<lb n="0518b07" ed="T"/>如是者善；若不能，應作白却說戒。作如是白：</note></p><p xml:id="pT40p0518b0718" rend="inline">大德僧聽！若僧時到，僧忍
+<lb n="0518b08" ed="T"/>聽，僧今不說戒，至黑月十五日當說。<anchor xml:id="nkr_note_orig_0518011" n="0518011"/><anchor xml:id="nkr_note_mod_0518011" n="0518011"/><anchor xml:id="beg0518011" n="0518011"/>我<anchor xml:id="end0518011"/>白如
+<lb n="0518b09" ed="T"/>是。<note place="inline">若客比丘不去，應作第二却白。應如是作。</note></p><p xml:id="pT40p0518b0918" rend="inline">大德僧聽！若僧時到，僧忍
+<lb n="0518b10" ed="T"/>聽，僧今不說戒，至白月十五日當說戒。白如
+<lb n="0518b11" ed="T"/>是。<note place="inline">若客比丘故不去，至白月者，舊比丘應如法強與客比丘問答。</note></p>
+<lb n="0518b12" ed="T"/><p xml:id="pT40p0518b1201">非時和合法<note place="inline">若因舉事，遂有鬪諍，能所不和，別部說戒。若能懺悔改過，從僧乞解；解已，作白羯磨
+<lb n="0518b13" ed="T"/>和合布薩。應如是白：</note></p><p xml:id="pT40p0518b1309" rend="inline">大德僧聽！彼所因事，令僧鬪諍誹
+<lb n="0518b14" ed="T"/>謗，互求長短，令僧破，令僧別住，令僧塵
+<lb n="0518b15" ed="T"/>垢。彼人僧為舉罪，已還為解，已滅僧塵垢。若
+<lb n="0518b16" ed="T"/>僧時到，僧忍聽，僧作和合布薩。白如是。<note place="inline">作是白已，
+<lb n="0518b17" ed="T"/>和合布薩。</note></p>
+<lb n="0518b18" ed="T"/><p xml:id="pT40p0518b1801">非時說戒法<note place="inline">若因鬪諍，令僧不<anchor xml:id="nkr_note_orig_0518012" n="0518012"/><anchor xml:id="nkr_note_mod_0518012" n="0518012"/><anchor xml:id="beg0518012" n="0518012"/>和<anchor xml:id="end0518012"/>，令僧別異，分為二部。若能於中改悔，不相發舉，此則名為以
+<lb n="0518b19" ed="T"/>法和合。作如是白：</note></p><p xml:id="pT40p0518b1908" rend="inline">大德僧聽！眾僧所因諍事，令僧鬪
+<lb n="0518b20" ed="T"/>諍而不和合，眾僧破壞，令僧塵垢，令僧別異，
+<lb n="0518b21" ed="T"/>分為二部。彼人自知犯罪事，<anchor xml:id="nkr_note_orig_0518013" n="0518013"/><anchor xml:id="beg0518013" n="0518013"/>今<anchor xml:id="end0518013"/>已改悔，除
+<lb n="0518b22" ed="T"/>滅僧塵垢。若僧時到，僧忍聽，僧今和合說戒。
+<lb n="0518b23" ed="T"/>白如是。<note place="inline">作是白已，然後和合說戒。</note></p></cb:div>
+<lb n="0518b24" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">6 安居篇(上)</cb:mulu><head>安居<anchor xml:id="nkr_note_orig_0518014" n="0518014"/><anchor xml:id="nkr_note_mod_0518014" n="0518014"/><anchor xml:id="beg0518014" n="0518014"/>篇<anchor xml:id="end0518014"/>第六</head>
+<lb n="0518b25" ed="T"/><p xml:id="pT40p0518b2501">對首法<note place="inline">告諸比丘：「汝不應一切時春夏冬人間遊行。從今已去，聽諸比丘三月夏安居。」應作是言：</note></p><p xml:id="pT40p0518b2538" rend="inline">長
+<lb n="0518b26" ed="T"/>老一心念！我某甲比丘，依某甲僧伽藍、<note place="inline">若在村內，應云：</note>
+<lb n="0518b27" ed="T"/>某甲聚落、<note place="inline">若在別房，應云：</note>某甲房，前三月夏安居；房舍
+<lb n="0518b28" ed="T"/>破，修治故。<note place="inline">三說。以安居依第五律師，故須問言：</note>汝依誰持律？<note place="inline">彼應答言：</note>依某
+<pb n="0518c" ed="T" xml:id="T40.1809.0518c"/>
+<lb n="0518c01" ed="T"/>甲律師。<note place="inline"><anchor xml:id="nkr_note_orig_0518015" n="0518015"/><anchor xml:id="beg0518015" n="0518015"/>復<anchor xml:id="end0518015"/>應語言：</note>有疑當問。<note place="inline">彼復答言：</note>可爾。<note place="inline">後三月安居法亦如是。安居有二
+<lb n="0518c02" ed="T"/>種：一前，二後。若前安居，住前三月；若後安居，住後三月。</note></p>
+<lb n="0518c03" ed="T"/><p xml:id="pT40p0518c0301">心念法<note place="inline">律言：從今日聽諸比丘若無所依人，心念安居。作法同前，但除初句及後問答。作其三說。</note></p>
+<lb n="0518c04" ed="T"/><p xml:id="pT40p0518c0401">忘成法<note place="inline">爾時比丘住處欲安居，無所依人<anchor xml:id="nkr_note_orig_0518016" n="0518016"/><anchor xml:id="nkr_note_mod_0518016" n="0518016"/><anchor xml:id="beg0518016" n="0518016"/>白<anchor xml:id="end0518016"/>，忘不心念，不知成不？佛言：「若為安居故來，便成安居。」</note></p>
+<lb n="0518c05" ed="T"/><p xml:id="pT40p0518c0501">及界法<note place="inline">時諸比丘往安居處<anchor xml:id="nkr_note_orig_0518017" n="0518017"/><anchor xml:id="nkr_note_mod_0518017" n="0518017"/><anchor xml:id="beg0518017" n="0518017"/>欲<anchor xml:id="end0518017"/>安居，入界便明相出，彼有疑，為成安居不？佛言：「若為安居故來，便
+<lb n="0518c06" ed="T"/>成安居。」次入園亦同；次一脚入界、入園，亦如是。</note></p></cb:div>
+<lb n="0518c07" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">7 受日篇(上)</cb:mulu><head>受日篇第七</head>
+<lb n="0518c08" ed="T"/><p xml:id="pT40p0518c0801">對首法<note place="inline">若有佛法僧事、檀越父母等請喚、受懺、病患、看病、求同業等緣，不及即日還，聽受七日<anchor xml:id="nkr_note_orig_0518018" n="0518018"/><anchor xml:id="nkr_note_mod_0518018" n="0518018"/><anchor xml:id="beg0518018" n="0518018"/>去<anchor xml:id="end0518018"/>。應
+<lb n="0518c09" ed="T"/>如是作。</note></p><p xml:id="pT40p0518c0904" rend="inline">長老一心念！我某甲比丘，受七日法出界
+<lb n="0518c10" ed="T"/>外，為某事故，還此中安居，白長老令知。<note place="inline">三說。不應
+<lb n="0518c11" ed="T"/>專為飲食故去。</note></p>
+<lb n="0518c12" ed="T"/><p xml:id="pT40p0518c1201">羯磨法<note place="inline">為前緣遠不及七日還。佛言：「聽有如是事，受過七日法，若十五日、一月日白二羯磨。」應如是作。</note></p>
+<lb n="0518c13" ed="T"/><p xml:id="pT40p0518c1301">大德僧聽！若僧時到，僧忍聽，某甲比丘，受過
+<lb n="0518c14" ed="T"/>七日法<note place="inline">十五日、一月日</note>出界外，為某事故，還此中安居。
+<lb n="0518c15" ed="T"/>白如是。</p><p xml:id="pT40p0518c1504" rend="inline">大德僧聽！某甲比丘，受過七日法
+<lb n="0518c16" ed="T"/><note place="inline">十五日、一月日</note>出界外，為某事故，還此中安居。誰諸
+<lb n="0518c17" ed="T"/>長老忍僧聽某甲比丘，受過七日法<note place="inline">十五日、一月日</note>
+<lb n="0518c18" ed="T"/>出界外，為某事故，還此中安居者默然，誰
+<lb n="0518c19" ed="T"/>不忍者說。僧已忍某甲比丘，受過七日法
+<lb n="0518c20" ed="T"/><note place="inline">十五日、一月日</note>出界外，為某事故，還此中安居竟。僧忍，
+<lb n="0518c21" ed="T"/>默然故，是事如是持。</p></cb:div>
+<lb n="0518c22" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">8 自恣篇(上)</cb:mulu><head>自恣篇第八</head>
+<lb n="0518c23" ed="T"/><p xml:id="pT40p0518c2301">白僧自恣時法<note place="inline">自今已去，聽安居竟自恣。聽遮自恣，不應求聽，何以故？自恣即是聽。又諸比
+<lb n="0518c24" ed="T"/>丘不知今日自恣？明日自恣？佛言：自今已去，聽若小食上、中食上，上座唱言：</note></p><p xml:id="pT40p0518c2430" rend="inline">大德僧聽！今僧
+<lb n="0518c25" ed="T"/>某月某日某時，集某處自恣。<note place="inline">餘儀軌等，並同說戒。</note></p>
+<lb n="0518c26" ed="T"/><p xml:id="pT40p0518c2601">差受自恣人法<note place="inline">諸比丘一時自恣鬧亂，又不求次第自恣，上座疲極。佛言：「不應爾，聽差受自
+<lb n="0518c27" ed="T"/>恣人白<anchor xml:id="nkr_note_orig_0518019" n="0518019"/><anchor xml:id="beg0518019" n="0518019"/>二<anchor xml:id="end0518019"/>羯磨。」有五法者應差：若不愛、不恚、不怖、不癡、知自恣未自恣。應如是差。</note></p><p xml:id="pT40p0518c2732" rend="inline">大德僧聽！若
+<lb n="0518c28" ed="T"/>僧時到，僧忍聽，僧差某甲比丘作受自恣人。
+<pb n="0519a" ed="T" xml:id="T40.1809.0519a"/>
+<lb n="0519a01" ed="T"/>白如是。</p><p xml:id="pT40p0519a0104" rend="inline">大德僧聽！僧差某甲比丘作受自恣
+<lb n="0519a02" ed="T"/>人。誰諸長老忍僧差某甲比丘作受自恣人
+<lb n="0519a03" ed="T"/>者默然，誰不忍者說。僧已忍差某甲比丘作
+<lb n="0519a04" ed="T"/>受自恣人竟。僧忍，默然故，是事如是持。</p>
+<lb n="0519a05" ed="T"/><p xml:id="pT40p0519a0501">自恣白法<note place="inline">律言：聽比<anchor xml:id="nkr_note_orig_0519001" n="0519001"/><anchor xml:id="beg0519001" n="0519001"/>丘<anchor xml:id="end0519001"/>坐，應知來不？先白，後自恣。作如是白：</note></p><p xml:id="pT40p0519a0524" rend="inline">大德僧聽！今
+<lb n="0519a06" ed="T"/>日眾僧自恣。若僧時到，僧忍聽，僧和合自恣。
+<lb n="0519a07" ed="T"/>白如是。</p>
+<lb n="0519a08" ed="T"/><p xml:id="pT40p0519a0801">僧自恣法<note place="inline">律言：聽徐徐三說，了了自恣；不應反抄衣、衣纏頸等，應偏露等。作如是言：</note></p><p xml:id="pT40p0519a0833" rend="inline">大德！
+<lb n="0519a09" ed="T"/>眾僧今日自恣，我某甲比丘亦自恣。若見、聞、
+<lb n="0519a10" ed="T"/>疑罪，大德長老哀愍故語我，我若見罪，當
+<lb n="0519a11" ed="T"/>如法懺悔。<note place="inline">三說。若病比丘，佛聽隨身所安自恣。<anchor xml:id="nkr_note_orig_0519002" n="0519002"/><anchor xml:id="beg0519002" n="0519002"/>其<anchor xml:id="end0519002"/>告清淨緣及告法，一同說戒。</note></p>
+<lb n="0519a12" ed="T"/><p xml:id="pT40p0519a1201">略自恣法<note place="inline">律言：若有八難及餘緣，聽略自恣。若難事尚遠，容得廣說，應廣說。若難事近，不得三說，當再
+<lb n="0519a13" ed="T"/>說；若不得再說，應一說；若不者，如法治。若難事近，不得一說者，諸比丘即應作白：各共<anchor xml:id="nkr_note_orig_0519003" n="0519003"/><anchor xml:id="beg0519003" n="0519003"/>三<anchor xml:id="end0519003"/>說自恣。作如是白：</note></p><p xml:id="pT40p0519a1342" rend="inline">大
+<lb n="0519a14" ed="T"/>德僧聽！若僧時到，僧忍聽，僧今各各共三語
+<lb n="0519a15" ed="T"/>自恣。白如是。<note place="inline">作是白已，各共三語自恣；再說、一說，亦如是。若難事近，不得各三語自恣，亦不得
+<lb n="0519a16" ed="T"/>白，即應以此事去。</note></p>
+<lb n="0519a17" ed="T"/><p xml:id="pT40p0519a1701">對首自恣法<note place="inline">若有四人，各各相向作如是言：</note></p><p xml:id="pT40p0519a1718" rend="inline">三長老憶念！今日
+<lb n="0519a18" ed="T"/>眾僧自恣，我某甲比丘自恣清淨。<note place="inline">三說。若三人、二人，亦如是。</note></p>
+<lb n="0519a19" ed="T"/><p xml:id="pT40p0519a1901">心念自恣法<note place="inline">若有<anchor xml:id="nkr_note_orig_0519004" n="0519004"/><anchor xml:id="beg0519004" n="0519004"/>一<anchor xml:id="end0519004"/>人，應心念言：</note></p><p xml:id="pT40p0519a1914" rend="inline">今日眾僧自恣，我某甲
+<lb n="0519a20" ed="T"/>比丘自恣清淨。<note place="inline">三說。</note></p>
+<lb n="0519a21" ed="T"/><p xml:id="pT40p0519a2101">增益自恣法<note place="inline">律言：若有眾多比丘結安居，精勤行道，得增上果證。諸比丘作是念：「我曹若今日自
+<lb n="0519a22" ed="T"/>恣，便應移住餘處，恐不得如是樂。」彼比丘即應作白增益自恣。作如是白：</note></p><p xml:id="pT40p0519a2229" rend="inline">大德僧聽！若僧
+<lb n="0519a23" ed="T"/>時到，僧忍聽，僧今日不自恣，四月滿，當自恣。
+<lb n="0519a24" ed="T"/>白如是。<note place="inline">作<anchor xml:id="nkr_note_orig_0519005" n="0519005"/><anchor xml:id="nkr_note_mod_0519005" n="0519005"/><anchor xml:id="beg0519005" n="0519005"/>如<anchor xml:id="end0519005"/>是白已，至四月滿自恣。</note></p>
+<lb n="0519a25" ed="T"/><p xml:id="pT40p0519a2501">增減自恣法<note place="inline">律言：若自恣日，聞異住處比丘鬪諍不和，欲來此自恣，彼比丘應作若<anchor xml:id="nkr_note_orig_0519006" n="0519006"/><anchor xml:id="beg0519006" n="0519006"/>二<anchor xml:id="end0519006"/>、若三減日
+<lb n="0519a26" ed="T"/>自恣。若聞已入界，應為具洗浴器等，安<anchor xml:id="nkr_note_orig_0519007" n="0519007"/><anchor xml:id="nkr_note_mod_0519007" n="0519007"/><anchor xml:id="beg0519007" n="0519007"/>置<anchor xml:id="end0519007"/>已，至界外自恣。若能如是方便作者善；若不能者，彼作白增上自恣。作
+<lb n="0519a27" ed="T"/>如是白：</note></p><p xml:id="pT40p0519a2704" rend="inline">大德僧聽！若僧時到，僧忍聽，僧今日<anchor xml:id="nkr_note_orig_0519008" n="0519008"/><anchor xml:id="beg0519008" n="0519008"/>不<anchor xml:id="end0519008"/>
+<lb n="0519a28" ed="T"/>自恣，至黑月十五日當自恣。白如是。<note place="inline">作是白已，增上自恣。
+<pb n="0519b" ed="T" xml:id="T40.1809.0519b"/>
+<lb n="0519b01" ed="T"/>若客比丘住至黑月十五日者，舊比丘應作白第二增上自恣。作如是白：</note></p><p xml:id="pT40p0519b0129" rend="inline">大德僧聽！若僧
+<lb n="0519b02" ed="T"/>時到，僧忍聽，僧今日不自恣，後白月十五日
+<lb n="0519b03" ed="T"/>當自恣。白如是。<note place="inline">若客比丘猶不去，舊比丘應如法、如律，強和合自恣。</note></p>
+<lb n="0519b04" ed="T"/><p xml:id="pT40p0519b0401">受比丘尼自恣法<note place="inline">時比丘僧應為盡集，不來者<anchor xml:id="nkr_note_orig_0519009" n="0519009"/><anchor xml:id="beg0519009" n="0519009"/>囑<anchor xml:id="end0519009"/>授。彼比丘尼於僧中說自恣已，僧中上
+<lb n="0519b05" ed="T"/>座語云：</note></p><p xml:id="pT40p0519b0504" rend="inline">大德僧眾不見比丘尼眾有見、聞、疑罪可
+<lb n="0519b06" ed="T"/>舉。語比丘尼眾「如法自恣，謹慎莫放逸！」<note place="inline">使尼禮足已還。</note></p></cb:div>
+<lb n="0519b07" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">9 衣鉢藥受淨篇(上)</cb:mulu><head>衣鉢藥受淨篇第九</head>
+<lb n="0519b08" ed="T"/><p xml:id="pT40p0519b0801"><anchor xml:id="nkr_note_orig_0519010" n="0519010"/><anchor xml:id="beg0519010" n="0519010"/>受<anchor xml:id="end0519010"/>三衣法<note place="inline">依《十誦》云：</note></p><p xml:id="pT40p0519b0809" rend="inline">長老一心念！我比丘某甲，
+<lb n="0519b09" ed="T"/>是衣僧伽梨<note place="inline">若干</note>條受，<note place="inline">若干</note>長<note place="inline">若干</note>短，割截衣持。<note place="inline">三說。受下二衣，
+<lb n="0519b10" ed="T"/>類准亦爾。</note></p>
+<lb n="0519b11" ed="T"/><p xml:id="pT40p0519b1101">捨三衣法<note place="inline">應翻受云：</note></p><p xml:id="pT40p0519b1109" rend="inline">長老一心念！我比丘某甲，是衣
+<lb n="0519b12" ed="T"/>僧伽梨<note place="inline">若干</note>條受，<note place="inline">若干</note>長<note place="inline">若干</note>短，割截衣持，今捨。<note place="inline">三說。捨下二衣，
+<lb n="0519b13" ed="T"/>類准亦爾。</note></p>
+<lb n="0519b14" ed="T"/><p xml:id="pT40p0519b1401">受尼師壇法<note place="inline">應云：</note></p><p xml:id="pT40p0519b1408" rend="inline">長老一心念！我比丘某甲，此
+<lb n="0519b15" ed="T"/>尼師壇，是我助身衣受。<note place="inline">三說。餘助身衣受同此法。捨者，翻受應知。</note></p>
+<lb n="0519b16" ed="T"/><p xml:id="pT40p0519b1601">受鉢法<note place="inline">律言：鉢有二種：一瓦，二鐵。色亦二種：一赤，二黑。大者三升，小者一升半。此<anchor xml:id="nkr_note_orig_0519011" n="0519011"/><anchor xml:id="nkr_note_mod_0519011" n="0519011"/><anchor xml:id="beg0519011" n="0519011"/>應持<anchor xml:id="end0519011"/>、應淨施，持准
+<lb n="0519b17" ed="T"/>《十誦》云：</note></p><p xml:id="pT40p0519b1704" rend="inline">長老一心念！我比丘某甲，此鉢多羅應量
+<lb n="0519b18" ed="T"/>受，長用故。<note place="inline">三說。捨者，翻受應知。</note></p>
+<lb n="0519b19" ed="T"/><p xml:id="pT40p0519b1901">受非時藥法<note place="inline">律言：聽飲八種漿：一梨漿，二閻浮菓漿，三酸棗漿，四甘蔗漿，五<anchor xml:id="nkr_note_orig_0519012" n="0519012"/><anchor xml:id="beg0519012" n="0519012"/>微<anchor xml:id="end0519012"/>菓漿，六
+<lb n="0519b20" ed="T"/>捨樓迦漿，七波樓師漿，八蒲<anchor xml:id="nkr_note_orig_0519013" n="0519013"/><anchor xml:id="beg0519013" n="0519013"/>萄<anchor xml:id="end0519013"/>漿。若不醉人，應非時飲。若醉人，不應飲；若飲，如法治。應從淨人手受已，次對比丘
+<lb n="0519b21" ed="T"/>加法云：</note></p><p xml:id="pT40p0519b2104" rend="inline">長老一心念！我比丘某甲，有某病緣故，
+<lb n="0519b22" ed="T"/>此某非時漿，為經非時服故，今於長老邊受。
+<lb n="0519b23" ed="T"/><note place="inline">三說。受餘二藥法同。七日應言：</note>為共宿七日服故。<note place="inline">盡形應言：</note>為共宿長服
+<lb n="0519b24" ed="T"/>故。<note place="inline">七日藥者，酥等。盡形藥者，一切醎、醋等，不任為食者。</note></p>
+<lb n="0519b25" ed="T"/><p xml:id="pT40p0519b2501">真實淨法<note place="inline">應云：</note></p><p xml:id="pT40p0519b2507" rend="inline">大德一心念！我有此長衣未作
+<lb n="0519b26" ed="T"/>淨，今為淨故捨與大德，為真實淨故。<note place="inline">作真實淨，應問
+<lb n="0519b27" ed="T"/>施主，然後得著。鉢、藥類同。</note></p>
+<pb n="0519c" ed="T" xml:id="T40.1809.0519c"/>
+<lb n="0519c01" ed="T"/><p xml:id="pT40p0519c0101">展轉淨法<note place="inline">應云：</note></p><p xml:id="pT40p0519c0107" rend="inline">大德一心<anchor xml:id="nkr_note_orig_0519014" n="0519014"/><anchor xml:id="beg0519014" n="0519014"/>念<anchor xml:id="end0519014"/>！此是我長衣未作
+<lb n="0519c02" ed="T"/>淨，為淨故施與大德，為展轉淨故。<note place="inline">彼受淨者應云：</note>長老
+<lb n="0519c03" ed="T"/>一心念！汝有此長衣未作淨，為淨故與我，我
+<lb n="0519c04" ed="T"/>今受之。<note place="inline">受已，語言：</note>汝施與誰？<note place="inline">彼應答言：</note>施與某甲。<note place="inline">受淨者言：</note>長老
+<lb n="0519c05" ed="T"/>一心念！汝是長衣未作淨，為淨故施與我，我
+<lb n="0519c06" ed="T"/>今受之。受已汝與某甲，是衣某甲已有，汝為
+<lb n="0519c07" ed="T"/>某甲善護持，<anchor xml:id="nkr_note_orig_0519015" n="0519015"/><anchor xml:id="nkr_note_mod_0519015" n="0519015"/><anchor xml:id="beg0519015" n="0519015"/>著用<anchor xml:id="end0519015"/>隨因緣。<note place="inline">作展轉淨，若問、不問，聽隨意<anchor xml:id="nkr_note_orig_0519016" n="0519016"/><anchor xml:id="beg0519016" n="0519016"/>著<anchor xml:id="end0519016"/>。鉢、藥類同，
+<lb n="0519c08" ed="T"/>事別為<anchor xml:id="nkr_note_orig_0519017" n="0519017"/><anchor xml:id="nkr_note_mod_0519017" n="0519017"/><anchor xml:id="beg0519017" n="0519017"/>異<anchor xml:id="end0519017"/>。</note></p></cb:div>
+<lb n="0519c09" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">10 攝物篇(上)</cb:mulu><head>攝物篇第十</head>
+<lb n="0519c10" ed="T"/><p xml:id="pT40p0519c1001">攝時現前施法<note place="inline">律言：自今已去，不應於一切時春夏冬求索夏衣；又不應此處安居，餘處受
+<lb n="0519c11" ed="T"/>夏衣分。又有比丘在異住處結夏安居已，復於餘處住，彼不知何處<anchor xml:id="nkr_note_orig_0519018" n="0519018"/><anchor xml:id="nkr_note_mod_0519018" n="0519018"/><anchor xml:id="beg0519018" n="0519018"/>取<anchor xml:id="end0519018"/>安居物？佛言：「聽住日多處取。若二處俱
+<lb n="0519c12" ed="T"/>等，聽各取半。」又云：眾僧得夏安居衣，僧破為二部。佛言：「應數人多少分。若未得夏衣、若得夏衣及未得夏衣，僧
+<lb n="0519c13" ed="T"/>破二部，亦數人分。」此等為施現前，分並<anchor xml:id="nkr_note_orig_0519019" n="0519019"/><anchor xml:id="nkr_note_mod_0519019" n="0519019"/><anchor xml:id="beg0519019" n="0519019"/>無<anchor xml:id="end0519019"/>法。</note>攝非時現前施法<note place="inline">時王舍城，諸優婆塞
+<lb n="0519c14" ed="T"/>聞佛聽諸比丘畜<anchor xml:id="nkr_note_orig_0519020" n="0519020"/><anchor xml:id="beg0519020" n="0519020"/>檀<anchor xml:id="end0519020"/>越施衣，即遣人大送種種好衣與諸比丘。諸比丘不知云何？佛言：「聽分。」不知云何分？當數
+<lb n="0519c15" ed="T"/>人多少分，若十人為十分，乃至百人為百分；好惡相參分。不應自取分，使異人取。不應自擲籌，使不見者擲籌。
+<lb n="0519c16" ed="T"/>此既數人，亦無分法。</note></p>
+<lb n="0519c17" ed="T"/><p xml:id="pT40p0519c1701">攝時僧施法<note place="inline">時有比丘未分夏衣便去，後比丘分夏衣，不<anchor xml:id="nkr_note_orig_0519021" n="0519021"/><anchor xml:id="beg0519021" n="0519021"/>敢<anchor xml:id="end0519021"/>取去者分，諸比丘不知成分
+<lb n="0519c18" ed="T"/>不？佛言：「成分，應相待，亦應<anchor xml:id="beg_13" type="star"/>囑<anchor xml:id="end_13"/>授後人受夏衣分。」律言：若一比丘安居，大<anchor xml:id="nkr_note_orig_0519022" n="0519022"/><anchor xml:id="nkr_note_mod_0519022" n="0519022"/><anchor xml:id="beg0519022" n="0519022"/>得<anchor xml:id="end0519022"/>僧夏安居衣物，彼比丘應作心念言：</note>
+<lb n="0519c19" ed="T"/>此是我物。<note place="inline">其羯磨對首法，准同非時僧施，更無異，故不出。</note></p>
+<lb n="0519c20" ed="T"/><p xml:id="pT40p0519c2001">攝非時僧施差分物人法<note place="inline">時有住處，現前僧得可分衣物。佛言：「聽分。」分時，有
+<lb n="0519c21" ed="T"/>客數來，分衣疲極。應差一人令分，此人應具五法，五法如上。應如是作。</note></p><p xml:id="pT40p0519c2128" rend="inline">大德僧聽！若僧時
+<lb n="0519c22" ed="T"/>到，僧忍聽，僧差某甲比丘，為僧作分物人。白
+<lb n="0519c23" ed="T"/>如是。</p><p xml:id="pT40p0519c2303" rend="inline">大德僧聽！僧差某甲比丘，為僧作分物
+<lb n="0519c24" ed="T"/>人。<anchor xml:id="beg_14" type="cb-app"/>誰<anchor xml:id="end_14"/>諸長老忍僧差某甲比丘，為僧作分物
+<lb n="0519c25" ed="T"/>人者默然，誰不忍者說。僧已忍差某甲比丘，
+<lb n="0519c26" ed="T"/>為僧作分物人竟。僧忍，默然故，是事如是持。<note place="inline">為僧
+<lb n="0519c27" ed="T"/>分粥、分小食、佉闍尼、差請會、敷臥具、分臥具、分浴衣、分衣、可與、可取、差比丘使、沙彌使，一切亦如是。有五法為僧分粥
+<pb n="0520a" ed="T" xml:id="T40.1809.0520a"/>
+<lb n="0520a01" ed="T"/>入地獄如箭射，謂有愛等；有五法分粥生天如箭射，謂不愛等。乃<anchor xml:id="nkr_note_orig_0520001" n="0520001"/><anchor xml:id="nkr_note_mod_0520001" n="0520001"/><anchor xml:id="beg0520001" n="0520001"/>至<anchor xml:id="end0520001"/>差沙彌使亦如是。</note></p>
+<lb n="0520a02" ed="T"/><p xml:id="pT40p0520a0201">付分衣人物法<note place="inline">既差人已，應須付物。作如是付。</note></p><p xml:id="pT40p0520a0219" rend="inline">大德僧聽！此住
+<lb n="0520a03" ed="T"/>處若衣、若非衣，現前僧應分。若僧時到，僧忍
+<lb n="0520a04" ed="T"/>聽，僧今與某甲比丘，彼當與僧。白如是。</p><p xml:id="pT40p0520a0416" rend="inline">大
+<lb n="0520a05" ed="T"/>德僧聽！此住處若衣、若非衣，現前僧應分；僧
+<lb n="0520a06" ed="T"/>今與某甲比丘，彼當與僧。誰諸長老忍此住
+<lb n="0520a07" ed="T"/>處若衣、若非衣，現前僧應分；僧與某甲比丘，
+<lb n="0520a08" ed="T"/>彼當與僧者默然，誰不忍者說。僧已忍與某
+<lb n="0520a09" ed="T"/>甲比丘，彼當與僧竟。僧忍，默然故，是事如是
+<lb n="0520a10" ed="T"/>持。<note place="inline">作此法已，准人多少等分。沙彌若和合，等分；若不和合，二分與一；又若不和，三分與一；<anchor xml:id="nkr_note_orig_0520002" n="0520002"/><anchor xml:id="beg0520002" n="0520002"/>又<anchor xml:id="end0520002"/>若不與，不應分。僧伽
+<lb n="0520a11" ed="T"/>藍人四分與一；若不與，不應分。</note></p>
+<lb n="0520a12" ed="T"/><p xml:id="pT40p0520a1201">四人直攝物法<note place="inline">若但四<anchor xml:id="nkr_note_orig_0520003" n="0520003"/><anchor xml:id="nkr_note_mod_0520003" n="0520003"/><anchor xml:id="beg0520003" n="0520003"/>人<anchor xml:id="end0520003"/>，不成差、不成付，直作攝法。應如是作。</note></p><p xml:id="pT40p0520a1225" rend="inline">大德僧聽！
+<lb n="0520a13" ed="T"/>此住處若衣、若非衣，現前僧應分。若僧時到，
+<lb n="0520a14" ed="T"/>僧忍聽，今現前僧分是衣物。白如是。</p><p xml:id="pT40p0520a1415" rend="inline">大德僧
+<lb n="0520a15" ed="T"/>聽！此住處若衣、若非衣，現前僧應分，今現前
+<lb n="0520a16" ed="T"/>僧分是衣物。誰諸長老忍此住處若衣、若非
+<lb n="0520a17" ed="T"/>衣，現前僧應分，今現前僧分是衣物者默然，
+<lb n="0520a18" ed="T"/>誰不忍者說。僧已忍今現前僧分是衣物竟。
+<lb n="0520a19" ed="T"/>僧忍，默然故，是事如是持。<note place="inline">作羯磨已，分法如前。</note></p>
+<lb n="0520a20" ed="T"/><p xml:id="pT40p0520a2001">對首攝物法<note place="inline">若有三人，彼此共三語受。應作是言：</note></p><p xml:id="pT40p0520a2020" rend="inline">二長老憶念！此
+<lb n="0520a21" ed="T"/>住處若衣、若非衣，現前僧應分。此處無僧，此
+<lb n="0520a22" ed="T"/>是我等分。<note place="inline">三說。</note><note place="inline">二人亦爾，分法如前。</note></p>
+<lb n="0520a23" ed="T"/><p xml:id="pT40p0520a2301">心念攝物法<note place="inline">若有一人，應心念言：</note></p><p xml:id="pT40p0520a2314" rend="inline">此住處若衣、若非衣，現
+<lb n="0520a24" ed="T"/>前僧應分。此處無僧，此是我分。<note place="inline">三說。分法如前。</note></p>
+<lb n="0520a25" ed="T"/><p xml:id="pT40p0520a2501">攝二部僧得施法<note place="inline">爾時有異住處二<anchor xml:id="nkr_note_orig_0520004" n="0520004"/><anchor xml:id="nkr_note_mod_0520004" n="0520004"/><anchor xml:id="beg0520004" n="0520004"/>部<anchor xml:id="end0520004"/>僧多得可分衣物，時比丘僧多，比丘尼僧少。佛
+<lb n="0520a26" ed="T"/>言：「應分作二分。」若無比丘尼，純式叉摩那，亦分二分；及純沙彌尼，亦分二分；若無沙彌尼，僧應分。若比丘少，比丘
+<lb n="0520a27" ed="T"/>尼多，亦分二分；若無比丘，純有沙彌，亦分二分；若無沙彌，比丘尼應<anchor xml:id="nkr_note_orig_0520005" n="0520005"/><anchor xml:id="nkr_note_mod_0520005" n="0520005"/><anchor xml:id="beg0520005" n="0520005"/>分<anchor xml:id="end0520005"/>。分二分已，各至本處，作羯磨等三法分
+<lb n="0520a28" ed="T"/>之。時僧得施亦爾。其二部現前施，並數人分。</note></p>
+<pb n="0520b" ed="T" xml:id="T40.1809.0520b"/>
+<lb n="0520b01" ed="T"/><p xml:id="pT40p0520b0101">攝亡比丘物法<note place="inline">時諸比丘分僧園田菓樹，又分別房及屬別房物，又分銅<anchor xml:id="nkr_note_orig_0520006" n="0520006"/><anchor xml:id="beg0520006" n="0520006"/>瓶<anchor xml:id="end0520006"/>、銅<anchor xml:id="nkr_note_orig_0520007" n="0520007"/><anchor xml:id="nkr_note_mod_0520007" n="0520007"/><anchor xml:id="beg0520007" n="0520007"/>盆<anchor xml:id="end0520007"/>、釜鑊及
+<lb n="0520b02" ed="T"/>諸重物，又分繩床、木床、坐褥、臥褥、枕，又分伊梨延陀、耄羅、耄耄羅、氍毺，又分車輿、守僧伽藍人，又分水瓶、澡罐、錫杖、
+<lb n="0520b03" ed="T"/>扇，又分鐵作器、木作器、陶作器、<anchor xml:id="nkr_note_orig_0520008" n="0520008"/><anchor xml:id="beg0520008" n="0520008"/>皮<anchor xml:id="end0520008"/>作器、竹作器。佛言：「不應分，屬四方僧。氍毺（廣三肘，長五肘，毛長三指）、剃刀、衣、
+<lb n="0520b04" ed="T"/>鉢、坐具、針筒、盛衣貯器、俱夜羅器，現前僧應分。」先作此簡，然後作法。</note></p>
+<lb n="0520b05" ed="T"/><p xml:id="pT40p0520b0501">看病人對僧捨物<anchor xml:id="nkr_note_orig_0520009" n="0520009"/><anchor xml:id="nkr_note_mod_0520009" n="0520009"/><anchor xml:id="beg0520009" n="0520009"/>法<anchor xml:id="end0520009"/><note place="inline">時看病人持物，僧中具儀捨云：</note></p><p xml:id="pT40p0520b0521" rend="inline">大德僧聽！
+<lb n="0520b06" ed="T"/>某甲比丘，此<note place="inline">若餘處亡，云彼</note>住處命過，所有衣鉢、坐具、
+<lb n="0520b07" ed="T"/>針筒、盛衣貯器，<note place="inline">此隨現有六物作法，若有闕者，應除。又若物類眾多，此言攝不盡者，應言：
+<lb n="0520b08" ed="T"/>若衣、非衣。</note>此住處現前僧應分。<note place="inline">三說。</note></p>
+<lb n="0520b09" ed="T"/><p xml:id="pT40p0520b0901">賞看病人物法<note place="inline">律言：僧問瞻病人言：「病人有<anchor xml:id="nkr_note_orig_0520010" n="0520010"/><anchor xml:id="nkr_note_mod_0520010" n="0520010"/><anchor xml:id="beg0520010" n="0520010"/>囑<anchor xml:id="end0520010"/>授不？誰負病者物？病者負誰物？」有五法
+<lb n="0520b10" ed="T"/>應與看病人物：一、知病人可食、不可食，可食能與；二、不惡賤病人大小便唾吐；三、有慈愍心，不為衣食；四、能經理湯
+<lb n="0520b11" ed="T"/>藥乃至<anchor xml:id="beg_15" type="star"/>差<anchor xml:id="end_15"/>、若死；五、能為病人說法，令病者歡喜，已身於善法增益。有<anchor xml:id="nkr_note_orig_0520011" n="0520011"/><anchor xml:id="nkr_note_mod_0520011" n="0520011"/><anchor xml:id="beg0520011" n="0520011"/>是<anchor xml:id="end0520011"/>五法，應取病人衣物。其衣鉢等物，隨現有
+<lb n="0520b12" ed="T"/><anchor xml:id="nkr_note_orig_0520012" n="0520012"/><anchor xml:id="nkr_note_mod_0520012" n="0520012"/><anchor xml:id="beg0520012" n="0520012"/>者<anchor xml:id="end0520012"/>賞；無者，不得將餘物替。應如是賞。</note></p><p xml:id="pT40p0520b1215" rend="inline">大德僧聽！某甲比丘命過，所
+<lb n="0520b13" ed="T"/>有衣鉢、坐<anchor xml:id="beg_16" type="cb-app"/>具<anchor xml:id="end_16"/>、針筒、盛衣貯器，此現前僧應分。
+<lb n="0520b14" ed="T"/>若僧時到，僧忍聽，僧今與某甲看病比丘。白
+<lb n="0520b15" ed="T"/>如是。</p><p xml:id="pT40p0520b1503" rend="inline">大德僧聽！某甲比丘命過，所有衣鉢、坐
+<lb n="0520b16" ed="T"/>具、針筒、盛衣貯器，此現前僧應分；僧今與某
+<lb n="0520b17" ed="T"/>甲看病比丘。誰諸長老忍僧與某甲看病比
+<lb n="0520b18" ed="T"/>丘衣鉢、坐具、針筒、盛衣貯器者默然，誰不忍
+<lb n="0520b19" ed="T"/>者說。僧已忍與某甲看病比丘衣鉢、坐具、針
+<lb n="0520b20" ed="T"/>筒、盛衣貯器竟。僧忍，默然故，是事如是持。</p>
+<lb n="0520b21" ed="T"/><p xml:id="pT40p0520b2101">差分衣人法<note place="inline">具德如前，應如是差。</note></p><p xml:id="pT40p0520b2114" rend="inline">大德僧聽！若僧時到，僧
+<lb n="0520b22" ed="T"/>忍聽，僧差某甲比丘，為僧作分物人。白如
+<lb n="0520b23" ed="T"/>是。</p><p xml:id="pT40p0520b2302" rend="inline">大德僧聽！僧差某甲比丘，為僧作分物
+<lb n="0520b24" ed="T"/>人。誰諸長老忍僧差某甲比丘，為僧作分物
+<lb n="0520b25" ed="T"/>人者默然，誰不忍者說。僧已忍差某甲比丘，
+<lb n="0520b26" ed="T"/>為僧作分物人竟。僧忍，默然故，是事如是持。</p>
+<lb n="0520b27" ed="T"/><p xml:id="pT40p0520b2701">付分衣人物法<note place="inline">差已，應如是付。</note></p><p xml:id="pT40p0520b2713" rend="inline">大德僧聽！某甲比丘命
+<lb n="0520b28" ed="T"/>過，所有若衣、非衣，此現前僧應分。若僧時到，
+<pb n="0520c" ed="T" xml:id="T40.1809.0520c"/>
+<lb n="0520c01" ed="T"/>僧忍聽，僧今與某甲比丘，某甲比丘當還與
+<lb n="0520c02" ed="T"/>僧。白如是。</p><p xml:id="pT40p0520c0205" rend="inline">大德僧聽！某甲比丘命過，所有若
+<lb n="0520c03" ed="T"/>衣、非衣，此現前僧應分；僧今與某甲比丘，某
+<lb n="0520c04" ed="T"/>甲比丘當還與僧。誰諸長老忍某甲比丘命
+<lb n="0520c05" ed="T"/>過，所有若衣、非衣，此現前僧應分；僧<anchor xml:id="nkr_note_orig_0520013" n="0520013"/><anchor xml:id="nkr_note_mod_0520013" n="0520013"/><anchor xml:id="beg0520013" n="0520013"/>今<anchor xml:id="end0520013"/>與
+<lb n="0520c06" ed="T"/>某甲比丘，某甲比丘當還與僧者默然，誰不
+<lb n="0520c07" ed="T"/>忍者說。僧已忍與某甲比丘，某甲比丘當
+<lb n="0520c08" ed="T"/>還與僧竟。僧忍，默然故，是事如是持。<note place="inline">分法如前。</note></p>
+<lb n="0520c09" ed="T"/><p xml:id="pT40p0520c0901">四人直攝物法<note place="inline">以不成差付，直分云：</note></p><p xml:id="pT40p0520c0915" rend="inline">大德僧聽！某甲比丘
+<lb n="0520c10" ed="T"/>命過，所有若衣、非衣，此現前僧應分。若僧時
+<lb n="0520c11" ed="T"/>到，僧忍聽，今現前僧分是衣物。白如是。</p><p xml:id="pT40p0520c1116" rend="inline">大德
+<lb n="0520c12" ed="T"/>僧聽！某甲比丘命過，所有若衣、非衣，此現前
+<lb n="0520c13" ed="T"/>僧應分，今現前僧分是衣物。誰諸長老忍某
+<lb n="0520c14" ed="T"/>甲比丘命過，所有若衣、非衣，此現前僧應分，
+<lb n="0520c15" ed="T"/>今現前僧分是衣物者默然，誰不忍者說。僧
+<lb n="0520c16" ed="T"/>已忍今現前僧分是衣物竟。僧忍，默然故，是
+<lb n="0520c17" ed="T"/>事如是持。<note place="inline">作羯磨已，分法如前。有看病人，應口和賞。</note></p>
+<lb n="0520c18" ed="T"/><p xml:id="pT40p0520c1801">對首攝物法<note place="inline">若有三人，彼此共三說受。作如是言：</note></p><p xml:id="pT40p0520c1820" rend="inline">二長老憶念！某甲
+<lb n="0520c19" ed="T"/>比丘命過，所有若衣、非衣，此現前僧應分。此
+<lb n="0520c20" ed="T"/>處無僧，此是我等分。<note place="inline">三說。</note><note place="inline">二人亦<anchor xml:id="beg_17" type="cb-app"/>爾<anchor xml:id="end_17"/>，分法如前。有看病人，亦口和賞。</note></p>
+<lb n="0520c21" ed="T"/><p xml:id="pT40p0520c2101">心念攝物法<note place="inline">若有一人，應心念言：</note></p><p xml:id="pT40p0520c2114" rend="inline">某甲比丘命過，所有若
+<lb n="0520c22" ed="T"/>衣、非衣，此現前僧應分。此處無僧，此是我分。
+<lb n="0520c23" ed="T"/><note place="inline">三說。分法如前。</note></p>
+<lb n="0520c24" ed="T"/><p xml:id="pT40p0520c2401">無住處攝物法<note place="inline">時有比丘遊行到無比丘住村，到已命過，不知誰應分此衣鉢？白佛。</note></p><p xml:id="pT40p0520c2433" rend="inline">佛
+<lb n="0520c25" ed="T"/>言：「彼處若有信樂優婆塞、若守園人，彼應賞
+<lb n="0520c26" ed="T"/>錄。若有五眾出家人前來者，應與；若無來者，
+<lb n="0520c27" ed="T"/>應送與近處僧伽藍。」</p><anchor xml:id="nkr_note_orig_0520014" n="0520014"/><anchor xml:id="nkr_note_mod_0520014" n="0520014"/><anchor type="circle"/></cb:div>
+<lb n="0520c28" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="nkr_note_orig_0520015" n="0520015"/><anchor xml:id="beg0520015" n="0520015"/>僧<anchor xml:id="end0520015"/>羯磨卷上</cb:jhead></cb:juan>
+</body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0511004" to="#end0511004"><lem wit="#wit1">僧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">四分僧</rdg></app>
+<app from="#beg0511005" to="#end0511005"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit4">第一</rdg></app>
+<app from="#beg0511006" to="#end0511006"><lem wit="#wit1"><note place="inline">出《四分律》</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit2 #wit3"><note place="inline">入三</note></rdg></app>
+<app from="#beg0511007" to="#end0511007"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit4">唐西</rdg></app>
+<app from="#beg0511008" to="#end0511008"><lem wit="#wit1">寔</lem><rdg resp="#resp1" wit="#wit4">實</rdg></app>
+<app from="#beg0511009" to="#end0511009"><lem wit="#wit1">丞<lb n="0511b19" ed="T"/>歷</lem><rdg resp="#resp1" wit="#wit2 #wit3">婆磨</rdg></app>
+<app from="#beg0511010" to="#end0511010"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit5">天</rdg></app>
+<app from="#beg0511011" to="#end0511011"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit5">白</rdg></app>
+<app from="#beg0511012" to="#end0511012"><lem wit="#wit1">皇朝</lem><rdg resp="#resp1" wit="#wit4">唐</rdg></app>
+<app from="#beg0511013" to="#end0511013"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唯</rdg></app>
+<app from="#beg0511014" to="#end0511014"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0511015" to="#end0511015"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">除</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>除</corr><sic>餘</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>餘</corr><sic>除</sic></choice>
+<app from="#beg0511016" to="#end0511016"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">時</rdg></app>
+<app from="#beg0511017" to="#end0511017"><lem wit="#wit1">囑</lem><rdg resp="#resp1" wit="#wit5">屬</rdg></app>
+<app from="#beg0511018" to="#end0511018"><lem wit="#wit1">任</lem><rdg resp="#resp1" wit="#wit3">在</rdg><rdg resp="#resp1" wit="#wit4">住</rdg></app>
+<app from="#beg0511019" to="#end0511019"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit3 #wit4">而自</rdg></app>
+<app from="#beg0511020" to="#end0511020"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0511021" to="#end0511021"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit3">上</rdg></app>
+<app from="#beg0511022" to="#end0511022"><lem wit="#wit1">罪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0511023" to="#end0511023"><lem wit="#wit1">看</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">看病患事看</rdg></app>
+<app from="#beg0511024" to="#end0511024"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0511025" to="#end0511025"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0511026" to="#end0511026"><lem wit="#wit1">往</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">至</rdg></app>
+<app from="#beg0511027" to="#end0511027"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">餘餘</rdg></app>
+<app from="#beg0512001" to="#end0512001"><lem wit="#wit1">有其</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">其有</rdg></app>
+<app from="#beg0512002" to="#end0512002"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">不白</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0511024"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512003" to="#end0512003"><lem wit="#wit1">白</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512004" to="#end0512004"><lem wit="#wit1">揵</lem><rdg resp="#resp1" wit="#wit4">楗</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0511025"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512005" to="#end0512005"><lem wit="#wit1">駃</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">駛</rdg></app>
+<app from="#beg0512006" to="#end0512006"><lem wit="#wit1">除</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512007" to="#end0512007"><lem wit="#wit1">座</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512008" to="#end0512008"><lem wit="#wit1"><note place="inline">逖徑反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0512008"><lem wit="#wit1"><note place="inline">逖零反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0512009" to="#end0512009"><lem wit="#wit1">及</lem><rdg resp="#resp1" wit="#wit5">反</rdg></app>
+<app from="#beg0512010" to="#end0512010"><lem wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512011" to="#end0512011"><lem wit="#wit1">聽</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512012" to="#end0512012"><lem wit="#wit1">然</lem><rdg resp="#resp1" wit="#wit3">然以</rdg></app>
+<app from="#beg0512013" to="#end0512013"><lem wit="#wit1">住處</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512014" to="#end0512014"><lem wit="#wit1">方</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0512015" to="#end0512015"><lem wit="#wit1">場</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">壇</rdg></app>
+<app from="#beg0512016" to="#end0512016"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit5">誰</rdg></app>
+<app from="#beg0512017" to="#end0512017"><lem wit="#wit1">和上</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">和尚</rdg></app>
+<app from="#beg0513001" to="#end0513001"><lem wit="#wit1">忍</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">忍僧</rdg></app>
+<app from="#beg0513002" to="#end0513002"><lem wit="#wit1">村</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0513003" to="#end0513003"><lem wit="#wit1">除</lem><rdg resp="#resp1" wit="#wit5">際</rdg></app>
+<app from="#beg0513005" to="#end0513005"><lem wit="#wit1">結淨地</lem><rdg resp="#resp1" wit="#wit5">法淨丘</rdg></app>
+<app from="#beg0513006" to="#end0513006"><lem wit="#wit1">晚</lem><rdg resp="#resp1" wit="#wit5">曉</rdg></app>
+<app from="#beg0513007" to="#end0513007"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0513008" to="#end0513008"><lem wit="#wit1">處分</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">分處</rdg></app>
+<app from="#beg0513010" to="#end0513010"><lem wit="#wit1">具</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">具足</rdg></app>
+<app from="#beg0513011" to="#end0513011"><lem wit="#wit1">戒</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0513012" to="#end0513012"><lem wit="#wit1">戒。」教</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">教戒</rdg></app>
+<app from="#beg0513013" to="#end0513013"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit3">姓</rdg></app>
+<app from="#beg0513014" to="#end0513014"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">不</rdg></app>
+<app from="#beg0513015" to="#end0513015"><lem wit="#wit1">授</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0513016" to="#end0513016"><lem wit="#wit1">至</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0513017" to="#end0513017"><lem wit="#wit1">白</lem><rdg resp="#resp1" wit="#wit5">曰</rdg></app>
+<app from="#beg0514001" to="#end0514001"><lem wit="#wit1">歸依佛，歸依法，歸<lb n="0514a12" ed="T"/>依僧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">歸依佛法僧</rdg></app>
+<app from="#beg0514002" to="#end0514002"><lem wit="#wit1">倡</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唱</rdg></app>
+<app from="#beg0514003" to="#end0514003"><lem wit="#wit1">勤</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">勸</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0514001"><lem wit="#wit1">歸依佛，<lb n="0514b05" ed="T"/>歸依法，歸依僧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">歸依佛法僧</rdg></app>
+<app from="#beg0514004" to="#end0514004"><lem wit="#wit1">與</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0514005" to="#end0514005"><lem wit="#wit1">白</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0514006" to="#end0514006"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit5">名</rdg></app>
+<app from="#beg0514007" to="#end0514007"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0514008" to="#end0514008"><lem wit="#wit1">悅</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">悅之</rdg></app>
+<app from="#beg0514009" to="#end0514009"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">授</rdg></app>
+<app from="#beg0514010" to="#end0514010"><lem wit="#wit1">云</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">言</rdg></app>
+<app from="#beg0514011" to="#end0514011"><lem wit="#wit1">和上</lem><rdg resp="#resp1" wit="#wit5">和尚</rdg></app>
+<app from="#beg0514012" to="#end0514012"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0514013" to="#end0514013"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">鉢多羅</rdg></app>
+<app from="#beg0514014" to="#end0514014"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit4">尚</rdg></app>
+<app from="#beg0514015" to="#end0514015"><lem wit="#wit1">癲</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">顛</rdg></app>
+<app from="#beg0514016" to="#end0514016"><lem wit="#wit1">去</lem><rdg resp="#resp1" wit="#wit3 #wit4">云</rdg></app>
+<app from="#beg0514017" to="#end0514017"><lem wit="#wit1">舒</lem><rdg resp="#resp1" wit="#wit5">倚</rdg></app>
+<app from="#beg0515001" to="#end0515001"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit4">從</rdg></app>
+<app from="#beg0515002" to="#end0515002"><lem wit="#wit1">禮</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0515003" to="#end0515003"><lem resp="#resp3" wit="#wit6">言</lem><rdg wit="#wit1">計</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">言</rdg></app>
+<app from="#beg0515004" to="#end0515004"><lem wit="#wit1">戒</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">戒也</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0514014"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit4">尚</rdg></app>
+<app from="#beg0515005" to="#end0515005"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit2">若</rdg></app>
+<app from="#beg0515006" to="#end0515006"><lem wit="#wit1"><g ref="#CB01679">󰚏</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">厭</rdg></app>
+<app from="#beg0515007" to="#end0515007"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">戒</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0515007"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">戒</rdg></app>
+<app from="#beg_9" to="#end_9" corresp="#0515007"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">戒</rdg></app>
+<app from="#beg0515008" to="#end0515008"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0515009" to="#end0515009"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit2 #wit5">蘇</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0515009"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit2 #wit5">蘇</rdg></app>
+<app from="#beg0515010" to="#end0515010"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit4">黎</rdg></app>
+<app from="#beg0515011" to="#end0515011"><lem wit="#wit1">俱至比<lb n="0515c29" ed="T"/>丘僧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0516001" to="#end0516001"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit4">罪</rdg></app>
+<app from="#beg0516002" to="#end0516002"><lem wit="#wit1">癩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">癩白癩</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0514015"><lem wit="#wit1">癲</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">顛</rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0515006"><lem wit="#wit1"><g ref="#CB01679">󰚏</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">厭</rdg></app>
+<app from="#beg0516003" to="#end0516003"><lem wit="#wit1">決</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">缺</rdg></app>
+<app from="#beg0516004" to="#end0516004"><lem wit="#wit1">析</lem><rdg resp="#resp1" wit="#wit5">拆</rdg></app>
+<app from="#beg0516005" to="#end0516005"><lem wit="#wit1">能<lb n="0516c28" ed="T"/>持不？<note place="inline">答言：</note>能</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517001" to="#end0517001"><lem wit="#wit1">檀</lem><rdg resp="#resp1" wit="#wit5">干</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0515009"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit2 #wit5">蘇</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0515009"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit2 #wit5">蘇</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0514014"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit4">尚</rdg></app>
+<app from="#beg0517002" to="#end0517002"><lem wit="#wit1">眾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517003" to="#end0517003"><lem wit="#wit1">去</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">後</rdg></app>
+<app from="#beg0517004" to="#end0517004"><lem wit="#wit1">波</lem><rdg resp="#resp1" wit="#wit5">淚</rdg></app>
+<app from="#beg0517005" to="#end0517005"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">瘥</rdg></app>
+<app from="#beg0517006" to="#end0517006"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517007" to="#end0517007"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5">一</rdg></app>
+<app from="#beg0517008" to="#end0517008"><lem wit="#wit1">心、增</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517009" to="#end0517009"><lem wit="#wit1">慧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">惠</rdg></app>
+<app from="#beg0517010" to="#end0517010"><lem wit="#wit1">坐</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517011" to="#end0517011"><lem wit="#wit1">具</lem><rdg resp="#resp1" wit="#wit5">具足</rdg></app>
+<app from="#beg0517012" to="#end0517012"><lem wit="#wit1">藥</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517013" to="#end0517013"><lem wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit5">當</rdg></app>
+<app from="#beg0517014" to="#end0517014"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">已</rdg></app>
+<app from="#beg0517015" to="#end0517015"><lem wit="#wit1">無異</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517016" to="#end0517016"><lem wit="#wit1">敬</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">教</rdg></app>
+<app from="#beg0517017" to="#end0517017"><lem wit="#wit1">修</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">修行</rdg></app>
+<app from="#beg0517018" to="#end0517018"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit3">請</rdg></app>
+<app from="#beg0517019" to="#end0517019"><lem wit="#wit1">同</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">不</rdg></app>
+<app from="#beg0517020" to="#end0517020"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit5">亦不</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0515010"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit4">黎</rdg></app>
+<choice cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg_12" to="#end_12" corresp="#0515010"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit4">黎</rdg></app>
+<app from="#beg0517021" to="#end0517021"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517022" to="#end0517022"><lem wit="#wit1">治</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">治也</rdg></app>
+<app from="#beg0517023" to="#end0517023"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517024" to="#end0517024"><lem wit="#wit1">軟</lem><rdg resp="#resp1" wit="#wit5">而</rdg></app>
+<app from="#beg0517027" to="#end0517027"><lem wit="#wit1">中掃灑</lem><rdg resp="#resp1" wit="#wit3">掃灑麗</rdg><rdg resp="#resp1" wit="#wit4">灑掃</rdg></app>
+<app from="#beg0517028" to="#end0517028"><lem wit="#wit1">瓶</lem><rdg resp="#resp1" wit="#wit2 #wit3">若</rdg></app>
+<app from="#beg0517029" to="#end0517029"><lem wit="#wit1">洗</lem><rdg resp="#resp1" wit="#wit3">先</rdg></app>
+<app from="#beg0517030" to="#end0517030"><lem wit="#wit1">瓶</lem><rdg resp="#resp1" wit="#wit3"><g ref="#CB13690">󳕺</g></rdg><rdg resp="#resp1" wit="#wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0517031" to="#end0517031"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3">結</rdg></app>
+<app from="#beg0517032" to="#end0517032"><lem wit="#wit1">坐</lem><rdg resp="#resp1" wit="#wit4">丘</rdg></app>
+<app from="#beg0517033" to="#end0517033"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit5">大</rdg></app>
+<app from="#beg0517034" to="#end0517034"><lem wit="#wit1">爾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">爾爾</rdg></app>
+<app from="#beg0518001" to="#end0518001"><lem wit="#wit1">往</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0518002" to="#end0518002"><lem wit="#wit1">誡</lem><rdg resp="#resp1" wit="#wit5">說</rdg></app>
+<app from="#beg0518003" to="#end0518003"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0518004" to="#end0518004"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit5">朝</rdg></app>
+<app from="#beg0518005" to="#end0518005"><lem wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0518006" to="#end0518006"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3 #wit4">告</rdg></app>
+<app from="#beg0518007" to="#end0518007"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0518008" to="#end0518008"><lem wit="#wit1">蟲</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">虫</rdg></app>
+<app from="#beg0518009" to="#end0518009"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">滅淨</rdg></app>
+<app from="#beg0518010" to="#end0518010"><lem wit="#wit1">若聞</lem><rdg resp="#resp1" wit="#wit5">間</rdg></app>
+<app from="#beg0518011" to="#end0518011"><lem wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">戒</rdg></app>
+<app from="#beg0518012" to="#end0518012"><lem wit="#wit1">和</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">和合</rdg></app>
+<app from="#beg0518013" to="#end0518013"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">令</rdg></app>
+<app from="#beg0518014" to="#end0518014"><lem wit="#wit1">篇</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0518015" to="#end0518015"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit5">後</rdg></app>
+<app from="#beg0518016" to="#end0518016"><lem wit="#wit1">白</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">自</rdg></app>
+<app from="#beg0518017" to="#end0518017"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0518018" to="#end0518018"><lem wit="#wit1">去</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">法</rdg></app>
+<app from="#beg0518019" to="#end0518019"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5">一</rdg></app>
+<app from="#beg0519001" to="#end0519001"><lem wit="#wit1">丘</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0519002" to="#end0519002"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit5">某</rdg></app>
+<app from="#beg0519003" to="#end0519003"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3 #wit4">二</rdg></app>
+<app from="#beg0519004" to="#end0519004"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3 #wit4">二</rdg></app>
+<app from="#beg0519005" to="#end0519005"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0519006" to="#end0519006"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">三</rdg></app>
+<app from="#beg0519007" to="#end0519007"><lem wit="#wit1">置</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">置置</rdg></app>
+<app from="#beg0519008" to="#end0519008"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit5">八</rdg></app>
+<app from="#beg0519009" to="#end0519009"><lem wit="#wit1">囑</lem><rdg resp="#resp1" wit="#wit5">屬</rdg></app>
+<app from="#beg0519010" to="#end0519010"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit4">說</rdg></app>
+<app from="#beg0519011" to="#end0519011"><lem wit="#wit1">應持</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0519012" to="#end0519012"><lem wit="#wit1">微</lem><rdg resp="#resp1" wit="#wit4">徵</rdg></app>
+<app from="#beg0519013" to="#end0519013"><lem wit="#wit1">萄</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">桃</rdg></app>
+<app from="#beg0519014" to="#end0519014"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit3">為</rdg></app>
+<app from="#beg0519015" to="#end0519015"><lem wit="#wit1">著用</lem><rdg resp="#resp1" wit="#wit2 #wit3">用</rdg><rdg resp="#resp1" wit="#wit4 #wit5">著</rdg></app>
+<app from="#beg0519016" to="#end0519016"><lem wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit2 #wit3">者</rdg></app>
+<app from="#beg0519017" to="#end0519017"><lem wit="#wit1">異</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">異也</rdg></app>
+<app from="#beg0519018" to="#end0519018"><lem wit="#wit1">取</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0519019" to="#end0519019"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">無分</rdg></app>
+<app from="#beg0519020" to="#end0519020"><lem wit="#wit1">檀</lem><rdg resp="#resp1" wit="#wit3">壇</rdg></app>
+<app from="#beg0519021" to="#end0519021"><lem wit="#wit1">敢</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">取</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0519009"><lem wit="#wit1">囑</lem><rdg resp="#resp1" wit="#wit5">屬</rdg></app>
+<app from="#beg0519022" to="#end0519022"><lem wit="#wit1">得</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">德</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_14" cb:to="#end_14"><corr>誰</corr><sic>忍</sic></choice>
+<app from="#beg0520001" to="#end0520001"><lem wit="#wit1">至</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0520002" to="#end0520002"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit3">人</rdg></app>
+<app from="#beg0520003" to="#end0520003"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">分</rdg></app>
+<app from="#beg0520004" to="#end0520004"><lem wit="#wit1">部</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">處</rdg></app>
+<app from="#beg0520005" to="#end0520005"><lem wit="#wit1">分</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">亦</rdg></app>
+<app from="#beg0520006" to="#end0520006"><lem wit="#wit1">瓶</lem><rdg resp="#resp1" wit="#wit5">戒</rdg></app>
+<app from="#beg0520007" to="#end0520007"><lem wit="#wit1">盆</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">瓮</rdg></app>
+<app from="#beg0520008" to="#end0520008"><lem wit="#wit1">皮</lem><rdg resp="#resp1" wit="#wit2 #wit3">處</rdg></app>
+<app from="#beg0520009" to="#end0520009"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0520010" to="#end0520010"><lem wit="#wit1">囑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">屬</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0517005"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">瘥</rdg></app>
+<app from="#beg0520011" to="#end0520011"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0520012" to="#end0520012"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_16" to="#end_16"><lem resp="#resp3" wit="#wit6 #wit7">具<note type="cf1">K23n0923_p1011a15</note></lem><rdg wit="#wit1">貝</rdg></app>
+<app from="#beg0520013" to="#end0520013"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_17" cb:to="#end_17"><corr>爾</corr><sic>彌</sic></choice>
+<app from="#beg0520015" to="#end0520015"><lem wit="#wit1">僧</lem><rdg resp="#resp1" wit="#wit2 #wit5">四分僧</rdg><rdg resp="#resp1" wit="#wit3">分僧</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0511004" resp="#resp2" type="mod" target="#nkr_note_mod_0511004">【原】麗本，（四分）＋僧【宋】【元】【明】【宮】</note>
+<note n="0511013" resp="#resp2" type="mod" target="#nkr_note_mod_0511013">惟＝唯【宋】【元】【明】【宮】</note>
+<note n="0511014" resp="#resp2" type="mod" target="#nkr_note_mod_0511014">〔人〕－【宋】【元】【明】【宮】</note>
+<note n="0511015" resp="#resp2" type="mod" target="#nkr_note_mod_0511015">餘＝除【宋】【元】【明】【宮】</note>
+<note n="0511016" resp="#resp2" type="mod" target="#nkr_note_mod_0511016">一＝時【宋】【元】【明】【宮】</note>
+<note n="0511018" resp="#resp2" type="mod" target="#nkr_note_mod_0511018">任＝在【元】，＝住【明】</note>
+<note n="0511020" resp="#resp2" type="mod" target="#nkr_note_mod_0511020">〔為〕－【宋】【元】【明】【宮】</note>
+<note n="0511022" resp="#resp2" type="mod" target="#nkr_note_mod_0511022">〔罪〕－【宋】【元】【明】【宮】</note>
+<note n="0511023" resp="#resp2" type="mod" target="#nkr_note_mod_0511023">看＋（病患事看）【宋】【元】【明】【宮】</note>
+<note n="0511024" resp="#resp2" type="mod" target="#nkr_note_mod_0511024">〔應〕－【宋】【元】【明】【宮】＊</note>
+<note n="0511025" resp="#resp2" type="mod" target="#nkr_note_mod_0511025">〔若〕－【宋】【元】【明】【宮】＊</note>
+<note n="0511026" resp="#resp2" type="mod" target="#nkr_note_mod_0511026">往＝至【宋】【元】【明】【宮】</note>
+<note n="0511027" resp="#resp2" type="mod" target="#nkr_note_mod_0511027">餘＋（餘）【宋】【元】【明】【宮】</note>
+<note n="0512001" resp="#resp2" type="mod" target="#nkr_note_mod_0512001">有其＝其有【宋】【元】【明】【宮】</note>
+<note n="0512002" resp="#resp2" type="mod" target="#nkr_note_mod_0512002">不＋（白）【宋】【元】【明】</note>
+<note n="0512003" resp="#resp2" type="mod" target="#nkr_note_mod_0512003">〔白〕－【宋】【元】【明】【宮】</note>
+<note n="0512005" resp="#resp2" type="mod" target="#nkr_note_mod_0512005">駃＝駛【宋】【元】【明】</note>
+<note n="0512006" resp="#resp2" type="mod" target="#nkr_note_mod_0512006">〔除〕－【宋】【元】【明】【宮】</note>
+<note n="0512007" resp="#resp2" type="mod" target="#nkr_note_mod_0512007">〔座〕－【宋】【元】【明】【宮】</note>
+<note n="0512011" resp="#resp2" type="mod" target="#nkr_note_mod_0512011">〔聽〕－【宋】【元】【明】【宮】</note>
+<note n="0512013" resp="#resp2" type="mod" target="#nkr_note_mod_0512013">〔住處〕－【宋】【元】【明】【宮】</note>
+<note n="0512014" resp="#resp2" type="mod" target="#nkr_note_mod_0512014">〔方〕－【宋】【元】【明】【宮】</note>
+<note n="0512015" resp="#resp2" type="mod" target="#nkr_note_mod_0512015">場＝壇【宋】【元】【明】【宮】</note>
+<note n="0512017" resp="#resp2" type="mod" target="#nkr_note_mod_0512017">和上＝和尚【宋】下同【元】下同【明】下同</note>
+<note n="0513001" resp="#resp2" type="mod" target="#nkr_note_mod_0513001">忍＋（僧）【宋】【元】【明】【宮】</note>
+<note n="0513002" resp="#resp2" type="mod" target="#nkr_note_mod_0513002">〔村〕－【宋】【元】【明】【宮】</note>
+<note n="0513007" resp="#resp2" type="mod" target="#nkr_note_mod_0513007">〔應〕－【宋】【元】【明】【宮】</note>
+<note n="0513008" resp="#resp2" type="mod" target="#nkr_note_mod_0513008">處分＝分處【宋】【元】【明】【宮】</note>
+<note n="0513009" resp="#resp2" type="mod" target="#nkr_note_mod_0513009"><!--CBETA todo type: a-->佛言二字宋元明宮四本俱連上夾註</note>
+<note n="0513010" resp="#resp2" type="mod" target="#nkr_note_mod_0513010">具＋（足）【宋】【元】【明】【宮】</note>
+<note n="0513011" resp="#resp2" type="mod" target="#nkr_note_mod_0513011">〔戒〕－【宋】【元】【明】【宮】</note>
+<note n="0513012" resp="#resp2" type="mod" target="#nkr_note_mod_0513012">戒教＝教戒【宋】【元】【明】【宮】</note>
+<note n="0513014" resp="#resp2" type="mod" target="#nkr_note_mod_0513014">大＝不【宋】【元】【明】</note>
+<note n="0513015" resp="#resp2" type="mod" target="#nkr_note_mod_0513015">〔授〕－【宋】【元】【明】【宮】</note>
+<note n="0513016" resp="#resp2" type="mod" target="#nkr_note_mod_0513016">〔至〕－【宋】【元】【明】【宮】</note>
+<note n="0514001" resp="#resp2" type="mod" target="#nkr_note_mod_0514001">歸依佛歸依法歸依僧＝歸依佛法僧【宋】【元】【明】【宮】＊</note>
+<note n="0514002" resp="#resp2" type="mod" target="#nkr_note_mod_0514002">倡＝唱【宋】【元】【明】【宮】</note>
+<note n="0514003" resp="#resp2" type="mod" target="#nkr_note_mod_0514003">勤＝勸【宋】【元】【明】【宮】</note>
+<note n="0514007" resp="#resp2" type="mod" target="#nkr_note_mod_0514007">〔是〕－【宋】【元】【明】【宮】</note>
+<note n="0514008" resp="#resp2" type="mod" target="#nkr_note_mod_0514008">悅＋（之）【宋】【元】【明】【宮】</note>
+<note n="0514009" resp="#resp2" type="mod" target="#nkr_note_mod_0514009">受＝授【宋】【元】【明】【宮】</note>
+<note n="0514010" resp="#resp2" type="mod" target="#nkr_note_mod_0514010">云＝言【宋】【元】【明】【宮】</note>
+<note n="0514012" resp="#resp2" type="mod" target="#nkr_note_mod_0514012">〔應〕－【宋】【元】【明】【宮】</note>
+<note n="0514013" resp="#resp2" type="mod" target="#nkr_note_mod_0514013">鉢＋（多羅）【宋】【元】【明】【宮】</note>
+<note n="0514015" resp="#resp2" type="mod" target="#nkr_note_mod_0514015">癲＝顛【宋】【元】【明】【宮】＊</note>
+<note n="0515002" resp="#resp2" type="mod" target="#nkr_note_mod_0515002">〔禮〕－【宋】【元】【明】【宮】</note>
+<note n="0515003" resp="#resp2" type="mod" target="#nkr_note_mod_0515003">計＝言【宋】【元】【明】【宮】【CB】</note>
+<note n="0515004" resp="#resp2" type="mod" target="#nkr_note_mod_0515004">戒＋（也）【宋】【元】【明】【宮】</note>
+<note n="0515006" resp="#resp2" type="mod" target="#nkr_note_mod_0515006"><g ref="#CB01679">󰚏</g>＝厭【宋】【元】【明】【宮】＊</note>
+<note n="0515007" resp="#resp2" type="mod" target="#nkr_note_mod_0515007">成＝戒【宋】【元】【明】【宮】＊</note>
+<note n="0515008" resp="#resp2" type="mod" target="#nkr_note_mod_0515008">〔成〕－【宋】【元】【明】【宮】</note>
+<note n="0515011" resp="#resp2" type="mod" target="#nkr_note_mod_0515011">〔俱至比丘僧〕－【宋】【元】【明】【宮】</note>
+<note n="0516002" resp="#resp2" type="mod" target="#nkr_note_mod_0516002">癩＋（白癩）【宋】【元】【明】【宮】</note>
+<note n="0516003" resp="#resp2" type="mod" target="#nkr_note_mod_0516003">決＝缺【宋】【元】【明】【宮】</note>
+<note n="0517002" resp="#resp2" type="mod" target="#nkr_note_mod_0517002">〔眾〕－【宋】【元】【明】【宮】</note>
+<note n="0517003" resp="#resp2" type="mod" target="#nkr_note_mod_0517003">去＝後【宋】【元】【明】【宮】</note>
+<note n="0517005" resp="#resp2" type="mod" target="#nkr_note_mod_0517005">差＝瘥【宋】【元】【明】【宮】＊</note>
+<note n="0517006" resp="#resp2" type="mod" target="#nkr_note_mod_0517006">〔若〕－【宋】【元】【明】【宮】</note>
+<note n="0517008" resp="#resp2" type="mod" target="#nkr_note_mod_0517008">〔心增〕－【宋】【元】【明】【宮】</note>
+<note n="0517010" resp="#resp2" type="mod" target="#nkr_note_mod_0517010">〔坐〕－【宋】【元】【明】【宮】</note>
+<note n="0517014" resp="#resp2" type="mod" target="#nkr_note_mod_0517014">以＝已【宋】【元】【明】【宮】</note>
+<note n="0517015" resp="#resp2" type="mod" target="#nkr_note_mod_0517015">〔無異〕－【宋】【元】【明】【宮】</note>
+<note n="0517016" resp="#resp2" type="mod" target="#nkr_note_mod_0517016">敬＝教【宋】【元】【明】【宮】</note>
+<note n="0517017" resp="#resp2" type="mod" target="#nkr_note_mod_0517017">修＋（行）【宋】【元】【明】【宮】</note>
+<note n="0517019" resp="#resp2" type="mod" target="#nkr_note_mod_0517019">同＝不【宋】【元】【明】</note>
+<note n="0517021" resp="#resp2" type="mod" target="#nkr_note_mod_0517021">〔者〕－【宋】【元】【明】【宮】</note>
+<note n="0517022" resp="#resp2" type="mod" target="#nkr_note_mod_0517022">治＋（也）【宋】【元】【明】【宮】</note>
+<note n="0517023" resp="#resp2" type="mod" target="#nkr_note_mod_0517023">〔法〕－【宋】【元】【明】【宮】</note>
+<note n="0517025" resp="#resp2" type="mod" target="#nkr_note_mod_0517025"><!--CBETA todo type: a-->四分僧羯磨卷第一終【明】</note>
+<note n="0517026" resp="#resp2" type="mod" target="#nkr_note_mod_0517026"><!--CBETA todo type: a-->四分僧羯磨卷第二首【明】，集號同異如首卷</note>
+<note n="0517027" resp="#resp2" type="mod" target="#nkr_note_mod_0517027">中掃灑＝掃灑麗【元】，＝灑掃【明】</note>
+<note n="0517034" resp="#resp2" type="mod" target="#nkr_note_mod_0517034">爾＋（爾）【宋】【元】【明】【宮】</note>
+<note n="0518001" resp="#resp2" type="mod" target="#nkr_note_mod_0518001">〔往〕－【宋】【元】【明】【宮】</note>
+<note n="0518003" resp="#resp2" type="mod" target="#nkr_note_mod_0518003">〔能〕－【宋】【元】【明】【宮】</note>
+<note n="0518005" resp="#resp2" type="mod" target="#nkr_note_mod_0518005">〔語〕－【宋】【元】【明】【宮】</note>
+<note n="0518007" resp="#resp2" type="mod" target="#nkr_note_mod_0518007">〔若〕－【宋】【元】【明】【宮】</note>
+<note n="0518009" resp="#resp2" type="mod" target="#nkr_note_mod_0518009">滅＋（淨）【宋】【元】【明】【宮】</note>
+<note n="0518011" resp="#resp2" type="mod" target="#nkr_note_mod_0518011">我＝戒【宋】【元】【明】【宮】</note>
+<note n="0518012" resp="#resp2" type="mod" target="#nkr_note_mod_0518012">和＋（合）【宋】【元】【明】【宮】</note>
+<note n="0518014" resp="#resp2" type="mod" target="#nkr_note_mod_0518014">〔篇〕－【宋】【元】【明】【宮】</note>
+<note n="0518016" resp="#resp2" type="mod" target="#nkr_note_mod_0518016">白＝自【宋】【元】【明】【宮】</note>
+<note n="0518017" resp="#resp2" type="mod" target="#nkr_note_mod_0518017">〔欲〕－【宋】【元】【明】【宮】</note>
+<note n="0518018" resp="#resp2" type="mod" target="#nkr_note_mod_0518018">去＝法【宋】【元】【明】【宮】</note>
+<note n="0519005" resp="#resp2" type="mod" target="#nkr_note_mod_0519005">〔如〕－【宋】【元】【明】【宮】</note>
+<note n="0519007" resp="#resp2" type="mod" target="#nkr_note_mod_0519007">置＋（置）【宋】【元】【明】</note>
+<note n="0519011" resp="#resp2" type="mod" target="#nkr_note_mod_0519011">〔應持〕－【宋】【元】【明】【宮】</note>
+<note n="0519015" resp="#resp2" type="mod" target="#nkr_note_mod_0519015">著用＝用【宋】【元】，＝著【明】【宮】</note>
+<note n="0519017" resp="#resp2" type="mod" target="#nkr_note_mod_0519017">異＋（也）【宋】【元】【明】【宮】</note>
+<note n="0519018" resp="#resp2" type="mod" target="#nkr_note_mod_0519018">〔取〕－【宋】【元】【明】【宮】</note>
+<note n="0519019" resp="#resp2" type="mod" target="#nkr_note_mod_0519019">無＋（分）【宋】【元】【明】【宮】</note>
+<note n="0519022" resp="#resp2" type="mod" target="#nkr_note_mod_0519022">得＝德【宋】【元】【明】【宮】</note>
+<note n="0520001" resp="#resp2" type="mod" target="#nkr_note_mod_0520001">〔至〕－【宋】【元】【明】【宮】</note>
+<note n="0520003" resp="#resp2" type="mod" target="#nkr_note_mod_0520003">人＝分【宋】【元】【明】【宮】</note>
+<note n="0520004" resp="#resp2" type="mod" target="#nkr_note_mod_0520004">部＝處【宋】【元】【明】【宮】</note>
+<note n="0520005" resp="#resp2" type="mod" target="#nkr_note_mod_0520005">分＝亦【宋】【元】【明】【宮】</note>
+<note n="0520007" resp="#resp2" type="mod" target="#nkr_note_mod_0520007">盆＝瓮【宋】【元】【明】【宮】</note>
+<note n="0520009" resp="#resp2" type="mod" target="#nkr_note_mod_0520009">〔法〕－【宋】【元】【明】【宮】</note>
+<note n="0520010" resp="#resp2" type="mod" target="#nkr_note_mod_0520010">囑＝屬【宋】【元】【明】【宮】</note>
+<note n="0520011" resp="#resp2" type="mod" target="#nkr_note_mod_0520011">〔是〕－【宋】【元】【明】【宮】</note>
+<note n="0520012" resp="#resp2" type="mod" target="#nkr_note_mod_0520012">〔者〕－【宋】【元】【明】【宮】</note>
+<note n="0520013" resp="#resp2" type="mod" target="#nkr_note_mod_0520013">〔今〕－【宋】【元】【明】【宮】</note>
+<note n="0520014" resp="#resp2" type="mod" target="#nkr_note_mod_0520014"><!--CBETA todo type: a-->次頁[03]不分卷【明】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0511004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511004">【原】麗本，（四分）＋僧【三】【宮】</note>
+<note n="0511005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511005">上＝第一【明】</note>
+<note n="0511006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511006">〔出四分律〕－【明】，出四分律＝入三【宋】【元】</note>
+<note n="0511007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511007">（唐）＋西【明】＊</note>
+<note n="0511008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511008">寔＝實【明】</note>
+<note n="0511009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511009">丞歷＝婆磨【宋】【元】</note>
+<note n="0511010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511010">大＝天【宮】</note>
+<note n="0511011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511011">曰＝白【宮】</note>
+<note n="0511012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511012">皇朝＝唐【明】</note>
+<note n="0511013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511013">惟＝唯【三】【宮】</note>
+<note n="0511014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511014">〔人〕－【三】【宮】</note>
+<note n="0511015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511015">餘＝除【三】【宮】</note>
+<note n="0511016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511016">一＝時【三】【宮】</note>
+<note n="0511017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511017">囑＝屬【宮】</note>
+<note n="0511018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511018">任＝在【元】，住【明】</note>
+<note n="0511019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511019">而＋（自）【元】【明】</note>
+<note n="0511020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511020">〔為〕－【三】【宮】</note>
+<note n="0511021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511021">止＝上【元】</note>
+<note n="0511022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511022">〔罪〕－【三】【宮】</note>
+<note n="0511023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511023">看＋（病患事看）【三】【宮】</note>
+<note n="0511024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511024">〔應〕－【三】【宮】＊</note>
+<note n="0511025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511025">〔若〕－【三】【宮】＊</note>
+<note n="0511026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511026">往＝至【三】【宮】</note>
+<note n="0511027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0511027">餘＋（餘）【三】【宮】</note>
+<note n="0512001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512001">有其＝其有【三】【宮】</note>
+<note n="0512002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512002">不＋（白）【三】</note>
+<note n="0512003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512003">〔白〕－【三】【宮】</note>
+<note n="0512004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512004">揵＝楗【明】</note>
+<note n="0512005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512005">駃＝駛【三】</note>
+<note n="0512006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512006">〔除〕－【三】【宮】</note>
+<note n="0512007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512007">〔座〕－【三】【宮】</note>
+<note n="0512008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512008">明本無夾註＊</note>
+<note n="0512009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512009">及＝反【宮】</note>
+<note n="0512010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512010">〔意〕－【宮】</note>
+<note n="0512011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512011">〔聽〕－【三】【宮】</note>
+<note n="0512012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512012">然＋（以）【元】</note>
+<note n="0512013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512013">〔住處〕－【三】【宮】</note>
+<note n="0512014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512014">〔方〕－【三】【宮】</note>
+<note n="0512015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512015">場＝壇【三】【宮】</note>
+<note n="0512016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512016">作＝誰【宮】</note>
+<note n="0512017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0512017">和上＝和尚【三】下同</note>
+<note n="0513001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513001">忍＋（僧）【三】【宮】</note>
+<note n="0513002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513002">〔村〕－【三】【宮】</note>
+<note n="0513003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513003">除＝際【宮】</note>
+<note n="0513004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513004">不字下宋本元本俱一字空白</note>
+<note n="0513005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513005">結淨地＝法淨丘【宮】</note>
+<note n="0513006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513006">晚＝曉【宮】</note>
+<note n="0513007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513007">〔應〕－【三】【宮】</note>
+<note n="0513008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513008">處分＝分處【三】【宮】</note>
+<note n="0513009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513009">佛言二字宋元明宮四本俱連上夾註</note>
+<note n="0513010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513010">具＋（足）【三】【宮】</note>
+<note n="0513011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513011">〔戒〕－【三】【宮】</note>
+<note n="0513012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513012">戒教＝教戒【三】【宮】</note>
+<note n="0513013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513013">在＝姓【元】</note>
+<note n="0513014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513014">大＝不【三】</note>
+<note n="0513015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513015">〔授〕－【三】【宮】</note>
+<note n="0513016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513016">〔至〕－【三】【宮】</note>
+<note n="0513017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0513017">白＝曰【宮】</note>
+<note n="0514001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514001">歸依佛歸依法歸依僧＝歸依佛法僧【三】【宮】＊</note>
+<note n="0514002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514002">倡＝唱【三】【宮】</note>
+<note n="0514003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514003">勤＝勸【三】【宮】</note>
+<note n="0514004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514004">〔與〕－【明】</note>
+<note n="0514005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514005">〔白〕－【宋】【元】</note>
+<note n="0514006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514006">反＝名【宮】</note>
+<note n="0514007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514007">〔是〕－【三】【宮】</note>
+<note n="0514008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514008">悅＋（之）【三】【宮】</note>
+<note n="0514009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514009">受＝授【三】【宮】</note>
+<note n="0514010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514010">云＝言【三】【宮】</note>
+<note n="0514011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514011">和上＝和尚【宮】混用</note>
+<note n="0514012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514012">〔應〕－【三】【宮】</note>
+<note n="0514013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514013">鉢＋（多羅）【三】【宮】</note>
+<note n="0514014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514014">上＝尚【明】＊</note>
+<note n="0514015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514015">癲＝顛【三】【宮】＊</note>
+<note n="0514016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514016">去＝云【元】【明】</note>
+<note n="0514017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0514017">舒＝倚【宮】</note>
+<note n="0515001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515001">彼＝從【明】</note>
+<note n="0515002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515002">〔禮〕－【三】【宮】</note>
+<note n="0515003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515003">計＝言【三】【宮】</note>
+<note n="0515004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515004">戒＋（也）【三】【宮】</note>
+<note n="0515005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515005">磨＝若【宋】</note>
+<note n="0515006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515006"><g ref="#CB01679">󰚏</g>＝厭【三】【宮】＊</note>
+<note n="0515007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515007">成＝戒【三】【宮】＊</note>
+<note n="0515008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515008">〔成〕－【三】【宮】</note>
+<note n="0515009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515009">酥＝蘇【宋】【宮】＊</note>
+<note n="0515010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515010">梨＝黎【明】＊</note>
+<note n="0515011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0515011">〔俱至比丘僧〕－【三】【宮】</note>
+<note n="0516001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0516001">非＝罪【明】</note>
+<note n="0516002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0516002">癩＋（白癩）【三】【宮】</note>
+<note n="0516003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0516003">決＝缺【三】【宮】</note>
+<note n="0516004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0516004">析＝拆【宮】</note>
+<note n="0516005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0516005">〔能持不答言能〕－【宮】</note>
+<note n="0517001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517001">檀＝干【宮】</note>
+<note n="0517002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517002">〔眾〕－【三】【宮】</note>
+<note n="0517003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517003">去＝後【三】【宮】</note>
+<note n="0517004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517004">波＝淚【宮】</note>
+<note n="0517005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517005">差＝瘥【三】【宮】＊</note>
+<note n="0517006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517006">〔若〕－【三】【宮】</note>
+<note n="0517007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517007">二＝一【宮】</note>
+<note n="0517008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517008">〔心增〕－【三】【宮】</note>
+<note n="0517009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517009">慧＝惠【宋】【元】【宮】</note>
+<note n="0517010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517010">〔坐〕－【三】【宮】</note>
+<note n="0517011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517011">具＋（足）【宮】</note>
+<note n="0517012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517012">〔藥〕－【宮】</note>
+<note n="0517013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517013">自＝當【宮】</note>
+<note n="0517014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517014">以＝已【三】【宮】</note>
+<note n="0517015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517015">〔無異〕－【三】【宮】</note>
+<note n="0517016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517016">敬＝教【三】【宮】</note>
+<note n="0517017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517017">修＋（行）【三】【宮】</note>
+<note n="0517018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517018">謂＝請【元】</note>
+<note n="0517019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517019">同＝不【三】</note>
+<note n="0517020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517020">（亦）＋不【宮】</note>
+<note n="0517021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517021">〔者〕－【三】【宮】</note>
+<note n="0517022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517022">治＋（也）【三】【宮】</note>
+<note n="0517023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517023">〔法〕－【三】【宮】</note>
+<note n="0517024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517024">軟＝而【宮】</note>
+<note n="0517025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517025">四分僧羯磨卷第一終【明】</note>
+<note n="0517026" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517026">四分僧羯磨卷第二首【明】，集號同異如首卷</note>
+<note n="0517027" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517027">中掃灑＝掃灑麗【元】，灑掃【明】</note>
+<note n="0517028" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517028">瓶＝若【宋】【元】</note>
+<note n="0517029" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517029">洗＝先【元】</note>
+<note n="0517030" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517030">瓶＝<g ref="#CB13690">󳕺</g>【元】，〔瓶〕－【明】【宮】</note>
+<note n="0517031" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517031">若＝結【元】</note>
+<note n="0517032" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517032">坐＝丘【明】</note>
+<note n="0517033" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517033">不＝大【宮】</note>
+<note n="0517034" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0517034">爾＋（爾）【三】【宮】</note>
+<note n="0518001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518001">〔往〕－【三】【宮】</note>
+<note n="0518002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518002">誡＝說【宮】</note>
+<note n="0518003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518003">〔能〕－【三】【宮】</note>
+<note n="0518004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518004">明＝朝【宮】</note>
+<note n="0518005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518005">〔語〕－【三】【宮】</note>
+<note n="0518006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518006">若＝告【元】【明】</note>
+<note n="0518007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518007">〔若〕－【三】【宮】</note>
+<note n="0518008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518008">蟲＝虫【宋】【元】【宮】</note>
+<note n="0518009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518009">滅＋（淨）【三】【宮】</note>
+<note n="0518010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518010">若聞＝間【宮】</note>
+<note n="0518011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518011">我＝戒【三】【宮】</note>
+<note n="0518012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518012">和＋（合）【三】【宮】</note>
+<note n="0518013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518013">今＝令【元】【明】【宮】</note>
+<note n="0518014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518014">〔篇〕－【三】【宮】</note>
+<note n="0518015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518015">復＝後【宮】</note>
+<note n="0518016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518016">白＝自【三】【宮】</note>
+<note n="0518017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518017">〔欲〕－【三】【宮】</note>
+<note n="0518018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518018">去＝法【三】【宮】</note>
+<note n="0518019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0518019">二＝一【宮】</note>
+<note n="0519001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519001">〔丘〕－【宮】</note>
+<note n="0519002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519002">其＝某【宮】</note>
+<note n="0519003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519003">三＝二【元】【明】</note>
+<note n="0519004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519004">一＝二【元】【明】</note>
+<note n="0519005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519005">〔如〕－【三】【宮】</note>
+<note n="0519006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519006">二＝三【元】【明】【宮】</note>
+<note n="0519007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519007">置＋（置）【三】</note>
+<note n="0519008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519008">不＝八【宮】</note>
+<note n="0519009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519009">囑＝屬【宮】＊</note>
+<note n="0519010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519010">受＝說【元】【明】</note>
+<note n="0519011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519011">〔應持〕－【三】【宮】</note>
+<note n="0519012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519012">微＝徵【明】</note>
+<note n="0519013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519013">萄＝桃【宋】【元】【宮】</note>
+<note n="0519014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519014">念＝為【元】</note>
+<note n="0519015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519015">著用＝用【宋】【元】，著【明】【宮】</note>
+<note n="0519016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519016">著＝者【宋】【元】</note>
+<note n="0519017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519017">異＋（也）【三】【宮】</note>
+<note n="0519018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519018">〔取〕－【三】【宮】</note>
+<note n="0519019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519019">無＋（分）【三】【宮】</note>
+<note n="0519020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519020">檀＝壇【元】</note>
+<note n="0519021" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519021">敢＝取【元】【明】【宮】</note>
+<note n="0519022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0519022">得＝德【三】【宮】</note>
+<note n="0520001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520001">〔至〕－【三】【宮】</note>
+<note n="0520002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520002">又＝人【元】</note>
+<note n="0520003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520003">人＝分【三】【宮】</note>
+<note n="0520004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520004">部＝處【三】【宮】</note>
+<note n="0520005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520005">分＝亦【三】【宮】</note>
+<note n="0520006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520006">瓶＝戒【宮】</note>
+<note n="0520007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520007">盆＝瓮【三】【宮】</note>
+<note n="0520008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520008">皮＝處【宋】【元】</note>
+<note n="0520009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520009">〔法〕－【三】【宮】</note>
+<note n="0520010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520010">囑＝屬【三】【宮】</note>
+<note n="0520011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520011">〔是〕－【三】【宮】</note>
+<note n="0520012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520012">〔者〕－【三】【宮】</note>
+<note n="0520013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520013">〔今〕－【三】【宮】</note>
+<note n="0520014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520014">次頁[03]不分卷【明】</note>
+<note n="0520015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0520015">（四分）＋僧【宋】【宮】，（分）＋僧【元】</note>
+</p>
+</cb:div>
+<cb:div type="rest-notes">
+<head>其他註解</head>
+<p>
+<note n="0511004" place="foot" type="rest" target="#nkr_note_rest_0511004">【原】麗本</note>
+</p>
+</cb:div>
+</back></text></TEI>
