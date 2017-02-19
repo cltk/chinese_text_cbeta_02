@@ -3,6 +3,7 @@ import json
 import pdb
 import collections
 from bs4 import BeautifulSoup
+from django.utils.text import slugify
 
 sourceLink = 'http://www.cbeta.org/'
 source = 'CBETA'
@@ -10,10 +11,13 @@ works = []
 
 def jaggedListToDict(text):
 	node = { str(i): t for i, t in enumerate(text) }
-	node = collections.OrderedDict(sorted(node.items()))
+	node = collections.OrderedDict(sorted(node.items(), key=lambda k: int(k[0])))
 	for child in node:
 		if isinstance(node[child], list):
-			node[child] = walkText(node[child])
+			if len(node[child]) == 1:
+				node[child] = node[child][0]
+			else:
+				node[child] = jaggedListToDict(node[child])
 	return node
 
 def main():
@@ -55,7 +59,7 @@ def main():
 				text = soup.body.text.split('\n')
 				text = [node.strip() for node in text if len(node.strip())]
 				work['text'] = jaggedListToDict(text)
-				fname = work['source'] + '__' + work['englishTitle'][0:100] + '__' + work['language'] + '.json'
+				fname = slugify(work['source']) + '__' + slugify(work['englishTitle'][0:140]) + '__' + slugify(work['language']) + '.json'
 				fname = fname.replace(" ", "")
 				with open('cltk_json/' + fname, 'w') as f:
 					json.dump(work, f)
